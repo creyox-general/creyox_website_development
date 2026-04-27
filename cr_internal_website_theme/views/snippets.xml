@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+<!--    <template id="custom_snippets" inherit_id="website.snippets" name="Custom Snippets">-->
+<!--        <xpath expr="//div[@id='snippet_structure']" position="before">-->
+<!--            <div id="snippet_structure" class="o_panel">-->
+<!--                <div class="o_panel_header">YourHome</div>-->
+<!--                <div class="o_panel_body">-->
+<!--                    <t t-snippet="cr_internal_website_theme.hero_snippet_template"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.growth_snippet_template"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.expert_snippet_template"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.service_snippet_template"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.milestone_snippet_template"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.homepage_section2"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.homepage_section3"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.homepage_section4"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.homepage_section5"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.homepage_section6" t-thumbnail="/cr_internal_website_theme/static/src/img/snippets/homepage_section6.png"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.homepage_section7" t-thumbnail="/cr_internal_website_theme/static/src/img/snippets/homepage_section7.png"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.homepage_section8" t-thumbnail="/cr_internal_website_theme/static/src/img/snippets/homepage_section8.png"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.homepage_section9" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.contact_snippet_template"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div id="about_us_snippets" class="o_panel">-->
+<!--                <div class="o_panel_header">AboutUs</div>-->
+<!--                <div class="o_panel_body">-->
+<!--                    <t t-snippet="cr_internal_website_theme.about_us_snippet_section1"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.about_us_snippet_section2"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.about_us_snippet_section3"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.about_us_snippet_section4"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.about_us_snippet_section5"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+<!--            <div id="services_snippets" class="o_panel">-->
+<!--                <div class="o_panel_header">Services</div>-->
+<!--                <div class="o_panel_body">-->
+<!--                    <t t-snippet="cr_internal_website_theme.service1_erp_solution"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.service2_crm_solution"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.service3_pos_solution"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.service4_web_dev_solution"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.service5_odoo_dev_solution"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.service6_odoo_integration_solution"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.service7_odoo_implementation_solution"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.service8_odoo_customization_solution"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.service9_odoo_migration_solution"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.service10_odoo_support_solution"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.service11_odoo_consulting_solution"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.service12_odoo_training_solution"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                    <t t-snippet="cr_internal_website_theme.service13_sap_services_solution"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"/>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </xpath>-->
+<!--    </template>-->
+
+    <template id="custom_snippets_client" inherit_id="website.snippets" name="Custom Snippets">
+        <xpath expr="//div[@id='snippet_structure']" position="before">
+            <div id="snippet_structure" class="o_panel">
+                <div class="o_panel_header">YourHome</div>
+                <div class="o_panel_body">
+
+                    <!-- use in homepage section-2 -->
+                    <t t-snippet="cr_internal_website_theme.s_milestone_section_template" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
+                            data-drop-in=".oe_structure"
+                       data-drop-near=".oe_structure > *"/>
+
+                    <!-- use in homepage section-3 -->
+                    <t t-snippet="cr_internal_website_theme.s_erp_pain_points_template" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
+                            data-drop-in=".oe_structure"
+                       data-drop-near=".oe_structure > *"/>
+
+
+                    <t t-snippet="cr_internal_website_theme.s_trusted_partner_template" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
+                            data-drop-in=".oe_structure"
+                       data-drop-near=".oe_structure > *"/>
+
+                    <t t-snippet="cr_internal_website_theme.s_why_choose_us_template" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
+                            data-drop-in=".oe_structure"
+                       data-drop-near=".oe_structure > *"/>
+
+                    <t t-snippet="cr_internal_website_theme.s_service_showcase" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
+                            data-drop-in=".oe_structure"
+                       data-drop-near=".oe_structure > *"/>
+
+                    <t t-snippet="cr_internal_website_theme.s_kinetic_process" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
+                            data-drop-in=".oe_structure"
+                       data-drop-near=".oe_structure > *"/>
+
+                    <t t-snippet="cr_internal_website_theme.s_specialist_grid" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
+                            data-drop-in=".oe_structure"
+                       data-drop-near=".oe_structure > *"/>
+
+                    <t t-snippet="cr_internal_website_theme.s_erp_comparison" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
+                            data-drop-in=".oe_structure"
+                       data-drop-near=".oe_structure > *"/>
+
+                    <t t-snippet="cr_internal_website_theme.s_feature_mesh" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
+                            data-drop-in=".oe_structure"
+                       data-drop-near=".oe_structure > *"/>
+
+                    <t t-snippet="cr_internal_website_theme.s_benefit_mesh" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
+                            data-drop-in=".oe_structure"
+                       data-drop-near=".oe_structure > *"/>
+
+                    <t t-snippet="cr_internal_website_theme.s_dynamic_snippet_faq" string="FAQs">
+                        <keywords>content, faq, questions</keywords>
+                    </t>
+
+
+
+
+
+<!--                    <t t-snippet="cr_internal_website_theme.case_study"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg">-->
+<!--                        <keywords>explore, case, studies</keywords>-->
+<!--                    </t>-->
+<!--                    <t t-snippet="cr_internal_website_theme.explore_clients"-->
+<!--                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"-->
+<!--                       data-drop-in=".oe_structure"-->
+<!--                       data-drop-near=".oe_structure > *"/>-->
+                    <t t-snippet="cr_internal_website_theme.s_service_intro_banner" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
+                            data-drop-in=".oe_structure"
+                       data-drop-near=".oe_structure > *"/>
+                       
+                    <t t-snippet="cr_internal_website_theme.s_comprehensive_service" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
+                            data-drop-in=".oe_structure"
+                       data-drop-near=".oe_structure > *"/>
+
+                    <t t-snippet="cr_internal_website_theme.s_erp_cta" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
+                            data-drop-in=".oe_structure"
+                       data-drop-near=".oe_structure > *"/>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

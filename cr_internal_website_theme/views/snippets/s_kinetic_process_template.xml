@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!-- PARENT: Kinetic Process -->
+    <template id="s_kinetic_process" name="Kinetic Process">
+        <section class="s_kinetic_process py-5"
+                 data-snippet="s_kinetic_process"
+                 data-name="Kinetic Process">
+            <div class="container-fluid px-lg-5">
+
+                <!-- Section Header -->
+                <div class="section-header text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">
+                        <t t-if="o_title_plain" t-esc="o_title_plain"/>
+                        <t t-else="">Our</t>
+                        <span class="text-gradient">
+                            <t t-if="o_title_gradient" t-esc="o_title_gradient"/>
+                            <t t-else="">Implementation Process</t>
+                        </span>
+                    </h2>
+                    <p class="section-subtitle mt-2">
+                        <t t-if="o_subtitle" t-esc="o_subtitle"/>
+                        <t t-else="">A kinetic approach to business transformation.</t>
+                    </p>
+                </div>
+
+                <div class="kinetic-grid-container">
+                    <!-- Row 1 -->
+                    <div class="row g-4 mb-4 s_kinetic_row_1">
+                        <!-- Phase 1 -->
+                        <div t-attf-class="{{o_p1_width or 'col-lg-8'}} phase-block" data-aos="fade-up">
+                            <div class="kinetic-card">
+                                <div class="card-bg-number">
+                                    <t t-esc="o_p1_num or '01'"/>
+                                </div>
+                                <h3 class="card-title">
+                                    <t t-esc="o_p1_title or 'Discover'"/>
+                                </h3>
+                                <p class="card-desc">
+                                    <t t-esc="o_p1_text or 'Initial consultation and discovery phase.'"/>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Phase 2 -->
+                        <div t-attf-class="{{o_p2_width or 'col-lg-4'}} phase-block" data-aos="fade-up"
+                             data-aos-delay="100">
+                            <div class="kinetic-card">
+                                <div class="card-bg-number">
+                                    <t t-esc="o_p2_num or '02'"/>
+                                </div>
+                                <h3 class="card-title">
+                                    <t t-esc="o_p2_title or 'Design'"/>
+                                </h3>
+                                <p class="card-desc">
+                                    <t t-esc="o_p2_text or 'Architecture and solution design.'"/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="row g-4 s_kinetic_row_2">
+                        <!-- Phase 3 -->
+                        <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="200">
+                            <div class="kinetic-card">
+                                <div class="card-bg-number">
+                                    <t t-esc="o_p3_num or '03'"/>
+                                </div>
+                                <h3 class="card-title">
+                                    <t t-esc="o_p3_title or 'Develop'"/>
+                                </h3>
+                                <p class="card-desc">
+                                    <t t-esc="o_p3_text or 'Implementation and customization.'"/>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Phase 4 -->
+                        <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="300">
+                            <div class="kinetic-card">
+                                <div class="card-bg-number">
+                                    <t t-esc="o_p4_num or '04'"/>
+                                </div>
+                                <h3 class="card-title">
+                                    <t t-esc="o_p4_title or 'Deploy'"/>
+                                </h3>
+                                <p class="card-desc">
+                                    <t t-esc="o_p4_text or 'Testing and production deployment.'"/>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Phase 5 -->
+                        <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="400">
+                            <div class="kinetic-card">
+                                <div class="card-bg-number">
+                                    <t t-esc="o_p5_num or '05'"/>
+                                </div>
+                                <h3 class="card-title">
+                                    <t t-esc="o_p5_title or 'Deliver'"/>
+                                </h3>
+                                <p class="card-desc">
+                                    <t t-esc="o_p5_text or 'Training and post-go-live support.'"/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- SNIPPET OPTIONS -->
+    <template id="s_kinetic_process_options" inherit_id="website.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-selector=".s_kinetic_process" data-js="KineticProcessOptions" string="Kinetic Process">
+                <we-collapse string="Header">
+                    <we-input string="Plain Title" data-set-header-plain="" data-no-preview="true" placeholder="Our"/>
+                    <we-input string="Gradient Title" data-set-header-gradient="" data-no-preview="true"
+                              placeholder="Implementation Process"/>
+                    <we-input string="Subtitle" data-set-subtitle="" data-no-preview="true" placeholder="Subtitle..."/>
+                </we-collapse>
+
+                <we-collapse string="Phases Content">
+                    <!-- Phase 1 -->
+                    <we-collapse string="Phase 1">
+                        <we-input string="Number" data-set-phase-num="" data-index="1" data-no-preview="true"/>
+                        <we-input string="Title" data-set-phase-title="" data-index="1" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-phase-text="" data-index="1" data-no-preview="true"/>
+                        <we-select string="Width" data-set-phase-width="" data-index="1">
+                            <we-button string="Wide (2/3)" data-select-data-value="col-lg-8"/>
+                            <we-button string="Narrow (1/3)" data-select-data-value="col-lg-4"/>
+                            <we-button string="Full (3/3)" data-select-data-value="col-lg-12"/>
+                        </we-select>
+                    </we-collapse>
+                    <!-- Phase 2 -->
+                    <we-collapse string="Phase 2">
+                        <we-input string="Number" data-set-phase-num="" data-index="2" data-no-preview="true"/>
+                        <we-input string="Title" data-set-phase-title="" data-index="2" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-phase-text="" data-index="2" data-no-preview="true"/>
+                        <we-select string="Width" data-set-phase-width="" data-index="2">
+                            <we-button string="Wide (2/3)" data-select-data-value="col-lg-8"/>
+                            <we-button string="Narrow (1/3)" data-select-data-value="col-lg-4"/>
+                            <we-button string="Full (3/3)" data-select-data-value="col-lg-12"/>
+                        </we-select>
+                    </we-collapse>
+                    <!-- Phase 3 -->
+                    <we-collapse string="Phase 3">
+                        <we-input string="Number" data-set-phase-num="" data-index="3" data-no-preview="true"/>
+                        <we-input string="Title" data-set-phase-title="" data-index="3" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-phase-text="" data-index="3" data-no-preview="true"/>
+                    </we-collapse>
+                    <!-- Phase 4 -->
+                    <we-collapse string="Phase 4">
+                        <we-input string="Number" data-set-phase-num="" data-index="4" data-no-preview="true"/>
+                        <we-input string="Title" data-set-phase-title="" data-index="4" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-phase-text="" data-index="4" data-no-preview="true"/>
+                    </we-collapse>
+                    <!-- Phase 5 -->
+                    <we-collapse string="Phase 5">
+                        <we-input string="Number" data-set-phase-num="" data-index="5" data-no-preview="true"/>
+                        <we-input string="Title" data-set-phase-title="" data-index="5" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-phase-text="" data-index="5" data-no-preview="true"/>
+                    </we-collapse>
+                </we-collapse>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

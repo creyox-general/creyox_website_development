@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="homepage_section9" name="Industry Solutions">
+        <!-- Industry Solutions Snippet (Specialist Grid) -->
+        <div class="oe_structure">
+            <section class="s_specialist_grid py-5 sg-cols-4 bg-white"
+                     data-snippet="s_specialist_grid"
+                     data-name="Specialist Grid">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            <span class="text-gradient">Custom Odoo ERP</span> Solutions for Different Industries
+                        </h2>
+                        <p class="section-subtitle mt-2">We build ERP systems that fit your industry, not generic software.</p>
+                    </div>
+                    <div class="specialist-grid-container">
+                        <div class="row g-4 s_specialist_grid_row" data-aos="fade-up" data-aos-delay="50">
+                            <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                <div class="specialist-card">
+                                    <div class="card-digit">01</div>
+                                    <h3 class="card-title">Manufacturing</h3>
+                                    <p class="card-text">Production planning, BOM, MRP &amp; AI monitoring.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                <div class="specialist-card">
+                                    <div class="card-digit">02</div>
+                                    <h3 class="card-title">Retail &amp; eCommerce</h3>
+                                    <p class="card-text">Multi-channel inventory, POS &amp; loyalty systems.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="200">
+                                <div class="specialist-card">
+                                    <div class="card-digit">03</div>
+                                    <h3 class="card-title">Logistics</h3>
+                                    <p class="card-text">Fleet management, route optimization &amp; WMS tools.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="300">
+                                <div class="specialist-card">
+                                    <div class="card-digit">04</div>
+                                    <h3 class="card-title">Healthcare</h3>
+                                    <p class="card-text">Patient management &amp; medical compliance ERP.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                <div class="specialist-card">
+                                    <div class="card-digit">05</div>
+                                    <h3 class="card-title">Food &amp; Beverage</h3>
+                                    <p class="card-text">Recipe management, expiry tracking &amp; traceability.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                <div class="specialist-card">
+                                    <div class="card-digit">06</div>
+                                    <h3 class="card-title">Construction</h3>
+                                    <p class="card-text">Project costing &amp; subcontractor management.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="200">
+                                <div class="specialist-card">
+                                    <div class="card-digit">07</div>
+                                    <h3 class="card-title">Professional Services</h3>
+                                    <p class="card-text">Timesheets, project tracking &amp; agency invoicing.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="300">
+                                <div class="specialist-card">
+                                    <div class="card-digit">08</div>
+                                    <h3 class="card-title">Distribution</h3>
+                                    <p class="card-text">Multi-warehouse &amp; purchase automation systems.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </template>
+</odoo>

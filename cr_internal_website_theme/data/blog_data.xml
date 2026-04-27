@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Create the User Guide Blog -->
+        <record id="blog_user_guide" model="blog.blog">
+            <field name="name">User Guide</field>
+            <field name="subtitle">Learn how to make the most of our products and services.</field>
+        </record>
+
+        <!-- Create Sample Blog Posts in the User Guide Blog -->
+        <record id="post_user_guide_getting_started" model="blog.post">
+            <field name="name">Getting Started with Odoo Setup</field>
+            <field name="blog_id" ref="blog_user_guide"/>
+            <field name="subtitle">A quick overview of navigation and core concepts.</field>
+            <field name="content"><![CDATA[
+                <section class="s_text_block" data-snippet="s_text_block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 pb32 pt32">
+                                <h2>Welcome to the User Guide</h2>
+                                <p>This is your starting point for understanding how to use the system effectively. You can learn about different modules, initial setup, and basic functionalities here. Our implementation process is designed to be smooth and straightforward.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            ]]></field>
+            <field name="is_published">True</field>
+        </record>
+        
+        <record id="post_user_guide_advanced" model="blog.post">
+            <field name="name">Advanced Configuration and Customization</field>
+            <field name="blog_id" ref="blog_user_guide"/>
+            <field name="subtitle">Learn how to tailor your workspace to your exact needs.</field>
+            <field name="content"><![CDATA[
+                <section class="s_text_block" data-snippet="s_text_block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 pb32 pt32">
+                                <h2>Advanced Customization Options</h2>
+                                <p>Once you are comfortable with the basics, dive into the configuration menus to tailor the experience to your business processes. From custom fields to automated actions, Odoo provides endless flexibility.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            ]]></field>
+            <field name="is_published">True</field>
+        </record>
+
+        <!-- New Additional Blog Posts -->
+        <record id="post_user_guide_inventory" model="blog.post">
+            <field name="name">Mastering Inventory Management</field>
+            <field name="blog_id" ref="blog_user_guide"/>
+            <field name="subtitle">Best practices for accurate stock tracking and warehouse operations.</field>
+            <field name="content"><![CDATA[
+                <section class="s_text_block" data-snippet="s_text_block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 pb32 pt32">
+                                <h2>Optimize Your Warehouse</h2>
+                                <p>Effective inventory management is the backbone of product-centric businesses. In this guide, we cover setting up your locations, managing reordering rules, and conducting cycle counts.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            ]]></field>
+            <field name="is_published">True</field>
+        </record>
+
+        <record id="post_user_guide_sales" model="blog.post">
+            <field name="name">Streamlining Your Sales Process</field>
+            <field name="blog_id" ref="blog_user_guide"/>
+            <field name="subtitle">From initial contact to closed won.</field>
+            <field name="content"><![CDATA[
+                <section class="s_text_block" data-snippet="s_text_block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 pb32 pt32">
+                                <h2>Close Deals Faster</h2>
+                                <p>Learn how to utilize our CRM capabilities to track your sales pipeline, automate follow-ups, and generate professional quotations with just a few clicks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            ]]></field>
+            <field name="is_published">True</field>
+        </record>
+
+        <record id="post_user_guide_finance" model="blog.post">
+            <field name="name">Understanding Financial Reports</field>
+            <field name="blog_id" ref="blog_user_guide"/>
+            <field name="subtitle">Gain deep insights into your business's financial health.</field>
+            <field name="content"><![CDATA[
+                <section class="s_text_block" data-snippet="s_text_block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 pb32 pt32">
+                                <h2>Financial Visibility</h2>
+                                <p>Discover how to leverage built-in reporting to track cash flow, analyze profitability, and generate balance sheets with real-time data.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            ]]></field>
+            <field name="is_published">True</field>
+        </record>
+
+    </data>
+</odoo>

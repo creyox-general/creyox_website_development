@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!-- PARENT: ERP Comparison (Restored Premium Version) -->
+    <template id="s_erp_comparison" name="ERP Comparison">
+        <section class="s_erp_comparison erp-comparison-section-v3 cr_font"
+                 data-snippet="s_erp_comparison"
+                 data-name="ERP Comparison">
+            <div class="erp-comparison-container-v3">
+                
+                <!-- Section Header -->
+                <div class="erp-comparison-header-v3" data-aos="fade-up">
+                    <div class="erp-comparison-pretitle-v3">
+                        <t t-esc="o_pretitle or 'Make the Right Choice'"/>
+                    </div>
+                    <h2 class="erp-comparison-title-v3">
+                        <t t-if="o_title_legacy" t-esc="o_title_legacy"/>
+                        <t t-else="">Traditional</t>
+                        <strong class="cr_vs">vs</strong>
+                        <span class="text-gradient">
+                            <t t-if="o_title_modern" t-esc="o_title_modern"/>
+                            <t t-else="">Odoo ERP</t>
+                        </span>
+                    </h2>
+                    <p class="erp-comparison-description-v3">
+                        <t t-esc="o_header_text or 'See how Odoo outperforms legacy systems with modern, integrated solutions that scale with your business'"/>
+                    </p>
+                </div>
+
+                <div class="erp-comparison-grid-v3">
+                    <!-- Column 1: Legacy -->
+                    <div class="erp-comparison-column-v3 legacy-col" data-aos="fade-right">
+                        <div class="erp-comparison-column-header-v3">
+                            <div class="erp-comparison-column-badge-v3"><t t-esc="o_c1_badge or 'Traditional ERP'"/></div>
+                            <h3 class="erp-comparison-column-title-v3"><t t-esc="o_c1_title or 'Legacy Systems'"/></h3>
+                            <p class="erp-comparison-column-subtitle-v3"><t t-esc="o_c1_subtitle or 'Outdated, fragmented software that limits growth and drains resources'"/></p>
+                        </div>
+                        
+                        <div class="erp-comparison-features-v3">
+                            <!-- Feature 1.1 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3"><t t-esc="o_c1_f1_title or 'High Implementation Costs'"/></div>
+                                    <div class="erp-comparison-feature-text-v3"><t t-esc="o_c1_f1_text or 'Expensive licenses, hardware, and lengthy setup timelines'"/></div>
+                                </div>
+                            </div>
+                            <!-- Feature 1.2 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3"><t t-esc="o_c1_f2_title or 'Disconnected Modules'"/></div>
+                                    <div class="erp-comparison-feature-text-v3"><t t-esc="o_c1_f2_text or 'Multiple vendors, poor integration, data silos across departments'"/></div>
+                                </div>
+                            </div>
+                            <!-- Feature 1.3 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3"><t t-esc="o_c1_f3_title or 'Complex Customization'"/></div>
+                                    <div class="erp-comparison-feature-text-v3"><t t-esc="o_c1_f3_text or 'Requires expensive consultants and months of development time'"/></div>
+                                </div>
+                            </div>
+                            <!-- Feature 1.4 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3"><t t-esc="o_c1_f4_title or 'Limited Mobility'"/></div>
+                                    <div class="erp-comparison-feature-text-v3"><t t-esc="o_c1_f4_text or 'Desktop-only access, no mobile apps, poor remote work support'"/></div>
+                                </div>
+                            </div>
+                            <!-- Feature 1.5 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3"><t t-esc="o_c1_f5_title or 'Slow Updates'"/></div>
+                                    <div class="erp-comparison-feature-text-v3"><t t-esc="o_c1_f5_text or 'Annual releases, expensive upgrades, compatibility nightmares'"/></div>
+                                </div>
+                            </div>
+                            <!-- Feature 1.6 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3"><t t-esc="o_c1_f6_title or 'Poor User Experience'"/></div>
+                                    <div class="erp-comparison-feature-text-v3"><t t-esc="o_c1_f6_text or 'Outdated interfaces, steep learning curves, low adoption rates'"/></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Column 2: Modern -->
+                    <div class="erp-comparison-column-v3 erp-comparison-column-premium-v3 modern-col" data-aos="fade-left">
+                        <div class="erp-comparison-column-header-v3">
+                            <div class="erp-comparison-column-badge-v3"><t t-esc="o_c2_badge or 'Odoo ERP'"/></div>
+                            <h3 class="erp-comparison-column-title-v3"><t t-esc="o_c2_title or 'Modern Solution'"/></h3>
+                            <p class="erp-comparison-column-subtitle-v3"><t t-esc="o_c2_subtitle or 'All-in-one, cloud-based platform designed for agility and scalability'"/></p>
+                        </div>
+
+                        <div class="erp-comparison-features-v3">
+                            <!-- Feature 2.1 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3"><t t-esc="o_c2_f1_title or 'Cost-Effective Pricing'"/></div>
+                                    <div class="erp-comparison-feature-text-v3"><t t-esc="o_c2_f1_text or 'Affordable per-user model, no hidden fees, fast ROI in months'"/></div>
+                                </div>
+                            </div>
+                            <!-- Feature 2.2 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3"><t t-esc="o_c2_f2_title or 'Fully Integrated Suite'"/></div>
+                                    <div class="erp-comparison-feature-text-v3"><t t-esc="o_c2_f2_text or '40+ apps work together seamlessly, real-time data across all modules'"/></div>
+                                </div>
+                            </div>
+                            <!-- Feature 2.3 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3"><t t-esc="o_c2_f3_title or 'Easy Customization'"/></div>
+                                    <div class="erp-comparison-feature-text-v3"><t t-esc="o_c2_f3_text or 'No-code studio, drag-and-drop builder, rapid implementation'"/></div>
+                                </div>
+                            </div>
+                            <!-- Feature 2.4 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3"><t t-esc="o_c2_f4_title or 'Mobile-First Design'"/></div>
+                                    <div class="erp-comparison-feature-text-v3"><t t-esc="o_c2_f4_text or 'Native iOS/Android apps, work from anywhere, offline capabilities'"/></div>
+                                </div>
+                            </div>
+                            <!-- Feature 2.5 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3"><t t-esc="o_c2_f5_title or 'Continuous Innovation'"/></div>
+                                    <div class="erp-comparison-feature-text-v3"><t t-esc="o_c2_f5_text or 'Regular updates, new features quarterly, always current version'"/></div>
+                                </div>
+                            </div>
+                            <!-- Feature 2.6 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3"><t t-esc="o_c2_f6_title or 'Intuitive Interface'"/></div>
+                                    <div class="erp-comparison-feature-text-v3"><t t-esc="o_c2_f6_text or 'Modern UI/UX, minimal training needed, high user satisfaction'"/></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- SNIPPET OPTIONS -->
+    <template id="s_erp_comparison_options" inherit_id="web_editor.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-selector=".s_erp_comparison" data-js="ErpComparisonOptions" string="ERP Comparison">
+                <we-collapse string="Header">
+                    <we-input string="Pre-title" data-set-pretitle="" data-no-preview="true"/>
+                    <we-input string="Legacy Title" data-set-title-legacy="" data-no-preview="true"/>
+                    <we-input string="Modern Title" data-set-title-modern="" data-no-preview="true"/>
+                    <we-textarea string="Description" data-set-header-text="" data-no-preview="true"/>
+                </we-collapse>
+
+                <we-collapse string="Traditional Column (Left)">
+                    <we-input string="Badge" data-set-c1-badge="" data-no-preview="true"/>
+                    <we-input string="Title" data-set-c1-title="" data-no-preview="true"/>
+                    <we-input string="Subtitle" data-set-c1-subtitle="" data-no-preview="true"/>
+                    <we-collapse string="Features">
+                        <we-collapse string="Feature 1">
+                            <we-input string="Title" data-set-feature-title="" data-col="1" data-idx="1" data-no-preview="true"/>
+                            <we-textarea string="Text" data-set-feature-text="" data-col="1" data-idx="1" data-no-preview="true"/>
+                        </we-collapse>
+                        <we-collapse string="Feature 2">
+                            <we-input string="Title" data-set-feature-title="" data-col="1" data-idx="2" data-no-preview="true"/>
+                            <we-textarea string="Text" data-set-feature-text="" data-col="1" data-idx="2" data-no-preview="true"/>
+                        </we-collapse>
+                        <we-collapse string="Feature 3">
+                            <we-input string="Title" data-set-feature-title="" data-col="1" data-idx="3" data-no-preview="true"/>
+                            <we-textarea string="Text" data-set-feature-text="" data-col="1" data-idx="3" data-no-preview="true"/>
+                        </we-collapse>
+                        <we-collapse string="Feature 4">
+                            <we-input string="Title" data-set-feature-title="" data-col="1" data-idx="4" data-no-preview="true"/>
+                            <we-textarea string="Text" data-set-feature-text="" data-col="1" data-idx="4" data-no-preview="true"/>
+                        </we-collapse>
+                        <we-collapse string="Feature 5">
+                            <we-input string="Title" data-set-feature-title="" data-col="1" data-idx="5" data-no-preview="true"/>
+                            <we-textarea string="Text" data-set-feature-text="" data-col="1" data-idx="5" data-no-preview="true"/>
+                        </we-collapse>
+                        <we-collapse string="Feature 6">
+                            <we-input string="Title" data-set-feature-title="" data-col="1" data-idx="6" data-no-preview="true"/>
+                            <we-textarea string="Text" data-set-feature-text="" data-col="1" data-idx="6" data-no-preview="true"/>
+                        </we-collapse>
+                    </we-collapse>
+                </we-collapse>
+
+                <we-collapse string="Odoo Column (Right)">
+                    <we-input string="Badge" data-set-c2-badge="" data-no-preview="true"/>
+                    <we-input string="Title" data-set-c2-title="" data-no-preview="true"/>
+                    <we-input string="Subtitle" data-set-c2-subtitle="" data-no-preview="true"/>
+                    <we-collapse string="Features">
+                        <we-collapse string="Feature 1">
+                            <we-input string="Title" data-set-feature-title="" data-col="2" data-idx="1" data-no-preview="true"/>
+                            <we-textarea string="Text" data-set-feature-text="" data-col="2" data-idx="1" data-no-preview="true"/>
+                        </we-collapse>
+                        <we-collapse string="Feature 2">
+                            <we-input string="Title" data-set-feature-title="" data-col="2" data-idx="2" data-no-preview="true"/>
+                            <we-textarea string="Text" data-set-feature-text="" data-col="2" data-idx="2" data-no-preview="true"/>
+                        </we-collapse>
+                        <we-collapse string="Feature 3">
+                            <we-input string="Title" data-set-feature-title="" data-col="2" data-idx="3" data-no-preview="true"/>
+                            <we-textarea string="Text" data-set-feature-text="" data-col="2" data-idx="3" data-no-preview="true"/>
+                        </we-collapse>
+                        <we-collapse string="Feature 4">
+                            <we-input string="Title" data-set-feature-title="" data-col="2" data-idx="4" data-no-preview="true"/>
+                            <we-textarea string="Text" data-set-feature-text="" data-col="2" data-idx="4" data-no-preview="true"/>
+                        </we-collapse>
+                        <we-collapse string="Feature 5">
+                            <we-input string="Title" data-set-feature-title="" data-col="2" data-idx="5" data-no-preview="true"/>
+                            <we-textarea string="Text" data-set-feature-text="" data-col="2" data-idx="5" data-no-preview="true"/>
+                        </we-collapse>
+                        <we-collapse string="Feature 6">
+                            <we-input string="Title" data-set-feature-title="" data-col="2" data-idx="6" data-no-preview="true"/>
+                            <we-textarea string="Text" data-set-feature-text="" data-col="2" data-idx="6" data-no-preview="true"/>
+                        </we-collapse>
+                    </we-collapse>
+                </we-collapse>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!--
+        Options panel for .s_milestone_section
+        Each card exposes: Icon class, Count, Suffix, Label
+    -->
+    <template id="snippet_options_milestone_section"
+              inherit_id="web_editor.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-js="MilestoneSectionOptions"
+                 data-selector=".s_milestone_section"
+                 data-drop-in=".oe_structure"
+                 data-drop-near=".s_milestone_section, section"
+                 string="Milestone Section">
+
+                <!-- ── Section heading ── -->
+                <we-input string="Section Heading"
+                          data-set-heading=""
+                          data-no-preview="true"/>
+
+                <!-- ── Background color ── -->
+                <we-colorpicker string="Background Color"
+                                data-css-property="background-color"/>
+
+                <!-- ── Card 1 ── -->
+                <we-title>Card 1</we-title>
+                <we-input string="Icon Class"
+                          data-set-card-icon=""
+                          data-card-index="1"
+                          data-no-preview="true"
+                          placeholder="fas fa-smile"/>
+                <we-input string="Count"
+                          data-set-card-count=""
+                          data-card-index="1"
+                          data-no-preview="true"
+                          placeholder="1250"/>
+                <we-input string="Suffix (+, %, K…)"
+                          data-set-card-suffix=""
+                          data-card-index="1"
+                          data-no-preview="true"
+                          placeholder="+"/>
+                <we-input string="Label"
+                          data-set-card-label=""
+                          data-card-index="1"
+                          data-no-preview="true"
+                          placeholder="Happy Customers"/>
+
+                <!-- ── Card 2 ── -->
+                <we-title>Card 2</we-title>
+                <we-input string="Icon Class"
+                          data-set-card-icon=""
+                          data-card-index="2"
+                          data-no-preview="true"
+                          placeholder="fas fa-handshake"/>
+                <we-input string="Count"
+                          data-set-card-count=""
+                          data-card-index="2"
+                          data-no-preview="true"
+                          placeholder="98"/>
+                <we-input string="Suffix (+, %, K…)"
+                          data-set-card-suffix=""
+                          data-card-index="2"
+                          data-no-preview="true"
+                          placeholder="%"/>
+                <we-input string="Label"
+                          data-set-card-label=""
+                          data-card-index="2"
+                          data-no-preview="true"
+                          placeholder="Retention Rate"/>
+
+                <!-- ── Card 3 ── -->
+                <we-title>Card 3</we-title>
+                <we-input string="Icon Class"
+                          data-set-card-icon=""
+                          data-card-index="3"
+                          data-no-preview="true"
+                          placeholder="fas fa-industry"/>
+                <we-input string="Count"
+                          data-set-card-count=""
+                          data-card-index="3"
+                          data-no-preview="true"
+                          placeholder="25"/>
+                <we-input string="Suffix (+, %, K…)"
+                          data-set-card-suffix=""
+                          data-card-index="3"
+                          data-no-preview="true"
+                          placeholder="+"/>
+                <we-input string="Label"
+                          data-set-card-label=""
+                          data-card-index="3"
+                          data-no-preview="true"
+                          placeholder="Industries Served"/>
+
+                <!-- ── Card 4 ── -->
+                <we-title>Card 4</we-title>
+                <we-input string="Icon Class"
+                          data-set-card-icon=""
+                          data-card-index="4"
+                          data-no-preview="true"
+                          placeholder="fas fa-globe"/>
+                <we-input string="Count"
+                          data-set-card-count=""
+                          data-card-index="4"
+                          data-no-preview="true"
+                          placeholder="40"/>
+                <we-input string="Suffix (+, %, K…)"
+                          data-set-card-suffix=""
+                          data-card-index="4"
+                          data-no-preview="true"
+                          placeholder="+"/>
+                <we-input string="Label"
+                          data-set-card-label=""
+                          data-card-index="4"
+                          data-no-preview="true"
+                          placeholder="Countries Reached"/>
+
+                <!-- ── Card 5 ── -->
+                <we-title>Card 5</we-title>
+                <we-input string="Icon Class"
+                          data-set-card-icon=""
+                          data-card-index="5"
+                          data-no-preview="true"
+                          placeholder="fas fa-mobile-alt"/>
+                <we-input string="Count"
+                          data-set-card-count=""
+                          data-card-index="5"
+                          data-no-preview="true"
+                          placeholder="200"/>
+                <we-input string="Suffix (+, %, K…)"
+                          data-set-card-suffix=""
+                          data-card-index="5"
+                          data-no-preview="true"
+                          placeholder="+"/>
+                <we-input string="Label"
+                          data-set-card-label=""
+                          data-card-index="5"
+                          data-no-preview="true"
+                          placeholder="Custom Odoo Apps"/>
+
+                <!-- ── Card 6 ── -->
+                <we-title>Card 6</we-title>
+                <we-input string="Icon Class"
+                          data-set-card-icon=""
+                          data-card-index="6"
+                          data-no-preview="true"
+                          placeholder="fas fa-user-tie"/>
+                <we-input string="Count"
+                          data-set-card-count=""
+                          data-card-index="6"
+                          data-no-preview="true"
+                          placeholder="8"/>
+                <we-input string="Suffix (+, %, K…)"
+                          data-set-card-suffix=""
+                          data-card-index="6"
+                          data-no-preview="true"
+                          placeholder="+"/>
+                <we-input string="Label"
+                          data-set-card-label=""
+                          data-card-index="6"
+                          data-no-preview="true"
+                          placeholder="Years Experts"/>
+
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

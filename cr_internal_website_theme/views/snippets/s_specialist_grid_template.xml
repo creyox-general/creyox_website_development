@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!-- PARENT: Specialist Grid -->
+    <template id="s_specialist_grid" name="Specialist Grid">
+        <section class="s_specialist_grid py-5 sg-cols-4"
+                 data-snippet="s_specialist_grid"
+                 data-name="Specialist Grid">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">
+                        <t t-if="o_title_plain" t-esc="o_title_plain"/>
+                        <t t-else="">Odoo</t>
+                        <span class="text-gradient">
+                            <t t-if="o_title_gradient" t-esc="o_title_gradient"/>
+                            <t t-else="">Specialist Services</t>
+                        </span>
+                    </h2>
+                    <p class="section-subtitle mt-2">
+                        <t t-if="o_subtitle" t-esc="o_subtitle"/>
+                        <t t-else="">Space-efficient expertise at your fingertips.</t>
+                    </p>
+                </div>
+
+                <!-- Specialist Grid -->
+                <div class="specialist-grid-container">
+                    <div class="row g-4 s_specialist_grid_row">
+                        <!-- Card 1 -->
+                        <div t-attf-class="col-lg-3 col-md-6 s_specialist_card_col {{o_card_col_class}}" data-aos="fade-up">
+                            <div class="specialist-card">
+                                <div class="card-digit"><t t-esc="o_c1_digit or '01'"/></div>
+                                <h3 class="card-title"><t t-esc="o_c1_title or 'Specialist Service'"/></h3>
+                                <p class="card-text"><t t-esc="o_c1_text or 'Service description goes here.'"/></p>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div t-attf-class="col-lg-3 col-md-6 s_specialist_card_col {{o_card_col_class}}" data-aos="fade-up" data-aos-delay="100">
+                            <div class="specialist-card">
+                                <div class="card-digit"><t t-esc="o_c2_digit or '02'"/></div>
+                                <h3 class="card-title"><t t-esc="o_c2_title or 'Specialist Service'"/></h3>
+                                <p class="card-text"><t t-esc="o_c2_text or 'Service description goes here.'"/></p>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div t-attf-class="col-lg-3 col-md-6 s_specialist_card_col {{o_card_col_class}}" data-aos="fade-up" data-aos-delay="200">
+                            <div class="specialist-card">
+                                <div class="card-digit"><t t-esc="o_c3_digit or '03'"/></div>
+                                <h3 class="card-title"><t t-esc="o_c3_title or 'Specialist Service'"/></h3>
+                                <p class="card-text"><t t-esc="o_c3_text or 'Service description goes here.'"/></p>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div t-attf-class="col-lg-3 col-md-6 s_specialist_card_col {{o_card_col_class}}" data-aos="fade-up" data-aos-delay="300">
+                            <div class="specialist-card">
+                                <div class="card-digit"><t t-esc="o_c4_digit or '04'"/></div>
+                                <h3 class="card-title"><t t-esc="o_c4_title or 'Specialist Service'"/></h3>
+                                <p class="card-text"><t t-esc="o_c4_text or 'Service description goes here.'"/></p>
+                            </div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div t-attf-class="col-lg-3 col-md-6 s_specialist_card_col {{o_card_col_class}}" data-aos="fade-up" data-aos-delay="400">
+                            <div class="specialist-card">
+                                <div class="card-digit"><t t-esc="o_c5_digit or '05'"/></div>
+                                <h3 class="card-title"><t t-esc="o_c5_title or 'Specialist Service'"/></h3>
+                                <p class="card-text"><t t-esc="o_c5_text or 'Service description goes here.'"/></p>
+                            </div>
+                        </div>
+                        <!-- Card 6 -->
+                        <div t-attf-class="col-lg-3 col-md-6 s_specialist_card_col {{o_card_col_class}}" data-aos="fade-up" data-aos-delay="500">
+                            <div class="specialist-card">
+                                <div class="card-digit"><t t-esc="o_c6_digit or '06'"/></div>
+                                <h3 class="card-title"><t t-esc="o_c6_title or 'Specialist Service'"/></h3>
+                                <p class="card-text"><t t-esc="o_c6_text or 'Service description goes here.'"/></p>
+                            </div>
+                        </div>
+                        <!-- Card 7 -->
+                        <div t-attf-class="col-lg-3 col-md-6 s_specialist_card_col {{o_card_col_class}}" data-aos="fade-up" data-aos-delay="600">
+                            <div class="specialist-card">
+                                <div class="card-digit"><t t-esc="o_c7_digit or '07'"/></div>
+                                <h3 class="card-title"><t t-esc="o_c7_title or 'Specialist Service'"/></h3>
+                                <p class="card-text"><t t-esc="o_c7_text or 'Service description goes here.'"/></p>
+                            </div>
+                        </div>
+                        <!-- Card 8 -->
+                        <div t-attf-class="col-lg-3 col-md-6 s_specialist_card_col {{o_card_col_class}}" data-aos="fade-up" data-aos-delay="700">
+                            <div class="specialist-card">
+                                <div class="card-digit"><t t-esc="o_c8_digit or '08'"/></div>
+                                <h3 class="card-title"><t t-esc="o_c8_title or 'Specialist Service'"/></h3>
+                                <p class="card-text"><t t-esc="o_c8_text or 'Service description goes here.'"/></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- SNIPPET OPTIONS -->
+    <template id="s_specialist_grid_options" inherit_id="website.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-selector=".s_specialist_grid" data-js="SpecialistGridOptions" string="Specialist Grid">
+                <we-collapse string="Header">
+                    <we-input string="Plain Title" data-set-header-plain="" data-no-preview="true" placeholder="Odoo"/>
+                    <we-input string="Gradient Title" data-set-header-gradient="" data-no-preview="true" placeholder="Specialist Services"/>
+                    <we-input string="Subtitle" data-set-subtitle="" data-no-preview="true" placeholder="Subtitle..."/>
+                </we-collapse>
+
+                <we-select string="Columns per Row">
+                    <we-button data-select-class="sg-cols-2">2 Columns</we-button>
+                    <we-button data-select-class="sg-cols-3">3 Columns</we-button>
+                    <we-button data-select-class="sg-cols-4">4 Columns</we-button>
+                </we-select>
+
+                <we-button data-add-card="true" data-no-preview="true">➕ Add Block</we-button>
+                <we-button data-remove-last-card="true" data-no-preview="true">➖ Remove Block</we-button>
+
+                <we-collapse string="Cards Content">
+                    <we-collapse string="Card 1">
+                        <we-input string="Digit" data-set-card-digit="" data-index="1" data-no-preview="true"/>
+                        <we-input string="Title" data-set-card-title="" data-index="1" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-card-text="" data-index="1" data-no-preview="true"/>
+                    </we-collapse>
+                    <we-collapse string="Card 2">
+                        <we-input string="Digit" data-set-card-digit="" data-index="2" data-no-preview="true"/>
+                        <we-input string="Title" data-set-card-title="" data-index="2" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-card-text="" data-index="2" data-no-preview="true"/>
+                    </we-collapse>
+                    <we-collapse string="Card 3">
+                        <we-input string="Digit" data-set-card-digit="" data-index="3" data-no-preview="true"/>
+                        <we-input string="Title" data-set-card-title="" data-index="3" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-card-text="" data-index="3" data-no-preview="true"/>
+                    </we-collapse>
+                    <we-collapse string="Card 4">
+                        <we-input string="Digit" data-set-card-digit="" data-index="4" data-no-preview="true"/>
+                        <we-input string="Title" data-set-card-title="" data-index="4" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-card-text="" data-index="4" data-no-preview="true"/>
+                    </we-collapse>
+                    <we-collapse string="Card 5">
+                        <we-input string="Digit" data-set-card-digit="" data-index="5" data-no-preview="true"/>
+                        <we-input string="Title" data-set-card-title="" data-index="5" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-card-text="" data-index="5" data-no-preview="true"/>
+                    </we-collapse>
+                    <we-collapse string="Card 6">
+                        <we-input string="Digit" data-set-card-digit="" data-index="6" data-no-preview="true"/>
+                        <we-input string="Title" data-set-card-title="" data-index="6" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-card-text="" data-index="6" data-no-preview="true"/>
+                    </we-collapse>
+                    <we-collapse string="Card 7">
+                        <we-input string="Digit" data-set-card-digit="" data-index="7" data-no-preview="true"/>
+                        <we-input string="Title" data-set-card-title="" data-index="7" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-card-text="" data-index="7" data-no-preview="true"/>
+                    </we-collapse>
+                    <we-collapse string="Card 8">
+                        <we-input string="Digit" data-set-card-digit="" data-index="8" data-no-preview="true"/>
+                        <we-input string="Title" data-set-card-title="" data-index="8" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-card-text="" data-index="8" data-no-preview="true"/>
+                    </we-collapse>
+                </we-collapse>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

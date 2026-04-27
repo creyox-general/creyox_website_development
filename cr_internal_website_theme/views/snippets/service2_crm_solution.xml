@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="service2_crm_solution" name="service2_crm_solution">
+
+        <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        />
+        <div class="oe_structure" id="oe_structure_service2_intro_banner">
+            <section class="s_service_intro_banner service-intro-banner hero-section-wave cr_font"
+                     data-snippet="s_service_intro_banner"
+                     data-name="Service Intro Banner">
+                <div class="container">
+                    <div class="banner-inner-content">
+                        <h1 class="banner-main-title">
+                            Comprehensive CRM Solutions for Your Business
+                        </h1>
+                        <p class="banner-tagline">
+                            Manage leads, boost sales, and strengthen customer relationships with our tailored CRM solutions.
+                        </p>
+                        <nav aria-label="breadcrumb">
+                            <ul class="banner-breadcrumbs">
+                                <li>
+                                    <a class="breadcrumb-link" href="/">
+                                        Home
+                                        <span class="breadcrumb-separator fa fa-angle-right"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <span class="breadcrumb-current" aria-current="page">CRM Solutions</span>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="cr-crm-solution-intro o_website_snippet cr_font" aria-labelledby="crm-solution-heading">
+            <div class="cr-crm-container">
+                <!-- First Row: Heading Left / Image Right -->
+                <div class="oe_structure" id="oe_structure_crm_header">
+                    <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
+                             data-snippet="s_comprehensive_service"
+                             data-name="Comprehensive Service">
+                        <div class="container pt-5 pb-0">
+                            
+                            <!-- First Row: Heading -->
+                            <div class="row mb-5 pb-lg-3">
+                                <div class="col-12 text-center" data-aos="fade-down">
+                                    <h2 class="partner-title mb-3">
+                                        CRM Services to Manage Leads, Automate Sales,
+                                        <span class="text-gradient">and Improve Customer Relationships</span>
+                                    </h2>
+                                    <!-- Small decorative underline -->
+                                    <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                                </div>
+                            </div>
+                            
+                            <!-- Second Row: Text and Image -->
+                            <div class="row align-items-center gx-0">
+                                
+                                <div class="col-lg-6 mb-5 mb-lg-0 p-0" data-aos="fade-right">
+                                    <div class="partner-content-box text-start">
+                                        <p class="partner-description partner-desc-1 mb-3 w-100">
+                                            Are you struggling to keep track of leads, customer conversations, and sales opportunities across emails, spreadsheets, and different tools? As your business grows, managing scattered information can make it difficult for sales teams to follow up on leads, manage deals, and maintain strong customer relationships.
+                                        </p>
+                                        <p class="partner-description partner-desc-2 mb-4 w-100">
+                                            This is where professional CRM services can make a real difference. At Creyox, we provide comprehensive CRM services that help businesses simplify sales processes, improve customer engagement, and increase productivity. Our solutions are designed to centralize customer data, automate sales activities, and provide valuable insights that help businesses make better decisions.
+                                        </p>
+                                        <div class="partner-cta-group">
+                                            <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                                <span>Get a Free CRM Consultation</span>
+                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-6 p-0" data-aos="fade-left" data-aos-delay="100">
+                                    <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
+                                        <img src="/cr_internal_website_theme/static/src/img/crm-solution.png"
+                                             alt="CRM Service Provider"
+                                             class="img-fluid w-100" 
+                                             style="object-fit: contain; transform: scale(1.2); transform-origin: left center; z-index: 1;"/>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- CRM Services Grid Section -->
+                <div class="oe_structure" id="oe_structure_crm_services_grid">
+                    <section class="s_specialist_grid pt-0 pb-5 sg-cols-2 cr_font"
+                             data-snippet="s_specialist_grid"
+                             data-name="Specialist Grid">
+                        <div class="container">
+                            <!-- Section Header -->
+                            <div class="section-header text-center mb-5" data-aos="fade-up">
+                                <h2 class="section-title">
+                                    Our Comprehensive
+                                    <span class="text-gradient">CRM Services</span>
+                                </h2>
+                                <p class="section-subtitle mt-4 mx-auto" style="max-width: 900px; font-size: 1.1rem; line-height: 1.6;">
+                                    Creyox provides end-to-end CRM services designed to help businesses simplify sales operations, strengthen customer relationships, and improve overall productivity. Whether you are implementing a CRM for the first time or upgrading your existing system, our team supports you at every stage from strategy and deployment to customization and long-term optimization. Our goal is simple: to deliver measurable results through smart CRM implementation and ongoing support.
+                                </p>
+                            </div>
+
+                            <!-- Specialist Grid -->
+                            <div class="specialist-grid-container">
+                                <div class="row g-4 s_specialist_grid_row">
+                                    <!-- Card 1: Implementation -->
+                                    <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">01</div>
+                                            <h3 class="card-title">CRM Implementation Services</h3>
+                                            <p class="card-text">Our CRM implementation services focus on building a strong foundation for your customer management processes. We begin by understanding your sales workflows, customer lifecycle, and operational goals. Using powerful platforms like Odoo, we implement scalable and flexible CRM environments that centralize customer data, streamline sales pipelines, and automate repetitive tasks. From system setup and configuration to secure data migration and user onboarding, our CRM implementation services ensure smooth adoption across your organization.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Card 2: Consulting -->
+                                    <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">02</div>
+                                            <h3 class="card-title">CRM Consulting Services</h3>
+                                            <p class="card-text">Successful CRM adoption starts with the right strategy. Our CRM consulting services help businesses to evaluate their current sales processes, identify inefficiencies, and design a CRM roadmap that supports long-term growth. At Creyox, our CRM consultants work closely with leadership and sales teams to understand operational challenges and customer engagement goals. By combining business expertise with technical knowledge, our CRM consulting services ensure your CRM investment delivers maximum return.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Card 3: Integration -->
+                                    <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">03</div>
+                                            <h3 class="card-title">CRM Integration Services</h3>
+                                            <p class="card-text">Modern organizations rely on multiple business tools. Our CRM Integration Services connect your CRM platform with essential tools such as email platforms, telephony systems, marketing automation software, ERP solutions, and accounting applications. If you are using 3CX for business communication and want to connect it with Odoo CRM, our 3CX–Odoo Connector makes the process simple and efficient, enabling real-time call tracking and automatic lead creation.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Card 4: Customization -->
+                                    <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">04</div>
+                                            <h3 class="card-title">CRM Customization Services</h3>
+                                            <p class="card-text">Every business has unique workflows. Our CRM customization services allow organizations to tailor their CRM system to match their specific processes and industry needs. We customize dashboards, reports, workflows, automation rules, and modules to ensure your CRM system supports your exact business model. By customizing CRM platforms such as Odoo, we help businesses build a system that adapts to their growth rather than limiting it.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Card 5: Automation -->
+                                    <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">05</div>
+                                            <h3 class="card-title">CRM Automation Services</h3>
+                                            <p class="card-text">Automation is a key driver of efficiency. Our CRM automation services are designed to reduce manual work, improve consistency, and enhance customer engagement. We implement automated lead assignments, follow-up reminders, sales pipeline updates, workflow triggers, and performance reporting. CRM automation ensures that no opportunity is missed and that your sales team can focus on closing deals instead of managing administrative tasks.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Card 6: Development -->
+                                    <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">06</div>
+                                            <h3 class="card-title">CRM Development Services</h3>
+                                            <p class="card-text">For businesses requiring advanced functionality, our CRM development services provide tailored solutions addressing complex operational needs. Our development team builds custom modules, advanced workflows, and specialized integrations that extend your CRM platform. Whether you require industry-specific features or enhanced reporting tools, our CRM development services ensure your system evolves alongside your business.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Card 7: Training -->
+                                    <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">07</div>
+                                            <h3 class="card-title">CRM Training Services</h3>
+                                            <p class="card-text">A CRM system delivers value only when users understand how to leverage its potential. Our CRM training services focus on empowering your team with the knowledge needed to maximize efficiency. We provide structured training sessions, onboarding programs, and best-practice guidance to ensure smooth adoption. By educating your teams on CRM workflows and automation, we help improve user confidence and overall productivity.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Card 8: Support -->
+                                    <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">08</div>
+                                            <h3 class="card-title">CRM Support Services</h3>
+                                            <p class="card-text">Ongoing maintenance is essential for long-term SUCCESS. Our reliable CRM support services ensure your system continues to perform efficiently as your business grows. We provide technical support, performance monitoring, system updates, and issue resolution to keep your CRM stable and secure. With continuous improvements, Creyox ensures your CRM platform remains aligned with your evolving business needs.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- CRM CTA Section -->
+                <div class="oe_structure" id="oe_structure_crm_cta_snippet">
+                    <section class="s_erp_cta_wrapper" style="background: transparent;">
+                        <div class="container py-5">
+                            <div class="erp-cta-section rounded-3" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="crm-cta-heading-main">
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
+
+                                <div class="container erp-cta-container">
+                                    <div class="erp-cta-row">
+                                        <!-- Text Block -->
+                                        <div class="erp-cta-text">
+                                            <h2 id="crm-cta-heading-main">
+                                                Ready to <span class="highlight">Transform Your Business</span>?
+                                            </h2>
+                                            <p class="mt-2 text-white-50">
+                                                Start your journey with our CRM today and experience smarter sales and stronger customer relationships.
+                                            </p>
+                                        </div>
+
+                                        <!-- Button -->
+                                        <div class="erp-cta-button-wrapper">
+                                            <a href="#erp-demo-form" class="cta-button light" title="Schedule Free CRM Demo"
+                                               aria-label="Get CRM Demo">
+                                                <span>Schedule a Free Demo</span>
+                                                <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- CRM Odoo Solution Section -->
+                <div class="oe_structure" id="oe_structure_crm_odoo_solution">
+                    <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
+                             data-snippet="s_comprehensive_service"
+                             data-name="Comprehensive Service">
+                        <div class="container py-5">
+                            
+                            <!-- First Row: Heading -->
+                            <div class="row mb-5 pb-lg-3">
+                                <div class="col-12 text-center" data-aos="fade-down">
+                                    <h2 class="partner-title mb-3">
+                                        CRM Software Solution
+                                        <span class="text-gradient">Using Odoo</span>
+                                    </h2>
+                                    <!-- Small decorative underline -->
+                                    <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                                </div>
+                            </div>
+                            
+                            <!-- Second Row: Text and Image -->
+                            <div class="row align-items-center gx-0">
+                                
+                                <div class="col-lg-6 mb-5 mb-lg-0 p-0" data-aos="fade-right">
+                                    <div class="partner-content-box text-start">
+                                        <p class="partner-description partner-desc-1 mb-3 w-100">
+                                            Building strong customer relationships requires more than spreadsheets. Our powerful CRM software solution powered by Odoo enables businesses to manage leads, track opportunities, and automate sales workflows within a single intelligent platform.
+                                        </p>
+                                        <p class="partner-description partner-desc-2 mb-4 w-100">
+                                            One of the biggest advantages of Odoo CRM is its modular architecture, which allows businesses to integrate CRM with other essential business applications such as ERP, accounting, inventory management, marketing automation, and customer support tools. This connected ecosystem enables organizations to maintain consistent data across departments and improve collaboration between sales, marketing, and operations teams.
+                                        </p>
+                                        <div class="partner-cta-group">
+                                            <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                                <span>Inquiry Now</span>
+                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-6 p-0" data-aos="fade-left" data-aos-delay="100">
+                                    <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
+                                        <img src="/cr_internal_website_theme/static/src/img/use_cases.png"
+                                             alt="CRM Odoo Solution"
+                                             class="img-fluid w-100" 
+                                             style="object-fit: contain; transform: scale(1.1); transform-origin: left center; z-index: 1;"/>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- CRM Industries Grid Section -->
+                <div class="oe_structure" id="oe_structure_crm_industries_grid">
+                    <section class="s_erp_pain_points cr_font" data-snippet="s_erp_pain_points" data-name="ERP Pain Points">
+                        <div class="erp-container">
+                            <!-- Section Header -->
+                            <div class="erp-header-group text-center mb-5" data-aos="fade-up">
+                                <h2 class="erp-title">
+                                    CRM Services for
+                                    <span class="text-gradient">Different Industries</span>
+                                </h2>
+                                <p class="erp-subtitle mt-4 mx-auto" style="max-width: 900px;">
+                                    Businesses across different industries require efficient tools to manage customer relationships, sales pipelines, and communication workflows. Our CRM services are designed to support organizations in multiple sectors by providing a flexible CRM software solution tailored to their specific operational needs.
+                                </p>
+                            </div>
+
+                            <!-- The Redesigned Matrix Grid -->
+                            <div class="connected-matrix" data-aos="fade-up">
+                                <!-- Row 1 -->
+                                <div class="row g-4 mb-4">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="matrix-block pure-bento-card" data-aos="fade-up">
+                                            <span class="bento-index">01</span>
+                                            <div class="bento-content">
+                                                <h3 class="bento-title">Retail</h3>
+                                                <p class="bento-text">Retail businesses can use CRM systems to track customer purchases, manage loyalty programs, analyze buying behavior, and personalize marketing campaigns to improve customer retention and sales.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="matrix-block pure-bento-card highlight" data-aos="fade-up" data-aos-delay="100">
+                                            <span class="bento-index">02</span>
+                                            <div class="bento-content">
+                                                <h3 class="bento-title">Manufacturing</h3>
+                                                <p class="bento-text">Manufacturing companies benefit from CRM by managing distributor and supplier relationships, tracking product inquiries, handling bulk orders, and improving demand forecasting.</p>
+                                            </div>
+                                            <div class="bento-accent-dot" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="matrix-block pure-bento-card" data-aos="fade-up" data-aos-delay="200">
+                                            <span class="bento-index">03</span>
+                                            <div class="bento-content">
+                                                <h3 class="bento-title">Healthcare</h3>
+                                                <p class="bento-text">Healthcare organizations can centralize patient communication, manage appointment scheduling, track patient interactions, and maintain compliance with industry regulations.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Row 2 -->
+                                <div class="row g-4 mb-4">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="matrix-block pure-bento-card highlight" data-aos="fade-up">
+                                            <span class="bento-index">04</span>
+                                            <div class="bento-content">
+                                                <h3 class="bento-title">Real Estate</h3>
+                                                <p class="bento-text">Real estate businesses can track property inquiries, manage buyer and seller communications, automate follow-ups, and monitor the complete property sales pipeline.</p>
+                                            </div>
+                                            <div class="bento-accent-dot" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="matrix-block pure-bento-card" data-aos="fade-up" data-aos-delay="100">
+                                            <span class="bento-index">05</span>
+                                            <div class="bento-content">
+                                                <h3 class="bento-title">Service Businesses</h3>
+                                                <p class="bento-text">Service-based companies can manage customer requests, schedule service appointments, assign tasks to teams, and maintain complete records of customer interactions.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="matrix-block pure-bento-card highlight" data-aos="fade-up" data-aos-delay="200">
+                                            <span class="bento-index">06</span>
+                                            <div class="bento-content">
+                                                <h3 class="bento-title">Education &amp; Training</h3>
+                                                <p class="bento-text">Educational institutions and training centers can manage student inquiries, automate admissions workflows, track communications, and improve engagement.</p>
+                                            </div>
+                                            <div class="bento-accent-dot" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Row 3 -->
+                                <div class="row g-4 mb-4">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="matrix-block pure-bento-card" data-aos="fade-up">
+                                            <span class="bento-index">07</span>
+                                            <div class="bento-content">
+                                                <h3 class="bento-title">Financial Services</h3>
+                                                <p class="bento-text">Banks and insurance companies can use CRM systems to manage client portfolios, track consultations, and maintain secure customer data.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="matrix-block pure-bento-card highlight" data-aos="fade-up" data-aos-delay="100">
+                                            <span class="bento-index">08</span>
+                                            <div class="bento-content">
+                                                <h3 class="bento-title">E-commerce</h3>
+                                                <p class="bento-text">E-commerce businesses can track customer behavior, handle support requests, and run personalized marketing campaigns to increase repeat purchases.</p>
+                                            </div>
+                                            <div class="bento-accent-dot" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="matrix-block pure-bento-card" data-aos="fade-up" data-aos-delay="200">
+                                            <span class="bento-index">09</span>
+                                            <div class="bento-content">
+                                                <h3 class="bento-title">IT &amp; Software</h3>
+                                                <p class="bento-text">Technology companies can manage sales pipelines, track software leads, and automate follow-ups with prospects to maintain long-term relationships.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Row 4 -->
+                                <div class="row g-4 justify-content-center">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="matrix-block pure-bento-card highlight" data-aos="fade-up">
+                                            <span class="bento-index">10</span>
+                                            <div class="bento-content">
+                                                <h3 class="bento-title">Hospitality &amp; Travel</h3>
+                                                <p class="bento-text">Hotels and travel agencies can manage bookings, track client preferences, and automate communication to improve overall guest experiences.</p>
+                                            </div>
+                                            <div class="bento-accent-dot" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- CRM Implementation Process Section -->
+                <div class="oe_structure" id="oe_structure_crm_implementation_process">
+                    <section class="s_feature_mesh cr_font sg-cols-3" data-snippet="s_feature_mesh" data-name="Feature Mesh">
+                        <div class="container py-5">
+                            <!-- Section Header -->
+                            <div class="section-header text-center mb-5" data-aos="fade-up">
+                                <h2 class="mesh-title">
+                                    Our CRM
+                                    <span class="text-gradient">Implementation Process</span>
+                                </h2>
+                                <div class="title-underline mx-auto"></div>
+                                <p class="mesh-main-text mt-4 mx-auto" style="max-width: 800px;">
+                                    Creyox follows a structured process to ensure successful CRM implementation and long-term adoption.
+                                </p>
+                            </div>
+
+                            <!-- Split-Zone Card Grid -->
+                            <div class="row g-4 fm-card-row">
+                                <!-- Step 1 -->
+                                <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                                    <div class="split-card">
+                                        <div class="card-title-zone">
+                                            <h3 class="card-title">Business Requirement Analysis</h3>
+                                        </div>
+                                        <div class="card-body-zone">
+                                            <p class="card-text">We analyze your current workflows and business objectives to ensure the CRM fits your needs.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Step 2 -->
+                                <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="split-card">
+                                        <div class="card-title-zone">
+                                            <h3 class="card-title">CRM Strategy &amp; Planning</h3>
+                                        </div>
+                                        <div class="card-body-zone">
+                                            <p class="card-text">Our experts design a CRM implementation plan tailored specifically to your operational goals.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Step 3 -->
+                                <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="split-card">
+                                        <div class="card-title-zone">
+                                            <h3 class="card-title">CRM Implementation</h3>
+                                        </div>
+                                        <div class="card-body-zone">
+                                            <p class="card-text">We configure the CRM system and set up sales pipelines and workflows for maximum efficiency.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Step 4 -->
+                                <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                                    <div class="split-card">
+                                        <div class="card-title-zone">
+                                            <h3 class="card-title">Customization &amp; Integration</h3>
+                                        </div>
+                                        <div class="card-body-zone">
+                                            <p class="card-text">We customize key features and integrate your CRM with other essential business tools.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Step 5 -->
+                                <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="split-card">
+                                        <div class="card-title-zone">
+                                            <h3 class="card-title">Data Migration</h3>
+                                        </div>
+                                        <div class="card-body-zone">
+                                            <p class="card-text">Existing data is migrated securely and accurately into the new CRM system environment.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Step 6 -->
+                                <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="split-card">
+                                        <div class="card-title-zone">
+                                            <h3 class="card-title">Training &amp; Deployment</h3>
+                                        </div>
+                                        <div class="card-body-zone">
+                                            <p class="card-text">Your team receives hands-on training to ensure successful CRM adoption across all levels.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Step 7 -->
+                                <div class="col-lg-4 col-md-6 fm-card-col mx-auto" data-aos="fade-up">
+                                    <div class="split-card">
+                                        <div class="card-title-zone">
+                                            <h3 class="card-title">Ongoing Support</h3>
+                                        </div>
+                                        <div class="card-body-zone">
+                                            <p class="card-text">Our CRM support team ensures the system continues to run smoothly and adapts as you grow.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+
+
+                <!-- Content Below -->
+                <!-- Why Choose Our CRM Solution Grid -->
+                <div class="oe_structure" id="oe_structure_crm_why_choose_grid">
+                    <section class="s_benefit_mesh cr_font bm-cols-3" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
+                        <div class="container py-5">
+                            <!-- Section Header -->
+                            <div class="section-header text-center mb-5" data-aos="fade-up">
+                                <h2 class="section-title">
+                                    Why Choose Our
+                                    <span class="text-gradient">CRM Solution?</span>
+                                </h2>
+                                <div class="title-underline mx-auto"></div>
+                                <p class="section-description mt-4 mx-auto" style="max-width: 900px;">
+                                    Our CRM Implementation Services help businesses to adopt a powerful CRM platform that aligns with their unique processes and operational goals. Centralizing customer data, automating routine tasks, and providing real-time insights, our CRM solution enables organizations to manage customer interactions more effectively, improve sales performance, and build stronger long-term relationships with their clients.
+                                </p>
+                            </div>
+
+                            <!-- Cards Grid -->
+                            <div class="row g-4 s_benefit_mesh_row justify-content-center">
+                                <!-- Card 1 -->
+                                <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                                    <div class="benefit-card h-100">
+                                        <div class="benefit-badge">01</div>
+                                        <h3 class="card-title">Lead Management</h3>
+                                        <div class="accent-line"></div>
+                                        <p class="card-text">Track and manage leads effectively to maximize conversion and ensure no opportunity is missed.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 2 -->
+                                <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="benefit-card h-100">
+                                        <div class="benefit-badge">02</div>
+                                        <h3 class="card-title">Sales Automation</h3>
+                                        <div class="accent-line"></div>
+                                        <p class="card-text">Automate repetitive sales tasks to save valuable time and increase overall team efficiency.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 3 -->
+                                <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="benefit-card h-100">
+                                        <div class="benefit-badge">03</div>
+                                        <h3 class="card-title">Customer Insights</h3>
+                                        <div class="accent-line"></div>
+                                        <p class="card-text">Gain actionable insights from detailed analytics and reporting to drive data-informed decisions.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 4 -->
+                                <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                                    <div class="benefit-card h-100">
+                                        <div class="benefit-badge">04</div>
+                                        <h3 class="card-title">Pipeline Tracking</h3>
+                                        <div class="accent-line"></div>
+                                        <p class="card-text">Visualize opportunities and manage your sales funnel efficiently with real-time tracking.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 5 -->
+                                <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="benefit-card h-100">
+                                        <div class="benefit-badge">05</div>
+                                        <h3 class="card-title">Integration</h3>
+                                        <div class="accent-line"></div>
+                                        <p class="card-text">Connect with email, marketing, and other business apps seamlessly for a unified ecosystem.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 6 -->
+                                <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="benefit-card h-100">
+                                        <div class="benefit-badge">06</div>
+                                        <h3 class="card-title">Customization &amp; Flexibility</h3>
+                                        <div class="accent-line"></div>
+                                        <p class="card-text">Tailor workflows, dashboards, and modules to match your unique business processes perfectly.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 7 -->
+                                <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                                    <div class="benefit-card h-100">
+                                        <div class="benefit-badge">07</div>
+                                        <h3 class="card-title">Mobile Accessibility</h3>
+                                        <div class="accent-line"></div>
+                                        <p class="card-text">Access your CRM anytime, anywhere with fully responsive web and mobile application support.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 8 -->
+                                <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="benefit-card h-100">
+                                        <div class="benefit-badge">08</div>
+                                        <h3 class="card-title">Collaboration Tools</h3>
+                                        <div class="accent-line"></div>
+                                        <p class="card-text">Promote teamwork with shared calendars, task assignments, and internal chat features.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 9 -->
+                                <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="benefit-card h-100">
+                                        <div class="benefit-badge">09</div>
+                                        <h3 class="card-title">Security &amp; Compliance</h3>
+                                        <div class="accent-line"></div>
+                                        <p class="card-text">Ensure data privacy and security with robust encryption and full GDPR compliance standards.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 10 -->
+                                <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                                    <div class="benefit-card h-100">
+                                        <div class="benefit-badge">10</div>
+                                        <h3 class="card-title">Automation &amp; AI</h3>
+                                        <div class="accent-line"></div>
+                                        <p class="card-text">Use AI-driven lead scoring and predictive analytics to increase sales efficiency and precision.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+
+                    <!-- CRM Key Benefits Milestone Section -->
+                    <section class="s_milestone_section cr_font py-5"
+                             style="background: transparent !important;"
+                             data-snippet="s_milestone_section"
+                             data-name="Milestone Section"
+                             aria-labelledby="milestones-heading-crm">
+                        <div class="milestone-wrapper">
+                            <h2 id="milestones-heading-crm" class="milestone-heading text-center mb-5">
+                                Key <span class="text-gradient">Benefits of CRM</span>
+                            </h2>
+                            <div class="milestone-grid" role="list">
+                                <!-- Card 1: Lead Conversion -->
+                                <div class="milestone-card" style="--i:1" role="listitem">
+                                    <div class="milestone-icon" aria-hidden="true">
+                                        <i class="fas fa-chart-line"/>
+                                    </div>
+                                    <h3>
+                                        <span class="counter" data-count="40">0</span>%
+                                    </h3>
+                                    <p>Increase in lead conversion</p>
+                                </div>
+
+                                <!-- Card 2: Manual Work -->
+                                <div class="milestone-card" style="--i:2" role="listitem">
+                                    <div class="milestone-icon" aria-hidden="true">
+                                        <i class="fas fa-clock"/>
+                                    </div>
+                                    <h3>
+                                        <span class="counter" data-count="25">0</span>%
+                                    </h3>
+                                    <p>Reduction in manual work</p>
+                                </div>
+
+                                <!-- Card 3: Retention -->
+                                <div class="milestone-card" style="--i:3" role="listitem">
+                                    <div class="milestone-icon" aria-hidden="true">
+                                        <i class="fas fa-user-check"/>
+                                    </div>
+                                    <h3>
+                                        <span class="counter" data-count="30">0</span>%
+                                    </h3>
+                                    <p>Boost in customer retention</p>
+                                </div>
+
+                                <!-- Card 4: Access -->
+                                <div class="milestone-card" style="--i:4" role="listitem">
+                                    <div class="milestone-icon" aria-hidden="true">
+                                        <i class="fas fa-mobile-alt"/>
+                                    </div>
+                                    <h3>
+                                        <span class="counter" data-count="24">0</span>/7
+                                    </h3>
+                                    <p>Access from anywhere</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+<!--                    <section class="crm-integration-app o_website_snippet" aria-labelledby="crm-integration-heading">-->
+<!--                        <h2 id="crm-integration-heading">Our Most Popular CRM Integration App</h2>-->
+<!--                        <div class="crm-integration-container">-->
+
+
+<!--                            &lt;!&ndash; Left Image &ndash;&gt;-->
+<!--                            <div class="crm-integration-image">-->
+<!--                                <img src="/cr_internal_website_theme/static/src/img/3cx-crm-odoo.png"-->
+<!--                                     alt="3CX CRM Odoo Integration App"/>-->
+<!--                            </div>-->
+
+<!--                            &lt;!&ndash; Right Content &ndash;&gt;-->
+<!--                            <div class="crm-integration-content">-->
+
+<!--                                <h3>3CX CRM Odoo Integration</h3>-->
+<!--                                <p>-->
+<!--                                    Simplify your business communication with seamless integration between-->
+<!--                                    <strong>3CX</strong>-->
+<!--                                    and <strong>Odoo CRM</strong>.-->
+<!--                                    Our solution enables real-time call tracking, automatic lead creation,-->
+<!--                                    and efficient customer management — directly from Odoo.-->
+<!--                                    Empower your sales and support teams with a single powerful platform.-->
+<!--                                </p>-->
+<!--                                <a href="https://apps.odoo.com/apps/modules/18.0/cr_3cx_crm_connector" class="crm-btn">-->
+<!--                                    Learn More-->
+<!--                                </a>-->
+<!--                            </div>-->
+
+<!--                        </div>-->
+<!--                    </section>-->
+
+
+
+
+<!--                    <h2>Frequently Asked Questions</h2>-->
+<!--                    <dl>-->
+<!--                        <dt>Can CRM integrate with our email tools?</dt>-->
+<!--                        <dd>Yes, our CRM supports major email and communication tools.</dd>-->
+<!--                        <dt>Does it include sales automation?</dt>-->
+<!--                        <dd>Absolutely! Automate repetitive tasks and workflows to boost efficiency.</dd>-->
+<!--                        <dt>Do you provide training?</dt>-->
+<!--                        <dd>Yes, we offer hands-on training and continuous support for your team.</dd>-->
+<!--                    </dl>-->
+
+<!--                </div>-->
+            </div>
+        </section>
+
+    </template>
+
+<!--    <record id="cr_internal_website_theme.service2_crm_solution_000_scss" model="ir.asset">-->
+<!--        <field name="name">SERVICE-2 000 SCSS</field>-->
+<!--        <field name="bundle">web.assets_frontend</field>-->
+<!--        <field name="path">cr_internal_website_theme/static/src/snippets/service2_crm_solution/000.scss</field>-->
+<!--    </record>-->
+</odoo>

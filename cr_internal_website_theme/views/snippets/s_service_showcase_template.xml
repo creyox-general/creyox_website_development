@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!-- PARENT: Service Showcase -->
+    <template id="s_service_showcase" name="Service Showcase">
+        <section class="s_service_showcase cr_font sc-cols-4" data-snippet="s_service_showcase" data-name="Service Showcase">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">
+                        <t t-if="o_title_p1" t-esc="o_title_p1"/>
+                        <t t-else="">Everything you Need is</t>
+                        <span class="text-gradient">
+                            <t t-if="o_title_gradient" t-esc="o_title_gradient"/>
+                            <t t-else="">under the one roof</t>
+                        </span>
+                    </h2>
+                    <div class="title-underline mx-auto"></div>
+                    <p class="section-description mt-4 mx-auto">
+                        <t t-if="o_subtitle" t-esc="o_subtitle"/>
+                        <t t-else="">From strategy to support Creyox handles your complete ERP journey.</t>
+                    </p>
+                </div>
+
+                <!-- Service Cards Grid -->
+                <div class="row g-4 s_service_showcase_row">
+                    <!-- Card 1 -->
+                    <div t-attf-class="{{o_col_class or 'col-lg-3 col-md-6'}} s_service_card_wrapper" data-aos="fade-up">
+                        <div t-attf-class="service-card {{o_c1_theme or 'card-blue'}}">
+                            <div class="card-icon"><i t-att-class="o_c1_icon or 'fas fa-cogs'"/></div>
+                            <h3 class="card-title"><t t-esc="o_c1_title or 'ERP Solution'"/></h3>
+                            <p class="card-text"><t t-esc="o_c1_text or 'End-to-end cloud ERP solutions for businesses.'"/></p>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div t-attf-class="{{o_col_class or 'col-lg-3 col-md-6'}} s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <div t-attf-class="service-card {{o_c2_theme or 'card-dark'}}">
+                            <div class="card-icon"><i t-att-class="o_c2_icon or 'fas fa-users-cog'"/></div>
+                            <h3 class="card-title"><t t-esc="o_c2_title or 'CRM Solution'"/></h3>
+                            <p class="card-text"><t t-esc="o_c2_text or 'AI-powered CRM to track leads and close deals.'"/></p>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div t-attf-class="{{o_col_class or 'col-lg-3 col-md-6'}} s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                        <div t-attf-class="service-card {{o_c3_theme or 'card-blue'}}">
+                            <div class="card-icon"><i t-att-class="o_c3_icon or 'fas fa-cash-register'"/></div>
+                            <h3 class="card-title"><t t-esc="o_c3_title or 'POS Solution'"/></h3>
+                            <p class="card-text"><t t-esc="o_c3_text or 'Modern Point-of-Sale connected to inventory.'"/></p>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div t-attf-class="{{o_col_class or 'col-lg-3 col-md-6'}} s_service_card_wrapper" data-aos="fade-up" data-aos-delay="300">
+                        <div t-attf-class="service-card {{o_c4_theme or 'card-dark'}}">
+                            <div class="card-icon"><i t-att-class="o_c4_icon or 'fas fa-code'"/></div>
+                            <h3 class="card-title"><t t-esc="o_c4_title or 'Web Development'"/></h3>
+                            <p class="card-text"><t t-esc="o_c4_text or 'Business websites built to integrate with Odoo.'"/></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- SNIPPET OPTIONS -->
+    <template id="snippet_options_service_showcase" inherit_id="web_editor.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-js="ServiceShowcaseOptions"
+                 data-selector=".s_service_showcase"
+                 data-drop-in=".oe_structure"
+                 data-drop-near=".s_service_showcase, section"
+                 string="Service Showcase">
+
+                <we-collapse string="Header">
+                    <we-input string="Heading Part 1" data-set-heading-p1="" data-no-preview="true"/>
+                    <we-input string="Heading Gradient" data-set-heading-p2="" data-no-preview="true"/>
+                    <we-input string="Description" data-set-subtitle="" data-no-preview="true"/>
+                </we-collapse>
+
+                <we-select string="Columns per Row">
+                    <we-button data-select-class="sc-cols-2">2 Columns</we-button>
+                    <we-button data-select-class="sc-cols-3">3 Columns</we-button>
+                    <we-button data-select-class="sc-cols-4">4 Columns</we-button>
+                </we-select>
+
+                <we-button data-add-card="true" data-no-preview="true">➕ Add Block</we-button>
+                <we-button data-remove-last-card="true" data-no-preview="true">➖ Remove Block</we-button>
+
+                <we-collapse string="Cards Content">
+                    <t t-foreach="range(1, 21)" t-as="idx">
+                        <we-collapse t-attf-string="Card {{idx}}">
+                            <we-select string="Theme" data-set-card-theme="" t-att-data-index="idx">
+                                <we-button string="Blue" data-select-data-value="card-blue"/>
+                                <we-button string="Dark" data-select-data-value="card-dark"/>
+                            </we-select>
+                            <we-input string="Icon Class" data-set-card-icon="" t-att-data-index="idx" data-no-preview="true" placeholder="fas fa-cog"/>
+                            <we-input string="Title" data-set-card-title="" t-att-data-index="idx" data-no-preview="true"/>
+                            <we-textarea string="Description" data-set-card-text="" t-att-data-index="idx" data-no-preview="true"/>
+                        </we-collapse>
+                    </t>
+                </we-collapse>
+
+                <we-colorpicker string="Background Color" data-css-property="background-color"/>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

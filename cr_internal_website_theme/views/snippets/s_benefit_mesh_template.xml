@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <template id="s_benefit_mesh" name="Benefit Mesh">
+        <section class="s_benefit_mesh cr_font bm-cols-3" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">
+                        <t t-if="o_title_p1" t-esc="o_title_p1"/>
+                        <t t-else="">Benefits of</t>
+                        <span class="text-gradient">
+                            <t t-if="o_title_gradient" t-esc="o_title_gradient"/>
+                            <t t-else="">ERP Software Solution</t>
+                        </span>
+                    </h2>
+                    <div class="title-underline mx-auto"></div>
+                    <p class="section-description mt-4 mx-auto">
+                        <t t-if="o_subtitle" t-esc="o_subtitle"/>
+                        <t t-else="">Businesses that implement ERP Solution gain a competitive advantage by improving efficiency and visibility across all departments.</t>
+                    </p>
+                </div>
+
+                <!-- Cards Grid -->
+                <div class="row g-4 s_benefit_mesh_row justify-content-center">
+                    <!-- Card 1 -->
+                    <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                        <div class="benefit-card h-100">
+                            <div class="benefit-badge">01</div>
+                            <h3 class="card-title">Improved Business Efficiency</h3>
+                            <div class="accent-line"></div>
+                            <p class="card-text">Modern ERP systems automate repetitive tasks and simplify complex workflows, allowing employees to focus on high-value activities that drive growth.</p>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <div class="benefit-card h-100">
+                            <div class="benefit-badge">02</div>
+                            <h3 class="card-title">Better Decision Making</h3>
+                            <div class="accent-line"></div>
+                            <p class="card-text">With integrated real-time analytics and reporting, businesses can make informed decisions based on accurate data and centralized insights.</p>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                        <div class="benefit-card h-100">
+                            <div class="benefit-badge">03</div>
+                            <h3 class="card-title">Enhanced Collaboration</h3>
+                            <div class="accent-line"></div>
+                            <p class="card-text">ERP platforms centralize data across your organization, improving communication and teamwork by providing a single source of truth.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- SNIPPET OPTIONS -->
+    <template id="snippet_options_benefit_mesh" inherit_id="web_editor.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-js="BenefitMeshOptions"
+                 data-selector=".s_benefit_mesh"
+                 data-drop-in=".oe_structure"
+                 data-drop-near=".s_benefit_mesh, section"
+                 string="Benefit Mesh">
+
+                <we-collapse string="Header">
+                    <we-input string="Heading Part 1" data-set-heading-p1="" data-no-preview="true"/>
+                    <we-input string="Heading Part 2 (Gradient)" data-set-heading-p2="" data-no-preview="true"/>
+                    <we-input string="Description" data-set-subtitle="" data-no-preview="true"/>
+                </we-collapse>
+
+                <we-select string="Columns per Row">
+                    <we-button data-select-class="bm-cols-2">2 Columns</we-button>
+                    <we-button data-select-class="bm-cols-3">3 Columns</we-button>
+                    <we-button data-select-class="bm-cols-4">4 Columns</we-button>
+                </we-select>
+
+                <we-button data-add-card="true" data-no-preview="true">➕ Add Block</we-button>
+                <we-button data-remove-last-card="true" data-no-preview="true">➖ Remove Block</we-button>
+
+                <we-collapse string="Cards Content">
+                    <t t-foreach="range(1, 21)" t-as="idx">
+                        <we-collapse t-attf-string="Card {{idx}}">
+                            <we-input string="Title" data-set-card-title="" t-att-data-index="idx" data-no-preview="true"/>
+                            <we-textarea string="Description" data-set-card-text="" t-att-data-index="idx" data-no-preview="true"/>
+                        </we-collapse>
+                    </t>
+                </we-collapse>
+
+                <we-colorpicker string="Background Color" data-css-property="background-color"/>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

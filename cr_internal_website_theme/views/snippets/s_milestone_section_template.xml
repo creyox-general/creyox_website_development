@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <template id="s_milestone_section_template" name="Milestone Section">
+        <section class="milestone-light-section s_milestone_section cr_font"
+                 data-snippet="s_milestone_section"
+                 data-name="Milestone Section"
+                 aria-labelledby="milestones-heading">
+            <div class="milestone-wrapper">
+                <h2 id="milestones-heading" class="milestone-heading">
+                    <t t-if="o_heading" t-esc="o_heading"/>
+                    <t t-else="">The real time data of our Best Services</t>
+                </h2>
+                <div class="milestone-grid" role="list">
+                    <!-- Card 1 -->
+                    <div class="milestone-card" style="--i:1" role="listitem" data-card-index="1">
+                        <div class="milestone-icon" aria-hidden="true">
+                            <i t-att-class="o_card_1_icon or 'fas fa-smile'"/>
+                        </div>
+                        <h3>
+                            <span class="counter" t-att-data-count="o_card_1_count or '1250'">0</span>
+                            <t t-esc="o_card_1_suffix or '+'"/>
+                        </h3>
+                        <p><t t-esc="o_card_1_label or 'Happy Customers'"/></p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="milestone-card" style="--i:2" role="listitem" data-card-index="2">
+                        <div class="milestone-icon" aria-hidden="true">
+                            <i t-att-class="o_card_2_icon or 'fas fa-handshake'"/>
+                        </div>
+                        <h3>
+                            <span class="counter" t-att-data-count="o_card_2_count or '98'">0</span>
+                            <t t-esc="o_card_2_suffix or '%'"/>
+                        </h3>
+                        <p><t t-esc="o_card_2_label or 'Retention Rate'"/></p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="milestone-card" style="--i:3" role="listitem" data-card-index="3">
+                        <div class="milestone-icon" aria-hidden="true">
+                            <i t-att-class="o_card_3_icon or 'fas fa-industry'"/>
+                        </div>
+                        <h3>
+                            <span class="counter" t-att-data-count="o_card_3_count or '25'">0</span>
+                            <t t-esc="o_card_3_suffix or '+'"/>
+                        </h3>
+                        <p><t t-esc="o_card_3_label or 'Industries Served'"/></p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="milestone-card" style="--i:4" role="listitem" data-card-index="4">
+                        <div class="milestone-icon" aria-hidden="true">
+                            <i t-att-class="o_card_4_icon or 'fas fa-globe'"/>
+                        </div>
+                        <h3>
+                            <span class="counter" t-att-data-count="o_card_4_count or '40'">0</span>
+                            <t t-esc="o_card_4_suffix or '+'"/>
+                        </h3>
+                        <p><t t-esc="o_card_4_label or 'Countries Reached'"/></p>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="milestone-card" style="--i:5" role="listitem" data-card-index="5">
+                        <div class="milestone-icon" aria-hidden="true">
+                            <i t-att-class="o_card_5_icon or 'fas fa-mobile-alt'"/>
+                        </div>
+                        <h3>
+                            <span class="counter" t-att-data-count="o_card_5_count or '200'">0</span>
+                            <t t-esc="o_card_5_suffix or '+'"/>
+                        </h3>
+                        <p><t t-esc="o_card_5_label or 'Custom Odoo Apps'"/></p>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="milestone-card" style="--i:6" role="listitem" data-card-index="6">
+                        <div class="milestone-icon" aria-hidden="true">
+                            <i t-att-class="o_card_6_icon or 'fas fa-user-tie'"/>
+                        </div>
+                        <h3>
+                            <span class="counter" t-att-data-count="o_card_6_count or '8'">0</span>
+                            <t t-esc="o_card_6_suffix or '+'"/>
+                        </h3>
+                        <p><t t-esc="o_card_6_label or 'Years Experts'"/></p>
+                    </div>
+                </div>
+            </div>
+            <t t-out="0"/>
+        </section>
+    </template>
+
+    <!-- Snippet Options -->
+    <template id="snippet_options_milestone_section" inherit_id="web_editor.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-js="MilestoneSectionOptions"
+                 data-selector=".s_milestone_section"
+                 data-drop-in=".oe_structure"
+                 data-drop-near=".s_milestone_section, section"
+                 string="Milestone Section">
+
+                <we-input string="Section Heading" data-set-heading="" data-no-preview="true"/>
+                <we-colorpicker string="Background Color" data-css-property="background-color"/>
+
+                <we-collapse string="Cards">
+                    <t t-foreach="[1,2,3,4,5,6]" t-as="idx">
+                        <we-collapse t-attf-string="Card {{idx}}">
+                            <we-input string="Icon Class" data-set-card-icon="" t-att-data-card-index="idx" data-no-preview="true"/>
+                            <we-input string="Count" data-set-card-count="" t-att-data-card-index="idx" data-no-preview="true"/>
+                            <we-input string="Suffix" data-set-card-suffix="" t-att-data-card-index="idx" data-no-preview="true"/>
+                            <we-input string="Label" data-set-card-label="" t-att-data-card-index="idx" data-no-preview="true"/>
+                        </we-collapse>
+                    </t>
+                </we-collapse>
+            </div>
+        </xpath>
+    </template>
+
+    <!-- Assets -->
+    <record id="cr_internal_website_theme.s_milestone_section_000_scss" model="ir.asset">
+        <field name="name">s_milestone_section 000 SCSS</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">cr_internal_website_theme/static/src/snippets/s_milestone_section_template/000.scss</field>
+    </record>
+
+    <record id="cr_internal_website_theme.s_milestone_section_000_js" model="ir.asset">
+        <field name="name">s_milestone_section 000 JS</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">cr_internal_website_theme/static/src/snippets/s_milestone_section_template/000.js</field>
+    </record>
+
+</odoo>

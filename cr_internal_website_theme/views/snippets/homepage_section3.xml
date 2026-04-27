@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="homepage_section3" name="ERP Pain Points">
+        <div class="oe_structure" id="oe_structure_erp_pain_points_1">
+            <section class="s_erp_pain_points cr_font" data-snippet="s_erp_pain_points" data-name="ERP Pain Points">
+                <div class="erp-container">
+                    <!-- Section Header -->
+                    <div class="erp-header-group" data-aos="fade-up">
+                        <h2 class="erp-title">Is Your Business Still Running Outdated ERP and Disconnected Tools?</h2>
+                        <p class="erp-subtitle">
+                            Thousands of small and mid-sized businesses are losing time, money and competitive edge to outdated software every day. If you're still running your business on spreadsheets, legacy ERP, or a patchwork of disconnected tools you already know the pain.
+                        </p>
+                    </div>
+
+                    <!-- The Redesigned 3x2 Unified Grid -->
+                    <div class="connected-matrix" data-aos="fade-up">
+                        
+                        <!-- First Row: Blocks 01, 02, 03 -->
+                        <div class="row g-4 mb-4">
+                            <!-- Card 01 -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="matrix-block pure-bento-card" data-aos="fade-up">
+                                    <span class="bento-index">01</span>
+                                    <div class="bento-content">
+                                        <h3 class="bento-title">Data in silos</h3>
+                                        <p class="bento-text">No single source of truth decisions made on guesswork</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 02 -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="matrix-block pure-bento-card highlight" data-aos="fade-up" data-aos-delay="100">
+                                    <span class="bento-index">02</span>
+                                    <div class="bento-content">
+                                        <h3 class="bento-title">High legacy ERP costs</h3>
+                                        <p class="bento-text">Expensive licenses + slow customization drain your budget</p>
+                                    </div>
+                                    <div class="bento-accent-dot"></div>
+                                </div>
+                            </div>
+                            <!-- Card 03 -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="matrix-block pure-bento-card" data-aos="fade-up" data-aos-delay="200">
+                                    <span class="bento-index">03</span>
+                                    <div class="bento-content">
+                                        <h3 class="bento-title">Manual processes</h3>
+                                        <p class="bento-text">Hours wasted on data entry, approvals &amp; reports that should be automated</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Second Row: Blocks 04, 05, 06 -->
+                        <div class="row g-4">
+                            <!-- Card 04 -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="matrix-block pure-bento-card highlight" data-aos="fade-up">
+                                    <span class="bento-index">04</span>
+                                    <div class="bento-content">
+                                        <h3 class="bento-title">No mobile access</h3>
+                                        <p class="bento-text">Your team can't work from anywhere productivity suffers</p>
+                                    </div>
+                                    <div class="bento-accent-dot"></div>
+                                </div>
+                            </div>
+                            <!-- Card 05 -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="matrix-block pure-bento-card" data-aos="fade-up" data-aos-delay="100">
+                                    <span class="bento-index">05</span>
+                                    <div class="bento-content">
+                                        <h3 class="bento-title">No AI capabilities</h3>
+                                        <p class="bento-text">Competitors using AI-driven ERP gain speed &amp; insight you're missing</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 06 -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="matrix-block pure-bento-card highlight" data-aos="fade-up" data-aos-delay="200">
+                                    <span class="bento-index">06</span>
+                                    <div class="bento-content">
+                                        <h3 class="bento-title">Poor integrations</h3>
+                                        <p class="bento-text">Tools are not connected to each other creating duplicate work &amp; errors.</p>
+                                    </div>
+                                    <div class="bento-accent-dot"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </template>
+</odoo>

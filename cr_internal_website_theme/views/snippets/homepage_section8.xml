@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="homepage_section8" name="ERP Implementation Process">
+        <!-- Kinetic Process Snippet -->
+        <div class="oe_structure">
+            <section class="s_kinetic_process py-5"
+                     data-snippet="s_kinetic_process"
+                     data-name="Kinetic Process">
+                <div class="container-fluid px-lg-5">
+                    
+                    <!-- Section Header -->
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Our Proven <span class="text-gradient">ERP Implementation</span> Process
+                        </h2>
+                        <p class="section-subtitle mt-2">
+                            A precision-engineered methodology for enterprise transformation. No compromises.
+                        </p>
+                    </div>
+
+                    <div class="kinetic-grid-container" data-aos="fade-up" data-aos-delay="50">
+                        <!-- Row 1 -->
+                        <div class="row g-4 mb-4 s_kinetic_row_1">
+                            <!-- Phase 1 -->
+                            <div class="col-lg-8 phase-block" data-aos="fade-up">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">01</div>
+                                    <h3 class="card-title">Discovery &amp; Consulting</h3>
+                                    <p class="card-desc">We analyze your existing business architecture, identifying core operational challenges and defining a strategic Odoo roadmap tailored to your specific organizational goals and future growth.</p>
+                                </div>
+                            </div>
+                            <!-- Phase 2 -->
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="100">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">02</div>
+                                    <h3 class="card-title">Solution Design</h3>
+                                    <p class="card-desc">Translating requirements into a technical blueprint. We design customized Odoo architecture aligned with your business.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Row 2 -->
+                        <div class="row g-4 s_kinetic_row_2">
+                            <!-- Phase 3 -->
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="200">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">03</div>
+                                    <h3 class="card-title">Development</h3>
+                                    <p class="card-desc">Configuring the Odoo platform and developing bespoke modules adapted to your requirements with clean, scalable code.</p>
+                                </div>
+                            </div>
+                            <!-- Phase 4 -->
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="300">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">04</div>
+                                    <h3 class="card-title">Integration &amp; Testing</h3>
+                                    <p class="card-desc">Seamlessly migrating legacy data and integrating systems with rigorous testing to ensure a stable transformation.</p>
+                                </div>
+                            </div>
+                            <!-- Phase 5 -->
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="400">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">05</div>
+                                    <h3 class="card-title">Launch &amp; Support</h3>
+                                    <p class="card-desc">Full system switch-on with dedicated team training and ongoing proactive maintenance to optimize your investment.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </template>
+</odoo>

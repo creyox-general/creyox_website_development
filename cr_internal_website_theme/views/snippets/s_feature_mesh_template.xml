@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="s_feature_mesh" name="Feature Mesh">
+        <section class="s_feature_mesh cr_font sg-cols-3"
+                 data-snippet="s_feature_mesh"
+                 data-name="Feature Mesh">
+            <div class="container py-5">
+
+                <!-- Section Header -->
+                <div class="section-header text-center mb-5" data-aos="fade-up">
+                    <h2 class="mesh-title">
+                        Key ERP Features That Simplify
+                        <span class="text-gradient">Business Operations</span>
+                    </h2>
+                    <div class="title-underline mx-auto"></div>
+                    <p class="mesh-main-text mt-4 mx-auto">
+                        Our ERP Implementation Services help businesses to adopt a powerful ERP platform
+                        that aligns with their unique processes and operational goals. Centralizing customer
+                        data, automating routine tasks, and providing real-time insights, our ERP solution
+                        enables organizations to manage operations more effectively, improve performance,
+                        and build stronger long-term capabilities within their business.
+                    </p>
+                </div>
+
+                <!-- Split-Zone Card Grid -->
+                <div class="row g-4 fm-card-row">
+
+                    <!-- Card 1 -->
+                    <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                        <div class="split-card">
+                            <div class="card-title-zone">
+                                <h3 class="card-title">CRM Management</h3>
+                            </div>
+                            <div class="card-body-zone">
+                                <p class="card-text">Centralize customer data, track leads, and manage your sales pipeline in one place. Improve engagement, automate follow-ups, and strengthen relationships across teams.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                        <div class="split-card">
+                            <div class="card-title-zone">
+                                <h3 class="card-title">Inventory Control</h3>
+                            </div>
+                            <div class="card-body-zone">
+                                <p class="card-text">Monitor stock levels in real time and automate inventory tracking across warehouses. Prevent shortages, improve accuracy, and maintain better control of inventory.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                        <div class="split-card">
+                            <div class="card-title-zone">
+                                <h3 class="card-title">HR &amp; Payroll</h3>
+                            </div>
+                            <div class="card-body-zone">
+                                <p class="card-text">Manage employee records, attendance, and payroll from one platform. Automate HR processes, reduce manual work, and ensure accurate salary processing and compliance.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                        <div class="split-card">
+                            <div class="card-title-zone">
+                                <h3 class="card-title">Accounting &amp; Finance</h3>
+                            </div>
+                            <div class="card-body-zone">
+                                <p class="card-text">Handle invoicing, expenses, and financial reports with integrated tools. Track cash flow, manage multi-currency transactions, and improve financial visibility.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                        <div class="split-card">
+                            <div class="card-title-zone">
+                                <h3 class="card-title">Supply Chain Management</h3>
+                            </div>
+                            <div class="card-body-zone">
+                                <p class="card-text">Streamline procurement, supplier coordination, and warehouse operations. Track goods in real time, optimize logistics, and improve efficiency across the supply chain.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                        <div class="split-card">
+                            <div class="card-title-zone">
+                                <h3 class="card-title">Project Management</h3>
+                            </div>
+                            <div class="card-body-zone">
+                                <p class="card-text">Plan tasks, assign teams, and monitor project progress in one platform. Improve collaboration, track deadlines, and ensure projects are delivered on time and within budget.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </template>
+
+    <!-- SNIPPET OPTIONS -->
+    <template id="s_feature_mesh_options" inherit_id="website.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-selector=".s_feature_mesh" data-js="FeatureMeshOptions" string="Feature Mesh">
+
+                <!-- Columns per Row -->
+                <we-select string="Columns per Row">
+                    <we-button data-select-class="sg-cols-2">2 Columns</we-button>
+                    <we-button data-select-class="sg-cols-3">3 Columns</we-button>
+                    <we-button data-select-class="sg-cols-4">4 Columns</we-button>
+                </we-select>
+
+                <!-- Add / Remove Blocks -->
+                <we-button data-add-card="true" data-no-preview="true" string="Add Block">
+                    ➕ Add Block
+                </we-button>
+                <we-button data-remove-last-card="true" data-no-preview="true" string="Remove Block">
+                    ➖ Remove Block
+                </we-button>
+
+                <!-- Header Options -->
+                <we-collapse string="Section Header">
+                    <we-input string="Main Title" data-set-title="" data-no-preview="true" placeholder="Key ERP Features..."/>
+                    <we-input string="Gradient Word" data-set-gradient-word="" data-no-preview="true" placeholder="Business Operations"/>
+                    <we-textarea string="Subtitle" data-set-subtitle="" data-no-preview="true" placeholder="Our ERP services..."/>
+                </we-collapse>
+
+                <!-- Cards Content -->
+                <we-collapse string="Cards Content">
+                    <we-collapse string="Card 1">
+                        <we-input string="Title" data-set-card-title="" data-index="1" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-card-text="" data-index="1" data-no-preview="true"/>
+                    </we-collapse>
+                    <we-collapse string="Card 2">
+                        <we-input string="Title" data-set-card-title="" data-index="2" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-card-text="" data-index="2" data-no-preview="true"/>
+                    </we-collapse>
+                    <we-collapse string="Card 3">
+                        <we-input string="Title" data-set-card-title="" data-index="3" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-card-text="" data-index="3" data-no-preview="true"/>
+                    </we-collapse>
+                    <we-collapse string="Card 4">
+                        <we-input string="Title" data-set-card-title="" data-index="4" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-card-text="" data-index="4" data-no-preview="true"/>
+                    </we-collapse>
+                    <we-collapse string="Card 5">
+                        <we-input string="Title" data-set-card-title="" data-index="5" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-card-text="" data-index="5" data-no-preview="true"/>
+                    </we-collapse>
+                    <we-collapse string="Card 6">
+                        <we-input string="Title" data-set-card-title="" data-index="6" data-no-preview="true"/>
+                        <we-textarea string="Description" data-set-card-text="" data-index="6" data-no-preview="true"/>
+                    </we-collapse>
+                </we-collapse>
+
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="s_service_intro_banner" name="Service Intro Banner">
+        <section class="s_service_intro_banner service-intro-banner hero-section-wave cr_font"
+                 data-snippet="s_service_intro_banner"
+                 data-name="Service Intro Banner">
+            <div class="container">
+                <div class="banner-inner-content">
+                    <h1 class="banner-main-title">
+                        <t t-if="o_title">
+                            <t t-esc="o_title"/>
+                        </t>
+                        <t t-else="">
+                            Comprehensive ERP Solutions for Your Business
+                        </t>
+                    </h1>
+                    <p class="banner-tagline">
+                        <t t-if="o_tagline">
+                            <t t-esc="o_tagline"/>
+                        </t>
+                        <t t-else="">
+                            Streamline operations, boost efficiency, and drive growth with our tailored ERP implementation and support services.
+                        </t>
+                    </p>
+                    <nav aria-label="breadcrumb">
+                        <ul class="banner-breadcrumbs">
+                            <li>
+                                <a class="breadcrumb-link" href="/">
+                                    Home
+                                    <span class="breadcrumb-separator fa fa-angle-right"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <span class="breadcrumb-current" aria-current="page">
+                                    <t t-if="o_breadcrumb">
+                                        <t t-esc="o_breadcrumb"/>
+                                    </t>
+                                    <t t-else="">
+                                        ERP Solutions
+                                    </t>
+                                </span>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <record id="cr_internal_website_theme.s_service_intro_banner_000_scss" model="ir.asset">
+        <field name="name">s_service_intro_banner 000 SCSS</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">cr_internal_website_theme/static/src/snippets/s_service_intro_banner/000.scss</field>
+    </record>
+</odoo>

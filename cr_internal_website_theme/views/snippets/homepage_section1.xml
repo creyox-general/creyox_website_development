@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="homepage_section1" name="Homepage Hero">
+        <section class="s_homepage_hero bg-white cr_font">
+            <div class="container-fluid px-lg-5">
+                <div class="row align-items-center min-vh-100 py-5">
+                    <!-- Left Column: Content -->
+                    <div class="col-lg-6 ps-lg-5" data-aos="fade-right">
+                        <div class="hero-content-wrapper">
+                            <h1 class="hero-title mb-4">
+                                Leading Odoo Development Company for <span class="text-gradient">ERP Implementation</span> &amp; Business Automation
+                            </h1>
+                            <p class="hero-text mb-5">
+                                From ERP implementation to custom Odoo development Creyox Technologies delivers cloud ERP solutions that automate workflows, unify data, and scale with your ambition.
+                            </p>
+                            <div class="hero-actions">
+                                <a href="/contactus" class="cta-button">
+                                    <span>Get Started Now</span>
+                                    <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 text-center position-relative" data-aos="fade-left">
+                        <div class="hero-image-container">
+                            <img src="/cr_internal_website_theme/static/src/img/homepage_hero_flipped_clean.png" 
+                                 class="img-fluid hero-main-img" 
+                                 alt="Odoo ERP Professional"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

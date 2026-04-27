@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- Hero Snippet Template -->
+    <template id="service1_erp_solution" name="service1_erp_solution">
+        <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        />
+        <div class="oe_structure" id="oe_structure_service1_intro_banner">
+            <section class="s_service_intro_banner service-intro-banner hero-section-wave cr_font"
+                     data-snippet="s_service_intro_banner"
+                     data-name="Service Intro Banner">
+                <div class="container">
+                    <div class="banner-inner-content">
+                        <h1 class="banner-main-title">
+                            Comprehensive ERP Solutions for Your Business
+                        </h1>
+                        <p class="banner-tagline">
+                            Streamline operations, boost efficiency, and drive growth with our tailored ERP implementation and support services.
+                        </p>
+                        <nav aria-label="breadcrumb">
+                            <ul class="banner-breadcrumbs">
+                                <li>
+                                    <a class="breadcrumb-link" href="/">
+                                        Home
+                                        <span class="breadcrumb-separator fa fa-angle-right"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <span class="breadcrumb-current" aria-current="page">ERP Solutions</span>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="cr-erp-solution-intro o_website_snippet cr_font" aria-labelledby="erp-solution-heading">
+            <div class="cr-erp-container">
+                <!-- First Row: Heading Left / Image Right -->
+                <div class="oe_structure" id="oe_structure_erp_header">
+                    <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
+                             data-snippet="s_comprehensive_service"
+                             data-name="Comprehensive Service">
+                        <div class="container py-5">
+                            
+                            <!-- First Row: Heading -->
+                            <div class="row mb-5 pb-lg-3">
+                                <div class="col-12 text-center" data-aos="fade-down">
+                                    <h2 class="partner-title mb-3">
+                                        Best ERP Solution Provider for
+                                        <span class="text-gradient">Modern Businesses</span>
+                                    </h2>
+                                    <!-- Small decorative underline -->
+                                    <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                                </div>
+                            </div>
+                            
+                            <!-- Second Row: Text and Image -->
+                            <div class="row align-items-center gx-0">
+                                
+                                <div class="col-lg-6 mb-5 mb-lg-0 p-0" data-aos="fade-right">
+                                    <div class="partner-content-box text-start">
+                                        <p class="partner-description partner-desc-1 w-100 mb-3">
+                                            Looking for an ERP solution provider that can simplify your business operations and improve efficiency? Then you are in the right place. Creyox is a trusted ERP software solution provider that helps businesses streamline operations with powerful and scalable ERP software solutions.
+                                        </p>
+                                        <p class="partner-description partner-desc-2 w-100 mb-4">
+                                            Our custom ERP solutions integrate key business functions such as finance, inventory, sales, and human resources into one centralized platform. With advanced cloud ERP solutions, small or medium businesses can automate workflows, gain real-time insights, and improve decision making. Whether you are a growing startup or an established enterprise, our ERP solution services are designed to increase efficiency, reduce operational complexity, and support long term business growth.
+                                        </p>
+                                        <div class="partner-cta-group">
+                                            <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                                <span>Get ERP Consultation</span>
+                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-6 p-0" data-aos="fade-left" data-aos-delay="100">
+                                    <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
+                                        <img src="/cr_internal_website_theme/static/src/img/erp-solution.png"
+                                             alt="ERP Solutions"
+                                             class="img-fluid w-100" 
+                                             style="object-fit: contain; transform: scale(1.4); transform-origin: left center; z-index: 1;"/>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- ERP Software Solutions Section -->
+                <div class="oe_structure" id="oe_structure_erp_software_solutions">
+                    <section class="s_erp_pain_points cr_font" data-snippet="s_erp_pain_points" data-name="ERP Software Solutions">
+                        <div class="erp-container">
+                            <!-- Section Header -->
+                            <div class="erp-header-group text-center mb-5" data-aos="fade-up">
+                                <h2 class="erp-title">
+                                    Our ERP Software Solutions
+                                </h2>
+                                <p class="erp-subtitle mx-auto" style="max-width: 900px;">
+                                    Businesses need more than just software. Small and medium-sized businesses need a solution that brings different business processes together, improves efficiency, and supports long-term growth. As a trusted ERP solution provider, Creyox delivers ERP services and customized ERP solutions designed specifically for small and medium businesses, helping them implement, optimize, and manage their ERP platforms for better performance, improved visibility, and smarter decision-making.
+                                </p>
+                            </div>
+
+                            <!-- The Redesigned 3x2 Unified Grid -->
+                            <div class="connected-matrix" data-aos="fade-up">
+
+                                <!-- First Row -->
+                                <div class="row g-4 mb-4">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="matrix-block pure-bento-card highlight" data-aos="fade-up">
+                                            <span class="bento-index">01</span>
+                                            <div class="bento-content">
+                                                <h3 class="bento-title">ERP Consulting</h3>
+                                                <p class="bento-text">Our ERP experts analyze your current workflows and business challenges to recommend the right ERP strategy. We help you choose the best system, design the right architecture, and plan a smooth digital transformation. This helps businesses implement an ERP solution that truly supports their operational goals and long-term growth.</p>
+                                            </div>
+                                            <div class="bento-accent-dot"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="matrix-block pure-bento-card" data-aos="fade-up" data-aos-delay="100">
+                                            <span class="bento-index">02</span>
+                                            <div class="bento-content">
+                                                <h3 class="bento-title">Custom ERP Development</h3>
+                                                <p class="bento-text">Every organization operates differently. We develop custom ERP solutions tailored to your business processes, including custom modules, automation workflows, dashboards, and industry-specific features. This allows your team to work with a system that fits your workflows instead of adjusting your processes to generic software.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="matrix-block pure-bento-card highlight" data-aos="fade-up" data-aos-delay="200">
+                                            <span class="bento-index">03</span>
+                                            <div class="bento-content">
+                                                <h3 class="bento-title">Cloud ERP Solutions</h3>
+                                                <p class="bento-text">Our cloud-based ERP solutions allow businesses to access their systems from anywhere while ensuring security, scalability, and lower infrastructure costs. This makes it easier for teams to collaborate, manage operations remotely, and keep business data accessible at all times.</p>
+                                            </div>
+                                            <div class="bento-accent-dot"/>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Second Row -->
+                                <div class="row g-4">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="matrix-block pure-bento-card" data-aos="fade-up">
+                                            <span class="bento-index">04</span>
+                                            <div class="bento-content">
+                                                <h3 class="bento-title">ERP Implementation</h3>
+                                                <p class="bento-text">We provide end-to-end ERP implementation services, including system setup, data migration, configuration, testing, and user training to ensure a smooth deployment. Our structured implementation approach helps businesses adopt the new system efficiently with minimal disruption to daily operations.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="matrix-block pure-bento-card highlight" data-aos="fade-up" data-aos-delay="100">
+                                            <span class="bento-index">05</span>
+                                            <div class="bento-content">
+                                                <h3 class="bento-title">ERP Integration</h3>
+                                                <p class="bento-text">Our integration services connect your ERP with other business tools such as CRM systems, accounting software, e-commerce platforms, and analytics tools for seamless data flow. By connecting these systems, businesses can reduce manual data entry and improve overall operational efficiency.</p>
+                                            </div>
+                                            <div class="bento-accent-dot"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="matrix-block pure-bento-card" data-aos="fade-up" data-aos-delay="200">
+                                            <span class="bento-index">06</span>
+                                            <div class="bento-content">
+                                                <h3 class="bento-title">ERP Support &amp; Maintenance</h3>
+                                                <p class="bento-text">We provide ongoing support to keep your ERP system running efficiently with system monitoring, troubleshooting, security updates, and performance optimization. Regular maintenance also ensures your ERP system continues to perform reliably as your business grows.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- ERP CTA Section -->
+                <div class="oe_structure" id="oe_structure_erp_cta_after_solutions">
+                    <section class="s_erp_cta_wrapper" style="background: transparent;">
+                        <div class="container py-5">
+                            <div class="erp-cta-section rounded-3" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
+
+                                <div class="container erp-cta-container">
+                                    <div class="erp-cta-row">
+                                        <!-- Text Block -->
+                                        <div class="erp-cta-text">
+                                            <h2 id="erp-cta-heading">
+                                                Ready to <span class="highlight">Transform Your Business</span> with ERP?
+                                            </h2>
+                                        </div>
+
+                                        <!-- Button -->
+                                        <div class="erp-cta-button-wrapper">
+                                            <a href="#erp-demo-form" class="cta-button light" title="Schedule Free ERP Demo"
+                                               aria-label="Get ERP Demo">
+                                                <span>Schedule a Free Demo</span>
+                                                <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Why Choose Us Section -->
+                <div class="oe_structure" id="oe_structure_erp_why_choose_us">
+                    <section class="s_specialist_grid py-5 sg-cols-4 cr_font" data-snippet="s_specialist_grid" data-name="Specialist Grid">
+                        <div class="container">
+                            <!-- Section Header -->
+                            <div class="section-header text-center mb-5" data-aos="fade-up">
+                                <h2 class="section-title">
+                                    Why Choose Creyox
+                                    <span class="text-gradient">as Your ERP Solution Provider?</span>
+                                </h2>
+                                <p class="section-subtitle mt-4 mx-auto" style="max-width: 900px; font-size: 1.1rem; line-height: 1.6;">
+                                    Choosing the right ERP Solution Provider can make a significant difference in how efficiently your business operates and grows. At Creyox, we focus on delivering reliable and scalable ERP solutions that help businesses simplify operations, improve data visibility, and make smarter decisions. Our experienced team works closely with clients to understand their business processes and implement ERP solutions that increase productivity, reduce manual work, and support long-term growth.
+                                </p>
+                            </div>
+
+                            <!-- Specialist Grid -->
+                            <div class="specialist-grid-container">
+                                <div class="row g-4 s_specialist_grid_row justify-content-center">
+                                    <!-- Card 1 -->
+                                    <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">01</div>
+                                            <h3 class="card-title">AI-Powered Insights</h3>
+                                            <p class="card-text">Leverage AI to analyze data and predict trends for smarter decision-making.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Card 2 -->
+                                    <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">02</div>
+                                            <h3 class="card-title">Cloud Accessibility</h3>
+                                            <p class="card-text">Access your ERP system anytime, anywhere securely via the cloud.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Card 3 -->
+                                    <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">03</div>
+                                            <h3 class="card-title">Mobile-First Design</h3>
+                                            <p class="card-text">Manage operations on-the-go with fully responsive mobile apps.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Card 4 -->
+                                    <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="300">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">04</div>
+                                            <h3 class="card-title">Security &amp; Compliance</h3>
+                                            <p class="card-text">Ensure data privacy and regulatory compliance with advanced security features.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Card 5 -->
+                                    <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="400">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">05</div>
+                                            <h3 class="card-title">Custom Workflows</h3>
+                                            <p class="card-text">Tailor dashboards and workflows to fit your unique processes.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Card 6 -->
+                                    <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="500">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">06</div>
+                                            <h3 class="card-title">Multi-Currency &amp; Multi-Language</h3>
+                                            <p class="card-text">Perfect for global operations with multiple currencies and languages.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Card 7 -->
+                                    <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="600">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">07</div>
+                                            <h3 class="card-title">Integration Hub</h3>
+                                            <p class="card-text">Connect seamlessly with other business apps for smooth operations.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Card 8 -->
+                                    <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="700">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">08</div>
+                                            <h3 class="card-title">Automated Reporting</h3>
+                                            <p class="card-text">Generate real-time and scheduled reports for finance and management teams.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Card 9 -->
+                                    <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">09</div>
+                                            <h3 class="card-title">Scalable Architecture</h3>
+                                            <p class="card-text">Easily scale your ERP system as your business grows.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Card 10 -->
+                                    <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="specialist-card h-100">
+                                            <div class="card-digit">10</div>
+                                            <h3 class="card-title">24/7 Support &amp; Training</h3>
+                                            <p class="card-text">Dedicated assistance ensures smooth adoption and operation.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Implementation Process Showcase -->
+                <div class="oe_structure" id="oe_structure_erp_implementation_process">
+                    <section class="s_service_showcase cr_font sc-cols-3 py-5" data-snippet="s_service_showcase" data-name="Service Showcase">
+                        <div class="container">
+                            <!-- Section Header -->
+                            <div class="section-header text-center mb-5" data-aos="fade-up">
+                                <h2 class="section-title">
+                                    Our ERP Implementation
+                                    <span class="text-gradient">Process</span>
+                                </h2>
+                                <div class="title-underline mx-auto"></div>
+                                <p class="section-description mt-4 mx-auto" style="max-width: 900px; font-size: 1.1rem; line-height: 1.6;">
+                                    Successful ERP implementation requires careful planning and the right expertise. As an experienced ERP solution provider, Creyox follows a structured ERP implementation process that ensures smooth deployment, minimal disruption, and long-term business value for your business.
+                                </p>
+                            </div>
+
+                            <!-- Service Cards Grid -->
+                            <div class="row g-4 s_service_showcase_row">
+                                <!-- Card 1 -->
+                                <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                                    <div class="service-card card-blue h-100">
+                                        <div class="card-icon"><i class="fas fa-chart-pie"/></div>
+                                        <h3 class="card-title">1. Business Analysis</h3>
+                                        <p class="card-text">Our team evaluates your existing systems, workflows, and business goals to define the right ERP strategy.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 2 -->
+                                <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="service-card card-dark h-100">
+                                        <div class="card-icon"><i class="fas fa-drafting-compass"/></div>
+                                        <h3 class="card-title">2. System Design</h3>
+                                        <p class="card-text">We design a customized ERP architecture that aligns with your operational needs and future growth.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 3 -->
+                                <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="service-card card-blue h-100">
+                                        <div class="card-icon"><i class="fas fa-laptop-code"/></div>
+                                        <h3 class="card-title">3. Development and Customization</h3>
+                                        <p class="card-text">Our developers build tailored modules, workflows, and configurations to match your business processes.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 4 -->
+                                <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                                    <div class="service-card card-dark h-100">
+                                        <div class="card-icon"><i class="fas fa-network-wired"/></div>
+                                        <h3 class="card-title">4. Integration and Testing</h3>
+                                        <p class="card-text">We integrate the ERP solution with your existing tools and perform detailed testing to ensure smooth performance.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 5 -->
+                                <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="service-card card-blue h-100">
+                                        <div class="card-icon"><i class="fas fa-rocket"/></div>
+                                        <h3 class="card-title">5. Deployment and Training</h3>
+                                        <p class="card-text">The system is deployed in your environment and your team receives training to ensure smooth adoption.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 6 -->
+                                <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="service-card card-dark h-100">
+                                        <div class="card-icon"><i class="fas fa-headset"/></div>
+                                        <h3 class="card-title">6. Ongoing Support</h3>
+                                        <p class="card-text">Our experts provide continuous support, monitoring, and optimization to ensure long-term success.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Key ERP Features Section -->
+                <div class="oe_structure" id="oe_structure_erp_key_features">
+                    <t t-call="cr_internal_website_theme.s_feature_mesh"/>
+                </div>
+
+                <!-- Benefits of ERP Section -->
+                <div class="oe_structure" id="oe_structure_erp_benefits">
+                    <section class="s_benefit_mesh cr_font bm-cols-3" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
+                         <div class="container">
+                            <!-- Section Header -->
+                            <div class="section-header text-center mb-5" data-aos="fade-up">
+                                <h2 class="section-title">
+                                    Benefits of
+                                    <span class="text-gradient">ERP Software Solution</span>
+                                </h2>
+                                <div class="title-underline mx-auto"></div>
+                                <p class="section-description mt-4 mx-auto">
+                                    Businesses that implement ERP Solution gain a competitive advantage by improving efficiency and visibility across all departments.
+                                </p>
+                            </div>
+
+                            <!-- Cards Grid -->
+                            <div class="row g-4 s_benefit_mesh_row justify-content-center">
+                                <!-- Card 1 -->
+                                <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                                    <div class="benefit-card h-100">
+                                        <div class="benefit-badge">01</div>
+                                        <h3 class="card-title">Improved Business Efficiency</h3>
+                                        <div class="accent-line"></div>
+                                        <p class="card-text">ERP systems automate repetitive tasks and simplify workflows, allowing employees to focus on high-value activities. By reducing manual work and minimizing errors, businesses can complete daily operations faster and improve overall productivity across departments.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 2 -->
+                                <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="benefit-card h-100">
+                                        <div class="benefit-badge">02</div>
+                                        <h3 class="card-title">Better Decision Making</h3>
+                                        <div class="accent-line"></div>
+                                        <p class="card-text">With real-time analytics and reporting, businesses can make informed decisions based on accurate data. Managers gain better visibility into operations, financial performance, and customer activity, helping them identify opportunities, reduce risks, and plan more effectively.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 3 -->
+                                <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="benefit-card h-100">
+                                        <div class="benefit-badge">03</div>
+                                        <h3 class="card-title">Enhanced Collaboration</h3>
+                                        <div class="accent-line"></div>
+                                        <p class="card-text">ERP platforms centralize data across departments, improving communication and teamwork. When teams work with the same information, it becomes easier to coordinate tasks, share updates, and maintain transparency across the organization.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 4 -->
+                                <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                                    <div class="benefit-card h-100">
+                                        <div class="benefit-badge">04</div>
+                                        <h3 class="card-title">Reduced Operational Costs</h3>
+                                        <div class="accent-line"></div>
+                                        <p class="card-text">Automation and improved resource management help businesses reduce operational expenses. By optimizing inventory levels, minimizing manual errors, and streamlining processes, organizations can control costs while improving operational efficiency.</p>
+                                    </div>
+                                </div>
+                                <!-- Card 5 -->
+                                <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="benefit-card h-100">
+                                        <div class="benefit-badge">05</div>
+                                        <h3 class="card-title">Scalability for Business Growth</h3>
+                                        <div class="accent-line"></div>
+                                        <p class="card-text">A modern ERP system grows with your business and adapts to changing requirements. As companies expand, they can add new modules, support more users, and manage increasing operational complexity without needing to switch to a completely new system.</p>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                    </section>
+                </div>
+                    
+
+            </div>
+        </section>
+
+
+    </template>
+
+    <record id="cr_internal_website_theme.service1_erp_solution_000_scss" model="ir.asset">
+        <field name="name">SERVICE-1 000 SCSS</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">cr_internal_website_theme/static/src/snippets/service1_erp_solution/000.scss</field>
+    </record>
+
+    <record id="cr_internal_website_theme.service1_erp_solution_000_js" model="ir.asset">
+        <field name="name">SERVICE-1 000 JS</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">cr_internal_website_theme/static/src/snippets/service1_erp_solution/000.js</field>
+    </record>
+</odoo>

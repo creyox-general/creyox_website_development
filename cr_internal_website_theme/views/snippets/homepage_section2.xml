@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="homepage_section2" name="Social Proof Bar">
+        <div class="oe_structure" id="oe_structure_milestone_1">
+            <section class="milestone-light-section s_milestone_section cr_font"
+                     data-snippet="s_milestone_section"
+                     data-name="Milestone Section"
+                     aria-labelledby="milestones-heading">
+                <div class="milestone-wrapper">
+                    <h2 id="milestones-heading" class="milestone-heading" data-aos="fade-up">The real time data of our Best Services</h2>
+                    <div class="milestone-grid" role="list">
+                        <!-- Card 1 -->
+                        <div class="milestone-card" style="--i:1" role="listitem" data-card-index="1" data-aos="fade-up" data-aos-delay="0">
+                            <div class="milestone-icon" aria-hidden="true">
+                                <i class="fas fa-smile"/>
+                            </div>
+                            <h3>
+                                <span class="counter" data-count="1250">0</span>+
+                            </h3>
+                            <p>Happy Customers</p>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="milestone-card" style="--i:2" role="listitem" data-card-index="2" data-aos="fade-up" data-aos-delay="100">
+                            <div class="milestone-icon" aria-hidden="true">
+                                <i class="fas fa-handshake"/>
+                            </div>
+                            <h3>
+                                <span class="counter" data-count="98">0</span>%
+                            </h3>
+                            <p>Retention Rate</p>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="milestone-card" style="--i:3" role="listitem" data-card-index="3" data-aos="fade-up" data-aos-delay="200">
+                            <div class="milestone-icon" aria-hidden="true">
+                                <i class="fas fa-industry"/>
+                            </div>
+                            <h3>
+                                <span class="counter" data-count="25">0</span>+
+                            </h3>
+                            <p>Industries Served</p>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="milestone-card" style="--i:4" role="listitem" data-card-index="4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="milestone-icon" aria-hidden="true">
+                                <i class="fas fa-globe"/>
+                            </div>
+                            <h3>
+                                <span class="counter" data-count="40">0</span>+
+                            </h3>
+                            <p>Countries Reached</p>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="milestone-card" style="--i:5" role="listitem" data-card-index="5" data-aos="fade-up" data-aos-delay="400">
+                            <div class="milestone-icon" aria-hidden="true">
+                                <i class="fas fa-mobile-alt"/>
+                            </div>
+                            <h3>
+                                <span class="counter" data-count="200">0</span>+
+                            </h3>
+                            <p>Custom Odoo Apps</p>
+                        </div>
+
+                        <!-- Card 6 -->
+                        <div class="milestone-card" style="--i:6" role="listitem" data-card-index="6" data-aos="fade-up" data-aos-delay="500">
+                            <div class="milestone-icon" aria-hidden="true">
+                                <i class="fas fa-user-tie"/>
+                            </div>
+                            <h3>
+                                <span class="counter" data-count="8">0</span>+
+                            </h3>
+                            <p>Years Experts</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </template>
+</odoo>
