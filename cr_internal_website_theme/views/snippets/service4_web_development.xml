@@ -384,92 +384,7 @@
         </div>
 
         <div class="oe_structure" id="oe_structure_web_benefit_mesh">
-            <section class="s_benefit_mesh cr_font bm-cols-3" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
-                <div class="container py-5">
-                    <!-- Section Header -->
-                    <div class="section-header text-center mb-5" data-aos="fade-up">
-                        <h2 class="section-title">
-                            Odoo Gives Your Website
-                            <span class="text-gradient">Capabilities No Other CMS Can Match</span>
-                        </h2>
-                        <div class="title-underline mx-auto"></div>
-                        <p class="section-description mt-4 mx-auto">
-                            When Creyox builds your website on Odoo, you're not just getting pages. You're getting a full marketing, sales, and eCommerce platform all accessible from one login, all sharing one database with your business operations.
-                        </p>
-                    </div>
-
-                    <!-- Cards Grid -->
-                    <div class="row g-4 s_benefit_mesh_row justify-content-center">
-                        <!-- Card 1 -->
-                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
-                            <div class="benefit-card h-100">
-                                <div class="benefit-badge">01</div>
-                                <h3 class="card-title">Drag &amp; Drop Builder</h3>
-                                <div class="accent-line"></div>
-                                <p class="card-text">Design and edit pages visually no developer needed for content updates.</p>
-                            </div>
-                        </div>
-                        <!-- Card 2 -->
-                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
-                            <div class="benefit-card h-100">
-                                <div class="benefit-badge">02</div>
-                                <h3 class="card-title">Built-in eCommerce Store</h3>
-                                <div class="accent-line"></div>
-                                <p class="card-text">Sell products with full inventory sync, payment integration, and automated invoicing.</p>
-                            </div>
-                        </div>
-                        <!-- Card 3 -->
-                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
-                            <div class="benefit-card h-100">
-                                <div class="benefit-badge">03</div>
-                                <h3 class="card-title">Blog &amp; Content Tools</h3>
-                                <div class="accent-line"></div>
-                                <p class="card-text">Publish articles, manage SEO, and drive organic traffic directly in Odoo.</p>
-                            </div>
-                        </div>
-                        <!-- Card 4 -->
-                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="300">
-                            <div class="benefit-card h-100">
-                                <div class="benefit-badge">04</div>
-                                <h3 class="card-title">Email Marketing Integration</h3>
-                                <div class="accent-line"></div>
-                                <p class="card-text">Send campaigns, track opens, and measure ROI all connected to your website visitors.</p>
-                            </div>
-                        </div>
-                        <!-- Card 5 -->
-                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="400">
-                            <div class="benefit-card h-100">
-                                <div class="benefit-badge">05</div>
-                                <h3 class="card-title">Event &amp; Appointment Booking</h3>
-                                <div class="accent-line"></div>
-                                <p class="card-text">Accept bookings and event registrations directly on your website with Odoo automation.</p>
-                            </div>
-                        </div>
-                        <!-- Card 6 -->
-                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="500">
-                            <div class="benefit-card h-100">
-                                <div class="benefit-badge">06</div>
-                                <h3 class="card-title">Multi-Website Management</h3>
-                                <div class="accent-line"></div>
-                                <p class="card-text">Understand how visitors use your site and which pages drive the most conversions.</p>
-                            </div>
-                        </div>
-                        <!-- Card 7 -->
-                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="600">
-                            <div class="benefit-card h-100">
-                                <div class="benefit-badge">07</div>
-                                <h3 class="card-title">Live Chat &amp; Helpdesk</h3>
-                                <div class="accent-line"></div>
-                                <p class="card-text">Convert website visitors into support tickets or sales leads through Odoo Live Chat.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-        <div class="oe_structure" id="oe_structure_web_feature_mesh">
-            <section class="s_benefit_mesh cr_font bm-cols-3" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
+            <section class="s_benefit_mesh cr_font bm-cols-2" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
                 <div class="container py-5">
                     <!-- Section Header -->
                     <div class="section-header text-center mb-5" data-aos="fade-up">
@@ -486,7 +401,7 @@
                     <!-- Cards Grid -->
                     <div class="row g-4 s_benefit_mesh_row justify-content-center">
                         <!-- Card 1 -->
-                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                        <div class="col-lg-6 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">01</div>
                                 <h3 class="card-title">Responsive Design</h3>
@@ -495,7 +410,7 @@
                             </div>
                         </div>
                         <!-- Card 2 -->
-                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-6 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">02</div>
                                 <h3 class="card-title">Native Odoo Integration</h3>
@@ -504,7 +419,7 @@
                             </div>
                         </div>
                         <!-- Card 3 -->
-                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-6 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">03</div>
                                 <h3 class="card-title">eCommerce Ready</h3>
@@ -513,16 +428,16 @@
                             </div>
                         </div>
                         <!-- Card 4 -->
-                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="300">
+                        <div class="col-lg-6 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="300">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">04</div>
-                                <h3 class="card-title">SEO Optimised</h3>
+                                <h3 class="card-title">SEO Optimised from Day One</h3>
                                 <div class="accent-line"></div>
                                 <p class="card-text">Odoo's built-in SEO tools plus our configuration ensure your website is structured to rank from the moment it goes live.</p>
                             </div>
                         </div>
                         <!-- Card 5 -->
-                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="400">
+                        <div class="col-lg-6 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="400">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">05</div>
                                 <h3 class="card-title">Performance First</h3>
@@ -531,16 +446,16 @@
                             </div>
                         </div>
                         <!-- Card 6 -->
-                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="500">
+                        <div class="col-lg-6 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="500">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">06</div>
-                                <h3 class="card-title">Multi-Language &amp; Currency</h3>
+                                <h3 class="card-title">Multi-Language &amp; Multi-Currency</h3>
                                 <div class="accent-line"></div>
                                 <p class="card-text">Reach global customers with Odoo's native translation and localised pricing features configured by our team.</p>
                             </div>
                         </div>
                         <!-- Card 7 -->
-                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="600">
+                        <div class="col-lg-6 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="600">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">07</div>
                                 <h3 class="card-title">Secure by Design</h3>
@@ -549,33 +464,214 @@
                             </div>
                         </div>
                         <!-- Card 8 -->
-                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="700">
+                        <div class="col-lg-6 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="700">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">08</div>
-                                <h3 class="card-title">Built-in Analytics</h3>
+                                <h3 class="card-title">Built-in Analytics &amp; Tracking</h3>
                                 <div class="accent-line"></div>
                                 <p class="card-text">Visitor behaviour, conversion data, and marketing attribution tracked natively in Odoo without separate tools.</p>
                             </div>
                         </div>
                         <!-- Card 9 -->
-                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="800">
+                        <div class="col-lg-6 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="800">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">09</div>
-                                <h3 class="card-title">API Integration</h3>
+                                <h3 class="card-title">API &amp; Third-Party Integration</h3>
                                 <div class="accent-line"></div>
                                 <p class="card-text">Connect your Odoo website to payment gateways, CRMs, ERPs, or any external system via clean REST APIs.</p>
                             </div>
                         </div>
                         <!-- Card 10 -->
-                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="900">
+                        <div class="col-lg-6 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="900">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">10</div>
-                                <h3 class="card-title">Maintenance &amp; Support</h3>
+                                <h3 class="card-title">Post-Launch Maintenance</h3>
                                 <div class="accent-line"></div>
                                 <p class="card-text">We stay with you after go-live updates, new pages, performance monitoring, and support included.</p>
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="oe_structure" id="oe_structure_web_industries">
+            <section class="s_specialist_grid py-5 sg-cols-3 cr_font"
+                     data-snippet="s_specialist_grid"
+                     data-name="Specialist Grid">
+                <div class="container">
+                    <!-- Section Header -->
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Odoo Websites Built Around
+                            <span class="text-gradient">How Your Industry Works</span>
+                        </h2>
+                    </div>
+
+                    <!-- Specialist Grid -->
+                    <div class="specialist-grid-container">
+                        <div class="row g-4 s_specialist_grid_row">
+                            <!-- Card 1 -->
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">01</div>
+                                    <h3 class="card-title">Corporate &amp; B2B</h3>
+                                    <p class="card-text">Professional Odoo websites with client portals, service showcases, contact forms, and CRM-connected lead capture.</p>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">02</div>
+                                    <h3 class="card-title">Retail &amp; eCommerce</h3>
+                                    <p class="card-text">Full Odoo eCommerce website development product catalogue, inventory sync, multi-payment checkout, and loyalty.</p>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="200">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">03</div>
+                                    <h3 class="card-title">Education &amp; eLearning</h3>
+                                    <p class="card-text">Course delivery websites with Odoo eLearning integration, student portals, and online payment for enrolments.</p>
+                                </div>
+                            </div>
+                            <!-- Card 4 -->
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="300">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">04</div>
+                                    <h3 class="card-title">Events &amp; Conferences</h3>
+                                    <p class="card-text">Event websites with Odoo registration, ticketing, online payments, and attendee management built in.</p>
+                                </div>
+                            </div>
+                            <!-- Card 5 -->
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="400">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">05</div>
+                                    <h3 class="card-title">Hospitality &amp; Services</h3>
+                                    <p class="card-text">Service booking websites integrated with Odoo appointments, CRM, and automated follow-up workflows.</p>
+                                </div>
+                            </div>
+                            <!-- Card 6 -->
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="500">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">06</div>
+                                    <h3 class="card-title">Manufacturing &amp; B2B</h3>
+                                    <p class="card-text">Supplier portals, product specification pages, and quote request forms connected to Odoo sales pipelines.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="oe_structure" id="oe_structure_web_feature_mesh">
+            <section class="s_feature_mesh cr_font sg-cols-3"
+                     data-snippet="s_feature_mesh"
+                     data-name="Feature Mesh">
+                <div class="container py-5">
+
+                    <!-- Section Header -->
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="mesh-title">
+                            Odoo Gives Your Website
+                            <span class="text-gradient">Capabilities No Other CMS Can Match</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="mesh-main-text mt-4 mx-auto">
+                            When Creyox builds your website on Odoo, you're not just getting pages. You're getting a full marketing, sales, and eCommerce platform all accessible from one login, all sharing one database with your business operations.
+                        </p>
+                    </div>
+
+                    <!-- Split-Zone Card Grid -->
+                    <div class="row g-4 fm-card-row">
+
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Drag &amp; Drop Builder</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <p class="card-text">Design and edit pages visually no developer needed for content updates.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Built-in eCommerce Store</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <p class="card-text">Sell products with full inventory sync, payment integration, and automated invoicing.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                            <div class="split-card">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Blog &amp; Content Tools</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <p class="card-text">Publish articles, manage SEO, and drive organic traffic directly in Odoo.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Email Marketing Integration</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <p class="card-text">Send campaigns, track opens, and measure ROI all connected to your website visitors.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Event &amp; Appointment Booking</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <p class="card-text">Accept bookings and event registrations directly on your website with Odoo automation.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 6 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                            <div class="split-card">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Multi-Website Management</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <p class="card-text">Understand how visitors use your site and which pages drive the most conversions.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 7 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="300">
+                            <div class="split-card">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Live Chat &amp; Helpdesk</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <p class="card-text">Convert website visitors into support tickets or sales leads through Odoo Live Chat.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
             </section>
         </div>
@@ -753,7 +849,7 @@
                                 <i class="fas fa-cloud"/>
                             </div>
                             <h3>
-                                <span class="counter" data-count="99.9">0</span>
+                                <span class="counter" data-count="100">0</span>
                                 %
                             </h3>
                             <p>Uptime on Odoo.sh Cloud</p>
@@ -765,8 +861,8 @@
                                 <i class="fas fa-star"/>
                             </div>
                             <h3>
-                                <span class="counter"></span>
-                                 4.9★
+                                <span class="counter" data-count="5">0</span>
+                                ★
                             </h3>
                             <p>Average Client Rating</p>
                         </div>

@@ -7,6 +7,14 @@
                 rel="stylesheet"
                 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         />
+        <style>
+            @media (max-width: 767.98px) {
+                .s_benefit_mesh .s_benefit_card_wrapper {
+                    flex: 0 0 100% !important;
+                    max-width: 100% !important;
+                }
+            }
+        </style>
         <div class="oe_structure" id="oe_structure_service7_intro_banner">
             <section class="s_service_intro_banner service-intro-banner hero-section-wave cr_font"
                      data-snippet="s_service_intro_banner"
@@ -37,166 +45,635 @@
             </section>
         </div>
 
-        <section class="cr-odoo-implementation-intro o_website_snippet cr_font" aria-labelledby="odoo-implementation-heading">
-            <div class="cr-odoo-container">
-                <!-- Header Row -->
-                <div class="oe_structure" id="oe_structure_odoo_implementation_header">
-                    <section class="s_trusted_odoo_partner cr_font"
-                             data-snippet="s_trusted_odoo_partner"
-                             data-name="Trusted Odoo Partner">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
-                                    <div class="partner-content-box text-start">
-                                        <h2 class="partner-title">
-                                            Successful Odoo Implementation for
-                                            <span class="text-gradient">Sustainable Growth</span>
-                                        </h2>
-                                        <p class="partner-description partner-desc-1">
-                                            Implementing an ERP system is more than just software deployment — it’s about transforming your business operations for efficiency, visibility, and growth.
-                                        </p>
-                                        <p class="partner-description partner-desc-2">
-                                            Our services cover requirement analysis, process mapping, module configuration, customization, data migration, and user training.
-                                        </p>
-                                        <div class="partner-cta-group">
-                                            <a href="/contactus" class="cta-button primary">
-                                                <span>Work with Experts</span>
-                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
-                                    <div class="partner-image-box">
-                                        <img src="/cr_internal_website_theme/static/src/img/odoo-implementation.png"
-                                             alt="Odoo Implementation"
-                                             class="img-fluid partner-image"/>
-                                        <div class="image-overlay-glow"/>
-                                    </div>
+        
+
+        <!-- 1. Trusted Partner Snippet -->
+        <div class="oe_structure" id="oe_structure_service7_trusted_partner">
+            <section class="s_trusted_odoo_partner cr_font"
+                     data-snippet="s_trusted_odoo_partner"
+                     data-name="Trusted Odoo Partner">
+                <div class="container py-5">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                            <div class="partner-content-box">
+                                <h2 class="partner-title">
+                                    Odoo Implementation Services That
+                                    <span class="text-gradient">Drive Real Business Results</span>
+                                </h2>
+                                <p class="partner-description partner-desc-1">
+                                    We're more than an Odoo implementation company, we're your long-term ERP growth partner. From strategy and setup to go-live and beyond, Creyox Technologies delivers structured, scalable, and results-focused Odoo ERP implementation for businesses of every size.
+                                </p>
+                                <div class="partner-cta-group">
+                                    <a href="/contactus" class="cta-button primary">
+                                        <span>Get a Free Consultation</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                    </section>
-                </div>
-
-                <!-- Content Below -->
-                <div class="cr-odoo-content">
-                    <h2>Why Choose Our Odoo Implementation Services?</h2>
-                    <p>
-                        Unlike one-size-fits-all deployments, we follow a consultative and phased approach to Odoo
-                        implementation.
-                        Our certified Odoo consultants work closely with your teams to understand your processes,
-                        challenges, and growth goals.
-                        With end-to-end services from planning to post-go-live support, we ensure every phase of
-                        implementation delivers measurable business value.
-                        Our structured methodology reduces risks, improves adoption, and ensures a faster time-to-value
-                        for your ERP investment.
-                    </p>
-
-                    <ul class="odoo-features">
-                        <li>
-                            <strong>Business Process Analysis:</strong>
-                            Detailed assessment of your workflows to design the right ERP framework.
-                        </li>
-                        <li>
-                            <strong>Module Implementation:</strong>
-                            Deployment of core and industry-specific Odoo modules tailored to your needs.
-                        </li>
-                        <li>
-                            <strong>Custom Development:</strong>
-                            Extend Odoo functionality with custom apps and features.
-                        </li>
-                        <li>
-                            <strong>Data Migration:</strong>
-                            Secure migration of legacy system data into Odoo with accuracy and integrity.
-                        </li>
-                        <li>
-                            <strong>User Training:</strong>
-                            Hands-on training to ensure smooth adoption and usability across teams.
-                        </li>
-                        <li>
-                            <strong>Testing &amp; Quality Assurance:</strong>
-                            Rigorous testing to ensure stability, performance, and compliance.
-                        </li>
-                        <li>
-                            <strong>Post-Go-Live Support:</strong>
-                            Continuous monitoring, bug fixes, and optimization after deployment.
-                        </li>
-                        <li>
-                            <strong>Scalability Planning:</strong>
-                            Flexible design to accommodate future expansion and process growth.
-                        </li>
-                        <li>
-                            <strong>Change Management:</strong>
-                            Structured guidance to ensure smooth organizational transition to Odoo ERP.
-                        </li>
-                        <li>
-                            <strong>Long-term Partnership:</strong>
-                            Dedicated support for upgrades, improvements, and ongoing ERP evolution.
-                        </li>
-                    </ul>
-
-                    <section class="web-cta-section o_wfull" aria-labelledby="web-cta-heading">
-                        <!-- Floating bubbles -->
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-
-                        <div class="container web-cta-container">
-                            <div class="web-cta-row">
-                                <!-- Text -->
-                                <div class="web-cta-text">
-                                    <h2 id="web-cta-heading">
-                                        Have an <span class="highlight">Implementation</span> Need?
-                                    </h2>
-                                </div>
-
-                                <!-- Button (same pattern as ERP CTA) -->
-                                <a href="#erp-demo-form" class="cta-button light" title="Schedule Free ERP Demo"
-                                   aria-label="Get ERP Demo">
-                                    <span>Schedule a Free Demo</span>
-                                    <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
-                                </a>
-
-
+                        <div class="col-lg-6" data-aos="fade-left">
+                            <div class="partner-image-box">
+                                <img src="cr_internal_website_theme/static/src/img/odoo-implementation.png"
+                                     alt="Odoo Implementation Services"
+                                     class="img-fluid partner-image"/>
+                                <div class="image-overlay-glow"/>
                             </div>
                         </div>
-                    </section>
-
-                    <h2>Our Implementation Approach</h2>
-                    <p>
-                        We adopt a phased and agile-driven approach to ERP implementation.
-                        Starting from discovery and requirement gathering, we design blueprints, configure modules, and
-                        perform iterative testing.
-                        Our experts focus on change management, user adoption, and knowledge transfer throughout the
-                        process.
-                        After deployment, we provide continuous support, performance monitoring, and strategic
-                        improvements, ensuring your ERP evolves alongside your business.
-                        This holistic approach ensures minimal disruption, high adoption rates, and sustainable
-                        long-term success.
-                    </p>
-
-                    <h2>Frequently Asked Questions</h2>
-                    <dl>
-                        <dt>How long does Odoo implementation take?</dt>
-                        <dd>The timeline depends on business complexity, modules required, and level of customization.
-                            Typically, it ranges from a few weeks to several months.
-                        </dd>
-                        <dt>Do you provide user training?</dt>
-                        <dd>Yes, we provide in-depth training sessions to ensure your employees can fully utilize Odoo
-                            efficiently.
-                        </dd>
-                        <dt>Can you migrate data from our old system?</dt>
-                        <dd>Absolutely. We handle secure and accurate data migration from legacy systems, spreadsheets,
-                            or other ERPs.
-                        </dd>
-                    </dl>
-
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
+
+        <!-- 2. Comprehensive Service Snippet -->
+        <div class="oe_structure" id="oe_structure_service7_comprehensive_service">
+            <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
+                     data-snippet="s_comprehensive_service"
+                     data-name="Comprehensive Service">
+                <div class="container py-5">
+                    <div class="row mb-5 pb-lg-3">
+                        <div class="col-12 text-center" data-aos="fade-up">
+                            <h2 class="partner-title mb-3">
+                                What is Odoo Implementation
+                                <span class="text-gradient">And Why Does It Matter?</span>
+                            </h2>
+                            <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center gx-0">
+                        <div class="col-lg-6 mb-5 mb-lg-0 p-0" data-aos="fade-right">
+                            <div class="partner-content-box text-start">
+                                <p class="partner-description partner-desc-1 mb-3 w-100">
+                                    Odoo implementation is the end-to-end process of deploying, configuring, and customizing the Odoo ERP platform to match your unique business workflows. It's not just software installation, it's a strategic transformation of how your business operates.
+                                </p>
+                                <p class="partner-description partner-desc-2 mb-4 w-100">
+                                    A successful Odoo ERP implementation connects your sales, inventory, accounting, HR, manufacturing, and customer service into a single, unified system eliminating data silos, reducing manual work, and giving your team real-time visibility across every department.
+                                    <br/><br/>
+                                    Done right, Odoo implementation becomes the backbone of your business growth. Done poorly, it creates frustration and wasted investment. That's why choosing the right Odoo implementation partner makes all the difference.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 p-0" data-aos="fade-left">
+                            <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
+                                <img src="/cr_internal_website_theme/static/src/img/erp-solution.png"
+                                     alt="What is Odoo Implementation"
+                                     class="img-fluid w-100"
+                                     style="object-fit: contain; transform: scale(1.4); transform-origin: left center; z-index: 1;"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 3. Why Choose Us Snippet -->
+        <div class="oe_structure" id="oe_structure_service7_why_choose_us">
+            <section class="s_why_choose_us cr_font" data-snippet="s_why_choose_us" data-name="Why Choose Us">
+                <div class="bg-mesh"></div>
+                <div class="bg-orb orb-1"></div>
+                <div class="bg-orb orb-2"></div>
+                <div class="container">
+                    <div class="section-header mb-5 text-center mx-auto" data-aos="fade-down" style="max-width: 900px;">
+                        <h2 class="section-title">
+                            Why Businesses Choose Creyox as Their
+                            <span class="text-gradient">Odoo Implementation Partner</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="section-description mt-4 text-center">
+                            We don't believe in one-size-fits-all deployments. As a dedicated Odoo implementation company, we combine technical expertise with deep business consulting to ensure every implementation is tailored, tested, and built for longevity.
+                        </p>
+                    </div>
+                    <div class="solution-mosaic">
+                        <div class="row g-4">
+                            <div class="col-lg-8" data-aos="fade-right">
+                                <div class="stack-card card-blue h-100">
+                                    <span class="card-number">01</span>
+                                    <div class="card-icon-inner"><i class="fas fa-briefcase"/></div>
+                                    <h3 class="card-title">Business-First Approach</h3>
+                                    <p class="card-text">We map your processes before touching a single module.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4" data-aos="fade-left">
+                                <div class="mosaic-image-block" style="background-image: url('/cr_internal_website_theme/static/src/img/ai_erp_dashboard_premium.png');"></div>
+                            </div>
+                            <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                                <div class="stack-card card-white h-100">
+                                    <span class="card-number">02</span>
+                                    <div class="card-icon-inner"><i class="fas fa-layer-group"/></div>
+                                    <h3 class="card-title">Full-Stack Capability</h3>
+                                    <p class="card-text">From core ERP to custom apps, we handle it all in-house.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-none d-lg-block" data-aos="zoom-in">
+                                <div class="mosaic-image-block" style="background-image: url('/cr_internal_website_theme/static/src/img/odoo_stack_v3_premium.png');"></div>
+                            </div>
+                            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                                <div class="stack-card card-dark h-100">
+                                    <span class="card-number">03</span>
+                                    <div class="card-icon-inner"><i class="fas fa-database"/></div>
+                                    <h3 class="card-title">Data Migration Experts</h3>
+                                    <p class="card-text">Zero-loss migration from legacy systems, ERPs, or spreadsheets.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4" data-aos="fade-right">
+                                <div class="mosaic-image-block" style="background-image: url('/cr_internal_website_theme/static/src/img/odoo_stack_premium.png');"></div>
+                            </div>
+                            <div class="col-lg-4" data-aos="fade-up">
+                                <div class="stack-card card-white h-100">
+                                    <span class="card-number">04</span>
+                                    <div class="card-icon-inner"><i class="fas fa-chart-bar"/></div>
+                                    <h3 class="card-title">ROI-Focused Delivery</h3>
+                                    <p class="card-text">Every decision is benchmarked against measurable business value.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-none d-lg-block" data-aos="fade-left">
+                                <div class="mosaic-image-block" style="background-image: url('/cr_internal_website_theme/static/src/img/office_team_working_premium.png');"></div>
+                            </div>
+                            <div class="col-lg-6" data-aos="fade-up">
+                                <div class="stack-card card-blue h-100">
+                                    <span class="card-number">05</span>
+                                    <div class="card-icon-inner"><i class="fas fa-handshake"/></div>
+                                    <h3 class="card-title">Long-Term Partnership</h3>
+                                    <p class="card-text">We don't disappear post-go-live. We grow with you.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                                <div class="stack-card card-dark h-100">
+                                    <span class="card-number">06</span>
+                                    <div class="card-icon-inner"><i class="fas fa-check-circle"/></div>
+                                    <h3 class="card-title">Quality-First Process</h3>
+                                    <p class="card-text">Rigorous testing at every phase so you go live with confidence.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 4. Benefit Mesh Snippet -->
+        <div class="oe_structure" id="oe_structure_service7_benefit_mesh">
+            <section class="s_benefit_mesh cr_font bm-cols-4" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
+                <div class="container py-5">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            What's Included in Our
+                            <span class="text-gradient">Odoo ERP Implementation Services</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="section-description mt-4 mx-auto">
+                            Our Odoo ERP implementation services cover the complete project lifecycle from the very first conversation to long after your team is up and running.
+                        </p>
+                    </div>
+                    <div class="row g-4 s_benefit_mesh_row justify-content-center">
+                        <div class="col-lg-3 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">01</div>
+                                <h3 class="card-title">Business Requirement Analysis</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">We deep-dive into your current workflows, pain points, and goals building a custom ERP blueprint that fits your operations precisely.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">02</div>
+                                <h3 class="card-title">Module Configuration &amp; Setup</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">We configure the right Odoo modules for your industry Sales, Purchase, Inventory, Accounting, Manufacturing, HR, CRM, and more.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">03</div>
+                                <h3 class="card-title">Custom Development</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">When standard Odoo features don't cover your needs, our developers build tailored solutions, custom modules, integrations, and workflows.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="300">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">04</div>
+                                <h3 class="card-title">Data Migration</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Accurate, secure migration of all your historical data customers, vendors, products, transactions from any legacy system or spreadsheet.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="400">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">05</div>
+                                <h3 class="card-title">User Training &amp; Onboarding</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Hands-on training tailored to each user role, so your team adopts Odoo confidently from day one.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="500">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">06</div>
+                                <h3 class="card-title">Testing &amp; Quality Assurance</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Unit testing, UAT, and performance checks before every go-live to ensure a stable, reliable system.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="600">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">07</div>
+                                <h3 class="card-title">Go-Live Support</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Our team stays on-call during and after your go-live to handle any surprises, quickly and efficiently.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="700">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">08</div>
+                                <h3 class="card-title">Post-Implementation Support</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Ongoing monitoring, bug fixes, upgrades, and optimizations so your ERP keeps improving as your business grows.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-5" data-aos="fade-up">
+                        <a href="/contactus" class="cta-button primary">
+                            <span>Explore All Services</span>
+                            <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 5. Milestone Section Snippet -->
+        <div class="oe_structure" id="oe_structure_service7_milestones">
+            <section class="milestone-light-section s_milestone_section cr_font"
+                     data-snippet="s_milestone_section"
+                     data-name="Milestone Section">
+                <div class="milestone-wrapper">
+                    <h2 class="milestone-heading" data-aos="fade-up">
+                        Trusted by Businesses Who Needed More Than Just Software
+                    </h2>
+                    <div class="milestone-grid">
+                        <div class="milestone-card" style="--i:1" data-aos="zoom-in">
+                            <div class="milestone-icon"><i class="fas fa-check-double"/></div>
+                            <h3><span class="counter" data-count="50">0</span>+</h3>
+                            <p>Implementations Delivered</p>
+                        </div>
+                        <div class="milestone-card" style="--i:2" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="milestone-icon"><i class="fas fa-heart"/></div>
+                            <h3><span class="counter" data-count="98">0</span>%</h3>
+                            <p>Client Satisfaction Rate</p>
+                        </div>
+                        <div class="milestone-card" style="--i:3" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="milestone-icon"><i class="fas fa-city"/></div>
+                            <h3><span class="counter" data-count="10">0</span>+</h3>
+                            <p>Industries Served</p>
+                        </div>
+                        <div class="milestone-card" style="--i:4" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="milestone-icon"><i class="fas fa-clock"/></div>
+                            <h3><span class="counter" data-count="7">0</span>-Day</h3>
+                            <p>Average Response Time Post Go-Live</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 6. Kinetic Process Snippet -->
+        <div class="oe_structure" id="oe_structure_service7_kinetic_process">
+            <section class="s_kinetic_process py-5 cr_font" data-snippet="s_kinetic_process" data-name="Kinetic Process">
+                <div class="container-fluid px-lg-5">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Our Odoo
+                            <span class="text-gradient">Implementation Process</span>
+                        </h2>
+                        <p class="section-subtitle mt-2">
+                            We follow a structured, agile-driven Odoo implementation process that minimizes risk, ensures transparency, and keeps your business operational throughout the transition.
+                        </p>
+                    </div>
+                    <div class="kinetic-grid-container">
+                        <div class="row g-4 mb-4 s_kinetic_row_1">
+                            <div class="col-lg-8 phase-block" data-aos="fade-right">
+                                <div class="kinetic-card h-100">
+                                    <div class="card-bg-number">01</div>
+                                    <h3 class="card-title">Discovery &amp; Requirement Gathering</h3>
+                                    <p class="card-desc">We meet your team, document your business processes, define project scope, and set clear KPIs for success.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 phase-block" data-aos="fade-left">
+                                <div class="kinetic-card h-100">
+                                    <div class="card-bg-number">02</div>
+                                    <h3 class="card-title">Solution Design &amp; Blueprint</h3>
+                                    <p class="card-desc">Our Odoo implementation consultants design a custom ERP architecture module selection, data flows, integrations, and customization roadmap.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-4 mb-4 s_kinetic_row_2">
+                            <div class="col-lg-4 phase-block" data-aos="fade-up">
+                                <div class="kinetic-card h-100">
+                                    <div class="card-bg-number">03</div>
+                                    <h3 class="card-title">Configuration &amp; Development</h3>
+                                    <p class="card-desc">We configure Odoo modules and develop any custom components built and reviewed in iterative sprints with your feedback at every milestone.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="100">
+                                <div class="kinetic-card h-100">
+                                    <div class="card-bg-number">04</div>
+                                    <h3 class="card-title">Data Migration &amp; Integration</h3>
+                                    <p class="card-desc">All legacy data is cleaned, mapped, and migrated securely. Third-party tools and APIs are integrated and tested.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="200">
+                                <div class="kinetic-card h-100">
+                                    <div class="card-bg-number">05</div>
+                                    <h3 class="card-title">Testing &amp; User Acceptance</h3>
+                                    <p class="card-desc">Full functional, performance, and user acceptance testing. Your team validates every workflow before sign-off.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-4 s_kinetic_row_3">
+                            <div class="col-lg-6 phase-block" data-aos="fade-up">
+                                <div class="kinetic-card h-100">
+                                    <div class="card-bg-number">06</div>
+                                    <h3 class="card-title">Go-Live &amp; Deployment</h3>
+                                    <p class="card-desc">Controlled, supported launch with our team on standby ensuring a smooth transition from old system to Odoo.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 phase-block" data-aos="fade-up" data-aos-delay="100">
+                                <div class="kinetic-card h-100">
+                                    <div class="card-bg-number">07</div>
+                                    <h3 class="card-title">Post-Go-Live Support &amp; Optimization</h3>
+                                    <p class="card-desc">We monitor performance, address issues, gather user feedback, and continuously refine your ERP for long-term success.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 7. Service Showcase Snippet -->
+        <div class="oe_structure" id="oe_structure_service7_showcase">
+            <section class="s_service_showcase cr_font sc-cols-4" data-snippet="s_service_showcase" data-name="Service Showcase">
+                <div class="container py-5">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Odoo ERP Implementation
+                            <span class="text-gradient">Across Industries</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="section-description mt-4 mx-auto">
+                            We've delivered successful Odoo ERP implementations across a wide range of industries. Each industry comes with unique workflows, compliance requirements, and operational challenges and we've solved them all.
+                        </p>
+                    </div>
+                    <div class="row g-4 s_service_showcase_row">
+                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-industry"/></div>
+                                <h3 class="card-title">Manufacturing &amp; Production</h3>
+                                <p class="card-text">Bill of materials, work orders, production planning, quality control, shop floor management. We've implemented Odoo Manufacturing for discrete manufacturers, process manufacturers, and job-shop environments.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-card card-dark">
+                                <div class="card-icon"><i class="fas fa-truck-loading"/></div>
+                                <h3 class="card-title">Trading &amp; Distribution</h3>
+                                <p class="card-text">Multi-warehouse inventory, purchase automation, sales order management, delivery tracking. Ideal for importers, exporters, and wholesale distributors.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-shopping-cart"/></div>
+                                <h3 class="card-title">Retail &amp; E-Commerce</h3>
+                                <p class="card-text">POS integration, online store management, loyalty programs, and real-time stock sync across physical and online channels.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="300">
+                            <div class="service-card card-dark">
+                                <div class="card-icon"><i class="fas fa-building"/></div>
+                                <h3 class="card-title">Construction &amp; Real Estate</h3>
+                                <p class="card-text">Project-based accounting, subcontractor management, cost tracking, and customer billing by milestone.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="400">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-user-tie"/></div>
+                                <h3 class="card-title">Professional Services &amp; Consulting</h3>
+                                <p class="card-text">Project management, timesheet tracking, resource planning, and service billing all connected to your accounts.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="500">
+                            <div class="service-card card-dark">
+                                <div class="card-icon"><i class="fas fa-heartbeat"/></div>
+                                <h3 class="card-title">Healthcare &amp; Pharma</h3>
+                                <p class="card-text">Patient management, regulatory compliance, batch tracking, expiry management, and quality control.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="600">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-utensils"/></div>
+                                <h3 class="card-title">Food &amp; Beverage</h3>
+                                <p class="card-text">Recipe management, batch production, FSSAI compliance, distribution tracking, and shelf-life management.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="700">
+                            <div class="service-card card-dark">
+                                <div class="card-icon"><i class="fas fa-box-open"/></div>
+                                <h3 class="card-title">Logistics &amp; Freight</h3>
+                                <p class="card-text">Fleet management, route planning, delivery management, and customer portal for shipment tracking.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 8. ERP CTA Snippet -->
+        <div class="oe_structure" id="oe_structure_service7_cta">
+            <section class="erp-cta-section o_wfull" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="container erp-cta-container">
+                    <div class="erp-cta-row">
+                        <div class="erp-cta-text" data-aos="fade-right">
+                            <h2 id="erp-cta-heading">
+                                Ready to Start Your <span class="highlight">Odoo Implementation?</span>
+                            </h2>
+                            <p class="text-white opacity-75 mt-3">
+                                Whether you're a startup deploying ERP for the first time or an enterprise replacing a legacy system our Odoo implementation consultants are ready to guide you.
+                            </p>
+                        </div>
+                        <div data-aos="fade-left">
+                            <a href="/contactus" class="cta-button light">
+                                <span>Book a Free Consultation</span>
+                                <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--        <section class="cr-odoo-implementation-intro o_website_snippet cr_font" aria-labelledby="odoo-implementation-heading">-->
+<!--            <div class="cr-odoo-container">-->
+<!--                &lt;!&ndash; Header Row &ndash;&gt;-->
+<!--                <div class="oe_structure" id="oe_structure_odoo_implementation_header">-->
+<!--                    <section class="s_trusted_odoo_partner cr_font"-->
+<!--                             data-snippet="s_trusted_odoo_partner"-->
+<!--                             data-name="Trusted Odoo Partner">-->
+<!--                        <div class="container">-->
+<!--                            <div class="row align-items-center">-->
+<!--                                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">-->
+<!--                                    <div class="partner-content-box text-start">-->
+<!--                                        <h2 class="partner-title">-->
+<!--                                            Successful Odoo Implementation for-->
+<!--                                            <span class="text-gradient">Sustainable Growth</span>-->
+<!--                                        </h2>-->
+<!--                                        <p class="partner-description partner-desc-1">-->
+<!--                                            Implementing an ERP system is more than just software deployment — it’s about transforming your business operations for efficiency, visibility, and growth.-->
+<!--                                        </p>-->
+<!--                                        <p class="partner-description partner-desc-2">-->
+<!--                                            Our services cover requirement analysis, process mapping, module configuration, customization, data migration, and user training.-->
+<!--                                        </p>-->
+<!--                                        <div class="partner-cta-group">-->
+<!--                                            <a href="/contactus" class="cta-button primary">-->
+<!--                                                <span>Work with Experts</span>-->
+<!--                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>-->
+<!--                                            </a>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">-->
+<!--                                    <div class="partner-image-box">-->
+<!--                                        <img src="/cr_internal_website_theme/static/src/img/odoo-implementation.png"-->
+<!--                                             alt="Odoo Implementation"-->
+<!--                                             class="img-fluid partner-image"/>-->
+<!--                                        <div class="image-overlay-glow"/>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </section>-->
+<!--                </div>-->
+
+<!--                &lt;!&ndash; Content Below &ndash;&gt;-->
+<!--                <div class="cr-odoo-content">-->
+<!--                    <h2>Why Choose Our Odoo Implementation Services?</h2>-->
+<!--                    <p>-->
+<!--                        Unlike one-size-fits-all deployments, we follow a consultative and phased approach to Odoo-->
+<!--                        implementation.-->
+<!--                        Our certified Odoo consultants work closely with your teams to understand your processes,-->
+<!--                        challenges, and growth goals.-->
+<!--                        With end-to-end services from planning to post-go-live support, we ensure every phase of-->
+<!--                        implementation delivers measurable business value.-->
+<!--                        Our structured methodology reduces risks, improves adoption, and ensures a faster time-to-value-->
+<!--                        for your ERP investment.-->
+<!--                    </p>-->
+
+<!--                    <ul class="odoo-features">-->
+<!--                        <li>-->
+<!--                            <strong>Business Process Analysis:</strong>-->
+<!--                            Detailed assessment of your workflows to design the right ERP framework.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Module Implementation:</strong>-->
+<!--                            Deployment of core and industry-specific Odoo modules tailored to your needs.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Custom Development:</strong>-->
+<!--                            Extend Odoo functionality with custom apps and features.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Data Migration:</strong>-->
+<!--                            Secure migration of legacy system data into Odoo with accuracy and integrity.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>User Training:</strong>-->
+<!--                            Hands-on training to ensure smooth adoption and usability across teams.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Testing &amp; Quality Assurance:</strong>-->
+<!--                            Rigorous testing to ensure stability, performance, and compliance.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Post-Go-Live Support:</strong>-->
+<!--                            Continuous monitoring, bug fixes, and optimization after deployment.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Scalability Planning:</strong>-->
+<!--                            Flexible design to accommodate future expansion and process growth.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Change Management:</strong>-->
+<!--                            Structured guidance to ensure smooth organizational transition to Odoo ERP.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Long-term Partnership:</strong>-->
+<!--                            Dedicated support for upgrades, improvements, and ongoing ERP evolution.-->
+<!--                        </li>-->
+<!--                    </ul>-->
+
+<!--                    <section class="web-cta-section o_wfull" aria-labelledby="web-cta-heading">-->
+<!--                        &lt;!&ndash; Floating bubbles &ndash;&gt;-->
+<!--                        <div class="bubble"></div>-->
+<!--                        <div class="bubble"></div>-->
+<!--                        <div class="bubble"></div>-->
+<!--                        <div class="bubble"></div>-->
+<!--                        <div class="bubble"></div>-->
+
+<!--                        <div class="container web-cta-container">-->
+<!--                            <div class="web-cta-row">-->
+<!--                                &lt;!&ndash; Text &ndash;&gt;-->
+<!--                                <div class="web-cta-text">-->
+<!--                                    <h2 id="web-cta-heading">-->
+<!--                                        Have an <span class="highlight">Implementation</span> Need?-->
+<!--                                    </h2>-->
+<!--                                </div>-->
+
+<!--                                &lt;!&ndash; Button (same pattern as ERP CTA) &ndash;&gt;-->
+<!--                                <a href="#erp-demo-form" class="cta-button light" title="Schedule Free ERP Demo"-->
+<!--                                   aria-label="Get ERP Demo">-->
+<!--                                    <span>Schedule a Free Demo</span>-->
+<!--                                    <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>-->
+<!--                                </a>-->
+
+
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </section>-->
+
+<!--                    <h2>Our Implementation Approach</h2>-->
+<!--                    <p>-->
+<!--                        We adopt a phased and agile-driven approach to ERP implementation.-->
+<!--                        Starting from discovery and requirement gathering, we design blueprints, configure modules, and-->
+<!--                        perform iterative testing.-->
+<!--                        Our experts focus on change management, user adoption, and knowledge transfer throughout the-->
+<!--                        process.-->
+<!--                        After deployment, we provide continuous support, performance monitoring, and strategic-->
+<!--                        improvements, ensuring your ERP evolves alongside your business.-->
+<!--                        This holistic approach ensures minimal disruption, high adoption rates, and sustainable-->
+<!--                        long-term success.-->
+<!--                    </p>-->
+
+<!--                    <h2>Frequently Asked Questions</h2>-->
+<!--                    <dl>-->
+<!--                        <dt>How long does Odoo implementation take?</dt>-->
+<!--                        <dd>The timeline depends on business complexity, modules required, and level of customization.-->
+<!--                            Typically, it ranges from a few weeks to several months.-->
+<!--                        </dd>-->
+<!--                        <dt>Do you provide user training?</dt>-->
+<!--                        <dd>Yes, we provide in-depth training sessions to ensure your employees can fully utilize Odoo-->
+<!--                            efficiently.-->
+<!--                        </dd>-->
+<!--                        <dt>Can you migrate data from our old system?</dt>-->
+<!--                        <dd>Absolutely. We handle secure and accurate data migration from legacy systems, spreadsheets,-->
+<!--                            or other ERPs.-->
+<!--                        </dd>-->
+<!--                    </dl>-->
+
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
 
     </template>
 
