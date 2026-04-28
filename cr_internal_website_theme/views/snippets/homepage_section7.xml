@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="homepage_section7" name="Odoo Specialist Services">
+        <!-- Specialist Grid Snippet -->
+        <div class="oe_structure">
+            <section class="s_specialist_grid py-5 sg-cols-4 o_faq_template_1"
+                     data-snippet="s_specialist_grid"
+                     data-name="Specialist Grid">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Odoo <span class="text-gradient">Specialist Services</span>
+                        </h2>
+                        <p class="section-subtitle mt-2">Space-efficient expertise at your fingertips.</p>
+                    </div>
+                    <div class="specialist-grid-container">
+                        <div class="row g-4 s_specialist_grid_row" data-aos="fade-up" data-aos-delay="50">
+                            <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                <div class="specialist-card">
+                                    <div class="card-digit">01</div>
+                                    <h3 class="card-title">Odoo Implementation</h3>
+                                    <p class="card-text">Complete end-to-end ERP implementation from discovery to go-live. We ensure your core is solid from day one.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                <div class="specialist-card">
+                                    <div class="card-digit">02</div>
+                                    <h3 class="card-title">Odoo Customization</h3>
+                                    <p class="card-text">Tailored modules and workflows built specifically for your unique business logic and complex operational needs.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="200">
+                                <div class="specialist-card">
+                                    <div class="card-digit">03</div>
+                                    <h3 class="card-title">Odoo Development</h3>
+                                    <p class="card-text">Certified developers writing clean, scalable Odoo code. We build robust back-ends and high-performance frontends.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="300">
+                                <div class="specialist-card">
+                                    <div class="card-digit">04</div>
+                                    <h3 class="card-title">Odoo Integration</h3>
+                                    <p class="card-text">Seamlessly connect Odoo with Shopify, WooCommerce, and 1,000+ logistics and payment tools via APIs.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                <div class="specialist-card">
+                                    <div class="card-digit">05</div>
+                                    <h3 class="card-title">Odoo Migration</h3>
+                                    <p class="card-text">Smooth, zero data-loss migration from older Odoo versions or legacy ERP systems to the latest Odoo platform.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                <div class="specialist-card">
+                                    <div class="card-digit">06</div>
+                                    <h3 class="card-title">Odoo Consulting</h3>
+                                    <p class="card-text">Strategic roadmaps, process audits, and ROI analysis by certified consultants to optimize your Odoo journey.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="200">
+                                <div class="specialist-card">
+                                    <div class="card-digit">07</div>
+                                    <h3 class="card-title">Odoo Training</h3>
+                                    <p class="card-text">Empower your staff with role-based power-user training that maximizes your team's Odoo productivity.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="300">
+                                <div class="specialist-card">
+                                    <div class="card-digit">08</div>
+                                    <h3 class="card-title">Odoo Support</h3>
+                                    <p class="card-text">Dedicated SLA support plans covering bug fixes, performance tuning, and proactive maintenance for stability.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </template>
+</odoo>

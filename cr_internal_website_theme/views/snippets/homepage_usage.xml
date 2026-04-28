@@ -1,0 +1,82 @@
+<!--
+    Homepage: pre-place the Milestone Section inline inside oe_structure.
+    Inline HTML means data-snippet lands in the saved DB record, so the
+    editor recognises it as a snippet instance and shows the options panel.
+
+    Place this block where you previously had:
+        <t t-call="cr_internal_website_theme.homepage_section2"/>
+-->
+
+<div class="oe_structure" id="oe_structure_milestone_1">
+
+    <section class="s_milestone_section cr_font"
+             data-snippet="s_milestone_section"
+             data-name="Milestone Section">
+
+        <div class="milestone-wrapper">
+
+            <h2 class="milestone-heading">
+                The real time data of our Best Services
+            </h2>
+
+            <div class="milestone-grid" role="list">
+
+                <div class="milestone-card" style="--i:1" role="listitem"
+                     data-card-index="1">
+                    <div class="milestone-icon" aria-hidden="true">
+                        <i class="fas fa-smile"/>
+                    </div>
+                    <h3><span class="counter" data-count="1250">0</span>+</h3>
+                    <p>Happy Customers</p>
+                </div>
+
+                <div class="milestone-card" style="--i:2" role="listitem"
+                     data-card-index="2">
+                    <div class="milestone-icon" aria-hidden="true">
+                        <i class="fas fa-handshake"/>
+                    </div>
+                    <h3><span class="counter" data-count="98">0</span>%</h3>
+                    <p>Retention Rate</p>
+                </div>
+
+                <div class="milestone-card" style="--i:3" role="listitem"
+                     data-card-index="3">
+                    <div class="milestone-icon" aria-hidden="true">
+                        <i class="fas fa-industry"/>
+                    </div>
+                    <h3><span class="counter" data-count="25">0</span>+</h3>
+                    <p>Industries Served</p>
+                </div>
+
+                <div class="milestone-card" style="--i:4" role="listitem"
+                     data-card-index="4">
+                    <div class="milestone-icon" aria-hidden="true">
+                        <i class="fas fa-globe"/>
+                    </div>
+                    <h3><span class="counter" data-count="40">0</span>+</h3>
+                    <p>Countries Reached</p>
+                </div>
+
+                <div class="milestone-card" style="--i:5" role="listitem"
+                     data-card-index="5">
+                    <div class="milestone-icon" aria-hidden="true">
+                        <i class="fas fa-mobile-alt"/>
+                    </div>
+                    <h3><span class="counter" data-count="200">0</span>+</h3>
+                    <p>Custom Odoo Apps</p>
+                </div>
+
+                <div class="milestone-card" style="--i:6" role="listitem"
+                     data-card-index="6">
+                    <div class="milestone-icon" aria-hidden="true">
+                        <i class="fas fa-user-tie"/>
+                    </div>
+                    <h3><span class="counter" data-count="8">0</span>+</h3>
+                    <p>Years Experts</p>
+                </div>
+
+            </div><!-- /.milestone-grid -->
+        </div><!-- /.milestone-wrapper -->
+    </section>
+
+</div><!-- /.oe_structure -->

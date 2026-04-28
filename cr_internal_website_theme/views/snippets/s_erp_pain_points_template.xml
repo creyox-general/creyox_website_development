@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!-- Snippet Template -->
+    <template id="s_erp_pain_points_template" name="ERP Pain Points">
+        <section class="s_erp_pain_points cr_font sg-cols-3" data-snippet="s_erp_pain_points" data-name="ERP Pain Points">
+            <div class="erp-container">
+                <!-- Section Header -->
+                <div class="erp-header-group" data-aos="fade-up">
+                    <h2 class="erp-title">
+                        <t t-if="o_heading" t-esc="o_heading"/>
+                        <t t-else="">Is Your Business Still Running Outdated ERP and Disconnected Tools?</t>
+                    </h2>
+                    <p class="erp-subtitle">
+                        <t t-if="o_subtitle" t-esc="o_subtitle"/>
+                        <t t-else="">Thousands of small and mid-sized businesses are losing time, money and competitive
+                            edge to outdated software every day. If you're still running your business on spreadsheets,
+                            legacy ERP, or a patchwork of disconnected tools you already know the pain.
+                        </t>
+                    </p>
+                </div>
+
+                <!-- The Redesigned 3x2 Unified Grid -->
+                <div class="connected-matrix" data-aos="fade-up">
+
+                    <!-- First Row: Blocks 01, 02, 03 -->
+                    <div class="row g-4 mb-4">
+                        <!-- Card 01 -->
+                        <div class="col-md-6 pp-card-col">
+                            <div t-attf-class="matrix-block pure-bento-card {{o_card_1_highlight and 'highlight' or ''}}"
+                                 data-aos="fade-up">
+                                <span class="bento-index">
+                                    <t t-esc="o_card_1_index or '01'"/>
+                                </span>
+                                <div class="bento-content">
+                                    <h3 class="bento-title">
+                                        <t t-esc="o_card_1_title or 'Data in silos'"/>
+                                    </h3>
+                                    <p class="bento-text">
+                                        <t t-esc="o_card_1_text or 'No single source of truth decisions made on guesswork'"/>
+                                    </p>
+                                </div>
+                                <div class="bento-accent-dot" t-if="o_card_1_highlight"/>
+                            </div>
+                        </div>
+                        <!-- Card 02 -->
+                        <div class="col-md-6 pp-card-col">
+                            <div t-attf-class="matrix-block pure-bento-card {{o_card_2_highlight or 'highlight'}}"
+                                 data-aos="fade-up" data-aos-delay="100">
+                                <span class="bento-index">
+                                    <t t-esc="o_card_2_index or '02'"/>
+                                </span>
+                                <div class="bento-content">
+                                    <h3 class="bento-title">
+                                        <t t-esc="o_card_2_title or 'High legacy ERP costs'"/>
+                                    </h3>
+                                    <p class="bento-text">
+                                        <t t-esc="o_card_2_text or 'Expensive licenses + slow customization drain your budget'"/>
+                                    </p>
+                                </div>
+                                <div class="bento-accent-dot" t-if="o_card_2_highlight or not o_card_2_highlight"/>
+                            </div>
+                        </div>
+                        <!-- Card 03 -->
+                        <div class="col-md-6 pp-card-col">
+                            <div t-attf-class="matrix-block pure-bento-card {{o_card_3_highlight and 'highlight' or ''}}"
+                                 data-aos="fade-up" data-aos-delay="200">
+                                <span class="bento-index">
+                                    <t t-esc="o_card_3_index or '03'"/>
+                                </span>
+                                <div class="bento-content">
+                                    <h3 class="bento-title">
+                                        <t t-esc="o_card_3_title or 'Manual processes'"/>
+                                    </h3>
+                                    <p class="bento-text">
+                                        <t t-esc="o_card_3_text or 'Hours wasted on data entry, approvals &amp; reports that should be automated'"/>
+                                    </p>
+                                </div>
+                                <div class="bento-accent-dot" t-if="o_card_3_highlight"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Second Row: Blocks 04, 05, 06 -->
+                    <div class="row g-4">
+                        <!-- Card 04 -->
+                        <div class="col-md-6 pp-card-col">
+                            <div t-attf-class="matrix-block pure-bento-card {{o_card_4_highlight or 'highlight'}}"
+                                 data-aos="fade-up">
+                                <span class="bento-index">
+                                    <t t-esc="o_card_4_index or '04'"/>
+                                </span>
+                                <div class="bento-content">
+                                    <h3 class="bento-title">
+                                        <t t-esc="o_card_4_title or 'No mobile access'"/>
+                                    </h3>
+                                    <p class="bento-text">
+                                        <t t-esc="o_card_4_text or 'Your team can\'t work from anywhere productivity suffers'"/>
+                                    </p>
+                                </div>
+                                <div class="bento-accent-dot" t-if="o_card_4_highlight or not o_card_4_highlight"/>
+                            </div>
+                        </div>
+                        <!-- Card 05 -->
+                        <div class="col-md-6 pp-card-col">
+                            <div t-attf-class="matrix-block pure-bento-card {{o_card_5_highlight and 'highlight' or ''}}"
+                                 data-aos="fade-up" data-aos-delay="100">
+                                <span class="bento-index">
+                                    <t t-esc="o_card_5_index or '05'"/>
+                                </span>
+                                <div class="bento-content">
+                                    <h3 class="bento-title">
+                                        <t t-esc="o_card_5_title or 'No AI capabilities'"/>
+                                    </h3>
+                                    <p class="bento-text">
+                                        <t t-esc="o_card_5_text or 'Competitors using AI-driven ERP gain speed &amp; insight you\'re missing'"/>
+                                    </p>
+                                </div>
+                                <div class="bento-accent-dot" t-if="o_card_5_highlight"/>
+                            </div>
+                        </div>
+                        <!-- Card 06 -->
+                        <div class="col-md-6 pp-card-col">
+                            <div t-attf-class="matrix-block pure-bento-card {{o_card_6_highlight or 'highlight'}}"
+                                 data-aos="fade-up" data-aos-delay="200">
+                                <span class="bento-index">
+                                    <t t-esc="o_card_6_index or '06'"/>
+                                </span>
+                                <div class="bento-content">
+                                    <h3 class="bento-title">
+                                        <t t-esc="o_card_6_title or 'Poor integrations'"/>
+                                    </h3>
+                                    <p class="bento-text">
+                                        <t t-esc="o_card_6_text or 'Tools are not connected to each other creating duplicate work &amp; errors.'"/>
+                                    </p>
+                                </div>
+                                <div class="bento-accent-dot" t-if="o_card_6_highlight or not o_card_6_highlight"/>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <t t-out="0"/>
+        </section>
+    </template>
+
+    <!-- Snippet Options -->
+    <template id="snippet_options_erp_pain_points" inherit_id="web_editor.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-js="ERPPainPointsOptions"
+                 data-selector=".s_erp_pain_points"
+                 data-drop-in=".oe_structure"
+                 data-drop-near=".s_erp_pain_points, section"
+                 string="ERP Pain Points">
+
+                <we-input string="Section Heading" data-set-heading="" data-no-preview="true"/>
+                <we-input string="Section Subtitle" data-set-subtitle="" data-no-preview="true"/>
+                <we-colorpicker string="Background Color" data-css-property="background-color"/>
+                <we-select string="Columns per Row">
+                    <we-button data-select-class="sg-cols-2">2 Columns</we-button>
+                    <we-button data-select-class="sg-cols-3">3 Columns</we-button>
+                    <we-button data-select-class="sg-cols-4">4 Columns</we-button>
+                </we-select>
+                <we-button data-add-card="true" data-no-preview="true">➕ Add Block</we-button>
+                <we-button data-remove-last-card="true" data-no-preview="true">➖ Remove Block</we-button>
+
+                <we-collapse string="Bento Cards">
+                    <t t-foreach="[1,2,3,4,5,6]" t-as="idx">
+                        <we-collapse t-attf-string="Card {{idx}}">
+                            <we-input string="Index (e.g. 01)" data-set-card-index="" t-att-data-card-index="idx"
+                                      data-no-preview="true"/>
+                            <we-input string="Title" data-set-card-title="" t-att-data-card-index="idx"
+                                      data-no-preview="true"/>
+                            <we-input string="Text" data-set-card-text="" t-att-data-card-index="idx"
+                                      data-no-preview="true"/>
+                            <we-checkbox string="Highlight" data-set-card-highlight="" t-att-data-card-index="idx"
+                                         data-no-preview="true"/>
+                        </we-collapse>
+                    </t>
+                </we-collapse>
+            </div>
+        </xpath>
+    </template>
+
+
+</odoo>

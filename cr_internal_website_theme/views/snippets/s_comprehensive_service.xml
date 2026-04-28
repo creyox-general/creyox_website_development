@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="s_comprehensive_service" name="Comprehensive Service Content">
+        <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
+                 data-snippet="s_comprehensive_service"
+                 data-oe-type="snippet"
+                 data-name="Comprehensive Service">
+            <div class="container py-5">
+                
+                <!-- First Row: Heading -->
+                <div class="row mb-5 pb-lg-3">
+                    <div class="col-12 text-center">
+                        <h2 class="partner-title mb-3">
+                            Best ERP Solution Provider for
+                            <span class="text-gradient">Modern Businesses</span>
+                        </h2>
+                        <!-- Small decorative underline -->
+                        <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                    </div>
+                </div>
+                
+                <!-- Second Row: Text and Image -->
+                <div class="row align-items-center gx-0">
+                    
+                    <div class="col-lg-6 mb-5 mb-lg-0 p-0">
+                        <div class="partner-content-box text-start">
+                            <p class="partner-description partner-desc-1 mb-3 w-100">
+                                Looking for an ERP solution provider that can simplify your business operations and improve efficiency? Then you are in the right place. Creyox is a trusted ERP software solution provider that helps businesses streamline operations with powerful and scalable ERP software solutions.
+                            </p>
+                            <p class="partner-description partner-desc-2 mb-4 w-100">
+                                Our custom ERP solutions integrate key business functions such as finance, inventory, sales, and human resources into one centralized platform. With advanced cloud ERP solutions, small or medium businesses can automate workflows, gain real-time insights, and improve decision making. Whether you are a growing startup or an established enterprise, our ERP solution services are designed to increase efficiency, reduce operational complexity, and support long term business growth.
+                            </p>
+                            <div class="partner-cta-group">
+                                <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                    <span>Get ERP Consultation</span>
+                                    <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 p-0">
+                        <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
+                            <img src="/cr_internal_website_theme/static/src/img/erp-solution.png"
+                                 alt="ERP Solution Provider"
+                                 class="img-fluid w-100" 
+                                 style="object-fit: contain; transform: scale(1.4); transform-origin: left center; z-index: 1;"/>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </template>
+    
+    <record id="cr_internal_website_theme.s_comprehensive_service_000_scss" model="ir.asset">
+        <field name="name">s_comprehensive_service 000 SCSS</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">cr_internal_website_theme/static/src/snippets/s_comprehensive_service/000.scss</field>
+    </record>
+</odoo>

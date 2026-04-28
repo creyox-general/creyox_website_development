@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!-- Snippet Template -->
+    <template id="s_why_choose_us_template" name="Why Choose Us">
+        <section class="s_why_choose_us cr_font" data-snippet="s_why_choose_us" data-name="Why Choose Us">
+            <!-- Background Premium Elements -->
+            <div class="bg-mesh"></div>
+            <div class="bg-orb orb-1"></div>
+            <div class="bg-orb orb-2"></div>
+            <div class="decorative-particle p1">+</div>
+            <div class="decorative-particle p2">+</div>
+
+            <div class="container">
+                <!-- Professional Top Heading -->
+                <div class="section-header mb-5 text-center mx-auto" data-aos="fade-down" style="max-width: 900px;">
+                    <h2 class="section-title">
+                        <t t-if="o_title" t-out="o_title"/>
+                        <t t-else="">
+                            Why Businesses Choose
+                            <span class="text-gradient">Creyox Technologies</span>
+                        </t>
+                    </h2>
+                    <div class="title-underline mx-auto"></div>
+                    <p class="section-description mt-4 text-center">
+                        <t t-esc="o_desc or 'Delivering high-end Odoo ERP experiences with a focus on AI innovation, global scalability, and measurable ROI across industries.'"/>
+                    </p>
+                </div>
+
+                <!-- Matching Visual Mosaic (4 Images) -->
+                <div class="solution-mosaic">
+                    <div class="row g-4">
+                        <!-- Row 1: AI (8) and Image (4) -->
+                        <div class="col-lg-8" data-aos="fade-right">
+                            <div class="stack-card card-blue h-100">
+                                <span class="card-number">01</span>
+                                <div class="card-icon-inner">
+                                    <i t-att-class="o_c1_icon or 'fas fa-robot'"/>
+                                </div>
+                                <h3 class="card-title"><t t-esc="o_c1_title or 'AI-First Approach'"/></h3>
+                                <p class="card-text"><t t-esc="o_c1_text or 'We integrate advanced AI automation and predictive analytics directly into your Odoo core, transforming how you handle data and customer interactions.'"/></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" data-aos="fade-left">
+                            <div class="mosaic-image-block" t-attf-style="background-image: url('#{o_img1 or '/cr_internal_website_theme/static/src/img/ai_erp_dashboard_premium.png'}');"></div>
+                        </div>
+
+                        <!-- Row 2: Cloud Card (4), Cloud Image (4), Odoo Stack Card (4) -->
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                            <div class="stack-card card-white h-100">
+                                <span class="card-number">02</span>
+                                <div class="card-icon-inner">
+                                    <i t-att-class="o_c2_icon or 'fas fa-cloud'"/>
+                                </div>
+                                <h3 class="card-title"><t t-esc="o_c2_title or 'Cloud-Native'"/></h3>
+                                <p class="card-text"><t t-esc="o_c2_text or 'Secure, mobile-ready cloud infrastructure that scales with your business growth while ensuring maximum uptime and accessibility.'"/></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-none d-lg-block" data-aos="zoom-in">
+                            <div class="mosaic-image-block" t-attf-style="background-image: url('#{o_img2 or '/cr_internal_website_theme/static/src/img/odoo_stack_v3_premium.png'}');"></div>
+                        </div>
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="stack-card card-dark h-100">
+                                <span class="card-number">03</span>
+                                <div class="card-icon-inner">
+                                    <i t-att-class="o_c3_icon or 'fas fa-layer-group'"/>
+                                </div>
+                                <h3 class="card-title"><t t-esc="o_c3_title or 'Full Odoo Stack'"/></h3>
+                                <p class="card-text"><t t-esc="o_c3_text or 'Comprehensive implementation, custom development, and seamless integration of all Odoo modules to automate your entire operation.'"/></p>
+                            </div>
+                        </div>
+
+                        <!-- Row 3: Odoo Stack Image (4), Industry Card (4), Team Image (4) -->
+                        <div class="col-lg-4" data-aos="fade-right">
+                            <div class="mosaic-image-block" t-attf-style="background-image: url('#{o_img3 or '/cr_internal_website_theme/static/src/img/odoo_stack_premium.png'}');"></div>
+                        </div>
+                        <div class="col-lg-4" data-aos="fade-up">
+                            <div class="stack-card card-white h-100">
+                                <span class="card-number">04</span>
+                                <div class="card-icon-inner">
+                                    <i t-att-class="o_c4_icon or 'fas fa-building'"/>
+                                </div>
+                                <h3 class="card-title"><t t-esc="o_c4_title or 'Industry Expertise'"/></h3>
+                                <p class="card-text"><t t-esc="o_c4_text or 'Tailored Odoo solutions for manufacturing, retail, healthcare, and logistics, built by experts who understand your unique business challenges.'"/></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-none d-lg-block" data-aos="fade-left">
+                            <div class="mosaic-image-block" t-attf-style="background-image: url('#{o_img4 or '/cr_internal_website_theme/static/src/img/office_team_working_premium.png'}');"></div>
+                        </div>
+
+                        <!-- Row 4: Support (6) and ROI (6) -->
+                        <div class="col-lg-6" data-aos="fade-up">
+                            <div class="stack-card card-blue h-100">
+                                <span class="card-number">05</span>
+                                <div class="card-icon-inner">
+                                    <i t-att-class="o_c5_icon or 'fas fa-headset'"/>
+                                </div>
+                                <h3 class="card-title"><t t-esc="o_c5_title or 'Dedicated Support'"/></h3>
+                                <p class="card-text"><t t-esc="o_c5_text or 'Our commitment to your success continues after launch with 24/7 monitoring, proactive maintenance, and instant troubleshooting.'"/></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="stack-card card-dark h-100">
+                                <span class="card-number">06</span>
+                                <div class="card-icon-inner">
+                                    <i t-att-class="o_c6_icon or 'fas fa-chart-line'"/>
+                                </div>
+                                <h3 class="card-title"><t t-esc="o_c6_title or 'ROI-Focused Delivery'"/></h3>
+                                <p class="card-text"><t t-esc="o_c6_text or 'We focus on high-impact implementations that deliver fast ROI and measurable efficiency gains, ensuring your investment pays off quickly.'"/></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <t t-out="0"/>
+    </template>
+
+    <!-- Snippet Options -->
+    <template id="snippet_options_why_choose_us" inherit_id="web_editor.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-js="WhyChooseUsOptions"
+                 data-selector=".s_why_choose_us"
+                 data-drop-in=".oe_structure"
+                 data-drop-near=".s_why_choose_us, section"
+                 string="Why Choose Us">
+                
+                <we-collapse string="Header">
+                    <we-input string="Title" data-set-title="" data-no-preview="true"/>
+                    <we-input string="Description" data-set-desc="" data-no-preview="true"/>
+                </we-collapse>
+
+                <we-collapse string="Cards Content">
+                    <!-- Card 1 -->
+                    <we-collapse string="Card 01">
+                        <we-input string="Icon Class" data-set-card-icon="" data-index="0" data-no-preview="true"/>
+                        <we-input string="Title" data-set-card-title="" data-index="0" data-no-preview="true"/>
+                        <we-input string="Text" data-set-card-text="" data-index="0" data-no-preview="true"/>
+                    </we-collapse>
+                    <!-- Card 2 -->
+                    <we-collapse string="Card 02">
+                        <we-input string="Icon Class" data-set-card-icon="" data-index="1" data-no-preview="true"/>
+                        <we-input string="Title" data-set-card-title="" data-index="1" data-no-preview="true"/>
+                        <we-input string="Text" data-set-card-text="" data-index="1" data-no-preview="true"/>
+                    </we-collapse>
+                    <!-- Card 3 -->
+                    <we-collapse string="Card 03">
+                        <we-input string="Icon Class" data-set-card-icon="" data-index="2" data-no-preview="true"/>
+                        <we-input string="Title" data-set-card-title="" data-index="2" data-no-preview="true"/>
+                        <we-input string="Text" data-set-card-text="" data-index="2" data-no-preview="true"/>
+                    </we-collapse>
+                    <!-- Card 4 -->
+                    <we-collapse string="Card 04">
+                        <we-input string="Icon Class" data-set-card-icon="" data-index="3" data-no-preview="true"/>
+                        <we-input string="Title" data-set-card-title="" data-index="3" data-no-preview="true"/>
+                        <we-input string="Text" data-set-card-text="" data-index="3" data-no-preview="true"/>
+                    </we-collapse>
+                    <!-- Card 5 -->
+                    <we-collapse string="Card 05">
+                        <we-input string="Icon Class" data-set-card-icon="" data-index="4" data-no-preview="true"/>
+                        <we-input string="Title" data-set-card-title="" data-index="4" data-no-preview="true"/>
+                        <we-input string="Text" data-set-card-text="" data-index="4" data-no-preview="true"/>
+                    </we-collapse>
+                    <!-- Card 6 -->
+                    <we-collapse string="Card 06">
+                        <we-input string="Icon Class" data-set-card-icon="" data-index="5" data-no-preview="true"/>
+                        <we-input string="Title" data-set-card-title="" data-index="5" data-no-preview="true"/>
+                        <we-input string="Text" data-set-card-text="" data-index="5" data-no-preview="true"/>
+                    </we-collapse>
+                </we-collapse>
+
+                <we-collapse string="Mosaic Images">
+                    <we-input string="Image 01 Path" data-set-image="" data-index="0" data-no-preview="true"/>
+                    <we-input string="Image 02 Path" data-set-image="" data-index="1" data-no-preview="true"/>
+                    <we-input string="Image 03 Path" data-set-image="" data-index="2" data-no-preview="true"/>
+                    <we-input string="Image 04 Path" data-set-image="" data-index="3" data-no-preview="true"/>
+                </we-collapse>
+
+                <we-colorpicker string="Background Color" data-css-property="background-color" data-selector=".s_why_choose_us"/>
+            </div>
+        </xpath>
+    </template>
+
+    <!-- Assets -->
+    <record id="cr_internal_website_theme.s_why_choose_us_scss" model="ir.asset">
+        <field name="name">s_why_choose_us SCSS</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">cr_internal_website_theme/static/src/snippets/s_why_choose_us/000.scss</field>
+    </record>
+
+    <record id="cr_internal_website_theme.s_why_choose_us_js" model="ir.asset">
+        <field name="name">s_why_choose_us JS</field>
+        <field name="bundle">web.assets_editor</field>
+        <field name="path">cr_internal_website_theme/static/src/snippets/s_why_choose_us/options.js</field>
+    </record>
+
+</odoo>

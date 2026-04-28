@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="homepage_section6" name="Service Showcase">
+        <div class="oe_structure" id="oe_structure_service_showcase_1">
+            <section class="s_service_showcase cr_font sc-cols-4" data-snippet="s_service_showcase" data-name="Service Showcase">
+                <div class="container">
+                    <!-- Section Header -->
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Everything you Need is
+                            <span class="text-gradient">under the one roof</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="section-description mt-4 mx-auto">
+                            From strategy to support Creyox handles your complete ERP journey.
+                        </p>
+                    </div>
+
+                    <!-- Service Cards Grid -->
+                    <div class="row g-4 s_service_showcase_row" data-aos="fade-up" data-aos-delay="50">
+                        <!-- Card 1 -->
+                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-cogs"></i></div>
+                                <h3 class="card-title">ERP Solution</h3>
+                                <p class="card-text">End-to-end cloud ERP solutions for businesses. Streamline finance, operations &amp; supply chain in one platform.</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-card card-dark">
+                                <div class="card-icon"><i class="fas fa-users-cog"></i></div>
+                                <h3 class="card-title">CRM Solution</h3>
+                                <p class="card-text">AI-powered CRM to track leads, automate follow-ups, and close deals faster. Fully integrated with your ERP for a 360° customer view.</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-cash-register"></i></div>
+                                <h3 class="card-title">POS Solution</h3>
+                                <p class="card-text">Modern Point-of-Sale connected to your inventory, accounting &amp; CRM in real time. Perfect for retail and food &amp; beverage businesses.</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="300">
+                            <div class="service-card card-dark">
+                                <div class="card-icon"><i class="fas fa-code"></i></div>
+                                <h3 class="card-title">Web Development</h3>
+                                <p class="card-text">Business websites, eCommerce stores &amp; web portals built to integrate seamlessly with your Odoo ERP ecosystem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </template>
+</odoo>

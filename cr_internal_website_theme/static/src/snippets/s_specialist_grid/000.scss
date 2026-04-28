@@ -1,0 +1,471 @@
+// .s_specialist_grid {
+//     padding: clamp(60px, 10vw, 120px) 0 !important;
+//     background-color: #ffffff;
+//     position: relative;
+//     overflow: hidden;
+//
+//     .section-header {
+//         .section-title {
+//             font-size: clamp(36px, 6vw, 48px) !important;
+//             font-weight: 700 !important;
+//             color: #0d121f !important;
+//             line-height: 1.2 !important;
+//             letter-spacing: -0.02em !important;
+//             margin-bottom: 0px;
+//
+//             .text-gradient {
+//                 display: inline-block;
+//                 background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+//                 -webkit-background-clip: text;
+//                 background-clip: text;
+//                 -webkit-text-fill-color: transparent;
+//                 padding-right: 0.15em;
+//             }
+//         }
+//
+//         .section-subtitle {
+//             font-size: 16px !important;
+//             color: #64748b;
+//         }
+//     }
+//
+//     .specialist-grid-container {
+//         margin-top: 50px;
+//     }
+//
+//     .specialist-card {
+//         background: linear-gradient(135deg, #f0f4ff, #ffffff);
+//         padding: 40px 30px;
+//         height: 100%;
+//         display: flex;
+//         flex-direction: column;
+//         border: 2px solid transparent;
+//         border-radius: 0 !important;
+//         transition: all 0.4s ease;
+//         position: relative;
+//         z-index: 1;
+//
+//         &:hover {
+//             transform: translateY(-8px);
+//             background: linear-gradient(135deg, #e6f0ff, #ffffff);
+//             box-shadow: 0 16px 32px rgba(10, 23, 59, 0.15);
+//             border: 2px solid #1e3a8a;
+//         }
+//
+//         .card-digit {
+//             font-size: 56px;
+//             font-weight: 900;
+//             color: rgba(30, 58, 138, 0.15);
+//             line-height: 1;
+//             margin-bottom: 25px;
+//             font-family: 'Inter', sans-serif;
+//             position: relative;
+//             z-index: 2;
+//         }
+//
+//         .card-title {
+//             font-size: 22px !important;
+//             font-weight: 800 !important;
+//             color: #0d121f !important;
+//             margin-bottom: 20px;
+//             line-height: 1.3;
+//             position: relative;
+//             z-index: 2;
+//         }
+//
+//         .card-text {
+//             font-size: 15px !important;
+//             color: #4b5563;
+//             line-height: 1.7;
+//             margin-bottom: 0px;
+//             flex-grow: 1;
+//             position: relative;
+//             z-index: 2;
+//         }
+//     }
+// }
+//
+//
+// /* Grid Column Controls — toggled natively by Odoo data-select-class on .s_specialist_grid */
+// .s_specialist_grid.sg-cols-2 .s_specialist_card_col {
+//     flex: 0 0 50% !important;
+//     max-width: 50% !important;
+// }
+//
+// .s_specialist_grid.sg-cols-3 .s_specialist_card_col {
+//     flex: 0 0 33.3333% !important;
+//     max-width: 33.3333% !important;
+// }
+//
+// .s_specialist_grid.sg-cols-4 .s_specialist_card_col {
+//     flex: 0 0 25% !important;
+//     max-width: 25% !important;
+// }
+//
+// @media (max-width: 1199.98px) {
+//     .s_specialist_grid {
+//         .specialist-card {
+//             padding: 35px 25px;
+//
+//             .card-title {
+//                 font-size: 20px !important;
+//             }
+//         }
+//     }
+// }
+//
+// @media (max-width: 991px) {
+//     .s_specialist_grid {
+//         padding: 80px 0 !important;
+//
+//         /* Force 2 columns on tablet unless mobile */
+//         .s_specialist_card_col {
+//             flex: 0 0 auto;
+//             width: 50% !important;
+//         }
+//
+//         .specialist-card {
+//             padding: 30px 25px;
+//             margin-bottom: 30px;
+//         }
+//     }
+// }
+//
+// @media (max-width: 767px) {
+//     .s_specialist_grid {
+//         .s_specialist_card_col {
+//             flex: 0 0 auto;
+//             width: 100% !important;
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+.s_specialist_grid {
+    padding: clamp(60px, 10vw, 120px) 0 !important;
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+
+    .section-header {
+        .section-title {
+            font-size: clamp(36px, 6vw, 48px) !important;
+            font-weight: 700 !important;
+            color: #0d121f !important;
+            line-height: 1.2 !important;
+            letter-spacing: -0.02em !important;
+            margin-bottom: 0px;
+
+            .text-gradient {
+                display: inline-block;
+                background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                padding-right: 0.15em;
+            }
+        }
+
+        .section-subtitle {
+            font-size: 16px !important;
+            color: #64748b;
+        }
+    }
+
+    .specialist-grid-container {
+        margin-top: 50px;
+    }
+
+    .specialist-card {
+        background: linear-gradient(135deg, #f0f4ff, #ffffff);
+        padding: 40px 30px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid transparent;
+        border-radius: 0 !important;
+        transition: all 0.4s ease;
+        position: relative;
+        z-index: 1;
+
+        &:hover {
+            transform: translateY(-8px);
+            background: linear-gradient(135deg, #e6f0ff, #ffffff);
+            box-shadow: 0 16px 32px rgba(10, 23, 59, 0.15);
+            border: 2px solid #1e3a8a;
+        }
+
+        .card-digit {
+            font-size: 56px;
+            font-weight: 900;
+            color: rgba(30, 58, 138, 0.15);
+            line-height: 1;
+            margin-bottom: 25px;
+            font-family: 'Inter', sans-serif;
+            position: relative;
+            z-index: 2;
+        }
+
+        .card-title {
+            font-size: 22px !important;
+            font-weight: 800 !important;
+            color: #0d121f !important;
+            margin-bottom: 20px;
+            line-height: 1.3;
+            position: relative;
+            z-index: 2;
+        }
+
+        .card-text {
+            font-size: 15px !important;
+            color: #4b5563;
+            line-height: 1.7;
+            margin-bottom: 0px;
+            flex-grow: 1;
+            position: relative;
+            z-index: 2;
+        }
+    }
+}
+
+/* =============================================
+   GRID COLUMN CONTROLS (Odoo data-select-class)
+   Desktop only — overridden by breakpoints below
+   ============================================= */
+.s_specialist_grid.sg-cols-2 .s_specialist_card_col {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+}
+
+.s_specialist_grid.sg-cols-3 .s_specialist_card_col {
+    flex: 0 0 33.3333% !important;
+    max-width: 33.3333% !important;
+}
+
+.s_specialist_grid.sg-cols-4 .s_specialist_card_col {
+    flex: 0 0 25% !important;
+    max-width: 25% !important;
+}
+
+/* =============================================
+   LARGE DESKTOP — 1200px+
+   Already handled by base styles above
+   ============================================= */
+@media (max-width: 1199.98px) {
+    .s_specialist_grid {
+        .specialist-card {
+            padding: 35px 25px;
+
+            .card-digit {
+                font-size: 48px;
+                margin-bottom: 20px;
+            }
+
+            .card-title {
+                font-size: 20px !important;
+            }
+
+            .card-text {
+                font-size: 14px !important;
+            }
+        }
+    }
+}
+
+/* =============================================
+   TABLET — 992px to 1199px
+   Force 2 columns regardless of sg-cols setting
+   ============================================= */
+@media (max-width: 991.98px) {
+    .s_specialist_grid {
+        padding: 70px 0 !important;
+
+        .specialist-grid-container {
+            margin-top: 36px;
+        }
+
+        /* ✅ Override ALL sg-cols variants → 2 columns on tablet */
+        .s_specialist_card_col,
+        .sg-cols-2 .s_specialist_card_col,
+        .sg-cols-3 .s_specialist_card_col,
+        .sg-cols-4 .s_specialist_card_col {
+            flex: 0 0 50% !important;
+            max-width: 50% !important;
+            width: 50% !important;
+        }
+
+        .specialist-card {
+            padding: 30px 22px;
+            margin-bottom: 0;
+            height: 100%;
+
+            .card-digit {
+                font-size: 44px;
+                margin-bottom: 18px;
+            }
+
+            .card-title {
+                font-size: 19px !important;
+                margin-bottom: 14px;
+            }
+
+            .card-text {
+                font-size: 14px !important;
+            }
+        }
+
+        .section-header .section-title {
+            font-size: clamp(28px, 5vw, 36px) !important;
+        }
+
+        .section-header .section-subtitle {
+            font-size: 15px !important;
+        }
+    }
+}
+
+/* =============================================
+   MOBILE — max 767px
+   ✅ KEY FIX: 1 column, full width stacked
+   ============================================= */
+@media (max-width: 767.98px) {
+    .s_specialist_grid {
+        padding: 50px 0 !important;
+
+        .specialist-grid-container {
+            margin-top: 28px;
+        }
+
+        /* ✅ Force ALL col variants to 100% width */
+        .s_specialist_card_col,
+        .sg-cols-2 .s_specialist_card_col,
+        .sg-cols-3 .s_specialist_card_col,
+        .sg-cols-4 .s_specialist_card_col {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+            width: 100% !important;
+            padding-left: 12px !important;
+            padding-right: 12px !important;
+        }
+
+        /* Remove Bootstrap gutter overflow */
+        .s_specialist_grid_row {
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 1rem;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+
+        .specialist-card {
+            padding: 24px 20px;
+            height: auto !important;
+            margin-bottom: 0;
+
+            /* Disable hover lift on touch */
+            &:hover {
+                transform: none;
+                box-shadow: none;
+                border-color: transparent;
+                background: linear-gradient(135deg, #f0f4ff, #ffffff);
+            }
+
+            .card-digit {
+                font-size: 40px;
+                margin-bottom: 14px;
+            }
+
+            .card-title {
+                font-size: 18px !important;
+                margin-bottom: 10px;
+            }
+
+            .card-text {
+                font-size: 14px !important;
+                line-height: 1.6;
+            }
+        }
+
+        .section-header {
+            padding: 0 4px;
+
+            .section-title {
+                font-size: clamp(24px, 7vw, 30px) !important;
+            }
+
+            .section-subtitle {
+                font-size: 14px !important;
+            }
+        }
+    }
+
+    /* Override sg-cols at section level too (extra specificity safety) */
+    .s_specialist_grid.sg-cols-2 .s_specialist_card_col,
+    .s_specialist_grid.sg-cols-3 .s_specialist_card_col,
+    .s_specialist_grid.sg-cols-4 .s_specialist_card_col {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+}
+
+/* =============================================
+   MOBILE SMALL — max 480px
+   Extra small phones (320px–480px)
+   ============================================= */
+@media (max-width: 480px) {
+    .s_specialist_grid {
+        padding: 40px 0 !important;
+
+        .specialist-grid-container {
+            margin-top: 20px;
+        }
+
+        .s_specialist_card_col {
+            padding-left: 8px !important;
+            padding-right: 8px !important;
+        }
+
+        .specialist-card {
+            padding: 20px 16px;
+
+            .card-digit {
+                font-size: 34px;
+                margin-bottom: 12px;
+            }
+
+            .card-title {
+                font-size: 16px !important;
+                margin-bottom: 8px;
+            }
+
+            .card-text {
+                font-size: 13px !important;
+            }
+        }
+
+        .section-header .section-title {
+            font-size: 22px !important;
+        }
+
+        .section-header .section-subtitle {
+            font-size: 13px !important;
+        }
+    }
+}
+
+/* =============================================
+   TOUCH DEVICES — disable hover transforms
+   ============================================= */
+@media (hover: none) and (pointer: coarse) {
+    .s_specialist_grid .specialist-card:hover {
+        transform: none !important;
+        box-shadow: none !important;
+        border-color: transparent !important;
+        background: linear-gradient(135deg, #f0f4ff, #ffffff) !important;
+    }
+}

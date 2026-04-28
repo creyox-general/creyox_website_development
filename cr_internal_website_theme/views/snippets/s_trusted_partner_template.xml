@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <template id="s_trusted_partner_template" name="Trusted Odoo Partner">
+        <section class="s_trusted_odoo_partner cr_font"
+                 data-snippet="s_trusted_odoo_partner"
+                 data-oe-type="snippet"
+                 data-name="Trusted Odoo Partner">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="partner-content-box">
+                            <h2 class="partner-title">
+                                <!-- t-out renders HTML, falls back to default -->
+                                <t t-if="o_title">
+                                    <t t-out="o_title"/>
+                                </t>
+                                <t t-else="">
+                                    Your Company is Your
+                                    <span class="text-gradient">Trusted Odoo Partner</span>
+                                    &amp; ERP Solutions Company
+                                </t>
+                            </h2>
+                            <p class="partner-description partner-desc-1">
+                                <t t-if="o_desc1">
+                                    <t t-esc="o_desc1"/>
+                                </t>
+                                <t t-else="">
+                                    We are a certified Odoo Partner and full-service ERP solutions
+                                    provider serving clients across the globe with premium solutions.
+                                </t>
+                            </p>
+                            <p class="partner-description partner-desc-2">
+                                <t t-if="o_desc2">
+                                    <t t-esc="o_desc2"/>
+                                </t>
+                                <t t-else="">
+                                    We specialize in delivering cloud ERP solutions that combine
+                                    the full power of Odoo with cutting-edge AI capabilities.
+                                </t>
+                            </p>
+                            <div class="partner-cta-group">
+                                <a t-att-href="o_btn_url or '/contactus'"
+                                   class="cta-button primary">
+                                    <span>
+                                        <t t-esc="o_btn_text or 'Work with Experts'"/>
+                                    </span>
+                                    <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="partner-image-box">
+                            <img t-att-src="o_image or '/cr_internal_website_theme/static/src/img/odoo_partner_trust.png'"
+                                 t-att-alt="o_image_alt or 'Trusted Odoo Partner'"
+                                 class="img-fluid partner-image"/>
+                            <div class="image-overlay-glow"/>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <t t-out="0"/>
+    </template>
+
+
+
+    <template id="snippet_options_trusted_partner"
+              inherit_id="web_editor.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-js="TrustedPartnerOptions"
+                 data-selector=".s_trusted_odoo_partner"
+                 data-drop-in=".oe_structure"
+                 data-drop-near=".s_trusted_odoo_partner, section"
+                 string="Trusted Partner">
+
+                <we-select string="Layout">
+                    <we-button data-select-class="">
+                        Text Left / Image Right
+                    </we-button>
+                    <we-button data-select-class="o_layout_reverse">
+                        Image Left / Text Right
+                    </we-button>
+                </we-select>
+
+                <we-input string="Title"
+                          data-set-title=""
+                          data-no-preview="true"/>
+
+                <we-input string="Paragraph 1"
+                          data-set-desc1=""
+                          data-no-preview="true"/>
+
+                <we-input string="Paragraph 2"
+                          data-set-desc2=""
+                          data-no-preview="true"/>
+
+                <we-input string="Button Text"
+                          data-set-btn-text=""
+                          data-no-preview="true"/>
+
+                <we-input string="Button URL"
+                          data-set-btn-url=""
+                          data-no-preview="true"/>
+
+                <we-input string="Image Path"
+                          data-set-image-src=""
+                          data-no-preview="true"/>
+
+                <we-colorpicker string="Background Color"
+                                data-css-property="background-color"/>
+            </div>
+        </xpath>
+    </template>
+
+    <record id="cr_internal_website_theme.s_trusted_partner_template_000_scss" model="ir.asset">
+        <field name="name">s_trusted_partner_template 000 SCSS</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">cr_internal_website_theme/static/src/snippets/s_trusted_partner_template/000.scss</field>
+    </record>
+
+    <record id="cr_internal_website_theme.s_trusted_partner_template_000_js" model="ir.asset">
+        <field name="name">s_trusted_partner_template 000 JS</field>
+        <field name="bundle">web.assets_editor</field>
+        <field name="path">cr_internal_website_theme/static/src/snippets/s_trusted_partner_template/000.js</field>
+    </record>
+
+</odoo>

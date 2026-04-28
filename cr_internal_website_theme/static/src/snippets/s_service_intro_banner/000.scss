@@ -1,0 +1,116 @@
+.service-intro-banner {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background: #0A173B;
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.banner-main-title {
+    font-size: 2.25rem; /* 36px */
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.banner-tagline {
+    font-size: 1.125rem; /* 18px */
+    color: white;
+    margin-bottom: 25px;
+}
+
+.banner-breadcrumbs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.breadcrumb-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.breadcrumb-link:hover {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.breadcrumb-separator {
+    margin-left: 5px;
+}
+
+.breadcrumb-current {
+    color: white;
+    font-weight: 600;
+}
+
+/* ====== Responsive Media Queries ====== */
+
+/* Large Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .banner-main-title {
+        font-size: 2rem; /* 32px */
+    }
+    .banner-tagline {
+        font-size: 1.05rem; /* 17px */
+    }
+}
+
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .service-intro-banner {
+        padding: 45px 20px;
+    }
+    .banner-main-title {
+        font-size: 1.75rem; /* 28px */
+    }
+    .banner-tagline {
+        font-size: 1rem; /* 16px */
+    }
+}
+
+/* Mobile Large (max-width: 480px) */
+@media (max-width: 480px) {
+    .service-intro-banner {
+        padding: 35px 15px;
+    }
+    .banner-main-title {
+        font-size: 1.5rem; /* 24px */
+    }
+    .banner-tagline {
+        font-size: 0.95rem; /* 15px */
+    }
+    .banner-breadcrumbs {
+        font-size: 0.85rem;
+        gap: 5px;
+    }
+}
+
+/* Mobile Small (max-width: 375px) */
+@media (max-width: 375px) {
+    .banner-main-title {
+        font-size: 1.35rem; /* 21.6px */
+    }
+    .banner-tagline {
+        font-size: 0.9rem;
+    }
+}
+
+/* Extra Small (max-width: 320px) */
+@media (max-width: 320px) {
+    .banner-main-title {
+        font-size: 1.2rem; /* ~19px */
+    }
+    .banner-tagline {
+        font-size: 0.85rem;
+    }
+    .banner-breadcrumbs {
+        flex-direction: column;
+        align-items: center;
+    }
+}

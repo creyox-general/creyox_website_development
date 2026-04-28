@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!-- FAQ SNIPPET TEMPLATE -->
+    <template id="s_dynamic_snippet_faq" name="FAQs">
+        <section class="s_faq_dynamic py-5 o_faq_template_1"
+                 data-snippet="s_dynamic_snippet_faq"
+                 data-name="FAQs Templates">
+            <div class="container s_faq_container">
+                
+                <!-- Template 1 — Accordion (Default) -->
+                <div class="s_faq_template s_faq_t1">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-bold">Frequently Asked Questions</h2>
+                        <p class="text-muted">Everything you need to know (Accordion)</p>
+                    </div>
+                    <div class="accordion" id="faqAccordion1">
+                        <div class="accordion-item border-0 mb-3 shadow-sm">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1_1">What is Odoo?</button>
+                            </h3>
+                            <div id="faq1_1" class="accordion-collapse collapse show">
+                                <div class="accordion-body text-muted">Odoo is a suite of open source business apps.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-3 shadow-sm">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1_2">How do I get started?</button>
+                            </h3>
+                            <div id="faq1_2" class="accordion-collapse collapse">
+                                <div class="accordion-body text-muted">Contact us for onboarding.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Template 2 — Two Column Grid -->
+                <div class="s_faq_template s_faq_t2">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-bold">Frequently Asked Questions</h2>
+                        <p class="text-muted">Everything you need to know (Grid)</p>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="p-4 border rounded-3 h-100">
+                                <h5 class="fw-bold">What is Odoo?</h5>
+                                <p class="text-muted mb-0">Odoo is a suite of open source business apps.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-4 border rounded-3 h-100">
+                                <h5 class="fw-bold">How do I get started?</h5>
+                                <p class="text-muted mb-0">Contact us for onboarding.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Template 3 — Numbered List -->
+                <div class="s_faq_template s_faq_t3">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-bold">Frequently Asked Questions</h2>
+                        <p class="text-muted">Everything you need to know (Numbered)</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="d-flex gap-4 mb-4 align-items-start">
+                                <span class="s_faq_number">01</span>
+                                <div>
+                                    <h5 class="fw-bold">What is Odoo?</h5>
+                                    <p class="text-muted mb-0">Odoo is a suite of open source business apps.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-4 mb-4 align-items-start">
+                                <span class="s_faq_number">02</span>
+                                <div>
+                                    <h5 class="fw-bold">How do I get started?</h5>
+                                    <p class="text-muted mb-0">Contact us for onboarding.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Template 4 — Split Layout -->
+                <div class="s_faq_template s_faq_t4">
+                    <div class="row align-items-center g-5">
+                        <div class="col-lg-5">
+                            <h2 class="fw-bold mb-3">Frequently Asked Questions</h2>
+                            <p class="text-muted">Can't find the answer? Contact us.</p>
+                            <a href="/contactus" class="btn btn-primary mt-2">Contact Us</a>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="accordion" id="faqAccordion4">
+                                <div class="accordion-item mb-2 border">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4_1">What is Odoo?</button>
+                                    </h3>
+                                    <div id="faq4_1" class="accordion-collapse collapse show">
+                                        <div class="accordion-body text-muted">Odoo is a suite of open source business apps.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Template 5 — Minimal List -->
+                <div class="s_faq_template s_faq_t5">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-bold">Frequently Asked Questions</h2>
+                        <p class="text-muted">Everything you need to know (Minimal)</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="border-bottom py-4">
+                                <h5 class="fw-bold mb-2">What is Odoo?</h5>
+                                <p class="text-muted mb-0">Odoo is a suite of open source business apps.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </template>
+
+<!--    &lt;!&ndash; SNIPPET PANEL &ndash;&gt;-->
+<!--    <template id="faq_snippet_panel" inherit_id="website.snippets" name="FAQ Snippets">-->
+<!--        <xpath expr="//div[@id='snippet_structure']" position="after">-->
+<!--            <div id="snippet_faq" class="o_panel">-->
+<!--                <div class="o_panel_header">FAQs</div>-->
+<!--                <div class="o_panel_body">-->
+<!--                    <t t-snippet="cr_internal_website_theme.s_dynamic_snippet_faq" string="FAQs">-->
+<!--                        <keywords>faq questions content</keywords>-->
+<!--                    </t>-->
+<!--                    <t t-snippet="cr_internal_website_theme.s_specialist_grid" string="Specialist Grid">-->
+<!--                        <keywords>specialist service grid card</keywords>-->
+<!--                    </t>-->
+<!--                    <t t-snippet="cr_internal_website_theme.s_kinetic_process" string="Kinetic Process">-->
+<!--                        <keywords>kinetic process phase step</keywords>-->
+<!--                    </t>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </xpath>-->
+<!--    </template>-->
+
+    <!-- SNIPPET OPTIONS -->
+    <template id="faq_snippet_options" inherit_id="website.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-selector=".s_faq_dynamic" data-js="FaqLayoutOptions" string="FAQ">
+                <we-select string="Layout" data-no-preview="true">
+                    <we-button string="Accordion" data-set-faq-layout="o_faq_template_1"/>
+                    <we-button string="Grid" data-set-faq-layout="o_faq_template_2"/>
+                    <we-button string="Numbered" data-set-faq-layout="o_faq_template_3"/>
+                    <we-button string="Split" data-set-faq-layout="o_faq_template_4"/>
+                    <we-button string="Minimal" data-set-faq-layout="o_faq_template_5"/>
+                </we-select>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

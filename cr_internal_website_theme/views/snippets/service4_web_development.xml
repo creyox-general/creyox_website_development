@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- Hero Snippet Template -->
+    <template id="service4_web_dev_solution" name="service4_web_dev_solution">
+
+        <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        />
+        <div class="oe_structure" id="oe_structure_service4_intro_banner">
+            <section class="s_service_intro_banner service-intro-banner hero-section-wave cr_font"
+                     data-snippet="s_service_intro_banner"
+                     data-name="Service Intro Banner">
+                <div class="container">
+                    <div class="banner-inner-content">
+                        <h1 class="banner-main-title">
+                            Professional Web Development Solutions
+                        </h1>
+                        <p class="banner-tagline">
+                            Build fast, responsive, and scalable websites with our expert web development services.
+                        </p>
+                        <nav aria-label="breadcrumb">
+                            <ul class="banner-breadcrumbs">
+                                <li>
+                                    <a class="breadcrumb-link" href="/">
+                                        Home
+                                        <span class="breadcrumb-separator fa fa-angle-right"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <span class="breadcrumb-current" aria-current="page">Web Development</span>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+         <!-- Header Row -->
+        <div class="oe_structure" id="oe_structure_web_header">
+            <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
+                     data-snippet="s_comprehensive_service"
+                     data-name="Comprehensive Service">
+                <div class="container">
+                            <!-- First Row: Heading -->
+                            <div class="row mb-5 pb-lg-3">
+                                <div class="col-12 text-center" data-aos="fade-down">
+                                    <h2 class="partner-title mb-3">
+                                        Odoo Website Development That Works as Hard as
+                                        <span class="text-gradient">Your Business Does</span>
+                                    </h2>
+                                    <!-- Small decorative underline -->
+                                    <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                                </div>
+                            </div>
+                            <!-- Second Row: Text and Image -->
+                            <div class="row align-items-center gx-0">
+                                <div class="col-lg-6 mb-5 mb-lg-0 p-0" data-aos="fade-right">
+                                    <div class="partner-content-box text-start">
+                                        <p class="partner-description partner-desc-1 w-100 mb-4">
+                                            Creyox Technologies is an Odoo website development company that builds more than just websites. We build connected business platforms where your site, your store, your CRM, and your operations run as one unified Odoo system.
+                                        </p>
+                                        <div class="partner-cta-group mb-4">
+                                            <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                                <span>Get a Free Website Consultation</span>
+                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                            </a>
+                                        </div>
+                                        <p class="text-muted fw-bold mb-0 mt-2" style="font-size: 0.95rem;">
+                                            100+ Websites Delivered <span class="mx-1">|</span> Odoo Certified Developers <span class="mx-1">|</span> End-to-End Web Services
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 p-0" data-aos="fade-left" data-aos-delay="100">
+                                    <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
+                                        <img src="/cr_internal_website_theme/static/src/img/web-development.png"
+                                             alt="Web Development"
+                                             class="img-fluid w-100"
+                                             style="object-fit: contain; transform: scale(1.4); transform-origin: left center; z-index: 1;"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+        <div class="oe_structure" id="oe_structure_web_pain_cards">
+            <section class="s_erp_pain_points cr_font sg-cols-3 py-5" data-snippet="s_erp_pain_points" data-name="ERP Pain Points">
+                <div class="erp-container container">
+                    <!-- Section Header -->
+                    <div class="erp-header-group text-center mb-5" data-aos="fade-up">
+                        <h2 class="erp-title section-title">
+                            Common Web Development
+                            <span class="text-gradient">Pain Points</span>
+                        </h2>
+                        <div class="title-underline mx-auto mt-3 mb-4"></div>
+                        <p class="erp-subtitle mx-auto">
+                            If you're still running your website separately from your business operations, you already know the pain of disjointed data and repetitive manual tasks.
+                        </p>
+                    </div>
+
+                    <!-- The Redesigned Grid -->
+                    <div class="connected-matrix" data-aos="fade-up">
+                        <div class="row g-4 justify-content-center">
+                            <!-- Card 1 -->
+                            <div class="col-lg-4 col-md-6 pp-card-col">
+                                <div class="matrix-block pure-bento-card highlight h-100" data-aos="fade-up">
+                                    <span class="bento-index">01</span>
+                                    <div class="bento-content">
+                                        <h3 class="bento-title">Systems don't talk to each other</h3>
+                                        <p class="bento-text">With our Odoo web development services, your website is natively connected to inventory, CRM, sales, and accounting live, always in sync.</p>
+                                    </div>
+                                    <div class="bento-accent-dot"></div>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="col-lg-4 col-md-6 pp-card-col">
+                                <div class="matrix-block pure-bento-card highlight h-100" data-aos="fade-up" data-aos-delay="100">
+                                    <span class="bento-index">02</span>
+                                    <div class="bento-content">
+                                        <h3 class="bento-title">Constant manual updates</h3>
+                                        <p class="bento-text">Our Odoo eCommerce development links your store directly to Odoo inventory and invoicing products, stock, and orders update automatically.</p>
+                                    </div>
+                                    <div class="bento-accent-dot"></div>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="col-lg-4 col-md-6 pp-card-col">
+                                <div class="matrix-block pure-bento-card highlight h-100" data-aos="fade-up" data-aos-delay="200">
+                                    <span class="bento-index">03</span>
+                                    <div class="bento-content">
+                                        <h3 class="bento-title">Too many disconnected tools</h3>
+                                        <p class="bento-text">A properly built Odoo website replaces your CMS, your store, your blog, your analytics, and your marketing tools in one platform you already own.</p>
+                                    </div>
+                                    <div class="bento-accent-dot"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="oe_structure" id="oe_structure_web_comparison">
+            <section class="s_erp_comparison erp-comparison-section-v3 cr_font"
+                     data-snippet="s_erp_comparison"
+                     data-name="ERP Comparison">
+                <div class="erp-comparison-container-v3 py-5">
+                    
+                    <!-- Section Header -->
+                    <div class="erp-comparison-header-v3" data-aos="fade-up">
+                        <div class="erp-comparison-pretitle-v3">
+                            Platform Comparison
+                        </div>
+                        <h2 class="erp-comparison-title-v3">
+                            Your Website Shouldn't Just Look Good
+                            <span class="text-gradient">
+                                It Should Run Your Business
+                            </span>
+                        </h2>
+                        <p class="erp-comparison-description-v3">
+                            Traditional CMS platforms like WordPress give you a website. Odoo gives you a connected business platform. When Creyox builds your website on Odoo, every page, every product, every form, and every visitor is linked directly to your CRM, your inventory, your sales pipeline, and your marketing campaigns out of the box, without plugins, without middleware.
+                        </p>
+                    </div>
+
+                    <div class="erp-comparison-grid-v3">
+                        <!-- Column 1: Legacy -->
+                        <div class="erp-comparison-column-v3 legacy-col" data-aos="fade-right">
+                            <div class="erp-comparison-column-header-v3">
+                                <div class="erp-comparison-column-badge-v3">Legacy</div>
+                                <h3 class="erp-comparison-column-title-v3">Traditional CMS</h3>
+                                <p class="erp-comparison-column-subtitle-v3">Disconnected systems requiring complex plugin architectures.</p>
+                            </div>
+                            
+                            <div class="erp-comparison-features-v3">
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Requires third-party plugin</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Manual product updates</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Separate tools needed</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Multiple dashboards</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Plugin conflicts and updates</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Separate from your business data</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Column 2: Modern -->
+                        <div class="erp-comparison-column-v3 erp-comparison-column-premium-v3 modern-col" data-aos="fade-left">
+                            <div class="erp-comparison-column-header-v3">
+                                <div class="erp-comparison-column-badge-v3">Modern</div>
+                                <h3 class="erp-comparison-column-title-v3">Odoo Website</h3>
+                                <p class="erp-comparison-column-subtitle-v3">All-in-one connected platform designed for agility and scalability.</p>
+                            </div>
+
+                            <div class="erp-comparison-features-v3">
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Native CRM integration</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Inventory-synced eCommerce</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Built-in SEO and analytics</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">One login for everything</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">No plugin dependency</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Scales with your Odoo ERP</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Call to Action -->
+                    <div class="text-center mt-5" data-aos="fade-up">
+                        <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                            <span>Get a Free Consultation</span>
+                            <i class="fas fa-arrow-right ms-2" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="oe_structure" id="oe_structure_web_specialist">
+            <section class="s_service_showcase cr_font sc-cols-3 py-5" data-snippet="s_service_showcase" data-name="Service Showcase">
+                <div class="container">
+                    <!-- Section Header -->
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Complete Odoo Web Development
+                            <br/><span class="text-gradient">Services for Every Business Need</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="section-description mt-4 mx-auto">
+                            From a clean corporate website to a fully integrated Odoo eCommerce platform we scope, design, build, and support every project with the same certified Odoo expertise.
+                        </p>
+                    </div>
+
+                    <!-- Service Cards Grid -->
+                    <div class="row g-4 s_service_showcase_row">
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                            <div class="service-card card-blue h-100">
+                                <div class="card-icon"><i class="fas fa-laptop-code"/></div>
+                                <h3 class="card-title">Odoo Website Development</h3>
+                                <p class="card-text mb-3">We design and develop fully custom websites on the Odoo platform responsive, fast, and connected to your business data from day one. No third-party CMS, no disconnected tools.</p>
+                                <ul class="list-unstyled small opacity-75 text-start px-2">
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Custom page design and layout development</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Odoo website builder configuration and theming</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Multi-language and multi-currency setup</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>SEO-ready structure and metadata configuration</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Blog, FAQ, and content module setup</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-card card-dark h-100">
+                                <div class="card-icon"><i class="fas fa-shopping-cart"/></div>
+                                <h3 class="card-title">Odoo eCommerce Development</h3>
+                                <p class="card-text mb-3">A fully featured Odoo eCommerce website development service, your online store built directly inside Odoo, connected natively to your inventory, invoicing, and CRM.</p>
+                                <ul class="list-unstyled small opacity-75 text-start px-2">
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Odoo eCommerce store design and configuration</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Product catalogue, variants, and pricing setup</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Payment gateway integration (Razorpay, Stripe, PayU)</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Inventory and warehouse sync with eCommerce orders</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Checkout flow, cart, and wishlist configuration</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="service-card card-blue h-100">
+                                <div class="card-icon"><i class="fas fa-code-branch"/></div>
+                                <h3 class="card-title">Custom Web Application</h3>
+                                <p class="card-text mb-3">When a standard Odoo website isn't enough, we build custom web applications on top of the Odoo framework tailored workflows, custom portals, and bespoke logic.</p>
+                                <ul class="list-unstyled small opacity-75 text-start px-2">
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Custom Odoo module and web controller development</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Client and vendor portal development</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Custom form and workflow automation</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>API-driven data display and integration</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Role-based access and user management</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="300">
+                            <div class="service-card card-dark h-100">
+                                <div class="card-icon"><i class="fas fa-server"/></div>
+                                <h3 class="card-title">Web Application Development</h3>
+                                <p class="card-text mb-3">Full-stack web application development using Python, JavaScript, and the Odoo OWL framework production-grade applications that live inside your Odoo environment.</p>
+                                <ul class="list-unstyled small opacity-75 text-start px-2">
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Odoo OWL and QWeb frontend development</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Python backend and business logic development</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>REST API development and third-party integration</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Database design and Odoo model development</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Performance optimisation and security hardening</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="400">
+                            <div class="service-card card-blue h-100">
+                                <div class="card-icon"><i class="fas fa-exchange-alt"/></div>
+                                <h3 class="card-title">Odoo eCommerce Migration</h3>
+                                <p class="card-text mb-3">Already running an online store on Shopify, WooCommerce, or Magento? We migrate your entire store to Odoo eCommerce products, customers, orders, and SEO structure intact.</p>
+                                <ul class="list-unstyled small opacity-75 text-start px-2">
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Full eCommerce platform migration to Odoo</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Product data, customer, and order migration</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>URL redirect mapping for SEO preservation</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Payment and shipping configuration on Odoo</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Post-migration testing and performance review</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="500">
+                            <div class="service-card card-dark h-100">
+                                <div class="card-icon"><i class="fas fa-tools"/></div>
+                                <h3 class="card-title">Website Maintenance &amp; Support</h3>
+                                <p class="card-text mb-3">Your website doesn't stop needing care after launch. We provide ongoing Odoo website maintenance updates, performance monitoring, content changes, and security patches.</p>
+                                <ul class="list-unstyled small opacity-75 text-start px-2">
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Page speed and Core Web Vitals monitoring</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Content updates and new page development</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Security patch application and access review</li>
+                                    <li class="mb-1"><i class="fas fa-check text-primary me-2"></i>Performance reporting and SEO health checks</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="oe_structure" id="oe_structure_web_benefit_mesh">
+            <section class="s_benefit_mesh cr_font bm-cols-3" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
+                <div class="container py-5">
+                    <!-- Section Header -->
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Odoo Gives Your Website
+                            <span class="text-gradient">Capabilities No Other CMS Can Match</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="section-description mt-4 mx-auto">
+                            When Creyox builds your website on Odoo, you're not just getting pages. You're getting a full marketing, sales, and eCommerce platform all accessible from one login, all sharing one database with your business operations.
+                        </p>
+                    </div>
+
+                    <!-- Cards Grid -->
+                    <div class="row g-4 s_benefit_mesh_row justify-content-center">
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">01</div>
+                                <h3 class="card-title">Drag &amp; Drop Builder</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Design and edit pages visually no developer needed for content updates.</p>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">02</div>
+                                <h3 class="card-title">Built-in eCommerce Store</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Sell products with full inventory sync, payment integration, and automated invoicing.</p>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">03</div>
+                                <h3 class="card-title">Blog &amp; Content Tools</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Publish articles, manage SEO, and drive organic traffic directly in Odoo.</p>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="300">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">04</div>
+                                <h3 class="card-title">Email Marketing Integration</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Send campaigns, track opens, and measure ROI all connected to your website visitors.</p>
+                            </div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="400">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">05</div>
+                                <h3 class="card-title">Event &amp; Appointment Booking</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Accept bookings and event registrations directly on your website with Odoo automation.</p>
+                            </div>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="500">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">06</div>
+                                <h3 class="card-title">Multi-Website Management</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Understand how visitors use your site and which pages drive the most conversions.</p>
+                            </div>
+                        </div>
+                        <!-- Card 7 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="600">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">07</div>
+                                <h3 class="card-title">Live Chat &amp; Helpdesk</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Convert website visitors into support tickets or sales leads through Odoo Live Chat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="oe_structure" id="oe_structure_web_feature_mesh">
+            <section class="s_benefit_mesh cr_font bm-cols-3" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
+                <div class="container py-5">
+                    <!-- Section Header -->
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Why Choose our Website
+                            <span class="text-gradient">Development Services</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="section-description mt-4 mx-auto">
+                            We are not a generic web agency that happens to know Odoo. We are an Odoo partner which means we build websites that are engineered to work with your entire Odoo ecosystem from the ground up.
+                        </p>
+                    </div>
+
+                    <!-- Cards Grid -->
+                    <div class="row g-4 s_benefit_mesh_row justify-content-center">
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">01</div>
+                                <h3 class="card-title">Responsive Design</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Every Odoo website we build looks and works perfectly on desktop, tablet, and mobile no compromise.</p>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">02</div>
+                                <h3 class="card-title">Native Odoo Integration</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Your website connects directly to Odoo CRM, inventory, accounting, and marketing no plugins, no manual sync.</p>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">03</div>
+                                <h3 class="card-title">eCommerce Ready</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Full Odoo eCommerce development with inventory sync, payment gateways, and automated invoicing built in.</p>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="300">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">04</div>
+                                <h3 class="card-title">SEO Optimised</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Odoo's built-in SEO tools plus our configuration ensure your website is structured to rank from the moment it goes live.</p>
+                            </div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="400">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">05</div>
+                                <h3 class="card-title">Performance First</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Fast-loading pages, optimised images, and clean code we build for Core Web Vitals and real user experience.</p>
+                            </div>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="500">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">06</div>
+                                <h3 class="card-title">Multi-Language &amp; Currency</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Reach global customers with Odoo's native translation and localised pricing features configured by our team.</p>
+                            </div>
+                        </div>
+                        <!-- Card 7 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="600">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">07</div>
+                                <h3 class="card-title">Secure by Design</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Odoo's security model plus our development best practices mean your website is protected from the ground up.</p>
+                            </div>
+                        </div>
+                        <!-- Card 8 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="700">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">08</div>
+                                <h3 class="card-title">Built-in Analytics</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Visitor behaviour, conversion data, and marketing attribution tracked natively in Odoo without separate tools.</p>
+                            </div>
+                        </div>
+                        <!-- Card 9 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="800">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">09</div>
+                                <h3 class="card-title">API Integration</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Connect your Odoo website to payment gateways, CRMs, ERPs, or any external system via clean REST APIs.</p>
+                            </div>
+                        </div>
+                        <!-- Card 10 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="900">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">10</div>
+                                <h3 class="card-title">Maintenance &amp; Support</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">We stay with you after go-live updates, new pages, performance monitoring, and support included.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="oe_structure" id="oe_structure_web_process">
+            <section class="s_kinetic_process py-5 cr_font" data-snippet="s_kinetic_process" data-name="Kinetic Process">
+                <div class="container-fluid px-lg-5">
+                    <!-- Section Header -->
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            How We Build Your Odoo Website
+                            <br/><span class="text-gradient">A Clear Process, Every Time</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="section-subtitle mt-4 mx-auto">
+                            No vague timelines. No surprise scope changes. Every Odoo website development project follows a structured process from discovery to delivery with your team involved at every stage.
+                        </p>
+                    </div>
+
+                    <div class="kinetic-grid-container">
+                        <!-- Row 1 -->
+                        <div class="row g-4 mb-4 s_kinetic_row_1">
+                            <!-- Phase 1 -->
+                            <div class="col-lg-8 phase-block" data-aos="fade-up">
+                                <div class="kinetic-card h-100">
+                                    <div class="card-bg-number">01</div>
+                                    <h3 class="card-title">Discovery &amp; Requirements</h3>
+                                    <p class="card-desc">We study your business goals, target audience, existing systems, and Odoo setup before a single wireframe is drawn.</p>
+                                </div>
+                            </div>
+                            <!-- Phase 2 -->
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="100">
+                                <div class="kinetic-card h-100">
+                                    <div class="card-bg-number">02</div>
+                                    <h3 class="card-title">Design &amp; Wireframing</h3>
+                                    <p class="card-desc">Sitemap, page layouts, and UX wireframes reviewed and approved by you before any development begins.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Row 2 -->
+                        <div class="row g-4 s_kinetic_row_2">
+                            <!-- Phase 3 -->
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="200">
+                                <div class="kinetic-card h-100">
+                                    <div class="card-bg-number">03</div>
+                                    <h3 class="card-title">Odoo Development &amp; Configuration</h3>
+                                    <p class="card-desc">We build on Odoo custom themes, modules, eCommerce configuration, integrations, and content setup.</p>
+                                </div>
+                            </div>
+                            <!-- Phase 4 -->
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="300">
+                                <div class="kinetic-card h-100">
+                                    <div class="card-bg-number">04</div>
+                                    <h3 class="card-title">Testing &amp; Quality Review</h3>
+                                    <p class="card-desc">Cross-device testing, browser compatibility, page speed checks, SEO review, and full functionality QA.</p>
+                                </div>
+                            </div>
+                            <!-- Phase 5 -->
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="400">
+                                <div class="kinetic-card h-100">
+                                    <div class="card-bg-number">05</div>
+                                    <h3 class="card-title">Launch &amp; Ongoing Support</h3>
+                                    <p class="card-desc">Smooth go-live with DNS setup guidance, followed by website maintenance services and dedicated Odoo support.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="oe_structure" id="oe_structure_web_ecommerce_specialist">
+            <section class="s_specialist_grid py-5 sg-cols-2 cr_font" data-snippet="s_specialist_grid" data-name="Specialist Grid">
+                <div class="container">
+                    <!-- Section Header -->
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Odoo eCommerce Development:
+                            <br/><span class="text-gradient">One Platform for Your Store, Stock, and Sales</span>
+                        </h2>
+                        <div class="title-underline mx-auto mt-3"></div>
+                    </div>
+
+                    <!-- Specialist Grid -->
+                    <div class="specialist-grid-container">
+                        <div class="row g-4 s_specialist_grid_row">
+                            <!-- Card 1 -->
+                            <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">01</div>
+                                    <h3 class="card-title">Real-Time Inventory Sync</h3>
+                                    <p class="card-text mb-3">Stock updates instantly across online and offline sales.</p>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">02</div>
+                                    <h3 class="card-title">Multiple Payment Options</h3>
+                                    <p class="card-text mb-3">Razorpay, Stripe, PayU, UPI, and COD all integrated seamlessly.</p>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="200">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">03</div>
+                                    <h3 class="card-title">Automated Order Processing</h3>
+                                    <p class="card-text mb-3">Orders trigger shipping, invoicing, and fulfilment automatically.</p>
+                                </div>
+                            </div>
+                            <!-- Card 4 -->
+                            <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="300">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">04</div>
+                                    <h3 class="card-title">Built-in Marketing Tools</h3>
+                                    <p class="card-text mb-3">Run email campaigns, coupons, and abandoned cart recovery easily.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="oe_structure" id="oe_structure_web_milestones">
+            <section class="milestone-light-section s_milestone_section cr_font"
+                     data-snippet="s_milestone_section"
+                     data-name="Milestone Section"
+                     aria-labelledby="milestones-heading">
+                <div class="milestone-wrapper">
+                    <h2 id="milestones-heading" class="milestone-heading">
+                        Our Odoo Web Development Impact
+                    </h2>
+                    <div class="milestone-grid" role="list">
+                        <!-- Card 1 -->
+                        <div class="milestone-card" style="--i:1" role="listitem" data-card-index="1">
+                            <div class="milestone-icon" aria-hidden="true">
+                                <i class="fas fa-laptop-code"/>
+                            </div>
+                            <h3>
+                                <span class="counter" data-count="100">0</span>
+                                +
+                            </h3>
+                            <p>Odoo Websites Delivered</p>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="milestone-card" style="--i:2" role="listitem" data-card-index="2">
+                            <div class="milestone-icon" aria-hidden="true">
+                                <i class="fas fa-industry"/>
+                            </div>
+                            <h3>
+                                <span class="counter" data-count="15">0</span>
+                                +
+                            </h3>
+                            <p>Industries Served</p>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="milestone-card" style="--i:3" role="listitem" data-card-index="3">
+                            <div class="milestone-icon" aria-hidden="true">
+                                <i class="fas fa-calendar-check"/>
+                            </div>
+                            <h3>
+                                <span class="counter" data-count="30">0</span>
+                                 Days
+                            </h3>
+                            <p>Average Website Go-Live</p>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="milestone-card" style="--i:4" role="listitem" data-card-index="4">
+                            <div class="milestone-icon" aria-hidden="true">
+                                <i class="fas fa-cloud"/>
+                            </div>
+                            <h3>
+                                <span class="counter" data-count="99.9">0</span>
+                                %
+                            </h3>
+                            <p>Uptime on Odoo.sh Cloud</p>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="milestone-card" style="--i:5" role="listitem" data-card-index="5">
+                            <div class="milestone-icon" aria-hidden="true">
+                                <i class="fas fa-star"/>
+                            </div>
+                            <h3>
+                                <span class="counter"></span>
+                                 4.9★
+                            </h3>
+                            <p>Average Client Rating</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+<!--        <section class="cr-web-solution-intro o_website_snippet cr_font" aria-labelledby="web-solution-heading">-->
+<!--            <div class="cr-web-container">-->
+<!--                &lt;!&ndash; Header Row &ndash;&gt;-->
+<!--                <div class="oe_structure" id="oe_structure_web_header">-->
+<!--                    <section class="s_trusted_odoo_partner cr_font"-->
+<!--                             data-snippet="s_trusted_odoo_partner"-->
+<!--                             data-name="Trusted Odoo Partner">-->
+<!--                        <div class="container">-->
+<!--                            <div class="row align-items-center">-->
+<!--                                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">-->
+<!--                                    <div class="partner-content-box text-start">-->
+<!--                                        <h2 class="partner-title">-->
+<!--                                            Web Development for-->
+<!--                                            <span class="text-gradient">Modern Businesses</span>-->
+<!--                                        </h2>-->
+<!--                                        <p class="partner-description partner-desc-1">-->
+<!--                                            Our web development services focus on creating responsive, secure, and scalable websites.-->
+<!--                                            From simple landing pages to complex web applications, we deliver high-performance digital-->
+<!--                                            solutions tailored to your needs.-->
+<!--                                        </p>-->
+<!--                                        <p class="partner-description partner-desc-2">-->
+<!--                                            Utilizing the latest technologies and best practices, we ensure your online presence is not just-->
+<!--                                            a website, but a powerful business tool.-->
+<!--                                        </p>-->
+<!--                                        <div class="partner-cta-group">-->
+<!--                                            <a href="/contactus" class="cta-button primary">-->
+<!--                                                <span>Work with Experts</span>-->
+<!--                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>-->
+<!--                                            </a>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">-->
+<!--                                    <div class="partner-image-box">-->
+<!--                                        <img src="/cr_internal_website_theme/static/src/img/web-development.png"-->
+<!--                                             alt="Web Development"-->
+<!--                                             class="img-fluid partner-image"/>-->
+<!--                                        <div class="image-overlay-glow"/>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </section>-->
+<!--                </div>-->
+
+
+<!--                <section class="web-usecases">-->
+<!--                    <div class="web-usecases-container">-->
+<!--                        <h2 class="web-usecases-title">Why Build Your Website with Odoo?</h2>-->
+<!--                         <p>-->
+<!--                    Unlike traditional CMS platforms, Odoo Website is deeply integrated with CRM,-->
+<!--                    Sales, Inventory, and Marketing. Your website is not just an online presence,-->
+<!--                    it’s a connected business tool.-->
+<!--                </p>-->
+
+<!--                        <div class="web-usecases-wrapper">-->
+
+
+<!--                             <div class="web-usecases-image">-->
+<!--                                <img src="/cr_internal_website_theme/static/src/img/web_use1.png" alt="Website Use Cases"/>-->
+<!--                            </div>-->
+<!--                            <div class="web-usecase-list">-->
+<!--                                <div class="usecase">-->
+<!--                                    <h4>Drag &amp; Drop Website Builder</h4>-->
+<!--                                    <p> Easily design without coding.</p>-->
+<!--                                </div>-->
+<!--                                <div class="usecase">-->
+<!--                                    <h4>Seamless eCommerce</h4>-->
+<!--                                    <p>Built-in store with payment &amp; shipping.</p>-->
+<!--                                </div>-->
+<!--                                <div class="usecase">-->
+<!--                                    <h4>Multi-Website</h4>-->
+<!--                                    <p>Manage multiple websites in one Odoo DB.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                                <div class="usecase">-->
+<!--                                    <h4>Content Tools</h4>-->
+<!--                                    <p>Blogs, forums &amp; eLearning built right in.</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+
+
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </section>-->
+
+<!--        <section class="odoo-website-unique o_website_snippet">-->
+<!--            <div class="container">-->
+<!--                <h2>Unique Features of Odoo Website</h2>-->
+<!--                <div class="row text-center">-->
+<!--                    <div class="col-md-4 mb-4">-->
+<!--                        <div class="feature-box">-->
+<!--                            <i class="fas fa-globe"></i>-->
+<!--                            <h4>Multi-language &amp; Currency</h4>-->
+<!--                            <p>Reach global customers with translations &amp; localized pricing.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-4 mb-4">-->
+<!--                        <div class="feature-box">-->
+<!--                            <i class="fas fa-bullhorn"></i>-->
+<!--                            <h4>Marketing Integration</h4>-->
+<!--                            <p>Run campaigns, track visitors, and optimize SEO in Odoo.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-4 mb-4">-->
+<!--                        <div class="feature-box">-->
+<!--                            <i class="fas fa-link"></i>-->
+<!--                            <h4>App Integrations</h4>-->
+<!--                            <p>Connect CRM, Events, Helpdesk, and more with your website.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+
+<!--         <section class="web-usecases">-->
+<!--                    <div class="web-usecases-container">-->
+<!--                        <h2 class="web-usecases-title">Industry Use Cases</h2>-->
+
+<!--                        <div class="web-usecases-wrapper">-->
+
+
+
+<!--                            <div class="web-usecase-list">-->
+<!--                                <div class="usecase">-->
+<!--                                    <h4>Corporate Websites</h4>-->
+<!--                                    <p>Showcase services, client portals, and contact forms.</p>-->
+<!--                                </div>-->
+<!--                                <div class="usecase">-->
+<!--                                    <h4>Online Stores</h4>-->
+<!--                                    <p>Sell with inventory sync, multi-warehouse, and checkout flow.</p>-->
+<!--                                </div>-->
+<!--                                <div class="usecase">-->
+<!--                                    <h4>Education Portals</h4>-->
+<!--                                    <p>Deliver courses with Odoo eLearning &amp; website integration.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                                <div class="usecase">-->
+<!--                                    <h4>Event Websites</h4>-->
+<!--                                    <p>Host events with registration, ticketing, and online payments.</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                             <div class="web-usecases-image">-->
+<!--                                <img src="/cr_internal_website_theme/static/src/img/web_use.png" alt="Website Use Cases"/>-->
+<!--                            </div>-->
+
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </section>-->
+
+<!--                &lt;!&ndash; Content Below &ndash;&gt;-->
+<!--                <div class="cr-web-content">-->
+<!--                    <h2>Why Choose Our Web Development Services?</h2>-->
+<!--                    <p>-->
+<!--                        We deliver high-quality web solutions with cutting-edge technologies, ensuring your website is-->
+<!--                        fast, responsive, and secure.-->
+<!--                        Our developers follow best practices, use modern frameworks, and focus on creating a seamless-->
+<!--                        user experience.-->
+<!--                    </p>-->
+
+<!--                    <ul class="web-features">-->
+<!--                        <li>-->
+<!--                            <strong>Responsive Design:</strong>-->
+<!--                            Websites that look perfect on desktop, tablet, and mobile.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Custom Web Applications:</strong>-->
+<!--                            Tailored solutions for your business requirements.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>SEO Optimization:</strong>-->
+<!--                            Enhance your website visibility and ranking on search engines.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Secure &amp; Reliable:</strong>-->
+<!--                            Follow best practices for website security and performance.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>CMS Integration:</strong>-->
+<!--                            Easy-to-manage websites with WordPress, Odoo, or custom CMS.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>E-commerce Solutions:</strong>-->
+<!--                            Online stores with smooth checkout and inventory integration.-->
+<!--                        </li>-->
+<!--                        &lt;!&ndash; Optional New Features &ndash;&gt;-->
+<!--                        <li>-->
+<!--                            <strong>API Integrations:</strong>-->
+<!--                            Connect your website with other business applications seamlessly.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Performance Optimization:</strong>-->
+<!--                            Fast loading pages with best frontend and backend optimization.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Analytics &amp; Tracking:</strong>-->
+<!--                            Gain insights into user behavior and website performance.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Maintenance &amp; Support:</strong>-->
+<!--                            Continuous monitoring and updates for long-term stability.-->
+<!--                        </li>-->
+<!--                    </ul>-->
+
+<!--                    <h2>Our Implementation Approach</h2>-->
+<!--                    <p>-->
+<!--                        From initial design to deployment, we follow a structured approach ensuring your website meets-->
+<!--                        business objectives.-->
+<!--                        Our team provides guidance, testing, and post-launch support to guarantee optimal performance.-->
+<!--                    </p>-->
+
+<!--                    <section class="web-cta-section o_wfull" aria-labelledby="web-cta-heading">-->
+<!--                        &lt;!&ndash; Floating bubbles &ndash;&gt;-->
+<!--                        <div class="bubble"></div>-->
+<!--                        <div class="bubble"></div>-->
+<!--                        <div class="bubble"></div>-->
+<!--                        <div class="bubble"></div>-->
+<!--                        <div class="bubble"></div>-->
+
+<!--                        <div class="container web-cta-container">-->
+<!--                            <div class="web-cta-row">-->
+<!--                                &lt;!&ndash; Text &ndash;&gt;-->
+<!--                                <div class="web-cta-text">-->
+<!--                                    <h2 id="web-cta-heading">-->
+<!--                                        Ready to <span class="highlight">Upgrade Your Website Experience</span>?-->
+<!--                                    </h2>-->
+<!--                                </div>-->
+
+<!--                                &lt;!&ndash; Button (same pattern as ERP CTA) &ndash;&gt;-->
+<!--                                <a href="#erp-demo-form" class="cta-button light" title="Schedule Free ERP Demo"-->
+<!--                                   aria-label="Get ERP Demo">-->
+<!--                                    <span>Schedule a Free Demo</span>-->
+<!--                                    <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>-->
+<!--                                </a>-->
+
+
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </section>-->
+
+<!--                    <h2>Frequently Asked Questions</h2>-->
+<!--                    <dl>-->
+<!--                        <dt>Do you provide responsive websites?</dt>-->
+<!--                        <dd>Yes, all websites are fully responsive and mobile-friendly.</dd>-->
+<!--                        <dt>Can you integrate e-commerce functionality?</dt>-->
+<!--                        <dd>Absolutely, we provide fully integrated online store solutions.</dd>-->
+<!--                        <dt>Do you provide ongoing support?</dt>-->
+<!--                        <dd>Yes, our team provides maintenance, updates, and performance monitoring.</dd>-->
+<!--                    </dl>-->
+
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+
+    </template>
+
+<!--    <record id="cr_internal_website_theme.service4_web_dev_solution_000_scss" model="ir.asset">-->
+<!--        <field name="name">SERVICE-4 000 SCSS</field>-->
+<!--        <field name="bundle">web.assets_frontend</field>-->
+<!--        <field name="path">cr_internal_website_theme/static/src/snippets/service4_web_dev_solution/000.scss</field>-->
+<!--    </record>-->
+</odoo>

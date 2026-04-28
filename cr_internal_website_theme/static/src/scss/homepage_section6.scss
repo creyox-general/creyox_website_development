@@ -1,0 +1,155 @@
+.s_service_showcase {
+    padding: clamp(60px, 10vw, 100px) 0 !important;
+    background-color: #f8fafc !important;
+    /* Subtle gray background to differentiate from Section 5 */
+    position: relative;
+    overflow: hidden;
+
+    .section-header {
+        margin-bottom: 60px;
+
+        .section-title {
+            font-size: clamp(36px, 6vw, 48px) !important;
+            font-weight: 700 !important;
+            color: #0d121f !important;
+            line-height: 1.2 !important;
+            letter-spacing: -0.02em !important;
+            margin-bottom: 15px;
+
+            .text-gradient {
+                display: inline-block;
+                background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                padding-right: 0.15em; // Prevent clipping
+            }
+        }
+
+        .title-underline {
+            width: 80px;
+            height: 4px;
+            background: #1e3a8a;
+            border-radius: 20px;
+        }
+
+        .section-description {
+            font-size: 18px !important;
+            color: #64748b;
+            max-width: 700px;
+        }
+    }
+
+    .service-card {
+        background: #ffffff;
+        padding: 40px 30px;
+        height: 100%;
+        border-radius: 0 !important;
+        /* Sharp corners to match Section 5 */
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        position: relative;
+        overflow: hidden;
+        transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        z-index: 1;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: -100%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, #e3edff, #d5e1fc);
+            transition: top 0.4s ease;
+            z-index: 0;
+        }
+
+        &>* {
+            position: relative;
+            z-index: 1;
+        }
+
+        &.card-blue {
+            border-top: 4px solid #1e3a8a;
+
+            .card-icon {
+                color: #1e3a8a;
+            }
+        }
+
+        &.card-dark {
+            border-top: 4px solid #0f172a;
+
+            .card-icon {
+                color: #0f172a;
+            }
+        }
+
+        .card-icon {
+            font-size: 32px;
+            margin-bottom: 25px;
+            background: rgba(30, 58, 138, 0.05);
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .card-title {
+            font-size: 22px !important;
+            font-weight: 700 !important;
+            color: #0f172a !important;
+            margin-bottom: 15px;
+        }
+
+        .card-text {
+            font-size: 15px !important;
+            color: #64748b;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* Subtle professional interaction - sliding background color matching Section 2 */
+        &:hover {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            border-top-width: 6px;
+
+            &::before {
+                top: 0;
+            }
+        }
+    }
+}
+
+/* Dark mode compatibility hints */
+[data-website-id] .s_service_showcase.bg-dark {
+    background-color: #0f172a !important;
+
+    .section-title {
+        color: #ffffff !important;
+    }
+
+    .section-description {
+        color: #94a3b8;
+    }
+
+    .service-card {
+        background: #1e293b;
+        border-color: rgba(255, 255, 255, 0.1);
+
+        .card-title {
+            color: #ffffff !important;
+        }
+
+        .card-text {
+            color: #94a3b8;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.s_faq_dynamic {
+
+    // Hide all templates by default
+    .s_faq_template {
+        display: none;
+    }
+
+    // Show only the active template based on class on section
+    &.o_faq_template_1 .s_faq_t1 { display: block; }
+    &.o_faq_template_2 .s_faq_t2 { display: block; }
+    &.o_faq_template_3 .s_faq_t3 { display: block; }
+    &.o_faq_template_4 .s_faq_t4 { display: block; }
+    &.o_faq_template_5 .s_faq_t5 { display: block; }
+
+    // Template 3 numbered style
+    .s_faq_number {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #e2e8f0;
+        min-width: 60px;
+        line-height: 1;
+    }
+}

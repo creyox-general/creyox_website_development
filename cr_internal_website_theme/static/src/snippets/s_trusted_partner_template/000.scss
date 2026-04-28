@@ -1,0 +1,98 @@
+.s_trusted_odoo_partner {
+    padding: clamp(60px, 10vw, 120px) 0 !important;
+    background-color: #ffffff !important;
+    position: relative;
+    overflow: hidden;
+
+    .partner-content-box {
+        text-align: left;
+    }
+
+    .partner-title {
+        font-size: clamp(36px, 6vw, 48px) !important;
+        font-weight: 700 !important;
+        color: #0d121f !important;
+        line-height: 1.2 !important;
+        margin-bottom: 30px;
+        letter-spacing: -0.02em !important;
+    }
+
+    .partner-description {
+        font-size: clamp(16px, 1.8vw, 19px) !important;
+        line-height: 1.8;
+        color: #475569;
+        margin-bottom: 25px;
+        max-width: 90%;
+    }
+
+    .partner-cta-group {
+        margin-top: 40px;
+    }
+
+    .partner-image-box {
+        position: relative;
+        padding: 20px;
+        background: radial-gradient(circle at center, rgba(59, 130, 246, 0.05) 0%, transparent 70%);
+        border-radius: 30px;
+
+        .partner-image {
+            border-radius: 20px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+            &:hover {
+                transform: translateY(-10px);
+            }
+        }
+
+        .image-overlay-glow {
+            position: absolute;
+            top: -10%;
+            right: -10%;
+            width: 40%;
+            height: 40%;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 80%);
+            z-index: -1;
+            filter: blur(40px);
+        }
+    }
+
+    &.o_layout_reverse {
+        .row {
+            flex-direction: row-reverse;
+        }
+    }
+
+    /* Professional Micro-interactions */
+
+    /* Mobile Adaptations */
+    @media (max-width: 991px) {
+        text-align: center;
+
+        .partner-content-box {
+            text-align: center;
+        }
+
+        .partner-description {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .partner-image-box {
+            margin-top: 40px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        padding: 60px 0 !important;
+
+        .partner-title {
+            letter-spacing: -1px;
+            margin-bottom: 20px;
+        }
+
+        .partner-cta-group {
+            margin-top: 30px;
+        }
+    }
+}

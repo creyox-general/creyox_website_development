@@ -1,0 +1,148 @@
+/* ==============================
+   ERP CTA Section - Base Styles
+   ============================== */
+.erp-cta-section {
+    position: relative;
+    background: #0a173b !important;
+    overflow: hidden;
+    padding: clamp(40px, 6vw, 60px) clamp(20px, 4vw, 40px);
+    z-index: 1;
+    margin: 0;
+    border-radius: 16px; /* consistent with grid cards */
+}
+
+/* Ensure the wrapper doesn't have a background */
+.s_erp_cta_wrapper {
+    background: transparent !important;
+}
+
+/* ✅ Reuse bubbles */
+.erp-cta-section .bubble {
+    position: absolute;
+    bottom: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(100, 149, 237, 0.2);
+    border-radius: 50%;
+    animation: floatSmall 4s infinite ease-in-out;
+    opacity: 0.6;
+}
+
+.erp-cta-section .bubble:nth-child(1) { left: 10%; animation-delay: 0s; }
+.erp-cta-section .bubble:nth-child(2) { left: 30%; width: 15px; height: 15px; animation-delay: 1s; }
+.erp-cta-section .bubble:nth-child(3) { left: 50%; width: 25px; height: 25px; animation-delay: 2s; }
+.erp-cta-section .bubble:nth-child(4) { left: 70%; width: 18px; height: 18px; animation-delay: 0.5s; }
+.erp-cta-section .bubble:nth-child(5) { left: 90%; width: 22px; height: 22px; animation-delay: 1.5s; }
+
+/* ✅ Layout */
+.erp-cta-container {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.erp-cta-row {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.erp-cta-row h2 {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.erp-cta-row .highlight {
+    color: var(--highlight-color);
+}
+
+.erp-cta-row {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+}
+
+.erp-cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* ==============================
+   Responsive Media Queries
+   ============================== */
+
+/* ✅ Extra large desktops (1201px+) */
+@media (min-width: 1201px) {
+    .erp-cta-row h2 {
+        font-size: 2.2rem;
+    }
+}
+/* ✅ Large screens (993px - 1200px) */
+@media (max-width: 1200px) {
+    .erp-cta-row h2 {
+        font-size: 1.9rem;
+    }
+}
+
+/* ✅ Small laptops (769px - 992px) */
+@media (max-width: 992px) {
+    .erp-cta-row h2 {
+        font-size: 1.8rem;
+    }
+}
+
+/* ✅ Tablets (481px - 768px) */
+@media (max-width: 768px) {
+    .erp-cta-row {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .erp-cta-row h2 {
+        font-size: 1.6rem;
+    }
+}
+
+/* ✅ Large phones (361px - 480px) */
+@media (max-width: 480px) {
+    .erp-cta-section {
+        padding: 20px 10px;
+    }
+    .erp-cta-row {
+        flex-direction: column;
+        gap: 18px;
+        text-align: center;
+    }
+    .erp-cta-row h2 {
+        font-size: 0.8rem;
+    }
+    .erp-cta-container {
+        padding: 0px 5px;
+    }
+}
+
+/* ✅ Small phones (max 360px) */
+@media (max-width: 360px) {
+    .erp-cta-section {
+        padding: 20px 10px;
+    }
+    .erp-cta-row {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    .erp-cta-row h2 {
+        font-size: 0.8rem;
+    }
+}
