@@ -36,249 +36,784 @@
             </section>
         </div>
 
-        <section class="cr-pos-solution-intro o_website_snippet cr_font" aria-labelledby="pos-solution-heading">
-            <div class="cr-pos-container">
-                <!-- Header Row -->
-                <div class="oe_structure" id="oe_structure_pos_header">
-                    <section class="s_trusted_odoo_partner cr_font"
-                             data-snippet="s_trusted_odoo_partner"
-                             data-name="Trusted Odoo Partner">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
-                                    <div class="partner-content-box text-start">
-                                        <h2 class="partner-title">
-                                            POS Solutions for
-                                            <span class="text-gradient">Modern Businesses</span>
-                                        </h2>
-                                        <p class="partner-description partner-desc-1">
-                                            Our POS solutions help you manage sales, inventory, and customer interactions efficiently. With fast checkout,
-                                            real-time reporting, and integrated inventory management, you can enhance customer experience and drive more sales.
-                                        </p>
-                                        <p class="partner-description partner-desc-2">
-                                            Whether you're running a retail store, a restaurant, or a service center, our POS fits your needs perfectly.
-                                        </p>
-                                        <div class="partner-cta-group">
-                                            <a href="/contactus" class="cta-button primary">
-                                                <span>Work with Experts</span>
-                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
-                                    <div class="partner-image-box">
-                                        <img src="/cr_internal_website_theme/static/src/img/pos-solution.png"
-                                             alt="POS Solutions"
-                                             class="img-fluid partner-image"/>
-                                        <div class="image-overlay-glow"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+<!--        <section class="cr-pos-solution-intro o_website_snippet cr_font" aria-labelledby="pos-solution-heading">-->
+<!--            <div class="cr-pos-container">-->
+<!--                &lt;!&ndash; Header Row &ndash;&gt;-->
+<!--                <div class="oe_structure" id="oe_structure_pos_header">-->
+<!--                    <section class="s_trusted_odoo_partner cr_font"-->
+<!--                             data-snippet="s_trusted_odoo_partner"-->
+<!--                             data-name="Trusted Odoo Partner">-->
+<!--                        <div class="container">-->
+<!--                            <div class="row align-items-center">-->
+<!--                                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">-->
+<!--                                    <div class="partner-content-box text-start">-->
+<!--                                        <h2 class="partner-title">-->
+<!--                                            POS Solutions for-->
+<!--                                            <span class="text-gradient">Modern Businesses</span>-->
+<!--                                        </h2>-->
+<!--                                        <p class="partner-description partner-desc-1">-->
+<!--                                            Our POS solutions help you manage sales, inventory, and customer interactions efficiently. With fast checkout,-->
+<!--                                            real-time reporting, and integrated inventory management, you can enhance customer experience and drive more sales.-->
+<!--                                        </p>-->
+<!--                                        <p class="partner-description partner-desc-2">-->
+<!--                                            Whether you're running a retail store, a restaurant, or a service center, our POS fits your needs perfectly.-->
+<!--                                        </p>-->
+<!--                                        <div class="partner-cta-group">-->
+<!--                                            <a href="/contactus" class="cta-button primary">-->
+<!--                                                <span>Work with Experts</span>-->
+<!--                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>-->
+<!--                                            </a>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">-->
+<!--                                    <div class="partner-image-box">-->
+<!--                                        <img src="/cr_internal_website_theme/static/src/img/pos-solution.png"-->
+<!--                                             alt="POS Solutions"-->
+<!--                                             class="img-fluid partner-image"/>-->
+<!--                                        <div class="image-overlay-glow"/>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </section>-->
+<!--                </div>-->
+
+<!--                <section class="pos-usecases">-->
+<!--                    <div class="pos-usecases-container">-->
+<!--                        <h2 class="pos-usecases-title">POS Use Cases Across Industries</h2>-->
+
+<!--                        <div class="pos-usecases-wrapper">-->
+
+<!--                            &lt;!&ndash; Left side image &ndash;&gt;-->
+<!--                            <div class="pos-usecases-image">-->
+<!--                                <img src="/cr_internal_website_theme/static/src/img/pos_use.png" alt="POS Use Cases"/>-->
+<!--                            </div>-->
+
+<!--                            &lt;!&ndash; Right side use case boxes &ndash;&gt;-->
+<!--                            <div class="pos-usecase-list">-->
+<!--                                <div class="usecase">-->
+<!--                                    <h4>Retail</h4>-->
+<!--                                    <p>Manage billing, discounts, and customer loyalty with ease.</p>-->
+<!--                                </div>-->
+<!--                                <div class="usecase">-->
+<!--                                    <h4>Restaurants</h4>-->
+<!--                                    <p>Streamline orders, kitchen printing, and split billing.</p>-->
+<!--                                </div>-->
+<!--                                <div class="usecase">-->
+<!--                                    <h4>Salons &amp; Spas</h4>-->
+<!--                                    <p>Track appointments, memberships, and service packages.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                                <div class="usecase">-->
+<!--                                    <h4>Gas Stations</h4>-->
+<!--                                    <p>Quick pump billing with accurate shift and sales tracking.</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </section>-->
+
+
+<!--                &lt;!&ndash; Content Below &ndash;&gt;-->
+<!--                <div class="cr-pos-content">-->
+<!--                    <h2>Why Choose Our POS Solution?</h2>-->
+<!--                    <p>-->
+<!--                        Our POS platform adapts to your business needs, enabling quick transactions, accurate inventory-->
+<!--                        tracking,-->
+<!--                        and detailed sales analytics. Optimize your retail operations, improve customer satisfaction,-->
+<!--                        and increase revenue.-->
+<!--                    </p>-->
+
+<!--                    <ul class="pos-features">-->
+<!--                        <li>-->
+<!--                            <strong>Fast Checkout:</strong>-->
+<!--                            Quick and seamless transactions for your customers.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Inventory Management:</strong>-->
+<!--                            Keep stock levels updated in real-time across all locations.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Sales Reporting:</strong>-->
+<!--                            Monitor sales trends with detailed analytics and dashboards.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Customer Management:</strong>-->
+<!--                            Track customer purchases and loyalty programs efficiently.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Multi-Platform:</strong>-->
+<!--                            Works seamlessly on desktop, tablet, and mobile devices.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Secure Payments:</strong>-->
+<!--                            Integrated with multiple payment gateways.-->
+<!--                        </li>-->
+<!--                        &lt;!&ndash; New Features &ndash;&gt;-->
+<!--                        <li>-->
+<!--                            <strong>Omnichannel Support:</strong>-->
+<!--                            Manage sales seamlessly across online, in-store, and mobile.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Advanced Discounts &amp; Promotions:</strong>-->
+<!--                            Easily set up offers and loyalty campaigns.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Employee Management:</strong>-->
+<!--                            Track staff performance and access within POS.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Offline Mode:</strong>-->
+<!--                            Continue selling even without internet connectivity.-->
+<!--                        </li>-->
+<!--                    </ul>-->
+
+
+<!--                    <h2>Our Implementation Approach</h2>-->
+<!--                    <p>-->
+<!--                        From planning to deployment, we ensure a smooth POS setup tailored to your business needs.-->
+<!--                        Our team provides training and support to guarantee efficient adoption and long-term success.-->
+<!--                    </p>-->
+
+<!--                    &lt;!&ndash; 🔥 Our Most Popular POS Apps &ndash;&gt;-->
+<!--                    <section class="pos-popular-apps o_website_snippet" aria-labelledby="pos-apps-heading">-->
+<!--                        <div class="container">-->
+<!--                            <h2 id="pos-apps-heading">Our Most Popular POS Apps</h2>-->
+
+<!--                            &lt;!&ndash; App 1 &ndash;&gt;-->
+<!--                            <div class="pos-app-row">-->
+<!--                                <div class="pos-app-image">-->
+<!--                                    <img src="/cr_internal_website_theme/static/src/img/pos1.png"-->
+<!--                                         alt="Direct Print PoS Order Receipt"/>-->
+<!--                                </div>-->
+<!--                                <div class="pos-app-content">-->
+<!--                                    <h3>Direct Print PoS Order Receipt</h3>-->
+<!--                                    <p>-->
+<!--                                        Print receipts directly from Odoo POS to your ESC/POS-compatible printer.-->
+<!--                                        Enjoy faster billing, reduced errors, and a seamless checkout experience.-->
+<!--                                    </p>-->
+<!--                                    <a href="https://apps.odoo.com/apps/modules/18.0/cr_escpos_printer"-->
+<!--                                       class="pos-btn" target="_blank">Learn More-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            &lt;!&ndash; App 2 &ndash;&gt;-->
+<!--                            <div class="pos-app-row reverse">-->
+<!--                                <div class="pos-app-content">-->
+<!--                                    <h3>POS Network Printer</h3>-->
+<!--                                    <p>-->
+<!--                                        Connect multiple POS stations with a shared network printer.-->
+<!--                                        Simplify restaurant orders, kitchen printing, and centralized management.-->
+<!--                                    </p>-->
+<!--                                    <a href="https://apps.odoo.com/apps/modules/18.0/cr_pos_network_printer"-->
+<!--                                       class="pos-btn" target="_blank">Learn More-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                                <div class="pos-app-image">-->
+<!--                                    <img src="/cr_internal_website_theme/static/src/img/pos4.png"-->
+<!--                                         alt="POS Network Printer"/>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            &lt;!&ndash; App 3 &ndash;&gt;-->
+<!--                            <div class="pos-app-row">-->
+<!--                                <div class="pos-app-image">-->
+<!--                                    <img src="/cr_internal_website_theme/static/src/img/pos3.png"-->
+<!--                                         alt="Direct Print PoS Restaurant Receipt"/>-->
+<!--                                </div>-->
+<!--                                <div class="pos-app-content">-->
+<!--                                    <h3>Direct Print PoS Restaurant Receipt</h3>-->
+<!--                                    <p>-->
+<!--                                        Specially designed for restaurants — route orders directly to kitchen/bar-->
+<!--                                        printers.-->
+<!--                                        Enhance efficiency, reduce wait times, and improve customer service.-->
+<!--                                    </p>-->
+<!--                                    <a href="https://apps.odoo.com/apps/modules/18.0/cr_escpos_printer_res"-->
+<!--                                       class="pos-btn" target="_blank">Learn More-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </section>-->
+
+<!--                    <section class="pos-cta-section o_wfull" aria-labelledby="pos-cta-heading">-->
+<!--                        &lt;!&ndash; Floating bubbles &ndash;&gt;-->
+<!--                        <div class="bubble"></div>-->
+<!--                        <div class="bubble"></div>-->
+<!--                        <div class="bubble"></div>-->
+<!--                        <div class="bubble"></div>-->
+<!--                        <div class="bubble"></div>-->
+
+<!--                        <div class="container pos-cta-container">-->
+<!--                            <div class="pos-cta-row">-->
+<!--                                &lt;!&ndash; Text &ndash;&gt;-->
+<!--                                <div class="pos-cta-text">-->
+<!--                                    <h2 id="pos-cta-heading">-->
+<!--                                        Ready to <span class="highlight">Upgrade Your POS Experience</span>? 🚀-->
+<!--                                    </h2>-->
+<!--                                </div>-->
+
+<!--                                &lt;!&ndash; Button (same pattern as ERP CTA) &ndash;&gt;-->
+<!--                                <a href="#erp-demo-form" class="cta-button light" title="Schedule Free ERP Demo"-->
+<!--                                   aria-label="Get ERP Demo">-->
+<!--                                    <span>Schedule a Free Demo</span>-->
+<!--                                    <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>-->
+<!--                                </a>-->
+
+
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </section>-->
+
+
+<!--                    <h2>Frequently Asked Questions</h2>-->
+<!--                    <dl>-->
+<!--                        <dt>Can POS integrate with my inventory system?</dt>-->
+<!--                        <dd>Yes, our POS integrates with major inventory and accounting systems.</dd>-->
+<!--                        <dt>Does it support multi-location stores?</dt>-->
+<!--                        <dd>Absolutely! Track sales and inventory across all your stores.</dd>-->
+<!--                        <dt>Do you provide training?</dt>-->
+<!--                        <dd>Yes, our experts provide hands-on training and support for your staff.</dd>-->
+<!--                    </dl>-->
+
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+
+
+        <!-- Snippets Added via Request -->
+
+        <!-- 1. Comprehensive Service -->
+        <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
+                 data-snippet="s_comprehensive_service"
+                 data-oe-type="snippet"
+                 data-name="Comprehensive Service">
+            <div class="container py-5">
+                <div class="row mb-5 pb-lg-3">
+                    <div class="col-12 text-center">
+                        <h2 class="partner-title mb-3">
+                            Trusted POS Solutions That Drive
+                            <span class="text-gradient">Real Results Powered by Odoo</span>
+                        </h2>
+                        <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                    </div>
                 </div>
-
-                <section class="pos-usecases">
-                    <div class="pos-usecases-container">
-                        <h2 class="pos-usecases-title">POS Use Cases Across Industries</h2>
-
-                        <div class="pos-usecases-wrapper">
-
-                            <!-- Left side image -->
-                            <div class="pos-usecases-image">
-                                <img src="/cr_internal_website_theme/static/src/img/pos_use.png" alt="POS Use Cases"/>
+                <div class="row align-items-center gx-0">
+                    <div class="col-lg-6 mb-5 mb-lg-0 p-0">
+                        <div class="partner-content-box text-start">
+                            <p class="partner-description partner-desc-1 mb-3 w-100">
+                                From retail counters to restaurant kitchens Creyox Technologies delivers cloud POS, mobile POS, and custom POS solutions that are fully integrated with Odoo. No data silos. No downtime. No guesswork.
+                            </p>
+                            <div class="partner-cta-group">
+                                <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                    <span>Get a Free POS Consultation</span>
+                                    <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                </a>
                             </div>
-
-                            <!-- Right side use case boxes -->
-                            <div class="pos-usecase-list">
-                                <div class="usecase">
-                                    <h4>Retail</h4>
-                                    <p>Manage billing, discounts, and customer loyalty with ease.</p>
-                                </div>
-                                <div class="usecase">
-                                    <h4>Restaurants</h4>
-                                    <p>Streamline orders, kitchen printing, and split billing.</p>
-                                </div>
-                                <div class="usecase">
-                                    <h4>Salons &amp; Spas</h4>
-                                    <p>Track appointments, memberships, and service packages.
-                                    </p>
-                                </div>
-                                <div class="usecase">
-                                    <h4>Gas Stations</h4>
-                                    <p>Quick pump billing with accurate shift and sales tracking.</p>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
-                </section>
+                    <div class="col-lg-6 p-0">
+                        <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
+                            <img src="/cr_internal_website_theme/static/src/img/pos-solution.png"
+                                 alt="POS Solutions"
+                                 class="img-fluid w-100"
+                                 style="object-fit: contain; transform: scale(1.4); transform-origin: left center; z-index: 1;"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- 2. Milestone Section -->
+        <section class="milestone-light-section s_milestone_section cr_font"
+                 data-snippet="s_milestone_section"
+                 data-name="Milestone Section"
+                 aria-labelledby="milestones-heading">
+            <div class="milestone-wrapper">
+                <div class="milestone-grid" role="list">
+                    <div class="milestone-card" style="--i:1" role="listitem" data-card-index="1">
+                        <div class="milestone-icon" aria-hidden="true"><i class="fas fa-cash-register"/></div>
+                        <h3><span class="counter" data-count="50">0</span>+</h3>
+                        <p>POS Implementations</p>
+                    </div>
+                    <div class="milestone-card" style="--i:2" role="listitem" data-card-index="2">
+                        <div class="milestone-icon" aria-hidden="true"><i class="fas fa-industry"/></div>
+                        <h3><span class="counter" data-count="15">0</span>+</h3>
+                        <p>Industries Served</p>
+                    </div>
+                    <div class="milestone-card" style="--i:3" role="listitem" data-card-index="3">
+                        <div class="milestone-icon" aria-hidden="true"><i class="fas fa-smile"/></div>
+                        <h3><span class="counter" data-count="98">0</span>%</h3>
+                        <p>Client Satisfaction Rate</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                <!-- Content Below -->
-                <div class="cr-pos-content">
-                    <h2>Why Choose Our POS Solution?</h2>
-                    <p>
-                        Our POS platform adapts to your business needs, enabling quick transactions, accurate inventory
-                        tracking,
-                        and detailed sales analytics. Optimize your retail operations, improve customer satisfaction,
-                        and increase revenue.
-                    </p>
-
-                    <ul class="pos-features">
-                        <li>
-                            <strong>Fast Checkout:</strong>
-                            Quick and seamless transactions for your customers.
-                        </li>
-                        <li>
-                            <strong>Inventory Management:</strong>
-                            Keep stock levels updated in real-time across all locations.
-                        </li>
-                        <li>
-                            <strong>Sales Reporting:</strong>
-                            Monitor sales trends with detailed analytics and dashboards.
-                        </li>
-                        <li>
-                            <strong>Customer Management:</strong>
-                            Track customer purchases and loyalty programs efficiently.
-                        </li>
-                        <li>
-                            <strong>Multi-Platform:</strong>
-                            Works seamlessly on desktop, tablet, and mobile devices.
-                        </li>
-                        <li>
-                            <strong>Secure Payments:</strong>
-                            Integrated with multiple payment gateways.
-                        </li>
-                        <!-- New Features -->
-                        <li>
-                            <strong>Omnichannel Support:</strong>
-                            Manage sales seamlessly across online, in-store, and mobile.
-                        </li>
-                        <li>
-                            <strong>Advanced Discounts &amp; Promotions:</strong>
-                            Easily set up offers and loyalty campaigns.
-                        </li>
-                        <li>
-                            <strong>Employee Management:</strong>
-                            Track staff performance and access within POS.
-                        </li>
-                        <li>
-                            <strong>Offline Mode:</strong>
-                            Continue selling even without internet connectivity.
-                        </li>
-                    </ul>
-
-
-                    <h2>Our Implementation Approach</h2>
-                    <p>
-                        From planning to deployment, we ensure a smooth POS setup tailored to your business needs.
-                        Our team provides training and support to guarantee efficient adoption and long-term success.
-                    </p>
-
-                    <!-- 🔥 Our Most Popular POS Apps -->
-                    <section class="pos-popular-apps o_website_snippet" aria-labelledby="pos-apps-heading">
-                        <div class="container">
-                            <h2 id="pos-apps-heading">Our Most Popular POS Apps</h2>
-
-                            <!-- App 1 -->
-                            <div class="pos-app-row">
-                                <div class="pos-app-image">
-                                    <img src="/cr_internal_website_theme/static/src/img/pos1.png"
-                                         alt="Direct Print PoS Order Receipt"/>
-                                </div>
-                                <div class="pos-app-content">
-                                    <h3>Direct Print PoS Order Receipt</h3>
-                                    <p>
-                                        Print receipts directly from Odoo POS to your ESC/POS-compatible printer.
-                                        Enjoy faster billing, reduced errors, and a seamless checkout experience.
-                                    </p>
-                                    <a href="https://apps.odoo.com/apps/modules/18.0/cr_escpos_printer"
-                                       class="pos-btn" target="_blank">Learn More
-                                    </a>
-                                </div>
-                            </div>
-
-                            <!-- App 2 -->
-                            <div class="pos-app-row reverse">
-                                <div class="pos-app-content">
-                                    <h3>POS Network Printer</h3>
-                                    <p>
-                                        Connect multiple POS stations with a shared network printer.
-                                        Simplify restaurant orders, kitchen printing, and centralized management.
-                                    </p>
-                                    <a href="https://apps.odoo.com/apps/modules/18.0/cr_pos_network_printer"
-                                       class="pos-btn" target="_blank">Learn More
-                                    </a>
-                                </div>
-                                <div class="pos-app-image">
-                                    <img src="/cr_internal_website_theme/static/src/img/pos4.png"
-                                         alt="POS Network Printer"/>
-                                </div>
-                            </div>
-
-                            <!-- App 3 -->
-                            <div class="pos-app-row">
-                                <div class="pos-app-image">
-                                    <img src="/cr_internal_website_theme/static/src/img/pos3.png"
-                                         alt="Direct Print PoS Restaurant Receipt"/>
-                                </div>
-                                <div class="pos-app-content">
-                                    <h3>Direct Print PoS Restaurant Receipt</h3>
-                                    <p>
-                                        Specially designed for restaurants — route orders directly to kitchen/bar
-                                        printers.
-                                        Enhance efficiency, reduce wait times, and improve customer service.
-                                    </p>
-                                    <a href="https://apps.odoo.com/apps/modules/18.0/cr_escpos_printer_res"
-                                       class="pos-btn" target="_blank">Learn More
-                                    </a>
+        <!-- 3. ERP Pain Points -->
+        <section class="s_erp_pain_points cr_font sg-cols-3" data-snippet="s_erp_pain_points" data-name="ERP Pain Points">
+            <div class="erp-container">
+                <div class="erp-header-group" data-aos="fade-up">
+                    <h2 class="erp-title">Is Your POS Holding You Back?</h2>
+                </div>
+                <div class="connected-matrix" data-aos="fade-up">
+                    <div class="row g-4 mb-4">
+                        <div class="col-md-6 pp-card-col">
+                            <div class="matrix-block pure-bento-card" data-aos="fade-up">
+                                <span class="bento-index">01</span>
+                                <div class="bento-content">
+                                    <h3 class="bento-title">Your POS crashes at peak hours</h3>
+                                    <p class="bento-text">Our cloud POS solutions run on Odoo's resilient infrastructure with built-in offline mode every transaction is saved, always.</p>
                                 </div>
                             </div>
                         </div>
-                    </section>
-
-                    <section class="pos-cta-section o_wfull" aria-labelledby="pos-cta-heading">
-                        <!-- Floating bubbles -->
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-
-                        <div class="container pos-cta-container">
-                            <div class="pos-cta-row">
-                                <!-- Text -->
-                                <div class="pos-cta-text">
-                                    <h2 id="pos-cta-heading">
-                                        Ready to <span class="highlight">Upgrade Your POS Experience</span>? 🚀
-                                    </h2>
+                        <div class="col-md-6 pp-card-col">
+                            <div class="matrix-block pure-bento-card highlight" data-aos="fade-up" data-aos-delay="100">
+                                <span class="bento-index">02</span>
+                                <div class="bento-content">
+                                    <h3 class="bento-title">Your POS doesn't talk to your inventory or accounts</h3>
+                                    <p class="bento-text">We deliver POS integration services that connect your POS to Odoo inventory, accounting, CRM, and e-commerce natively, no middleware.</p>
                                 </div>
+                                <div class="bento-accent-dot"/>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pp-card-col">
+                            <div class="matrix-block pure-bento-card" data-aos="fade-up" data-aos-delay="200">
+                                <span class="bento-index">03</span>
+                                <div class="bento-content">
+                                    <h3 class="bento-title">You're paying enterprise prices for basic features</h3>
+                                    <p class="bento-text">Our POS solutions for small business are right-sized full Odoo features, transparent pricing, and a team that actually picks up the phone.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                                <!-- Button (same pattern as ERP CTA) -->
-                                <a href="#erp-demo-form" class="cta-button light" title="Schedule Free ERP Demo"
-                                   aria-label="Get ERP Demo">
-                                    <span>Schedule a Free Demo</span>
-                                    <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+        <!-- 4. Feature Mesh -->
+        <section class="s_feature_mesh cr_font sg-cols-3" data-snippet="s_feature_mesh" data-name="Feature Mesh">
+            <div class="container py-5">
+                <div class="section-header text-center mb-5" data-aos="fade-up">
+                    <h2 class="mesh-title">
+                        POS Services Across
+                        <span class="text-gradient">Every Industries</span>
+                    </h2>
+                    <div class="title-underline mx-auto"></div>
+                    <p class="mesh-main-text mt-4 mx-auto">
+                        Every business operates differently. Our industry-specific POS Services are designed around your real workflows, giving you a system that fits your operations instead of forcing you to adapt to generic software.
+                    </p>
+                </div>
+                <div class="row g-4 fm-card-row">
+                    <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                        <div class="split-card">
+                            <div class="card-title-zone"><h3 class="card-title">Retail &amp; Fashion</h3></div>
+                            <div class="card-body-zone">
+                                <p class="card-text">Billing, discounts, multi-variant products, barcode scanning, and customer loyalty all in one retail POS solution.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                        <div class="split-card">
+                            <div class="card-title-zone"><h3 class="card-title">Restaurants &amp; Cafés</h3></div>
+                            <div class="card-body-zone">
+                                <p class="card-text">Table management, KOT printing, split bills, and kitchen display integration. Speed up service, reduce errors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                        <div class="split-card">
+                            <div class="card-title-zone"><h3 class="card-title">Salons &amp; Spas</h3></div>
+                            <div class="card-body-zone">
+                                <p class="card-text">Appointment-linked billing, membership packages, therapist commissions, and product retail all in one view.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                        <div class="split-card">
+                            <div class="card-title-zone"><h3 class="card-title">Fuel Stations</h3></div>
+                            <div class="card-body-zone">
+                                <p class="card-text">Pump-integrated billing, shift management, daily reconciliation, and credit customer tracking.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                        <div class="split-card">
+                            <div class="card-title-zone"><h3 class="card-title">Supermarkets &amp; Grocery</h3></div>
+                            <div class="card-body-zone">
+                                <p class="card-text">High-volume scanning, expiry tracking, GST-ready billing, and perishable inventory alerts.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                        <div class="split-card">
+                            <div class="card-title-zone"><h3 class="card-title">Gyms &amp; Fitness Studios</h3></div>
+                            <div class="card-body-zone">
+                                <p class="card-text">Membership billing, class pass tracking, pro-shop sales, and auto-renewal invoicing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Benefit Mesh -->
+        <section class="s_benefit_mesh cr_font bm-cols-3" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
+            <div class="container">
+                <div class="section-header text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">
+                        Why Choose
+                        <span class="text-gradient">Creyox POS Solutions</span>
+                    </h2>
+                    <div class="title-underline mx-auto"></div>
+                    <p class="section-description mt-4 mx-auto">
+                        Our POS platform is built on Odoo which means every feature is already connected to your inventory, accounts, and customers.
+                    </p>
+                </div>
+                <div class="row g-4 s_benefit_mesh_row justify-content-center">
+                    <div class="col-12 col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                        <div class="benefit-card h-100">
+                            <div class="benefit-badge">01</div>
+                            <h3 class="card-title">Fast Checkout</h3>
+                            <div class="accent-line"></div>
+                            <p class="card-text">Sub-second transaction processing handles peak queues without a single hiccup.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <div class="benefit-card h-100">
+                            <div class="benefit-badge">02</div>
+                            <h3 class="card-title">Real-Time Inventory</h3>
+                            <div class="accent-line"></div>
+                            <p class="card-text">Every sale instantly adjusts stock levels across all locations automatically.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                        <div class="benefit-card h-100">
+                            <div class="benefit-badge">03</div>
+                            <h3 class="card-title">Live Sales Analytics</h3>
+                            <div class="accent-line"></div>
+                            <p class="card-text">Dashboards that show exactly what's selling, what's not, and where to act.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                        <div class="benefit-card h-100">
+                            <div class="benefit-badge">04</div>
+                            <h3 class="card-title">Customer &amp; Loyalty Management</h3>
+                            <div class="accent-line"></div>
+                            <p class="card-text">Track purchase history, run loyalty point programs, and trigger targeted offers.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <div class="benefit-card h-100">
+                            <div class="benefit-badge">05</div>
+                            <h3 class="card-title">Mobile POS Solutions</h3>
+                            <div class="accent-line"></div>
+                            <p class="card-text">Run your POS from any tablet or smartphone perfect for pop-ups, events, and floor sales.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                        <div class="benefit-card h-100">
+                            <div class="benefit-badge">06</div>
+                            <h3 class="card-title">Secure POS Payment Solutions</h3>
+                            <div class="accent-line"></div>
+                            <p class="card-text">UPI, card, wallet, and cash all payment gateways in one POS payment solution.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                        <div class="benefit-card h-100">
+                            <div class="benefit-badge">07</div>
+                            <h3 class="card-title">Omnichannel Ready</h3>
+                            <div class="accent-line"></div>
+                            <p class="card-text">Unify in-store, online, and mobile sales with a single Odoo backend.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <div class="benefit-card h-100">
+                            <div class="benefit-badge">08</div>
+                            <h3 class="card-title">Offline Mode</h3>
+                            <div class="accent-line"></div>
+                            <p class="card-text">Keep selling even when the internet goes down. Transactions sync automatically when reconnected.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                        <div class="benefit-card h-100">
+                            <div class="benefit-badge">09</div>
+                            <h3 class="card-title">Employee Management</h3>
+                            <div class="accent-line"></div>
+                            <p class="card-text">Assign access levels, track cashier performance, and review shift summaries per staff.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                        <div class="benefit-card h-100">
+                            <div class="benefit-badge">10</div>
+                            <h3 class="card-title">Discounts &amp; Promotions</h3>
+                            <div class="accent-line"></div>
+                            <p class="card-text">Set up time-based offers, combo deals, and loyalty campaigns in minutes no developer needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Service Showcase -->
+        <section class="s_service_showcase cr_font sc-cols-3" data-snippet="s_service_showcase" data-name="Service Showcase">
+            <div class="container">
+                <div class="section-header text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">
+                        Our
+                        <span class="text-gradient">POS Services</span>
+                    </h2>
+                    <div class="title-underline mx-auto"></div>
+                    <p class="section-description mt-4 mx-auto">
+                        End-to-End POS Services From First Install to Long-Term Scale. Whether you need a fresh POS installation, a complex system integration, or ongoing maintenance we have a clearly scoped service for exactly where you are right now.
+                    </p>
+                </div>
+                <div class="row g-4 s_service_showcase_row">
+                    <div class="col-12 col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                        <div class="service-card card-blue">
+                            <div class="card-icon"><i class="fas fa-link"/></div>
+                            <h3 class="card-title">POS Integration Services</h3>
+                            <p class="card-text">Connect your POS to inventory, accounting, e-commerce, and third-party tools through Odoo's unified backend. No manual data entry, ever again.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-card card-dark">
+                            <div class="card-icon"><i class="fas fa-cogs"/></div>
+                            <h3 class="card-title">Custom POS Solutions</h3>
+                            <p class="card-text">When off-the-shelf doesn't fit your workflow, we build it. Custom receipt formats, loyalty engines, industry-specific POS modules, and bespoke reporting.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-card card-blue">
+                            <div class="card-icon"><i class="fas fa-tools"/></div>
+                            <h3 class="card-title">POS Maintenance Services</h3>
+                            <p class="card-text">Proactive support and scheduled health checks so your POS never becomes the bottleneck in your business.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-card card-dark">
+                            <div class="card-icon"><i class="fas fa-cloud"/></div>
+                            <h3 class="card-title">Cloud POS Solutions</h3>
+                            <p class="card-text">Move your POS to the cloud with Odoo.sh or Odoo Online access live sales data from anywhere, on any device.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-card card-blue">
+                            <div class="card-icon"><i class="fas fa-mobile-alt"/></div>
+                            <h3 class="card-title">Mobile POS Solutions</h3>
+                            <p class="card-text">Take your checkout anywhere: tablets at restaurant tables, phones at trade events, or roaming staff on the shop floor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Specialist Grid (1st) -->
+        <section class="s_specialist_grid py-5 sg-cols-4" data-snippet="s_specialist_grid" data-name="Specialist Grid">
+            <div class="container">
+                <div class="section-header text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">
+                        We're Odoo Partners
+                        <span class="text-gradient">Software Integration Is Our Core</span>
+                    </h2>
+                    <p class="section-subtitle mt-2">Most POS providers treat integrations as costly bolt-ons. As certified Odoo partners, Creyox builds POS solutions where every module is already connected out of the box.</p>
+                </div>
+                <div class="specialist-grid-container">
+                    <div class="row g-4 s_specialist_grid_row">
+                        <div class="col-12 col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                            <div class="specialist-card">
+                                <div class="card-digit">01</div>
+                                <h3 class="card-title">POS + Inventory</h3>
+                                <p class="card-text">Every sale auto-deducts stock in real time across all Odoo locations no stock adjustments needed.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="specialist-card">
+                                <div class="card-digit">02</div>
+                                <h3 class="card-title">POS + Accounting</h3>
+                                <p class="card-text">Sales journals, payment entries, and GST reports are generated automatically with zero manual bookkeeping.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="200">
+                            <div class="specialist-card">
+                                <div class="card-digit">03</div>
+                                <h3 class="card-title">POS + CRM</h3>
+                                <p class="card-text">Customer purchase data flows directly into Odoo CRM for upselling, loyalty, and retention campaigns.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="300">
+                            <div class="specialist-card">
+                                <div class="card-digit">04</div>
+                                <h3 class="card-title">POS + eCommerce</h3>
+                                <p class="card-text">One product catalogue, one price list consistent across your physical store and your website.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="400">
+                            <div class="specialist-card">
+                                <div class="card-digit">05</div>
+                                <h3 class="card-title">Unified Platform</h3>
+                                <p class="card-text">POS, inventory, accounting, CRM one Odoo login manages everything.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="500">
+                            <div class="specialist-card">
+                                <div class="card-digit">06</div>
+                                <h3 class="card-title">Cloud or On-Premise</h3>
+                                <p class="card-text">Full software deployment flexibility, your data, your chosen environment.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="600">
+                            <div class="specialist-card">
+                                <div class="card-digit">07</div>
+                                <h3 class="card-title">300+ Native Integrations</h3>
+                                <p class="card-text">Odoo connects natively to payment gateways, logistics platforms, and marketplaces.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="700">
+                            <div class="specialist-card">
+                                <div class="card-digit">08</div>
+                                <h3 class="card-title">Scales Through Software</h3>
+                                <p class="card-text">Add new POS sessions, locations, and users through configuration no new system required.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. Kinetic Process -->
+        <section class="s_kinetic_process py-5" data-snippet="s_kinetic_process" data-name="Kinetic Process">
+            <div class="container-fluid px-lg-5">
+                <div class="section-header text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">
+                        How We Deploy
+                        <span class="text-gradient">Your Odoo POS</span>
+                    </h2>
+                    <p class="section-subtitle mt-2">No Surprises, No Delays</p>
+                </div>
+                <div class="kinetic-grid-container">
+                    <div class="row g-4 mb-4 s_kinetic_row_1">
+                        <div class="col-lg-8 phase-block" data-aos="fade-up">
+                            <div class="kinetic-card">
+                                <div class="card-bg-number">01</div>
+                                <h3 class="card-title">Discovery &amp; Audit</h3>
+                                <p class="card-desc">We study your workflows, existing software tools, and business rules before recommending any Odoo POS configuration.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="100">
+                            <div class="kinetic-card">
+                                <div class="card-bg-number">02</div>
+                                <h3 class="card-title">Solution Blueprint</h3>
+                                <p class="card-desc">A detailed Odoo POS software plan modules, integrations, custom requirements, and user workflows documented clearly.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-4 s_kinetic_row_2">
+                        <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="200">
+                            <div class="kinetic-card">
+                                <div class="card-bg-number">03</div>
+                                <h3 class="card-title">Configuration &amp; Development</h3>
+                                <p class="card-desc">We configure Odoo POS, build any custom modules, and test thoroughly against your real products, taxes, and payment flows.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="300">
+                            <div class="kinetic-card">
+                                <div class="card-bg-number">04</div>
+                                <h3 class="card-title">Training &amp; UAT</h3>
+                                <p class="card-desc">Live software training for your team plus a user acceptance phase your staff are fully confident.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="400">
+                            <div class="kinetic-card">
+                                <div class="card-bg-number">05</div>
+                                <h3 class="card-title">Go-Live &amp; Ongoing Support</h3>
+                                <p class="card-desc">Remote go-live support, followed by dedicated POS maintenance services, Odoo version management.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. Trusted Partner (1st - Default Layout) -->
+        <section class="s_trusted_odoo_partner cr_font" data-snippet="s_trusted_odoo_partner" data-name="Trusted Odoo Partner" data-o-layout="">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="partner-content-box">
+                            <h2 class="partner-title">
+                                POS Receipt Design Kit -
+                                <span class="text-gradient">Custom POS Receipt Templates for Odoo</span>
+                            </h2>
+                            <p class="partner-description partner-desc-1">A flexible receipt design solution for Odoo POS that allows businesses to choose professional POS receipt templates from predefined options. Users can easily add or remove specific sections from the receipt layout by editing the template from the front end.</p>
+                            <div class="partner-cta-group">
+                                <a href="https://apps.odoo.com/apps/modules/18.0/cr_pos_receipt_design_kit" class="cta-button primary" target="_blank">
+                                    <span>View App Details</span>
+                                    <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
                                 </a>
-
-
                             </div>
                         </div>
-                    </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="partner-image-box">
+                            <img src="/cr_internal_website_theme/static/src/img/pos-escpos.png" alt="POS Receipt Design Kit" class="img-fluid partner-image"/>
+                            <div class="image-overlay-glow"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- 11. Trusted Partner (2nd - Default Layout) -->
+        <section class="s_trusted_odoo_partner cr_font o_layout_reverse" data-snippet="s_trusted_odoo_partner" data-name="Trusted Odoo Partner" data-o-layout="">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="partner-content-box">
+                            <h2 class="partner-title">
+                                All in One POS Printing Solution -
+                                <span class="text-gradient">Generate a print to your kitchen or receipt printers without complex setup</span>
+                            </h2>
+                            <p class="partner-description partner-desc-1">A module that allows users to configure multiple printers for kitchen or payment receipts in Odoo, whether their system is hosted on the cloud, Odoo.sh, or locally. This module has no hidden costs, users pay only once and can use it with unlimited printers.</p>
+                            <div class="partner-cta-group">
+                                <a href="https://apps.odoo.com/apps/modules/19.0/cr_pos_network_printer_all_in_one" class="cta-button primary" target="_blank">
+                                    <span>View App Details</span>
+                                    <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="partner-image-box">
+                            <img src="/cr_internal_website_theme/static/src/img/pos-network.png" alt="All in One POS Printing Solution" class="img-fluid partner-image"/>
+                            <div class="image-overlay-glow"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                    <h2>Frequently Asked Questions</h2>
-                    <dl>
-                        <dt>Can POS integrate with my inventory system?</dt>
-                        <dd>Yes, our POS integrates with major inventory and accounting systems.</dd>
-                        <dt>Does it support multi-location stores?</dt>
-                        <dd>Absolutely! Track sales and inventory across all your stores.</dd>
-                        <dt>Do you provide training?</dt>
-                        <dd>Yes, our experts provide hands-on training and support for your staff.</dd>
-                    </dl>
-
+        <!-- 12. ERP CTA -->
+        <section class="erp-cta-section o_wfull" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="container erp-cta-container">
+                <div class="erp-cta-row">
+                    <div class="erp-cta-text">
+                        <h2 id="erp-cta-heading" style="color: white;">
+                            Ready to <span style="color: #4cc9f0;">Upgrade Your POS Experience</span>? 🚀
+                        </h2>
+                    </div>
+                    <a href="#erp-demo-form" class="cta-button light" title="Schedule Free ERP Demo" aria-label="Get ERP Demo">
+                        <span>Request a Free Demo</span>
+                        <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+                    </a>
                 </div>
             </div>
         </section>

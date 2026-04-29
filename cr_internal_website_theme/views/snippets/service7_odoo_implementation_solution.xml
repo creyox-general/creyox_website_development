@@ -73,7 +73,7 @@
                         </div>
                         <div class="col-lg-6" data-aos="fade-left">
                             <div class="partner-image-box">
-                                <img src="cr_internal_website_theme/static/src/img/odoo-implementation.png"
+                                <img src="/cr_internal_website_theme/static/src/img/odoo-implementation.png"
                                      alt="Odoo Implementation Services"
                                      class="img-fluid partner-image"/>
                                 <div class="image-overlay-glow"/>

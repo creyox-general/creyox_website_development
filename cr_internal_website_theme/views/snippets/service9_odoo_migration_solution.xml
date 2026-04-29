@@ -37,246 +37,825 @@
             </section>
         </div>
 
-        <section class="cr-odoo-migration-intro o_website_snippet cr_font" aria-labelledby="odoo-migration-heading">
-            <div class="cr-odoo-container">
-                <!-- Header Row -->
-                <div class="oe_structure" id="oe_structure_odoo_migration_header">
-                    <section class="s_trusted_odoo_partner cr_font"
-                             data-snippet="s_trusted_odoo_partner"
-                             data-name="Trusted Odoo Partner">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
-                                    <div class="partner-content-box text-start">
-                                        <h2 class="partner-title">
-                                            Future-Proof Your ERP with
-                                            <span class="text-gradient">Smooth Odoo Migrations</span>
-                                        </h2>
-                                        <p class="partner-description partner-desc-1">
-                                            Moving between Odoo versions requires more than a database export. Our end-to-end migration service covers readiness assessment, data cleansing, and mapping.
-                                        </p>
-                                        <p class="partner-description partner-desc-2">
-                                            We align functional parity with modern best practices—so you gain new features, better performance, and long-term support.
-                                        </p>
-                                        <div class="partner-cta-group">
-                                            <a href="/contactus" class="cta-button primary">
-                                                <span>Work with Experts</span>
-                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
-                                            </a>
-                                        </div>
+        <!-- 1. Comprehensive Service Snippet -->
+        <div class="oe_structure" id="oe_structure_service9_comprehensive">
+            <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
+                     data-snippet="s_comprehensive_service"
+                     data-name="Comprehensive Service">
+                <div class="container py-5">
+                    <div class="row mb-5 pb-lg-3">
+                        <div class="col-12 text-center">
+                            <h2 class="partner-title mb-3">
+                                Odoo Migration Services
+                                <span class="text-gradient">Move to the Latest Version Without Losing a Single Record</span>
+                            </h2>
+                            <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center gx-0">
+                        <div class="col-lg-6 mb-5 mb-lg-0 p-0">
+                            <div class="partner-content-box text-start">
+                                <p class="partner-description partner-desc-1 mb-3 w-100">
+                                    From legacy systems to the latest Odoo version, we handle complex migrations with precision ensuring your data, workflows, and custom modules work perfectly after the transition.
+                                </p>
+                                <div class="partner-cta-group">
+                                    <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                        <span>Contact Now</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 p-0">
+                            <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
+                                <img src="/cr_internal_website_theme/static/src/img/odoo-migration.png"
+                                     alt="Odoo Migration Services"
+                                     class="img-fluid w-100" 
+                                     style="object-fit: contain; transform: scale(1.4); transform-origin: left center; z-index: 1;"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 2. ERP Pain Points Snippet (3 Column) -->
+        <div class="oe_structure" id="oe_structure_service9_pain_points">
+            <section class="s_erp_pain_points cr_font sg-cols-3" data-snippet="s_erp_pain_points" data-name="ERP Pain Points">
+                <div class="erp-container">
+                    <div class="erp-header-group" data-aos="fade-up">
+                        <h2 class="erp-title">What is Odoo Migration And Why Does Your Business Need It?</h2>
+                        <p class="erp-subtitle">
+                            Odoo migration is the process of moving your existing Odoo system, its data, configurations, custom modules, and integrations from one version or environment to another. It is one of the most technically complex operations in the Odoo lifecycle, and when done incorrectly, it can result in data loss, broken workflows, and costly downtime.
+                        </p>
+                    </div>
+                    <div class="connected-matrix" data-aos="fade-up">
+                        <div class="row g-4 justify-content-center">
+                            <!-- Card 01 -->
+                            <div class="col-md-4 pp-card-col">
+                                <div class="matrix-block pure-bento-card" data-aos="fade-up">
+                                    <span class="bento-index">01</span>
+                                    <div class="bento-content">
+                                        <h3 class="bento-title">Odoo Version Upgrade (Most Common)</h3>
+                                        <p class="bento-text">Moving your system from an older Odoo version to a newer one for example, from Odoo v14 or v15 to Odoo v17 or v18. This involves migrating your database structure, porting your custom modules to the new Odoo API, and ensuring all workflows and integrations continue to function correctly in the upgraded environment.</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
-                                    <div class="partner-image-box">
-                                        <img src="/cr_internal_website_theme/static/src/img/odoo-migration.png"
-                                             alt="Odoo Migration"
-                                             class="img-fluid partner-image"/>
-                                        <div class="image-overlay-glow"/>
+                            </div>
+                            <!-- Card 02 -->
+                            <div class="col-md-4 pp-card-col">
+                                <div class="matrix-block pure-bento-card highlight" data-aos="fade-up" data-aos-delay="100">
+                                    <span class="bento-index">02</span>
+                                    <div class="bento-content">
+                                        <h3 class="bento-title">Odoo Data Migration</h3>
+                                        <p class="bento-text">Transferring business data from a non-Odoo system such as Tally, SAP Business One, QuickBooks, Microsoft Dynamics, or a custom legacy ERP into Odoo for the first time. This involves data cleansing, mapping, transformation, and validation to ensure your historical records arrive in Odoo accurately and completely.</p>
+                                    </div>
+                                    <div class="bento-accent-dot"></div>
+                                </div>
+                            </div>
+                            <!-- Card 03 -->
+                            <div class="col-md-4 pp-card-col">
+                                <div class="matrix-block pure-bento-card" data-aos="fade-up" data-aos-delay="200">
+                                    <span class="bento-index">03</span>
+                                    <div class="bento-content">
+                                        <h3 class="bento-title">Odoo Cloud Migration</h3>
+                                        <p class="bento-text">Moving your on-premise Odoo installation to a cloud hosting environment such as Odoo.sh, AWS, Google Cloud, or a managed cloud server to improve performance, accessibility, and scalability without the overhead of managing physical infrastructure.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </div>
                 </div>
+            </section>
+        </div>
 
+        <!-- 3. Feature Mesh Snippet (Outdated Setup) -->
+        <div class="oe_structure" id="oe_structure_service9_feature_mesh_1">
+            <section class="s_feature_mesh cr_font sg-cols-3" data-snippet="s_feature_mesh" data-name="Feature Mesh">
+                <div class="container py-5">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="mesh-title">
+                            Is Your Current Odoo Setup
+                            <span class="text-gradient">Holding You Back?</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="mesh-main-text mt-4 mx-auto">
+                            If your business is facing any of these challenges, it may be a clear sign that your Odoo system needs an upgrade or migration:
+                        </p>
+                    </div>
+                    <div class="row g-4 fm-card-row">
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Outdated Versions</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Running on outdated Odoo versions (v12–v15) with no active support or security updates.</p></div>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">System Instability</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Frequent errors or failed updates that make your system unstable.</p></div>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Missing Features</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Missing out on new features available in the latest Odoo versions.</p></div>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Complex Customizations</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Heavy customizations that are difficult to manage or slow down your system.</p></div>
+                            </div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Legacy Software Transition</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Using legacy software like Tally, SAP, or QuickBooks and planning to switch to Odoo.</p></div>
+                            </div>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Performance Issues</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Poor performance or downtime due to outdated servers or infrastructure.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
 
-                <!-- Content Below -->
-                <div class="cr-odoo-content">
-                    <section id="cr_odoo_migration_process" class="o_website_snippet process-section">
-                        <div class="container">
-                            <h2 class="section-title">Our Step-by-Step Migration Process</h2>
+        <!-- 4. ERP CTA Snippet -->
+        <div class="oe_structure" id="oe_structure_service9_cta">
+            <section class="erp-cta-section o_wfull" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
+                <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
+                <div class="container erp-cta-container">
+                    <div class="erp-cta-row">
+                        <div class="erp-cta-text">
+                            <h2 id="erp-cta-heading">
+                                Have a <span class="highlight">Migration</span> Need?
+                            </h2>
+                        </div>
+                        <a href="/contactus" class="cta-button light" title="Request A Migration" aria-label="Request A Migration">
+                            <span>Request A Migration</span>
+                            <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
 
+        <!-- 5. Kinetic Process Snippet (7 Steps) -->
+        <div class="oe_structure" id="oe_structure_service9_kinetic_process">
+            <section class="s_kinetic_process py-5" data-snippet="s_kinetic_process" data-name="Kinetic Process">
+                <div class="container-fluid px-lg-5">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Our Odoo
+                            <span class="text-gradient">Migration Process</span>
+                        </h2>
+                        <p class="section-subtitle mt-2">
+                            A well-executed Odoo migration process is structured, transparent, and test-driven. Here is exactly how we manage every migration at Creyox:
+                        </p>
+                    </div>
+                    <div class="kinetic-grid-container">
+                        <div class="row g-4 mb-4">
                             <!-- Step 1 -->
-                            <div class="process-row">
-                                <div class="process-box image-box">
-                                    <img src="/cr_internal_website_theme/static/src/img/step-analysis.png"
-                                         alt="Assessment"/>
-                                </div>
-                                <div class="process-box content-box">
-                                    <h3>Step 1: System Assessment</h3>
-                                    <p>We analyze your current setup, dependencies, and customizations to plan a
-                                        seamless migration roadmap.
-                                    </p>
+                            <div class="col-lg-8 phase-block" data-aos="fade-up">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">01</div>
+                                    <h3 class="card-title">Free Migration Assessment</h3>
+                                    <p class="card-desc">Before any work begins, we conduct a thorough assessment of your current Odoo environment version, database size, number of custom modules, third-party integrations, and current infrastructure.</p>
                                 </div>
                             </div>
-
                             <!-- Step 2 -->
-                            <div class="process-row reverse">
-                                <div class="process-box content-box">
-                                    <h3>Step 2: Data Cleansing &amp; Mapping</h3>
-                                    <p>We cleanse and map your legacy data for structural alignment with the latest Odoo
-                                        schema.
-                                    </p>
-                                </div>
-                                <div class="process-box image-box">
-                                    <img src="/cr_internal_website_theme/static/src/img/step-data.png"
-                                         alt="Data Mapping"/>
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="100">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">02</div>
+                                    <h3 class="card-title">Migration Planning &amp; Roadmap</h3>
+                                    <p class="card-desc">Based on the assessment, we build a detailed migration plan including the migration path, data mapping specifications, module porting scope, testing plan, cutover window, rollback plan, and milestones.</p>
                                 </div>
                             </div>
-
+                        </div>
+                        <div class="row g-4 mb-4">
                             <!-- Step 3 -->
-                            <div class="process-row">
-                                <div class="process-box image-box">
-                                    <img src="/cr_internal_website_theme/static/src/img/step-refactor.png"
-                                         alt="Code Refactoring"/>
-                                </div>
-                                <div class="process-box content-box">
-                                    <h3>Step 3: Code Refactoring</h3>
-                                    <p>Custom modules are refactored to match new APIs, ensuring backward compatibility
-                                        and future stability.
-                                    </p>
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="200">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">03</div>
+                                    <h3 class="card-title">Staging Environment Setup</h3>
+                                    <p class="card-desc">We set up a dedicated staging environment, a mirror of your production setup where the entire migration is executed, tested, and validated before anything touches your live system. Your business continues running without interruption during this phase.</p>
                                 </div>
                             </div>
-
                             <!-- Step 4 -->
-                            <div class="process-row reverse">
-                                <div class="process-box content-box">
-                                    <h3>Step 4: Testing &amp; Validation</h3>
-                                    <p>We perform functional, UAT, and performance testing before the production
-                                        cutover.
-                                    </p>
-                                </div>
-                                <div class="process-box image-box">
-                                    <img src="/cr_internal_website_theme/static/src/img/step-testing.png"
-                                         alt="Testing"/>
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="300">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">04</div>
+                                    <h3 class="card-title">Data Migration &amp; Module Porting</h3>
+                                    <p class="card-desc">We execute the migration on the staging environment migrating the database, porting and refactoring all custom modules, rebuilding integrations, and configuring the new version.</p>
                                 </div>
                             </div>
-
                             <!-- Step 5 -->
-                            <div class="process-row">
-                                <div class="process-box image-box">
-                                    <img src="/cr_internal_website_theme/static/src/img/step-launch.png" alt="Go Live"/>
-                                </div>
-                                <div class="process-box content-box">
-                                    <h3>Step 5: Go Live &amp; Support</h3>
-                                    <p>Once verified, we go live with zero downtime and provide continuous monitoring
-                                        and post-migration support.
-                                    </p>
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="400">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">05</div>
+                                    <h3 class="card-title">Testing &amp; User Acceptance (UAT)</h3>
+                                    <p class="card-desc">Your team runs through every critical business workflow in the staged environment sales, purchasing, inventory, accounting, manufacturing, HR. Issues are tracked, resolved, and re-tested.</p>
                                 </div>
                             </div>
                         </div>
-                    </section>
-
-                    <h2>Why Choose Our Odoo Migration Services?</h2>
-                    <p>
-                        Our certified Odoo specialists handle complex upgrades with a meticulous focus on data quality,
-                        module compatibility,
-                        and controlled cutover. We refactor customizations to match the latest Odoo frameworks, replace
-                        deprecated features,
-                        and optimize performance across PostgreSQL, Python, and server layers. With rehearsal migrations
-                        and automated checks,
-                        you benefit from predictable timelines, reduced risk, and a seamless user experience post
-                        go-live.
-                    </p>
-
-                    <ul class="odoo-features">
-                        <li>
-                            <strong>Readiness Assessment:</strong>
-                            Detailed audit of versions, modules, dependencies, and infrastructure before planning the
-                            move.
-                        </li>
-                        <li>
-                            <strong>Data Cleansing &amp; Mapping:</strong>
-                            Normalize, deduplicate, and map legacy data to the latest Odoo models and fields.
-                        </li>
-                        <li>
-                            <strong>Custom Code Porting:</strong>
-                            Refactor and modernize bespoke modules to align with new APIs and framework standards.
-                        </li>
-                        <li>
-                            <strong>Version Upgrades:</strong>
-                            Move from older Odoo releases to the latest stable version with best-practice steps.
-                        </li>
-                        <li>
-                            <strong>Database Migration:</strong>
-                            Safe export/import, backups, and rollback plans with integrity and constraints preserved.
-                        </li>
-                        <li>
-                            <strong>Testing &amp; Validation:</strong>
-                            Automated and manual functional tests to verify accuracy and parity before cutover.
-                        </li>
-                        <li>
-                            <strong>Zero-Downtime Strategy:</strong>
-                            Staged rehearsals, incremental syncs, and controlled switch-over to reduce disruption.
-                        </li>
-                        <li>
-                            <strong>Security &amp; Compliance:</strong>
-                            Hardened configurations, access reviews, and audit trails across the migrated stack.
-                        </li>
-                        <li>
-                            <strong>Cloud &amp; Infra Optimization:</strong>
-                            Tune workers, caching, and hosting for performance and scalability.
-                        </li>
-                        <li>
-                            <strong>Post-Migration Support:</strong>
-                            Hypercare, bug fixes, and fine-tuning to stabilize and enhance the new environment.
-                        </li>
-                    </ul>
-
-                    <h2>Our Migration Approach</h2>
-                    <p>
-                        We follow a phased, transparent, and test-driven methodology. First, we perform a discovery and
-                        gap analysis to map
-                        your current usage and future-state requirements. Next, we run a rehearsal migration in a
-                        staging environment to
-                        port code, transform data, and validate key business flows. After stakeholder UAT and sign-off,
-                        we execute the
-                        production cutover with a clear rollback plan and extended hypercare support.
-                        <br/>
-                        <br/>
-                        Throughout the engagement, we document changes, deprecations, and new capabilities, and we train
-                        your users on
-                        updated features to accelerate adoption and ROI.
-                    </p>
-
-                     <section class="web-cta-section o_wfull" aria-labelledby="web-cta-heading">
-                        <!-- Floating bubbles -->
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-
-                        <div class="container web-cta-container">
-                            <div class="web-cta-row">
-                                <!-- Text -->
-                                <div class="web-cta-text">
-                                    <h2 id="web-cta-heading">
-                                        Have a <span class="highlight">Migration</span> Need?
-                                    </h2>
+                        <div class="row g-4 justify-content-center">
+                            <!-- Step 6 -->
+                            <div class="col-lg-6 phase-block" data-aos="fade-up" data-aos-delay="500">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">06</div>
+                                    <h3 class="card-title">Production Cutover</h3>
+                                    <p class="card-desc">We execute the production migration during a planned low-traffic window typically a weekend or overnight. The cutover follows a precise sequence with real-time monitoring.</p>
                                 </div>
-
-                                <!-- Button (same pattern as ERP CTA) -->
-                                <a href="#erp-demo-form" class="cta-button light" title="Schedule Free ERP Demo"
-                                   aria-label="Get ERP Demo">
-                                    <span>Schedule a Free Demo</span>
-                                    <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+                            </div>
+                            <!-- Step 7 -->
+                            <div class="col-lg-6 phase-block" data-aos="fade-up" data-aos-delay="600">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">07</div>
+                                    <h3 class="card-title">Post-Migration Support &amp; Stabilization</h3>
+                                    <p class="card-desc">The migration doesn't end at go-live. We provide dedicated post-migration support monitoring for issues, resolving any post-cutover bugs, training users on new features, and optimizing system performance.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5 justify-content-center">
+                            <div class="col-auto">
+                                <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                    <span>Get Free Consultation</span>
+                                    <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
                                 </a>
-
-
                             </div>
                         </div>
-                    </section>
-
-                    <h2>Frequently Asked Questions</h2>
-                    <dl>
-                        <dt>Will our custom modules work after the upgrade?</dt>
-                        <dd>We review and refactor custom code to match the new Odoo APIs, replacing deprecated features
-                            and ensuring functional parity.
-                        </dd>
-                        <dt>How do you minimize downtime during migration?</dt>
-                        <dd>We use rehearsal runs, incremental syncs, and a controlled cutover window—backed by backups
-                            and a tested rollback plan.
-                        </dd>
-                        <dt>Can you migrate from a legacy ERP or multiple databases?</dt>
-                        <dd>Yes. We consolidate sources, cleanse data, and map entities into a unified Odoo model with
-                            thorough validation and testing.
-                        </dd>
-                    </dl>
-
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
+
+        <!-- 6. Service Showcase Snippet (Protecting Business) -->
+        <div class="oe_structure" id="oe_structure_service9_service_showcase">
+            <section class="s_service_showcase cr_font sc-cols-3" data-snippet="s_service_showcase" data-name="Service Showcase">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            How We Protect Your Business
+                            <span class="text-gradient">During Odoo Migration</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="section-description mt-4 mx-auto">
+                            The two biggest fears every business has about Odoo migration are data loss and operational downtime. Here is exactly how we address both:
+                        </p>
+                    </div>
+                    <div class="row g-4 s_service_showcase_row">
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-database"/></div>
+                                <h3 class="card-title">Zero Data Loss</h3>
+                                <p class="card-text">We take a complete backup of your database, filestore, and all attachments before any migration work begins. All data transformations are run on a staging copy never on your live data.</p>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-card card-dark">
+                                <div class="card-icon"><i class="fas fa-clock"/></div>
+                                <h3 class="card-title">Minimal Downtime</h3>
+                                <p class="card-text">We rehearse the production cutover multiple times on staging before the real thing. We schedule cutovers during your business's lowest-traffic window so impact on daily operations is near-zero.</p>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-undo-alt"/></div>
+                                <h3 class="card-title">Tested Rollback Plan</h3>
+                                <p class="card-text">Before every production cutover, we prepare and test a full rollback plan. If anything unexpected happens, we can revert to your previous system state within a defined timeframe.</p>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="col-lg-6 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                            <div class="service-card card-dark">
+                                <div class="card-icon"><i class="fas fa-vials"/></div>
+                                <h3 class="card-title">Staged Migration First</h3>
+                                <p class="card-text">Every migration we do is rehearsed in full on a staging environment before the production cutover. Your team validates every workflow, and only after full sign-off do we proceed.</p>
+                            </div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="col-lg-6 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-chart-line"/></div>
+                                <h3 class="card-title">Post-Migration</h3>
+                                <p class="card-text">Our team actively monitors your new Odoo environment watching for errors, performance issues, and any unexpected behaviour so issues are caught and resolved before they affect your team.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 7. Specialist Grid Snippet (13 Points) -->
+        <div class="oe_structure" id="oe_structure_service9_specialist_grid">
+            <section class="s_specialist_grid py-5 sg-cols-3" data-snippet="s_specialist_grid" data-name="Specialist Grid">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Why Choose Creyox as Your
+                            <span class="text-gradient">Odoo Migration Partner?</span>
+                        </h2>
+                        <p class="section-subtitle mt-2">
+                            Choosing the right Odoo migration partner can make the difference between a smooth transition and a costly, disruptive experience. Here’s what sets Creyox apart.
+                        </p>
+                    </div>
+                    <div class="specialist-grid-container">
+                        <div class="row g-4 justify-content-center">
+                            <!-- Rows 1-4 (3 columns each) -->
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                <div class="specialist-card">
+                                    <div class="card-digit">01</div>
+                                    <h3 class="card-title">Readiness Assessment</h3>
+                                    <p class="card-text">We audit your entire setup before touching anything versions, modules, dependencies, and infrastructure.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                <div class="specialist-card">
+                                    <div class="card-digit">02</div>
+                                    <h3 class="card-title">Data Cleansing &amp; Mapping</h3>
+                                    <p class="card-text">Your data arrives clean. We normalize, deduplicate, and map every field to the latest Odoo structure.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="200">
+                                <div class="specialist-card">
+                                    <div class="card-digit">03</div>
+                                    <h3 class="card-title">Custom Code Porting</h3>
+                                    <p class="card-text">Your custom modules come with you. We refactor and modernize them to work natively on the new version.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                <div class="specialist-card">
+                                    <div class="card-digit">04</div>
+                                    <h3 class="card-title">Version Upgrades</h3>
+                                    <p class="card-text">From any older Odoo release to the latest stable version handled with best-practice steps and zero guesswork.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                <div class="specialist-card">
+                                    <div class="card-digit">05</div>
+                                    <h3 class="card-title">Database Migration</h3>
+                                    <p class="card-text">Every record, every relationship. Safe export, clean import, full backups, and a rollback plan.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="200">
+                                <div class="specialist-card">
+                                    <div class="card-digit">06</div>
+                                    <h3 class="card-title">Testing &amp; Validation</h3>
+                                    <p class="card-text">Nothing goes live unverified. Automated and manual tests confirm your data, workflows, and modules.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                <div class="specialist-card">
+                                    <div class="card-digit">07</div>
+                                    <h3 class="card-title">Zero-Downtime Strategy</h3>
+                                    <p class="card-text">Your business doesn't pause for migration. Staged rehearsals and controlled switch-overs keep disruption minimal.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                <div class="specialist-card">
+                                    <div class="card-digit">08</div>
+                                    <h3 class="card-title">Security &amp; Compliance</h3>
+                                    <p class="card-text">Your new environment is locked down from day one hardened configs, access reviews, and full audit trails.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="200">
+                                <div class="specialist-card">
+                                    <div class="card-digit">09</div>
+                                    <h3 class="card-title">Cloud &amp; Infra Optimization</h3>
+                                    <p class="card-text">Migration is also a performance upgrade. We tune your hosting, caching, and workers for speed.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                <div class="specialist-card">
+                                    <div class="card-digit">10</div>
+                                    <h3 class="card-title">Post-Migration Support</h3>
+                                    <p class="card-text">Hypercare, bug fixes, and fine-tuning keep your system stable after go-live.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                <div class="specialist-card">
+                                    <div class="card-digit">11</div>
+                                    <h3 class="card-title">Every Scenario Handled</h3>
+                                    <p class="card-text">v12 to v18, Tally, SAP, multi-database, on-premise to cloud you're not our learning curve.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="200">
+                                <div class="specialist-card">
+                                    <div class="card-digit">12</div>
+                                    <h3 class="card-title">100% In-House Team</h3>
+                                    <p class="card-text">No outsourcing, no freelancers. The person answering your question is the person doing the work.</p>
+                                </div>
+                            </div>
+                            <!-- Last centered card -->
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col mx-auto" data-aos="fade-up">
+                                <div class="specialist-card">
+                                    <div class="card-digit">13</div>
+                                    <h3 class="card-title">Full Transparency Throughout</h3>
+                                    <p class="card-text">Shared tracker, regular updates, direct team access you always know exactly where things stand.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 8. Benefit Mesh Snippet (Migration Scenarios) -->
+        <div class="oe_structure" id="oe_structure_service9_benefit_mesh">
+            <section class="s_benefit_mesh cr_font bm-cols-3" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            What's Your Migration Scenario?
+                            <span class="text-gradient">We've Handled It.</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="section-description mt-4 mx-auto">
+                            Every business comes to us with a different starting point. Here are the most common migration scenarios we manage:
+                        </p>
+                    </div>
+                    <div class="row g-4 s_benefit_mesh_row justify-content-center">
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">01</div>
+                                <h3 class="card-title">Odoo Version Upgrade (v14/v15 → v17/v18)</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Upgrade with a structured process that ensures your data and modules continue working smoothly.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">02</div>
+                                <h3 class="card-title">Legacy ERP to Odoo (Tally / SAP / QuickBooks)</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Move to Odoo with clean data migration, proper mapping, and a fully configured ERP.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">03</div>
+                                <h3 class="card-title">Older Odoo Versions (v12/v13 → Latest)</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Handle complex, multi-step migrations with careful data transformation and complete module compatibility.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">04</div>
+                                <h3 class="card-title">On-Premise to Cloud</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Shift from local servers to a secure, high-performance cloud setup with improved accessibility and system reliability.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">05</div>
+                                <h3 class="card-title">Multi-Database Consolidation</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Merge multiple Odoo instances into a single, unified system with accurate data mapping and multi-company setup.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 9. Milestone Section (Migration Gains) -->
+        <div class="oe_structure" id="oe_structure_service9_milestones_gains">
+            <section class="milestone-light-section s_milestone_section cr_font" data-snippet="s_milestone_section" data-name="Milestone Section" aria-labelledby="milestones-gains-heading">
+                <div class="milestone-wrapper">
+                    <h2 id="milestones-gains-heading" class="milestone-heading">
+                        What Your Business Gains from <span class="text-gradient">Odoo Version Migration</span>
+                    </h2>
+                    <div class="milestone-grid" role="list">
+                        <!-- Card 1 -->
+                        <div class="milestone-card" style="--i:1" role="listitem">
+                            <div class="milestone-icon" aria-hidden="true"><i class="fas fa-star"/></div>
+                            <h3>Advanced Features</h3>
+                            <p>Leverage the latest capabilities including improved automation, smarter reporting, and modern business tools.</p>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="milestone-card" style="--i:2" role="listitem">
+                            <div class="milestone-icon" aria-hidden="true"><i class="fas fa-bolt"/></div>
+                            <h3>Faster Performance</h3>
+                            <p>Experience quicker load times, smoother workflows, and better system responsiveness for your entire team.</p>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="milestone-card" style="--i:3" role="listitem">
+                            <div class="milestone-icon" aria-hidden="true"><i class="fas fa-lock"/></div>
+                            <h3>Security &amp; Stability</h3>
+                            <p>Stay protected with the latest security updates, bug fixes, and system improvements that reduce risks.</p>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="milestone-card" style="--i:4" role="listitem">
+                            <div class="milestone-icon" aria-hidden="true"><i class="fas fa-expand-arrows-alt"/></div>
+                            <h3>Scalability</h3>
+                            <p>Prepare your business for growth with a system that supports new integrations, users, and evolving needs.</p>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="milestone-card" style="--i:5" role="listitem">
+                            <div class="milestone-icon" aria-hidden="true"><i class="fas fa-cog"/></div>
+                            <h3>Optimized ERP</h3>
+                            <p>Eliminate outdated customizations and redundant data, giving you a cleaner, more maintainable system.</p>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="milestone-card" style="--i:6" role="listitem">
+                            <div class="milestone-icon" aria-hidden="true"><i class="fas fa-user-check"/></div>
+                            <h3>User Experience</h3>
+                            <p>Benefit from a modern interface and enhanced mobile usability, making it easier for your team to work anywhere.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 10. Trusted Partner Snippet (Reverse Layout) -->
+        <div class="oe_structure" id="oe_structure_service9_trusted_partner">
+            <section class="s_trusted_odoo_partner cr_font o_layout_reverse" data-snippet="s_trusted_odoo_partner" data-name="Trusted Odoo Partner">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                            <div class="partner-content-box text-start">
+                                <h2 class="partner-title">
+                                    Not Sure if You're Ready to Migrate?
+                                    <span class="text-gradient">Start with a Free Assessment.</span>
+                                </h2>
+                                <p class="partner-description partner-desc-1">
+                                    You don't have to commit to a migration to get our honest opinion. Our free migration assessment gives you a clear picture of your current Odoo environment, what a migration would involve, and what it would cost so you can make an informed decision.
+                                </p>
+                                <div class="partner-cta-group">
+                                    <a href="/contactus" class="cta-button primary">
+                                        <span>Book a Free Migration Assessment</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+                            <div class="partner-image-box">
+                                <img src="/cr_internal_website_theme/static/src/img/step-launch.png" alt="Trusted Odoo Partner" class="img-fluid partner-image"/>
+                                <div class="image-overlay-glow"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+<!--        <div class="oe_structure" id="oe_structure_service9_legacy_content">-->
+<!--        <section class="cr-odoo-migration-intro o_website_snippet cr_font" aria-labelledby="odoo-migration-heading">-->
+<!--            <div class="cr-odoo-container">-->
+<!--                &lt;!&ndash; Header Row &ndash;&gt;-->
+<!--                <div class="oe_structure" id="oe_structure_odoo_migration_header">-->
+<!--                    <section class="s_trusted_odoo_partner cr_font"-->
+<!--                             data-snippet="s_trusted_odoo_partner"-->
+<!--                             data-name="Trusted Odoo Partner">-->
+<!--                        <div class="container">-->
+<!--                            <div class="row align-items-center">-->
+<!--                                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">-->
+<!--                                    <div class="partner-content-box text-start">-->
+<!--                                        <h2 class="partner-title">-->
+<!--                                            Future-Proof Your ERP with-->
+<!--                                            <span class="text-gradient">Smooth Odoo Migrations</span>-->
+<!--                                        </h2>-->
+<!--                                        <p class="partner-description partner-desc-1">-->
+<!--                                            Moving between Odoo versions requires more than a database export. Our end-to-end migration service covers readiness assessment, data cleansing, and mapping.-->
+<!--                                        </p>-->
+<!--                                        <p class="partner-description partner-desc-2">-->
+<!--                                            We align functional parity with modern best practices—so you gain new features, better performance, and long-term support.-->
+<!--                                        </p>-->
+<!--                                        <div class="partner-cta-group">-->
+<!--                                            <a href="/contactus" class="cta-button primary">-->
+<!--                                                <span>Work with Experts</span>-->
+<!--                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>-->
+<!--                                            </a>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">-->
+<!--                                    <div class="partner-image-box">-->
+<!--                                        <img src="/cr_internal_website_theme/static/src/img/odoo-migration.png"-->
+<!--                                             alt="Odoo Migration"-->
+<!--                                             class="img-fluid partner-image"/>-->
+<!--                                        <div class="image-overlay-glow"/>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </section>-->
+<!--                </div>-->
+
+
+<!--                &lt;!&ndash; Content Below &ndash;&gt;-->
+<!--                <div class="cr-odoo-content">-->
+<!--                    <section id="cr_odoo_migration_process" class="o_website_snippet process-section">-->
+<!--                        <div class="container">-->
+<!--                            <h2 class="section-title">Our Step-by-Step Migration Process</h2>-->
+
+<!--                            &lt;!&ndash; Step 1 &ndash;&gt;-->
+<!--                            <div class="process-row">-->
+<!--                                <div class="process-box image-box">-->
+<!--                                    <img src="/cr_internal_website_theme/static/src/img/step-analysis.png"-->
+<!--                                         alt="Assessment"/>-->
+<!--                                </div>-->
+<!--                                <div class="process-box content-box">-->
+<!--                                    <h3>Step 1: System Assessment</h3>-->
+<!--                                    <p>We analyze your current setup, dependencies, and customizations to plan a-->
+<!--                                        seamless migration roadmap.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            &lt;!&ndash; Step 2 &ndash;&gt;-->
+<!--                            <div class="process-row reverse">-->
+<!--                                <div class="process-box content-box">-->
+<!--                                    <h3>Step 2: Data Cleansing &amp; Mapping</h3>-->
+<!--                                    <p>We cleanse and map your legacy data for structural alignment with the latest Odoo-->
+<!--                                        schema.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                                <div class="process-box image-box">-->
+<!--                                    <img src="/cr_internal_website_theme/static/src/img/step-data.png"-->
+<!--                                         alt="Data Mapping"/>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            &lt;!&ndash; Step 3 &ndash;&gt;-->
+<!--                            <div class="process-row">-->
+<!--                                <div class="process-box image-box">-->
+<!--                                    <img src="/cr_internal_website_theme/static/src/img/step-refactor.png"-->
+<!--                                         alt="Code Refactoring"/>-->
+<!--                                </div>-->
+<!--                                <div class="process-box content-box">-->
+<!--                                    <h3>Step 3: Code Refactoring</h3>-->
+<!--                                    <p>Custom modules are refactored to match new APIs, ensuring backward compatibility-->
+<!--                                        and future stability.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            &lt;!&ndash; Step 4 &ndash;&gt;-->
+<!--                            <div class="process-row reverse">-->
+<!--                                <div class="process-box content-box">-->
+<!--                                    <h3>Step 4: Testing &amp; Validation</h3>-->
+<!--                                    <p>We perform functional, UAT, and performance testing before the production-->
+<!--                                        cutover.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                                <div class="process-box image-box">-->
+<!--                                    <img src="/cr_internal_website_theme/static/src/img/step-testing.png"-->
+<!--                                         alt="Testing"/>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            &lt;!&ndash; Step 5 &ndash;&gt;-->
+<!--                            <div class="process-row">-->
+<!--                                <div class="process-box image-box">-->
+<!--                                    <img src="/cr_internal_website_theme/static/src/img/step-launch.png" alt="Go Live"/>-->
+<!--                                </div>-->
+<!--                                <div class="process-box content-box">-->
+<!--                                    <h3>Step 5: Go Live &amp; Support</h3>-->
+<!--                                    <p>Once verified, we go live with zero downtime and provide continuous monitoring-->
+<!--                                        and post-migration support.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </section>-->
+
+<!--                    <h2>Why Choose Our Odoo Migration Services?</h2>-->
+<!--                    <p>-->
+<!--                        Our certified Odoo specialists handle complex upgrades with a meticulous focus on data quality,-->
+<!--                        module compatibility,-->
+<!--                        and controlled cutover. We refactor customizations to match the latest Odoo frameworks, replace-->
+<!--                        deprecated features,-->
+<!--                        and optimize performance across PostgreSQL, Python, and server layers. With rehearsal migrations-->
+<!--                        and automated checks,-->
+<!--                        you benefit from predictable timelines, reduced risk, and a seamless user experience post-->
+<!--                        go-live.-->
+<!--                    </p>-->
+
+<!--                    <ul class="odoo-features">-->
+<!--                        <li>-->
+<!--                            <strong>Readiness Assessment:</strong>-->
+<!--                            Detailed audit of versions, modules, dependencies, and infrastructure before planning the-->
+<!--                            move.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Data Cleansing &amp; Mapping:</strong>-->
+<!--                            Normalize, deduplicate, and map legacy data to the latest Odoo models and fields.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Custom Code Porting:</strong>-->
+<!--                            Refactor and modernize bespoke modules to align with new APIs and framework standards.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Version Upgrades:</strong>-->
+<!--                            Move from older Odoo releases to the latest stable version with best-practice steps.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Database Migration:</strong>-->
+<!--                            Safe export/import, backups, and rollback plans with integrity and constraints preserved.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Testing &amp; Validation:</strong>-->
+<!--                            Automated and manual functional tests to verify accuracy and parity before cutover.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Zero-Downtime Strategy:</strong>-->
+<!--                            Staged rehearsals, incremental syncs, and controlled switch-over to reduce disruption.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Security &amp; Compliance:</strong>-->
+<!--                            Hardened configurations, access reviews, and audit trails across the migrated stack.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Cloud &amp; Infra Optimization:</strong>-->
+<!--                            Tune workers, caching, and hosting for performance and scalability.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Post-Migration Support:</strong>-->
+<!--                            Hypercare, bug fixes, and fine-tuning to stabilize and enhance the new environment.-->
+<!--                        </li>-->
+<!--                    </ul>-->
+
+<!--                    <h2>Our Migration Approach</h2>-->
+<!--                    <p>-->
+<!--                        We follow a phased, transparent, and test-driven methodology. First, we perform a discovery and-->
+<!--                        gap analysis to map-->
+<!--                        your current usage and future-state requirements. Next, we run a rehearsal migration in a-->
+<!--                        staging environment to-->
+<!--                        port code, transform data, and validate key business flows. After stakeholder UAT and sign-off,-->
+<!--                        we execute the-->
+<!--                        production cutover with a clear rollback plan and extended hypercare support.-->
+<!--                        <br/>-->
+<!--                        <br/>-->
+<!--                        Throughout the engagement, we document changes, deprecations, and new capabilities, and we train-->
+<!--                        your users on-->
+<!--                        updated features to accelerate adoption and ROI.-->
+<!--                    </p>-->
+
+<!--                     <section class="web-cta-section o_wfull" aria-labelledby="web-cta-heading">-->
+<!--                        &lt;!&ndash; Floating bubbles &ndash;&gt;-->
+<!--                        <div class="bubble"></div>-->
+<!--                        <div class="bubble"></div>-->
+<!--                        <div class="bubble"></div>-->
+<!--                        <div class="bubble"></div>-->
+<!--                        <div class="bubble"></div>-->
+
+<!--                        <div class="container web-cta-container">-->
+<!--                            <div class="web-cta-row">-->
+<!--                                &lt;!&ndash; Text &ndash;&gt;-->
+<!--                                <div class="web-cta-text">-->
+<!--                                    <h2 id="web-cta-heading">-->
+<!--                                        Have a <span class="highlight">Migration</span> Need?-->
+<!--                                    </h2>-->
+<!--                                </div>-->
+
+<!--                                &lt;!&ndash; Button (same pattern as ERP CTA) &ndash;&gt;-->
+<!--                                <a href="#erp-demo-form" class="cta-button light" title="Schedule Free ERP Demo"-->
+<!--                                   aria-label="Get ERP Demo">-->
+<!--                                    <span>Schedule a Free Demo</span>-->
+<!--                                    <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>-->
+<!--                                </a>-->
+
+
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </section>-->
+
+<!--                    <h2>Frequently Asked Questions</h2>-->
+<!--                    <dl>-->
+<!--                        <dt>Will our custom modules work after the upgrade?</dt>-->
+<!--                        <dd>We review and refactor custom code to match the new Odoo APIs, replacing deprecated features-->
+<!--                            and ensuring functional parity.-->
+<!--                        </dd>-->
+<!--                        <dt>How do you minimize downtime during migration?</dt>-->
+<!--                        <dd>We use rehearsal runs, incremental syncs, and a controlled cutover window—backed by backups-->
+<!--                            and a tested rollback plan.-->
+<!--                        </dd>-->
+<!--                        <dt>Can you migrate from a legacy ERP or multiple databases?</dt>-->
+<!--                        <dd>Yes. We consolidate sources, cleanse data, and map entities into a unified Odoo model with-->
+<!--                            thorough validation and testing.-->
+<!--                        </dd>-->
+<!--                    </dl>-->
+
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
 
     </template>
 
