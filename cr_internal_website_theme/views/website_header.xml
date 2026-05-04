@@ -171,5 +171,12 @@
         </xpath>
     </template>
 
+    <template id="load_google_fonts" inherit_id="website.layout" name="Load Google Fonts">
+        <xpath expr="//head" position="inside">
+            <link rel="preconnect" href="https://fonts.googleapis.com"/>
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+            <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+        </xpath>
+    </template>
 
 </odoo>

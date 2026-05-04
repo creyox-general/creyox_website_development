@@ -1,16 +1,79 @@
 .cr_font {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Outfit', sans-serif;
+
+    /* Global Typography Standard (Using System Variables) */
+    p:not(.hero-subtitle),
+    li,
+    .section-description,
+    .erp-comparison-description-v3,
+    .erp-subtitle,
+    .banner-tagline,
+    .industry-description,
+    .partner-description,
+    .erp-comparison-column-subtitle-v3,
+    .card-text,
+    .card-desc,
+    .step-desc,
+    .bento-text,
+    .erp-comparison-feature-text-v3,
+    .erp-comparison-pretitle-v3,
+    .erp-comparison-column-badge-v3,
+    .cta-button,
+    .cta-button span,
+    span:not(.bento-index):not(.counter):not(.card-digit):not(.benefit-badge):not(.card-bg-number):not(.milestone-icon *):not(.card-icon *):not(.card-bg-number *):not(.text-gradient):not(.hero-title *):not(.erp-cta-row *) {
+        font-size: var(--cr-body-fsize) !important;
+        line-height: 1.8 !important;
+    }
+
+    /* Standardized Lead/Subtitle Typography (28px) */
+    .lead,
+    .hero-subtitle,
+    .section-subtitle,
+    .mesh-main-text,
+    .card-title,
+    .step-title,
+    .usecase h4,
+    .parent-card .card-title,
+    .sub-card h4,
+    .bento-title,
+    .benefit-card .card-title,
+    .kinetic-card .card-title,
+    .split-card .card-title,
+    .erp-comparison-column-title-v3,
+    .erp-comparison-feature-title-v3,
+    .milestone-card h3 {
+        font-size: var(--cr-subtitle-fsize) !important;
+        line-height: 1.4 !important;
+    }
+
+    /* Standardized Section Headings (42px) */
+    .section-title,
+    .mesh-title,
+    .erp-title,
+    .erp-comparison-title-v3,
+    .milestone-heading {
+        font-size: var(--cr-title-fsize) !important;
+        line-height: 1.2 !important;
+    }
+
+    /* Force title fragments to match parent heading size */
+    .text-gradient,
+    .hero-title span,
+    .milestone-heading span {
+        font-size: inherit !important;
+        line-height: inherit !important;
+    }
 }
 
 /* GLOBAL TYPOGRAPHY STANDARDS */
 :root {
     --cr-title-fsize: 42px;
     /* Standard Section Heading */
-    --cr-subtitle-fsize: 20px;
+    --cr-subtitle-fsize: 28px;
     /* Standard Sub-heading / Intro */
-    --cr-card-text-fsize: 15px;
+    --cr-card-text-fsize: 24px;
     /* Standard Card / Description Text */
-    --cr-body-fsize: 16px;
+    --cr-body-fsize: 24px;
     /* Standard Body / Content Text */
     --cr-header-margin: 40px;
     /* Standard Top Margin for Headers */
@@ -64,6 +127,7 @@
     span {
         z-index: 2;
         position: relative;
+        color: #ffffff !important;
     }
 
     i {
@@ -148,6 +212,7 @@
         }
     }
 }
+
 
 @keyframes moveLeftEff {
     0% {

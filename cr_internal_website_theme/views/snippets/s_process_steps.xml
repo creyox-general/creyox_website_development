@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="s_process_steps" name="Process Steps">
+        <section class="s_process_steps cr_font py-5" data-snippet="s_process_steps">
+            <div class="container">
+                <div class="row mb-5 text-center" data-aos="fade-up">
+                    <div class="col-12">
+                        <h2 class="partner-title display-4 fw-bold">Our <span class="text-gradient">Implementation Journey</span></h2>
+                        <p class="lead text-muted">A structured approach to ensure your Odoo success from start to finish.</p>
+                    </div>
+                </div>
+
+                <div class="process-steps-wrapper">
+                    <!-- Step 1 -->
+                    <div class="process-step-row row align-items-center mb-5" data-aos="fade-up">
+                        <div class="col-lg-6 step-text-col">
+                            <div class="step-card text-card">
+                                <h3 class="step-title">Discovery &amp; Analysis</h3>
+                                <p class="step-desc">We dive deep into your business processes to identify pain points and opportunities for Odoo optimization.</p>
+                                <div class="partner-cta-group mt-4">
+                                    <a href="/contactus" class="cta-button primary">
+                                        <span>Learn More</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 step-image-col">
+                            <div class="step-card image-card">
+                                <img src="/cr_internal_website_theme/static/src/img/odoo_partner_trust.png" alt="Discovery" class="img-fluid"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="process-step-row row align-items-center mb-5 flex-row-reverse" data-aos="fade-up">
+                        <div class="col-lg-6 step-text-col">
+                            <div class="step-card text-card">
+                                <h3 class="step-title">System Configuration</h3>
+                                <p class="step-desc">Tailoring Odoo modules to align perfectly with your workflows, ensuring a seamless digital transformation.</p>
+                                <div class="partner-cta-group mt-4">
+                                    <a href="/contactus" class="cta-button primary">
+                                        <span>Learn More</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 step-image-col">
+                            <div class="step-card image-card">
+                                <img src="/cr_internal_website_theme/static/src/img/odoo_partner_trust.png" alt="Configuration" class="img-fluid"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_options_process_steps" inherit_id="web_editor.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-js="ProcessStepsOptions" data-selector=".s_process_steps" string="Process Steps">
+                <we-button data-add-step="" data-no-preview="true" class="fa fa-plus"> Add Step</we-button>
+                <we-button data-remove-step="" data-no-preview="true" class="fa fa-minus"> Remove Step</we-button>
+            </div>
+        </xpath>
+    </template>
+</odoo>

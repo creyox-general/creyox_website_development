@@ -27,7 +27,6 @@
 
         .section-subtitle {
             color: #64748b;
-            font-size: 20px;
         }
     }
 
@@ -82,7 +81,6 @@
         }
 
         .card-title {
-            font-size: 28px !important;
             font-weight: 800 !important;
             color: #0d121f !important;
             margin-bottom: 25px;
@@ -90,7 +88,6 @@
         }
 
         .card-desc {
-            font-size: 16px !important;
             color: #475569;
             line-height: 1.8;
             margin: 0;
@@ -101,8 +98,13 @@
             box-shadow: 0 16px 32px rgba(10, 23, 59, 0.15);
             border-bottom: 4px solid #0d121f !important;
 
-            &::before { top: 0; }
-            .card-bg-number { color: rgba(13, 18, 31, 0.08); }
+            &::before {
+                top: 0;
+            }
+
+            .card-bg-number {
+                color: rgba(13, 18, 31, 0.08);
+            }
         }
     }
 }
@@ -110,7 +112,7 @@
 @media (max-width: 991.98px) {
     .s_kinetic_process {
         padding: 80px 0 !important;
-        
+
         .section-header .section-title {
             font-size: 38px !important;
         }
@@ -118,7 +120,11 @@
         .kinetic-card {
             padding: 40px;
             margin-bottom: 30px;
-            .card-bg-number { font-size: 120px; top: 0; }
+
+            .card-bg-number {
+                font-size: 120px;
+                top: 0;
+            }
         }
     }
 }

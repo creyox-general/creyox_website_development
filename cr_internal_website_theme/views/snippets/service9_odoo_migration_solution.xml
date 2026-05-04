@@ -142,7 +142,7 @@
                             If your business is facing any of these challenges, it may be a clear sign that your Odoo system needs an upgrade or migration:
                         </p>
                     </div>
-                    <div class="row g-4 fm-card-row">
+                    <div class="row g-4 fm-card-row justify-content-center">
                         <!-- Card 1 -->
                         <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
                             <div class="split-card">
@@ -193,18 +193,24 @@
         <!-- 4. ERP CTA Snippet -->
         <div class="oe_structure" id="oe_structure_service9_cta">
             <section class="erp-cta-section o_wfull" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
-                <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
-                <div class="container erp-cta-container">
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="container erp-cta-container" data-aos="zoom-in">
                     <div class="erp-cta-row">
                         <div class="erp-cta-text">
                             <h2 id="erp-cta-heading">
                                 Have a <span class="highlight">Migration</span> Need?
                             </h2>
                         </div>
-                        <a href="/contactus" class="cta-button light" title="Request A Migration" aria-label="Request A Migration">
-                            <span>Request A Migration</span>
-                            <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
-                        </a>
+                        <div class="erp-cta-button-wrapper">
+                            <a href="/contactus" class="cta-button light" title="Request A Migration" aria-label="Request A Migration">
+                                <span>Request A Migration</span>
+                                <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -224,7 +230,7 @@
                         </p>
                     </div>
                     <div class="kinetic-grid-container">
-                        <div class="row g-4 mb-4">
+                        <div class="row g-4 mb-4 justify-content-center">
                             <!-- Step 1 -->
                             <div class="col-lg-8 phase-block" data-aos="fade-up">
                                 <div class="kinetic-card">
@@ -242,7 +248,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row g-4 mb-4">
+                        <div class="row g-4 mb-4 justify-content-center">
                             <!-- Step 3 -->
                             <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="200">
                                 <div class="kinetic-card">
@@ -313,7 +319,7 @@
                             The two biggest fears every business has about Odoo migration are data loss and operational downtime. Here is exactly how we address both:
                         </p>
                     </div>
-                    <div class="row g-4 s_service_showcase_row">
+                    <div class="row g-4 s_service_showcase_row justify-content-center">
                         <!-- Card 1 -->
                         <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up">
                             <div class="service-card card-blue">

@@ -3,7 +3,7 @@
     <template id="homepage_section7" name="Odoo Specialist Services">
         <!-- Specialist Grid Snippet -->
         <div class="oe_structure">
-            <section class="s_specialist_grid py-5 sg-cols-4 o_faq_template_1"
+            <section class="s_specialist_grid py-5 sg-cols-4 o_faq_template_1 cr_font"
                      data-snippet="s_specialist_grid"
                      data-name="Specialist Grid">
                 <div class="container">

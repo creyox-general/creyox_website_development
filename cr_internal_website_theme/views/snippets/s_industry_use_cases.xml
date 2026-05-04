@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="s_industry_use_cases" name="Industry Use Cases">
+        <section class="s_industry_use_cases web-usecases cr_font" 
+                 data-snippet="s_industry_use_cases" 
+                 data-name="Industry Use Cases">
+            <div class="container">
+                <h2 class="web-usecases-title cr-title text-center mb-5" data-aos="fade-up">
+                    <t t-if="o_title_plain" t-esc="o_title_plain"/>
+                    <t t-else="">Industry</t>
+                    <span class="text-gradient">
+                        <t t-if="o_title_gradient" t-esc="o_title_gradient"/>
+                        <t t-else="">Use Cases</t>
+                    </span>
+                </h2>
+                <p class="lead text-muted text-center mb-5" data-aos="fade-up">
+                    <t t-if="o_description" t-esc="o_description"/>
+                    <t t-else="">
+                        Discover how our Odoo solutions empower businesses across diverse industries to achieve operational excellence and scale faster.
+                    </t>
+                </p>
+
+                <div class="web-usecases-wrapper">
+                    <div class="web-usecase-list">
+                        <!-- Card 1 -->
+                        <div class="usecase" data-aos="fade-right" data-aos-delay="100">
+                            <div class="usecase-content">
+                                <h4><t t-esc="o_c1_title or 'Corporate Websites'"/></h4>
+                                <p><t t-esc="o_c1_text or 'Showcase services, client portals, and contact forms.'"/></p>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="usecase" data-aos="fade-right" data-aos-delay="200">
+                            <div class="usecase-content">
+                                <h4><t t-esc="o_c2_title or 'Online Stores'"/></h4>
+                                <p><t t-esc="o_c2_text or 'Sell with inventory sync, multi-warehouse, and checkout flow.'"/></p>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="usecase" data-aos="fade-right" data-aos-delay="300">
+                            <div class="usecase-content">
+                                <h4><t t-esc="o_c3_title or 'Education Portals'"/></h4>
+                                <p><t t-esc="o_c3_text or 'Deliver courses with Odoo eLearning &amp; website integration.'"/></p>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="usecase" data-aos="fade-right" data-aos-delay="400">
+                            <div class="usecase-content">
+                                <h4><t t-esc="o_c4_title or 'Event Websites'"/></h4>
+                                <p><t t-esc="o_c4_text or 'Host events with registration, ticketing, and online payments.'"/></p>
+                            </div>
+                        </div>
+                        <!-- Optional Cards 5-8 -->
+                        <t t-if="o_c5_title">
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="500">
+                                <div class="usecase-content">
+                                    <h4><t t-esc="o_c5_title"/></h4>
+                                    <p><t t-esc="o_c5_text"/></p>
+                                </div>
+                            </div>
+                        </t>
+                        <t t-if="o_c6_title">
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="600">
+                                <div class="usecase-content">
+                                    <h4><t t-esc="o_c6_title"/></h4>
+                                    <p><t t-esc="o_c6_text"/></p>
+                                </div>
+                            </div>
+                        </t>
+                        <t t-if="o_c7_title">
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="700">
+                                <div class="usecase-content">
+                                    <h4><t t-esc="o_c7_title"/></h4>
+                                    <p><t t-esc="o_c7_text"/></p>
+                                </div>
+                            </div>
+                        </t>
+                        <t t-if="o_c8_title">
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="800">
+                                <div class="usecase-content">
+                                    <h4><t t-esc="o_c8_title"/></h4>
+                                    <p><t t-esc="o_c8_text"/></p>
+                                </div>
+                            </div>
+                        </t>
+                    </div>
+
+                    <div class="web-usecases-image" data-aos="zoom-in">
+                        <img t-att-src="o_image or '/cr_internal_website_theme/static/src/img/web_use.png'" 
+                             t-att-alt="o_image_alt or 'Website Use Cases'" 
+                             class="img-fluid"/>
+                    </div>
+                </div>
+            </div>
+            <t t-out="0"/>
+        </section>
+    </template>
+
+    <template id="snippet_options_industry_use_cases"
+              inherit_id="web_editor.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-js="IndustryUseCasesOptions"
+                 data-selector=".s_industry_use_cases"
+                 data-drop-in=".oe_structure"
+                 data-drop-near=".s_industry_use_cases, section"
+                 string="Industry Use Cases">
+
+                <we-select string="Layout">
+                    <we-button data-select-class="">
+                        Text Left / Image Right
+                    </we-button>
+                    <we-button data-select-class="o_layout_reverse">
+                        Image Left / Text Right
+                    </we-button>
+                </we-select>
+
+                <we-button data-add-card="" data-no-preview="true" class="fa fa-plus"> Add Card</we-button>
+                <we-button data-remove-card="" data-no-preview="true" class="fa fa-minus"> Remove Card</we-button>
+            </div>
+        </xpath>
+    </template>
+</odoo>

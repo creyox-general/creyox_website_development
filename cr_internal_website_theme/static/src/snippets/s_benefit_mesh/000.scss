@@ -31,7 +31,6 @@
         }
 
         .section-description {
-            font-size: 18px !important;
             color: #64748b;
             max-width: 800px;
             line-height: 1.8 !important;
@@ -82,7 +81,6 @@
         }
 
         .card-title {
-            font-size: 24px !important;
             font-weight: 700 !important;
             color: #0d121f !important;
             margin-bottom: 20px !important;
@@ -101,7 +99,6 @@
         }
 
         .card-text {
-            font-size: 15px !important;
             color: #1e293b;
             line-height: 1.8 !important;
             margin: 0;
@@ -174,10 +171,6 @@
     }
 
     @media (max-width: 767.98px) {
-
-        &.bm-cols-2 .s_benefit_card_wrapper,
-        &.bm-cols-3 .s_benefit_card_wrapper,
-        &.bm-cols-4 .s_benefit_card_wrapper,
         .s_benefit_card_wrapper {
             flex: 0 0 100% !important;
             max-width: 100% !important;

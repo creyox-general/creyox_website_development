@@ -3,7 +3,7 @@
 
     <!-- PARENT: Kinetic Process -->
     <template id="s_kinetic_process" name="Kinetic Process">
-        <section class="s_kinetic_process py-5"
+        <section class="s_kinetic_process py-5 cr_font"
                  data-snippet="s_kinetic_process"
                  data-name="Kinetic Process">
             <div class="container-fluid px-lg-5">

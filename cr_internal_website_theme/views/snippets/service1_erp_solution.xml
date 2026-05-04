@@ -41,52 +41,62 @@
             <div class="cr-erp-container">
                 <!-- First Row: Heading Left / Image Right -->
                 <div class="oe_structure" id="oe_structure_erp_header">
-                    <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
-                             data-snippet="s_comprehensive_service"
-                             data-name="Comprehensive Service">
-                        <div class="container py-5">
-                            
-                            <!-- First Row: Heading -->
-                            <div class="row mb-5 pb-lg-3">
-                                <div class="col-12 text-center" data-aos="fade-down">
-                                    <h2 class="partner-title mb-3">
-                                        Best ERP Solution Provider for
-                                        <span class="text-gradient">Modern Businesses</span>
+                    <section class="s_process_steps cr_font py-5" data-snippet="s_process_steps">
+                        <div class="container">
+                            <div class="row mb-5 text-center" data-aos="fade-up">
+                                <div class="col-12">
+                                    <h2 class="display-4 fw-bold">
+                                        Best ERP Solution Provider for <span class="text-gradient">Modern Businesses</span>
                                     </h2>
-                                    <!-- Small decorative underline -->
                                     <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
                                 </div>
                             </div>
-                            
-                            <!-- Second Row: Text and Image -->
-                            <div class="row align-items-center gx-0">
-                                
-                                <div class="col-lg-6 mb-5 mb-lg-0 p-0" data-aos="fade-right">
-                                    <div class="partner-content-box text-start">
-                                        <p class="partner-description partner-desc-1 w-100 mb-3">
-                                            Looking for an ERP solution provider that can simplify your business operations and improve efficiency? Then you are in the right place. Creyox is a trusted ERP software solution provider that helps businesses streamline operations with powerful and scalable ERP software solutions.
-                                        </p>
-                                        <p class="partner-description partner-desc-2 w-100 mb-4">
-                                            Our custom ERP solutions integrate key business functions such as finance, inventory, sales, and human resources into one centralized platform. With advanced cloud ERP solutions, small or medium businesses can automate workflows, gain real-time insights, and improve decision making. Whether you are a growing startup or an established enterprise, our ERP solution services are designed to increase efficiency, reduce operational complexity, and support long term business growth.
-                                        </p>
-                                        <div class="partner-cta-group">
-                                            <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
-                                                <span>Get ERP Consultation</span>
-                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
-                                            </a>
+
+                            <div class="process-steps-wrapper">
+                                <!-- Step 1: Para 1 + Image Right -->
+                                <div class="process-step-row row align-items-center mb-5" data-aos="fade-up">
+                                    <div class="col-lg-6 step-text-col">
+                                        <div class="step-card text-card">
+                                            <p class="step-desc">
+                                                Looking for an ERP solution provider that can simplify your business operations and improve efficiency? Then you are in the right place. Creyox is a trusted ERP software solution provider that helps businesses streamline operations with powerful and scalable ERP software solutions.
+                                            </p>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 step-image-col">
+                                        <div class="step-card image-card">
+                                            <img src="/cr_internal_website_theme/static/src/img/erp-solution.png"
+                                                 alt="ERP Solutions"
+                                                 class="img-fluid w-100"
+                                                 style="object-fit: contain; transform: scale(1.3); transform-origin: center; z-index: 1;"/>
                                         </div>
                                     </div>
                                 </div>
-                                
-                                <div class="col-lg-6 p-0" data-aos="fade-left" data-aos-delay="100">
-                                    <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
-                                        <img src="/cr_internal_website_theme/static/src/img/erp-solution.png"
-                                             alt="ERP Solutions"
-                                             class="img-fluid w-100" 
-                                             style="object-fit: contain; transform: scale(1.4); transform-origin: left center; z-index: 1;"/>
+
+                                <!-- Step 2: Para 2 + Image Left (Reversed) -->
+                                <div class="process-step-row row align-items-center mb-5 flex-row-reverse" data-aos="fade-up">
+                                    <div class="col-lg-6 step-text-col">
+                                        <div class="step-card text-card">
+                                            <p class="step-desc">
+                                                Our custom ERP solutions integrate key business functions such as finance, inventory, sales, and human resources into one centralized platform. With advanced cloud ERP solutions, small or medium businesses can automate workflows, gain real-time insights, and improve decision making. Whether you are a growing startup or an established enterprise, our ERP solution services are designed to increase efficiency, reduce operational complexity, and support long term business growth.
+                                            </p>
+                                            <div class="partner-cta-group mt-4">
+                                                <a href="/contactus" class="cta-button primary">
+                                                    <span>Get ERP Consultation</span>
+                                                    <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 step-image-col">
+                                        <div class="step-card image-card">
+                                            <img src="/cr_internal_website_theme/static/src/img/erp-workflow.png"
+                                                 alt="Cloud ERP Workflow"
+                                                 class="img-fluid w-100"
+                                                 style="object-fit: contain;"/>
+                                        </div>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
                     </section>

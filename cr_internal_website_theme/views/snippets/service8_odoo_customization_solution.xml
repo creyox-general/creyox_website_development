@@ -273,6 +273,386 @@
 <!--            </div>-->
 <!--        </section>-->
 
+        <!-- ERP CTA Snippet -->
+        <div class="oe_structure" id="oe_structure_service8_cta">
+            <!-- 1. Comprehensive Service -->
+            <section class="s_comprehensive_service cr_font py-5" data-snippet="s_comprehensive_service">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                            <div class="service-content-box">
+                                <h6 class="text-primary fw-bold text-uppercase mb-2">Odoo Customization Services</h6>
+                                <h2 class="display-5 fw-bold mb-4">Make Odoo Work <span class="text-gradient">Exactly the Way</span> Your Business Does</h2>
+                                <p class="lead text-muted mb-4">Your business has workflows, rules, and processes that no off-the-shelf ERP was built for. That's where Creyox Technologies comes in. As a specialized Odoo partner, we ensure your system adapts to you, not the other way around.</p>
+                                <div class="partner-cta-group">
+                                    <a href="/contactus" class="cta-button primary">
+                                        <span>Get a Free Consultation</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-left">
+                            <div class="service-image-box">
+                                <img src="/cr_internal_website_theme/static/src/img/odoo-customization.png" alt="Odoo Customization Services" class="img-fluid rounded-4 shadow-lg"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2. Milestone Section -->
+            <section class="s_milestone_section cr_font py-5 bg-light" data-snippet="s_milestone_section">
+                <div class="container">
+                    <div class="row text-center g-4">
+                        <div class="col-6 col-md-3" data-aos="zoom-in">
+                            <div class="milestone-item">
+                                <h3 class="display-4 fw-bold text-gradient mb-0">50+</h3>
+                                <p class="text-muted fw-bold">Successful Projects</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="milestone-item">
+                                <h3 class="display-4 fw-bold text-gradient mb-0">200+</h3>
+                                <p class="text-muted fw-bold">Custom Modules Delivered</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="milestone-item">
+                                <h3 class="display-4 fw-bold text-gradient mb-0">100%</h3>
+                                <p class="text-muted fw-bold">In-House Team</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="milestone-item">
+                                <h3 class="display-4 fw-bold text-gradient mb-0">10+</h3>
+                                <p class="text-muted fw-bold">Industries Served</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. Process Steps -->
+            <section class="s_process_steps cr_font py-5" data-snippet="s_process_steps">
+                <div class="container">
+                    <div class="row mb-5 text-center" data-aos="fade-up">
+                        <div class="col-12">
+                            <h2 class="display-4 fw-bold">What is <span class="text-gradient">Odoo Customization</span> And Why Does Your Business Need It?</h2>
+                            <p class="lead text-muted mx-auto" style="max-width: 900px;">
+                                Odoo customization is the process of modifying, extending, or building upon the standard Odoo ERP platform to match the specific workflows, rules, and requirements of your business—things the default Odoo configuration simply cannot accommodate.
+                            </p>
+                            <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                        </div>
+                    </div>
+
+                    <div class="process-steps-wrapper">
+                        <div class="process-step-row row align-items-center mb-5" data-aos="fade-up">
+                            <div class="col-lg-6 step-text-col">
+                                <div class="step-card text-card">
+                                    <h3 class="step-title">What Odoo Customization Means for Your Business</h3>
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2">→ Building new Odoo modules your business needs that don't exist in standard Odoo</li>
+                                        <li class="mb-2">→ Modifying existing Odoo modules to match your specific business rules</li>
+                                        <li class="mb-2">→ Connecting Odoo with other tools (payment gateways, logistics, portals, GST systems)</li>
+                                        <li class="mb-2">→ Redesigning Odoo's interface to make it faster and easier for your team</li>
+                                        <li class="mb-2">→ Automating manual processes and approval workflows inside Odoo</li>
+                                        <li class="mb-2">→ Building custom dashboards and reports that show exactly what your team needs</li>
+                                    </ul>
+                                    <p class="mt-4 fw-bold italic text-muted">Think of it this way: A ready-made suit covers the basics but a tailored suit fits perfectly. Odoo customization is the tailoring.</p>
+                                    <div class="partner-cta-group mt-4">
+                                        <a href="/contactus" class="cta-button primary">
+                                            <span>Talk to Consultant</span>
+                                            <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 step-image-col">
+                                <div class="step-card image-card">
+                                    <img src="/cr_internal_website_theme/static/src/img/step1.jpg" alt="Tailored Odoo Solutions" class="img-fluid rounded-4 shadow-lg"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. Feature Mesh (2 Columns) -->
+            <section class="s_feature_mesh cr_font sg-cols-2 bg-light py-5" data-snippet="s_feature_mesh">
+                <div class="container py-5">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="mesh-title">Is Your Business Facing These <span class="text-gradient">Challenges with Odoo?</span></h2>
+                        <div class="title-underline mx-auto"></div>
+                    </div>
+
+                    <div class="row g-4 fm-card-row justify-content-center">
+                        <div class="col-lg-6 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Manual Work and Data Entry</h3></div>
+                                <div class="card-body-zone"><p class="card-text">If your team is copy-pasting data between screens, manually sending notifications, or compiling reports, that's work Odoo can and should be doing automatically.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Inadequate Default Reports</h3></div>
+                                <div class="card-body-zone"><p class="card-text">If default Odoo reports don't reflect your metrics, your team ends up maintaining spreadsheets alongside Odoo, defeating the purpose of an ERP.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Disconnected Tools</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Whether it's your payment gateway, courier partner, or WhatsApp, disconnected systems create data gaps and duplicate entries across your team.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Complex Approval Workflows</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Multi-level approvals and condition-based escalations have limits in standard Odoo. Customization builds the exact logic your business runs on.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Industry Specific Requirements</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Pharmaceutical batch tracking, construction billing, or food recipe management require purpose-built solutions designed around your industry.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Low Adoption / Human Errors</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Sometimes the interface needs simplification and role-specific views to improve daily adoption and reduce mistakes from a complex system.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 5. Benefit Mesh (2 Columns) -->
+            <section class="s_benefit_mesh cr_font py-5" data-snippet="s_benefit_mesh">
+                <div class="container">
+                    <div class="row mb-5 text-center" data-aos="fade-up">
+                        <div class="col-12">
+                            <h2 class="display-4 fw-bold">Our Odoo ERP <span class="text-gradient">Customization Services</span> Everything Your Business Might Need</h2>
+                            <p class="lead text-muted mx-auto" style="max-width: 900px;">Our Odoo ERP customization services span every layer of the platform. Here's a clear breakdown of what we do and what it means for your business:</p>
+                        </div>
+                    </div>
+
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-lg-6 s_benefit_card_wrapper" data-aos="fade-up">
+                            <div class="benefit-card h-100 p-4 shadow-sm rounded-4">
+                                <h3 class="card-title fw-bold">Custom Module Development</h3>
+                                <p class="card-text text-muted">We build brand-new Odoo modules from scratch that integrate seamlessly and follow official coding standards for upgrade compatibility.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="benefit-card h-100 p-4 shadow-sm rounded-4">
+                                <h3 class="card-title fw-bold">Existing Module Customization</h3>
+                                <p class="card-text text-muted">We modify existing Odoo modules using inheritance-based development, ensuring changes are modular, maintainable, and safe for future upgrades.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 s_benefit_card_wrapper" data-aos="fade-up">
+                            <div class="benefit-card h-100 p-4 shadow-sm rounded-4">
+                                <h3 class="card-title fw-bold">Third-Party Integrations &amp; API Development</h3>
+                                <p class="card-text text-muted">We build reliable API integrations between Odoo and external platforms like payment gateways, courier partners, and WhatsApp.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="benefit-card h-100 p-4 shadow-sm rounded-4">
+                                <h3 class="card-title fw-bold">UI/UX Customization</h3>
+                                <p class="card-text text-muted">We redesign Odoo's interface to make it faster and more intuitive for your team, dramatically improving adoption and reducing errors.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 s_benefit_card_wrapper" data-aos="fade-up">
+                            <div class="benefit-card h-100 p-4 shadow-sm rounded-4">
+                                <h3 class="card-title fw-bold">Custom Reports &amp; BI Dashboards</h3>
+                                <p class="card-text text-muted">We build custom reporting solutions that give every level of your business the exact information they need in actionable formats.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="benefit-card h-100 p-4 shadow-sm rounded-4">
+                                <h3 class="card-title fw-bold">Workflow &amp; Process Automation</h3>
+                                <p class="card-text text-muted">We automate repetitive manual steps so your team can focus on work that actually needs human judgment and strategy.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 s_benefit_card_wrapper" data-aos="fade-up">
+                            <div class="benefit-card h-100 p-4 shadow-sm rounded-4">
+                                <h3 class="card-title fw-bold">Security, Access &amp; Multi-Company</h3>
+                                <p class="card-text text-muted">We configure Odoo's security layer and multi-company setup to match exactly how your organization is structured.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="benefit-card h-100 p-4 shadow-sm rounded-4 bg-primary text-white">
+                                <h3 class="card-title fw-bold text-white">Odoo Version Upgrade &amp; Migration</h3>
+                                <p class="card-text opacity-75">We handle complete technical migration of your existing customizations to newer Odoo versions, reviewing code and fixing breaking changes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 6. Service Showcase -->
+            <section class="s_service_showcase cr_font py-5 bg-light" data-snippet="s_service_showcase">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">Why Choose Creyox as Your <span class="text-gradient">Odoo Customization Company?</span></h2>
+                        <div class="title-underline mx-auto"></div>
+                    </div>
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                            <div class="service-card card-blue h-100">
+                                <div class="card-icon"><i class="fas fa-brain"/></div>
+                                <h3 class="card-title">Business First, Code Later</h3>
+                                <p class="card-text">We invest time in truly understanding your process flows and edge cases before a single line of code is written.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-card card-dark h-100">
+                                <div class="card-icon"><i class="fas fa-shield-alt"/></div>
+                                <h3 class="card-title">Code Survives Upgrades</h3>
+                                <p class="card-text">We follow strict inheritance-based development so your customizations are modular, clean, and compatible with future Odoo versions.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="service-card card-blue h-100">
+                                <div class="card-icon"><i class="fas fa-users"/></div>
+                                <h3 class="card-title">100% In-House Team</h3>
+                                <p class="card-text">Every developer and QA engineer is a full-time Creyox employee. No freelancers, no outsourcing, just clear accountability.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                            <div class="service-card card-dark h-100">
+                                <div class="card-icon"><i class="fas fa-layer-group"/></div>
+                                <h3 class="card-title">Full Odoo Tech Stack</h3>
+                                <p class="card-text">We work across Python backend, PostgreSQL, OWL JS frontend, XML views, and REST APIs at every layer of Odoo.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-card card-blue h-100">
+                                <div class="card-icon"><i class="fas fa-eye"/></div>
+                                <h3 class="card-title">Total Transparency</h3>
+                                <p class="card-text">Regular sprint demos and shared trackers mean you always know status. We use plain language, not jargon.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="service-card card-dark h-100">
+                                <div class="card-icon"><i class="fas fa-handshake"/></div>
+                                <h3 class="card-title">Long-Term Partner</h3>
+                                <p class="card-text">We think long-term about your ERP health. Many of our clients have been with us through multiple Odoo versions for 3+ years.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 7. Specialist Grid -->
+            <section class="s_specialist_grid_template cr_font py-5" data-snippet="s_specialist_grid_template">
+                <div class="container">
+                    <div class="row mb-5 text-center" data-aos="fade-up">
+                        <div class="col-12">
+                            <h2 class="display-5 fw-bold">Odoo Customization services for <span class="text-gradient">Every Industry</span></h2>
+                            <p class="lead text-muted mx-auto" style="max-width: 800px;">Every industry has workflows and compliance requirements that a generic ERP can't accommodate out of the box.</p>
+                        </div>
+                    </div>
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-lg-3 col-md-6" data-aos="fade-up"><div class="specialist-card"><h4 class="fw-bold">Manufacturing</h4><p class="small text-muted">Production orders, quality checklists, BOM variations, and shop floor mobile views.</p></div></div>
+                        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100"><div class="specialist-card"><h4 class="fw-bold">Retail &amp; E-Commerce</h4><p class="small text-muted">Multi-channel sync, loyalty modules, and custom POS features for specific workflows.</p></div></div>
+                        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200"><div class="specialist-card"><h4 class="fw-bold">Trading &amp; Distribution</h4><p class="small text-muted">Volume-based pricing, consignment tracking, and auto-replenishment across warehouses.</p></div></div>
+                        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300"><div class="specialist-card"><h4 class="fw-bold">Construction &amp; Real Estate</h4><p class="small text-muted">Project-based cost tracking, milestone automation, and subcontractor management.</p></div></div>
+                        <div class="col-lg-3 col-md-6" data-aos="fade-up"><div class="specialist-card"><h4 class="fw-bold">Healthcare &amp; Pharma</h4><p class="small text-muted">Patient records, drug expiry tracking, CDSCO compliance, and serialized inventory.</p></div></div>
+                        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100"><div class="specialist-card"><h4 class="fw-bold">Professional Services</h4><p class="small text-muted">Timesheet-to-invoice automation, resource dashboards, and per-project reports.</p></div></div>
+                        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200"><div class="specialist-card"><h4 class="fw-bold">Food &amp; Beverage</h4><p class="small text-muted">Recipe management, wastage tracking, FSSAI compliance, and multi-outlet distribution.</p></div></div>
+                        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300"><div class="specialist-card"><h4 class="fw-bold">Logistics &amp; Freight</h4><p class="small text-muted">Fleet assignment, driver portals with POD capture, and route planning dashboards.</p></div></div>
+                    </div>
+                    <div class="text-center mt-5">
+                        <a href="/contactus" class="cta-button primary"><span>Get Free Consultation</span><i class="fas fa-arrow-right ms-2"/></a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 8. Trusted Partner -->
+            <section class="s_trusted_odoo_partner cr_font bg-light py-5" data-snippet="s_trusted_odoo_partner">
+                <div class="container">
+                    <div class="row mb-5 text-center" data-aos="fade-up">
+                        <div class="col-12">
+                            <h2 class="partner-title">Odoo Customization That Delivered <span class="text-gradient">Real Outcomes</span></h2>
+                        </div>
+                    </div>
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-lg-4" data-aos="fade-up">
+                            <div class="partner-content-box bg-white p-4 rounded-4 shadow-sm h-100">
+                                <p class="fst-italic text-muted">"We had a multi-level approval requirement for POs that standard Odoo couldn't handle. Creyox built exactly what we described, and it's been running issues-free through two upgrades."</p>
+                                <p class="fw-bold mt-3 mb-0">— Operations Director</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="partner-content-box bg-white p-4 rounded-4 shadow-sm h-100">
+                                <p class="fst-italic text-muted">"Our PDFs didn't match our brand. Creyox rebuilt all templates—invoices, quotes, delivery notes—in two weeks. Now everything looks professional and consistent."</p>
+                                <p class="fw-bold mt-3 mb-0">— Marketing Manager</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="partner-content-box bg-white p-4 rounded-4 shadow-sm h-100">
+                                <p class="fst-italic text-muted">"The WhatsApp system Creyox built has been a game-changer. Quote alerts and dispatch confirmations go out automatically now. Satisfaction scores went up instantly."</p>
+                                <p class="fw-bold mt-3 mb-0">— Sales Head</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 9. Kinetic Process -->
+            <section class="s_kinetic_process_template cr_font py-5" data-snippet="s_kinetic_process_template">
+                <div class="container">
+                    <div class="row mb-5 text-center" data-aos="fade-up">
+                        <div class="col-12">
+                            <h2 class="display-4 fw-bold">Configuration vs. <span class="text-gradient">Customization</span></h2>
+                            <p class="lead text-muted">Which one does your business actually need?</p>
+                        </div>
+                    </div>
+                    <div class="row g-4 align-items-center">
+                        <div class="col-lg-6" data-aos="fade-right">
+                            <div class="p-4 border-start border-4 border-primary bg-light rounded-end">
+                                <h4 class="fw-bold">Odoo Configuration</h4>
+                                <p class="text-muted">Adjusting settings, stages, and access rights without writing code. Faster and cheaper—often the right approach for standard requirements.</p>
+                            </div>
+                            <div class="p-4 border-start border-4 border-info bg-light rounded-end mt-4">
+                                <h4 class="fw-bold text-info">Odoo Customization</h4>
+                                <p class="text-muted">Writing Python code to add logic, building new modules, or creating API connections that the standard platform doesn't support.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-left">
+                            <div class="p-4 bg-dark text-white rounded-4 shadow-lg">
+                                <h4 class="fw-bold text-gradient">Our Approach</h4>
+                                <p class="opacity-75">Before we quote any customization, we check if it can be met through configuration alone. We never recommend development work when a simpler approach exists. When configuration isn't enough, we explain exactly why.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 10. ERP CTA -->
+            <section class="erp-cta-section o_wfull mb-5" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="container erp-cta-container" data-aos="zoom-in">
+                    <div class="erp-cta-row">
+                        <div class="erp-cta-text">
+                            <h2 id="erp-cta-heading">Not Sure <span class="highlight">What You Need?</span></h2>
+                            <p class="text-white opacity-75 mt-3">You don't need to come to us with a technical brief. You just need to describe the problem—we'll figure out the solution. Our Odoo consultants are ready to help.</p>
+                        </div>
+                        <div class="erp-cta-button-wrapper">
+                            <a href="/contactus" class="cta-button light">
+                                <span>Talk To Expert Now</span>
+                                <i class="fas fa-calendar-check ms-2" aria-hidden="true"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </template>
 
     <!--    <record id="cr_internal_website_theme.service8_odoo_customization_solution_000_scss" model="ir.asset">-->

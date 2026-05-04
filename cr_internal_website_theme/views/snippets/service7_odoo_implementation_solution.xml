@@ -349,7 +349,7 @@
                         </p>
                     </div>
                     <div class="kinetic-grid-container">
-                        <div class="row g-4 mb-4 s_kinetic_row_1">
+                        <div class="row g-4 mb-4 s_kinetic_row_1 justify-content-center">
                             <div class="col-lg-8 phase-block" data-aos="fade-right">
                                 <div class="kinetic-card h-100">
                                     <div class="card-bg-number">01</div>
@@ -365,7 +365,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row g-4 mb-4 s_kinetic_row_2">
+                        <div class="row g-4 mb-4 s_kinetic_row_2 justify-content-center">
                             <div class="col-lg-4 phase-block" data-aos="fade-up">
                                 <div class="kinetic-card h-100">
                                     <div class="card-bg-number">03</div>
@@ -388,7 +388,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row g-4 s_kinetic_row_3">
+                        <div class="row g-4 s_kinetic_row_3 justify-content-center">
                             <div class="col-lg-6 phase-block" data-aos="fade-up">
                                 <div class="kinetic-card h-100">
                                     <div class="card-bg-number">06</div>
@@ -423,7 +423,7 @@
                             We've delivered successful Odoo ERP implementations across a wide range of industries. Each industry comes with unique workflows, compliance requirements, and operational challenges and we've solved them all.
                         </p>
                     </div>
-                    <div class="row g-4 s_service_showcase_row">
+                    <div class="row g-4 s_service_showcase_row justify-content-center">
                         <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up">
                             <div class="service-card card-blue">
                                 <div class="card-icon"><i class="fas fa-industry"/></div>
@@ -493,9 +493,9 @@
                 <div class="bubble"></div>
                 <div class="bubble"></div>
                 <div class="bubble"></div>
-                <div class="container erp-cta-container">
+                <div class="container erp-cta-container" data-aos="zoom-in">
                     <div class="erp-cta-row">
-                        <div class="erp-cta-text" data-aos="fade-right">
+                        <div class="erp-cta-text">
                             <h2 id="erp-cta-heading">
                                 Ready to Start Your <span class="highlight">Odoo Implementation?</span>
                             </h2>
@@ -503,7 +503,7 @@
                                 Whether you're a startup deploying ERP for the first time or an enterprise replacing a legacy system our Odoo implementation consultants are ready to guide you.
                             </p>
                         </div>
-                        <div data-aos="fade-left">
+                        <div class="erp-cta-button-wrapper">
                             <a href="/contactus" class="cta-button light">
                                 <span>Book a Free Consultation</span>
                                 <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>

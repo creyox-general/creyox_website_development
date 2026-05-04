@@ -4,9 +4,11 @@
   --primary-dark: #0a173b;
   --text-muted: #334155;
 }
-.s_milestone_section{
-    padding: 60px 20px;
-    }
+
+.s_milestone_section {
+  padding: 60px 20px;
+}
+
 .milestone-light-section {
   width: 100%;
   max-width: 100vw;
@@ -23,7 +25,6 @@
 }
 
 .milestone-heading {
-  font-size: clamp(36px, 6vw, 48px) !important;
   font-weight: 700 !important;
   color: #0d121f !important;
   margin-bottom: 60px;
@@ -97,14 +98,31 @@
 }
 
 .milestone-card h3 {
-  font-size: 24px;
   font-weight: 700;
   color: var(--primary-dark);
   margin: 8px 0 5px;
+  font-size: var(--cr-subtitle-fsize, 28px);
+  line-height: 1.2;
+}
+
+/* When used without icon (stat/counter cards), make h3 large & bold */
+.milestone-card.no-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.milestone-card.no-icon h3 {
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 800;
+  color: var(--primary-dark);
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
 }
 
 .milestone-card p {
-  font-size: 14px;
   color: var(--text-muted);
   margin: 0;
 }
@@ -123,7 +141,6 @@
 
 @media (max-width: 1024px) {
   .milestone-heading {
-    font-size: 28px;
     margin-bottom: 40px;
   }
 
@@ -136,19 +153,10 @@
   .milestone-card {
     padding: 20px 16px;
   }
-
-  .milestone-card h3 {
-    font-size: 20px;
-  }
-
-  .milestone-card p {
-    font-size: 13px;
-  }
 }
 
 @media (max-width: 480px) {
   .milestone-heading {
-    font-size: 24px;
     margin-bottom: 30px;
   }
 
@@ -164,13 +172,5 @@
 
   .milestone-icon i {
     font-size: 18px;
-  }
-
-  .milestone-card h3 {
-    font-size: 18px;
-  }
-
-  .milestone-card p {
-    font-size: 12.5px;
   }
 }

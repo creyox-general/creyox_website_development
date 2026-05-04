@@ -154,7 +154,6 @@
 
     .section-header {
         .section-title {
-            font-size: clamp(36px, 6vw, 48px) !important;
             font-weight: 700 !important;
             color: #0d121f !important;
             line-height: 1.2 !important;
@@ -172,7 +171,6 @@
         }
 
         .section-subtitle {
-            font-size: 16px !important;
             color: #64748b;
         }
     }
@@ -212,7 +210,6 @@
         }
 
         .card-title {
-            font-size: 22px !important;
             font-weight: 800 !important;
             color: #0d121f !important;
             margin-bottom: 20px;
@@ -222,7 +219,6 @@
         }
 
         .card-text {
-            font-size: 15px !important;
             color: #4b5563;
             line-height: 1.7;
             margin-bottom: 0px;
@@ -267,11 +263,9 @@
             }
 
             .card-title {
-                font-size: 20px !important;
             }
 
             .card-text {
-                font-size: 14px !important;
             }
         }
     }
@@ -310,21 +304,17 @@
             }
 
             .card-title {
-                font-size: 19px !important;
                 margin-bottom: 14px;
             }
 
             .card-text {
-                font-size: 14px !important;
             }
         }
 
         .section-header .section-title {
-            font-size: clamp(28px, 5vw, 36px) !important;
         }
 
         .section-header .section-subtitle {
-            font-size: 15px !important;
         }
     }
 }
@@ -380,12 +370,10 @@
             }
 
             .card-title {
-                font-size: 18px !important;
                 margin-bottom: 10px;
             }
 
             .card-text {
-                font-size: 14px !important;
                 line-height: 1.6;
             }
         }
@@ -394,11 +382,9 @@
             padding: 0 4px;
 
             .section-title {
-                font-size: clamp(24px, 7vw, 30px) !important;
             }
 
             .section-subtitle {
-                font-size: 14px !important;
             }
         }
     }
@@ -439,21 +425,17 @@
             }
 
             .card-title {
-                font-size: 16px !important;
                 margin-bottom: 8px;
             }
 
             .card-text {
-                font-size: 13px !important;
             }
         }
 
         .section-header .section-title {
-            font-size: 22px !important;
         }
 
         .section-header .section-subtitle {
-            font-size: 13px !important;
         }
     }
 }

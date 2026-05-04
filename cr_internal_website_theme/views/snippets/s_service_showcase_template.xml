@@ -23,7 +23,7 @@
                 </div>
 
                 <!-- Service Cards Grid -->
-                <div class="row g-4 s_service_showcase_row">
+                <div class="row g-4 s_service_showcase_row justify-content-center">
                     <!-- Card 1 -->
                     <div t-attf-class="{{o_col_class or 'col-lg-3 col-md-6'}} s_service_card_wrapper" data-aos="fade-up">
                         <div t-attf-class="service-card {{o_c1_theme or 'card-blue'}}">

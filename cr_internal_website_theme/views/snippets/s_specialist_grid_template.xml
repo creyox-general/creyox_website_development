@@ -3,7 +3,7 @@
 
     <!-- PARENT: Specialist Grid -->
     <template id="s_specialist_grid" name="Specialist Grid">
-        <section class="s_specialist_grid py-5 sg-cols-4"
+        <section class="s_specialist_grid py-5 sg-cols-4 cr_font"
                  data-snippet="s_specialist_grid"
                  data-name="Specialist Grid">
             <div class="container">
@@ -25,7 +25,7 @@
 
                 <!-- Specialist Grid -->
                 <div class="specialist-grid-container">
-                    <div class="row g-4 s_specialist_grid_row">
+                    <div class="row g-4 s_specialist_grid_row justify-content-center">
                         <!-- Card 1 -->
                         <div t-attf-class="col-lg-3 col-md-6 s_specialist_card_col {{o_card_col_class}}" data-aos="fade-up">
                             <div class="specialist-card">

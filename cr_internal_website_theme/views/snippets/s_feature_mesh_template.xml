@@ -23,7 +23,7 @@
                 </div>
 
                 <!-- Split-Zone Card Grid -->
-                <div class="row g-4 fm-card-row">
+                <div class="row g-4 fm-card-row justify-content-center">
 
                     <!-- Card 1 -->
                     <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">

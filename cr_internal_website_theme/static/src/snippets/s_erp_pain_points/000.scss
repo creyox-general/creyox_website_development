@@ -139,9 +139,20 @@
     }
 
     /* COLUMN SELECTOR CLASSES */
-    &.sg-cols-2 .pp-card-col { flex: 0 0 50%; max-width: 50%; }
-    &.sg-cols-3 .pp-card-col { flex: 0 0 33.333%; max-width: 33.333%; }
-    &.sg-cols-4 .pp-card-col { flex: 0 0 25%; max-width: 25%; }
+    &.sg-cols-2 .pp-card-col {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    &.sg-cols-3 .pp-card-col {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+
+    &.sg-cols-4 .pp-card-col {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
 
     /* Strategic Transition */
     .matrix-bridge-area {
@@ -163,13 +174,14 @@
 
 @media (max-width: 991.98px) {
     .s_erp_pain_points {
+
         &.sg-cols-2 .pp-card-col,
         &.sg-cols-3 .pp-card-col,
         &.sg-cols-4 .pp-card-col {
             flex: 0 0 50%;
             max-width: 50%;
         }
-        
+
         .matrix-block {
             min-height: 250px;
             padding: 30px;
@@ -184,6 +196,7 @@
 
 @media (max-width: 575.98px) {
     .s_erp_pain_points {
+
         &.sg-cols-2 .pp-card-col,
         &.sg-cols-3 .pp-card-col,
         &.sg-cols-4 .pp-card-col {

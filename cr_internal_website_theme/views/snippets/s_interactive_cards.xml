@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="s_interactive_cards" name="Interactive Service Cards">
+        <section class="s_interactive_cards cr_font py-5" data-snippet="s_interactive_cards">
+            <div class="container">
+                <div class="row mb-5 text-center">
+                    <div class="col-12" data-aos="fade-up">
+                        <h2 class="display-4 fw-bold mb-3">Our <span class="text-gradient">Core Solutions</span></h2>
+                        <p class="lead text-muted">Select a service to explore its detailed features and capabilities.</p>
+                        <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                    </div>
+                </div>
+
+                <!-- Parent Cards Wrapper -->
+                <div class="row parent-cards-grid g-4 mb-5">
+                    <div class="col-lg-4 col-md-6 parent-card-item active" data-target="content-1" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="parent-card">
+                            <div class="card-icon">
+                                <i class="fa fa-rocket"></i>
+                            </div>
+                            <h3 class="card-title">Strategy &amp; Planning</h3>
+                            <p class="card-desc">Comprehensive roadmaps designed for long-term growth and efficiency.</p>
+                            <div class="active-indicator"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 parent-card-item" data-target="content-2" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="parent-card">
+                            <div class="card-icon">
+                                <i class="fa fa-code"></i>
+                            </div>
+                            <h3 class="card-title">Custom Development</h3>
+                            <p class="card-desc">Tailored Odoo modules and features built to your unique requirements.</p>
+                            <div class="active-indicator"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 parent-card-item" data-target="content-3" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="parent-card">
+                            <div class="card-icon">
+                                <i class="fa fa-cloud"></i>
+                            </div>
+                            <h3 class="card-title">Cloud Infrastructure</h3>
+                            <p class="card-desc">Secure, scalable, and optimized Odoo hosting solutions for any load.</p>
+                            <div class="active-indicator"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content Area for Sub-cards -->
+                <div class="sub-cards-content-wrapper">
+                    <!-- Content Block 1 -->
+                    <div class="sub-cards-container active" id="content-1">
+                        <div class="row g-4">
+                            <div class="col-lg-3 col-md-6 sub-card-item">
+                                <div class="sub-card">
+                                    <div class="sub-icon"><i class="fa fa-check"></i></div>
+                                    <h4>Business Analysis</h4>
+                                    <p>Deep dive into your workflows to identify bottlenecks.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 sub-card-item">
+                                <div class="sub-card">
+                                    <div class="sub-icon"><i class="fa fa-check"></i></div>
+                                    <h4>Process Mapping</h4>
+                                    <p>Visualizing your future optimized business processes.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 sub-card-item">
+                                <div class="sub-card">
+                                    <div class="sub-icon"><i class="fa fa-check"></i></div>
+                                    <h4>Resource Allocation</h4>
+                                    <p>Ensuring you have the right team for the job.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content Block 2 -->
+                    <div class="sub-cards-container" id="content-2">
+                        <div class="row g-4">
+                            <div class="col-lg-3 col-md-6 sub-card-item">
+                                <div class="sub-card">
+                                    <div class="sub-icon"><i class="fa fa-check"></i></div>
+                                    <h4>API Integration</h4>
+                                    <p>Connecting Odoo with your existing software stack.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 sub-card-item">
+                                <div class="sub-card">
+                                    <div class="sub-icon"><i class="fa fa-check"></i></div>
+                                    <h4>Custom UI/UX</h4>
+                                    <p>Beautiful interfaces that your team will love to use.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content Block 3 -->
+                    <div class="sub-cards-container" id="content-3">
+                        <div class="row g-4">
+                            <div class="col-lg-3 col-md-6 sub-card-item">
+                                <div class="sub-card">
+                                    <div class="sub-icon"><i class="fa fa-check"></i></div>
+                                    <h4>AWS/GCP Setup</h4>
+                                    <p>Enterprise-grade hosting on world-class infrastructure.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_options_interactive_cards" inherit_id="web_editor.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-js="InteractiveCardsOptions" data-selector=".s_interactive_cards" string="Interactive Cards">
+                <we-row string="Parent Cards">
+                    <we-button data-add-parent-card="" data-no-preview="true" class="fa fa-plus" title="Add Parent Card"/>
+                    <we-button data-remove-parent-card="" data-no-preview="true" class="fa fa-minus" title="Remove Parent Card"/>
+                </we-row>
+                <we-row string="Sub-Features">
+                    <we-button data-add-sub-card="" data-no-preview="true" class="fa fa-plus" title="Add Sub-Feature"/>
+                    <we-button data-remove-sub-card="" data-no-preview="true" class="fa fa-minus" title="Remove Sub-Feature"/>
+                </we-row>
+            </div>
+        </xpath>
+    </template>
+</odoo>

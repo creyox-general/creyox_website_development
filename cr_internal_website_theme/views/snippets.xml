@@ -158,6 +158,18 @@
                     <t t-snippet="cr_internal_website_theme.s_erp_cta" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
                             data-drop-in=".oe_structure"
                        data-drop-near=".oe_structure > *"/>
+
+                    <t t-snippet="cr_internal_website_theme.s_industry_use_cases" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
+                            data-drop-in=".oe_structure"
+                       data-drop-near=".oe_structure > *"/>
+
+                    <t t-snippet="cr_internal_website_theme.s_interactive_cards" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
+                            data-drop-in=".oe_structure"
+                       data-drop-near=".oe_structure > *"/>
+
+                    <t t-snippet="cr_internal_website_theme.s_process_steps" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
+                            data-drop-in=".oe_structure"
+                       data-drop-near=".oe_structure > *"/>
                 </div>
             </div>
         </xpath>

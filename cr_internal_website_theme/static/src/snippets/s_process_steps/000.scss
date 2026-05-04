@@ -1,0 +1,123 @@
+.s_process_steps {
+    background-color: #ffffff;
+
+    .text-gradient {
+        background: linear-gradient(90deg, #4361ee, #4cc9f0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .lead {
+        font-size: var(--cr-subtitle-fsize) !important;
+        color: #64748b !important;
+        margin-top: 15px;
+    }
+
+    .cta-button span {
+        color: #ffffff !important;
+    }
+
+    .process-step-row {
+        &:nth-child(even) {
+            flex-row-reverse: true;
+            /* Handled by Bootstrap flex-row-reverse class in XML but kept for reference */
+        }
+    }
+
+    .step-card {
+        padding: 40px;
+        height: 100%;
+        transition: all 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &.text-card {
+            background: transparent;
+            box-shadow: none;
+            border: none;
+            padding: 20px 40px 20px 0;
+
+            .step-number {
+                font-weight: 800;
+                font-size: 18px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                margin-bottom: 15px;
+                display: block;
+            }
+
+            .step-title {
+                font-size: var(--cr-subtitle-fsize) !important;
+                font-weight: 700;
+                color: #1e293b;
+                margin-bottom: 20px;
+            }
+
+            .step-desc,
+            p,
+            li,
+            span,
+            small,
+            .small {
+                font-size: var(--cr-body-fsize) !important;
+                color: #64748b;
+                line-height: 1.8;
+                margin-bottom: 0;
+            }
+        }
+
+        &.image-card {
+            background: transparent;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                max-width: 100%;
+                height: auto;
+                transition: transform 0.5s ease;
+            }
+        }
+
+        &:hover {
+            &.image-card img {
+                transform: scale(1.03);
+            }
+        }
+    }
+
+    .partner-cta-group {
+        .cta-button span {
+            font-size: var(--cr-body-fsize) !important;
+        }
+
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .s_process_steps {
+        .process-step-row {
+            margin-bottom: 40px !important;
+
+            &.flex-row-reverse {
+                flex-direction: row !important;
+            }
+        }
+
+        .step-text-col {
+            margin-bottom: 20px;
+        }
+
+        .step-card.text-card {
+            padding: 30px;
+
+            .step-title {
+                font-size: 24px;
+            }
+        }
+    }
+}

@@ -61,13 +61,16 @@
                                         <p class="partner-description partner-desc-1 w-100 mb-4">
                                             Creyox Technologies is an Odoo website development company that builds more than just websites. We build connected business platforms where your site, your store, your CRM, and your operations run as one unified Odoo system.
                                         </p>
+                                        <p class="partner-description partner-desc-2 w-100 mb-4">
+                                            From custom-themed corporate sites to complex multi-vendor eCommerce platforms, our certified Odoo developers ensure every line of code is optimized for speed, security, and scalability. We don't just "install" Odoo; we architect digital experiences that integrate natively with your inventory, sales, and accounting workflows, eliminating the need for disjointed third-party plugins and manual data entry.
+                                        </p>
                                         <div class="partner-cta-group mb-4">
                                             <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
                                                 <span>Get a Free Website Consultation</span>
                                                 <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
                                             </a>
                                         </div>
-                                        <p class="text-muted fw-bold mb-0 mt-2" style="font-size: 0.95rem;">
+                                        <p class="text-muted fw-bold mb-0 mt-2 partner-description">
                                             100+ Websites Delivered <span class="mx-1">|</span> Odoo Certified Developers <span class="mx-1">|</span> End-to-End Web Services
                                         </p>
                                     </div>
@@ -90,8 +93,8 @@
                     <!-- Section Header -->
                     <div class="erp-header-group text-center mb-5" data-aos="fade-up">
                         <h2 class="erp-title section-title">
-                            Common Web Development
-                            <span class="text-gradient">Pain Points</span>
+                            Common Web Development 
+                            <span class="erp-title text-gradient">Pain Points</span>
                         </h2>
                         <div class="title-underline mx-auto mt-3 mb-4"></div>
                         <p class="erp-subtitle mx-auto">
@@ -288,7 +291,7 @@
                     </div>
 
                     <!-- Service Cards Grid -->
-                    <div class="row g-4 s_service_showcase_row">
+                    <div class="row g-4 s_service_showcase_row justify-content-center">
                         <!-- Card 1 -->
                         <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up">
                             <div class="service-card card-blue h-100">
@@ -510,7 +513,7 @@
 
                     <!-- Specialist Grid -->
                     <div class="specialist-grid-container">
-                        <div class="row g-4 s_specialist_grid_row">
+                        <div class="row g-4 s_specialist_grid_row justify-content-center">
                             <!-- Card 1 -->
                             <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up">
                                 <div class="specialist-card h-100">
@@ -584,7 +587,7 @@
                     </div>
 
                     <!-- Split-Zone Card Grid -->
-                    <div class="row g-4 fm-card-row">
+                    <div class="row g-4 fm-card-row justify-content-center">
 
                         <!-- Card 1 -->
                         <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
@@ -693,7 +696,7 @@
 
                     <div class="kinetic-grid-container">
                         <!-- Row 1 -->
-                        <div class="row g-4 mb-4 s_kinetic_row_1">
+                        <div class="row g-4 mb-4 s_kinetic_row_1 justify-content-center">
                             <!-- Phase 1 -->
                             <div class="col-lg-8 phase-block" data-aos="fade-up">
                                 <div class="kinetic-card h-100">
@@ -713,7 +716,7 @@
                         </div>
 
                         <!-- Row 2 -->
-                        <div class="row g-4 s_kinetic_row_2">
+                        <div class="row g-4 s_kinetic_row_2 justify-content-center">
                             <!-- Phase 3 -->
                             <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="200">
                                 <div class="kinetic-card h-100">
@@ -745,58 +748,51 @@
         </div>
 
         <div class="oe_structure" id="oe_structure_web_ecommerce_specialist">
-            <section class="s_specialist_grid py-5 sg-cols-2 cr_font" data-snippet="s_specialist_grid" data-name="Specialist Grid">
+            <section class="s_industry_use_cases o_website_snippet web-usecases cr_font" 
+                     data-snippet="s_industry_use_cases" 
+                     data-name="Industry Use Cases">
                 <div class="container">
-                    <!-- Section Header -->
-                    <div class="section-header text-center mb-5" data-aos="fade-up">
-                        <h2 class="section-title">
-                            Odoo eCommerce Development:
-                            <br/><span class="text-gradient">One Platform for Your Store, Stock, and Sales</span>
-                        </h2>
-                        <div class="title-underline mx-auto mt-3"></div>
-                    </div>
+                    <h2 class="web-usecases-title cr-title text-center mb-5" data-aos="fade-up">
+                        Odoo eCommerce Development:
+                        <br/><span class="text-gradient">One Platform for Your Store, Stock, and Sales</span>
+                    </h2>
 
-                    <!-- Specialist Grid -->
-                    <div class="specialist-grid-container">
-                        <div class="row g-4 s_specialist_grid_row">
-                            <!-- Card 1 -->
-                            <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up">
-                                <div class="specialist-card h-100">
-                                    <div class="card-digit">01</div>
-                                    <h3 class="card-title">Real-Time Inventory Sync</h3>
-                                    <p class="card-text mb-3">Stock updates instantly across online and offline sales.</p>
+                    <div class="web-usecases-wrapper">
+                        <div class="web-usecase-list">
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="100">
+                                <div class="usecase-content">
+                                    <h4>Real-Time Inventory Sync</h4>
+                                    <p>Stock updates instantly across online and offline sales.</p>
                                 </div>
                             </div>
-                            <!-- Card 2 -->
-                            <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
-                                <div class="specialist-card h-100">
-                                    <div class="card-digit">02</div>
-                                    <h3 class="card-title">Multiple Payment Options</h3>
-                                    <p class="card-text mb-3">Razorpay, Stripe, PayU, UPI, and COD all integrated seamlessly.</p>
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="200">
+                                <div class="usecase-content">
+                                    <h4>Multiple Payment Options</h4>
+                                    <p>Razorpay, Stripe, PayU, UPI, and COD all integrated seamlessly.</p>
                                 </div>
                             </div>
-                            <!-- Card 3 -->
-                            <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="200">
-                                <div class="specialist-card h-100">
-                                    <div class="card-digit">03</div>
-                                    <h3 class="card-title">Automated Order Processing</h3>
-                                    <p class="card-text mb-3">Orders trigger shipping, invoicing, and fulfilment automatically.</p>
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="300">
+                                <div class="usecase-content">
+                                    <h4>Automated Order Processing</h4>
+                                    <p>Orders trigger shipping, invoicing, and fulfilment automatically.</p>
                                 </div>
                             </div>
-                            <!-- Card 4 -->
-                            <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="300">
-                                <div class="specialist-card h-100">
-                                    <div class="card-digit">04</div>
-                                    <h3 class="card-title">Built-in Marketing Tools</h3>
-                                    <p class="card-text mb-3">Run email campaigns, coupons, and abandoned cart recovery easily.</p>
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="400">
+                                <div class="usecase-content">
+                                    <h4>Built-in Marketing Tools</h4>
+                                    <p>Run email campaigns, coupons, and abandoned cart recovery easily.</p>
                                 </div>
                             </div>
+                        </div>
+
+                        <div class="web-usecases-image text-center" data-aos="zoom-in">
+                            <img src="/cr_internal_website_theme/static/src/img/web_use.png" alt="eCommerce Solutions" class="img-fluid"/>
                         </div>
                     </div>
                 </div>
             </section>
         </div>
-
+        
         <div class="oe_structure" id="oe_structure_web_milestones">
             <section class="milestone-light-section s_milestone_section cr_font"
                      data-snippet="s_milestone_section"
