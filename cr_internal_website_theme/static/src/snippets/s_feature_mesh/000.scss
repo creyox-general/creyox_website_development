@@ -4,12 +4,12 @@
 
     /* SITE-MATCHING TYPOGRAPHY */
     .section-header {
-        max-width: 900px;
+        // max-width: 900px;
         margin-left: auto;
         margin-right: auto;
 
         .mesh-title {
-            font-size: clamp(36px, 6vw, 48px) !important;
+            // font-size: clamp(36px, 6vw, 48px) !important;
             font-weight: 700 !important;
             color: #0d121f !important;
             line-height: 1.2 !important;
@@ -28,7 +28,7 @@
             color: #64748b !important;
             line-height: 1.7;
             margin-bottom: 0;
-            max-width: 900px;
+            // max-width: 900px;
         }
     }
 

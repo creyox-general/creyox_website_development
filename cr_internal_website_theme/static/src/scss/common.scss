@@ -48,11 +48,18 @@
 
     /* Standardized Section Headings (42px) */
     .section-title,
+    .partner-title,
     .mesh-title,
     .erp-title,
     .erp-comparison-title-v3,
-    .milestone-heading {
+    .milestone-heading,
+    .erp-title h2 {
         font-size: var(--cr-title-fsize) !important;
+        line-height: 1.2 !important;
+    }
+
+    .erp-cta-row h2 {
+        font-size: var(--cr-cta-heading-fsize) !important;
         line-height: 1.2 !important;
     }
 
@@ -63,20 +70,36 @@
         font-size: inherit !important;
         line-height: inherit !important;
     }
+
+    .section-subtitle,
+    .section-description,
+    .erp-comparison-description-v3,
+    .erp-subtitle,
+    .mesh-main-text {
+        display: block;
+        width: 90% !important;
+        text-align: center !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
 }
 
 /* GLOBAL TYPOGRAPHY STANDARDS */
 :root {
     --cr-title-fsize: 42px;
     /* Standard Section Heading */
-    --cr-subtitle-fsize: 28px;
+    --cr-subtitle-fsize: 26px;
     /* Standard Sub-heading / Intro */
-    --cr-card-text-fsize: 24px;
+    --cr-card-text-fsize: 20px;
     /* Standard Card / Description Text */
-    --cr-body-fsize: 24px;
+    --cr-body-fsize: 20px;
     /* Standard Body / Content Text */
     --cr-header-margin: 40px;
     /* Standard Top Margin for Headers */
+    --cr-cta-heading-fsize: 32px;
+    /* Standard CTA Heading */
 }
 
 /* HELPER CLASSES */
@@ -257,4 +280,16 @@
     background-clip: text;
     padding-right: 0.1em;
     /* Prevent clipping */
+}
+
+/* =============================================
+   MOBILE TYPOGRAPHY OVERRIDES — max 767px
+   Reduces global font tokens for small screens.
+   All .cr_font components inherit automatically.
+   ============================================= */
+@media (max-width: 767.98px) {
+    :root {
+        --cr-subtitle-fsize: 20px;
+        --cr-body-fsize: 16px;
+    }
 }
