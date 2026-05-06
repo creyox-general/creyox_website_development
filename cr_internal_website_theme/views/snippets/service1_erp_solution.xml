@@ -532,17 +532,17 @@
                         </div>
                     </section>
                 </div>
-                <div class="oe_structure" id="oe_structure_service1_contact_form">
-                    <section class="s_faq_dynamic_snippet py-5 o_faq_template_1"
-                             data-snippet="cs_dynamic_snippet_faq"
-                             data-name="FAQs Templates">
-                        <div class="container s_faq_container">
-                        </div>
-                    </section>
-                </div>
-
             </div>
         </section>
+
+        <div class="oe_structure cr_font" id="oe_structure_service1_faq">
+            <section class="s_faq_dynamic_snippet py-5 o_faq_template_1"
+                    data-snippet="s_dynamic_snippet_faq"
+                    data-name="FAQs Templates">
+                <div class="container s_faq_container">
+                </div>
+            </section>
+        </div>
 
 
     </template>

@@ -7,7 +7,7 @@
         <t t-call="cr_internal_website_theme.homepage_section2"/>
 -->
 
-<div class="oe_structure" id="oe_structure_milestone_1">
+<div class="oe_structure" id="oe_structure_milestone_usage_1">
 
     <section class="s_milestone_section cr_font"
              data-snippet="s_milestone_section"

@@ -1,4 +1,4 @@
-odoo.define('cr_internal_website_theme.cr_lead', function (require) {
+odoo.define('cr_internal_website_theme.cr_lead_old', function (require) {
     "use strict";
 
     const ajax = require('web.ajax');

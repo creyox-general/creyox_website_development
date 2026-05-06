@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
 
-    <data noupdate="1">
+    <data noupdate="0">
 
         <!-- ERP Solution FAQs -->
         <record id="erp_solution_faq_1" model="faq.snippet">
@@ -18,6 +18,49 @@
             <field name="website_page_id" ref="cr_internal_website_theme.cr_erp_solution_page"/>
             <field name="question">Do you provide training?</field>
             <field name="answer">Absolutely! We provide hands-on training and continuous support to your team.</field>
+        </record>
+
+
+        <!-- CRM Solution FAQs -->
+        <record id="crm_solution_faq_1" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_crm_solution_page"/>
+            <field name="question">What are CRM Solutions?</field>
+            <field name="answer">CRM solutions are software systems designed to help businesses manage customer relationships, sales processes, and communication from a centralized platform. By organizing customer data, tracking leads and opportunities, and automating sales activities, CRM solutions help businesses improve customer engagement, increase sales efficiency, and build long-term customer relationships.</field>
+        </record>
+        <record id="crm_solution_faq_2" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_crm_solution_page"/>
+            <field name="question">Why does my business need CRM Services?</field>
+            <field name="answer">CRM Services help businesses to manage customer interactions more efficiently by centralizing customer information, automating sales processes, and improving communication between teams. This leads to better customer experiences and improved sales performance.</field>
+        </record>
+        <record id="crm_solution_faq_3" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_crm_solution_page"/>
+            <field name="question">How long does CRM implementation take?</field>
+            <field name="answer">The implementation timeline depends on the complexity of the project, required customization, integrations, and data migration. Small CRM projects may take a few weeks, while larger implementations can take several months.</field>
+        </record>
+        <record id="crm_solution_faq_4" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_crm_solution_page"/>
+            <field name="question">How much does CRM implementation cost?</field>
+            <field name="answer">CRM implementation costs vary based on business size, customization, integrations, and training requirements. Costs may include setup, data migration, integration, and user training in addition to the CRM software subscription.</field>
+        </record>
+        <record id="crm_solution_faq_5" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_crm_solution_page"/>
+            <field name="question">Can CRM be customized for my business processes?</field>
+            <field name="answer">Yes, CRM systems can be customized with custom fields, workflows, dashboards, and automation rules to match your business processes and reporting needs.</field>
+        </record>
+        <record id="crm_solution_faq_6" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_crm_solution_page"/>
+            <field name="question">Can CRM integrate with other business tools?</field>
+            <field name="answer">Yes, CRM systems can integrate with tools such as ERP systems, marketing platforms, email services, accounting software, and customer support systems to create a connected business workflow.</field>
+        </record>
+        <record id="crm_solution_faq_7" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_crm_solution_page"/>
+            <field name="question">How do you migrate data into a CRM system?</field>
+            <field name="answer">During CRM implementation, existing customer data from spreadsheets, legacy systems, or other software is cleaned, mapped, and securely migrated into the CRM to ensure accuracy and consistency.</field>
+        </record>
+        <record id="crm_solution_faq_8" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_crm_solution_page"/>
+            <field name="question">Do you provide CRM support after implementation?</field>
+            <field name="answer">Yes, CRM support includes system maintenance, troubleshooting, updates, and continuous optimization to ensure the CRM platform continues to deliver value to the business.</field>
         </record>
 
     </data>

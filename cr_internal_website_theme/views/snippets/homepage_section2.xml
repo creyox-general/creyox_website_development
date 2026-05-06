@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
     <template id="homepage_section2" name="Social Proof Bar">
-        <div class="oe_structure" id="oe_structure_milestone_1">
+        <div class="oe_structure" id="oe_structure_milestone_social_1">
             <section class="milestone-light-section s_milestone_section cr_font"
                      data-snippet="s_milestone_section"
                      data-name="Milestone Section"
