@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <data noupdate="1">
+
+        <!-- ERP Solution FAQs -->
+        <record id="erp_solution_faq_1" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_erp_solution_page"/>
+            <field name="question">How long does ERP implementation take?</field>
+            <field name="answer">Implementation time varies depending on business size, but typically ranges from a few weeks to a few months.</field>
+        </record>
+        <record id="erp_solution_faq_2" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_erp_solution_page"/>
+            <field name="question">Can the ERP integrate with my existing tools?</field>
+            <field name="answer">Yes, our ERP supports integrations with major third-party applications.</field>
+        </record>
+        <record id="erp_solution_faq_3" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_erp_solution_page"/>
+            <field name="question">Do you provide training?</field>
+            <field name="answer">Absolutely! We provide hands-on training and continuous support to your team.</field>
+        </record>
+
+    </data>
+
+</odoo>

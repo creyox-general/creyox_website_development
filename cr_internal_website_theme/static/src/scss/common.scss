@@ -20,6 +20,8 @@
     .erp-comparison-column-badge-v3,
     .cta-button,
     .cta-button span,
+    .s_faq_dynamic_snippet .faq-question,
+    .s_faq_dynamic_snippet .faq-answer,
     span:not(.bento-index):not(.counter):not(.card-digit):not(.benefit-badge):not(.card-bg-number):not(.milestone-icon *):not(.card-icon *):not(.card-bg-number *):not(.text-gradient):not(.hero-title *):not(.erp-cta-row *) {
         font-size: var(--cr-body-fsize) !important;
         line-height: 1.8 !important;
@@ -53,6 +55,7 @@
     .erp-title,
     .erp-comparison-title-v3,
     .milestone-heading,
+    .s_faq_dynamic_snippet .faq-header,
     .erp-title h2 {
         font-size: var(--cr-title-fsize) !important;
         line-height: 1.2 !important;
@@ -289,6 +292,8 @@
    ============================================= */
 @media (max-width: 767.98px) {
     :root {
+        --cr-title-fsize: 32px;
+        --cr-cta-heading-fsize: 28px;
         --cr-subtitle-fsize: 20px;
         --cr-body-fsize: 16px;
     }

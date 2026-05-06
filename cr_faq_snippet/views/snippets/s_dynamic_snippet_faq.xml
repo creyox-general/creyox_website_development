@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!-- FAQ SNIPPET TEMPLATE -->
+    <template id="s_dynamic_snippet_faq" name="FAQs">
+        <section class="s_faq_dynamic_snippet py-5 o_faq_template_1"
+                 data-snippet="s_dynamic_snippet_faq"
+                 data-name="FAQs Templates">
+            <div class="container s_faq_container">
+            </div>
+        </section>
+    </template>
+
+</odoo>

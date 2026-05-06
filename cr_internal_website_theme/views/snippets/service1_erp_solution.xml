@@ -397,7 +397,7 @@
                     <t t-call="cr_internal_website_theme.s_feature_mesh"/>
                 </div>
 
-                <!-- Benefits of ERP Section -->
+                 <!-- Benefits of ERP Section -->
                 <div class="oe_structure" id="oe_structure_erp_benefits">
                     <section class="s_benefit_mesh cr_font bm-cols-2" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
                          <div class="container">
@@ -464,13 +464,100 @@
                          </div>
                     </section>
                 </div>
-                    
+                <div class="oe_structure" id="oe_structure_service1_contact_form">
+                    <section class="s_contact_form cr_font py-5" data-snippet="s_contact_form" data-name="Contact Form">
+                        <div class="container">
+                            <!-- Section Header -->
+<!--                            <div class="section-header text-center mb-5" data-aos="fade-up">-->
+<!--                                <h2 class="section-title">Our Implementation Approach</h2>-->
+<!--                                <div class="title-underline mx-auto"></div>-->
+<!--                                <p class="section-description mt-4 mx-auto">-->
+<!--                                    We follow a structured and transparent methodology, starting from in-depth requirement analysis to successful deployment and post-implementation support. Our agile approach emphasizes collaboration, iterative development, and continuous feedback, ensuring faster delivery with minimized risks. By aligning Odoo ERP with your unique business processes, we guarantee scalability, adaptability, and long-term success. Beyond go-live, our dedicated support ensures smooth adoption, performance optimization, and sustainable business growth.-->
+<!--                                </p>-->
+<!--                            </div>-->
+
+                            <div class="contact-wrapper">
+                                <!-- Left Side Form -->
+                                <div class="contact-form-card" data-aos="fade-right">
+                                    <div class="form-header">
+                                        <h3>Get in Touch</h3>
+                                        <p>Fill out the form below and our team will reach out shortly.</p>
+                                    </div>
+                                    <form id="erp-demo-form">
+                                        <div class="form-group-neumorphic">
+                                            <input type="text" name="name" class="form-control" placeholder=" " required="1"/>
+                                            <label>Your Name</label>
+                                        </div>
+                                        <div class="form-group-neumorphic">
+                                            <input type="email" name="email" class="form-control" placeholder=" " required="1"/>
+                                            <label>Your Email</label>
+                                        </div>
+                                        <div class="form-group-neumorphic">
+                                            <input type="tel" name="phone" class="form-control" placeholder=" " required="1"/>
+                                            <label>Contact Number</label>
+                                        </div>
+                                        <div class="form-group-neumorphic">
+                                            <input type="text" name="company" class="form-control" placeholder=" "/>
+                                            <label>Company Name</label>
+                                        </div>
+                                        <div class="form-group-neumorphic">
+                                            <textarea name="message" class="form-control" placeholder=" " required="1"></textarea>
+                                            <label>Your Message</label>
+                                        </div>
+                                        <div class="form-footer">
+                                            <button type="submit" class="btn btn-primary cta-button">
+                                                <span>Send Message</span>
+                                            </button>
+                                        </div>
+                                    </form>
+
+                                    <!-- Success Popup -->
+                                    <div id="successPopup" class="success-popup-overlay">
+                                        <div class="popup-box">
+                                            <div class="popup-icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div id="popupMessage"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Right Side Images -->
+                                <div class="contact-illustration-col" data-aos="fade-left">
+                                    <div class="illustration-box">
+                                        <img src="/cr_internal_website_theme/static/src/img/b2.png" alt="Get in Touch" class="img-fluid"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="oe_structure" id="oe_structure_service1_contact_form">
+                    <section class="s_faq_dynamic_snippet py-5 o_faq_template_1"
+                             data-snippet="cs_dynamic_snippet_faq"
+                             data-name="FAQs Templates">
+                        <div class="container s_faq_container">
+                        </div>
+                    </section>
+                </div>
 
             </div>
         </section>
 
 
     </template>
+
+    <!-- <record id="cr_internal_website_theme.service1_erp_solution_000_scss" model="ir.asset">
+        <field name="name">SERVICE-1 000 SCSS</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">cr_internal_website_theme/static/src/snippets/service1_erp_solution/000.scss</field>
+    </record>
+
+    <record id="cr_internal_website_theme.service1_erp_solution_000_js" model="ir.asset">
+        <field name="name">SERVICE-1 000 JS</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">cr_internal_website_theme/static/src/snippets/service1_erp_solution/000.js</field>
+    </record> -->
 
     <record id="cr_internal_website_theme.service1_erp_solution_000_scss" model="ir.asset">
         <field name="name">SERVICE-1 000 SCSS</field>

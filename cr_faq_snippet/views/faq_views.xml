@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="faq_config_list_view" model="ir.ui.view">
+        <field name="name">FAQs List</field>
+        <field name="model">faq.snippet</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="question"/>
+                <field name="website_page_id"/>
+                <field name="answer"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="faq_config_form_view" model="ir.ui.view">
+        <field name="name">FAQs Form</field>
+        <field name="model">faq.snippet</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="website_page_id"/>
+                    </group>
+                    <group>
+                        <field name="question"/>
+                    </group>
+                    <group>
+                        <field name="answer"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="faq_config_action" model="ir.actions.act_window">
+        <field name="name">FAQs</field>
+        <field name="res_model">faq.snippet</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                No Record Found!!
+            </p>
+        </field>
+    </record>
+
+</odoo>

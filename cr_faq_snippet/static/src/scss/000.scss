@@ -1,0 +1,233 @@
+.s_faq_dynamic_snippet {
+
+    background-color: #f8fafc !important;
+
+    // Hide all templates by default
+    .s_faq_template {
+        display: none;
+    }
+
+    // Show only the active template based on class on section
+    &.o_faq_template_1 .s_faq_t1 { display: block; }
+    &.o_faq_template_2 .s_faq_t2 { display: block; }
+
+    &.o_faq_template_4 .s_faq_t4 { display: block; }
+    &.o_faq_template_5 .s_faq_t5 { display: block; }
+
+    // Template 3 numbered style
+    .s_faq_number {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #e2e8f0;
+        min-width: 60px;
+        line-height: 1;
+    }
+}
+/* Odoo Dynamic FAQ - Master Stylesheet
+   Theme: Structured Corporate Blue
+   DNA: #002855 (Navy) | #e6f0ff (Azure) | #007bff (Accent Blue)
+*/
+
+.s_faq_dynamic_snippet {
+    // --- Global Section Title ---
+    .text-center.mb-5 h2.fw-bold {
+        font-size: 2.5rem;
+        color: #002855;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+
+    // ---------------------------------------------------------
+    // TEMPLATE 1: Professional Accordion (Static BG on Toggle)
+    // ---------------------------------------------------------
+    &.o_faq_template_1 {
+        .accordion-item {
+            border: none;
+            margin-bottom: 1rem;
+
+            .accordion-button {
+                font-weight: 700;
+                color: #002855;
+                background: #e6f0ff; // Azure background
+                padding: 15px 25px 15px 45px;
+                border-radius: 8px !important;
+                position: relative;
+                transition: all 0.2s ease;
+
+                &::before {
+                    content: "\f128";
+                    font-family: "FontAwesome";
+                    font-weight: 900;
+                    position: absolute;
+                    left: 18px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    color: #007bff;
+                    font-size: 1.1rem;
+                }
+
+                &:hover { background: #d0e4ff; }
+                &:focus { box-shadow: none; }
+
+                // Removed background change on toggle
+                &:not(.collapsed) {
+                    background: #e6f0ff; // Kept original Azure
+                    color: #007bff;      // Just change text color to highlight active
+                    box-shadow: none;
+                }
+            }
+
+            .accordion-body {
+                background: #ffffff;
+                border-left: 3px solid #007bff;
+                margin: 0px 0 0 10px;
+                padding: 15px 20px;
+                color: #333;
+                text-align: justify;
+            }
+        }
+    }
+
+    // ---------------------------------------------------------
+    // TEMPLATE 2: Grid Box (Dual Border Hover Animation)
+    // ---------------------------------------------------------
+    &.o_faq_template_2 {
+        .col-md-6 .border {
+            background: #f9fbff;
+            border: 2px solid #e0e6f0 !important;
+            border-radius: 12px;
+            padding: 25px !important;
+            height: 100%;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            position: relative;
+
+            h5 {
+                font-weight: 700;
+                color: #002855;
+                background: #e6f0ff;
+                padding: 12px 20px;
+                border-radius: 8px;
+                margin-top: 0;
+                margin-bottom: 1.2rem;
+                border: 2px solid transparent;
+                transition: all 0.3s ease;
+            }
+
+            &:hover {
+                transform: translateY(-5px);
+                background: #ffffff;
+                border-color: #007bff !important;
+                box-shadow: 0 12px 30px rgba(0, 40, 85, 0.1);
+
+                h5 {
+                    background: #ffffff;
+                    border-color: #002855;
+                    color: #002855;
+                }
+            }
+        }
+    }
+
+    // ---------------------------------------------------------
+    // TEMPLATE 3: Numbered List
+    // ---------------------------------------------------------
+    &.o_faq_template_3 {
+        .d-flex {
+            margin-bottom: 20px;
+            padding: 15px;
+            transition: all 0.4s ease;
+
+            .s_faq_number {
+                background: #e6f0ff;
+                color: #002855;
+                font-weight: 700;
+                min-width: 45px; height: 45px;
+                display: flex; align-items: center; justify-content: center;
+                border-radius: 10px;
+            }
+
+            h5 { font-weight: 700; color: #002855; padding: 10px 20px; margin: 0; }
+
+            &:hover {
+                background: #e6f0ff;
+                .s_faq_number { background: #002855; color: #ffffff; }
+            }
+        }
+    }
+
+    // ---------------------------------------------------------
+    // TEMPLATE 4: Full-Width Accordion (Static BG on Toggle)
+    // ---------------------------------------------------------
+    &.o_faq_template_4 {
+        .accordion-item {
+            border: none !important;
+            margin-bottom: 15px;
+
+            .accordion-button {
+                font-weight: 700;
+                color: #002855;
+                background: #e6f0ff;
+                padding: 18px 25px 18px 50px;
+                border-radius: 8px !important;
+                position: relative;
+                transition: all 0.3s ease;
+
+                &::after { display: none; }
+
+                &::before {
+                    content: "+";
+                    position: absolute;
+                    left: 20px;
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    line-height: 1;
+                    transition: transform 0.3s ease;
+                }
+
+                &:hover { background: #d0e4ff; }
+
+                // Removed Navy background change on toggle
+                &:not(.collapsed) {
+                    background: #e6f0ff; // Kept original Azure
+                    color: #002855;      // Keep Navy text
+                    border-bottom-left-radius: 0 !important;
+                    border-bottom-right-radius: 0 !important;
+                    &::before {
+                        content: "\2212";
+                        color: #007bff; // Change icon color to indicate active
+                    }
+                }
+            }
+
+            .accordion-body {
+                background: #f9fbff;
+                border: 1px solid #e6f0ff;
+                border-top: none;
+                padding: 20px 25px 20px 50px;
+                border-radius: 0 0 8px 8px;
+                color: #334e68 !important;
+            }
+        }
+    }
+
+    // ---------------------------------------------------------
+    // TEMPLATE 5: Block List
+    // ---------------------------------------------------------
+    &.o_faq_template_5 {
+        .border-bottom {
+            background: #ffffff;
+            border: 1px solid #e0e6f0 !important;
+            padding: 25px !important;
+            margin-bottom: 15px;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background: #e6f0ff;
+                transform: translateY(-3px);
+                border-color: #007bff !important;
+                h5 { color: #007bff; }
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="s_contact_form" name="Neumorphic Contact Form">
+        <section class="s_contact_form cr_font py-5" data-snippet="s_contact_form" data-name="Contact Form">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Our Implementation Approach</h2>
+                    <div class="title-underline mx-auto"></div>
+                    <p class="section-description mt-4 mx-auto">
+                        We follow a structured and transparent methodology, starting from in-depth requirement analysis to successful deployment and post-implementation support. Our agile approach emphasizes collaboration, iterative development, and continuous feedback, ensuring faster delivery with minimized risks. By aligning Odoo ERP with your unique business processes, we guarantee scalability, adaptability, and long-term success. Beyond go-live, our dedicated support ensures smooth adoption, performance optimization, and sustainable business growth.
+                    </p>
+                </div>
+
+                <div class="contact-wrapper">
+                    <!-- Left Side Form -->
+                    <div class="contact-form-card" data-aos="fade-right">
+                        <div class="form-header">
+                            <h3>Get in Touch</h3>
+                            <p>Fill out the form below and our team will reach out shortly.</p>
+                        </div>
+                        <form id="erp-demo-form">
+                            <div class="form-group-neumorphic">
+                                <input type="text" name="name" class="form-control" placeholder=" " required="1"/>
+                                <label>Your Name</label>
+                            </div>
+                            <div class="form-group-neumorphic">
+                                <input type="email" name="email" class="form-control" placeholder=" " required="1"/>
+                                <label>Your Email</label>
+                            </div>
+                            <div class="form-group-neumorphic">
+                                <input type="tel" name="phone" class="form-control" placeholder=" " required="1"/>
+                                <label>Contact Number</label>
+                            </div>
+                            <div class="form-group-neumorphic">
+                                <input type="text" name="company" class="form-control" placeholder=" "/>
+                                <label>Company Name</label>
+                            </div>
+                            <div class="form-group-neumorphic">
+                                <textarea name="message" class="form-control" placeholder=" " required="1"></textarea>
+                                <label>Your Message</label>
+                            </div>
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-primary cta-button">
+                                    <span>Send Message</span>
+                                </button>
+                            </div>
+                        </form>
+
+                        <!-- Success Popup -->
+                        <div id="successPopup" class="success-popup-overlay">
+                            <div class="popup-box">
+                                <div class="popup-icon">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <div id="popupMessage"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side Images -->
+                    <div class="contact-illustration-col" data-aos="fade-left">
+                        <div class="illustration-box">
+                            <img src="/cr_internal_website_theme/static/src/img/b2.png" alt="Get in Touch" class="img-fluid"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

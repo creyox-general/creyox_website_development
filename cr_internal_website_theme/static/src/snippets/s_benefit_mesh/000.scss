@@ -171,6 +171,9 @@
     }
 
     @media (max-width: 767.98px) {
+        &.bm-cols-2 .s_benefit_card_wrapper,
+        &.bm-cols-3 .s_benefit_card_wrapper,
+        &.bm-cols-4 .s_benefit_card_wrapper,
         .s_benefit_card_wrapper {
             flex: 0 0 100% !important;
             max-width: 100% !important;

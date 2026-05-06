@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <menuitem id="faq_menu"
+              parent="website.menu_content"
+              name="FAQs"
+              action="faq_config_action"
+    />
+
+</odoo>

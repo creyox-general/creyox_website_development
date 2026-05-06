@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+<!-- SNIPPET PANEL -->
+    <template id="faq_snippet_panel" inherit_id="website.snippets" name="FAQ Snippets">
+        <xpath expr="//div[@id='snippet_structure']" position="after">
+            <div id="snippet_faq" class="o_panel">
+                <div class="o_panel_header">FAQs</div>
+                <div class="o_panel_body">
+                    <t t-snippet="cr_faq_snippet.s_dynamic_snippet_faq" string="FAQs">
+                        <keywords>faq questions content</keywords>
+                    </t>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <!-- SNIPPET OPTIONS -->
+    <template id="faq_snippet_options" inherit_id="website.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-selector=".s_faq_dynamic_snippet" data-js="FaqLayoutOptions" string="FAQ">
+                <we-select string="Layout" data-no-preview="true">
+                    <we-button string="Accordion" data-set-faq-layout="o_faq_template_1" data-name="accordion_opt"/>
+                    <we-button string="Grid" data-set-faq-layout="o_faq_template_2" data-name="grid_opt"/>
+                    <we-button string="Split" data-set-faq-layout="o_faq_template_4" data-name="split_opt"/>
+                    <we-button string="Minimal" data-set-faq-layout="o_faq_template_5" data-name="minimal_opt"/>
+                </we-select>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>
