@@ -36,8 +36,6 @@
             </section>
         </div>
 
-        <section class="cr-crm-solution-intro o_website_snippet cr_font" aria-labelledby="crm-solution-heading">
-            <div class="cr-crm-container">
                 <!-- First Row: Heading Left / Image Right -->
                 <div class="oe_structure" id="oe_structure_crm_header">
                     <section class="s_process_steps cr_font py-5" data-snippet="s_process_steps">
@@ -153,122 +151,130 @@
 <!--                    </section>-->
 <!--                </div>-->
 
-                <!-- CRM Services Grid Section -->
-                <div class="oe_structure" id="oe_structure_crm_services_grid">
-                    <section class="s_specialist_grid pt-0 pb-5 sg-cols-2 cr_font"
-                             data-snippet="s_specialist_grid"
-                             data-name="Specialist Grid">
-                        <div class="container">
-                            <!-- Section Header -->
-                            <div class="section-header text-center mb-5" data-aos="fade-up">
-                                <h2 class="section-title">
-                                    Our Comprehensive
-                                    <span class="text-gradient">CRM Services</span>
-                                </h2>
-                                <p class="section-subtitle mt-4 mx-auto" style="max-width: 900px; font-size: 1.1rem; line-height: 1.6;">
-                                    Creyox provides end-to-end CRM services designed to help businesses simplify sales operations, strengthen customer relationships, and improve overall productivity. Whether you are implementing a CRM for the first time or upgrading your existing system, our team supports you at every stage from strategy and deployment to customization and long-term optimization. Our goal is simple: to deliver measurable results through smart CRM implementation and ongoing support.
-                                </p>
-                            </div>
+            <!-- CRM Services Grid Section -->
+            <div class="oe_structure" id="oe_structure_crm_services_grid">
+                <section class="s_specialist_grid pt-0 pb-5 sg-cols-2 cr_font"
+                            data-snippet="s_specialist_grid"
+                            data-name="Specialist Grid"
+                            style="background-color: #E8F0FF;">
+                    <div class="container">
+                        <!-- Section Header -->
+                        <div class="section-header text-center mb-5" data-aos="fade-up">
+                            <h2 class="section-title">
+                                Our Comprehensive
+                                <span class="text-gradient">CRM Services</span>
+                            </h2>
+                            <p class="section-subtitle mt-4 mx-auto" style="max-width: 900px; font-size: 1.1rem; line-height: 1.6;">
+                                Creyox provides end-to-end CRM services designed to help businesses simplify sales operations, strengthen customer relationships, and improve overall productivity. Whether you are implementing a CRM for the first time or upgrading your existing system, our team supports you at every stage from strategy and deployment to customization and long-term optimization. Our goal is simple: to deliver measurable results through smart CRM implementation and ongoing support.
+                            </p>
+                        </div>
 
-                            <!-- Specialist Grid -->
-                            <div class="specialist-grid-container">
-                                <div class="row g-4 s_specialist_grid_row">
-                                    <!-- Card 1: Implementation -->
-                                    <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up">
-                                        <div class="specialist-card h-100">
-                                            <div class="card-digit">01</div>
-                                            <h3 class="card-title">CRM Implementation Services</h3>
-                                            <p class="card-text">Our CRM implementation services focus on building a strong foundation for your customer management processes. We begin by understanding your sales workflows, customer lifecycle, and operational goals. Using powerful platforms like Odoo, we implement scalable and flexible CRM environments that centralize customer data, streamline sales pipelines, and automate repetitive tasks. From system setup and configuration to secure data migration and user onboarding, our CRM implementation services ensure smooth adoption across your organization.</p>
-                                        </div>
+                        <!-- Specialist Grid -->
+                        <div class="specialist-grid-container">
+                            <div class="row g-4 s_specialist_grid_row">
+                                <!-- Card 1: Implementation -->
+                                <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                    <div class="specialist-card h-100">
+                                        <div class="card-digit">01</div>
+                                        <h3 class="card-title">CRM Implementation Services</h3>
+                                        <p class="card-text">Our CRM implementation services focus on building a strong foundation for your customer management processes. We begin by understanding your sales workflows, customer lifecycle, and operational goals. Using powerful platforms like Odoo, we implement scalable and flexible CRM environments that centralize customer data, streamline sales pipelines, and automate repetitive tasks. From system setup and configuration to secure data migration and user onboarding, our CRM implementation services ensure smooth adoption across your organization.</p>
                                     </div>
-                                    <!-- Card 2: Consulting -->
-                                    <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
-                                        <div class="specialist-card h-100">
-                                            <div class="card-digit">02</div>
-                                            <h3 class="card-title">CRM Consulting Services</h3>
-                                            <p class="card-text">Successful CRM adoption starts with the right strategy. Our CRM consulting services help businesses to evaluate their current sales processes, identify inefficiencies, and design a CRM roadmap that supports long-term growth. At Creyox, our CRM consultants work closely with leadership and sales teams to understand operational challenges and customer engagement goals. By combining business expertise with technical knowledge, our CRM consulting services ensure your CRM investment delivers maximum return.</p>
-                                        </div>
+                                </div>
+                                <!-- Card 2: Consulting -->
+                                <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="specialist-card h-100">
+                                        <div class="card-digit">02</div>
+                                        <h3 class="card-title">CRM Consulting Services</h3>
+                                        <p class="card-text">Successful CRM adoption starts with the right strategy. Our CRM consulting services help businesses to evaluate their current sales processes, identify inefficiencies, and design a CRM roadmap that supports long-term growth. At Creyox, our CRM consultants work closely with leadership and sales teams to understand operational challenges and customer engagement goals. By combining business expertise with technical knowledge, our CRM consulting services ensure your CRM investment delivers maximum return.</p>
                                     </div>
-                                    <!-- Card 3: Integration -->
-                                    <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up">
-                                        <div class="specialist-card h-100">
-                                            <div class="card-digit">03</div>
-                                            <h3 class="card-title">CRM Integration Services</h3>
-                                            <p class="card-text">Modern organizations rely on multiple business tools. Our CRM Integration Services connect your CRM platform with essential tools such as email platforms, telephony systems, marketing automation software, ERP solutions, and accounting applications. If you are using 3CX for business communication and want to connect it with Odoo CRM, our 3CX–Odoo Connector makes the process simple and efficient, enabling real-time call tracking and automatic lead creation.</p>
-                                        </div>
+                                </div>
+                                <!-- Card 3: Integration -->
+                                <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                    <div class="specialist-card h-100">
+                                        <div class="card-digit">03</div>
+                                        <h3 class="card-title">CRM Integration Services</h3>
+                                        <p class="card-text">Modern organizations rely on multiple business tools. Our CRM Integration Services connect your CRM platform with essential tools such as email platforms, telephony systems, marketing automation software, ERP solutions, and accounting applications. If you are using 3CX for business communication and want to connect it with Odoo CRM, our 3CX–Odoo Connector makes the process simple and efficient, enabling real-time call tracking and automatic lead creation.</p>
                                     </div>
-                                    <!-- Card 4: Customization -->
-                                    <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
-                                        <div class="specialist-card h-100">
-                                            <div class="card-digit">04</div>
-                                            <h3 class="card-title">CRM Customization Services</h3>
-                                            <p class="card-text">Every business has unique workflows. Our CRM customization services allow organizations to tailor their CRM system to match their specific processes and industry needs. We customize dashboards, reports, workflows, automation rules, and modules to ensure your CRM system supports your exact business model. By customizing CRM platforms such as Odoo, we help businesses build a system that adapts to their growth rather than limiting it.</p>
-                                        </div>
+                                </div>
+                                <!-- Card 4: Customization -->
+                                <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="specialist-card h-100">
+                                        <div class="card-digit">04</div>
+                                        <h3 class="card-title">CRM Customization Services</h3>
+                                        <p class="card-text">Every business has unique workflows. Our CRM customization services allow organizations to tailor their CRM system to match their specific processes and industry needs. We customize dashboards, reports, workflows, automation rules, and modules to ensure your CRM system supports your exact business model. By customizing CRM platforms such as Odoo, we help businesses build a system that adapts to their growth rather than limiting it.</p>
                                     </div>
-                                    <!-- Card 5: Automation -->
-                                    <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up">
-                                        <div class="specialist-card h-100">
-                                            <div class="card-digit">05</div>
-                                            <h3 class="card-title">CRM Automation Services</h3>
-                                            <p class="card-text">Automation is a key driver of efficiency. Our CRM automation services are designed to reduce manual work, improve consistency, and enhance customer engagement. We implement automated lead assignments, follow-up reminders, sales pipeline updates, workflow triggers, and performance reporting. CRM automation ensures that no opportunity is missed and that your sales team can focus on closing deals instead of managing administrative tasks.</p>
-                                        </div>
+                                </div>
+                                <!-- Card 5: Automation -->
+                                <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                    <div class="specialist-card h-100">
+                                        <div class="card-digit">05</div>
+                                        <h3 class="card-title">CRM Automation Services</h3>
+                                        <p class="card-text">Automation is a key driver of efficiency. Our CRM automation services are designed to reduce manual work, improve consistency, and enhance customer engagement. We implement automated lead assignments, follow-up reminders, sales pipeline updates, workflow triggers, and performance reporting. CRM automation ensures that no opportunity is missed and that your sales team can focus on closing deals instead of managing administrative tasks.</p>
                                     </div>
-                                    <!-- Card 6: Development -->
-                                    <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
-                                        <div class="specialist-card h-100">
-                                            <div class="card-digit">06</div>
-                                            <h3 class="card-title">CRM Development Services</h3>
-                                            <p class="card-text">For businesses requiring advanced functionality, our CRM development services provide tailored solutions addressing complex operational needs. Our development team builds custom modules, advanced workflows, and specialized integrations that extend your CRM platform. Whether you require industry-specific features or enhanced reporting tools, our CRM development services ensure your system evolves alongside your business.</p>
-                                        </div>
+                                </div>
+                                <!-- Card 6: Development -->
+                                <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="specialist-card h-100">
+                                        <div class="card-digit">06</div>
+                                        <h3 class="card-title">CRM Development Services</h3>
+                                        <p class="card-text">For businesses requiring advanced functionality, our CRM development services provide tailored solutions addressing complex operational needs. Our development team builds custom modules, advanced workflows, and specialized integrations that extend your CRM platform. Whether you require industry-specific features or enhanced reporting tools, our CRM development services ensure your system evolves alongside your business.</p>
                                     </div>
-                                    <!-- Card 7: Training -->
-                                    <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up">
-                                        <div class="specialist-card h-100">
-                                            <div class="card-digit">07</div>
-                                            <h3 class="card-title">CRM Training Services</h3>
-                                            <p class="card-text">A CRM system delivers value only when users understand how to leverage its potential. Our CRM training services focus on empowering your team with the knowledge needed to maximize efficiency. We provide structured training sessions, onboarding programs, and best-practice guidance to ensure smooth adoption. By educating your teams on CRM workflows and automation, we help improve user confidence and overall productivity.</p>
-                                        </div>
+                                </div>
+                                <!-- Card 7: Training -->
+                                <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                    <div class="specialist-card h-100">
+                                        <div class="card-digit">07</div>
+                                        <h3 class="card-title">CRM Training Services</h3>
+                                        <p class="card-text">A CRM system delivers value only when users understand how to leverage its potential. Our CRM training services focus on empowering your team with the knowledge needed to maximize efficiency. We provide structured training sessions, onboarding programs, and best-practice guidance to ensure smooth adoption. By educating your teams on CRM workflows and automation, we help improve user confidence and overall productivity.</p>
                                     </div>
-                                    <!-- Card 8: Support -->
-                                    <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
-                                        <div class="specialist-card h-100">
-                                            <div class="card-digit">08</div>
-                                            <h3 class="card-title">CRM Support Services</h3>
-                                            <p class="card-text">Ongoing maintenance is essential for long-term SUCCESS. Our reliable CRM support services ensure your system continues to perform efficiently as your business grows. We provide technical support, performance monitoring, system updates, and issue resolution to keep your CRM stable and secure. With continuous improvements, Creyox ensures your CRM platform remains aligned with your evolving business needs.</p>
-                                        </div>
+                                </div>
+                                <!-- Card 8: Support -->
+                                <div class="col-lg-6 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="specialist-card h-100">
+                                        <div class="card-digit">08</div>
+                                        <h3 class="card-title">CRM Support Services</h3>
+                                        <p class="card-text">Ongoing maintenance is essential for long-term SUCCESS. Our reliable CRM support services ensure your system continues to perform efficiently as your business grows. We provide technical support, performance monitoring, system updates, and issue resolution to keep your CRM stable and secure. With continuous improvements, Creyox ensures your CRM platform remains aligned with your evolving business needs.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
-                </div>
+                    </div>
+                </section>
+            </div>
 
-                <!-- CRM CTA Section -->
+
+            <!-- CRM CTA Section -->
                 <div class="oe_structure" id="oe_structure_crm_cta">
-                    <section class="erp-cta-section o_wfull" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="container erp-cta-container" data-aos="zoom-in">
-                            <div class="erp-cta-row">
-                                <div class="erp-cta-text">
-                                    <h2 id="erp-cta-heading">
-                                        Ready to <span class="highlight">Transform Your Business</span>?
-                                    </h2>
-                                    <p class="mt-2 text-white-50">
-                                        Start your journey with our CRM today and experience smarter sales and stronger customer relationships.
-                                    </p>
-                                </div>
+                    <section class="s_erp_cta_wrapper cr_font" style="background: transparent;">
+                        <div class="container py-5">
+                            <div class="erp-cta-section rounded-3" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
 
-                                <!-- Button -->
-                                <div class="erp-cta-button-wrapper">
-                                    <a href="#erp-demo-form" class="cta-button light" title="Schedule Free CRM Demo"
-                                        aria-label="Get CRM Demo">
-                                        <span>Schedule a Free Demo</span>
-                                        <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
-                                    </a>
+                                <div class="container erp-cta-container">
+                                    <div class="erp-cta-row">
+                                        <!-- Text Block -->
+                                        <div class="erp-cta-text">
+                                            <h2 id="erp-cta-heading">
+                                                Ready to <span class="highlight">Transform Your Business</span>?
+                                            </h2>
+                                            <p class="mt-2 text-white-50">
+                                                Start your journey with our CRM today and experience smarter sales and stronger customer relationships.
+                                            </p>
+                                        </div>
+
+                                        <!-- Button -->
+                                        <div class="erp-cta-button-wrapper">
+                                            <a href="/contactus" class="cta-button light" title="Schedule Free ERP Demo"
+                                               aria-label="Get ERP Demo">
+                                                <span>Schedule a Free Demo</span>
+                                                <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -470,9 +476,12 @@
                     </section>
                 </div>
 
-                <!-- CRM Implementation Process Section -->
-                <div class="oe_structure" id="oe_structure_crm_implementation_process">
-                    <section class="s_feature_mesh cr_font sg-cols-3" data-snippet="s_feature_mesh" data-name="Feature Mesh">
+        <!-- CRM Implementation Process Section -->
+        <div class="oe_structure" id="oe_structure_crm_implementation_process">
+            <section class="s_feature_mesh cr_font sg-cols-3 o_wfull" 
+                     data-snippet="s_feature_mesh" 
+                     data-name="Feature Mesh"
+                     style="background-color: #E8F0FF;">
                         <div class="container py-5">
                             <!-- Section Header -->
                             <div class="section-header text-center mb-5" data-aos="fade-up">
@@ -569,8 +578,6 @@
                         </div>
                     </section>
                 </div>
-
-
 
 
                 <!-- Content Below -->
@@ -739,8 +746,6 @@
 <!--                        <dt>Does it include sales automation?</dt>-->
 <!--                        <dd>Absolutely! Automate repetitive tasks and workflows to boost efficiency.</dd>-->
 <!--                        <dt>Do you provide training?</dt>-->
-            </div>
-        </section>
 
         <div class="oe_structure cr_font" id="oe_structure_service2_faq">
             <section class="s_faq_dynamic_snippet py-5 o_faq_template_1"

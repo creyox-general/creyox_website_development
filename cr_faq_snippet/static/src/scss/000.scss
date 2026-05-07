@@ -72,7 +72,7 @@
                 // Removed background change on toggle
                 &:not(.collapsed) {
                     background: #e6f0ff; // Kept original Azure
-                    color: #007bff;      // Just change text color to highlight active
+//                     color: #007bff;      // Just change text color to highlight active
                     box-shadow: none;
                 }
             }

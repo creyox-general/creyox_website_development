@@ -102,9 +102,34 @@
 }
 
 .erp-cta-text {
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.erp-cta-button-wrapper {
+    flex-shrink: 0;
+}
+
+.erp-cta-button-wrapper .cta-button {
+    white-space: nowrap !important;
+    transition: all 0.3s ease-in-out !important;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1) !important;
+
+    &:hover {
+        transform: scale(1.08) !important;
+        box-shadow: 0 10px 40px rgba(255, 255, 255, 0.2) !important;
+
+        i {
+            transform: scale(1) !important;
+        }
+
+        &::before,
+        &::after {
+            display: none !important;
+        }
+    }
 }
 
 /* ==============================

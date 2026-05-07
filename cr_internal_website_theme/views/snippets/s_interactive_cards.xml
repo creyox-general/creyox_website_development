@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="row mb-5 text-center">
                     <div class="col-12" data-aos="fade-up">
-                        <h2 class="display-4 fw-bold mb-3">Our <span class="text-gradient">Core Solutions</span></h2>
+                        <h2 class="partner-title fw-bold mb-3">Our <span class="text-gradient">Core Solutions</span></h2>
                         <p class="lead text-muted">Select a service to explore its detailed features and capabilities.</p>
                         <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
                     </div>

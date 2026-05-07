@@ -3,7 +3,7 @@
     <template id="homepage_section9" name="Industry Solutions">
         <!-- Industry Solutions Snippet (Specialist Grid) -->
         <div class="oe_structure">
-            <section class="s_specialist_grid py-5 sg-cols-4 bg-white"
+            <section class="s_specialist_grid py-5 sg-cols-4 bg-white cr_font"
                      data-snippet="s_specialist_grid"
                      data-name="Specialist Grid">
                 <div class="container">

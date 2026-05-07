@@ -63,6 +63,49 @@
             <field name="answer">Yes, CRM support includes system maintenance, troubleshooting, updates, and continuous optimization to ensure the CRM platform continues to deliver value to the business.</field>
         </record>
 
+
+        <!-- POS Solution FAQs -->
+        <record id="pos_solution_faq_1" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_pos_solution_page"/>
+            <field name="question">What is a POS Solution?</field>
+            <field name="answer">A POS solution is a combination of software and hardware that allows businesses to process sales and streamline daily operations. It acts as the central hub where transactions happen and business data is recorded in real time.</field>
+        </record>
+        <record id="pos_solution_faq_2" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_pos_solution_page"/>
+            <field name="question">Why POS Solutions?</field>
+            <field name="answer">POS (Point of Sale) solutions are essential for businesses to Simplify sales operations, improve efficiency, and enhance customer experience. They automate billing, track inventory in real time, and manage customer data from a single system, reducing manual work and errors. With a POS solution, businesses can process transactions faster, accept multiple payment methods, and gain valuable insights through detailed sales reports and analytics.</field>
+        </record>
+        <record id="pos_solution_faq_3" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_pos_solution_page"/>
+            <field name="question">Do you sell or support POS hardware?</field>
+            <field name="answer">No. Creyox is a software and services company only. We deliver 100% Odoo-based POS software, configuration, integration, and ongoing support. We do not sell, supply, or repair any hardware. You can independently source your preferred devices and we will configure the Odoo POS software to work with them.</field>
+        </record>
+        <record id="pos_solution_faq_4" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_pos_solution_page"/>
+            <field name="question">Can your POS software integrate with my inventory and accounting system?</field>
+            <field name="answer">Yes. Our POS integration solutions are built on Odoo, which natively connects POS with inventory, accounting, CRM, and e-commerce. If you use a third-party system, our POS software integration services bridge the gap via Odoo's API framework with no manual data entry required.</field>
+        </record>
+        <record id="pos_solution_faq_5" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_pos_solution_page"/>
+            <field name="question">Do you offer POS solutions for small businesses?</field>
+            <field name="answer">Absolutely. We have dedicated Odoo POS packages for single-store and growing businesses, affordable cloud plans, simplified onboarding, and the full software feature set without an enterprise price tag. Many clients start small and scale to multiple locations on the same Odoo setup.</field>
+        </record>
+        <record id="pos_solution_faq_6" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_pos_solution_page"/>
+            <field name="question">What does your POS setup and configuration service include?</field>
+            <field name="answer">Our POS setup service covers the complete Odoo POS software configuration product and category setup, pricing rules, tax configuration, payment method setup, user roles, session settings, and staff software training. We also provide post-go-live support to ensure smooth adoption.</field>
+        </record>
+        <record id="pos_solution_faq_7" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_pos_solution_page"/>
+            <field name="question">Does Odoo POS work without an internet connection?</field>
+            <field name="answer">Yes. Odoo POS includes a built-in offline mode in the software. Transactions are stored locally in the browser session and automatically synchronised to the cloud when your connection returns. You never lose a sale due to a network outage</field>
+        </record>
+        <record id="pos_solution_faq_8" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_pos_solution_page"/>
+            <field name="question">Can I manage multiple store locations from one Odoo POS system?</field>
+            <field name="answer">Yes. Our cloud POS solutions let you monitor sales, inventory, and staff across all locations from a single Odoo dashboard. Each location can have its own software configuration, separate pricing, products, tax rules, and user roles all managed centrally.</field>
+        </record>
+
     </data>
 
 </odoo>

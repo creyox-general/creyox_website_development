@@ -355,7 +355,7 @@
 
         <!-- 3. ERP Pain Points -->
         <section class="s_erp_pain_points cr_font sg-cols-3" data-snippet="s_erp_pain_points" data-name="ERP Pain Points">
-            <div class="erp-container">
+            <div class="container">
                 <div class="erp-header-group" data-aos="fade-up">
                     <h2 class="erp-title">Is Your POS Holding You Back?</h2>
                 </div>
@@ -612,110 +612,109 @@
         </section>
 
         <!-- 7. Interactive Integration Section -->
-        <section class="s_interactive_cards cr_font py-5" data-snippet="s_interactive_cards">
-            <div class="container">
-                <div class="row mb-5 text-center">
-                    <div class="col-12" data-aos="fade-up">
-                        <h2 class="display-4 fw-bold mb-3">We're Odoo Partners: <span class="text-gradient">Integration Is Our Core</span></h2>
-                        <p class="lead text-muted mx-auto" style="max-width: 900px;">
+        <!-- Part 1: Core Integrations -->
+        <section class="s_industry_use_cases web-usecases cr_font" 
+                 data-snippet="s_industry_use_cases" 
+                 data-name="Industry Use Cases">
+            <div class="container py-5">
+                <div class="row mb-5 text-center" data-aos="fade-up">
+                    <div class="col-12">
+                        <h2 class="web-usecases-title cr-title">
+                            We're Odoo Partners:
+                            <span class="text-gradient">
+                                Integration Is Our Core, Not an Add-On
+                            </span>
+                        </h2>
+                        <p class="lead text-muted mx-auto mt-4" style="max-width: 900px;">
                             Most POS providers treat integrations as costly bolt-ons. As certified Odoo partners, Creyox builds POS solutions where every module—inventory, accounting, CRM, HR—is already connected out of the box. No middleware, no manual reconciliation, no data entry nightmares.
                         </p>
-                        <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                        <div class="mx-auto rounded mt-4" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
                     </div>
                 </div>
 
-                <!-- Parent Cards Wrapper -->
-                <div class="row parent-cards-grid g-4 mb-5 justify-content-center">
-                    <div class="col-lg-4 col-md-6 parent-card-item active" data-target="pos-integrated" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="parent-card">
-                            <div class="card-icon">
-                                <i class="fa fa-link"></i>
+                <div class="web-usecases-wrapper">
+                    <div class="web-usecase-list">
+                        <!-- Card 1 -->
+                        <div class="usecase" data-aos="fade-right" data-aos-delay="100">
+                            <div class="usecase-content">
+                                <h4>POS + Inventory</h4>
+                                <p>Every sale auto-deducts stock in real time across all Odoo locations—no stock adjustments needed.</p>
                             </div>
-                            <h3 class="card-title">Seamless Integration</h3>
-                            <p class="card-desc">Experience the power of a POS that talks to every department in real-time.</p>
-                            <div class="active-indicator"></div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="usecase" data-aos="fade-right" data-aos-delay="200">
+                            <div class="usecase-content">
+                                <h4>POS + Accounting</h4>
+                                <p>Sales journals, payment entries, and GST reports are generated automatically with zero manual bookkeeping.</p>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="usecase" data-aos="fade-right" data-aos-delay="300">
+                            <div class="usecase-content">
+                                <h4>POS + CRM</h4>
+                                <p>Customer purchase data flows directly into Odoo CRM for upselling, loyalty, and retention campaigns.</p>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="usecase" data-aos="fade-right" data-aos-delay="400">
+                            <div class="usecase-content">
+                                <h4>POS + eCommerce</h4>
+                                <p>One product catalogue, one price list—consistent across your physical store and your website.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 parent-card-item" data-target="pos-strategic" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="parent-card">
-                            <div class="card-icon">
-                                <i class="fa fa-chess-knight"></i>
-                            </div>
-                            <h3 class="card-title">Strategic Advantages</h3>
-                            <p class="card-desc">Unified platform benefits that scale with your business growth.</p>
-                            <div class="active-indicator"></div>
-                        </div>
+
+                    <div class="web-usecases-image" data-aos="zoom-in">
+                        <img src="/cr_internal_website_theme/static/src/img/pos_core_integrations.png" 
+                                 alt="POS Core Integrations"
+                                 class="img-fluid"/>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <!-- Content Area for Sub-cards -->
-                <div class="sub-cards-content-wrapper">
-                    <!-- Content Block 1: Integrated -->
-                    <div class="sub-cards-container active" id="pos-integrated">
-                        <div class="row g-4 justify-content-center">
-                            <div class="col-lg-3 col-md-6 sub-card-item">
-                                <div class="sub-card">
-                                    <div class="sub-icon"><i class="fa fa-boxes"></i></div>
-                                    <h4>POS + Inventory</h4>
-                                    <p>Every sale auto-deducts stock in real time across all Odoo locations—no stock adjustments needed.</p>
-                                </div>
+        <!-- Part 2: Strategic Advantages (Reversed Layout, No Main Title) -->
+        <section class="s_industry_use_cases web-usecases cr_font o_layout_reverse py-0" 
+                 data-snippet="s_industry_use_cases" 
+                 data-name="Industry Use Cases">
+            <div class="container py-5">
+                <!-- Main title omitted as per request -->
+                <div class="web-usecases-wrapper">
+                    <div class="web-usecase-list">
+                        <!-- Card 1 -->
+                        <div class="usecase" data-aos="fade-left" data-aos-delay="100">
+                            <div class="usecase-content">
+                                <h4>One Unified Platform</h4>
+                                <p>POS, inventory, accounting, CRM—one Odoo login manages everything across your enterprise.</p>
                             </div>
-                            <div class="col-lg-3 col-md-6 sub-card-item">
-                                <div class="sub-card">
-                                    <div class="sub-icon"><i class="fa fa-file-invoice-dollar"></i></div>
-                                    <h4>POS + Accounting</h4>
-                                    <p>Sales journals and payment entries are generated automatically with zero manual bookkeeping.</p>
-                                </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="usecase" data-aos="fade-left" data-aos-delay="200">
+                            <div class="usecase-content">
+                                <h4>Cloud or On-Premise</h4>
+                                <p>Full software deployment flexibility—your data, your chosen environment, your control.</p>
                             </div>
-                            <div class="col-lg-3 col-md-6 sub-card-item">
-                                <div class="sub-card">
-                                    <div class="sub-icon"><i class="fa fa-users"></i></div>
-                                    <h4>POS + CRM</h4>
-                                    <p>Customer purchase data flows directly into Odoo CRM for upselling and loyalty campaigns.</p>
-                                </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="usecase" data-aos="fade-left" data-aos-delay="300">
+                            <div class="usecase-content">
+                                <h4>300+ Native Integrations</h4>
+                                <p>Odoo connects natively to payment gateways, logistics platforms, and marketplaces.</p>
                             </div>
-                            <div class="col-lg-3 col-md-6 sub-card-item">
-                                <div class="sub-card">
-                                    <div class="sub-icon"><i class="fa fa-shopping-cart"></i></div>
-                                    <h4>POS + eCommerce</h4>
-                                    <p>One product catalogue and price list—consistent across your physical store and website.</p>
-                                </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="usecase" data-aos="fade-left" data-aos-delay="400">
+                            <div class="usecase-content">
+                                <h4>Scales Through Software</h4>
+                                <p>Add new POS sessions, locations, and users through configuration—no new system required.</p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Content Block 2: Strategic -->
-                    <div class="sub-cards-container" id="pos-strategic">
-                        <div class="row g-4 justify-content-center">
-                            <div class="col-lg-3 col-md-6 sub-card-item">
-                                <div class="sub-card">
-                                    <div class="sub-icon"><i class="fa fa-layer-group"></i></div>
-                                    <h4>One Unified Platform</h4>
-                                    <p>POS, inventory, accounting, CRM—one Odoo login manages everything across your enterprise.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 sub-card-item">
-                                <div class="sub-card">
-                                    <div class="sub-icon"><i class="fa fa-cloud-upload-alt"></i></div>
-                                    <h4>Cloud or On-Premise</h4>
-                                    <p>Full software deployment flexibility—your data, your chosen environment, your control.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 sub-card-item">
-                                <div class="sub-card">
-                                    <div class="sub-icon"><i class="fa fa-plug"></i></div>
-                                    <h4>300+ Native Integrations</h4>
-                                    <p>Odoo connects natively to payment gateways, logistics platforms, and marketplaces.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 sub-card-item">
-                                <div class="sub-card">
-                                    <div class="sub-icon"><i class="fa fa-chart-line"></i></div>
-                                    <h4>Scales Through Software</h4>
-                                    <p>Add new POS sessions and users through configuration—no new system required.</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="web-usecases-image" data-aos="zoom-in">
+                        <img src="/cr_internal_website_theme/static/src/img/pos_strategic_advantages.png" 
+                            alt="Strategic POS Advantages" 
+                            class="img-fluid"/>
                     </div>
                 </div>
             </div>
@@ -723,7 +722,7 @@
 
         <!-- 9. Kinetic Process -->
         <section class="s_kinetic_process py-5 cr_font" data-snippet="s_kinetic_process" data-name="Kinetic Process">
-            <div class="container-fluid px-lg-5">
+            <div class="container">
                 <div class="section-header text-center mb-5" data-aos="fade-up">
                     <h2 class="section-title">
                         How We Deploy
@@ -780,7 +779,7 @@
             <div class="container">
                 <div class="row mb-5 text-center" data-aos="fade-up">
                     <div class="col-12">
-                        <h2 class="display-4 fw-bold">Our Own <span class="text-gradient">Odoo POS Software Extensions</span></h2>
+                        <h2 class="partner-title fw-bold">Our Own <span class="text-gradient">Odoo POS Software Extensions</span></h2>
                         <p class="lead text-muted mx-auto" style="max-width: 900px;">
                             We build and maintain our own Odoo POS software apps available on the Odoo App Store and fully installed, configured, and supported by our team as part of your POS service engagement.
                         </p>
@@ -830,31 +829,67 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Extension 3 -->
+                    <div class="process-step-row row align-items-center mb-5" data-aos="fade-up">
+                        <div class="col-lg-6 step-text-col">
+                            <div class="step-card text-card">
+                                <h3 class="step-title">POS Payment Terminal Integration</h3>
+                                <p class="step-desc">A powerful Stripe terminal integration for Odoo POS that enables secure, real-time card payments directly from your POS system. This connector creates a bi-directional connection between Odoo POS and Stripe payment terminals, allowing transactions to be processed instantly while synchronizing payment status back to Odoo.</p>
+                                <div class="partner-cta-group mt-4">
+                                    <a href="https://apps.odoo.com/apps/modules/19.0/cr_pos_payment_stripe_card" class="cta-button primary" target="_blank">
+                                        <span>View App Details</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 step-image-col">
+                            <div class="step-card image-card">
+                                <img src="/cr_internal_website_theme/static/src/img/pos-res.png" alt="POS Payment Terminal Integration" class="img-fluid"/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </section>
+        <section class="cr-crm-solution-intro cr_font py-0">
+            <div class="cr-crm-container">
+                <!-- 12. ERP CTA -->
+                <section class="erp-cta-section rounded-3" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="container erp-cta-container">
+                        <div class="erp-cta-row">
+                            <div class="erp-cta-text">
+                                <h2 id="erp-cta-heading" style="color: white;">
+                                    Ready to <span style="color: #4cc9f0;">Upgrade Your POS Experience</span>? 🚀
+                                </h2>
+                            </div>
+                            <div class="erp-cta-button-wrapper">
+                                <a href="#erp-demo-form" class="cta-button light" title="Schedule Free ERP Demo" aria-label="Get ERP Demo">
+                                    <span>Request a Free Demo</span>
+                                    <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </section>
 
-        <!-- 12. ERP CTA -->
-        <section class="erp-cta-section o_wfull" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="container erp-cta-container">
-                <div class="erp-cta-row">
-                    <div class="erp-cta-text">
-                        <h2 id="erp-cta-heading" style="color: white;">
-                            Ready to <span style="color: #4cc9f0;">Upgrade Your POS Experience</span>? 🚀
-                        </h2>
-                    </div>
-                    <a href="#erp-demo-form" class="cta-button light" title="Schedule Free ERP Demo" aria-label="Get ERP Demo">
-                        <span>Request a Free Demo</span>
-                        <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
-                    </a>
+
+        <div class="oe_structure cr_font" id="oe_structure_service3_faq">
+            <section class="s_faq_dynamic_snippet py-5 o_faq_template_1"
+                    data-snippet="s_dynamic_snippet_faq"
+                    data-name="FAQs Templates">
+                <div class="container s_faq_container">
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </template>
 
 <!--    <record id="cr_internal_website_theme.service3_pos_solution_000_scss" model="ir.asset">-->
