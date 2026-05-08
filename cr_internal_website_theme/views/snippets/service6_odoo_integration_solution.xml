@@ -82,40 +82,38 @@
                      data-snippet="s_milestone_section"
                      data-name="Milestone Section">
                 <div class="milestone-wrapper">
-                    <div class="container">
-                        <div class="milestone-grid" role="list">
-                            <!-- Card 1 -->
-                            <div class="milestone-card" style="--i:1" role="listitem">
-                                <div class="milestone-icon" aria-hidden="true">
-                                    <i class="fas fa-certificate"/>
-                                </div>
-                                <h3>Certified</h3>
-                                <p>Odoo Integration Experts</p>
+                    <div class="milestone-grid" role="list">
+                        <!-- Card 1 -->
+                        <div class="milestone-card" style="--i:1" role="listitem">
+                            <div class="milestone-icon" aria-hidden="true">
+                                <i class="fas fa-certificate"/>
                             </div>
-                            <!-- Card 2 -->
-                            <div class="milestone-card" style="--i:2" role="listitem">
-                                <div class="milestone-icon" aria-hidden="true">
-                                    <i class="fas fa-plug"/>
-                                </div>
-                                <h3>50+</h3>
-                                <p>Platforms Successfully Integrated</p>
+                            <h3>Certified</h3>
+                            <p>Odoo Integration Experts</p>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="milestone-card" style="--i:2" role="listitem">
+                            <div class="milestone-icon" aria-hidden="true">
+                                <i class="fas fa-plug"/>
                             </div>
-                            <!-- Card 3 -->
-                            <div class="milestone-card" style="--i:3" role="listitem">
-                                <div class="milestone-icon" aria-hidden="true">
-                                    <i class="fas fa-code"/>
-                                </div>
-                                <h3>API</h3>
-                                <p>REST, SOAP &amp; GraphQL Expertise</p>
+                            <h3>50+</h3>
+                            <p>Platforms Successfully Integrated</p>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="milestone-card" style="--i:3" role="listitem">
+                            <div class="milestone-icon" aria-hidden="true">
+                                <i class="fas fa-code"/>
                             </div>
-                            <!-- Card 4 -->
-                            <div class="milestone-card" style="--i:4" role="listitem">
-                                <div class="milestone-icon" aria-hidden="true">
-                                    <i class="fas fa-puzzle-piece"/>
-                                </div>
-                                <h3>Custom</h3>
-                                <p>Connectors Built from Scratch</p>
+                            <h3>API</h3>
+                            <p>REST, SOAP &amp; GraphQL Expertise</p>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="milestone-card" style="--i:4" role="listitem">
+                            <div class="milestone-icon" aria-hidden="true">
+                                <i class="fas fa-puzzle-piece"/>
                             </div>
+                            <h3>Custom</h3>
+                            <p>Connectors Built from Scratch</p>
                         </div>
                     </div>
                 </div>
@@ -640,34 +638,32 @@
         </div>
 
         <!-- 10. ERP CTA Snippet -->
-        <section class="cr-pos-solution-intro cr_font">
-            <div class="cr-pos-container">
-                <div class="oe_structure" id="oe_structure_service6_cta">
-                    <section class="erp-cta-section cr_font o_wfull" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="container erp-cta-container" data-aos="zoom-in">
-                            <div class="erp-cta-row">
-                                <div class="erp-cta-text">
-                                    <h2 id="erp-cta-heading">
-                                        Do You Have a Specific <span class="highlight">Integration</span> Need ?
-                                    </h2>
-                                </div>
-                                <div class="erp-cta-button-wrapper">
-                                    <a href="/contactus" class="cta-button light">
-                                        <span>Request a Integration Demo</span>
-                                        <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
+       
+        <div class="oe_structure" id="oe_structure_service6_cta">
+            <section class="erp-cta-section cr_font" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="container erp-cta-container" data-aos="zoom-in">
+                    <div class="erp-cta-row">
+                        <div class="erp-cta-text text-center">
+                            <h2 id="erp-cta-heading">
+                                Do You Have a Specific <span class="highlight">Integration</span> Need ?
+                            </h2>
                         </div>
-                    </section>
+                        <div class="erp-cta-button-wrapper">
+                            <a href="/contactus" class="cta-button light">
+                                <span>Request a Integration Demo</span>
+                                <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
+
 
         <div class="oe_structure cr_font" id="oe_structure_service6_faq">
             <section class="s_faq_dynamic_snippet o_faq_template_1"

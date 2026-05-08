@@ -196,6 +196,37 @@
             <field name="answer">Yes. We integrate Odoo with Shopify, WooCommerce, Magento, Amazon, eBay, TikTok Shop, and other commerce platforms syncing products, orders, inventory, customers, and returns in real time across all channels.</field>
         </record>
 
+        <record id="odoo_implementation_faq_1" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_implementation_page"/>
+            <field name="question">What is Odoo implementation?</field>
+            <field name="answer">Odoo implementation is the process of deploying and configuring the Odoo ERP platform to match your business workflows covering setup, customization, data migration, training, and support.</field>
+        </record>
+        <record id="odoo_implementation_faq_2" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_implementation_page"/>
+            <field name="question">How long does the Odoo implementation process take?</field>
+            <field name="answer">Timelines vary by project scope. A small business implementation can take 4–8 weeks; mid-market projects typically run 3–5 months; complex enterprise rollouts may extend to 6–12 months.</field>
+        </record>
+        <record id="odoo_implementation_faq_3" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_implementation_page"/>
+            <field name="question">Do you provide post-implementation support?</field>
+            <field name="answer">Yes. We offer structured post-go-live support plans covering monitoring, bug fixes, user queries, and regular system optimization.</field>
+        </record>
+        <record id="odoo_implementation_faq_4" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_implementation_page"/>
+            <field name="question">Can you migrate data from our existing system?</field>
+            <field name="answer">Absolutely. We handle migration from any legacy ERP, accounting software, spreadsheets, or databases with full data validation and integrity checks.</field>
+        </record>
+        <record id="odoo_implementation_faq_5" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_implementation_page"/>
+            <field name="question">Is Odoo implementation suitable for small businesses?</field>
+            <field name="answer">Yes. Odoo is particularly well-suited for small and growing businesses. We help small teams implement just what they need, with room to scale.</field>
+        </record>
+        <record id="odoo_implementation_faq_6" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_implementation_page"/>
+            <field name="question">What makes Creyox different from other Odoo implementation companies?</field>
+            <field name="answer">We take a consultative, business-first approach. We don't just deploy software, we invest in understanding your operations and building an ERP that genuinely improves them.</field>
+        </record>
+
     </data>
 
 </odoo>

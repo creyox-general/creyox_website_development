@@ -7,9 +7,34 @@
     overflow: hidden;
     padding: clamp(40px, 6vw, 60px) clamp(20px, 4vw, 40px);
     z-index: 1;
-    margin: 0;
     border-radius: 16px;
-    /* consistent with grid cards */
+    margin: 40px auto !important;
+
+    /* Reset o_wfull breakout properties to match container width */
+    width: calc(100% - 30px) !important;
+    left: auto !important;
+    transform: none !important;
+
+    /* Responsive container widths */
+    @media (min-width: 576px) {
+        max-width: 540px;
+    }
+
+    @media (min-width: 768px) {
+        max-width: 720px;
+    }
+
+    @media (min-width: 992px) {
+        max-width: 960px;
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 1140px;
+    }
+
+    @media (min-width: 1400px) {
+        max-width: 1320px;
+    }
 }
 
 /* Ensure the wrapper doesn't have a background */

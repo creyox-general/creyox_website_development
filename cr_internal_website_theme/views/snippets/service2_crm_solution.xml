@@ -244,42 +244,33 @@
 
 
             <!-- CRM CTA Section -->
-                <div class="oe_structure" id="oe_structure_crm_cta">
-                    <section class="s_erp_cta_wrapper cr_font" style="background: transparent;">
-                        <div class="container py-5">
-                            <div class="erp-cta-section rounded-3" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
-                                <div class="bubble"></div>
-                                <div class="bubble"></div>
-                                <div class="bubble"></div>
-                                <div class="bubble"></div>
-                                <div class="bubble"></div>
-
-                                <div class="container erp-cta-container">
-                                    <div class="erp-cta-row">
-                                        <!-- Text Block -->
-                                        <div class="erp-cta-text">
-                                            <h2 id="erp-cta-heading">
-                                                Ready to <span class="highlight">Transform Your Business</span>?
-                                            </h2>
-                                            <p class="mt-2 text-white-50">
-                                                Start your journey with our CRM today and experience smarter sales and stronger customer relationships.
-                                            </p>
-                                        </div>
-
-                                        <!-- Button -->
-                                        <div class="erp-cta-button-wrapper">
-                                            <a href="/contactus" class="cta-button light" title="Schedule Free ERP Demo"
-                                               aria-label="Get ERP Demo">
-                                                <span>Schedule a Free Demo</span>
-                                                <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+            <div class="oe_structure" id="oe_structure_service2_cta">
+                <section class="erp-cta-section cr_font" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="container erp-cta-container" data-aos="zoom-in">
+                        <div class="erp-cta-row">
+                            <div class="erp-cta-text text-center">
+                                <h2 id="erp-cta-heading">
+                                    Ready to <span class="highlight">Transform Your Business</span>?
+                                </h2>
+                                <p class="mt-2 text-white-50">
+                                    Start your journey with our CRM today and experience smarter sales and stronger customer relationships.
+                                </p>
+                            </div>
+                            <div class="erp-cta-button-wrapper">
+                                <a href="/contactus" class="cta-button light">
+                                    <span>Schedule a Free Demo</span>
+                                    <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+                                </a>
                             </div>
                         </div>
-                    </section>
-                </div>
+                    </div>
+                </section>
+            </div>
 
                 <!-- CRM Odoo Solution Section -->
                 <div class="oe_structure" id="oe_structure_crm_odoo_solution">

@@ -32,11 +32,33 @@
 }
 
 .erp-comparison-container-v3 {
-    max-width: 1320px;
+    width: 100%;
+
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 15px; // Matches standard container padding
     position: relative;
     z-index: 2;
+
+    /* Responsive container widths to match .container */
+    @media (min-width: 576px) {
+        max-width: 540px;
+    }
+
+    @media (min-width: 768px) {
+        max-width: 720px;
+    }
+
+    @media (min-width: 992px) {
+        max-width: 960px;
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 1140px;
+    }
+
+    @media (min-width: 1400px) {
+        max-width: 1320px;
+    }
 }
 
 .erp-comparison-header-v3 {

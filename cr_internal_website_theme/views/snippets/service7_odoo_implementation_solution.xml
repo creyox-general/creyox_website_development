@@ -51,8 +51,9 @@
         <div class="oe_structure" id="oe_structure_service7_trusted_partner">
             <section class="s_trusted_odoo_partner cr_font"
                      data-snippet="s_trusted_odoo_partner"
-                     data-name="Trusted Odoo Partner">
-                <div class="container py-5">
+                     data-name="Trusted Odoo Partner"
+                     style="padding: 60px 0;">
+                <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
                             <div class="partner-content-box">
@@ -86,10 +87,11 @@
 
         <!-- 2. Comprehensive Service Snippet -->
         <div class="oe_structure" id="oe_structure_service7_comprehensive_service">
-            <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
+            <section class="s_comprehensive_service s_trusted_odoo_partner o_layout_reverse cr_font"
                      data-snippet="s_comprehensive_service"
-                     data-name="Comprehensive Service">
-                <div class="container py-5">
+                     data-name="Comprehensive Service"
+                     style="padding: 60px 0;">
+                <div class="container">
                     <div class="row mb-5 pb-lg-3">
                         <div class="col-12 text-center" data-aos="fade-up">
                             <h2 class="partner-title mb-3">
@@ -99,25 +101,25 @@
                             <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
                         </div>
                     </div>
-                    <div class="row align-items-center gx-0">
-                        <div class="col-lg-6 mb-5 mb-lg-0 p-0" data-aos="fade-right">
+                    <div class="row align-items-center g-4">
+                        <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
                             <div class="partner-content-box text-start">
                                 <p class="partner-description partner-desc-1 mb-3 w-100">
                                     Odoo implementation is the end-to-end process of deploying, configuring, and customizing the Odoo ERP platform to match your unique business workflows. It's not just software installation, it's a strategic transformation of how your business operates.
                                 </p>
                                 <p class="partner-description partner-desc-2 mb-4 w-100">
                                     A successful Odoo ERP implementation connects your sales, inventory, accounting, HR, manufacturing, and customer service into a single, unified system eliminating data silos, reducing manual work, and giving your team real-time visibility across every department.
-                                    <br/><br/>
+                                    <br/>
                                     Done right, Odoo implementation becomes the backbone of your business growth. Done poorly, it creates frustration and wasted investment. That's why choosing the right Odoo implementation partner makes all the difference.
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-6 p-0" data-aos="fade-left">
+                        <div class="col-lg-6" data-aos="fade-down">
                             <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
                                 <img src="/cr_internal_website_theme/static/src/img/erp-solution.png"
                                      alt="What is Odoo Implementation"
                                      class="img-fluid w-100"
-                                     style="object-fit: contain; transform: scale(1.4); transform-origin: left center; z-index: 1;"/>
+                                     style="object-fit: contain; z-index: 1;"/>
                             </div>
                         </div>
                     </div>
@@ -144,7 +146,7 @@
                     </div>
                     <div class="solution-mosaic">
                         <div class="row g-4">
-                            <div class="col-lg-8" data-aos="fade-right">
+                            <div class="col-lg-7" data-aos="fade-right">
                                 <div class="stack-card card-blue h-100">
                                     <span class="card-number">01</span>
                                     <div class="card-icon-inner"><i class="fas fa-briefcase"/></div>
@@ -152,8 +154,8 @@
                                     <p class="card-text">We map your processes before touching a single module.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4" data-aos="fade-left">
-                                <div class="mosaic-image-block" style="background-image: url('/cr_internal_website_theme/static/src/img/ai_erp_dashboard_premium.png');"></div>
+                            <div class="col-lg-5" data-aos="fade-left">
+                                <div class="mosaic-image-block" style="background-image: url('/cr_internal_website_theme/static/src/img/erp_dashboard.png');"></div>
                             </div>
                             <div class="col-lg-4 col-md-6" data-aos="fade-up">
                                 <div class="stack-card card-white h-100">
@@ -164,7 +166,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 d-none d-lg-block" data-aos="zoom-in">
-                                <div class="mosaic-image-block" style="background-image: url('/cr_internal_website_theme/static/src/img/odoo_stack_v3_premium.png');"></div>
+                                <div class="mosaic-image-block" style="background-image: url('/cr_internal_website_theme/static/src/img/connectivity.png');"></div>
                             </div>
                             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                                 <div class="stack-card card-dark h-100">
@@ -175,7 +177,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-4" data-aos="fade-right">
-                                <div class="mosaic-image-block" style="background-image: url('/cr_internal_website_theme/static/src/img/odoo_stack_premium.png');"></div>
+                                <div class="mosaic-image-block" style="background-image: url('/cr_internal_website_theme/static/src/img/automation.png');"></div>
                             </div>
                             <div class="col-lg-4" data-aos="fade-up">
                                 <div class="stack-card card-white h-100">
@@ -186,7 +188,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 d-none d-lg-block" data-aos="fade-left">
-                                <div class="mosaic-image-block" style="background-image: url('/cr_internal_website_theme/static/src/img/office_team_working_premium.png');"></div>
+                                <div class="mosaic-image-block" style="background-image: url('/cr_internal_website_theme/static/src/img/partnership.png');"></div>
                             </div>
                             <div class="col-lg-6" data-aos="fade-up">
                                 <div class="stack-card card-blue h-100">
@@ -212,8 +214,8 @@
 
         <!-- 4. Benefit Mesh Snippet -->
         <div class="oe_structure" id="oe_structure_service7_benefit_mesh">
-            <section class="s_benefit_mesh cr_font bm-cols-4" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
-                <div class="container py-5">
+            <section class="s_benefit_mesh cr_font bm-cols-3" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
+                <div class="container">
                     <div class="section-header text-center mb-5" data-aos="fade-up">
                         <h2 class="section-title">
                             What's Included in Our
@@ -225,7 +227,7 @@
                         </p>
                     </div>
                     <div class="row g-4 s_benefit_mesh_row justify-content-center">
-                        <div class="col-lg-3 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">01</div>
                                 <h3 class="card-title">Business Requirement Analysis</h3>
@@ -233,7 +235,7 @@
                                 <p class="card-text">We deep-dive into your current workflows, pain points, and goals building a custom ERP blueprint that fits your operations precisely.</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">02</div>
                                 <h3 class="card-title">Module Configuration &amp; Setup</h3>
@@ -241,7 +243,7 @@
                                 <p class="card-text">We configure the right Odoo modules for your industry Sales, Purchase, Inventory, Accounting, Manufacturing, HR, CRM, and more.</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">03</div>
                                 <h3 class="card-title">Custom Development</h3>
@@ -249,7 +251,7 @@
                                 <p class="card-text">When standard Odoo features don't cover your needs, our developers build tailored solutions, custom modules, integrations, and workflows.</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="300">
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="300">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">04</div>
                                 <h3 class="card-title">Data Migration</h3>
@@ -257,7 +259,7 @@
                                 <p class="card-text">Accurate, secure migration of all your historical data customers, vendors, products, transactions from any legacy system or spreadsheet.</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="400">
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="400">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">05</div>
                                 <h3 class="card-title">User Training &amp; Onboarding</h3>
@@ -265,7 +267,7 @@
                                 <p class="card-text">Hands-on training tailored to each user role, so your team adopts Odoo confidently from day one.</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="500">
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="500">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">06</div>
                                 <h3 class="card-title">Testing &amp; Quality Assurance</h3>
@@ -273,7 +275,7 @@
                                 <p class="card-text">Unit testing, UAT, and performance checks before every go-live to ensure a stable, reliable system.</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="600">
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="600">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">07</div>
                                 <h3 class="card-title">Go-Live Support</h3>
@@ -281,7 +283,7 @@
                                 <p class="card-text">Our team stays on-call during and after your go-live to handle any surprises, quickly and efficiently.</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="700">
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="700">
                             <div class="benefit-card h-100">
                                 <div class="benefit-badge">08</div>
                                 <h3 class="card-title">Post-Implementation Support</h3>
@@ -301,10 +303,11 @@
         </div>
 
         <!-- 5. Milestone Section Snippet -->
-        <div class="oe_structure" id="oe_structure_service7_milestones">
+        
             <section class="milestone-light-section s_milestone_section cr_font"
                      data-snippet="s_milestone_section"
-                     data-name="Milestone Section">
+                     data-name="Milestone Section"
+                     style="background: #E8F0FF !important;">
                 <div class="milestone-wrapper">
                     <h2 class="milestone-heading" data-aos="fade-up">
                         Trusted by Businesses Who Needed More Than Just Software
@@ -333,12 +336,10 @@
                     </div>
                 </div>
             </section>
-        </div>
 
         <!-- 6. Kinetic Process Snippet -->
-        <div class="oe_structure" id="oe_structure_service7_kinetic_process">
-            <section class="s_kinetic_process py-5 cr_font" data-snippet="s_kinetic_process" data-name="Kinetic Process">
-                <div class="container-fluid px-lg-5">
+        
+            <section class="s_kinetic_process cr_font" data-snippet="s_kinetic_process" data-name="Kinetic Process">
                     <div class="section-header text-center mb-5" data-aos="fade-up">
                         <h2 class="section-title">
                             Our Odoo
@@ -348,71 +349,72 @@
                             We follow a structured, agile-driven Odoo implementation process that minimizes risk, ensures transparency, and keeps your business operational throughout the transition.
                         </p>
                     </div>
-                    <div class="kinetic-grid-container">
-                        <div class="row g-4 mb-4 s_kinetic_row_1 justify-content-center">
-                            <div class="col-lg-8 phase-block" data-aos="fade-right">
-                                <div class="kinetic-card h-100">
-                                    <div class="card-bg-number">01</div>
-                                    <h3 class="card-title">Discovery &amp; Requirement Gathering</h3>
-                                    <p class="card-desc">We meet your team, document your business processes, define project scope, and set clear KPIs for success.</p>
+                    <div class="kinetic-process-wrapper">
+                        <div class="kinetic-grid-container">
+                            <div class="row g-4 mb-4 s_kinetic_row_1 justify-content-center">
+                                <div class="col-lg-8 phase-block" data-aos="fade-right">
+                                    <div class="kinetic-card h-100">
+                                        <div class="card-bg-number">01</div>
+                                        <h3 class="card-title">Discovery &amp; Requirement Gathering</h3>
+                                        <p class="card-desc">We meet your team, document your business processes, define project scope, and set clear KPIs for success.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 phase-block" data-aos="fade-left">
+                                    <div class="kinetic-card h-100">
+                                        <div class="card-bg-number">02</div>
+                                        <h3 class="card-title">Solution Design &amp; Blueprint</h3>
+                                        <p class="card-desc">Our Odoo implementation consultants design a custom ERP architecture module selection, data flows, integrations, and customization roadmap.</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 phase-block" data-aos="fade-left">
-                                <div class="kinetic-card h-100">
-                                    <div class="card-bg-number">02</div>
-                                    <h3 class="card-title">Solution Design &amp; Blueprint</h3>
-                                    <p class="card-desc">Our Odoo implementation consultants design a custom ERP architecture module selection, data flows, integrations, and customization roadmap.</p>
+                            <div class="row g-4 mb-4 s_kinetic_row_2 justify-content-center">
+                                <div class="col-lg-4 phase-block" data-aos="fade-up">
+                                    <div class="kinetic-card h-100">
+                                        <div class="card-bg-number">03</div>
+                                        <h3 class="card-title">Configuration &amp; Development</h3>
+                                        <p class="card-desc">We configure Odoo modules and develop any custom components built and reviewed in iterative sprints with your feedback at every milestone.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="kinetic-card h-100">
+                                        <div class="card-bg-number">04</div>
+                                        <h3 class="card-title">Data Migration &amp; Integration</h3>
+                                        <p class="card-desc">All legacy data is cleaned, mapped, and migrated securely. Third-party tools and APIs are integrated and tested.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="kinetic-card h-100">
+                                        <div class="card-bg-number">05</div>
+                                        <h3 class="card-title">Testing &amp; User Acceptance</h3>
+                                        <p class="card-desc">Full functional, performance, and user acceptance testing. Your team validates every workflow before sign-off.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row g-4 mb-4 s_kinetic_row_2 justify-content-center">
-                            <div class="col-lg-4 phase-block" data-aos="fade-up">
-                                <div class="kinetic-card h-100">
-                                    <div class="card-bg-number">03</div>
-                                    <h3 class="card-title">Configuration &amp; Development</h3>
-                                    <p class="card-desc">We configure Odoo modules and develop any custom components built and reviewed in iterative sprints with your feedback at every milestone.</p>
+                            <div class="row g-4 s_kinetic_row_3 justify-content-center">
+                                <div class="col-lg-6 phase-block" data-aos="fade-up">
+                                    <div class="kinetic-card h-100">
+                                        <div class="card-bg-number">06</div>
+                                        <h3 class="card-title">Go-Live &amp; Deployment</h3>
+                                        <p class="card-desc">Controlled, supported launch with our team on standby ensuring a smooth transition from old system to Odoo.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="100">
-                                <div class="kinetic-card h-100">
-                                    <div class="card-bg-number">04</div>
-                                    <h3 class="card-title">Data Migration &amp; Integration</h3>
-                                    <p class="card-desc">All legacy data is cleaned, mapped, and migrated securely. Third-party tools and APIs are integrated and tested.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="200">
-                                <div class="kinetic-card h-100">
-                                    <div class="card-bg-number">05</div>
-                                    <h3 class="card-title">Testing &amp; User Acceptance</h3>
-                                    <p class="card-desc">Full functional, performance, and user acceptance testing. Your team validates every workflow before sign-off.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row g-4 s_kinetic_row_3 justify-content-center">
-                            <div class="col-lg-6 phase-block" data-aos="fade-up">
-                                <div class="kinetic-card h-100">
-                                    <div class="card-bg-number">06</div>
-                                    <h3 class="card-title">Go-Live &amp; Deployment</h3>
-                                    <p class="card-desc">Controlled, supported launch with our team on standby ensuring a smooth transition from old system to Odoo.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 phase-block" data-aos="fade-up" data-aos-delay="100">
-                                <div class="kinetic-card h-100">
-                                    <div class="card-bg-number">07</div>
+                                <div class="col-lg-6 phase-block" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="kinetic-card h-100">
+                                        <div class="card-bg-number">07</div>
                                     <h3 class="card-title">Post-Go-Live Support &amp; Optimization</h3>
                                     <p class="card-desc">We monitor performance, address issues, gather user feedback, and continuously refine your ERP for long-term success.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    </div>
+
             </section>
-        </div>
 
         <!-- 7. Service Showcase Snippet -->
         <div class="oe_structure" id="oe_structure_service7_showcase">
-            <section class="s_service_showcase cr_font sc-cols-4" data-snippet="s_service_showcase" data-name="Service Showcase">
-                <div class="container py-5">
+            <section class="s_service_showcase cr_font sc-cols-3" data-snippet="s_service_showcase" data-name="Service Showcase">
+                <div class="container">
                     <div class="section-header text-center mb-5" data-aos="fade-up">
                         <h2 class="section-title">
                             Odoo ERP Implementation
@@ -424,56 +426,56 @@
                         </p>
                     </div>
                     <div class="row g-4 s_service_showcase_row justify-content-center">
-                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up">
                             <div class="service-card card-blue">
                                 <div class="card-icon"><i class="fas fa-industry"/></div>
                                 <h3 class="card-title">Manufacturing &amp; Production</h3>
                                 <p class="card-text">Bill of materials, work orders, production planning, quality control, shop floor management. We've implemented Odoo Manufacturing for discrete manufacturers, process manufacturers, and job-shop environments.</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
                             <div class="service-card card-dark">
                                 <div class="card-icon"><i class="fas fa-truck-loading"/></div>
                                 <h3 class="card-title">Trading &amp; Distribution</h3>
                                 <p class="card-text">Multi-warehouse inventory, purchase automation, sales order management, delivery tracking. Ideal for importers, exporters, and wholesale distributors.</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
                             <div class="service-card card-blue">
                                 <div class="card-icon"><i class="fas fa-shopping-cart"/></div>
                                 <h3 class="card-title">Retail &amp; E-Commerce</h3>
                                 <p class="card-text">POS integration, online store management, loyalty programs, and real-time stock sync across physical and online channels.</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="300">
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="300">
                             <div class="service-card card-dark">
                                 <div class="card-icon"><i class="fas fa-building"/></div>
                                 <h3 class="card-title">Construction &amp; Real Estate</h3>
                                 <p class="card-text">Project-based accounting, subcontractor management, cost tracking, and customer billing by milestone.</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="400">
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="400">
                             <div class="service-card card-blue">
                                 <div class="card-icon"><i class="fas fa-user-tie"/></div>
                                 <h3 class="card-title">Professional Services &amp; Consulting</h3>
                                 <p class="card-text">Project management, timesheet tracking, resource planning, and service billing all connected to your accounts.</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="500">
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="500">
                             <div class="service-card card-dark">
                                 <div class="card-icon"><i class="fas fa-heartbeat"/></div>
                                 <h3 class="card-title">Healthcare &amp; Pharma</h3>
                                 <p class="card-text">Patient management, regulatory compliance, batch tracking, expiry management, and quality control.</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="600">
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="600">
                             <div class="service-card card-blue">
                                 <div class="card-icon"><i class="fas fa-utensils"/></div>
                                 <h3 class="card-title">Food &amp; Beverage</h3>
                                 <p class="card-text">Recipe management, batch production, FSSAI compliance, distribution tracking, and shelf-life management.</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="700">
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="700">
                             <div class="service-card card-dark">
                                 <div class="card-icon"><i class="fas fa-box-open"/></div>
                                 <h3 class="card-title">Logistics &amp; Freight</h3>
@@ -486,30 +488,36 @@
         </div>
 
         <!-- 8. ERP CTA Snippet -->
-        <div class="oe_structure" id="oe_structure_service7_cta">
-            <section class="erp-cta-section o_wfull" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
+            <section class="erp-cta-section cr_font" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
                 <div class="bubble"></div>
                 <div class="bubble"></div>
                 <div class="bubble"></div>
                 <div class="bubble"></div>
                 <div class="bubble"></div>
-                <div class="container erp-cta-container" data-aos="zoom-in">
-                    <div class="erp-cta-row">
-                        <div class="erp-cta-text">
-                            <h2 id="erp-cta-heading">
-                                Ready to Start Your <span class="highlight">Odoo Implementation?</span>
-                            </h2>
-                            <p class="text-white opacity-75 mt-3">
-                                Whether you're a startup deploying ERP for the first time or an enterprise replacing a legacy system our Odoo implementation consultants are ready to guide you.
-                            </p>
-                        </div>
-                        <div class="erp-cta-button-wrapper">
-                            <a href="/contactus" class="cta-button light">
-                                <span>Book a Free Consultation</span>
-                                <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
-                            </a>
-                        </div>
+                <div class="erp-cta-row erp-cta-container" data-aos="zoom-in">
+                    <div class="erp-cta-text text-center">
+                        <h2 id="erp-cta-heading">
+                            Ready to Start Your <span class="highlight">Odoo Implementation?</span>
+                        </h2>
+                        <p class="text-white opacity-75 mt-3">
+                            Whether you're a startup deploying ERP for the first time or an enterprise replacing a legacy system our Odoo implementation consultants are ready to guide you.
+                        </p>
                     </div>
+                    <div class="erp-cta-button-wrapper">
+                        <a href="/contactus" class="cta-button light">
+                            <span>Book a Free Consultation</span>
+                            <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        <div class="oe_structure cr_font" id="oe_structure_service7_faq">
+            <section class="s_faq_dynamic_snippet o_faq_template_1"
+                    data-snippet="s_dynamic_snippet_faq"
+                    data-name="FAQs Templates"
+                    style="padding: 100px 0px;">
+                <div class="container s_faq_container">
                 </div>
             </section>
         </div>
