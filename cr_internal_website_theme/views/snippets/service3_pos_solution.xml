@@ -290,8 +290,9 @@
         <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
                  data-snippet="s_comprehensive_service"
                  data-oe-type="snippet"
-                 data-name="Comprehensive Service">
-            <div class="container py-5">
+                 data-name="Comprehensive Service"
+                 style="padding: 60px 0 !important;">
+            <div class="container">
                 <div class="row mb-5 pb-lg-3">
                     <div class="col-12 text-center">
                         <h2 class="partner-title mb-3">
@@ -305,7 +306,7 @@
                     <div class="col-lg-6 mb-5 mb-lg-0 p-0">
                         <div class="partner-content-box text-start">
                             <p class="partner-description partner-desc-1 mb-3 w-100">
-                                From retail counters to restaurant kitchens Creyox Technologies delivers cloud POS, mobile POS, and custom POS solutions that are fully integrated with Odoo. No data silos. No downtime. No guesswork.
+                                From retail counters to restaurant kitchens Creyox Technologies delivers cloud POS, mobile POS, and custom POS solutions that are fully integrated with Odoo. No data silos. No downtime. No guesswork. Our Odoo POS solutions help businesses manage billing, inventory, customer data, accounting, and multi-store operations from one centralized platform. Whether you run a single outlet or multiple locations, we build scalable POS systems designed to improve checkout speed, simplify daily operations, and support long-term business growth.
                             </p>
                             <div class="partner-cta-group">
                                 <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
@@ -396,7 +397,7 @@
 
         <!-- 4. Feature Mesh -->
         <section class="s_feature_mesh cr_font sg-cols-3" data-snippet="s_feature_mesh" data-name="Feature Mesh">
-            <div class="container py-5">
+            <div class="container">
                 <div class="section-header text-center mb-5" data-aos="fade-up">
                     <h2 class="mesh-title">
                         POS Services Across
@@ -611,12 +612,12 @@
             </div>
         </section>
 
-        <!-- 7. Interactive Integration Section -->
+        <!-- 7. Use Cases Section -->
         <!-- Part 1: Core Integrations -->
         <section class="s_industry_use_cases web-usecases cr_font" 
                  data-snippet="s_industry_use_cases" 
                  data-name="Industry Use Cases">
-            <div class="container py-5">
+            <div class="container">
                 <div class="row mb-5 text-center" data-aos="fade-up">
                     <div class="col-12">
                         <h2 class="web-usecases-title cr-title">
@@ -674,10 +675,11 @@
         </section>
 
         <!-- Part 2: Strategic Advantages (Reversed Layout, No Main Title) -->
-        <section class="s_industry_use_cases web-usecases cr_font o_layout_reverse py-0" 
+        <section class="s_industry_use_cases web-usecases cr_font o_layout_reverse" 
                  data-snippet="s_industry_use_cases" 
-                 data-name="Industry Use Cases">
-            <div class="container py-5">
+                 data-name="Industry Use Cases"
+                 style="padding-top: 0px !important;">
+            <div class="container">
                 <!-- Main title omitted as per request -->
                 <div class="web-usecases-wrapper">
                     <div class="web-usecase-list">
@@ -721,7 +723,7 @@
         </section>
 
         <!-- 9. Kinetic Process -->
-        <section class="s_kinetic_process py-5 cr_font" data-snippet="s_kinetic_process" data-name="Kinetic Process">
+        <section class="s_kinetic_process cr_font" data-snippet="s_kinetic_process" data-name="Kinetic Process">
             <div class="container">
                 <div class="section-header text-center mb-5" data-aos="fade-up">
                     <h2 class="section-title">
@@ -883,9 +885,10 @@
 
 
         <div class="oe_structure cr_font" id="oe_structure_service3_faq">
-            <section class="s_faq_dynamic_snippet py-5 o_faq_template_1"
+            <section class="s_faq_dynamic_snippet o_faq_template_1"
                     data-snippet="s_dynamic_snippet_faq"
-                    data-name="FAQs Templates">
+                    data-name="FAQs Templates"
+                    style="padding: 100px 0 !important;">
                 <div class="container s_faq_container">
                 </div>
             </section>

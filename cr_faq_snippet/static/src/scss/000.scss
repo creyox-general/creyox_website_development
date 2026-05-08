@@ -1,6 +1,7 @@
 .s_faq_dynamic_snippet {
 
     background-color: #f8fafc !important;
+    padding: clamp(60px, 10vw, 100px) 0 !important;
 
     // Hide all templates by default
     .s_faq_template {
@@ -8,11 +9,21 @@
     }
 
     // Show only the active template based on class on section
-    &.o_faq_template_1 .s_faq_t1 { display: block; }
-    &.o_faq_template_2 .s_faq_t2 { display: block; }
+    &.o_faq_template_1 .s_faq_t1 {
+        display: block;
+    }
 
-    &.o_faq_template_4 .s_faq_t4 { display: block; }
-    &.o_faq_template_5 .s_faq_t5 { display: block; }
+    &.o_faq_template_2 .s_faq_t2 {
+        display: block;
+    }
+
+    &.o_faq_template_4 .s_faq_t4 {
+        display: block;
+    }
+
+    &.o_faq_template_5 .s_faq_t5 {
+        display: block;
+    }
 
     // Template 3 numbered style
     .s_faq_number {
@@ -23,12 +34,14 @@
         line-height: 1;
     }
 }
+
 /* Odoo Dynamic FAQ - Master Stylesheet
    Theme: Structured Corporate Blue
    DNA: #002855 (Navy) | #e6f0ff (Azure) | #007bff (Accent Blue)
 */
 
 .s_faq_dynamic_snippet {
+
     // --- Global Section Title ---
     .text-center.mb-5 h2.fw-bold {
         font-size: 2.5rem;
@@ -66,13 +79,18 @@
                     font-size: 1.1rem;
                 }
 
-                &:hover { background: #d0e4ff; }
-                &:focus { box-shadow: none; }
+                &:hover {
+                    background: #d0e4ff;
+                }
+
+                &:focus {
+                    box-shadow: none;
+                }
 
                 // Removed background change on toggle
                 &:not(.collapsed) {
                     background: #e6f0ff; // Kept original Azure
-//                     color: #007bff;      // Just change text color to highlight active
+                    //                     color: #007bff;      // Just change text color to highlight active
                     box-shadow: none;
                 }
             }
@@ -141,16 +159,28 @@
                 background: #e6f0ff;
                 color: #002855;
                 font-weight: 700;
-                min-width: 45px; height: 45px;
-                display: flex; align-items: center; justify-content: center;
+                min-width: 45px;
+                height: 45px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 border-radius: 10px;
             }
 
-            h5 { font-weight: 700; color: #002855; padding: 10px 20px; margin: 0; }
+            h5 {
+                font-weight: 700;
+                color: #002855;
+                padding: 10px 20px;
+                margin: 0;
+            }
 
             &:hover {
                 background: #e6f0ff;
-                .s_faq_number { background: #002855; color: #ffffff; }
+
+                .s_faq_number {
+                    background: #002855;
+                    color: #ffffff;
+                }
             }
         }
     }
@@ -172,7 +202,9 @@
                 position: relative;
                 transition: all 0.3s ease;
 
-                &::after { display: none; }
+                &::after {
+                    display: none;
+                }
 
                 &::before {
                     content: "+";
@@ -184,14 +216,17 @@
                     transition: transform 0.3s ease;
                 }
 
-                &:hover { background: #d0e4ff; }
+                &:hover {
+                    background: #d0e4ff;
+                }
 
                 // Removed Navy background change on toggle
                 &:not(.collapsed) {
                     background: #e6f0ff; // Kept original Azure
-                    color: #002855;      // Keep Navy text
+                    color: #002855; // Keep Navy text
                     border-bottom-left-radius: 0 !important;
                     border-bottom-right-radius: 0 !important;
+
                     &::before {
                         content: "\2212";
                         color: #007bff; // Change icon color to indicate active
@@ -226,7 +261,10 @@
                 background: #e6f0ff;
                 transform: translateY(-3px);
                 border-color: #007bff !important;
-                h5 { color: #007bff; }
+
+                h5 {
+                    color: #007bff;
+                }
             }
         }
     }

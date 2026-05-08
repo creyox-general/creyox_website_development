@@ -147,7 +147,7 @@
 
 
 .s_specialist_grid {
-    padding: clamp(60px, 10vw, 120px) 0 !important;
+    padding: clamp(60px, 10vw, 100px) 0 !important;
     background-color: #ffffff;
     position: relative;
     overflow: hidden;
@@ -262,11 +262,9 @@
                 margin-bottom: 20px;
             }
 
-            .card-title {
-            }
+            .card-title {}
 
-            .card-text {
-            }
+            .card-text {}
         }
     }
 }
@@ -307,15 +305,12 @@
                 margin-bottom: 14px;
             }
 
-            .card-text {
-            }
+            .card-text {}
         }
 
-        .section-header .section-title {
-        }
+        .section-header .section-title {}
 
-        .section-header .section-subtitle {
-        }
+        .section-header .section-subtitle {}
     }
 }
 
@@ -381,11 +376,9 @@
         .section-header {
             padding: 0 4px;
 
-            .section-title {
-            }
+            .section-title {}
 
-            .section-subtitle {
-            }
+            .section-subtitle {}
         }
     }
 
@@ -428,15 +421,12 @@
                 margin-bottom: 8px;
             }
 
-            .card-text {
-            }
+            .card-text {}
         }
 
-        .section-header .section-title {
-        }
+        .section-header .section-title {}
 
-        .section-header .section-subtitle {
-        }
+        .section-header .section-subtitle {}
     }
 }
 

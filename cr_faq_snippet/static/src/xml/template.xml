@@ -3,12 +3,12 @@
 
     <!-- TEMPLATE 1 ACCORDION -->
     <t t-name="cr_faq_snippet.faq_template_1">
-        <div class="text-center mb-5">
+        <div class="text-center mb-5" data-aos="zoom-in">
             <h2 class="fw-bold faq-header">Frequently Asked Questions</h2>
         </div>
         <div class="accordion" id="faqAccordion1">
             <t t-foreach="records" t-as="record">
-                <div class="accordion-item border-0 mb-3 shadow-sm">
+                <div class="accordion-item border-0 mb-3 shadow-sm" data-aos="fade-up" data-aos-delay="40" data-aos-duration="60">
                     <h3 class="accordion-header">
                         <button class="accordion-button fw-semibold faq-question" type="button" data-bs-toggle="collapse"
                                 t-attf-data-bs-target="#faq1_{{record_index}}"
@@ -24,13 +24,13 @@
 
     <!-- TEMPLATE 2 CARD -->
     <t t-name="cr_faq_snippet.faq_template_2">
-        <div class="text-center mb-5">
+        <div class="text-center mb-5" data-aos="fade-up">
             <h2 class="fw-bold faq-header">Frequently Asked Questions</h2>
         </div>
         <div class="row g-4">
             <t t-foreach="records" t-as="record">
                 <div class="col-md-6">
-                    <div class="p-4 border rounded-3 h-100">
+                    <div class="p-4 border rounded-3 h-100" data-aos="zoom-in">
                         <h5 class="fw-bold faq-question" t-esc="record.question"/>
                         <p class="text-muted mb-0 faq-answer" t-esc="record.answer"/>
                     </div>
@@ -40,7 +40,7 @@
     </t>
     <!--TEMPLATE - 4 SPLIT-->
     <t t-name="cr_faq_snippet.faq_template_4">
-            <div class="row">
+            <div class="row" data-aos="fade-up">
                 <div class="col-12 text-center mb-5">
                     <h2 class="fw-bold faq-header">Frequently Asked Questions</h2>
                 </div>
@@ -50,7 +50,7 @@
                 <div class="col-lg-12">
                     <div class="accordion" id="faqAccordion4">
                         <t t-foreach="records" t-as="record">
-                            <div class="accordion-item mb-2 border">
+                            <div class="accordion-item mb-2 border" data-aos="zoom-in-up">
                                 <h3 class="accordion-header">
                                     <button class="accordion-button collapsed fw-bold faq-question" type="button"
                                             data-bs-toggle="collapse"
@@ -69,13 +69,13 @@
     </t>
     <!--TEMPLATE-5 MINIMAL-->
     <t t-name="cr_faq_snippet.faq_template_5">
-        <div class="text-center mb-5">
+        <div class="text-center mb-5" data-aos="fade-up">
             <h2 class="fw-bold faq-header">Frequently Asked Questions</h2>
         </div>
         <div class="row justify-content-center">
             <t t-foreach="records" t-as="record">
                 <div class="col-lg-12">
-                    <div class="border-bottom py-4">
+                    <div class="border-bottom py-4" data-aos="zoom-in-up">
                         <h5 class="fw-bold mb-2 faq-question" t-esc="record.question"/>
                         <p class="text-muted mb-0 faq-answer" t-esc="record.answer"/>
                     </div>

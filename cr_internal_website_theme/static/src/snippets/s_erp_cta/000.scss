@@ -124,11 +124,6 @@
         i {
             transform: scale(1) !important;
         }
-
-        &::before,
-        &::after {
-            display: none !important;
-        }
     }
 }
 

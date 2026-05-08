@@ -307,7 +307,7 @@
 
         <!-- 6. Service Showcase Snippet (Protecting Business) -->
         <div class="oe_structure" id="oe_structure_service9_service_showcase">
-            <section class="s_service_showcase cr_font sc-cols-2" data-snippet="s_service_showcase" data-name="Service Showcase">
+            <section class="s_service_showcase cr_font sc-cols-3" data-snippet="s_service_showcase" data-name="Service Showcase">
                 <div class="container">
                     <div class="section-header text-center mb-5" data-aos="fade-up">
                         <h2 class="section-title">

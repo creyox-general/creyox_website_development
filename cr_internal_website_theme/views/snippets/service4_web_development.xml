@@ -41,51 +41,52 @@
         <div class="oe_structure" id="oe_structure_web_header">
             <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
                      data-snippet="s_comprehensive_service"
-                     data-name="Comprehensive Service">
+                     data-name="Comprehensive Service"
+                     style="padding: 60px 0 !important;">
                 <div class="container">
-                            <!-- First Row: Heading -->
-                            <div class="row mb-5 pb-lg-3">
-                                <div class="col-12 text-center" data-aos="fade-down">
-                                    <h2 class="partner-title mb-3">
-                                        Odoo Website Development That Works as Hard as
-                                        <span class="text-gradient">Your Business Does</span>
-                                    </h2>
-                                    <!-- Small decorative underline -->
-                                    <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                    <!-- First Row: Heading -->
+                    <div class="row mb-5 pb-lg-3">
+                        <div class="col-12 text-center" data-aos="fade-down">
+                            <h2 class="partner-title mb-3">
+                                Odoo Website Development That Works as Hard as
+                                <span class="text-gradient">Your Business Does</span>
+                            </h2>
+                            <!-- Small decorative underline -->
+                            <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                        </div>
+                    </div>
+                    <!-- Second Row: Text and Image -->
+                    <div class="row align-items-center gx-0">
+                        <div class="col-lg-6 mb-5 mb-lg-0 p-0" data-aos="fade-right">
+                            <div class="partner-content-box text-start">
+                                <p class="partner-description partner-desc-1 w-100 mb-4">
+                                    Creyox Technologies is an Odoo website development company that builds more than just websites. We build connected business platforms where your site, your store, your CRM, and your operations run as one unified Odoo system.
+                                </p>
+                                <div class="partner-cta-group mb-4">
+                                    <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                        <span>Get a Free Website Consultation</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                    </a>
                                 </div>
-                            </div>
-                            <!-- Second Row: Text and Image -->
-                            <div class="row align-items-center gx-0">
-                                <div class="col-lg-6 mb-5 mb-lg-0 p-0" data-aos="fade-right">
-                                    <div class="partner-content-box text-start">
-                                        <p class="partner-description partner-desc-1 w-100 mb-4">
-                                            Creyox Technologies is an Odoo website development company that builds more than just websites. We build connected business platforms where your site, your store, your CRM, and your operations run as one unified Odoo system.
-                                        </p>
-                                        <div class="partner-cta-group mb-4">
-                                            <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
-                                                <span>Get a Free Website Consultation</span>
-                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
-                                            </a>
-                                        </div>
-                                        <p class="text-muted fw-bold mb-0 mt-2 partner-description">
-                                            100+ Websites Delivered <span class="mx-1">|</span> Odoo Certified Developers <span class="mx-1">|</span> End-to-End Web Services
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 p-0" data-aos="fade-left" data-aos-delay="100">
-                                    <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
-                                        <img src="/cr_internal_website_theme/static/src/img/web-development.png"
-                                             alt="Web Development"
-                                             class="img-fluid w-100"
-                                             style="object-fit: contain; transform: scale(1.4); transform-origin: left center; z-index: 1;"/>
-                                    </div>
-                                </div>
+                                <p class="text-muted fw-bold mb-0 mt-2 partner-description">
+                                    100+ Websites Delivered <span class="mx-1">|</span> Odoo Certified Developers <span class="mx-1">|</span> End-to-End Web Services
+                                </p>
                             </div>
                         </div>
-                    </section>
+                        <div class="col-lg-6 p-0" data-aos="fade-left" data-aos-delay="100">
+                            <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
+                                <img src="/cr_internal_website_theme/static/src/img/web-development.png"
+                                        alt="Web Development"
+                                        class="img-fluid w-100"
+                                        style="object-fit: contain; transform: scale(1.4); transform-origin: left center; z-index: 1;"/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
+        </div>
         <div class="oe_structure" id="oe_structure_web_pain_cards">
-            <section class="s_erp_pain_points cr_font sg-cols-3 py-5" data-snippet="s_erp_pain_points" data-name="ERP Pain Points">
+            <section class="s_erp_pain_points cr_font sg-cols-3" style="background: #E8EFFF !important;" data-snippet="s_erp_pain_points" data-name="ERP Pain Points">
                 <div class="erp-container container">
                     <!-- Section Header -->
                     <div class="erp-header-group text-center mb-5" data-aos="fade-up">
@@ -93,7 +94,7 @@
                             Common Web Development 
                             <span class="erp-title text-gradient">Pain Points</span>
                         </h2>
-                        <div class="title-underline mx-auto mt-3 mb-4"></div>
+                        <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
                         <p class="erp-subtitle mx-auto">
                             If you're still running your website separately from your business operations, you already know the pain of disjointed data and repetitive manual tasks.
                         </p>
@@ -144,8 +145,9 @@
         <div class="oe_structure" id="oe_structure_web_comparison">
             <section class="s_erp_comparison erp-comparison-section-v3 cr_font"
                      data-snippet="s_erp_comparison"
-                     data-name="ERP Comparison">
-                <div class="erp-comparison-container-v3 py-5">
+                     data-name="ERP Comparison"
+                     style="background: #ffffff !important;">
+                <div class="erp-comparison-container-v3">
                     
                     <!-- Section Header -->
                     <div class="erp-comparison-header-v3" data-aos="fade-up">
@@ -273,7 +275,7 @@
         </div>
 
         <div class="oe_structure" id="oe_structure_web_specialist">
-            <section class="s_service_showcase cr_font sc-cols-3 py-5" data-snippet="s_service_showcase" data-name="Service Showcase">
+            <section class="s_service_showcase cr_font sc-cols-2 py-5" style="background: #E8EFFF !important;" data-snippet="s_service_showcase" data-name="Service Showcase">
                 <div class="container">
                     <!-- Section Header -->
                     <div class="section-header text-center mb-5" data-aos="fade-up">
@@ -290,7 +292,7 @@
                     <!-- Service Cards Grid -->
                     <div class="row g-4 s_service_showcase_row justify-content-center">
                         <!-- Card 1 -->
-                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                        <div class="col-lg-6 col-md-6 s_service_card_wrapper" data-aos="fade-up">
                             <div class="service-card card-blue h-100">
                                 <div class="card-icon"><i class="fas fa-laptop-code"/></div>
                                 <h3 class="card-title">Odoo Website Development</h3>
@@ -305,7 +307,7 @@
                             </div>
                         </div>
                         <!-- Card 2 -->
-                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-6 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
                             <div class="service-card card-dark h-100">
                                 <div class="card-icon"><i class="fas fa-shopping-cart"/></div>
                                 <h3 class="card-title">Odoo eCommerce Development</h3>
@@ -320,7 +322,7 @@
                             </div>
                         </div>
                         <!-- Card 3 -->
-                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-6 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
                             <div class="service-card card-blue h-100">
                                 <div class="card-icon"><i class="fas fa-code-branch"/></div>
                                 <h3 class="card-title">Custom Web Application</h3>
@@ -335,7 +337,7 @@
                             </div>
                         </div>
                         <!-- Card 4 -->
-                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="300">
+                        <div class="col-lg-6 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="300">
                             <div class="service-card card-dark h-100">
                                 <div class="card-icon"><i class="fas fa-server"/></div>
                                 <h3 class="card-title">Web Application Development</h3>
@@ -350,7 +352,7 @@
                             </div>
                         </div>
                         <!-- Card 5 -->
-                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="400">
+                        <div class="col-lg-6 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="400">
                             <div class="service-card card-blue h-100">
                                 <div class="card-icon"><i class="fas fa-exchange-alt"/></div>
                                 <h3 class="card-title">Odoo eCommerce Migration</h3>
@@ -365,7 +367,7 @@
                             </div>
                         </div>
                         <!-- Card 6 -->
-                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="500">
+                        <div class="col-lg-6 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="500">
                             <div class="service-card card-dark h-100">
                                 <div class="card-icon"><i class="fas fa-tools"/></div>
                                 <h3 class="card-title">Website Maintenance &amp; Support</h3>
@@ -385,7 +387,7 @@
 
         <div class="oe_structure" id="oe_structure_web_benefit_mesh">
             <section class="s_benefit_mesh cr_font bm-cols-2" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
-                <div class="container py-5">
+                <div class="container">
                     <!-- Section Header -->
                     <div class="section-header text-center mb-5" data-aos="fade-up">
                         <h2 class="section-title">
@@ -496,9 +498,10 @@
         </div>
 
         <div class="oe_structure" id="oe_structure_web_industries">
-            <section class="s_specialist_grid py-5 sg-cols-3 cr_font"
+            <section class="s_specialist_grid sg-cols-3 cr_font"
                      data-snippet="s_specialist_grid"
-                     data-name="Specialist Grid">
+                     data-name="Specialist Grid"
+                     style="background: #E8EFFF !important;">
                 <div class="container">
                     <!-- Section Header -->
                     <div class="section-header text-center mb-5" data-aos="fade-up">
@@ -568,8 +571,9 @@
         <div class="oe_structure" id="oe_structure_web_feature_mesh">
             <section class="s_feature_mesh cr_font sg-cols-3"
                      data-snippet="s_feature_mesh"
-                     data-name="Feature Mesh">
-                <div class="container py-5">
+                     data-name="Feature Mesh"
+                     style="background: #ffffff !important;">
+                <div class="container">
 
                     <!-- Section Header -->
                     <div class="section-header text-center mb-5" data-aos="fade-up">
@@ -677,7 +681,7 @@
         </div>
 
         <div class="oe_structure" id="oe_structure_web_process">
-            <section class="s_kinetic_process py-5 cr_font" data-snippet="s_kinetic_process" data-name="Kinetic Process">
+            <section class="s_kinetic_process py-5 cr_font" style="background: #f5f7fb !important;" data-snippet="s_kinetic_process" data-name="Kinetic Process">
                 <div class="container-fluid px-lg-5">
                     <!-- Section Header -->
                     <div class="section-header text-center mb-5" data-aos="fade-up">
@@ -860,6 +864,15 @@
                             <p>Average Client Rating</p>
                         </div>
                     </div>
+                </div>
+            </section>
+        </div>
+        
+        <div class="oe_structure cr_font" id="oe_structure_service4_faq">
+            <section class="s_faq_dynamic_snippet o_faq_template_1"
+                    data-snippet="s_dynamic_snippet_faq"
+                    data-name="FAQs Templates">
+                <div class="container s_faq_container">
                 </div>
             </section>
         </div>

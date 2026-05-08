@@ -41,7 +41,8 @@
         <div class="oe_structure" id="oe_structure_service6_trusted_partner">
             <section class="s_trusted_odoo_partner cr_font"
                      data-snippet="s_trusted_odoo_partner"
-                     data-name="Trusted Odoo Partner">
+                     data-name="Trusted Odoo Partner"
+                     style="padding: 60px 0 !important;">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
@@ -137,27 +138,27 @@
 
                     <div class="erp-comparison-grid-v3">
                         <!-- Column 1: Legacy -->
-                        <div class="erp-comparison-column-v3 legacy-col" data-aos="fade-right">
+                        <div class="erp-comparison-column-v3 legacy-col" data-aos="fade-right" style="display: flex; flex-direction: column;">
                             <div class="erp-comparison-column-header-v3">
                                 <div class="erp-comparison-column-badge-v3">Disconnected Tools</div>
                                 <h3 class="erp-comparison-column-title-v3">Legacy Setup</h3>
                             </div>
-                            <div class="erp-comparison-features-v3">
-                                <div class="erp-comparison-feature-v3">
+                            <div class="erp-comparison-features-v3" style="display: flex; flex-direction: column; flex: 1;">
+                                <div class="erp-comparison-feature-v3" style="flex: 1;">
                                     <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
                                     <div class="erp-comparison-feature-content-v3">
                                         <div class="erp-comparison-feature-title-v3">Data in Silos</div>
                                         <div class="erp-comparison-feature-text-v3">Your data lives in too many places in one system. Customers in another. Inventory somewhere else. Your team manually bridges the gap and every bridge is a potential error.</div>
                                     </div>
                                 </div>
-                                <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-feature-v3" style="flex: 1;">
                                     <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
                                     <div class="erp-comparison-feature-content-v3">
                                         <div class="erp-comparison-feature-title-v3">Manual Entry Drain</div>
                                         <div class="erp-comparison-feature-text-v3">Your team wastes hours on manual data entry. Copying data between systems isn't a workflow, it's a liability. It slows your team down, introduces errors, and scales terribly as your business grows.</div>
                                     </div>
                                 </div>
-                                <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-feature-v3" style="flex: 1;">
                                     <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
                                     <div class="erp-comparison-feature-content-v3">
                                         <div class="erp-comparison-feature-title-v3">Strategic Guesswork</div>
@@ -168,27 +169,27 @@
                         </div>
 
                         <!-- Column 2: Modern -->
-                        <div class="erp-comparison-column-v3 erp-comparison-column-premium-v3 modern-col" data-aos="fade-left">
+                        <div class="erp-comparison-column-v3 erp-comparison-column-premium-v3 modern-col" data-aos="fade-left" style="display: flex; flex-direction: column;">
                             <div class="erp-comparison-column-header-v3">
                                 <div class="erp-comparison-column-badge-v3">Odoo Integration</div>
                                 <h3 class="erp-comparison-column-title-v3">Unified Ecosystem</h3>
                             </div>
-                            <div class="erp-comparison-features-v3">
-                                <div class="erp-comparison-feature-v3">
+                            <div class="erp-comparison-features-v3" style="display: flex; flex-direction: column; flex: 1;">
+                                <div class="erp-comparison-feature-v3" style="flex: 1;">
                                     <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
                                     <div class="erp-comparison-feature-content-v3">
                                         <div class="erp-comparison-feature-title-v3">Single Source of Truth</div>
                                         <div class="erp-comparison-feature-text-v3">Our Odoo ERP integration creates a single source of truth across all your platforms.</div>
                                     </div>
                                 </div>
-                                <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-feature-v3" style="flex: 1;">
                                     <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
                                     <div class="erp-comparison-feature-content-v3">
                                         <div class="erp-comparison-feature-title-v3">Automated Data Flow</div>
                                         <div class="erp-comparison-feature-text-v3">Our Odoo API integration automates data flow so your team focuses on work that actually matters.</div>
                                     </div>
                                 </div>
-                                <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-feature-v3" style="flex: 1;">
                                     <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
                                     <div class="erp-comparison-feature-content-v3">
                                         <div class="erp-comparison-feature-title-v3">Centralised BI</div>
@@ -204,8 +205,8 @@
 
         <!-- 4. Service Showcase Snippet -->
         <div class="oe_structure" id="oe_structure_service6_showcase">
-            <section class="s_service_showcase cr_font sc-cols-3" data-snippet="s_service_showcase" data-name="Service Showcase">
-                <div class="container py-5">
+            <section class="s_service_showcase cr_font sc-cols-3" style="background-color: #ffffff !important;" data-snippet="s_service_showcase" data-name="Service Showcase">
+                <div class="container">
                     <div class="section-header text-center mb-5" data-aos="fade-up">
                         <h2 class="section-title">
                             Start Faster with Our
@@ -272,8 +273,8 @@
 
         <!-- 5. Feature Mesh Snippet -->
         <div class="oe_structure" id="oe_structure_service6_feature_mesh">
-            <section class="s_feature_mesh cr_font sg-cols-4" data-snippet="s_feature_mesh" data-name="Feature Mesh">
-                <div class="container py-5">
+            <section class="s_feature_mesh cr_font sg-cols-3" data-snippet="s_feature_mesh" data-name="Feature Mesh">
+                <div class="container">
                     <div class="section-header text-center mb-5" data-aos="fade-up">
                         <h2 class="mesh-title">
                             Every Integration Your Business
@@ -285,73 +286,73 @@
                         </p>
                     </div>
                     <div class="row g-4 fm-card-row justify-content-center">
-                        <div class="col-lg-3 col-md-6 fm-card-col" data-aos="fade-up">
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
                             <div class="split-card h-100">
                                 <div class="card-title-zone"><h3 class="card-title">Odoo API Integration</h3></div>
                                 <div class="card-body-zone"><p class="card-text">Connect Odoo to any modern platform using REST, SOAP, and GraphQL APIs. We design secure, reliable, and scalable API integrations that handle high data volumes without breaking under load.</p></div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
                             <div class="split-card h-100">
                                 <div class="card-title-zone"><h3 class="card-title">eCommerce Platform Integration</h3></div>
                                 <div class="card-body-zone"><p class="card-text">Sync Odoo with Shopify, WooCommerce, Magento, Amazon, eBay, and other commerce platforms connecting products, orders, inventory, customers, and returns in real time across every channel.</p></div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
                             <div class="split-card h-100">
                                 <div class="card-title-zone"><h3 class="card-title">Payment Gateway Integration</h3></div>
                                 <div class="card-body-zone"><p class="card-text">Integrate Odoo with Stripe, PayPal, Razorpay, Square, Adyen, and other payment providers automating invoicing, reconciliation, refunds, and financial reporting without manual intervention.</p></div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="300">
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="300">
                             <div class="split-card h-100">
                                 <div class="card-title-zone"><h3 class="card-title">CRM &amp; Marketing Tool Integration</h3></div>
                                 <div class="card-body-zone"><p class="card-text">Connect Odoo with Salesforce, HubSpot, Mailchimp, Brevo, MailerLite, and other CRM and marketing platforms keeping your customer data, campaigns, and pipelines unified and up to date.</p></div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 fm-card-col" data-aos="fade-up">
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
                             <div class="split-card h-100">
                                 <div class="card-title-zone"><h3 class="card-title">Accounting &amp; Finance Integration</h3></div>
                                 <div class="card-body-zone"><p class="card-text">Integrate Odoo with QuickBooks, Xero, Sage, Zoho Books, and other financial platforms automating reconciliation, journal entries, and financial reporting across systems.</p></div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
                             <div class="split-card h-100">
                                 <div class="card-title-zone"><h3 class="card-title">Logistics &amp; Shipping Integration</h3></div>
                                 <div class="card-body-zone"><p class="card-text">Connect Odoo with FedEx, DHL, UPS, ShipStation, and other carriers automating shipment creation, tracking updates, delivery confirmation, and return management end to end.</p></div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
                             <div class="split-card h-100">
                                 <div class="card-title-zone"><h3 class="card-title">Business Intelligence &amp; Analytics Integration</h3></div>
                                 <div class="card-body-zone"><p class="card-text">Push Odoo data to Power BI, Google Looker Studio, Tableau, Google Sheets, and BigQuery enabling real-time dashboards, custom KPI tracking, and enterprise-grade analytics.</p></div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="300">
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="300">
                             <div class="split-card h-100">
                                 <div class="card-title-zone"><h3 class="card-title">Cloud &amp; Storage Integration</h3></div>
                                 <div class="card-body-zone"><p class="card-text">Connect Odoo to AWS, Google Drive, Dropbox, OneDrive, and SharePoint for automated document storage, backup, and file management across your business.</p></div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 fm-card-col" data-aos="fade-up">
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
                             <div class="split-card h-100">
                                 <div class="card-title-zone"><h3 class="card-title">HRMS &amp; Payroll Integration</h3></div>
                                 <div class="card-body-zone"><p class="card-text">Integrate Odoo HR with external payroll systems, attendance tools, and recruitment platforms so employee data, leave records, and payroll figures stay consistent across systems.</p></div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
                             <div class="split-card h-100">
                                 <div class="card-title-zone"><h3 class="card-title">Legacy ERP &amp; Custom System Integration</h3></div>
                                 <div class="card-body-zone"><p class="card-text">Already running a legacy ERP, bespoke CRM, or a homegrown system? We build custom middleware and connectors that bridge Odoo with your existing infrastructure without forcing a full replacement.</p></div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
                             <div class="split-card h-100">
                                 <div class="card-title-zone"><h3 class="card-title">Webhook &amp; Event-Driven Integration</h3></div>
                                 <div class="card-body-zone"><p class="card-text">Set up real-time, event-driven integrations using webhooks so when something happens in Odoo, your connected platforms respond instantly, without waiting for scheduled sync cycles.</p></div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="300">
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="300">
                             <div class="split-card h-100">
                                 <div class="card-title-zone"><h3 class="card-title">Custom Connector Development</h3></div>
                                 <div class="card-body-zone"><p class="card-text">No pre-built connector exists for your platform? We design and build fully custom Odoo integration connectors from scratch documented, tested, and built to last.</p></div>
@@ -364,8 +365,8 @@
 
         <!-- 6. Benefit Mesh Snippet -->
         <div class="oe_structure" id="oe_structure_service6_benefit_mesh">
-            <section class="s_benefit_mesh cr_font bm-cols-3" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
-                <div class="container py-5">
+            <section class="s_benefit_mesh cr_font bm-cols-3" style="background-color: #eff3ffff !important;" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
+                <div class="container">
                     <div class="section-header text-center mb-5" data-aos="fade-up">
                         <h2 class="section-title">
                             Why Your Business Needs
@@ -432,7 +433,7 @@
 
         <!-- 7. Specialist Grid Snippet -->
         <div class="oe_structure" id="oe_structure_service6_specialist_grid">
-            <section class="s_specialist_grid py-5 sg-cols-3" data-snippet="s_specialist_grid" data-name="Specialist Grid">
+            <section class="s_specialist_grid sg-cols-3 cr_font" data-snippet="s_specialist_grid" data-name="Specialist Grid">
                 <div class="container">
                     <div class="section-header text-center mb-5" data-aos="fade-up">
                         <h2 class="section-title">
@@ -495,7 +496,7 @@
 
         <!-- 8. Kinetic Process Snippet -->
         <div class="oe_structure" id="oe_structure_service6_process">
-            <section class="s_kinetic_process py-5" data-snippet="s_kinetic_process" data-name="Kinetic Process">
+            <section class="s_kinetic_process cr_font" data-snippet="s_kinetic_process" data-name="Kinetic Process">
                 <div class="container-fluid px-lg-5">
                     <div class="section-header text-center mb-5" data-aos="fade-up">
                         <h2 class="section-title">
@@ -508,14 +509,14 @@
                     </div>
                     <div class="kinetic-grid-container">
                         <div class="row g-4 mb-4 s_kinetic_row_1 justify-content-center">
-                            <div class="col-lg-8 phase-block" data-aos="fade-up">
+                            <div class="col-lg-6 phase-block" data-aos="fade-up">
                                 <div class="kinetic-card">
                                     <div class="card-bg-number">01</div>
                                     <h3 class="card-title">Discovery &amp; System Analysis</h3>
                                     <p class="card-desc">We audit your existing systems, map your current data flows, and identify every integration touchpoint. We document what needs to connect, what data needs to move, and how often. Deliverable: Integration Requirements Document</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="100">
+                            <div class="col-lg-6 phase-block" data-aos="fade-up" data-aos-delay="100">
                                 <div class="kinetic-card">
                                     <div class="card-bg-number">02</div>
                                     <h3 class="card-title">Architecture &amp; Data Mapping Design</h3>
@@ -563,7 +564,7 @@
         <!-- 9. ERP Pain Points Snippet -->
         <div class="oe_structure" id="oe_structure_service6_pain_points">
             <section class="s_erp_pain_points cr_font sg-cols-3" data-snippet="s_erp_pain_points" data-name="ERP Pain Points">
-                <div class="erp-container py-5">
+                <div class="erp-container">
                     <div class="erp-header-group text-center mb-5" data-aos="fade-up">
                         <h2 class="erp-title">
                             Not Just an Odoo Integration Company
@@ -639,27 +640,41 @@
         </div>
 
         <!-- 10. ERP CTA Snippet -->
-        <div class="oe_structure" id="oe_structure_service6_cta">
-            <section class="erp-cta-section o_wfull" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="container erp-cta-container" data-aos="zoom-in">
-                    <div class="erp-cta-row">
-                        <div class="erp-cta-text">
-                            <h2 id="erp-cta-heading">
-                                Have a Specific <span class="highlight">Integration</span> Need?
-                            </h2>
+        <section class="cr-pos-solution-intro cr_font">
+            <div class="cr-pos-container">
+                <div class="oe_structure" id="oe_structure_service6_cta">
+                    <section class="erp-cta-section cr_font o_wfull" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="container erp-cta-container" data-aos="zoom-in">
+                            <div class="erp-cta-row">
+                                <div class="erp-cta-text">
+                                    <h2 id="erp-cta-heading">
+                                        Do You Have a Specific <span class="highlight">Integration</span> Need ?
+                                    </h2>
+                                </div>
+                                <div class="erp-cta-button-wrapper">
+                                    <a href="/contactus" class="cta-button light">
+                                        <span>Request a Integration Demo</span>
+                                        <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="erp-cta-button-wrapper">
-                            <a href="/contactus" class="cta-button light">
-                                <span>Request a Integration Demo</span>
-                                <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <div class="oe_structure cr_font" id="oe_structure_service6_faq">
+            <section class="s_faq_dynamic_snippet o_faq_template_1"
+                    data-snippet="s_dynamic_snippet_faq"
+                    data-name="FAQs Templates"
+                    style="padding: 100px 0px;">
+                <div class="container s_faq_container">
                 </div>
             </section>
         </div>

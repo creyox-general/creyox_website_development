@@ -1,6 +1,7 @@
 .s_feature_mesh {
     background-color: #f8fbff !important;
     position: relative;
+    padding: clamp(60px, 10vw, 100px) 0 !important;
 
     /* SITE-MATCHING TYPOGRAPHY */
     .section-header {

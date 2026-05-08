@@ -38,7 +38,7 @@
 
                 <!-- First Row: Heading Left / Image Right -->
                 <div class="oe_structure" id="oe_structure_crm_header">
-                    <section class="s_process_steps cr_font py-5" data-snippet="s_process_steps">
+                    <section class="s_process_steps cr_font" style="padding: 60px !important;" data-snippet="s_process_steps">
                         <div class="container">
                             <div class="row mb-5 text-center" data-aos="fade-up">
                                 <div class="col-12">
@@ -283,7 +283,7 @@
 
                 <!-- CRM Odoo Solution Section -->
                 <div class="oe_structure" id="oe_structure_crm_odoo_solution">
-                    <section class="s_process_steps cr_font py-5" data-snippet="s_process_steps">
+                    <section class="s_process_steps cr_font" data-snippet="s_process_steps">
                         <div class="container">
                             <div class="row mb-5 text-center" data-aos="fade-up">
                                 <div class="col-12">
@@ -482,7 +482,7 @@
                      data-snippet="s_feature_mesh" 
                      data-name="Feature Mesh"
                      style="background-color: #E8F0FF;">
-                        <div class="container py-5">
+                        <div class="container">
                             <!-- Section Header -->
                             <div class="section-header text-center mb-5" data-aos="fade-up">
                                 <h2 class="mesh-title">
@@ -583,7 +583,7 @@
                 <!-- Content Below -->
                 <!-- Why Choose Our CRM Solution Milestone -->
                 <div class="oe_structure" id="oe_structure_crm_why_choose_milestone">
-                    <section class="s_milestone_section cr_font py-5" data-snippet="s_milestone_section" data-name="Milestone Section">
+                    <section class="s_milestone_section cr_font" style="padding: 80px !important;" data-snippet="s_milestone_section" data-name="Milestone Section">
                         <div class="milestone-wrapper">
                             <h2 class="milestone-heading text-center mb-5">
                                 Why Choose Our
@@ -657,10 +657,10 @@
                 </div>
 
 
-                <div class="oe_structure" id="oe_structure_crm_milestone1">
+                <div class="oe_structure" id="oe_structure_crm_milestone1" style="background: #ffffff !important;">
                     <!-- CRM Key Benefits Milestone Section -->
-                    <section class="s_milestone_section cr_font py-5"
-                             style="background: transparent !important;"
+                    <section class="s_milestone_section cr_font"
+                             style="background: transparent !important; padding: 80px !important;"
                              data-snippet="s_milestone_section"
                              data-name="Milestone Section"
                              aria-labelledby="milestones-heading-crm">
@@ -748,9 +748,10 @@
 <!--                        <dt>Do you provide training?</dt>-->
 
         <div class="oe_structure cr_font" id="oe_structure_service2_faq">
-            <section class="s_faq_dynamic_snippet py-5 o_faq_template_1"
+            <section class="s_faq_dynamic_snippet o_faq_template_1"
                     data-snippet="s_dynamic_snippet_faq"
-                    data-name="FAQs Templates">
+                    data-name="FAQs Templates"
+                    style="padding: 100px 0 !important;">
                 <div class="container s_faq_container">
                 </div>
             </section>

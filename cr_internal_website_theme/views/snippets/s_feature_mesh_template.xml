@@ -4,7 +4,7 @@
         <section class="s_feature_mesh cr_font sg-cols-3"
                  data-snippet="s_feature_mesh"
                  data-name="Feature Mesh">
-            <div class="container py-5">
+            <div class="container">
 
                 <!-- Section Header -->
                 <div class="section-header text-center mb-5" data-aos="fade-up">

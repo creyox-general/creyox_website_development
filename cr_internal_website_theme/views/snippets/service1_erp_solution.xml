@@ -41,7 +41,7 @@
             <div class="cr-erp-container">
                 <!-- First Row: Heading Left / Image Right -->
                 <div class="oe_structure" id="oe_structure_erp_header">
-                    <section class="s_process_steps cr_font py-5" data-snippet="s_process_steps">
+                    <section class="s_process_steps cr_font" data-snippet="s_process_steps" style="padding: 60px 0 !important;">
                         <div class="container">
                             <div class="row mb-5 text-center" data-aos="fade-up">
                                 <div class="col-12">
@@ -323,7 +323,7 @@
 
                 <!-- Implementation Process Showcase -->
                 <div class="oe_structure" id="oe_structure_erp_implementation_process">
-                    <section class="s_service_showcase cr_font sc-cols-3 py-5" data-snippet="s_service_showcase" data-name="Service Showcase">
+                    <section class="s_service_showcase cr_font sc-cols-3" data-snippet="s_service_showcase" data-name="Service Showcase">
                         <div class="container">
                             <!-- Section Header -->
                             <div class="section-header" data-aos="fade-up">
@@ -536,7 +536,7 @@
         </section>
 
         <div class="oe_structure cr_font" id="oe_structure_service1_faq">
-            <section class="s_faq_dynamic_snippet py-5 o_faq_template_1"
+            <section class="s_faq_dynamic_snippet o_faq_template_1"
                     data-snippet="s_dynamic_snippet_faq"
                     data-name="FAQs Templates">
                 <div class="container s_faq_container">

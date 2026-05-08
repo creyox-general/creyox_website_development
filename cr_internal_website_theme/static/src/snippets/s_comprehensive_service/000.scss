@@ -1,6 +1,7 @@
 .s_comprehensive_service {
-    padding-top: clamp(60px, 8vw, 100px);
-    padding-bottom: clamp(60px, 8vw, 100px);
+    // padding: 50px 0 !important;
+    padding: clamp(60px, 10vw, 100px) 0 !important;
+    // padding-bottom: clamp(60px, 8vw, 100px);
     background-color: #ffffff;
     overflow: hidden;
 }

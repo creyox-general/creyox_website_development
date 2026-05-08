@@ -106,6 +106,96 @@
             <field name="answer">Yes. Our cloud POS solutions let you monitor sales, inventory, and staff across all locations from a single Odoo dashboard. Each location can have its own software configuration, separate pricing, products, tax rules, and user roles all managed centrally.</field>
         </record>
 
+        <!-- Web Development FAQs -->
+        <record id="web_development_faq_1" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_web_development_page"/>
+            <field name="question">What makes you different from a regular web development company?</field>
+            <field name="answer">We are an Odoo certified partner not a generic web agency. Every website we build is developed on the Odoo framework, which means it connects natively to your CRM, inventory, accounting, and marketing. You get a business platform, not just a website.</field>
+        </record>
+        <record id="web_development_faq_2" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_web_development_page"/>
+            <field name="question">Do you only build websites on Odoo, or do you work with other platforms? </field>
+            <field name="answer">Our primary expertise and strongest offering is Odoo website development. We specialise in Odoo because it delivers capabilities no other CMS can match for businesses already on or moving to Odoo.</field>
+        </record>
+        <record id="web_development_faq_3" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_web_development_page"/>
+            <field name="question">What is included in your Odoo eCommerce website development service?</field>
+            <field name="answer">Our Odoo eCommerce development service covers full store design and configuration, product catalogue setup, payment gateway integration, inventory sync, checkout flow, shipping configuration, and post-launch support. Every eCommerce project includes full testing across devices before go-live.</field>
+        </record>
+        <record id="web_development_faq_4" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_web_development_page"/>
+            <field name="question">Can you migrate our existing website or online store to Odoo?</field>
+            <field name="answer">Yes. We provide full migration services from platforms like WordPress, Shopify, WooCommerce, and Magento to Odoo website and eCommerce. This includes product and customer data migration, URL redirect mapping for SEO preservation, and full testing before the new site goes live.</field>
+        </record>
+        <record id="web_development_faq_5" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_web_development_page"/>
+            <field name="question">How long does an Odoo website development project take?</field>
+            <field name="answer">A standard Odoo corporate website typically goes live in 3 to 4 weeks. An Odoo eCommerce development project with custom features typically takes 4 to 8 weeks depending on the product catalogue size and integration requirements. We provide a clear project timeline during the discovery phase.</field>
+        </record>
+        <record id="web_development_faq_6" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_web_development_page"/>
+            <field name="question">Do you provide responsive websites?</field>
+            <field name="answer">Yes, all websites are fully responsive and mobile-friendly.</field>
+        </record>
+        <record id="web_development_faq_7" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_web_development_page"/>
+            <field name="question">Will my Odoo website work on mobile devices?</field>
+            <field name="answer">Yes. Every website we develop is fully responsive designed and tested to perform correctly on desktop, tablet, and smartphone. Odoo's website builder is mobile-first by default, and we validate across real devices before launch.</field>
+        </record>
+        <record id="web_development_faq_8" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_web_development_page"/>
+            <field name="question">Do you provide website maintenance after launch?</field>
+            <field name="answer">Yes. Our website development team offers  post-launch maintenance like Odoo version updates, content changes, new page development, performance monitoring, security patches, and SEO health checks on an ongoing basis.</field>
+        </record>
+        <record id="web_development_faq_9" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_web_development_page"/>
+            <field name="question">Do you provide ongoing support?</field>
+            <field name="answer">Yes, our team provides maintenance, updates, and performance monitoring.</field>
+        </record>
+
+        <!-- Odoo Integration FAQs -->
+        
+        <record id="odoo_integration_faq_1" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_integration_page"/>
+            <field name="question">What is Odoo integration?</field>
+            <field name="answer">Odoo integration refers to connecting the Odoo ERP platform with external systems, applications, and tools such as eCommerce stores, payment gateways, CRM platforms, logistics providers, and analytics tools so that data flows automatically between them without manual intervention.</field>
+        </record>
+        <record id="odoo_integration_faq_2" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_integration_page"/>
+            <field name="question">Can you integrate Odoo with any platform?</field>
+            <field name="answer">In most cases, yes. If the platform has an open API REST, SOAP, or GraphQL we can integrate it with Odoo. For platforms without standard APIs, we assess custom middleware or file-based integration options during the discovery phase.</field>
+        </record>
+        <record id="odoo_integration_faq_3" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_integration_page"/>
+            <field name="question">How long does an Odoo integration project take?</field>
+            <field name="answer">Pre-built connector deployments typically take 1–2 weeks. Custom Odoo API integration projects range from 3–8 weeks depending on complexity, the number of data flows, and testing requirements. We provide a clear timeline after the discovery phase.</field>
+        </record>
+        <record id="odoo_integration_faq_4" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_integration_page"/>
+            <field name="question">Do you have pre-built integration connectors?</field>
+            <field name="answer">Yes. We have production-ready Odoo integration connectors for 3CX, TikTok Shop, Power BI, Google Sheets, Brevo, BigQuery, and more all available in the Odoo App Store under Creyox Technologies. These significantly reduce deployment time and cost.</field>
+        </record>
+        <record id="odoo_integration_faq_5" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_integration_page"/>
+            <field name="question">Is our data secure during integration?</field>
+            <field name="answer">Absolutely. Every integration we build uses encrypted data transfer (HTTPS/TLS), proper API authentication (OAuth, API keys, tokens), and structured error handling so your data is always protected in transit and at rest.</field>
+        </record>
+        <record id="odoo_integration_faq_6" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_integration_page"/>
+            <field name="question">Can you integrate Odoo with our legacy or custom system?</field>
+            <field name="answer">Yes. We specialise in bridging Odoo with legacy ERPs, custom-built platforms, and bespoke systems using middleware, custom APIs, or file-based data exchange depending on what your existing system supports.</field>
+        </record>
+        <record id="odoo_integration_faq_7" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_integration_page"/>
+            <field name="question">Do you provide support after the integration goes live?</field>
+            <field name="answer">Yes. We offer dedicated post-launch support packages covering API update management, performance monitoring, error resolution, and connector maintenance so your integrations stay stable as platforms evolve and update their APIs.</field>
+        </record>
+        <record id="odoo_integration_faq_8" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_integration_page"/>
+            <field name="question">Can you integrate Odoo with our eCommerce store?</field>
+            <field name="answer">Yes. We integrate Odoo with Shopify, WooCommerce, Magento, Amazon, eBay, TikTok Shop, and other commerce platforms syncing products, orders, inventory, customers, and returns in real time across all channels.</field>
+        </record>
+
     </data>
 
 </odoo>
