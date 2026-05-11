@@ -341,6 +341,37 @@
             <field name="question">Why choose Creyox as your Odoo migration company?</field>
             <field name="answer">Creyox brings hands-on experience across every Odoo migration scenario, version upgrades, data migrations, cloud migrations, and module porting. Our team is 100% in-house, assessment-first in our approach, and dedicated to zero data loss and minimal downtime.</field>
         </record>
+        <!-- Odoo Support Solution FAQs -->
+        <record id="odoo_support_faq_1" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_support_page"/>
+            <field name="question">What is included in your Odoo support services?</field>
+            <field name="answer">Our Odoo support services cover bug fixes, technical debugging, functional guidance, performance tuning, proactive maintenance, security audits, version upgrades, and custom enhancement requests all backed by a signed SLA agreement.</field>
+        </record>
+        <record id="odoo_support_faq_2" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_support_page"/>
+            <field name="question">Do you provide 24/7 Odoo technical support?</field>
+            <field name="answer">No. We provide support during business hours, ensuring fast and reliable assistance when your team needs it most. Critical issues are handled on priority with defined SLA response times.</field>
+        </record>
+        <record id="odoo_support_faq_3" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_support_page"/>
+            <field name="question">Do you support both Odoo Community and Enterprise editions?</field>
+            <field name="answer">Absolutely. Our team has deep experience in both Odoo Community and Odoo Enterprise editions, across versions 14, 15, 16, 17, and 18. We handle version-specific quirks and differences as a matter of course.</field>
+        </record>
+        <record id="odoo_support_faq_4" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_support_page"/>
+            <field name="question">What's the difference between Odoo technical and functional support?</field>
+            <field name="answer">Odoo technical support deals with code-level issues debugging Python/XML errors, database problems, server failures, and API issues. Odoo functional support helps users with configurations, workflows, module settings, training, and process optimization with no coding required.</field>
+        </record>
+        <record id="odoo_support_faq_5" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_support_page"/>
+            <field name="question">How do you handle urgent production issues?</field>
+            <field name="answer">Critical P1 incidents trigger immediate escalation to our senior engineers. We follow an incident response protocol that includes root cause isolation, rollback options, hotfix deployment, and post-incident review all within your contracted SLA window.</field>
+        </record>
+        <record id="odoo_support_faq_6" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_support_page"/>
+            <field name="question">Can you take over support from another vendor?</field>
+            <field name="answer">Yes. We handle vendor transitions regularly. Our onboarding process includes a full audit of your existing Odoo setup, documentation of customizations, and knowledge transfer ensuring continuity without disruption to your operations.</field>
+        </record>
     </data>
 
 </odoo>

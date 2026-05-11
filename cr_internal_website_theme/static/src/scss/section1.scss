@@ -2036,7 +2036,7 @@
     margin-bottom: -0.4em !important; /* Re-aligns perfectly to baseline */
     clip-path: inset(0); /* Strict clipping */
     -webkit-clip-path: inset(0);
-    mask-image: linear-gradient(white, white); 
+    mask-image: linear-gradient(white, white);
     -webkit-mask-image: -webkit-linear-gradient(white, white);
     transform: translateZ(0); /* Hardware acceleration for overflow */
 }

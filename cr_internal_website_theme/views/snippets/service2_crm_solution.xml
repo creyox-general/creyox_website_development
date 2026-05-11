@@ -38,7 +38,7 @@
 
                 <!-- First Row: Heading Left / Image Right -->
                 <div class="oe_structure" id="oe_structure_crm_header">
-                    <section class="s_process_steps cr_font" style="padding: 60px !important;" data-snippet="s_process_steps">
+                    <section class="s_process_steps cr_font" data-snippet="s_process_steps">
                         <div class="container">
                             <div class="row mb-5 text-center" data-aos="fade-up">
                                 <div class="col-12">
@@ -57,7 +57,7 @@
                                         <div class="step-card text-card">
                                             <p class="step-desc">
                                             Are you struggling to keep track of leads, customer conversations, and sales opportunities across emails, spreadsheets, and different tools? As your business grows, managing scattered information can make it difficult for sales teams to follow up on leads, manage deals, and maintain strong customer relationships.
-                                        </p>
+                                            </p>
 
                                         </div>
                                     </div>
@@ -77,15 +77,15 @@
                                         <div class="step-card text-card">
                                             <p class="step-desc">
                                             This is where professional CRM services can make a real difference. At Creyox, we provide comprehensive CRM services that help businesses simplify sales processes, improve customer engagement, and increase productivity. Our solutions are designed to centralize customer data, automate sales activities, and provide valuable insights that help businesses make better decisions.
-                                        </p>
-                                        <div class="partner-cta-group">
-                                            <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
-                                                <span>Get a Free CRM Consultation</span>
-                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
-                                            </a>
+                                            </p>
+                                            <div class="partner-cta-group">
+                                                <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                                    <span>Get a Free CRM Consultation</span>
+                                                    <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
                                     <div class="col-lg-6 step-image-col">
                                         <div class="step-card image-card">
                                             <img src="/cr_internal_website_theme/static/src/img/crm-services.png"
@@ -574,73 +574,93 @@
                 <!-- Content Below -->
                 <!-- Why Choose Our CRM Solution Milestone -->
                 <div class="oe_structure" id="oe_structure_crm_why_choose_milestone">
-                    <section class="s_milestone_section cr_font" style="padding: 80px !important;" data-snippet="s_milestone_section" data-name="Milestone Section">
+                    <section class="s_milestone_section cr_font" style="padding: 80px 0 !important;" data-snippet="s_milestone_section" data-name="Milestone Section">
                         <div class="milestone-wrapper">
                             <h2 class="milestone-heading text-center mb-5">
                                 Why Choose Our
                                 <span class="text-gradient">CRM Solution?</span>
                             </h2>
                             <!-- Force 3 columns via style if needed, or rely on flex-basis -->
-                            <div class="milestone-grid" role="list" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+                            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4 justify-content-center" role="list">
                                 <!-- Card 1: Lead Management -->
-                                <div class="milestone-card" style="--i:1; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" role="listitem">
-                                    <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-users"/></div>
-                                    <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Lead Management:</h3>
-                                    <p style="color: #666;">Track and manage leads effectively to maximize conversion.</p>
+                                <div class="col" data-aos="fade-up" data-aos-delay="100" role="listitem">
+                                    <div class="milestone-card h-100" style="--i:1; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                                        <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-users"/></div>
+                                        <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Lead Management:</h3>
+                                        <p style="color: #666;">Track and manage leads effectively to maximize conversion.</p>
+                                    </div>
                                 </div>
                                 <!-- Card 2: Sales Automation -->
-                                <div class="milestone-card" style="--i:2; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" role="listitem">
-                                    <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-cogs"/></div>
-                                    <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Sales Automation:</h3>
-                                    <p style="color: #666;">Automate repetitive sales tasks to save time and increase efficiency.</p>
+                                <div class="col" data-aos="fade-up" data-aos-delay="200" role="listitem">
+                                    <div class="milestone-card h-100" style="--i:2; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                                        <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-cogs"/></div>
+                                        <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Sales Automation:</h3>
+                                        <p style="color: #666;">Automate repetitive sales tasks to save time and increase efficiency.</p>
+                                    </div>
                                 </div>
                                 <!-- Card 3: Customer Insights -->
-                                <div class="milestone-card" style="--i:3; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" role="listitem">
-                                    <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-chart-line"/></div>
-                                    <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Customer Insights:</h3>
-                                    <p style="color: #666;">Gain actionable insights from detailed analytics and reporting.</p>
+                                <div class="col" data-aos="fade-up" data-aos-delay="300" role="listitem">
+                                    <div class="milestone-card h-100" style="--i:3; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                                        <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-chart-line"/></div>
+                                        <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Customer Insights:</h3>
+                                        <p style="color: #666;">Gain actionable insights from detailed analytics and reporting.</p>
+                                    </div>
                                 </div>
                                 <!-- Card 4: Pipeline Tracking -->
-                                <div class="milestone-card" style="--i:4; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" role="listitem">
-                                    <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-chart-pie"/></div>
-                                    <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Pipeline Tracking:</h3>
-                                    <p style="color: #666;">Visualize opportunities and manage your sales funnel efficiently.</p>
+                                <div class="col" data-aos="fade-up" data-aos-delay="400" role="listitem">
+                                    <div class="milestone-card h-100" style="--i:4; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                                        <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-chart-pie"/></div>
+                                        <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Pipeline Tracking:</h3>
+                                        <p style="color: #666;">Visualize opportunities and manage your sales funnel efficiently.</p>
+                                    </div>
                                 </div>
                                 <!-- Card 5: Integration -->
-                                <div class="milestone-card" style="--i:5; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" role="listitem">
-                                    <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-paper-plane"/></div>
-                                    <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Integration:</h3>
-                                    <p style="color: #666;">Connect with email, marketing, and other business apps seamlessly.</p>
+                                <div class="col" data-aos="fade-up" data-aos-delay="500" role="listitem">
+                                    <div class="milestone-card h-100" style="--i:5; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                                        <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-paper-plane"/></div>
+                                        <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Integration:</h3>
+                                        <p style="color: #666;">Connect with email, marketing, and other business apps seamlessly.</p>
+                                    </div>
                                 </div>
                                 <!-- Card 6: Customization -->
-                                <div class="milestone-card" style="--i:6; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" role="listitem">
-                                    <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-th-large"/></div>
-                                    <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Customization &amp; Flexibility:</h3>
-                                    <p style="color: #666;">Tailor workflows, dashboards, and modules to match your unique business processes.</p>
+                                <div class="col" data-aos="fade-up" data-aos-delay="600" role="listitem">
+                                    <div class="milestone-card h-100" style="--i:6; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                                        <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-th-large"/></div>
+                                        <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Customization &amp; Flexibility:</h3>
+                                        <p style="color: #666;">Tailor workflows, dashboards, and modules to match your unique business processes.</p>
+                                    </div>
                                 </div>
                                 <!-- Card 7: Mobile Accessibility -->
-                                <div class="milestone-card" style="--i:7; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" role="listitem">
-                                    <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-mobile-alt"/></div>
-                                    <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Mobile Accessibility:</h3>
-                                    <p style="color: #666;">Access your CRM anytime, anywhere with fully responsive web and mobile apps.</p>
+                                <div class="col" data-aos="fade-up" data-aos-delay="700" role="listitem">
+                                    <div class="milestone-card h-100" style="--i:7; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                                        <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-mobile-alt"/></div>
+                                        <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Mobile Accessibility:</h3>
+                                        <p style="color: #666;">Access your CRM anytime, anywhere with fully responsive web and mobile apps.</p>
+                                    </div>
                                 </div>
                                 <!-- Card 8: Collaboration -->
-                                <div class="milestone-card" style="--i:8; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" role="listitem">
-                                    <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-users-cog"/></div>
-                                    <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Collaboration Tools:</h3>
-                                    <p style="color: #666;">Promote teamwork with shared calendars, task assignments, and internal chat features.</p>
+                                <div class="col" data-aos="fade-up" data-aos-delay="800" role="listitem">
+                                    <div class="milestone-card h-100" style="--i:8; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                                        <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-users-cog"/></div>
+                                        <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Collaboration Tools:</h3>
+                                        <p style="color: #666;">Promote teamwork with shared calendars, task assignments, and internal chat features.</p>
+                                    </div>
                                 </div>
                                 <!-- Card 9: Security -->
-                                <div class="milestone-card" style="--i:9; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" role="listitem">
-                                    <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-lock"/></div>
-                                    <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Security &amp; Compliance:</h3>
-                                    <p style="color: #666;">Ensure data privacy with robust encryption and GDPR compliance.</p>
+                                <div class="col" data-aos="fade-up" data-aos-delay="900" role="listitem">
+                                    <div class="milestone-card h-100" style="--i:9; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                                        <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-lock"/></div>
+                                        <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Security &amp; Compliance:</h3>
+                                        <p style="color: #666;">Ensure data privacy with robust encryption and GDPR compliance.</p>
+                                    </div>
                                 </div>
                                 <!-- Card 10: Automation & AI -->
-                                <div class="milestone-card" style="--i:10; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" role="listitem">
-                                    <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-chart-line"/></div>
-                                    <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Automation &amp; AI:</h3>
-                                    <p style="color: #666;">Use AI-driven lead scoring, predictive analytics, and automated follow-ups to increase efficiency.</p>
+                                <div class="col" data-aos="fade-up" data-aos-delay="1000" role="listitem">
+                                    <div class="milestone-card h-100" style="--i:10; background: #f8faff; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                                        <div class="milestone-icon" style="background: #1a237e; color: #fff;"><i class="fas fa-chart-line"/></div>
+                                        <h3 style="font-size: 1.25rem; color: #1a237e; font-weight: 700;">Automation &amp; AI:</h3>
+                                        <p style="color: #666;">Use AI-driven lead scoring, predictive analytics, and automated follow-ups to increase efficiency.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -651,7 +671,7 @@
                 <div class="oe_structure" id="oe_structure_crm_milestone1" style="background: #ffffff !important;">
                     <!-- CRM Key Benefits Milestone Section -->
                     <section class="s_milestone_section cr_font"
-                             style="background: transparent !important; padding: 80px !important;"
+                             style="background: transparent !important; padding: 80px 0 !important;"
                              data-snippet="s_milestone_section"
                              data-name="Milestone Section"
                              aria-labelledby="milestones-heading-crm">

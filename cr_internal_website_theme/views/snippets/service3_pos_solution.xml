@@ -677,8 +677,7 @@
         <!-- Part 2: Strategic Advantages (Reversed Layout, No Main Title) -->
         <section class="s_industry_use_cases web-usecases cr_font o_layout_reverse" 
                  data-snippet="s_industry_use_cases" 
-                 data-name="Industry Use Cases"
-                 style="padding-top: 0px !important;">
+                 data-name="Industry Use Cases">
             <div class="container">
                 <!-- Main title omitted as per request -->
                 <div class="web-usecases-wrapper">

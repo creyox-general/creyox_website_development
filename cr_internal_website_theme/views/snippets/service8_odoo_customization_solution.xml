@@ -56,7 +56,7 @@
                     </div>
                     <div class="row align-items-center gx-0">
                         <div class="col-lg-6 mb-5 mb-lg-0 p-0" data-aos="fade-right">
-                            <div class="partner-content-box text-start">
+                            <div class="partner-content-box">
                                 <p class="partner-description partner-desc-1 mb-3 w-100">
                                     Your business has workflows, rules, and processes that no off-the-shelf ERP was built for. That's where Creyox Technologies comes in. As a specialized Odoo partner, we don't just implement software—we architect solutions that reflect your specific operational DNA.
                                 </p>
@@ -134,14 +134,14 @@
                     <div class="web-usecases-wrapper">
                         <!-- <h3 class="usecase-list-title mb-4" data-aos="fade-up">From Simple Changes to Full Module Development:</h3> -->
                         <div class="web-usecase-list">
-                            <div class="usecase" data-aos="fade-right" data-aos-delay="100" style="grid-column: span 2;">
+                            <div class="usecase span-2" data-aos="fade-right" data-aos-delay="100">
                                 <div class="usecase-content">
                                     <h3 class="fw-bold mb-0" style="font-size: 1.6rem; line-height: 1.4;">What Odoo Customization Means for Your Business From Simple Changes to Full Module Development</h3>
                                 </div>
                             </div>
 
                             <!-- Card 1 -->
-                            <div class="usecase" data-aos="fade-right" data-aos-delay="100">
+                            <div class="usecase span-1" data-aos="fade-right" data-aos-delay="100">
                                 <div class="usecase-content">
                                     <p><i class="fas fa-arrow-right text-primary me-2"/> Building new Odoo modules your business needs that don't exist in standard Odoo.</p>
                                 </div>
@@ -476,62 +476,62 @@
         </div>
 
         <!-- 9. Use Cases (Process Steps Layout) -->
-        <div class="oe_structure" id="oe_structure_service8_use_cases">
-            <section class="s_process_steps cr_font" style="background-color: #F8F9FC" data-snippet="s_process_steps" data-name="Process Steps">
-                <div class="container">
-                    <div class="row mb-5 text-center" data-aos="fade-up">
-                        <div class="col-12">
-                            <h2 class="partner-title fw-bold">Odoo Customization That Delivered <span class="text-gradient">Real Outcomes</span></h2>
-                            <p class="lead text-muted mt-3">Discover how our tailored Odoo solutions solve specific operational bottlenecks and drive measurable business efficiency.</p>
-                        </div>
-                    </div>
+<!--        <div class="oe_structure" id="oe_structure_service8_use_cases">-->
+<!--            <section class="s_process_steps cr_font" style="background-color: #F8F9FC" data-snippet="s_process_steps" data-name="Process Steps">-->
+<!--                <div class="container">-->
+<!--                    <div class="row mb-5 text-center" data-aos="fade-up">-->
+<!--                        <div class="col-12">-->
+<!--                            <h2 class="partner-title fw-bold">Odoo Customization That Delivered <span class="text-gradient">Real Outcomes</span></h2>-->
+<!--                            <p class="lead text-muted mt-3">Discover how our tailored Odoo solutions solve specific operational bottlenecks and drive measurable business efficiency.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
 
-                    <div class="process-steps-wrapper">
-                        <!-- Case 1: Multi-Level Approval -->
-                        <div class="process-step-row row align-items-center mb-5" data-aos="fade-up">
-                            <div class="col-lg-8 step-text-col">
-                                <div class="step-card text-card p-4">
-                                    <p class="step-desc mt-3">"We had a very specific multi-level approval requirement for our purchase orders that standard Odoo simply couldn't handle. The Creyox team documented our requirement precisely, built exactly what we described, and it's been running without issues through two Odoo version upgrades since."</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 step-image-col">
-                                <div class="step-card image-card">
-                                    <img src="/cr_internal_website_theme/static/src/img/use_case_approval.png" alt="Multi-level Approval Workflow" class="img-fluid rounded-4 shadow-lg"/>
-                                </div>
-                            </div>
-                        </div>
+<!--                    <div class="process-steps-wrapper">-->
+<!--                        &lt;!&ndash; Case 1: Multi-Level Approval &ndash;&gt;-->
+<!--                        <div class="process-step-row row align-items-center mb-5" data-aos="fade-up">-->
+<!--                            <div class="col-lg-8 step-text-col">-->
+<!--                                <div class="step-card text-card p-4">-->
+<!--                                    <p class="step-desc mt-3">"We had a very specific multi-level approval requirement for our purchase orders that standard Odoo simply couldn't handle. The Creyox team documented our requirement precisely, built exactly what we described, and it's been running without issues through two Odoo version upgrades since."</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4 step-image-col">-->
+<!--                                <div class="step-card image-card">-->
+<!--                                    <img src="/cr_internal_website_theme/static/src/img/use_case_approval.png" alt="Multi-level Approval Workflow" class="img-fluid rounded-4 shadow-lg"/>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
 
-                        <!-- Case 2: Branded Document Templates -->
-                        <div class="process-step-row row align-items-center mb-5 flex-row-reverse" data-aos="fade-up">
-                            <div class="col-lg-8 step-text-col">
-                                <div class="step-card text-card p-4">
-                                    <p class="step-desc mt-3">"We were generating about 15 different types of PDFs in our business and none of them matched our brand. Creyox rebuilt all our document templates inside Odoo in two weeks. Now everything invoices, quotations, delivery notes looks exactly the way we want."</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 step-image-col">
-                                <div class="step-card image-card">
-                                    <img src="/cr_internal_website_theme/static/src/img/use_case_docs.png" alt="Branded Document Templates" class="img-fluid rounded-4 shadow-lg"/>
-                                </div>
-                            </div>
-                        </div>
+<!--                        &lt;!&ndash; Case 2: Branded Document Templates &ndash;&gt;-->
+<!--                        <div class="process-step-row row align-items-center mb-5 flex-row-reverse" data-aos="fade-up">-->
+<!--                            <div class="col-lg-8 step-text-col">-->
+<!--                                <div class="step-card text-card p-4">-->
+<!--                                    <p class="step-desc mt-3">"We were generating about 15 different types of PDFs in our business and none of them matched our brand. Creyox rebuilt all our document templates inside Odoo in two weeks. Now everything invoices, quotations, delivery notes looks exactly the way we want."</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4 step-image-col">-->
+<!--                                <div class="step-card image-card">-->
+<!--                                    <img src="/cr_internal_website_theme/static/src/img/use_case_docs.png" alt="Branded Document Templates" class="img-fluid rounded-4 shadow-lg"/>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
 
-                        <!-- Case 3: WhatsApp Notification Automation -->
-                        <div class="process-step-row row align-items-center mb-5" data-aos="fade-up">
-                            <div class="col-lg-8 step-text-col">
-                                <div class="step-card text-card p-4">
-                                    <p class="step-desc mt-3">"The WhatsApp notification system Creyox built has been a game-changer for our sales follow-up. Quotes, order confirmations, and dispatch alerts go out automatically now. Our customer satisfaction scores went up noticeably within the first month."</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 step-image-col">
-                                <div class="step-card image-card">
-                                    <img src="/cr_internal_website_theme/static/src/img/use_case_whatsapp.png" alt="WhatsApp Notification Automation" class="img-fluid rounded-4 shadow-lg"/>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
+<!--                        &lt;!&ndash; Case 3: WhatsApp Notification Automation &ndash;&gt;-->
+<!--                        <div class="process-step-row row align-items-center mb-5" data-aos="fade-up">-->
+<!--                            <div class="col-lg-8 step-text-col">-->
+<!--                                <div class="step-card text-card p-4">-->
+<!--                                    <p class="step-desc mt-3">"The WhatsApp notification system Creyox built has been a game-changer for our sales follow-up. Quotes, order confirmations, and dispatch alerts go out automatically now. Our customer satisfaction scores went up noticeably within the first month."</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4 step-image-col">-->
+<!--                                <div class="step-card image-card">-->
+<!--                                    <img src="/cr_internal_website_theme/static/src/img/use_case_whatsapp.png" alt="WhatsApp Notification Automation" class="img-fluid rounded-4 shadow-lg"/>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </section>-->
+<!--        </div>-->
 
 
 
@@ -577,7 +577,7 @@
 
         <!-- 12. ERP CTA Snippet -->
         <div class="oe_structure" id="oe_structure_service8_cta">
-            <section class="erp-cta-section o_wfull" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
+            <section class="erp-cta-section o_wfull cr_font" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
                 <div class="bubble"></div>
                 <div class="bubble"></div>
                 <div class="bubble"></div>

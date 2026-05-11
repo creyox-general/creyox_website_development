@@ -37,6 +37,431 @@
             </section>
         </div>
 
+        <!-- 1. Comprehensive Service Snippet -->
+        <div class="oe_structure" id="oe_structure_service10_comprehensive">
+            <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
+                     data-snippet="s_comprehensive_service"
+                     data-name="Comprehensive Service"
+                     style="padding: 60px 0 !important">
+                <div class="container">
+                    <div class="row mb-5 pb-lg-3">
+                        <div class="col-12 text-center">
+                            <h2 class="partner-title mb-3">
+                                Proactive Odoo Support &amp; Maintenance Services
+                                <span class="text-gradient">That Keep Your ERP Unstoppable</span>
+                            </h2>
+                            <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center gx-0">
+                        <div class="col-lg-6 mb-5 mb-lg-0 p-0">
+                            <div class="partner-content-box text-start">
+                                <p class="partner-description partner-desc-1 mb-3 w-100">
+                                    From critical bug fixes to full-scale Odoo ERP support our certified team ensures zero downtime, peak performance, and long-term ERP success for your business.
+                                </p>
+                                <div class="partner-cta-group">
+                                    <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                        <span>Get Odoo Support Now</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 p-0">
+                            <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
+                                <img src="/cr_internal_website_theme/static/src/img/odoo_support_comprehensive.png"
+                                     alt="Odoo Support &amp; Maintenance Services"
+                                     class="img-fluid" 
+                                     style="max-height: 450px; width: auto; object-fit: contain;"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 2. Feature Mesh Snippet (3 Column) -->
+        <div class="oe_structure" id="oe_structure_service10_feature_mesh">
+            <section class="s_feature_mesh cr_font sg-cols-3" style="background: #F8F9FC !important;" data-snippet="s_feature_mesh" data-name="Feature Mesh">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="mesh-title">
+                            Is Your Odoo Slowing You Down?
+                            <span class="text-gradient">We Fix It Fast</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                    </div>
+                    <div class="row g-4 fm-card-row justify-content-center">
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Unexpected System Crashes</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Production going down with no one to call? Our Odoo technical support team is always on standby.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Slow Performance &amp; Lag</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Database bottlenecks, heavy modules, server misconfigs and our Odoo maintenance services fix root causes, not symptoms.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Security Vulnerabilities</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Outdated patches and misconfigured access controls are a ticking clock. We audit, patch, and secure proactively.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Module &amp; Integration Errors</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Custom module conflicts or broken API integrations disrupting daily ops? Our Odoo functional support team resolves it fast.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Post-Upgrade Breakage</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Rushed to a new Odoo version and now things are broken? We handle safe upgrades with full regression testing.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">No In-House Odoo Expertise</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Your team shouldn't be googling Odoo fixes. We act as your dedicated Odoo support partner, an extension of your IT team.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 3. Service Showcase Snippet (3 Column) -->
+        <div class="oe_structure" id="oe_structure_service10_service_showcase">
+            <section class="s_service_showcase cr_font sc-cols-3" data-snippet="s_service_showcase" data-name="Service Showcase">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Comprehensive Odoo
+                            <span class="text-gradient">Support &amp; Maintenance Services</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="section-description mt-4 mx-auto">
+                            Every aspect of your Odoo ERP ecosystem is covered, monitored, and continuously improved by our certified engineers.
+                        </p>
+                    </div>
+                    <div class="row g-4 s_service_showcase_row justify-content-center">
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-terminal"/></div>
+                                <h3 class="card-title">Odoo Technical Support</h3>
+                                <p class="card-text">Deep-level debugging, server-side fixes, and code-level resolutions for any Odoo technical issue are fast and effective.</p>
+                                <ul class="text-start mt-3 ps-3 text-muted" style="font-size: 0.9rem;">
+                                    <li>Bug identification &amp; code-level fixes</li>
+                                    <li>Python / XML / JS error resolution</li>
+                                    <li>Database query optimization</li>
+                                    <li>Custom module debugging</li>
+                                    <li>API &amp; webhook troubleshooting</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-card card-dark">
+                                <div class="card-icon"><i class="fas fa-users-cog"/></div>
+                                <h3 class="card-title">Odoo Functional Support</h3>
+                                <p class="card-text">Expert guidance on configurations, workflows, and daily usage so your teams get the most out of every Odoo module.</p>
+                                <ul class="text-start mt-3 ps-3 text-muted" style="font-size: 0.9rem;">
+                                    <li>Module configuration &amp; setup</li>
+                                    <li>Workflow &amp; automation adjustments</li>
+                                    <li>User training &amp; documentation</li>
+                                    <li>Business process optimization</li>
+                                    <li>Reports &amp; dashboard customization</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-heartbeat"/></div>
+                                <h3 class="card-title">Odoo Maintenance Services</h3>
+                                <p class="card-text">Proactive system health checks, preventive maintenance, and scheduled optimizations that prevent issues before they occur.</p>
+                                <ul class="text-start mt-3 ps-3 text-muted" style="font-size: 0.9rem;">
+                                    <li>Regular server &amp; database health audits</li>
+                                    <li>Log monitoring &amp; alerts</li>
+                                    <li>Security patches &amp; updates</li>
+                                    <li>Backup verification &amp; recovery drills</li>
+                                    <li>Performance benchmarking</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                            <div class="service-card card-dark">
+                                <div class="card-icon"><i class="fas fa-upload"/></div>
+                                <h3 class="card-title">Odoo ERP Support &amp; Upgrades</h3>
+                                <p class="card-text">Seamless version upgrades, migration support, and infrastructure management so your ERP always runs on the latest stable release.</p>
+                                <ul class="text-start mt-3 ps-3 text-muted" style="font-size: 0.9rem;">
+                                    <li>Odoo version upgrade planning</li>
+                                    <li>Safe data migration &amp; validation</li>
+                                    <li>Cloud hosting &amp; scaling</li>
+                                    <li>Disaster recovery setup</li>
+                                    <li>Third-party integration support</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-headset"/></div>
+                                <h3 class="card-title">Odoo Customer Support</h3>
+                                <p class="card-text">Round-the-clock Odoo customer support via ticket, chat, or call with guaranteed SLA response times for every priority level.</p>
+                                <ul class="text-start mt-3 ps-3 text-muted" style="font-size: 0.9rem;">
+                                    <li>Dedicated support ticket portal</li>
+                                    <li>Priority-based SLA tiers (P1–P4)</li>
+                                    <li>Monthly analytics reports</li>
+                                    <li>Dedicated account manager</li>
+                                    <li>Escalation to senior engineers</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 4. Kinetic Process Snippet (2 Column grid used for 5 phases) -->
+        <div class="oe_structure" id="oe_structure_service10_kinetic_process">
+            <section class="s_kinetic_process cr_font" data-snippet="s_kinetic_process" data-name="Kinetic Process">
+                <div class="container-fluid px-lg-5">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            The Process of Our
+                            <span class="text-gradient">Odoo Support &amp; Maintenance Services</span>
+                        </h2>
+                        <p class="section-subtitle mt-2">Structured, transparent, and always focused on minimizing your downtime.</p>
+                    </div>
+                    <div class="kinetic-grid-container">
+                        <div class="row g-4 mb-4">
+                            <div class="col-lg-6 phase-block" data-aos="fade-up">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">01</div>
+                                    <h3 class="card-title">Onboarding &amp; Audit</h3>
+                                    <p class="card-desc">We document your Odoo setup, customizations, integrations, and critical workflows in detail.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 phase-block" data-aos="fade-up" data-aos-delay="100">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">02</div>
+                                    <h3 class="card-title">Monitoring Setup</h3>
+                                    <p class="card-desc">Automated health checks, log monitoring, and alert thresholds configured for your environment.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="200">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">03</div>
+                                    <h3 class="card-title">Ticket Raised</h3>
+                                    <p class="card-desc">You submit an issue we acknowledge within your SLA window and assign the right engineer.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="300">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">04</div>
+                                    <h3 class="card-title">Root Cause Fix</h3>
+                                    <p class="card-desc">We fix the issue at its source with no band-aid solutions and test thoroughly before closing.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="400">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">05</div>
+                                    <h3 class="card-title">Report &amp; Review</h3>
+                                    <p class="card-desc">We review resolved issues, system behavior, and improvements to ensure your Odoo environment stays stable and efficient.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5 justify-content-center">
+                            <div class="col-auto">
+                                <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                    <span>Contact us Now</span>
+                                    <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 5. Benefit Mesh Snippet (3 Column) -->
+        <div class="oe_structure" id="oe_structure_service10_benefit_mesh">
+            <section class="s_benefit_mesh cr_font bm-cols-3" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Why Choose Our
+                            <span class="text-gradient">Odoo Support &amp; Maintenance Services?</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="section-description mt-4 mx-auto">
+                            We don’t just fix issues, we ensure your Odoo runs reliably, efficiently, and without disruption, so your team can focus on business, not system problems.
+                        </p>
+                    </div>
+                    <div class="row g-4 s_benefit_mesh_row justify-content-center">
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">01</div>
+                                <h3 class="card-title">Fast Response During Business Hours</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Quick turnaround for issues and queries when your team needs it</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">02</div>
+                                <h3 class="card-title">Experienced Odoo Experts</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Work with professionals who understand both technical systems and real business workflows.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">03</div>
+                                <h3 class="card-title">Complete End-to-End Support</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">From troubleshooting to optimization and upgrades everything is handled under one roof.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="300">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">04</div>
+                                <h3 class="card-title">Focus on Performance &amp; Stability</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">We don’t just fix bugs, we improve system speed, reliability, and overall efficiency.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="400">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">05</div>
+                                <h3 class="card-title">Safe Upgrades &amp; Continuous Improvements</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Stay updated with the latest Odoo versions without breaking your existing workflows.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="500">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">06</div>
+                                <h3 class="card-title">Proactive Security &amp; Risk Management</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">We identify and fix vulnerabilities before they impact your business.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 6. Milestone Section Snippet (4 Column) -->
+        <div class="oe_structure" id="oe_structure_service10_milestones">
+            <section class="milestone-light-section s_milestone_section cr_font" data-snippet="s_milestone_section" data-name="Milestone Section" aria-labelledby="milestones-heading">
+                <div class="milestone-wrapper text-center">
+                    <h2 id="milestones-heading" class="milestone-heading text-center">
+                        Odoo ERP Support <span class="text-gradient">Across Every Sector</span>
+                    </h2>
+                    <p class="text-center text-muted mb-5">Whether you're in manufacturing or e-commerce, our domain-aware Odoo support team understands your workflows.</p>
+                    <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1 g-4" role="list">
+                        <div class="col mb-4" role="listitem">
+                            <div class="milestone-card h-100" style="--i:1">
+                                <div class="milestone-icon"><i class="fas fa-industry"/></div>
+                                <h3>Manufacturing</h3>
+                            </div>
+                        </div>
+                        <div class="col mb-4" role="listitem">
+                            <div class="milestone-card h-100" style="--i:2">
+                                <div class="milestone-icon"><i class="fas fa-shopping-cart"/></div>
+                                <h3>E-Commerce</h3>
+                            </div>
+                        </div>
+                        <div class="col mb-4" role="listitem">
+                            <div class="milestone-card h-100" style="--i:3">
+                                <div class="milestone-icon"><i class="fas fa-truck"/></div>
+                                <h3>Logistics</h3>
+                            </div>
+                        </div>
+                        <div class="col mb-4" role="listitem">
+                            <div class="milestone-card h-100" style="--i:4">
+                                <div class="milestone-icon"><i class="fas fa-hospital"/></div>
+                                <h3>Healthcare</h3>
+                            </div>
+                        </div>
+                        <div class="col mb-4" role="listitem">
+                            <div class="milestone-card h-100" style="--i:5">
+                                <div class="milestone-icon"><i class="fas fa-file-invoice-dollar"/></div>
+                                <h3>Finance</h3>
+                            </div>
+                        </div>
+                        <div class="col mb-4" role="listitem">
+                            <div class="milestone-card h-100" style="--i:6">
+                                <div class="milestone-icon"><i class="fas fa-graduation-cap"/></div>
+                                <h3>Education</h3>
+                            </div>
+                        </div>
+                        <div class="col mb-4" role="listitem">
+                            <div class="milestone-card h-100" style="--i:7">
+                                <div class="milestone-icon"><i class="fas fa-store"/></div>
+                                <h3>Retail</h3>
+                            </div>
+                        </div>
+                        <div class="col mb-4" role="listitem">
+                            <div class="milestone-card h-100" style="--i:8">
+                                <div class="milestone-icon"><i class="fas fa-hand-holding-heart"/></div>
+                                <h3>Nonprofits</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 7. Process Step Snippet (Used as final CTA) -->
+        <div class="oe_structure" id="oe_structure_service10_process_steps">
+            <section class="s_process_steps cr_font" data-snippet="s_process_steps">
+                <div class="container">
+                    <div class="row mb-5 text-center" data-aos="fade-up">
+                        <div class="col-12">
+                            <h2 class="partner-title display-4 fw-bold">Ready to Eliminate <span class="text-gradient">Odoo Downtime for Good?</span></h2>
+                            <p class="lead text-muted">Tell us about your Odoo environment and we'll get back with a tailored support plan usually within a few hours. No generic quotes, no pushy sales calls.</p>
+                        </div>
+                    </div>
+                    <div class="process-steps-wrapper">
+                        <div class="process-step-row row align-items-center mb-5" data-aos="fade-up">
+                            <div class="col-lg-6 step-text-col">
+                                <div class="step-card text-card">
+                                    <h3 class="step-title">Get Expert Support Today</h3>
+                                    <p class="step-desc">Our team is ready to audit your system and provide the proactive maintenance you need to keep your business running smoothly.</p>
+                                    <div class="partner-cta-group mt-4">
+                                        <a href="/contactus" class="cta-button primary">
+                                            <span>Get Support Now</span>
+                                            <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 step-image-col">
+                                <div class="step-card image-card">
+                                    <img src="/cr_internal_website_theme/static/src/img/odoo_support_cta.png" alt="Get Support Now" class="img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 8. FAQ Snippet -->
+        <div class="oe_structure cr_font" id="oe_structure_service10_faq">
+            <section class="s_faq_dynamic_snippet o_faq_template_1"
+                    data-snippet="s_dynamic_snippet_faq"
+                    data-name="FAQs Templates">
+                <div class="container s_faq_container">
+                </div>
+            </section>
+        </div>
+
 <!--        <section class="cr-odoo-support-intro o_website_snippet cr_font" aria-labelledby="odoo-support-heading">-->
 <!--            <div class="cr-odoo-container">-->
 <!--                &lt;!&ndash; Header Row &ndash;&gt;-->

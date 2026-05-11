@@ -50,6 +50,22 @@
         flex-direction: column;
         justify-content: center;
 
+        &.span-1 {
+            grid-column: span 1;
+
+            @media (max-width: 767px) {
+                grid-column: span 1;
+            }
+        }
+
+        &.span-2 {
+            grid-column: span 2;
+
+            @media (max-width: 767px) {
+                grid-column: span 1;
+            }
+        }
+
         &:hover {
             transform: translateY(-8px);
             box-shadow: 0 20px 40px rgba(30, 58, 138, 0.08);
@@ -101,6 +117,22 @@
             height: auto;
             border-radius: 20px;
             // filter: drop-shadow(0 20px 40px rgba(0,0,0,0.1));
+        }
+    }
+
+    .web-usecases-wrapper {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+
+        .web-usecase-list {
+            flex: 1;
+        }
+
+        .web-usecases-image {
+            flex: 1;
+            width: 100%;
+            text-align: center;
         }
     }
 
