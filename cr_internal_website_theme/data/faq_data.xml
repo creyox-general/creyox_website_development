@@ -227,6 +227,120 @@
             <field name="answer">We take a consultative, business-first approach. We don't just deploy software, we invest in understanding your operations and building an ERP that genuinely improves them.</field>
         </record>
 
+        <!-- Odoo Customization FAQs -->
+        <record id="odoo_customization_faq_1" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_customisation_page"/>
+            <field name="question">What is Odoo customization?</field>
+            <field name="answer">Odoo customization is the process of modifying or extending the Odoo ERP platform beyond its standard features to match your specific business workflows. This includes building new custom modules, modifying existing ones, integrating Odoo with third-party systems, automating workflows, redesigning the UI, and creating custom reports all tailored to how your business actually operates.</field>
+        </record>
+        <record id="odoo_customization_faq_2" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_customisation_page"/>
+            <field name="question">How is Odoo customization different from Odoo configuration?</field>
+            <field name="answer">Configuration uses Odoo's built-in settings and tools to adjust the system without writing code things like adding stages, setting up user roles, or enabling features. Customization requires writing code to add functionality that Odoo doesn't offer by default. We help you identify which approach is right for each of your requirements and we always recommend configuration when it's sufficient.</field>
+        </record>
+        <record id="odoo_customization_faq_3" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_customisation_page"/>
+            <field name="question">Will my Odoo customizations break when Odoo upgrades to a new version?</field>
+            <field name="answer">They won't if they're built correctly. At Creyox, we use inheritance-based development and follow Odoo's official coding guidelines. This means your customizations are modular and separate from Odoo's core, they don't get overwritten during version upgrades. We also offer version migration services to move your custom code forward when upgrading from v14/v15/v16 to v17 or v18.</field>
+        </record>
+        <record id="odoo_customization_faq_4" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_customisation_page"/>
+            <field name="question">Can you integrate Odoo with the tools and platforms we already use?</field>
+            <field name="answer">Yes. We build integrations between Odoo and payment gateways (Razorpay, PayU, Stripe), e-commerce platforms (Shopify, Magento, WooCommerce), logistics providers (Delhivery, Shiprocket, FedEx), WhatsApp Business API, GST e-invoice and e-waybill portals, banking APIs, and any external system with a REST or JSON API. If your tool has an API we can connect it to Odoo.</field>
+        </record>
+        <record id="odoo_customization_faq_5" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_customisation_page"/>
+            <field name="question">Do you work with Odoo Community or only Odoo Enterprise?</field>
+            <field name="answer">We work with both. Odoo Community is the free, open-source edition and is fully customizable via code. Odoo Enterprise includes additional built-in features and Odoo Studio for no-code modifications. Our recommendation on which edition suits your business depends on your size, requirements, and budget and we'll advise honestly during the discovery consultation.</field>
+        </record>
+        <record id="odoo_customization_faq_6" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_customisation_page"/>
+            <field name="question">What Odoo versions do you work with?</field>
+            <field name="answer">We work with Odoo v14, v15, v16, v17, and v18. We recommend new projects be built on the latest stable version. For clients on older versions, we provide both ongoing support and upgrade/migration services.</field>
+        </record>
+        <record id="odoo_customization_faq_7" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_customisation_page"/>
+            <field name="question">Can I see progress during the development or do I just wait until the end?</field>
+            <field name="answer">You see progress throughout. We work in iterative sprints, with a demo and review session at the end of each sprint. You review working functionality as it's built and give feedback in real time. You're never waiting 6 weeks to see the result for the first time.</field>
+        </record>
+        <record id="odoo_customization_faq_8" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_customisation_page"/>
+            <field name="question">What happens after the customization is delivered?</field>
+            <field name="answer">We don't disappear after delivery. We offer post-delivery support that covers bug fixes, performance issues, and user questions. We also offer ongoing development retainer plans for businesses.</field>
+        </record>
+
+        <!-- Odoo Migration Solution FAQs -->
+        <record id="faq_migration_1" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_migration_page"/>
+            <field name="question">What is Odoo migration?</field>
+            <field name="answer">Odoo migration is the process of moving your existing Odoo system, its database, custom modules, configurations, and integrations to a newer version or a different environment. It can mean upgrading from Odoo v14 to v17, migrating data from Tally or SAP into Odoo, or moving your on-premise Odoo to the cloud.</field>
+        </record>
+
+        <record id="faq_migration_2" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_migration_page"/>
+            <field name="question">What is the difference between Odoo migration and Odoo upgrade?</field>
+            <field name="answer">These terms are often used interchangeably, but they refer to slightly different things. An upgrade specifically refers to moving from one Odoo version to a newer one. Migration is a broader term that includes version upgrades, data migration from other systems, cloud migration, and database consolidation. All upgrades are migrations, but not all migrations are version upgrades.</field>
+        </record>
+
+        <record id="faq_migration_3" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_migration_page"/>
+            <field name="question">Will my custom modules work after migration to the new version?</field>
+            <field name="answer">Not automatically but they will after we port them. Custom Odoo modules need to be reviewed and refactored for the new version's APIs and framework. Our dedicated module porting process ensures every custom module is analyzed, updated, tested, and fully functional in the new environment before go-live.</field>
+        </record>
+
+        <record id="faq_migration_4" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_migration_page"/>
+            <field name="question">How long does Odoo migration take?</field>
+            <field name="answer">The timeline depends on the complexity of your system. A straightforward Odoo v15 → v17 upgrade with minimal customization can be completed in 3–4 weeks. A heavily customized system migrating from v12 → v18 may take 8–12 weeks. Data migration from a legacy ERP typically takes 4–8 weeks. We provide a detailed timeline after the free assessment.</field>
+        </record>
+
+        <record id="faq_migration_5" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_migration_page"/>
+            <field name="question">Will there be any downtime during the Odoo migration?</field>
+            <field name="answer">We minimize downtime to the absolute minimum, typically 4–6 hours during the production cutover, which we schedule during your business's lowest-traffic period. The migration is fully tested on staging before the cutover, so the production window is a controlled execution, not an experiment.</field>
+        </record>
+
+        <record id="faq_migration_6" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_migration_page"/>
+            <field name="question">Can you migrate from Tally, SAP, or QuickBooks to Odoo?</field>
+            <field name="answer">Yes. We handle data migration from Tally ERP, SAP Business One, QuickBooks, Zoho Books, Microsoft Dynamics, Busy Accounting, Marg ERP, and custom legacy systems. We extract your data, clean and map it to Odoo's structure, migrate it to a staging environment for validation, and only push to production after your team confirms everything is correct.</field>
+        </record>
+
+        <record id="faq_migration_7" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_migration_page"/>
+            <field name="question">What is Odoo data migration?</field>
+            <field name="answer">Odoo data migration is the process of transferring business data from an external system into Odoo. This includes master data (customers, vendors, products) and transactional data all mapped, cleaned, and validated to ensure accuracy and completeness in the new system.</field>
+        </record>
+
+        <record id="faq_migration_8" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_migration_page"/>
+            <field name="question">What is Odoo module migration?</field>
+            <field name="answer">Odoo module migration is the process of updating your custom Odoo modules to work with a newer Odoo version. It involves reviewing deprecated APIs, refactoring Python and JavaScript code, updating XML views, and testing all functionality in the new environment. It is a critical part of any Odoo version upgrade.</field>
+        </record>
+
+        <record id="faq_migration_9" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_migration_page"/>
+            <field name="question">Can you migrate from Odoo Community to Odoo Enterprise?</field>
+            <field name="answer">Yes. We handle edition migration from Odoo Community to Enterprise including the data adjustments needed, Enterprise-specific module configuration, and training your team on the new Enterprise features.</field>
+        </record>
+
+        <record id="faq_migration_10" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_migration_page"/>
+            <field name="question">What is Odoo cloud migration?</field>
+            <field name="answer">Odoo cloud migration is the process of moving your on-premise Odoo installation to a cloud hosting environment such as Odoo.sh, AWS, Google Cloud, or a managed VPS. It improves performance, enables remote access, provides automatic backups, and significantly improves security.</field>
+        </record>
+
+        <record id="faq_migration_11" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_migration_page"/>
+            <field name="question">How do you ensure no data is lost during migration?</field>
+            <field name="answer">We take a full backup of your database and filestore before any migration work begins. All migration transformations are performed on a staging copy of your data never on live data. We produce reconciliation reports after migration to verify record counts and key values match between the source and migrated environments.</field>
+        </record>
+
+        <record id="faq_migration_12" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_migration_page"/>
+            <field name="question">Why choose Creyox as your Odoo migration company?</field>
+            <field name="answer">Creyox brings hands-on experience across every Odoo migration scenario, version upgrades, data migrations, cloud migrations, and module porting. Our team is 100% in-house, assessment-first in our approach, and dedicated to zero data loss and minimal downtime.</field>
+        </record>
     </data>
 
 </odoo>

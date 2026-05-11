@@ -41,8 +41,9 @@
         <div class="oe_structure" id="oe_structure_service9_comprehensive">
             <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
                      data-snippet="s_comprehensive_service"
-                     data-name="Comprehensive Service">
-                <div class="container py-5">
+                     data-name="Comprehensive Service"
+                     style="padding: 60px 0 !important">
+                <div class="container">
                     <div class="row mb-5 pb-lg-3">
                         <div class="col-12 text-center">
                             <h2 class="partner-title mb-3">
@@ -58,6 +59,12 @@
                                 <p class="partner-description partner-desc-1 mb-3 w-100">
                                     From legacy systems to the latest Odoo version, we handle complex migrations with precision ensuring your data, workflows, and custom modules work perfectly after the transition.
                                 </p>
+                                <!-- <p class="partner-description partner-desc-1 mb-3 w-100">
+                                    Moving between Odoo versions requires more than a database export. Our end-to-end migration service covers readiness assessment, data cleansing and mapping, module refactoring, dependency management, and infrastructure upgrades. We align functional parity with modern best practices—so you gain new features, better performance, and long-term support without disrupting daily operations.
+                                </p> -->
+                                <!-- <p class="partner-description partner-desc-1 mb-3 w-100">
+                                    Whether you’re upgrading community or enterprise editions, consolidating multiple databases, or transitioning from a legacy ERP, we deliver a structured, test-driven migration that safeguards data integrity and optimizes your stack for the road ahead. 
+                                </p> -->
                                 <div class="partner-cta-group">
                                     <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
                                         <span>Contact Now</span>
@@ -130,8 +137,8 @@
 
         <!-- 3. Feature Mesh Snippet (Outdated Setup) -->
         <div class="oe_structure" id="oe_structure_service9_feature_mesh_1">
-            <section class="s_feature_mesh cr_font sg-cols-3" data-snippet="s_feature_mesh" data-name="Feature Mesh">
-                <div class="container py-5">
+            <section class="s_feature_mesh cr_font sg-cols-3" style="background: #F8F9FC !important;" data-snippet="s_feature_mesh" data-name="Feature Mesh">
+                <div class="container">
                     <div class="section-header text-center mb-5" data-aos="fade-up">
                         <h2 class="mesh-title">
                             Is Your Current Odoo Setup
@@ -198,14 +205,14 @@
                 <div class="bubble"></div>
                 <div class="bubble"></div>
                 <div class="bubble"></div>
-                <div class="container erp-cta-container" data-aos="zoom-in">
+                <div class="container erp-cta-container">
                     <div class="erp-cta-row">
-                        <div class="erp-cta-text">
-                            <h2 id="erp-cta-heading">
-                                Have a <span class="highlight">Migration</span> Need?
+                        <div class="erp-cta-text" data-aos="fade-right">
+                            <h2 id="erp-cta-heading" class="text-center">
+                                Do You Have a <span class="highlight">Migration</span> Need?
                             </h2>
                         </div>
-                        <div class="erp-cta-button-wrapper">
+                        <div data-aos="fade-left">
                             <a href="/contactus" class="cta-button light" title="Request A Migration" aria-label="Request A Migration">
                                 <span>Request A Migration</span>
                                 <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
@@ -218,7 +225,7 @@
 
         <!-- 5. Kinetic Process Snippet (7 Steps) -->
         <div class="oe_structure" id="oe_structure_service9_kinetic_process">
-            <section class="s_kinetic_process py-5" data-snippet="s_kinetic_process" data-name="Kinetic Process">
+            <section class="s_kinetic_process cr_font" data-snippet="s_kinetic_process" data-name="Kinetic Process">
                 <div class="container-fluid px-lg-5">
                     <div class="section-header text-center mb-5" data-aos="fade-up">
                         <h2 class="section-title">
@@ -232,7 +239,7 @@
                     <div class="kinetic-grid-container">
                         <div class="row g-4 mb-4 justify-content-center">
                             <!-- Step 1 -->
-                            <div class="col-lg-8 phase-block" data-aos="fade-up">
+                            <div class="col-lg-6 phase-block" data-aos="fade-up">
                                 <div class="kinetic-card">
                                     <div class="card-bg-number">01</div>
                                     <h3 class="card-title">Free Migration Assessment</h3>
@@ -240,7 +247,7 @@
                                 </div>
                             </div>
                             <!-- Step 2 -->
-                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="100">
+                            <div class="col-lg-6 phase-block" data-aos="fade-up" data-aos-delay="100">
                                 <div class="kinetic-card">
                                     <div class="card-bg-number">02</div>
                                     <h3 class="card-title">Migration Planning &amp; Roadmap</h3>
@@ -367,7 +374,7 @@
 
         <!-- 7. Specialist Grid Snippet (13 Points) -->
         <div class="oe_structure" id="oe_structure_service9_specialist_grid">
-            <section class="s_specialist_grid py-5 sg-cols-3" data-snippet="s_specialist_grid" data-name="Specialist Grid">
+            <section class="s_specialist_grid cr_font sg-cols-3" data-snippet="s_specialist_grid" data-name="Specialist Grid">
                 <div class="container">
                     <div class="section-header text-center mb-5" data-aos="fade-up">
                         <h2 class="section-title">
@@ -546,42 +553,54 @@
                     <h2 id="milestones-gains-heading" class="milestone-heading">
                         What Your Business Gains from <span class="text-gradient">Odoo Version Migration</span>
                     </h2>
-                    <div class="milestone-grid" role="list">
+                    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4" role="list">
                         <!-- Card 1 -->
-                        <div class="milestone-card" style="--i:1" role="listitem">
-                            <div class="milestone-icon" aria-hidden="true"><i class="fas fa-star"/></div>
-                            <h3>Advanced Features</h3>
-                            <p>Leverage the latest capabilities including improved automation, smarter reporting, and modern business tools.</p>
+                        <div class="col" data-aos="fade-up" data-aos-delay="100" role="listitem">
+                            <div class="milestone-card h-100" style="--i:1">
+                                <div class="milestone-icon" aria-hidden="true"><i class="fas fa-star"/></div>
+                                <h3>Advanced Features</h3>
+                                <p>Leverage the latest capabilities including improved automation, smarter reporting, and modern business tools.</p>
+                            </div>
                         </div>
                         <!-- Card 2 -->
-                        <div class="milestone-card" style="--i:2" role="listitem">
-                            <div class="milestone-icon" aria-hidden="true"><i class="fas fa-bolt"/></div>
-                            <h3>Faster Performance</h3>
-                            <p>Experience quicker load times, smoother workflows, and better system responsiveness for your entire team.</p>
+                        <div class="col" data-aos="fade-up" data-aos-delay="200" role="listitem">
+                            <div class="milestone-card h-100" style="--i:2">
+                                <div class="milestone-icon" aria-hidden="true"><i class="fas fa-bolt"/></div>
+                                <h3>Faster Performance</h3>
+                                <p>Experience quicker load times, smoother workflows, and better system responsiveness for your entire team.</p>
+                            </div>
                         </div>
                         <!-- Card 3 -->
-                        <div class="milestone-card" style="--i:3" role="listitem">
-                            <div class="milestone-icon" aria-hidden="true"><i class="fas fa-lock"/></div>
-                            <h3>Security &amp; Stability</h3>
-                            <p>Stay protected with the latest security updates, bug fixes, and system improvements that reduce risks.</p>
+                        <div class="col" data-aos="fade-up" data-aos-delay="300" role="listitem">
+                            <div class="milestone-card h-100" style="--i:3">
+                                <div class="milestone-icon" aria-hidden="true"><i class="fas fa-lock"/></div>
+                                <h3>Security &amp; Stability</h3>
+                                <p>Stay protected with the latest security updates, bug fixes, and system improvements that reduce risks.</p>
+                            </div>
                         </div>
                         <!-- Card 4 -->
-                        <div class="milestone-card" style="--i:4" role="listitem">
-                            <div class="milestone-icon" aria-hidden="true"><i class="fas fa-expand-arrows-alt"/></div>
-                            <h3>Scalability</h3>
-                            <p>Prepare your business for growth with a system that supports new integrations, users, and evolving needs.</p>
+                        <div class="col" data-aos="fade-up" data-aos-delay="400" role="listitem">
+                            <div class="milestone-card h-100" style="--i:4">
+                                <div class="milestone-icon" aria-hidden="true"><i class="fas fa-expand-arrows-alt"/></div>
+                                <h3>Scalability</h3>
+                                <p>Prepare your business for growth with a system that supports new integrations, users, and evolving needs.</p>
+                            </div>
                         </div>
                         <!-- Card 5 -->
-                        <div class="milestone-card" style="--i:5" role="listitem">
-                            <div class="milestone-icon" aria-hidden="true"><i class="fas fa-cog"/></div>
-                            <h3>Optimized ERP</h3>
-                            <p>Eliminate outdated customizations and redundant data, giving you a cleaner, more maintainable system.</p>
+                        <div class="col" data-aos="fade-up" data-aos-delay="500" role="listitem">
+                            <div class="milestone-card h-100" style="--i:5">
+                                <div class="milestone-icon" aria-hidden="true"><i class="fas fa-cog"/></div>
+                                <h3>Optimized ERP</h3>
+                                <p>Eliminate outdated customizations and redundant data, giving you a cleaner, more maintainable system.</p>
+                            </div>
                         </div>
                         <!-- Card 6 -->
-                        <div class="milestone-card" style="--i:6" role="listitem">
-                            <div class="milestone-icon" aria-hidden="true"><i class="fas fa-user-check"/></div>
-                            <h3>User Experience</h3>
-                            <p>Benefit from a modern interface and enhanced mobile usability, making it easier for your team to work anywhere.</p>
+                        <div class="col" data-aos="fade-up" data-aos-delay="600" role="listitem">
+                            <div class="milestone-card h-100" style="--i:6">
+                                <div class="milestone-icon" aria-hidden="true"><i class="fas fa-user-check"/></div>
+                                <h3>User Experience</h3>
+                                <p>Benefit from a modern interface and enhanced mobile usability, making it easier for your team to work anywhere.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -617,6 +636,15 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="oe_structure cr_font" id="oe_structure_service8_faq">
+            <section class="s_faq_dynamic_snippet o_faq_template_1"
+                    data-snippet="s_dynamic_snippet_faq"
+                    data-name="FAQs Templates">
+                <div class="container s_faq_container">
                 </div>
             </section>
         </div>
