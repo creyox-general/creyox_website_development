@@ -230,7 +230,7 @@
                                 <p class="partner-description partner-desc-1 mb-4 w-100">
                                     Creyox Technologies delivers end-to-end Odoo development services from custom ERP modules and third-party integrations to eCommerce, mobile apps, and full Odoo implementations.
                                 </p>
-                                <div class="partner-cta-group">
+                                <div class="partner-cta-group mb-4">
                                     <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
                                         <span>Get Services Now</span>
                                         <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
@@ -871,7 +871,7 @@
 
         <!-- 10. Process Step -->
         <div class="oe_structure" id="oe_structure_service5_cta">
-            <section class="erp-cta-section o_wfull" data-snippet="s_erp_cta" data-name="ERP CTA">
+            <section class="erp-cta-section o_wfull cr_font" data-snippet="s_erp_cta" data-name="ERP CTA">
                 <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
                 <div class="container erp-cta-container">
                     <div class="erp-cta-row">

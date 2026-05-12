@@ -614,6 +614,7 @@
 
         <!-- 7. Use Cases Section -->
         <!-- Part 1: Core Integrations -->
+        <div class="oe_structure" id="oe_structure_pos_solution_use_cases_1">
         <section class="s_industry_use_cases web-usecases cr_font" 
                  data-snippet="s_industry_use_cases" 
                  data-name="Industry Use Cases">
@@ -673,8 +674,10 @@
                 </div>
             </div>
         </section>
+        </div>
 
         <!-- Part 2: Strategic Advantages (Reversed Layout, No Main Title) -->
+        <div class="oe_structure" id="oe_structure_pos_solution_use_cases_2">
         <section class="s_industry_use_cases web-usecases cr_font o_layout_reverse" 
                  data-snippet="s_industry_use_cases" 
                  data-name="Industry Use Cases">
@@ -720,6 +723,7 @@
                 </div>
             </div>
         </section>
+        </div>
 
         <!-- 9. Kinetic Process -->
         <section class="s_kinetic_process cr_font" data-snippet="s_kinetic_process" data-name="Kinetic Process">

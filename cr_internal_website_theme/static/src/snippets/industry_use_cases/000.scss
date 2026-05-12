@@ -122,11 +122,19 @@
 
     .web-usecases-wrapper {
         display: flex;
+        flex-direction: row;
         align-items: center;
         margin-top: 50px;
+        // gap: 40px;
+
+        @media (max-width: 991px) {
+            flex-direction: column;
+            gap: 30px;
+        }
 
         .web-usecase-list {
             flex: 1;
+            width: 100%;
         }
 
         .web-usecases-image {
@@ -139,6 +147,10 @@
     &.o_layout_reverse {
         .web-usecases-wrapper {
             flex-direction: row-reverse;
+
+            @media (max-width: 991px) {
+                flex-direction: column-reverse;
+            }
         }
     }
 }

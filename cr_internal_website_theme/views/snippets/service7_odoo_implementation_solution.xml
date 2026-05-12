@@ -503,12 +503,10 @@
                             Whether you're a startup deploying ERP for the first time or an enterprise replacing a legacy system our Odoo implementation consultants are ready to guide you.
                         </p>
                     </div>
-                    <div class="erp-cta-button-wrapper">
-                        <a href="/contactus" class="cta-button light">
-                            <span>Book a Free Consultation</span>
-                            <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
-                        </a>
-                    </div>
+                    <a href="/contactus" class="cta-button light">
+                        <span>Book a Free Consultation</span>
+                        <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+                    </a>
                 </div>
             </section>
 

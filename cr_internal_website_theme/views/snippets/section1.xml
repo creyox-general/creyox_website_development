@@ -6,6 +6,59 @@
               media="print" onload="this.media='all'"/>
 
         <section class="hero-section cr_font">
+            <style>
+                .hero-section {
+                    min-height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    background: radial-gradient(circle at top right, #f0f4ff, #e0ecff);
+                }
+                .hero-content-wrapper {
+                    display: flex !important;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 40px;
+                }
+                @media (max-width: 991px) {
+                    .hero-content-wrapper {
+                        flex-direction: column !important;
+                        text-align: center;
+                        gap: 60px;
+                    }
+                    .hero-content {
+                        order: 1;
+                    }
+                    .hero-images {
+                        order: 2;
+                        height: 350px !important;
+                    }
+                }
+                .rotating-words {
+                    display: inline-flex !important;
+                    justify-content: center;
+                    align-items: center;
+                    min-width: 280px !important;
+                }
+                @media (min-width: 768px) {
+                    .rotating-words {
+                        justify-content: flex-start;
+                        min-width: 400px !important;
+                    }
+                }
+                .desktop-computer {
+                    filter: drop-shadow(0 20px 50px rgba(0,0,0,0.15));
+                }
+                .screen {
+                    background: #ffffff !important;
+                }
+                .stat-card {
+                    transition: transform 0.3s ease;
+                }
+                .stat-card:hover {
+                    transform: scale(1.05);
+                }
+            </style>
             <!-- Background Floating Shapes -->
             <div class="floating-shapes-bg">
                 <span></span>
@@ -18,9 +71,9 @@
             <div class="hero-inner">
                 <div class="hero-content-wrapper">
                     <!-- Left Content -->
-                    <div class="hero-content">
+                    <div class="hero-content" data-aos="fade-right">
                         <h1 class="hero-title">
-                            <span class="hero-brand">Trusted Odoo</span>
+                            <span class="hero-brand d-block mb-2">Trusted Odoo</span>
                             <span class="rotating-words">
                                 <span style="visibility: hidden; pointer-events: none;">Implementation</span>
                                 <span class="word">Development</span>
@@ -28,22 +81,24 @@
                                 <span class="word">Consulting</span>
                                 <span class="word">Integration</span>
                             </span>
-                            <span class="hero-suffix">Company for Businesses</span>
+                            <span class="hero-suffix d-block mt-2">Company for Businesses</span>
                         </h1>
 
-                        <p class="hero-subtitle">
+                        <p class="hero-subtitle mb-4">
                             Streamline operations, boost productivity, and scale your business with our comprehensive
                             Odoo ERP solutions tailored for modern enterprises.
                         </p>
 
-                        <a href="/contactus" class="cta-button">
-                            <i class="fas fa-rocket" aria-hidden="true"></i>
-                            <span>Book a Free Demo</span>
-                        </a>
+                        <div class="hero-actions">
+                            <a href="/contactus" class="cta-button primary">
+                                <i class="fas fa-rocket" aria-hidden="true"></i>
+                                <span>Book a Free Demo</span>
+                            </a>
+                        </div>
                     </div>
 
                     <!-- Right Side - Professional PC -->
-                    <div class="hero-images">
+                    <div class="hero-images" data-aos="fade-left">
                         <!-- Random Scattered Tech Icons -->
                         <div class="tech-icons">
                             <div class="tech-icon icon-1">
