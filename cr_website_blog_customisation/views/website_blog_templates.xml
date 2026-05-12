@@ -8,7 +8,21 @@
             <attribute name="t-if">is_pager</attribute>
         </xpath>
     </template>
-    <template id="blog_index_background_white" inherit_id="website_blog.index" name="White Blog Index Background">
+    <template id="blog_listing_header" inherit_id="website_blog.blog_post_short" name="Blog Listing Header">
+        <xpath expr="//div[@id='o_wblog_blog_top']" position="before">
+            <div style="background-color: white !important"/>
+        </xpath>
+    </template>
+
+    <template id="blog_post_header" inherit_id="website_blog.blog_post_complete" name="Blog Post Header">
+        <xpath expr="//section[@id='o_wblog_post_top']" position="before">
+            <t t-call="cr_internal_website_theme.s_blog_intro_banner">
+                <t t-set="blog" t-att-value="blog_post"/>
+            </t>
+        </xpath>
+    </template>
+
+    <template id="blog_background_white" inherit_id="website_blog.index" name="White Blog Background">
         <xpath expr="//div[@id='wrap']" position="attributes">
             <attribute name="style">background-color: white !important;</attribute>
         </xpath>
