@@ -27,6 +27,7 @@
         "views/snippets/s_kinetic_process_template.xml",
         "views/snippets/s_erp_comparison_template.xml",
         "views/snippets/s_service_intro_banner.xml",
+        "views/snippets/s_blog_intro_banner.xml",
         "views/snippets/s_comprehensive_service.xml",
         "views/snippets/faq.xml",
         "views/snippets/s_feature_mesh_template.xml",
