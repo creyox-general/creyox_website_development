@@ -37,178 +37,924 @@
             </section>
         </div>
 
-        <section class="cr-odoo-solution-intro o_website_snippet cr_font" aria-labelledby="odoo-solution-heading">
-            <div class="cr-odoo-container">
-                <!-- Header Row -->
-                <div class="oe_structure" id="oe_structure_odoo_dev_header">
-                    <section class="s_trusted_odoo_partner cr_font"
-                             data-snippet="s_trusted_odoo_partner"
-                             data-name="Trusted Odoo Partner">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
-                                    <div class="partner-content-box text-start">
-                                        <h2 class="partner-title">
-                                            Odoo Development for
-                                            <span class="text-gradient">Modern Enterprises</span>
-                                        </h2>
-                                        <p class="partner-description partner-desc-1">
-                                            We deliver comprehensive end-to-end Odoo development services, covering everything from custom module creation and ERP implementation
-                                            to seamless integrations and ongoing support.
-                                        </p>
-                                        <p class="partner-description partner-desc-2">
-                                            Our expertise ensures optimized business workflows, enhanced scalability, and long-term efficiency tailored to your unique organizational needs.
-                                        </p>
-                                        <div class="partner-cta-group">
-                                            <a href="/contactus" class="cta-button primary">
-                                                <span>Work with Experts</span>
-                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
-                                            </a>
-                                        </div>
+<!--        <section class="cr-odoo-solution-intro o_website_snippet cr_font" aria-labelledby="odoo-solution-heading">-->
+<!--            <div class="cr-odoo-container">-->
+<!--                &lt;!&ndash; Header Row &ndash;&gt;-->
+<!--                <div class="oe_structure" id="oe_structure_odoo_dev_header">-->
+<!--                    <section class="s_trusted_odoo_partner cr_font"-->
+<!--                             data-snippet="s_trusted_odoo_partner"-->
+<!--                             data-name="Trusted Odoo Partner">-->
+<!--                        <div class="container">-->
+<!--                            <div class="row align-items-center">-->
+<!--                                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">-->
+<!--                                    <div class="partner-content-box text-start">-->
+<!--                                        <h2 class="partner-title">-->
+<!--                                            Odoo Development for-->
+<!--                                            <span class="text-gradient">Modern Enterprises</span>-->
+<!--                                        </h2>-->
+<!--                                        <p class="partner-description partner-desc-1">-->
+<!--                                            We deliver comprehensive end-to-end Odoo development services, covering everything from custom module creation and ERP implementation-->
+<!--                                            to seamless integrations and ongoing support.-->
+<!--                                        </p>-->
+<!--                                        <p class="partner-description partner-desc-2">-->
+<!--                                            Our expertise ensures optimized business workflows, enhanced scalability, and long-term efficiency tailored to your unique organizational needs.-->
+<!--                                        </p>-->
+<!--                                        <div class="partner-cta-group">-->
+<!--                                            <a href="/contactus" class="cta-button primary">-->
+<!--                                                <span>Work with Experts</span>-->
+<!--                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>-->
+<!--                                            </a>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">-->
+<!--                                    <div class="partner-image-box">-->
+<!--                                        <img src="/cr_internal_website_theme/static/src/img/odoo-development.png"-->
+<!--                                             alt="Odoo Development"-->
+<!--                                             class="img-fluid partner-image"/>-->
+<!--                                        <div class="image-overlay-glow"/>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </section>-->
+<!--                </div>-->
+
+<!--                &lt;!&ndash; Content Below &ndash;&gt;-->
+<!--                <div class="cr-odoo-content">-->
+
+<!--                    <h2>Why Choose Our Odoo Development Services?</h2>-->
+<!--                    <p>-->
+<!--                        Our certified Odoo experts deliver tailored solutions designed to streamline and optimize your business operations.-->
+<!--                        From seamless ERP setup and custom module development to advanced automation and system integrations,-->
+<!--                        we ensure that your organization harnesses the full power of Odoo. With a focus on scalability, performance,-->
+<!--                        and long-term efficiency, we empower your business to achieve sustainable growth and stay ahead in a competitive market.-->
+<!--                    </p>-->
+
+
+<!--                    <ul class="odoo-features">-->
+<!--                        <li>-->
+<!--                            <strong>Custom Module Development:</strong>-->
+<!--                            Build tailor-made modules to match unique business processes.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Odoo Implementation:</strong>-->
+<!--                            End-to-end ERP deployment with best practices.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Integration Services:</strong>-->
+<!--                            Connect Odoo with third-party apps &amp; services seamlessly.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Migration &amp; Upgrades:</strong>-->
+<!--                            Smooth transition between Odoo versions without data loss.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Odoo Customization:</strong>-->
+<!--                            Personalize workflows, dashboards, and reports.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Website &amp; E-commerce:</strong>-->
+<!--                            Fully integrated Odoo websites and online stores.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Performance Optimization:</strong>-->
+<!--                            Enhance speed, scalability, and reliability of your Odoo ERP.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Mobile Solutions:</strong>-->
+<!--                            Access Odoo on the go with mobile-friendly solutions.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Support &amp; Maintenance:</strong>-->
+<!--                            Ongoing updates, bug fixes, and monitoring for stability.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Training &amp; Consulting:</strong>-->
+<!--                            Empower your team with expert-led Odoo training.-->
+<!--                        </li>-->
+<!--                    </ul>-->
+
+<!--                   <h2>Our Implementation Approach</h2>-->
+<!--                    <p>-->
+<!--                        We follow a structured and transparent methodology, starting from in-depth requirement analysis to successful deployment and post-implementation support.-->
+<!--                        Our agile approach emphasizes collaboration, iterative development, and continuous feedback, ensuring faster delivery with minimized risks.-->
+<!--                        By aligning Odoo ERP with your unique business processes, we guarantee scalability, adaptability, and long-term success.-->
+<!--                        Beyond go-live, our dedicated support ensures smooth adoption, performance optimization, and sustainable business growth.-->
+<!--                    </p>-->
+
+
+
+<!--                      <section class="contact-section">-->
+<!--                        <div class="contact-wrapper">-->
+<!--                            &lt;!&ndash; Left Side Form &ndash;&gt;-->
+<!--                            <div class="contact-form">-->
+<!--                                <h2>Get in Touch</h2>-->
+<!--                                <p>Fill out the form below and our team will reach out shortly.</p>-->
+<!--                                <form id="erp-demo-form">-->
+
+<!--                                    <div class="form-group">-->
+<!--                                        <input type="text" name="name" placeholder=" " required="1"/>-->
+<!--                                        <label>Your Name</label>-->
+<!--                                    </div>-->
+<!--                                    <div class="form-group">-->
+<!--                                        <input type="email" name="email" placeholder=" " required="1"/>-->
+<!--                                        <label>Your Email</label>-->
+<!--                                    </div>-->
+<!--                                    <div class="form-group">-->
+<!--                                        <input type="tel" name="phone" placeholder=" " required="1"/>-->
+<!--                                        <label>Contact Number</label>-->
+<!--                                    </div>-->
+<!--                                    <div class="form-group">-->
+<!--                                        <input type="text" name="company" placeholder=" "/>-->
+<!--                                        <label>Company Name</label>-->
+<!--                                    </div>-->
+<!--                                    <div class="form-group">-->
+<!--                                        <textarea name="message" placeholder=" " required="1"></textarea>-->
+<!--                                        <label>Your Message</label>-->
+<!--                                    </div>-->
+<!--                                    <button type="submit">Send Message</button>-->
+<!--                                </form>-->
+
+<!--                                <div id="successPopup">-->
+<!--                                    <div class="popup-box">-->
+<!--                                        <div class="popup-icon">-->
+<!--                                            <i class="fas fa-check"></i>-->
+<!--                                        </div>-->
+<!--                                        <div id="popupMessage"></div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+
+<!--                            </div>-->
+
+<!--                            &lt;!&ndash; Right Side Image &ndash;&gt;-->
+<!--                            <div class="contact-image">-->
+<!--                                <img src="/cr_internal_website_theme/static/src/img/b2.png" alt="Illustration"/>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </section>-->
+
+
+
+<!--                    <h2>Frequently Asked Questions</h2>-->
+<!--                    <dl>-->
+<!--                        <dt>Can you customize Odoo for my business?</dt>-->
+<!--                        <dd>Yes, we create custom modules, dashboards, and reports tailored to your business needs.</dd>-->
+<!--                        <dt>Do you handle Odoo migrations?</dt>-->
+<!--                        <dd>Absolutely! We ensure safe and seamless migration to the latest Odoo version.</dd>-->
+<!--                        <dt>Do you provide ongoing support?</dt>-->
+<!--                        <dd>Yes, we offer dedicated support, upgrades, and performance monitoring services.</dd>-->
+<!--                    </dl>-->
+
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+
+        <!-- 1. Comprehensive Service -->
+        <div class="oe_structure" id="oe_structure_service5_comprehensive">
+            <section class="s_comprehensive_service s_trusted_odoo_partner cr_font" data-snippet="s_comprehensive_service" data-name="Comprehensive Service" style="padding: 60px 0 !important;">
+                <div class="container">
+                    <div class="row mb-5 pb-lg-3">
+                        <div class="col-12 text-center" data-aos="fade-down">
+                            <h2 class="partner-title mb-3">
+                                The Odoo Development Services That Builds for 
+                                <span class="text-gradient">How Your Business Actually Works</span>
+                            </h2>
+                            <!-- Small decorative underline -->
+                            <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center gx-0">
+                        <div class="col-lg-6 mb-5 mb-lg-0">
+                            <div class="partner-content-box text-start">
+                                <p class="partner-description partner-desc-1 mb-4 w-100">
+                                    Creyox Technologies delivers end-to-end Odoo development services from custom ERP modules and third-party integrations to eCommerce, mobile apps, and full Odoo implementations.
+                                </p>
+                                <div class="partner-cta-group">
+                                    <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                        <span>Get Services Now</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
+                                <img src="/cr_internal_website_theme/static/src/img/odoo-dev-intro.png"
+                                     alt="Odoo Development Services"
+                                     class="img-fluid" 
+                                     style="max-height: 450px; width: auto; object-fit: contain;"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 2. Milestone Section -->
+        <div class="oe_structure" id="oe_structure_service5_milestones">
+            <section class="milestone-light-section s_milestone_section cr_font" data-snippet="s_milestone_section" data-name="Milestone Section">
+                <div class="milestone-wrapper">
+                    <h2 class="milestone-heading">Our Odoo Development Milestones</h2>
+                    <div class="milestone-grid">
+                        <div class="milestone-card" style="--i:1">
+                            <div class="milestone-icon"><i class="fas fa-project-diagram"/></div>
+                            <h3><span class="counter" data-count="200">200</span>+</h3>
+                            <p>Odoo Projects Delivered</p>
+                        </div>
+                        <div class="milestone-card" style="--i:2">
+                            <div class="milestone-icon"><i class="fas fa-award"/></div>
+                            <h3><span class="counter" data-count="8">8</span>+</h3>
+                            <p>Years of Odoo Expertise</p>
+                        </div>
+                        <div class="milestone-card" style="--i:3">
+                            <div class="milestone-icon"><i class="fas fa-heart"/></div>
+                            <h3><span class="counter" data-count="98">98</span>%</h3>
+                            <p>Client Retention Rate</p>
+                        </div>
+                        <div class="milestone-card" style="--i:4">
+                            <div class="milestone-icon"><i class="fas fa-industry"/></div>
+                            <h3><span class="counter" data-count="40">40</span>+</h3>
+                            <p>Industries Served</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 3. ERP Pain Points -->
+        <div class="oe_structure" id="oe_structure_service5_pain_points">
+            <section class="s_erp_pain_points cr_font sg-cols-3" data-snippet="s_erp_pain_points" data-name="ERP Pain Points">
+                <div class="erp-container">
+                    <div class="erp-header-group" data-aos="fade-up">
+                        <h2 class="erp-title">
+                            Your Business Has Outgrown 
+                            <span class="text-gradient">Your Current System</span>
+                        </h2>
+                        <p class="erp-subtitle">
+                            If any of these feel familiar, you need more than software. You need the right Odoo development partner.
+                        </p>
+                    </div>
+                    <div class="connected-matrix" data-aos="fade-up">
+                        <div class="row g-4 mb-4">
+                            <div class="col-md-4 pp-card-col">
+                                <div class="matrix-block pure-bento-card h-100">
+                                    <span class="bento-index">01</span>
+                                    <div class="bento-content">
+                                        <h3 class="bento-title">Your ERP Doesn’t Fit Your Workflow</h3>
+                                        <p class="bento-text">Generic systems force you to adjust your process, not the other way around.</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
-                                    <div class="partner-image-box">
-                                        <img src="/cr_internal_website_theme/static/src/img/odoo-development.png"
-                                             alt="Odoo Development"
-                                             class="img-fluid partner-image"/>
-                                        <div class="image-overlay-glow"/>
+                            </div>
+                            <div class="col-md-4 pp-card-col">
+                                <div class="matrix-block pure-bento-card highlight h-100">
+                                    <span class="bento-index">02</span>
+                                    <div class="bento-content">
+                                        <h3 class="bento-title">Your Tools Don’t Work Together</h3>
+                                        <p class="bento-text">Data is scattered across systems, creating confusion and wasted effort.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pp-card-col">
+                                <div class="matrix-block pure-bento-card h-100">
+                                    <span class="bento-index">03</span>
+                                    <div class="bento-content">
+                                        <h3 class="bento-title">Too Much Manual Work</h3>
+                                        <p class="bento-text">Repetitive tasks like data entry and updates eat up your team’s time.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-md-4 pp-card-col">
+                                <div class="matrix-block pure-bento-card highlight h-100">
+                                    <span class="bento-index">04</span>
+                                    <div class="bento-content">
+                                        <h3 class="bento-title">Lack of Real-Time Visibility</h3>
+                                        <p class="bento-text">You don’t have a clear, unified view of your business operations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pp-card-col">
+                                <div class="matrix-block pure-bento-card h-100">
+                                    <span class="bento-index">05</span>
+                                    <div class="bento-content">
+                                        <h3 class="bento-title">Scaling Feels Complicated</h3>
+                                        <p class="bento-text">Your current system can’t keep up as your business grows.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
+        </div>
 
-                <!-- Content Below -->
-                <div class="cr-odoo-content">
+        <!-- 4. Service Showcase -->
+        <div class="oe_structure" id="oe_structure_service5_showcase">
+            <section class="s_service_showcase cr_font sc-cols-3" data-snippet="s_service_showcase" data-name="Service Showcase">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Everything Your Business Needs from One 
+                            <span class="text-gradient">Odoo Development Company</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                    </div>
+                    <div class="row g-4 s_service_showcase_row justify-content-center">
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                            <div class="service-card card-blue h-100 d-flex flex-column p-4 p-lg-5">
+                                <div class="card-icon mb-4"><i class="fas fa-code"/></div>
+                                <h3 class="card-title mb-3">Odoo Development</h3>
+                                <p class="card-text mb-4">Custom-built Odoo solutions tailored to your business needs.</p>
+                                <div class="partner-cta-group mt-auto">
+                                    <a href="/services/odoo-development" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
+                                        <span style="font-size: 14px !important;">Odoo Development Services</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true" style="font-size: 11px;"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-card card-dark h-100 d-flex flex-column p-4 p-lg-5">
+                                <div class="card-icon mb-4"><i class="fas fa-plug"/></div>
+                                <h3 class="card-title mb-3">Odoo Integration</h3>
+                                <p class="card-text mb-4">Connect Odoo with your existing tools and systems.</p>
+                                <div class="partner-cta-group mt-auto">
+                                    <a href="/services/odoo-integration" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
+                                        <span style="font-size: 14px !important;">Odoo Integration Services</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true" style="font-size: 11px;"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="service-card card-blue h-100 d-flex flex-column p-4 p-lg-5">
+                                <div class="card-icon mb-4"><i class="fas fa-rocket"/></div>
+                                <h3 class="card-title mb-3">Odoo Implementation</h3>
+                                <p class="card-text mb-4">Seamless Odoo setup aligned with your workflows.</p>
+                                <div class="partner-cta-group mt-auto">
+                                    <a href="/services/odoo-implementation" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
+                                        <span style="font-size: 14px !important;">Odoo Implementation Services</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true" style="font-size: 11px;"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="300">
+                            <div class="service-card card-dark h-100 d-flex flex-column p-4 p-lg-5">
+                                <div class="card-icon mb-4"><i class="fas fa-sliders-h"/></div>
+                                <h3 class="card-title mb-3">Odoo Customisation</h3>
+                                <p class="card-text mb-4">Adapt Odoo to match your processes and operations.</p>
+                                <div class="partner-cta-group mt-auto">
+                                    <a href="/services/odoo-customisation" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
+                                        <span style="font-size: 14px !important;">Odoo Customisation Services</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true" style="font-size: 11px;"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                            <div class="service-card card-dark h-100 d-flex flex-column p-4 p-lg-5">
+                                <div class="card-icon mb-4"><i class="fas fa-upload"/></div>
+                                <h3 class="card-title mb-3">Odoo Migration</h3>
+                                <p class="card-text mb-4">Upgrade or migrate your system with zero data loss.</p>
+                                <div class="partner-cta-group mt-auto">
+                                    <a href="/services/odoo-migration" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
+                                        <span style="font-size: 14px !important;">Odoo Migration &amp; Upgrade Services</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true" style="font-size: 11px;"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-card card-blue h-100 d-flex flex-column p-4 p-lg-5">
+                                <div class="card-icon mb-4"><i class="fas fa-headset"/></div>
+                                <h3 class="card-title mb-3">Odoo Support</h3>
+                                <p class="card-text mb-4">Reliable support to keep your system running smoothly.</p>
+                                <div class="partner-cta-group mt-auto">
+                                    <a href="/services/odoo-support" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
+                                        <span style="font-size: 14px !important;">Odoo Support &amp; Maintenance</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true" style="font-size: 11px;"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="service-card card-dark h-100 d-flex flex-column p-4 p-lg-5">
+                                <div class="card-icon mb-4"><i class="fas fa-chalkboard-teacher"/></div>
+                                <h3 class="card-title mb-3">Odoo Training</h3>
+                                <p class="card-text mb-4">Empower your team with practical, hands-on Odoo training for daily operations.</p>
+                                <div class="partner-cta-group mt-auto">
+                                    <a href="/services/odoo-training" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
+                                        <span style="font-size: 14px !important;">Odoo Training Services</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true" style="font-size: 11px;"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="300">
+                            <div class="service-card card-blue h-100 d-flex flex-column p-4 p-lg-5">
+                                <div class="card-icon mb-4"><i class="fas fa-lightbulb"/></div>
+                                <h3 class="card-title mb-3">Odoo Consulting</h3>
+                                <p class="card-text mb-4">Get expert guidance to plan, optimize, and scale your Odoo implementation.</p>
+                                <div class="partner-cta-group mt-auto">
+                                    <a href="/services/odoo-consulting" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
+                                        <span style="font-size: 14px !important;">Odoo Consulting Services</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true" style="font-size: 11px;"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
 
-                    <h2>Why Choose Our Odoo Development Services?</h2>
-                    <p>
-                        Our certified Odoo experts deliver tailored solutions designed to streamline and optimize your business operations.
-                        From seamless ERP setup and custom module development to advanced automation and system integrations,
-                        we ensure that your organization harnesses the full power of Odoo. With a focus on scalability, performance,
-                        and long-term efficiency, we empower your business to achieve sustainable growth and stay ahead in a competitive market.
+        <!-- 5. Benefit Mesh -->
+        <div class="oe_structure" id="oe_structure_service5_benefit_mesh">
+            <section class="s_benefit_mesh cr_font bm-cols-3" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Why Businesses Worldwide 
+                            <span class="text-gradient">choose Odoo</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="section-description mt-4 mx-auto">
+                            Odoo is the only business platform that grows with you from a small team to a global enterprise without forcing a system change, a vendor switch, or a costly re-implementation.
+                        </p>
+                    </div>
+                    <div class="row g-4 s_benefit_mesh_row justify-content-center">
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">01</div>
+                                <h3 class="card-title">One Platform, Every Department</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Sales, inventory, accounting, HR, manufacturing, helpdesk, website, and marketing one system, one login, one database. No integrations needed between your own tools, no matter how many departments or locations you have.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">02</div>
+                                <h3 class="card-title">Built to be Customised for Any Market</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Odoo's open-source architecture means every module, workflow, and screen can be tailored to your business and your market. Multi-currency, multi-language, multi-company all built in, ready for global operations.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">03</div>
+                                <h3 class="card-title">Lower Total Cost of Ownership</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Compared to legacy ERP systems, Odoo dramatically reduces licensing costs, implementation timelines, and the need for ongoing consultant fees delivering measurable ROI regardless of your business size or location.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 6. ERP Comparison Section -->
+        <div class="oe_structure" id="oe_structure_service5_comparison">
+            <section class="s_erp_comparison erp-comparison-section-v3 cr_font" data-snippet="s_erp_comparison" data-name="ERP Comparison">
+                <div class="erp-comparison-container-v3">
+                    <!-- Section Header -->
+                    <div class="erp-comparison-header-v3" data-aos="fade-up">
+                        <div class="erp-comparison-pretitle-v3">Make the Right Choice</div>
+                        <h2 class="erp-comparison-title-v3">
+                            Traditional <strong class="cr_vs">vs</strong> <span class="text-gradient">Odoo Development</span>
+                        </h2>
+                        <p class="erp-comparison-description-v3">
+                            See how Odoo outperforms legacy systems with modern, integrated solutions that scale with your business.
+                        </p>
+                    </div>
+
+                    <div class="erp-comparison-grid-v3">
+                        <!-- Column 1: Legacy -->
+                        <div class="erp-comparison-column-v3 legacy-col" data-aos="fade-right">
+                            <div class="erp-comparison-column-header-v3">
+                                <div class="erp-comparison-column-badge-v3">Legacy Platforms</div>
+                                <h3 class="erp-comparison-column-title-v3">Other ERPs</h3>
+                                <p class="erp-comparison-column-subtitle-v3">Fragmented software that limits growth and drains resources.</p>
+                            </div>
+                            
+                            <div class="erp-comparison-features-v3">
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Limited Customization</div>
+                                        <div class="erp-comparison-feature-text-v3">Requires expensive consultants and months of complex development.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Disconnected Modules</div>
+                                        <div class="erp-comparison-feature-text-v3">Multiple vendors and poor integration creating data silos.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">High Licensing Costs</div>
+                                        <div class="erp-comparison-feature-text-v3">Expensive per-user fees and hidden costs for essential add-ons.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Slow Implementation</div>
+                                        <div class="erp-comparison-feature-text-v3">Lengthy setup timelines that often delay business ROI.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Add-on Mobility</div>
+                                        <div class="erp-comparison-feature-text-v3">Mobile access often requires separate, costly third-party modules.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Partial Scalability</div>
+                                        <div class="erp-comparison-feature-text-v3">Struggles to adapt to new workflows as your business grows.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Column 2: Modern -->
+                        <div class="erp-comparison-column-v3 erp-comparison-column-premium-v3 modern-col" data-aos="fade-left">
+                            <div class="erp-comparison-column-header-v3">
+                                <div class="erp-comparison-column-badge-v3">Odoo Solution</div>
+                                <h3 class="erp-comparison-column-title-v3">Odoo ERP</h3>
+                                <p class="erp-comparison-column-subtitle-v3">All-in-one platform designed for agility and rapid scaling.</p>
+                            </div>
+
+                            <div class="erp-comparison-features-v3">
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Unlimited Customization</div>
+                                        <div class="erp-comparison-feature-text-v3">Fully flexible open-source architecture tailored to any workflow.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">All-in-One Suite</div>
+                                        <div class="erp-comparison-feature-text-v3">40+ apps work together seamlessly with one unified database.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Cost-Effective Licensing</div>
+                                        <div class="erp-comparison-feature-text-v3">Affordable per-user model with no hidden fees for features.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Fast Implementation</div>
+                                        <div class="erp-comparison-feature-text-v3">Rapid deployment with modular, ready-to-use business apps.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Native Mobile Ready</div>
+                                        <div class="erp-comparison-feature-text-v3">Mobile-ready out of the box for total remote accessibility.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Unlimited Scalability</div>
+                                        <div class="erp-comparison-feature-text-v3">Built to grow from small teams to global enterprises.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- 7. Industry Use Case - Part 1 -->
+        <div class="oe_structure" id="oe_structure_service5_use_cases_1">
+            <section class="s_industry_use_cases web-usecases cr_font" data-snippet="s_industry_use_cases" data-name="Industry Use Cases">
+                <div class="container">
+                    <h2 class="web-usecases-title cr-title text-center mb-5" data-aos="fade-up">
+                        Odoo Development Services Across 
+                        <span class="text-gradient">Every Industry</span>
+                    </h2>
+                    <p class="lead text-muted text-center mb-5" data-aos="fade-up">
+                        We have delivered Odoo ERP development projects for businesses across industries and continents, each implementation shaped around that sector's specific workflows, compliance requirements, and growth challenges.
                     </p>
+                    <div class="web-usecases-wrapper">
+                        <div class="web-usecase-list">
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="100">
+                                <div class="usecase-content">
+                                    <h4>Manufacturing</h4>
+                                    <p>Manage production, inventory, and quality all in one system.</p>
+                                </div>
+                            </div>
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="200">
+                                <div class="usecase-content">
+                                    <h4>Retail &amp; eCommerce</h4>
+                                    <p>Track sales, manage stock, and run online stores seamlessly.</p>
+                                </div>
+                            </div>
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="300">
+                                <div class="usecase-content">
+                                    <h4>Trading &amp; Distribution</h4>
+                                    <p>Simplify inventory, orders, and supply chain operations.</p>
+                                </div>
+                            </div>
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="400">
+                                <div class="usecase-content">
+                                    <h4>Professional Services</h4>
+                                    <p>Manage projects, teams, and billing with ease.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="web-usecases-image" data-aos="zoom-in">
+                            <img src="/cr_internal_website_theme/static/src/img/odoo-dev-industry-1.png" alt="Odoo Development Industries - Manufacturing &amp; Retail" class="img-fluid"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_industry_use_cases web-usecases cr_font o_layout_reverse" data-snippet="s_industry_use_cases" data-name="Industry Use Cases Continuation">
+                <div class="container">
+                    <div class="web-usecases-wrapper">
+                        <div class="web-usecase-list">
+                            <div class="usecase" data-aos="fade-left" data-aos-delay="100">
+                                <div class="usecase-content">
+                                    <h4>Logistics &amp; Supply Chain</h4>
+                                    <p>Track shipments, manage warehouses, and optimize delivery.</p>
+                                </div>
+                            </div>
+                            <div class="usecase" data-aos="fade-left" data-aos-delay="200">
+                                <div class="usecase-content">
+                                    <h4>Hospitality &amp; Restaurants</h4>
+                                    <p>Handle orders, billing, inventory, and customer experience.</p>
+                                </div>
+                            </div>
+                            <div class="usecase" data-aos="fade-left" data-aos-delay="300">
+                                <div class="usecase-content">
+                                    <h4>Education</h4>
+                                    <p>Manage students, courses, and administrative operations.</p>
+                                </div>
+                            </div>
+                            <div class="usecase" data-aos="fade-left" data-aos-delay="400">
+                                <div class="usecase-content">
+                                    <h4>Healthcare &amp; Clinics</h4>
+                                    <p>Streamline patient records, appointments, and billing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="web-usecases-image" data-aos="zoom-in">
+                            <img src="/cr_internal_website_theme/static/src/img/odoo-dev-industry-2.png" alt="Odoo Development Industries - Logistics &amp; Healthcare" class="img-fluid"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
 
+        <!-- 8. Feature Mesh -->
+        <div class="oe_structure" id="oe_structure_service5_feature_mesh">
+            <section class="s_feature_mesh cr_font sg-cols-3" data-snippet="s_feature_mesh" data-name="Feature Mesh">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="mesh-title">
+                            How We Deliver Your 
+                            <span class="text-gradient">Odoo Development Services</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                    </div>
+                    <div class="row g-4 fm-card-row justify-content-center">
+                        <!-- Step 1 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card h-100">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Understand Your Business</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <p class="card-text">We analyze your requirements, workflows, and challenges to define the right solution.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Step 2 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card h-100">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Plan &amp; Design</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <p class="card-text">We create a clear roadmap and design a solution tailored to your business needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Step 3 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                            <div class="split-card h-100">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Develop &amp; Customize</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <p class="card-text">Our team builds and customizes Odoo to match your exact workflows and processes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Step 4 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card h-100">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Test &amp; Improve</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <p class="card-text">We thoroughly test the system to ensure performance, accuracy, and reliability.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Step 5 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card h-100">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Deploy &amp; Launch</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <p class="card-text">We implement the solution smoothly with minimal disruption to your operations.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Step 6 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                            <div class="split-card h-100">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Support &amp; Optimize</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <p class="card-text">We provide ongoing support, updates, and improvements as your business grows.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
 
-                    <ul class="odoo-features">
-                        <li>
-                            <strong>Custom Module Development:</strong>
-                            Build tailor-made modules to match unique business processes.
-                        </li>
-                        <li>
-                            <strong>Odoo Implementation:</strong>
-                            End-to-end ERP deployment with best practices.
-                        </li>
-                        <li>
-                            <strong>Integration Services:</strong>
-                            Connect Odoo with third-party apps &amp; services seamlessly.
-                        </li>
-                        <li>
-                            <strong>Migration &amp; Upgrades:</strong>
-                            Smooth transition between Odoo versions without data loss.
-                        </li>
-                        <li>
-                            <strong>Odoo Customization:</strong>
-                            Personalize workflows, dashboards, and reports.
-                        </li>
-                        <li>
-                            <strong>Website &amp; E-commerce:</strong>
-                            Fully integrated Odoo websites and online stores.
-                        </li>
-                        <li>
-                            <strong>Performance Optimization:</strong>
-                            Enhance speed, scalability, and reliability of your Odoo ERP.
-                        </li>
-                        <li>
-                            <strong>Mobile Solutions:</strong>
-                            Access Odoo on the go with mobile-friendly solutions.
-                        </li>
-                        <li>
-                            <strong>Support &amp; Maintenance:</strong>
-                            Ongoing updates, bug fixes, and monitoring for stability.
-                        </li>
-                        <li>
-                            <strong>Training &amp; Consulting:</strong>
-                            Empower your team with expert-led Odoo training.
-                        </li>
-                    </ul>
+        <!-- 9. Specialist Grid -->
+        <div class="oe_structure" id="oe_structure_service5_specialists">
+            <section class="s_specialist_grid sg-cols-2 cr_font" data-snippet="s_specialist_grid" data-name="Specialist Grid">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Why choose Creyox 
+                            <span class="text-gradient">Odoo Development Services</span>
+                        </h2>
+                        <p class="section-subtitle mt-2">
+                            Installing Odoo is easy. Building a solution that truly fits your business and drives growth requires deep expertise and that’s exactly what we deliver.
+                        </p>
+                    </div>
+                    <div class="specialist-grid-container">
+                        <div class="row g-4 s_specialist_grid_row justify-content-center">
+                            <div class="col-lg-6 s_specialist_card_col" data-aos="fade-up">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">01</div>
+                                    <h3 class="card-title">We Know Odoo Inside Out</h3>
+                                    <p class="card-text">Our team works exclusively on Odoo. No generalists, no learning on your project. Every developer, consultant, and analyst brings deep, hands-on Odoo expertise to your engagement.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">02</div>
+                                    <h3 class="card-title">Business-First Development</h3>
+                                    <p class="card-text">We don't just write code. We understand your business first then build the Odoo solution that fits it. Every technical decision is made with your operational outcomes in mind.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 s_specialist_card_col" data-aos="fade-up">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">03</div>
+                                    <h3 class="card-title">Full-Spectrum Odoo Services</h3>
+                                    <p class="card-text">ERP development, custom modules, eCommerce, mobile apps, migrations, and support everything under one roof, from one team that already knows your system.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">04</div>
+                                    <h3 class="card-title">Transparent, On-Time Delivery</h3>
+                                    <p class="card-text">Fixed timelines, clear milestones, and regular updates. You always know the project status. We don't disappear mid-project and return with surprises.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 s_specialist_card_col" data-aos="fade-up">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">05</div>
+                                    <h3 class="card-title">Post-Go-Live Partnership</h3>
+                                    <p class="card-text">Our relationship doesn't end at launch. Dedicated support, proactive monitoring, version upgrades, and continuous optimisation because Odoo is a long-term investment.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">06</div>
+                                    <h3 class="card-title">Global Delivery, Local Understanding</h3>
+                                    <p class="card-text">We work with businesses across India, UAE, UK, USA, and Australia adapting to time zones, communication styles, and regional compliance requirements seamlessly.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
 
-                   <h2>Our Implementation Approach</h2>
-                    <p>
-                        We follow a structured and transparent methodology, starting from in-depth requirement analysis to successful deployment and post-implementation support.
-                        Our agile approach emphasizes collaboration, iterative development, and continuous feedback, ensuring faster delivery with minimized risks.
-                        By aligning Odoo ERP with your unique business processes, we guarantee scalability, adaptability, and long-term success.
-                        Beyond go-live, our dedicated support ensures smooth adoption, performance optimization, and sustainable business growth.
-                    </p>
+        <!-- 10. Process Step -->
+        <div class="oe_structure" id="oe_structure_service5_cta">
+            <section class="erp-cta-section o_wfull" data-snippet="s_erp_cta" data-name="ERP CTA">
+                <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
+                <div class="container erp-cta-container">
+                    <div class="erp-cta-row">
+                        <div class="erp-cta-text">
+                            <h2>Ready to Build Something <span class="highlight">Powerful on Odoo?</span></h2>
+                            <p class="text-white mt-3 lead">Tell us what your business needs. We'll show you exactly how our Odoo development services can solve it with a free consultation and a clear project roadmap.</p>
+                        </div>
+                        <a href="/contactus" class="cta-button light">
+                            <span>Get a Free Odoo Consultation</span>
+                            <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
 
-
-
-                      <section class="contact-section">
-                        <div class="contact-wrapper">
-                            <!-- Left Side Form -->
-                            <div class="contact-form">
-                                <h2>Get in Touch</h2>
+        <div class="oe_structure" id="oe_structure_service1_contact_form">
+            <section class="s_contact_form cr_font" data-snippet="s_contact_form" data-name="Contact Form">
+                <div class="container">
+                    <div class="contact-wrapper">
+                        <!-- Left Side Form -->
+                        <div class="contact-form-card" data-aos="fade-right">
+                            <div class="form-header">
+                                <h3>Get in Touch</h3>
                                 <p>Fill out the form below and our team will reach out shortly.</p>
-                                <form id="erp-demo-form">
-
-                                    <div class="form-group">
-                                        <input type="text" name="name" placeholder=" " required="1"/>
-                                        <label>Your Name</label>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" name="email" placeholder=" " required="1"/>
-                                        <label>Your Email</label>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="tel" name="phone" placeholder=" " required="1"/>
-                                        <label>Contact Number</label>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" name="company" placeholder=" "/>
-                                        <label>Company Name</label>
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea name="message" placeholder=" " required="1"></textarea>
-                                        <label>Your Message</label>
-                                    </div>
-                                    <button type="submit">Send Message</button>
-                                </form>
-
-                                <div id="successPopup">
-                                    <div class="popup-box">
-                                        <div class="popup-icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div id="popupMessage"></div>
-                                    </div>
-                                </div>
-
                             </div>
+                            <form id="erp-demo-form">
+                                <div class="form-group-neumorphic">
+                                    <input type="text" name="name" class="form-control" placeholder=" " required="1"/>
+                                    <label>Your Name</label>
+                                </div>
+                                <div class="form-group-neumorphic">
+                                    <input type="email" name="email" class="form-control" placeholder=" " required="1"/>
+                                    <label>Your Email</label>
+                                </div>
+                                <div class="form-group-neumorphic">
+                                    <input type="tel" name="phone" class="form-control" placeholder=" " required="1"/>
+                                    <label>Contact Number</label>
+                                </div>
+                                <div class="form-group-neumorphic">
+                                    <input type="text" name="company" class="form-control" placeholder=" "/>
+                                    <label>Company Name</label>
+                                </div>
+                                <div class="form-group-neumorphic">
+                                    <textarea name="message" class="form-control" placeholder=" " required="1"></textarea>
+                                    <label>Your Message</label>
+                                </div>
+                                <div class="form-footer">
+                                    <button type="submit" class="btn btn-primary cta-button">
+                                        <span>Send Message</span>
+                                    </button>
+                                </div>
+                            </form>
 
-                            <!-- Right Side Image -->
-                            <div class="contact-image">
-                                <img src="/cr_internal_website_theme/static/src/img/b2.png" alt="Illustration"/>
+                            <!-- Success Popup -->
+                            <div id="successPopup" class="success-popup-overlay">
+                                <div class="popup-box">
+                                    <div class="popup-icon">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <div id="popupMessage"></div>
+                                </div>
                             </div>
                         </div>
-                    </section>
 
-
-
-                    <h2>Frequently Asked Questions</h2>
-                    <dl>
-                        <dt>Can you customize Odoo for my business?</dt>
-                        <dd>Yes, we create custom modules, dashboards, and reports tailored to your business needs.</dd>
-                        <dt>Do you handle Odoo migrations?</dt>
-                        <dd>Absolutely! We ensure safe and seamless migration to the latest Odoo version.</dd>
-                        <dt>Do you provide ongoing support?</dt>
-                        <dd>Yes, we offer dedicated support, upgrades, and performance monitoring services.</dd>
-                    </dl>
-
+                        <!-- Right Side Images -->
+                        <div class="contact-illustration-col" data-aos="fade-left">
+                            <div class="illustration-box">
+                                <img src="/cr_internal_website_theme/static/src/img/b2.png" alt="Get in Touch" class="img-fluid"/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
+
+        <!-- 11. FAQ Snippet -->
+        <div class="oe_structure cr_font" id="oe_structure_service5_faq">
+            <section class="s_faq_dynamic_snippet o_faq_template_1" data-snippet="s_dynamic_snippet_faq" data-name="FAQs Templates">
+                <div class="container s_faq_container">
+                </div>
+            </section>
+        </div>
 
     </template>
 

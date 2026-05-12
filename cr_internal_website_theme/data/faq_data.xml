@@ -372,6 +372,47 @@
             <field name="question">Can you take over support from another vendor?</field>
             <field name="answer">Yes. We handle vendor transitions regularly. Our onboarding process includes a full audit of your existing Odoo setup, documentation of customizations, and knowledge transfer ensuring continuity without disruption to your operations.</field>
         </record>
+        <!-- Odoo Development Solution FAQs -->
+        <record id="odoo_development_faq_1" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_development_page"/>
+            <field name="question">What is Odoo development?</field>
+            <field name="answer">Odoo development refers to implementing, customising, and extending the Odoo platform for a specific business including custom module development, ERP configuration, third-party integrations, eCommerce setup, and mobile app development built on the Odoo framework.</field>
+        </record>
+        <record id="odoo_development_faq_2" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_development_page"/>
+            <field name="question">How much does Odoo development cost?</field>
+            <field name="answer">Costs vary based on scope, the number of modules, level of customisation, integrations required, and complexity. We provide a detailed, transparent quote after our free discovery call. No hidden charges, ever.</field>
+        </record>
+        <record id="odoo_development_faq_3" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_development_page"/>
+            <field name="question">Can you customise Odoo for my specific industry?</field>
+            <field name="answer">Yes. We've delivered Odoo custom development services across manufacturing, retail, trading, services, education, and healthcare. Every implementation is shaped around your industry's specific workflows and requirements.</field>
+        </record>
+        <record id="odoo_development_faq_4" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_development_page"/>
+            <field name="question">Do you handle Odoo ERP implementation from scratch?</field>
+            <field name="answer">Absolutely. We manage the complete Odoo ERP development lifecycle from requirement analysis and solution design to development, data migration, user training, and post-launch support.</field>
+        </record>
+        <record id="odoo_development_faq_5" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_development_page"/>
+            <field name="question">Can you migrate our existing ERP to Odoo?</field>
+            <field name="answer">Yes. We handle safe, structured migrations from older Odoo versions or other ERP platforms with full data integrity, preserved customisations, and minimal operational downtime.</field>
+        </record>
+        <record id="odoo_development_faq_6" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_development_page"/>
+            <field name="question">Do you offer Odoo mobile app development?</field>
+            <field name="answer">Yes. We build Odoo mobile app solutions for field teams, delivery agents, sales reps, and customer-facing portals giving your team full Odoo access on any device.</field>
+        </record>
+        <record id="odoo_development_faq_7" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_development_page"/>
+            <field name="question">How long does an Odoo development project take?</field>
+            <field name="answer">A standard Odoo ERP implementation takes 4–10 weeks depending on scope. Custom module development ranges from 1–6 weeks. We provide a clear timeline after the discovery phase.</field>
+        </record>
+        <record id="odoo_development_faq_8" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_development_page"/>
+            <field name="question">Do you provide ongoing Odoo support after go-live?</field>
+            <field name="answer">Yes. We offer dedicated Odoo support and maintenance packages covering bug fixes, performance monitoring, version upgrades, and continuous optimisation so your system stays healthy long after launch.</field>
+        </record>
     </data>
 
 </odoo>
