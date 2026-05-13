@@ -38,24 +38,18 @@
                                     </a>
                                 </li>
                             </t>
-                            <li>
-                                <a class="breadcrumb-current" aria-current="page">
-                                    <t t-esc="blog.name"/>
-                                </a>
-                            </li>
+                            <t t-if="blog">
+                                <li>
+                                    <a class="breadcrumb-current">
+                                        <t t-esc="blog.name"/>
+                                    </a>
+                                </li>
+                            </t>
                         </ul>
                     </nav>
                 </div>
             </div>
         </section>
-    </template>
-
-    <template id="blog_post_header" inherit_id="website_blog.blog_post_complete" name="Blog Post Header">
-        <xpath expr="//section[@id='o_wblog_post_top']" position="before">
-            <t t-call="cr_internal_website_theme.s_blog_intro_banner">
-                <t t-set="blog" t-value="blog_post"/>
-            </t>
-        </xpath>
     </template>
 
     <record id="cr_internal_website_theme.s_blog_intro_banner_000_scss" model="ir.asset">
