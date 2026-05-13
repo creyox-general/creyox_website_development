@@ -60,9 +60,15 @@
 
 
                 <t t-foreach="tag.post_ids[:no_of_record_display][::-1]" t-as="blog_post">
-
+                    <t t-set="is_in_posts" t-value="False"/>
                     <t t-foreach="posts" t-as="tp">
-                        <t t-if="tp.name == blog_post.name">
+                        <t t-if="tp.id == blog_post.id">
+                            <t t-set="is_in_posts" t-value="True"/>
+                        </t>
+                    </t>
+
+                    <t t-if="not is_pager or is_in_posts">
+                        <t t-if="blog_post.website_published">
                             <div t-attf-class="pb-4 col-12 #{colWidth}"
                                  t-cache="blog_post,opt_blog_list_view,opt_blog_readable,active_tag_ids">
                                 <article

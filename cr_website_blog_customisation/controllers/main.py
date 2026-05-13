@@ -69,9 +69,13 @@ class CrWebsiteBlog(WebsiteBlog):
         return request.render("website_blog.blog_post_short", values)
 
     def _prepare_blog_values(self, blogs, blog=False, date_begin=False, date_end=False, tags=False, state=False, page=False, search=None):
-        tags = None
-        ref = super(CrWebsiteBlog,self)._prepare_blog_values(blogs, blog, date_begin, date_end, tags, state, page, search)
         url_path = request.httprequest.path
+        match = re.search(r'/blog/([^/]+)-(\d+)', url_path)
+        if match:
+            tags = match.group(2)
+        else:
+            tags = None
+        ref = super(CrWebsiteBlog,self)._prepare_blog_values(blogs, blog, date_begin, date_end, tags, state, page, search)
         url_args = dict()
         x = ref['search']
         if search:
@@ -80,8 +84,6 @@ class CrWebsiteBlog(WebsiteBlog):
         if date_begin and date_end:
             url_args["date_begin"] = ref['date_begin']
             url_args["date_end"] = ref['date_end']
-        # Regular expression to capture the slug and id (slug-id pattern)
-        match = re.search(r'/blog/([^/]+)-(\d+)', url_path)
 
         if match:
             print("112")
