@@ -428,7 +428,7 @@
 
 .login_logo_section {
     text-align: center;
-//     margin-bottom: 40px;
+    //     margin-bottom: 40px;
 
     .login_logo {
         max-width: 180px;
@@ -438,22 +438,29 @@
 
 }
 
-.oe_login_form{
-    background:white;
+.oe_login_form {
+    background: white;
     max-width: 370px;
     width: 100%;
     overflow: hidden;
     position: relative;
     z-index: 1;
     padding: 30px 30px;
-    color:#0A173B;
+    color: #0A173B;
 }
 
-.oe_login_form .btn{
-    background:#0A173B;
-    color:white;
+.oe_login_form .btn {
+    background: #0A173B;
+    color: white;
 }
 
-main{
+main {
     background: linear-gradient(135deg, #f0f4ff, #e0ecff);
+
+    &:has(#o_wblog_index_content) {
+        background: white;
+    }
+    &:has(.s_blog_intro_banner) {
+        background: white;
+    }
 }

@@ -22,8 +22,8 @@ class CrWebsiteBlog(WebsiteBlog):
         '/blog/tag/<string:tag>/page/<int:page>',
         # added this to lines ( For Tag Redirecting )
         #######################
-        # '/blog/<string:tag>',
-        # '/blog/<string:tag>/page/<int:page>',
+        '/blog/<string:tag>',
+        '/blog/<string:tag>/page/<int:page>',
         ########################
         '''/blog/<model("blog.blog"):blog>''',
         '''/blog/<model("blog.blog"):blog>/page/<int:page>''',
@@ -64,6 +64,7 @@ class CrWebsiteBlog(WebsiteBlog):
             values['blog_url'] = QueryURL('', ['blog', 'tag'], blog=blog, tag=tag, date_begin=date_begin, date_end=date_end, search=search)
         else:
             values['blog_url'] = QueryURL('/blog', ['tag'], date_begin=date_begin, date_end=date_end, search=search)
+        print(values)
 
         return request.render("website_blog.blog_post_short", values)
 

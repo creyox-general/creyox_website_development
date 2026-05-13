@@ -10,18 +10,12 @@
                         <t t-if="blog">
                             <t t-esc="blog.name"/>
                         </t>
-                        <t t-elif="blog_post">
-                            <t t-esc="blog_post.name"/>
-                        </t>
                         <t t-else="">
                             Our Latest News &amp; Insights
                         </t>
                     </h1>
                     <p class="banner-tagline">
-                        <t t-if="blog_post and blog_post.subtitle">
-                            <t t-esc="blog_post.subtitle"/>
-                        </t>
-                        <t t-elif="blog and blog.subtitle">
+                        <t t-if="blog and blog.subtitle">
                             <t t-esc="blog.subtitle"/>
                         </t>
                         <t t-else="">
@@ -36,38 +30,32 @@
                                     <span class="breadcrumb-separator fa fa-angle-right"></span>
                                 </a>
                             </li>
-                            <t t-if="blog_post">
+                            <t t-if="blog and blog.tag_ids">
                                 <li>
-                                    <a class="breadcrumb-link" t-attf-href="/blog/#{slug(blog_post.tag_ids[:1])}">
-                                        <t t-esc="blog_post.tag_ids[:1].name"/>
-                                        <span class="breadcrumb-separator fa fa-angle-right"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="breadcrumb-current" aria-current="page">
-                                        <t t-esc="blog_post.name"/>
-                                    </a>
-                                </li>
-                            </t>
-                            <t t-if="blog">
-                                <li>
-                                    <a class="breadcrumb-link" t-attf-href="/blog/#{slug(blog_post)}">
-                                        <t t-esc="blog.tag_ids[:1].mappped('name')"/>
-                                        <span class="breadcrumb-separator fa fa-angle-right"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="breadcrumb-current" aria-current="page">
-                                        <t t-esc="blog.name"/>
+                                    <a class="breadcrumb-link" t-attf-href="/cr/blog/tag/#{slug(blog.tag_ids[:1])}">
+                                        <t t-esc="blog.tag_ids[:1].name"/>
                                         <span class="breadcrumb-separator fa fa-angle-right"></span>
                                     </a>
                                 </li>
                             </t>
+                            <li>
+                                <a class="breadcrumb-current" aria-current="page">
+                                    <t t-esc="blog.name"/>
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </section>
+    </template>
+
+    <template id="blog_post_header" inherit_id="website_blog.blog_post_complete" name="Blog Post Header">
+        <xpath expr="//section[@id='o_wblog_post_top']" position="before">
+            <t t-call="cr_internal_website_theme.s_blog_intro_banner">
+                <t t-set="blog" t-value="blog_post"/>
+            </t>
+        </xpath>
     </template>
 
     <record id="cr_internal_website_theme.s_blog_intro_banner_000_scss" model="ir.asset">
