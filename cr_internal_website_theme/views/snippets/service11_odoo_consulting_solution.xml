@@ -7,6 +7,29 @@
                 rel="stylesheet"
                 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         />
+        <style>
+            .service11-usecases-refined {
+                padding: 40px 0 !important;
+            }
+            .service11-usecases-refined .web-usecases-wrapper {
+                margin-top: 0 !important;
+            }
+            @media (min-width: 992px) {
+                .service11-usecases-refined .web-usecase-list {
+                    flex: 0 0 60% !important;
+                    max-width: 60% !important;
+                }
+                .service11-usecases-refined .web-usecases-image {
+                    flex: 0 0 40% !important;
+                    max-width: 40% !important;
+                }
+            }
+            @media (max-width: 991px) {
+                .service11-usecases-refined .web-usecases-wrapper {
+                    margin-top: 30px !important;
+                }
+            }
+        </style>
         <div class="oe_structure" id="oe_structure_service11_intro_banner">
             <section class="s_service_intro_banner service-intro-banner hero-section-wave cr_font"
                      data-snippet="s_service_intro_banner"
@@ -36,6 +59,519 @@
                 </div>
             </section>
         </div>
+
+        <!-- ================= NEW VERSION START ================= -->
+
+
+        <!-- Process Step Snippet (Intro Steps) -->
+        <div class="oe_structure" id="oe_structure_service11_new_intro_steps">
+            <section class="s_process_steps cr_font" data-snippet="s_process_steps" style="padding: 60px 0 !important; background-color: #ffffff !important;">
+                <div class="container">
+                    <div class="row mb-5 text-center" data-aos="fade-up">
+                        <div class="col-12">
+                            <h2 class="partner-title fw-bold">
+                                Expert Odoo Consulting Services
+                                <span class="text-gradient d-block mt-2">That Drive Real Growth</span>
+                            </h2>
+                            <div class="mx-auto mt-3 rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="process-steps-wrapper">
+                        <!-- Step 1 -->
+                        <div class="process-step-row row align-items-center mb-5" data-aos="fade-up">
+                            <div class="col-lg-6 step-text-col">
+                                <div class="step-card text-card">
+                                    <p class="step-desc text-muted" style="font-size: 1.1rem; line-height: 1.8;">
+                                        Stop guessing with your ERP. Creyox Technologies brings certified Odoo consultants who map your business reality to Odoo's full potential, cutting inefficiencies, eliminating silos, and building a system your team actually uses.
+                                    </p>
+                                </div>
+                                <div class="step-card text-card">
+                                    <p class="step-desc text-muted" style="font-size: 1.1rem; line-height: 1.8;">
+                                        Odoo is one of the most capable business management platforms available today. But capability alone doesn't create results. Businesses that implement Odoo without proper consulting routinely face the same problems: modules that don't match actual workflows, data nobody trusts, and teams that resist the system.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 step-image-col">
+                                <div class="step-card image-card">
+                                    <img src="/cr_internal_website_theme/static/src/img/odoo_consulting_expert.png" alt="Preventing Implementation Pitfalls" class="img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="process-step-row row align-items-center mb-5 flex-row-reverse" data-aos="fade-up">
+                            <div class="col-lg-6 step-text-col">
+                                <div class="step-card text-card">
+                                    <p class="step-desc text-muted" style="font-size: 1.1rem; line-height: 1.8;">
+                                        Odoo consulting is the strategic layer that prevents all of this. It begins with understanding your business, how your teams actually work today, where the bottlenecks are, and what a successful ERP outcome means specifically for your organisation.
+                                    </p>
+                                    <div class="partner-cta-group mt-4">
+                                        <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                            <span>Get Consultation Now</span>
+                                            <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 step-image-col">
+                                <div class="step-card image-card">
+                                    <img src="/cr_internal_website_theme/static/src/img/odoo_process_mapping.png" alt="The Strategic Layer" class="img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Comprehensive Service Snippet (What is Odoo Consulting?) -->
+        <div class="oe_structure" id="oe_structure_service11_new_definition">
+            <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
+                     data-snippet="s_comprehensive_service"
+                     data-name="Comprehensive Service"
+                     style="padding: 120px 0 !important; background: radial-gradient(circle at top right, #f8faff, #ffffff) !important;">
+                <div class="container">
+                    <div class="row mb-5 pb-lg-3">
+                        <div class="col-12 text-center" data-aos="fade-up">
+                            <h2 class="partner-title mb-3 fw-bold">
+                                What is
+                                <span class="text-gradient mt-2">Odoo Consulting?</span>
+                            </h2>
+                            <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center gx-5">
+                        <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+                            <div class="partner-content-box pe-lg-4">
+                                <p class="partner-description partner-desc-1 mb-4 w-100 text-muted" style="line-height: 1.8;">
+                                    Odoo consulting is a strategic advisory service that bridges the gap between your business processes and Odoo ERP's capabilities. It's not just about getting Odoo up and running, it's about ensuring every module, workflow, and automation is built to serve your specific operational goals.
+                                </p>
+                                <p class="partner-description partner-desc-2 mb-4 w-100 text-muted" style="line-height: 1.8;">
+                                    At Creyox Technologies, our Odoo consultation begins with understanding your business, your pain points, growth ambitions, team dynamics, and current inefficiencies. Only then do we design an Odoo architecture that actually fits.
+                                </p>
+                                <div class="partner-cta-group pt-2">
+                                    <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                        <span>Start Your Transformation</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-left">
+                            <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center p-0" style="box-shadow: none !important;">
+                                <div class="position-relative">
+                                    <div class="image-overlay-glow" style="background: radial-gradient(circle, rgba(67, 97, 238, 0.1) 0%, transparent 70%); width: 140%; height: 140%; position: absolute; top: -20%; left: -20%; z-index: -1;"></div>
+                                    <img src="/cr_internal_website_theme/static/src/img/odoo-consulting.png"
+                                         alt="Odoo Consulting Definition"
+                                         class="img-fluid"
+                                         style="max-height: 520px; width: auto; object-fit: contain; border-radius: 40px;"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Industry Use Cases - Part 1: Strategic Advisory -->
+        <div class="oe_structure" id="oe_structure_service11_new_services_1">
+            <section class="s_industry_use_cases web-usecases cr_font service11-usecases-refined" data-snippet="s_industry_use_cases" data-name="Industry Use Cases">
+                <div class="container">
+                    <h2 class="web-usecases-title cr-title text-center mb-5" data-aos="fade-up">
+                        Our Odoo
+                        <span class="text-gradient">Consulting Services</span>
+                    </h2>
+                    <div class="web-usecases-wrapper">
+                        <div class="web-usecase-list">
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="100">
+                                <div class="usecase-content">
+                                    <h4>Business Process Analysis</h4>
+                                    <p>We map how your business actually works. Workshops with your team surface real bottlenecks where Odoo delivers most value.</p>
+                                </div>
+                            </div>
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="200">
+                                <div class="usecase-content">
+                                    <h4>ERP Strategy &amp; Roadmap</h4>
+                                    <p>A phased plan built around your priorities. Quick wins first, full rollout second with clear milestones.</p>
+                                </div>
+                            </div>
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="300">
+                                <div class="usecase-content">
+                                    <h4>Gap Analysis &amp; Requirements</h4>
+                                    <p>We compare requirements against Odoo's capabilities. You know upfront what's standard and what needs dev.</p>
+                                </div>
+                            </div>
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="400">
+                                <div class="usecase-content">
+                                    <h4>Module Selection Guidance</h4>
+                                    <p>Odoo has 80+ modules. We recommend only what you genuinely need, reducing cost and complexity.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="web-usecases-image" data-aos="zoom-in">
+                            <img src="/cr_internal_website_theme/static/src/img/strategic_advisory_illustration.png" alt="Strategic Advisory" class="img-fluid"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Industry Use Cases - Part 2: Migration Consulting (Reverse) -->
+        <div class="oe_structure" id="oe_structure_service11_new_services_2">
+            <section class="s_industry_use_cases web-usecases cr_font o_layout_reverse service11-usecases-refined" data-snippet="s_industry_use_cases" data-name="Industry Use Cases">
+                <div class="container">
+                    <div class="web-usecases-wrapper">
+                        <div class="web-usecase-list">
+                            <div class="usecase span-2" data-aos="fade-left" data-aos-delay="100" style="background: none !important; border: none !important; box-shadow: none !important; padding: 20px 0 !important;">
+                                <div class="usecase-content text-center">
+                                    <h2 style="font-size: var(--cr-cta-heading-fsize) !important; font-weight: 700; color: #1e3a8a; margin-bottom: 12px;">Odoo ERP Migration Consulting</h2>
+                                    <p>Moving from Tally, SAP, Zoho, Microsoft Dynamics, or a legacy system? We manage data audit, field mapping, validation, and cutover end to end.</p>
+                                </div>
+                            </div>
+                            <div class="usecase" data-aos="fade-left" data-aos-delay="100">
+                                <div class="usecase-content">
+                                    <h4>Data Audit</h4>
+                                    <p>Inventory your current data and identify what needs cleaning before migration begins.</p>
+                                </div>
+                            </div>
+                            <div class="usecase" data-aos="fade-left" data-aos-delay="200">
+                                <div class="usecase-content">
+                                    <h4>Data Mapping</h4>
+                                    <p>Every data entity mapped to its Odoo equivalent. Transformation logic designed for custom matches.</p>
+                                </div>
+                            </div>
+                            <div class="usecase" data-aos="fade-left" data-aos-delay="300">
+                                <div class="usecase-content">
+                                    <h4>Migration Validation</h4>
+                                    <p>Scripts tested in a staging environment before anything touches your live system.</p>
+                                </div>
+                            </div>
+                            <div class="usecase" data-aos="fade-left" data-aos-delay="400">
+                                <div class="usecase-content">
+                                    <h4>Cutover Planning</h4>
+                                    <p>A zero-surprise go-live with rollback provisions and parallel-run periods for safety.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="web-usecases-image" data-aos="zoom-in">
+                            <img src="/cr_internal_website_theme/static/src/img/odoo-migration.png" alt="Migration Consulting" class="img-fluid"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Industry Use Cases - Part 3: Optimization & Stickiness -->
+        <div class="oe_structure" id="oe_structure_service11_new_services_3">
+            <section class="s_industry_use_cases web-usecases cr_font service11-usecases-refined" data-snippet="s_industry_use_cases" data-name="Industry Use Cases">
+                <div class="container">
+                    <div class="web-usecases-wrapper">
+                        <div class="web-usecase-list">
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="100">
+                                <div class="usecase-content">
+                                    <h4>Process Optimisation &amp; Automation</h4>
+                                    <p>We don't just digitise your current process—we redesign it. Approval workflows and auto-triggers that save hours weekly.</p>
+                                </div>
+                            </div>
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="200">
+                                <div class="usecase-content">
+                                    <h4>Change Management &amp; Training</h4>
+                                    <p>Role-specific training that makes adoption stick. We build internal champions to keep your team confident.</p>
+                                </div>
+                            </div>
+                            <div class="usecase span-2" data-aos="fade-right" data-aos-delay="300">
+                                <div class="usecase-content">
+                                    <h4>Post Go-Live System Audit</h4>
+                                    <p>Already on Odoo but not getting full value? We audit configuration and data quality to deliver a prioritised fix list.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="web-usecases-image" data-aos="zoom-in">
+                            <img src="/cr_internal_website_theme/static/src/img/usecases.png" alt="Optimization Audit" class="img-fluid"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Service Showcase (Types of Consulting Services) -->
+        <div class="oe_structure" id="oe_structure_service11_new_types">
+            <section class="s_service_showcase cr_font sc-cols-3" data-snippet="s_service_showcase" data-name="Service Showcase">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Types of
+                            <span class="text-gradient">Consulting Services</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                    </div>
+                    <div class="row g-4 s_service_showcase_row justify-content-center">
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-user-tie"/></div>
+                                <h3 class="card-title">Odoo Functional Consultant</h3>
+                                <p class="card-text">The bridge between your operations and the platform. They translate requirements into configurations without losing business intent.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-card card-dark">
+                                <div class="card-icon"><i class="fas fa-code-branch"/></div>
+                                <h3 class="card-title">Odoo Technical Consultant</h3>
+                                <p class="card-text">They work at the intersection of requirements and engineering, translating specifications into technically sound, maintainable code.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-chart-line"/></div>
+                                <h3 class="card-title">Odoo Business Consultant</h3>
+                                <p class="card-text">Advising at the strategic level on how Odoo fits within your broader digital transformation journey.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                            <div class="service-card card-dark">
+                                <div class="card-icon"><i class="fas fa-network-wired"/></div>
+                                <h3 class="card-title">Odoo Integration Consultants</h3>
+                                <p class="card-text">Design and build the connectors that eliminate data silos across your technology stack cleanly.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-clipboard-list"/></div>
+                                <h3 class="card-title">Odoo Implementation Consultant</h3>
+                                <p class="card-text">Specialises in the critical phase between "solution designed" and "system live" where projects face highest risk.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="service-card card-dark">
+                                <div class="card-icon"><i class="fas fa-laptop-code"/></div>
+                                <h3 class="card-title">Odoo Development Consulting</h3>
+                                <p class="card-text">Bridge between a business requirement and a development brief, preventing expensive customization mistakes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Feature Mesh (How We Work - 3 Columns) -->
+        <div class="oe_structure" id="oe_structure_service11_new_how_we_work">
+            <section class="s_feature_mesh cr_font sg-cols-3" style="background: #F8F9FC !important;" data-snippet="s_feature_mesh" data-name="Feature Mesh">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="mesh-title">
+                            How
+                            <span class="text-gradient">We Work</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                    </div>
+                    <div class="row g-4 fm-card-row justify-content-center">
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Discovery Call</h3></div>
+                                <div class="card-body-zone"><p class="card-text">We understand your business and give you an honest assessment.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Discovery &amp; Mapping</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Workshops with your team. Every pain point is documented.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Gap Analysis &amp; Blueprint</h3></div>
+                                <div class="card-body-zone"><p class="card-text">What Odoo does natively, what needs config, what needs development.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="300">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Roadmap Sign-Off</h3></div>
+                                <div class="card-body-zone"><p class="card-text">You approve the full plan before any work begins.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Phased Implementation</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Weekly updates, live issue tracking, full visibility.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Go-Live &amp; Training</h3></div>
+                                <div class="card-body-zone"><p class="card-text">Role-based training before go-live. On-call support during cutover.</p></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                            <div class="split-card">
+                                <div class="card-title-zone"><h3 class="card-title">Ongoing Advisory</h3></div>
+                                <div class="card-body-zone"><p class="card-text">30-60-90 day reviews. Proactive guidance as your business evolves.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Benefit Mesh (Why Creyox Technologies) -->
+        <div class="oe_structure" id="oe_structure_service11_new_why_us">
+            <section class="s_benefit_mesh cr_font bm-cols-3" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            Why
+                            <span class="text-gradient">Creyox Technologies</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                    </div>
+                    <div class="row g-4 s_benefit_mesh_row justify-content-center">
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">01</div>
+                                <h3 class="card-title">Certified Odoo Expertise</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Our team holds official Odoo certifications across functional, technical, and business domains.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">02</div>
+                                <h3 class="card-title">End-to-End Odoo Consultancy</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">From first consulting call to post-launch support, we cover development, integration, and migration.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">03</div>
+                                <h3 class="card-title">Business-First Mindset</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">We don't recommend features that solve business problems. Recommendations tied to outcomes.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">04</div>
+                                <h3 class="card-title">Transparent Pricing</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">No hidden scope, no billing surprises. Fixed-scope or T&amp;M engagements with full visibility.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">05</div>
+                                <h3 class="card-title">Multi-Industry Experience</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Implemented Odoo for manufacturers, retail, logistics, and service businesses globally.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Milestone Section (Industries) -->
+        <div class="oe_structure" id="oe_structure_service11_new_industries">
+            <section class="milestone-light-section s_milestone_section cr_font" data-snippet="s_milestone_section" data-name="Milestone Section">
+                <div class="milestone-wrapper text-center">
+                    <h2 class="milestone-heading text-center">
+                        Odoo ERP Consulting
+                        <span class="text-gradient">Across Every Industry</span>
+                    </h2>
+                    <p class="text-center text-muted mb-5">Our experience spans diverse sectors each with unique compliance and operational needs.</p>
+                    <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1 g-4">
+                        <div class="col mb-4">
+                            <div class="milestone-card h-100" style="--i:1">
+                                <div class="milestone-icon"><i class="fas fa-industry"/></div>
+                                <h3>Manufacturing</h3>
+                                <p class="text-muted small">BOM, MRP, work orders, quality control.</p>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="milestone-card h-100" style="--i:2">
+                                <div class="milestone-icon"><i class="fas fa-shopping-bag"/></div>
+                                <h3>Retail &amp; E-commerce</h3>
+                                <p class="text-muted small">POS, inventory sync, multi-channel sales.</p>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="milestone-card h-100" style="--i:3">
+                                <div class="milestone-icon"><i class="fas fa-truck-loading"/></div>
+                                <h3>Logistics</h3>
+                                <p class="text-muted small">Fleet management, route optimization.</p>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="milestone-card h-100" style="--i:4">
+                                <div class="milestone-icon"><i class="fas fa-hospital-user"/></div>
+                                <h3>Healthcare</h3>
+                                <p class="text-muted small">Patient records, scheduling, billing.</p>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="milestone-card h-100" style="--i:5">
+                                <div class="milestone-icon"><i class="fas fa-building"/></div>
+                                <h3>Construction</h3>
+                                <p class="text-muted small">Project costing, asset tracking.</p>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="milestone-card h-100" style="--i:6">
+                                <div class="milestone-icon"><i class="fas fa-concierge-bell"/></div>
+                                <h3>Professional Services</h3>
+                                <p class="text-muted small">Timesheets, billing, resource planning.</p>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="milestone-card h-100" style="--i:7">
+                                <div class="milestone-icon"><i class="fas fa-graduation-cap"/></div>
+                                <h3>Education</h3>
+                                <p class="text-muted small">Student management, fee collection.</p>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="milestone-card h-100" style="--i:8">
+                                <div class="milestone-icon"><i class="fas fa-utensils"/></div>
+                                <h3>Food &amp; Beverage</h3>
+                                <p class="text-muted small">Lot traceability, expiry tracking.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+
+        <!-- ERP CTA Section -->
+        <div class="oe_structure" id="oe_structure_service11_new_cta">
+            <section class="erp-cta-section o_wfull cr_font" data-snippet="s_erp_cta" data-name="ERP CTA">
+                <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
+                <div class="container erp-cta-container">
+                    <div class="erp-cta-row">
+                        <div class="erp-cta-text">
+                            <h2>Not Sure Where to <span class="highlight">Start with Odoo?</span></h2>
+                            <p class="text-white mt-3 lead">Book an Odoo consultation with our senior consultant. We'll review your current processes, identify your biggest quick wins, and give you an honest assessment, no pressure, no sales pitch.</p>
+                        </div>
+                        <a href="/contactus" class="cta-button light">
+                            <span>Book a Consultation</span>
+                            <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- FAQ Snippet -->
+        <div class="oe_structure cr_font" id="oe_structure_service11_new_faq">
+            <section class="s_faq_dynamic_snippet o_faq_template_1"
+                     data-snippet="s_dynamic_snippet_faq"
+                     data-name="FAQs Templates"
+                     style="padding: 100px 0px;">
+                <div class="container s_faq_container">
+                </div>
+            </section>
+        </div>
+        <!-- ================= NEW VERSION END ================= -->
 
 <!--        <section class="cr-odoo-consulting-intro o_website_snippet cr_font" aria-labelledby="odoo-consulting-heading">-->
 <!--            <div class="cr-odoo-container">-->

@@ -413,6 +413,22 @@
             <field name="question">Do you provide ongoing Odoo support after go-live?</field>
             <field name="answer">Yes. We offer dedicated Odoo support and maintenance packages covering bug fixes, performance monitoring, version upgrades, and continuous optimisation so your system stays healthy long after launch.</field>
         </record>
+        <!-- Odoo Consulting FAQs -->
+        <record id="odoo_consulting_faq_1" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_consulting_page"/>
+            <field name="question">What does Odoo consulting include?</field>
+            <field name="answer">Business process analysis, ERP strategy, requirements documentation, gap analysis, module selection, migration planning, change management, training, and long-term advisory.</field>
+        </record>
+        <record id="odoo_consulting_faq_2" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_consulting_page"/>
+            <field name="question">Can you help if we're already using Odoo but not satisfied with it?</field>
+            <field name="answer">Yes. We audit your current setup, identify what's misconfigured or underused, and deliver a clear optimisation roadmap.</field>
+        </record>
+        <record id="odoo_consulting_faq_3" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_consulting_page"/>
+            <field name="question">Do you support Odoo Community and Odoo Enterprise?</field>
+            <field name="answer">Yes and we advise honestly on which edition fits your budget and requirements, including long-term trade-offs.</field>
+        </record>
     </data>
 
 </odoo>
