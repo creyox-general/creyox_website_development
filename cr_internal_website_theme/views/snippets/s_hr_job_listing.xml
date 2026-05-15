@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
-    <template id="s_hr_job_listing" name="Jobs by Department">
-        <section class="s_hr_job_listing s_interactive_cards cr_font py-5" data-snippet="s_hr_job_listing">
+    <template id="s_hr_job_listing" name="Jobs Listing">
+        <section id="jobs_listing" class="s_hr_job_listing cr_font py-5" data-snippet="s_hr_job_listing">
             <t t-set="all_jobs" t-value="request.env['hr.job'].search([])"/>
-            <t t-set="departments" t-value="all_jobs.mapped('department_id')"/>
 
             <div class="container">
                 <!-- Header -->
                 <div class="row mb-5 text-center">
                     <div class="col-12" data-aos="fade-up">
                         <h2 class="partner-title fw-bold mb-3">Open <span class="text-gradient">Positions</span></h2>
-                        <p class="lead text-muted">Select a department to view available opportunities.</p>
                         <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
                     </div>
                 </div>
@@ -20,129 +18,59 @@
                     <i class="fa fa-briefcase fa-3x mb-3 text-muted"></i>
                     <h3>No Open Positions at the Moment</h3>
                     <p>We're not currently hiring, but we'd love to hear from you!</p>
-                    <a href="/contactus" class="btn btn-primary mt-3">Contact Us</a>
+                    <a href="/contactus" class="cta-button primary d-inline-flex align-items-center mt-3">
+                        <span>Contact Us</span>
+                        <i class="fa fa-arrow-right ms-2"/>
+                    </a>
                 </div>
 
                 <t t-else="">
-                    <!-- Department Tabs (Parent Cards) -->
-                    <div class="row parent-cards-grid g-4 mb-5 justify-content-start flex-nowrap overflow-auto pb-4 px-3">
-                        <t t-foreach="departments" t-as="dept">
-                            <div t-attf-class="col-auto flex-shrink-0 parent-card-item #{'active' if dept_first else ''}"
-                                 t-attf-data-target="dept-#{dept.id}" data-aos="zoom-in">
-                                <div class="parent-card" style="width: 250px;">
-                                    <div class="card-icon">
-                                        <i class="fa fa-users"></i>
-                                    </div>
-                                    <h3 class="card-title" t-field="dept.name"/>
-                                    <p class="card-desc">
-                                        <t t-esc="len(all_jobs.filtered(lambda j: j.department_id == dept))"/> Open Roles
-                                    </p>
-                                    <div class="active-indicator"></div>
-                                </div>
-                            </div>
-                        </t>
-                        <!-- Handle jobs with no department -->
-                        <t t-set="no_dept_jobs" t-value="all_jobs.filtered(lambda j: not j.department_id)"/>
-                        <div t-if="no_dept_jobs"
-                             t-attf-class="col-auto flex-shrink-0 parent-card-item #{'active' if not departments else ''}"
-                             data-target="dept-0" data-aos="zoom-in">
-                             <div class="parent-card" style="width: 250px;">
-                                <div class="card-icon"><i class="fa fa-briefcase"></i></div>
-                                <h3 class="card-title">General</h3>
-                                <p class="card-desc"><t t-esc="len(no_dept_jobs)"/> Open Roles</p>
-                                <div class="active-indicator"></div>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- Jobs Grid -->
+                    <div class="row g-4">
+                        <t t-foreach="all_jobs" t-as="job">
+                            <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                                <div class="job_card h-100">
+                                    <span t-if="not job.website_published" class="unpublished_badge">Unpublished</span>
 
-                    <!-- Job Listings (Sub-cards Content) -->
-                    <div class="sub-cards-content-wrapper">
-                        <t t-foreach="departments" t-as="dept">
-                            <div t-attf-class="sub-cards-container #{'active' if dept_first else ''}" t-attf-id="dept-#{dept.id}">
-                                <div class="row g-4">
-                                    <t t-foreach="all_jobs.filtered(lambda j: j.department_id == dept)" t-as="job">
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="job_card h-100">
-                                                <div class="job_card_header">
-                                                    <h3 class="job_title">
-                                                        <a t-attf-href="/jobs/detail/#{slug(job)}">
-                                                            <span t-field="job.name"/>
-                                                        </a>
-                                                    </h3>
-                                                    <span t-if="job.no_of_recruitment >= 1" class="positions_badge">
-                                                        <t t-esc="job.no_of_recruitment"/>
-                                                        <t t-if="job.no_of_recruitment == 1">Position</t>
-                                                        <t t-else="">Positions</t>
-                                                    </span>
-                                                </div>
-                                                <div class="job_card_body">
-                                                    <div class="job_description" t-esc="job.description or 'No description available'"/>
-                                                </div>
-                                                <div class="job_card_footer">
-                                                    <div class="job_meta">
-                                                        <span t-if="job.address_id" class="job_location">
-                                                            <i class="fa fa-map-marker"></i>
-                                                            <span t-field="job.address_id.city"/>
-                                                        </span>
-                                                        <span t-if="job.contract_type_id" class="job_type">
-                                                            <i class="fa fa-suitcase"></i>
-                                                            <span t-field="job.contract_type_id"/>
-                                                        </span>
-                                                        <span class="job_date">
-                                                            <i class="fa fa-clock-o"></i>
-                                                            <span t-field="job.write_date" t-options='{"widget": "relative"}'/>
-                                                        </span>
-                                                    </div>
-                                                    <a t-attf-href="/jobs/detail/#{slug(job)}" class="btn_view_details">View Details</a>
-                                                </div>
-                                            </div>
+                                    <div class="job_card_header">
+                                        <h3 class="job_title">
+                                            <a t-attf-href="/jobs/detail/#{slug(job)}">
+                                                <span t-field="job.name"/>
+                                            </a>
+                                        </h3>
+                                        <span t-if="job.no_of_recruitment >= 1" class="positions_badge">
+                                            <t t-esc="job.no_of_recruitment"/>
+                                            <t t-if="job.no_of_recruitment == 1">Position</t>
+                                            <t t-else="">Positions</t>
+                                        </span>
+                                    </div>
+
+                                    <div class="job_card_body">
+                                        <div class="job_description" t-esc="job.description or 'No description available'"/>
+                                    </div>
+
+                                    <div class="job_card_footer">
+                                        <div class="job_meta">
+                                            <span t-if="job.address_id" class="job_location">
+                                                <i class="fa fa-map-marker"></i>
+                                                <span t-field="job.address_id.city"/>
+                                            </span>
+                                            <span t-if="job.contract_type_id" class="job_type">
+                                                <i class="fa fa-suitcase"></i>
+                                                <span t-field="job.contract_type_id"/>
+                                            </span>
+                                            <span class="job_date">
+                                                <i class="fa fa-clock-o"></i>
+                                                <span t-field="job.write_date" t-options='{"widget": "relative"}'/>
+                                            </span>
                                         </div>
-                                    </t>
-                                </div>
-                            </div>
-                        </t>
-                        <!-- No Dept Jobs Content -->
-                        <t t-if="no_dept_jobs">
-                            <div t-attf-class="sub-cards-container #{'active' if not departments else ''}" id="dept-0">
-                                 <div class="row g-4">
-                                    <t t-foreach="no_dept_jobs" t-as="job">
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="job_card h-100">
-                                                <div class="job_card_header">
-                                                    <h3 class="job_title">
-                                                        <a t-attf-href="/jobs/detail/#{slug(job)}">
-                                                            <span t-field="job.name"/>
-                                                        </a>
-                                                    </h3>
-                                                    <span t-if="job.no_of_recruitment >= 1" class="positions_badge">
-                                                        <t t-esc="job.no_of_recruitment"/>
-                                                        <t t-if="job.no_of_recruitment == 1">Position</t>
-                                                        <t t-else="">Positions</t>
-                                                    </span>
-                                                </div>
-                                                <div class="job_card_body">
-                                                    <div class="job_description" t-esc="job.description or 'No description available'"/>
-                                                </div>
-                                                <div class="job_card_footer">
-                                                    <div class="job_meta">
-                                                        <span t-if="job.address_id" class="job_location">
-                                                            <i class="fa fa-map-marker"></i>
-                                                            <span t-field="job.address_id.city"/>
-                                                        </span>
-                                                        <span t-if="job.contract_type_id" class="job_type">
-                                                            <i class="fa fa-suitcase"></i>
-                                                            <span t-field="job.contract_type_id"/>
-                                                        </span>
-                                                        <span class="job_date">
-                                                            <i class="fa fa-clock-o"></i>
-                                                            <span t-field="job.write_date" t-options='{"widget": "relative"}'/>
-                                                        </span>
-                                                    </div>
-                                                    <a t-attf-href="/jobs/detail/#{slug(job)}" class="btn_view_details">View Details</a>
-                                                </div>
-                                            </div>
+                                        <div class="partner-cta-group">
+                                            <a t-attf-href="/jobs/detail/#{slug(job)}" class="cta-button primary w-100 justify-content-center d-inline-flex align-items-center">
+                                                <span>View Details &amp; Apply</span>
+                                                <i class="fa fa-arrow-right ms-2"/>
+                                            </a>
                                         </div>
-                                    </t>
+                                    </div>
                                 </div>
                             </div>
                         </t>
@@ -155,8 +83,11 @@
                                 <h3 class="fw-bold mb-2" style="color: #1e293b;">Don't see a role that fits?</h3>
                                 <p class="mb-0 text-muted lead" style="font-size: 16px;">We're always looking for talented people to join our team. Submit your resume and we'll reach out when a matching role opens up.</p>
                             </div>
-                            <div class="col-lg-4 text-lg-end">
-                                <a href="/contactus" class="btn btn-primary btn-lg px-5 py-3 fw-bold rounded-pill shadow-sm" style="background: #4361ee; border: none;">Join Talent Pool</a>
+                            <div class="col-lg-4 text-lg-end mt-4">
+                                <a href="mailto:info@creyox.com" class="cta-button primary d-inline-flex align-items-center">
+                                    <span>Submit Your Resume</span>
+                                    <i class="fa fa-arrow-right ms-2"/>
+                                </a>
                             </div>
                         </div>
                     </div>

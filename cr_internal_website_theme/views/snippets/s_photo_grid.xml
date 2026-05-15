@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_photo_grid" name="Photo Grid Section">
+        <section id="life_at_creyox" class="s_photo_grid py-5 bg-white">
+            <div class="container">
+                <div class="section_header text-center mb-5" data-aos="fade-up">
+                    <h2 class="display-5 fw-bold text-primary">Life at Creyox</h2>
+                    <p class="lead text-muted mx-auto" style="max-width: 800px;">Experience a culture where creativity thrives and every moment is a celebration of our collective success.</p>
+                </div>
+                
+                <div class="row g-4 photo_gallery_grid">
+                    <!-- Row 1: 4 + 8 -->
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="photo_item_v2">
+                            <img src="/cr_internal_website_theme/static/src/img/career_team.png" alt="Team 1" class="img-fluid rounded-4 shadow-sm w-100"/>
+                            <div class="photo_overlay">
+                                <h3>Team Synergy</h3>
+                                <p>Collaboration at its best.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8" data-aos="fade-up" data-aos-delay="200">
+                        <div class="photo_item_v2">
+                            <img src="/cr_internal_website_theme/static/src/img/office_team_working_premium.png" alt="Team 2" class="img-fluid rounded-4 shadow-sm w-100"/>
+                            <div class="photo_overlay">
+                                <h3>Modern Workspace</h3>
+                                <p>Where creativity meets comfort.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 2: 4 + 4 + 4 -->
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="photo_item_v2">
+                            <img src="/cr_internal_website_theme/static/src/img/odoo_consulting_workshop.png" alt="Team 3" class="img-fluid rounded-4 shadow-sm w-100"/>
+                            <div class="photo_overlay">
+                                <h3>Workshops</h3>
+                                <p>Knowledge sharing sessions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                        <div class="photo_item_v2">
+                            <img src="/cr_internal_website_theme/static/src/img/odoo_process_mapping.png" alt="Team 4" class="img-fluid rounded-4 shadow-sm w-100"/>
+                            <div class="photo_overlay">
+                                <h3>Process Mapping</h3>
+                                <p>Designing the future.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                        <div class="photo_item_v2">
+                            <img src="/cr_internal_website_theme/static/src/img/growth_image.png" alt="Team 5" class="img-fluid rounded-4 shadow-sm w-100"/>
+                            <div class="photo_overlay">
+                                <h3>Growth</h3>
+                                <p>Scaling new heights together.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 3: 8 + 4 -->
+                    <div class="col-md-8" data-aos="fade-up" data-aos-delay="600">
+                        <div class="photo_item_v2">
+                            <img src="/cr_internal_website_theme/static/src/img/odoo_consulting_expert.png" alt="Team 6" class="img-fluid rounded-4 shadow-sm w-100"/>
+                            <div class="photo_overlay">
+                                <h3>Expertise</h3>
+                                <p>Mastering the craft.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="700">
+                        <div class="photo_item_v2">
+                            <img src="/cr_internal_website_theme/static/src/img/odoo-dev-intro.png" alt="Team 7" class="img-fluid rounded-4 shadow-sm w-100"/>
+                            <div class="photo_overlay">
+                                <h3>Innovation</h3>
+                                <p>Leading with technology.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

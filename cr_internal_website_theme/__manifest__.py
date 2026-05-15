@@ -71,6 +71,7 @@
         "views/snippets/s_industry_use_cases.xml",
         "views/snippets/s_interactive_cards.xml",
         "views/snippets/s_hr_job_listing.xml",
+        "views/snippets/s_photo_grid.xml",
         "views/snippets/s_process_steps.xml",
         "views/footer.xml",
         "views/contact_us.xml",
@@ -173,6 +174,7 @@
             'cr_internal_website_theme/static/src/snippets/s_contact_form/000.scss',
             'cr_internal_website_theme/static/src/snippets/s_contact_form/000.js',
             'cr_internal_website_theme/static/src/snippets/s_process_steps/000.scss',
+            'cr_internal_website_theme/static/src/snippets/s_photo_grid/000.scss',
         ],
     },
 

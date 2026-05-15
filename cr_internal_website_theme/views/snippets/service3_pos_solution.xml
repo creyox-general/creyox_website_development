@@ -321,7 +321,7 @@
                             <img src="/cr_internal_website_theme/static/src/img/pos-solution.png"
                                  alt="POS Solutions"
                                  class="img-fluid w-100"
-                                 style="object-fit: contain; transform: scale(1.4); transform-origin: left center; z-index: 1;"/>
+                                 style="object-fit: contain;"/>
                         </div>
                     </div>
                 </div>

@@ -17,9 +17,9 @@
                     <div class="accordion" id="faqAccordion1">
                         <div class="accordion-item border-0 mb-3 shadow-sm">
                             <h3 class="accordion-header">
-                                <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1_1">What is Odoo?</button>
+                                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1_1">What is Odoo?</button>
                             </h3>
-                            <div id="faq1_1" class="accordion-collapse collapse show">
+                            <div id="faq1_1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
                                 <div class="accordion-body text-muted">Odoo is a suite of open source business apps.</div>
                             </div>
                         </div>
@@ -27,7 +27,7 @@
                             <h3 class="accordion-header">
                                 <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1_2">How do I get started?</button>
                             </h3>
-                            <div id="faq1_2" class="accordion-collapse collapse">
+                            <div id="faq1_2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
                                 <div class="accordion-body text-muted">Contact us for onboarding.</div>
                             </div>
                         </div>
@@ -94,9 +94,9 @@
                             <div class="accordion" id="faqAccordion4">
                                 <div class="accordion-item mb-2 border">
                                     <h3 class="accordion-header">
-                                        <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4_1">What is Odoo?</button>
+                                        <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4_1">What is Odoo?</button>
                                     </h3>
-                                    <div id="faq4_1" class="accordion-collapse collapse show">
+                                    <div id="faq4_1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion4">
                                         <div class="accordion-body text-muted">Odoo is a suite of open source business apps.</div>
                                     </div>
                                 </div>

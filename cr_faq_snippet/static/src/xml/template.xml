@@ -10,11 +10,11 @@
             <t t-foreach="records" t-as="record">
                 <div class="accordion-item border-0 mb-3 shadow-sm" data-aos="fade-up" data-aos-delay="40" data-aos-duration="60">
                     <h3 class="accordion-header">
-                        <button class="accordion-button fw-semibold faq-question" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed fw-semibold faq-question" type="button" data-bs-toggle="collapse"
                                 t-attf-data-bs-target="#faq1_{{record_index}}"
                                 t-esc="record.question"/>
                     </h3>
-                    <div t-attf-id="faq1_{{record_index}}" class="accordion-collapse collapse show">
+                    <div t-attf-id="faq1_{{record_index}}" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
                         <div class="accordion-body text-muted faq-answer" t-esc="record.answer"/>
                     </div>
                 </div>

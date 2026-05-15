@@ -182,6 +182,10 @@
                     <t t-snippet="cr_internal_website_theme.s_contact_form" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
                             data-drop-in=".oe_structure"
                        data-drop-near=".oe_structure > *"/>
+
+                    <t t-snippet="cr_internal_website_theme.s_photo_grid" t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg"
+                            data-drop-in=".oe_structure"
+                       data-drop-near=".oe_structure > *"/>
                 </div>
             </div>
         </xpath>
