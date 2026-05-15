@@ -43,7 +43,7 @@
                      data-snippet="s_comprehensive_service"
                      data-name="Comprehensive Service"
                      style="padding: 60px 0 !important">
-                <div class="container">
+                <div class="container" data-aos="fade-up">
                     <div class="row mb-5 pb-lg-3">
                         <div class="col-12 text-center">
                             <h2 class="partner-title mb-3">

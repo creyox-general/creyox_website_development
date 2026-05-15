@@ -103,7 +103,7 @@
                 </div>
 
                 <!-- ERP Software Solutions Section -->
-                <div class="oe_structure" id="oe_structure_erp_software_solutions">
+                <div class="oe_structure" id="oe_structure_erp_software_solutions" style="padding-bottom: 0px !important">
                     <section class="s_erp_pain_points cr_font" data-snippet="s_erp_pain_points" data-name="ERP Software Solutions">
                         <div class="erp-container">
                             <!-- Section Header -->
@@ -183,7 +183,7 @@
                 </div>
 
                 <!-- ERP CTA Section -->
-                <div class="oe_structure" id="oe_structure_service1_cta">
+                <div class="oe_structure" id="oe_structure_service1_cta" style="padding-bottom: 30px !important">
                     <section class="erp-cta-section cr_font" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
                         <div class="bubble"></div>
                         <div class="bubble"></div>
@@ -210,7 +210,7 @@
 
                 <!-- Why Choose Us Section -->
                 <div class="oe_structure" id="oe_structure_erp_why_choose_us">
-                    <section class="s_specialist_grid py-5 sg-cols-3 cr_font" data-snippet="s_specialist_grid" data-name="Specialist Grid">
+                    <section class="s_specialist_grid sg-cols-3 cr_font" data-snippet="s_specialist_grid" data-name="Specialist Grid">
                         <div class="container">
                             <!-- Section Header -->
                             <div class="section-header text-center mb-5" data-aos="fade-up">
@@ -456,7 +456,7 @@
                     </section>
                 </div>
                 <div class="oe_structure" id="oe_structure_service1_contact_form">
-                    <section class="s_contact_form cr_font py-5" data-snippet="s_contact_form" data-name="Contact Form">
+                    <section class="s_contact_form cr_font" data-snippet="s_contact_form" data-name="Contact Form">
                         <div class="container">
                             <!-- Section Header -->
 <!--                            <div class="section-header text-center mb-5" data-aos="fade-up">-->

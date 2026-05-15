@@ -78,7 +78,7 @@
                                 <img src="/cr_internal_website_theme/static/src/img/web-development.png"
                                         alt="Web Development"
                                         class="img-fluid w-100"
-                                        style="object-fit: contain; transform: scale(1.4); transform-origin: left center; z-index: 1;"/>
+                                        style="object-fit: contain;"/>
                             </div>
                         </div>
                     </div>
@@ -275,7 +275,7 @@
         </div>
 
         <div class="oe_structure" id="oe_structure_web_specialist">
-            <section class="s_service_showcase cr_font sc-cols-2 py-5" style="background: #E8EFFF !important;" data-snippet="s_service_showcase" data-name="Service Showcase">
+            <section class="s_service_showcase cr_font sc-cols-2" style="background: #E8EFFF !important;" data-snippet="s_service_showcase" data-name="Service Showcase">
                 <div class="container">
                     <!-- Section Header -->
                     <div class="section-header text-center mb-5" data-aos="fade-up">
@@ -681,7 +681,7 @@
         </div>
 
         <div class="oe_structure" id="oe_structure_web_process">
-            <section class="s_kinetic_process py-5 cr_font" style="background: #f5f7fb !important;" data-snippet="s_kinetic_process" data-name="Kinetic Process">
+            <section class="s_kinetic_process cr_font" style="background: #f5f7fb !important;" data-snippet="s_kinetic_process" data-name="Kinetic Process">
                 <div class="container-fluid px-lg-5">
                     <!-- Section Header -->
                     <div class="section-header text-center mb-5" data-aos="fade-up">

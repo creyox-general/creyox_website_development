@@ -76,7 +76,8 @@
                             <div class="partner-image-box">
                                 <img src="/cr_internal_website_theme/static/src/img/odoo-implementation.png"
                                      alt="Odoo Implementation Services"
-                                     class="img-fluid partner-image"/>
+                                     class="img-fluid w-100"
+                                     style="object-fit: contain;"/>
                                 <div class="image-overlay-glow"/>
                             </div>
                         </div>
@@ -412,7 +413,7 @@
             </section>
 
         <!-- 7. Service Showcase Snippet -->
-        <div class="oe_structure" id="oe_structure_service7_showcase">
+        <div class="oe_structure" id="oe_structure_service7_showcase" style="padding-bottom: 0px !important;">
             <section class="s_service_showcase cr_font sc-cols-3" data-snippet="s_service_showcase" data-name="Service Showcase">
                 <div class="container">
                     <div class="section-header text-center mb-5" data-aos="fade-up">
@@ -488,6 +489,7 @@
         </div>
 
         <!-- 8. ERP CTA Snippet -->
+        <div class="oe_structure" id="oe_structure_service7_cta" style="padding-bottom: 30px !important">
             <section class="erp-cta-section cr_font" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
                 <div class="bubble"></div>
                 <div class="bubble"></div>
@@ -509,7 +511,7 @@
                     </a>
                 </div>
             </section>
-
+        </div>
         <div class="oe_structure cr_font" id="oe_structure_service7_faq">
             <section class="s_faq_dynamic_snippet o_faq_template_1"
                     data-snippet="s_dynamic_snippet_faq"

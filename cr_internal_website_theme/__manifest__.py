@@ -84,6 +84,7 @@
         'views/forget_password.xml',
         'views/sign_up.xml',
         'views/hide_contactus.xml',
+        'views/social_sidebar.xml',
     ],
     'assets': {
         'website.assets_wysiwyg': [
@@ -175,6 +176,7 @@
             'cr_internal_website_theme/static/src/snippets/s_contact_form/000.js',
             'cr_internal_website_theme/static/src/snippets/s_process_steps/000.scss',
             'cr_internal_website_theme/static/src/snippets/s_photo_grid/000.scss',
+            'cr_internal_website_theme/static/src/scss/social_sidebar.scss',
         ],
     },
 

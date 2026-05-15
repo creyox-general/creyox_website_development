@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="sticky_social_sidebar" inherit_id="website.layout" name="Sticky Social Sidebar">
+        <xpath expr="//div[@id='wrapwrap']" position="after">
+            <div class="sticky-social-sidebar">
+                <!-- Checkbox Toggle for Mobile -->
+                <input type="checkbox" id="social_sidebar_toggle" class="d-none"/>
+                
+                <label for="social_sidebar_toggle" class="social-item social-toggle">
+                    <i class="fa fa-solid fa-angle-up toggle-icon"/>
+                    <i class="fa fa-times close-icon"/>
+                </label>
+
+                <div class="social-items-wrapper">
+                    <!-- Twitter / X -->
+                    <a href="https://twitter.com/creyoxtech" target="_blank" class="social-item twitter">
+                        <i class="fa fa-twitter"/>
+                        <span class="social-label">Twitter</span>
+                    </a>
+                    
+                    <!-- LinkedIn -->
+                    <a href="https://in.linkedin.com/company/creyox-technologie-s" target="_blank" class="social-item linkedin">
+                        <i class="fa fa-linkedin"/>
+                        <span class="social-label">LinkedIn</span>
+                    </a>
+                    
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/creyox_technologies/" target="_blank" class="social-item instagram">
+                        <i class="fa fa-instagram"/>
+                        <span class="social-label">Instagram</span>
+                    </a>
+                    
+                    <!-- YouTube -->
+                    <a href="https://www.youtube.com/@CreyoxTechnologies" target="_blank" class="social-item youtube">
+                        <i class="fa fa-youtube-play"/>
+                        <span class="social-label">YouTube</span>
+                    </a>
+                    
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/919265290098" target="_blank" class="social-item whatsapp">
+                        <i class="fa fa-whatsapp"/>
+                        <span class="social-label">WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

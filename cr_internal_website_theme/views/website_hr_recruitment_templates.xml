@@ -29,7 +29,7 @@
                 <section class="career_about_section s_comprehensive_service s_trusted_odoo_partner o_layout_reverse cr_font py-5">
                     <div class="container">
                         <!-- Heading Row -->
-                        <div class="row mb-5 pb-lg-3">
+                        <div class="row mb-5 pb-lg-3" data-aos="fade-up">
                             <div class="col-12 text-center">
                                 <h2 class="partner-title mb-3">
                                     Work with <span class="text-gradient">Passion</span>, Build with <span class="text-gradient">Purpose</span>
@@ -40,7 +40,7 @@
 
                         <!-- Content Row -->
                         <div class="row align-items-center flex-column flex-lg-row-reverse">
-                            <div class="col-lg-6 mb-5 mb-lg-0">
+                            <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-left">
                                 <div class="partner-content-box text-start pe-lg-5">
                                     <p class="partner-description mb-3 w-100">
                                         We’re a team of Odoo enthusiasts building robust ERP solutions, creative websites, and innovative business apps.
@@ -60,7 +60,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6" data-aos="fade-right">
                                 <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
                                     <img src="/cr_internal_website_theme/static/src/img/career_team.png" 
                                          alt="Our Team" 
@@ -322,214 +322,8 @@
                         </div>
                     </div>
                 </section>
-
-
-<!--                <t t-call="cr_internal_website_theme.jobs_index_webkul_style"/>-->
-
             </div>
         </xpath>
-
     </template>
-
-<!--    &lt;!&ndash; Webkul Inspired Careers Page (Separate Template) &ndash;&gt;-->
-<!--    <template id="jobs_index_webkul_style" name="Webkul Style Careers Page">-->
-<!--        <div id="wrap" class="webkul_style_jobs cr_font">-->
-<!--            -->
-<!--            &lt;!&ndash; Hero Section &ndash;&gt;-->
-<!--            <section class="jobs_hero_section_v2 bg-200">-->
-<!--                <div class="container">-->
-<!--                    <div class="row align-items-center min-vh-50">-->
-<!--                        <div class="col-lg-7" data-aos="fade-right">-->
-<!--                            <h1 class="display-3 fw-bold mb-3">Build Your Career at <span class="text-primary">Creyox</span></h1>-->
-<!--                            <p class="lead mb-4">We create products that drive businesses. Join a team of innovators building world-class ERP solutions and digital experiences.</p>-->
-<!--                            <div class="hero_actions">-->
-<!--                                <a href="#jobs_listing" class="btn btn-primary btn-lg rounded-pill px-5 me-3">View Open Positions</a>-->
-<!--                                <a href="#life_at_creyox" class="btn btn-outline-primary btn-lg rounded-pill px-5">Learn More</a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-lg-5 d-none d-lg-block" data-aos="zoom-in">-->
-<!--                            <div class="hero_illustration_wrapper position-relative p-4">-->
-<!--                                <img src="/cr_internal_website_theme/static/src/img/odoo-about-hero.png" alt="Hero Illustration" class="img-fluid rounded-4 shadow-lg"/>-->
-<!--                                <div class="hero_stat_wrapper p-4 bg-white shadow rounded-4 text-center position-absolute" style="bottom: -30px; right: 20px; width: 180px; z-index: 2;">-->
-<!--                                    <h2 class="display-4 fw-bold text-primary mb-0"><t t-esc="len(jobs)"/></h2>-->
-<!--                                    <p class="text-muted text-uppercase fw-semibold mb-0 small">Open Roles</p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </section>-->
-
-<!--            &lt;!&ndash; Life at Creyox Section &ndash;&gt;-->
-<!--            <section id="life_at_creyox" class="life_creyox_section py-5">-->
-<!--                <div class="container py-lg-5">-->
-<!--                    <div class="row align-items-center">-->
-<!--                        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">-->
-<!--                            <div class="image_stack pe-lg-5">-->
-<!--                                <img src="/cr_internal_website_theme/static/src/img/career_team.png" alt="Life at Creyox" class="img-fluid rounded-4 shadow-lg w-100" style="height: 450px; object-fit: cover;" />-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-lg-6" data-aos="fade-left">-->
-<!--                            <div class="section_label text-primary fw-bold text-uppercase mb-2">Life at Creyox</div>-->
-<!--                            <h2 class="display-5 fw-bold mb-4">Where Innovation Meets Fun</h2>-->
-<!--                            <p class="lead text-muted mb-4">“Life is all about countless memories.” Work with fun is the core mantra for us. We believe in creating a journey of cherishing moments. Join and experience the worth dive into our world.</p>-->
-<!--                            <div class="row g-4">-->
-<!--                                <div class="col-sm-6">-->
-<!--                                    <div class="mini_feature d-flex align-items-center p-3 bg-white shadow-sm rounded-3">-->
-<!--                                        <div class="icon_box bg-primary-light rounded-circle p-3 me-3 text-primary">-->
-<!--                                            <i class="fa fa-coffee fa-lg"></i>-->
-<!--                                        </div>-->
-<!--                                        <h5 class="mb-0 fw-bold">Chill &amp; Brew</h5>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="col-sm-6">-->
-<!--                                    <div class="mini_feature d-flex align-items-center p-3 bg-white shadow-sm rounded-3">-->
-<!--                                        <div class="icon_box bg-info-light rounded-circle p-3 me-3 text-info">-->
-<!--                                            <i class="fa fa-gamepad fa-lg"></i>-->
-<!--                                        </div>-->
-<!--                                        <h5 class="mb-0 fw-bold">Gaming Zone</h5>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="col-sm-6">-->
-<!--                                    <div class="mini_feature d-flex align-items-center p-3 bg-white shadow-sm rounded-3">-->
-<!--                                        <div class="icon_box bg-success-light rounded-circle p-3 me-3 text-success">-->
-<!--                                            <i class="fa fa-calendar-check-o fa-lg"></i>-->
-<!--                                        </div>-->
-<!--                                        <h5 class="mb-0 fw-bold">Friday Events</h5>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="col-sm-6">-->
-<!--                                    <div class="mini_feature d-flex align-items-center p-3 bg-white shadow-sm rounded-3">-->
-<!--                                        <div class="icon_box bg-warning-light rounded-circle p-3 me-3 text-warning">-->
-<!--                                            <i class="fa fa-plane fa-lg"></i>-->
-<!--                                        </div>-->
-<!--                                        <h5 class="mb-0 fw-bold">Annual Trips</h5>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </section>-->
-
-<!--            &lt;!&ndash; Why Join Us (Refined Grid) &ndash;&gt;-->
-<!--            <section class="why_join_premium py-5 bg-light">-->
-<!--                <div class="container py-lg-5">-->
-<!--                    <div class="section_header text-center mb-5" data-aos="fade-up">-->
-<!--                        <h2 class="display-5 fw-bold">Why Join the Creyox Family?</h2>-->
-<!--                        <p class="lead text-muted mx-auto" style="max-width: 700px;">We believe in growing up the talent rather than just hiring it. Be a part of our strong army working every day to make E-Commerce and ERP easier.</p>-->
-<!--                    </div>-->
-
-<!--                    <div class="row g-4">-->
-<!--                        <div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">-->
-<!--                            <div class="benefit_card_v2 h-100 p-4 bg-white border-0 shadow-sm rounded-4 text-center">-->
-<!--                                <div class="benefit_icon mb-3">-->
-<!--                                    <i class="fa fa-rocket text-primary display-4 mb-3"></i>-->
-<!--                                </div>-->
-<!--                                <h4 class="fw-bold">Growth</h4>-->
-<!--                                <p class="text-muted mb-0">Unmatched career advancement opportunities in a fast-scaling company.</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="200">-->
-<!--                            <div class="benefit_card_v2 h-100 p-4 bg-white border-0 shadow-sm rounded-4 text-center">-->
-<!--                                <div class="benefit_icon mb-3">-->
-<!--                                    <i class="fa fa-users text-primary display-4 mb-3"></i>-->
-<!--                                </div>-->
-<!--                                <h4 class="fw-bold">Dynamic Team</h4>-->
-<!--                                <p class="text-muted mb-0">Collaborate with the brightest minds in the Odoo and eCommerce industry.</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">-->
-<!--                            <div class="benefit_card_v2 h-100 p-4 bg-white border-0 shadow-sm rounded-4 text-center">-->
-<!--                                <div class="benefit_icon mb-3">-->
-<!--                                    <i class="fa fa-book text-primary display-4 mb-3"></i>-->
-<!--                                </div>-->
-<!--                                <h4 class="fw-bold">Continuous Learning</h4>-->
-<!--                                <p class="text-muted mb-0">Regular workshops, meetups, and training sessions to keep you ahead.</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="400">-->
-<!--                            <div class="benefit_card_v2 h-100 p-4 bg-white border-0 shadow-sm rounded-4 text-center">-->
-<!--                                <div class="benefit_icon mb-3">-->
-<!--                                    <i class="fa fa-heart text-primary display-4 mb-3"></i>-->
-<!--                                </div>-->
-<!--                                <h4 class="fw-bold">Work-Life Balance</h4>-->
-<!--                                <p class="text-muted mb-0">Flexible work hours and a focus on employee well-being.</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </section>-->
-
-<!--            &lt;!&ndash; Growth & Community Section &ndash;&gt;-->
-<!--            <section class="growth_community_v2 py-5">-->
-<!--                <div class="container py-lg-5">-->
-<!--                    <div class="row align-items-center flex-lg-row-reverse">-->
-<!--                        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-left">-->
-<!--                            <div class="image_grid ps-lg-5">-->
-<!--                                <img src="/cr_internal_website_theme/static/src/img/growth_image.png" alt="Community" class="img-fluid rounded-4 shadow-sm w-100" style="height: 400px; object-fit: cover;"/>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-lg-6" data-aos="fade-right">-->
-<!--                            <h2 class="display-5 fw-bold mb-4">Global Exposure &amp; Community</h2>-->
-<!--                            <p class="lead text-muted mb-4">For career growth, we always support our employees by providing professional exposure at global tech events. Whether it's Odoo Experience in Belgium or local meetups, we encourage you to speak and lead.</p>-->
-<!--                            <div class="tech_stack_box_v2 p-4 bg-light rounded-4 border-start border-primary border-4">-->
-<!--                                <h5 class="fw-bold mb-3"><i class="fa fa-code text-primary me-2"></i> Our Diversified Tech Stack</h5>-->
-<!--                                <p class="text-muted small">We work with the latest technologies including Odoo, Magento, Shopify, Salesforce, and more.</p>-->
-<!--                                <div class="d-flex flex-wrap gap-2">-->
-<!--                                    <span class="badge bg-white text-dark shadow-sm px-3 py-2">Odoo</span>-->
-<!--                                    <span class="badge bg-white text-dark shadow-sm px-3 py-2">Magento</span>-->
-<!--                                    <span class="badge bg-white text-dark shadow-sm px-3 py-2">Salesforce</span>-->
-<!--                                    <span class="badge bg-white text-dark shadow-sm px-3 py-2">Laravel</span>-->
-<!--                                    <span class="badge bg-white text-dark shadow-sm px-3 py-2">React</span>-->
-<!--                                    <span class="badge bg-white text-dark shadow-sm px-3 py-2">Mobile Apps</span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </section>-->
-
-<!--            &lt;!&ndash; Photo Grid &ndash;&gt;-->
-<!--            <t t-call="cr_internal_website_theme.s_photo_grid"/>-->
-
-<!--            &lt;!&ndash; Culture Quote Section &ndash;&gt;-->
-<!--            <section class="culture_quote_v2 py-5 bg-200">-->
-<!--                <div class="container text-center py-5">-->
-<!--                    <div class="row justify-content-center">-->
-<!--                        <div class="col-lg-8" data-aos="zoom-in">-->
-<!--                            <i class="fa fa-quote-left display-3 text-muted opacity-25 mb-3"></i>-->
-<!--                            <h2 class="display-6 fw-bold mb-4">"Open-minded culture involves strong communication as the key to success without any barrier of hierarchy."</h2>-->
-<!--                            <p class="text-muted fw-semibold">— The Creyox Philosophy</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </section>-->
-
-<!--            &lt;!&ndash; Jobs Listing &ndash;&gt;-->
-<!--            <div id="jobs_listing" class="pt-5 mt-lg-5">-->
-<!--                <t t-call="cr_internal_website_theme.s_hr_job_listing">-->
-<!--                    <t t-set="all_jobs" t-value="jobs"/>-->
-<!--                    <t t-set="departments" t-value="all_jobs.mapped('department_id')"/>-->
-<!--                </t>-->
-<!--            </div>-->
-
-<!--            &lt;!&ndash; Final CTA Section &ndash;&gt;-->
-<!--            <section class="final_cta_v2 py-5 bg-primary text-white mt-5">-->
-<!--                <div class="container py-lg-5 text-center">-->
-<!--                    <div class="row justify-content-center">-->
-<!--                        <div class="col-lg-8" data-aos="fade-up">-->
-<!--                            <h2 class="display-5 fw-bold mb-3">Ready to Join Our Mission?</h2>-->
-<!--                            <p class="lead mb-4 opacity-75">We’re always looking for talented individuals who are passionate about technology and innovation.</p>-->
-<!--                            <div class="cta_btns">-->
-<!--                                <a href="#jobs_listing" class="btn btn-light btn-lg rounded-pill px-5 me-md-3 mb-3 mb-md-0">Browse Openings</a>-->
-<!--                                <a href="/contactus" class="btn btn-outline-light btn-lg rounded-pill px-5 mb-3 mb-md-0">Drop Your CV</a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </section>-->
-<!--        </div>-->
-<!--    </template>-->
 
 </odoo>

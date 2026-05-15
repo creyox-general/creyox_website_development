@@ -292,7 +292,7 @@
                  data-oe-type="snippet"
                  data-name="Comprehensive Service"
                  style="padding: 60px 0 !important;">
-            <div class="container">
+            <div class="container" data-aos="fade-up">
                 <div class="row mb-5 pb-lg-3">
                     <div class="col-12 text-center">
                         <h2 class="partner-title mb-3">
@@ -780,7 +780,7 @@
         </section>
 
         <!-- 10. Process Steps Section -->
-        <section class="s_process_steps cr_font py-5" data-snippet="s_process_steps">
+        <section class="s_process_steps cr_font" data-snippet="s_process_steps">
             <div class="container">
                 <div class="row mb-5 text-center" data-aos="fade-up">
                     <div class="col-12">

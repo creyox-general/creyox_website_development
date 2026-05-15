@@ -547,7 +547,7 @@
             <section class="erp-cta-section o_wfull cr_font" data-snippet="s_erp_cta" data-name="ERP CTA">
                 <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
                 <div class="container erp-cta-container">
-                    <div class="erp-cta-row">
+                    <div class="erp-cta-row" data-aos="zoom-in">
                         <div class="erp-cta-text">
                             <h2>Not Sure Where to <span class="highlight">Start with Odoo?</span></h2>
                             <p class="text-white mt-3 lead">Book an Odoo consultation with our senior consultant. We'll review your current processes, identify your biggest quick wins, and give you an honest assessment, no pressure, no sales pitch.</p>

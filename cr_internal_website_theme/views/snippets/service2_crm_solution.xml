@@ -152,8 +152,8 @@
 <!--                </div>-->
 
             <!-- CRM Services Grid Section -->
-            <div class="oe_structure" id="oe_structure_crm_services_grid">
-                <section class="s_specialist_grid pt-0 pb-5 sg-cols-2 cr_font"
+            <div class="oe_structure" id="oe_structure_crm_services_grid" style="padding-bottom: 0px !important">
+                <section class="s_specialist_grid sg-cols-2 cr_font"
                             data-snippet="s_specialist_grid"
                             data-name="Specialist Grid"
                             style="background-color: #E8F0FF;">
@@ -244,7 +244,7 @@
 
 
             <!-- CRM CTA Section -->
-            <div class="oe_structure" id="oe_structure_service2_cta">
+            <div class="oe_structure" id="oe_structure_service2_cta" style="padding-bottom: 50px !important">
                 <section class="erp-cta-section cr_font" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
                     <div class="bubble"></div>
                     <div class="bubble"></div>

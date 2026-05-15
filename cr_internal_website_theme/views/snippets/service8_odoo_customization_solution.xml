@@ -45,7 +45,7 @@
                      data-name="Comprehensive Service"
                      style="padding: 60px 0 !important">
                 <div class="container">
-                    <div class="row mb-5 pb-lg-3">
+                    <div class="row mb-5 pb-lg-3" data-aos="zoom-in">
                         <div class="col-12 text-center">
                             <h2 class="partner-title mb-3">
                                 Odoo Customization Services
@@ -537,7 +537,7 @@
 
 
         <!-- 10. Kinetic Process Snippet -->
-        <div class="oe_structure" id="oe_structure_service8_kinetic_process">
+        <div class="oe_structure" id="oe_structure_service8_kinetic_process" style="padding-bottom: 0px !important">
             <section class="s_kinetic_process cr_font" style="background-color: #E1ECFE" data-snippet="s_kinetic_process" data-name="Kinetic Process">
                 <div class="container-fluid px-lg-5">
                     <div class="section-header text-center mb-5" data-aos="fade-up">
@@ -576,7 +576,7 @@
         </div>
 
         <!-- 12. ERP CTA Snippet -->
-        <div class="oe_structure" id="oe_structure_service8_cta">
+        <div class="oe_structure" id="oe_structure_service8_cta" style="padding-bottom: 30px !important">
             <section class="erp-cta-section o_wfull cr_font" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
                 <div class="bubble"></div>
                 <div class="bubble"></div>

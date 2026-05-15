@@ -66,7 +66,8 @@
                             <div class="partner-image-box">
                                 <img src="/cr_internal_website_theme/static/src/img/odoo-integration.png"
                                      alt="Odoo Integration"
-                                     class="img-fluid partner-image"/>
+                                     class="img-fluid w-100"
+                                     style="object-fit: contain;"/>
                                 <div class="image-overlay-glow"/>
                             </div>
                         </div>
@@ -78,9 +79,7 @@
 
         <!-- 2. Milestone Section Snippet -->
         <div class="oe_structure" id="oe_structure_service6_milestones">
-            <section class="milestone-light-section s_milestone_section cr_font"
-                     data-snippet="s_milestone_section"
-                     data-name="Milestone Section">
+            <section class="milestone-light-section s_milestone_section cr_font" data-snippet="s_milestone_section" data-name="Milestone Section">
                 <div class="milestone-wrapper">
                     <div class="milestone-grid" role="list">
                         <!-- Card 1 -->
@@ -560,7 +559,7 @@
         </div>
 
         <!-- 9. ERP Pain Points Snippet -->
-        <div class="oe_structure" id="oe_structure_service6_pain_points">
+        <div class="oe_structure" id="oe_structure_service6_pain_points" style="padding-bottom: 0px !important;">
             <section class="s_erp_pain_points cr_font sg-cols-3" data-snippet="s_erp_pain_points" data-name="ERP Pain Points">
                 <div class="erp-container">
                     <div class="erp-header-group text-center mb-5" data-aos="fade-up">
@@ -639,7 +638,7 @@
 
         <!-- 10. ERP CTA Snippet -->
        
-        <div class="oe_structure" id="oe_structure_service6_cta">
+        <div class="oe_structure" id="oe_structure_service6_cta" style="padding-bottom: 30px !important">
             <section class="erp-cta-section cr_font" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
                 <div class="bubble"></div>
                 <div class="bubble"></div>
