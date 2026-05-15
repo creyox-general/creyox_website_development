@@ -1,4 +1,11 @@
 /* Modern Floating Social Sidebar */
+body.hide-social-sidebar {
+    .sticky-social-sidebar {
+        transform: translateY(-50%) translateX(100px) !important;
+        pointer-events: none !important;
+    }
+}
+
 .sticky-social-sidebar {
     position: fixed;
     top: 50%;
@@ -15,7 +22,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 50px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-    animation: sidebarFadeIn 0.8s ease-out forwards;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sticky-social-sidebar .social-items-wrapper {
@@ -24,49 +31,40 @@
     gap: 12px;
 }
 
-@keyframes sidebarFadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-50%) translateX(20px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(-50%) translateX(0);
-    }
-}
-
 .sticky-social-sidebar .social-item {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 38px;
-    height: 38px;
+    width: 44px;
+    height: 44px;
     color: #ffffff;
     text-decoration: none !important;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border-radius: 50%;
-    font-size: 15px;
+    font-size: 18px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .sticky-social-sidebar .social-item .social-label {
     position: absolute;
-    right: 120%;
+    right: 60px; /* Adjusted for larger icon */
+    top: 50%;
+    transform: translateY(-50%) translateX(10px);
     background: #1a1a1a;
     color: #fff;
-    padding: 5px 12px;
-    border-radius: 4px;
-    font-size: 12px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 13px;
     font-weight: 500;
     white-space: nowrap;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.3s ease;
-    transform: translateX(20px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     pointer-events: none;
     font-family: 'Outfit', sans-serif;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    z-index: 10000;
 }
 
 .sticky-social-sidebar .social-item .social-label::after {
@@ -95,6 +93,12 @@
     background: linear-gradient(135deg, #3b82f6, #4cc9f0);
     transform: scale(1.15);
     box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+}
+
+.sticky-social-sidebar .social-item:hover .social-label {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50%) translateX(0);
 }
 
 /* Mobile Responsive - Dock to bottom */
@@ -132,30 +136,37 @@
     }
 
     /* Toggle Logic */
-    #social_sidebar_toggle:checked ~ .social-items-wrapper {
+    #social_sidebar_toggle:checked~.social-items-wrapper {
         max-height: 400px;
         opacity: 1;
         margin-bottom: 8px;
         padding-bottom: 2px;
     }
 
-    #social_sidebar_toggle:checked ~ .social-toggle .toggle-icon {
+    #social_sidebar_toggle:checked~.social-toggle .toggle-icon {
         display: none;
     }
 
-    #social_sidebar_toggle:checked ~ .social-toggle .close-icon {
+    #social_sidebar_toggle:checked~.social-toggle .close-icon {
         display: inline-block;
     }
     
     @keyframes sidebarFadeInMobile {
-        from { opacity: 0; left: -20px; }
-        to { opacity: 1; left: 15px; }
+        from {
+            opacity: 0;
+            left: -20px;
+        }
+
+        to {
+            opacity: 1;
+            left: 15px;
+        }
     }
     
     .sticky-social-sidebar .social-item {
-        width: 35px;
-        height: 35px;
-        font-size: 14px;
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
     }
 
     .sticky-social-sidebar .social-item .social-label {

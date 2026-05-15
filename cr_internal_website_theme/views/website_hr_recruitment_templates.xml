@@ -295,7 +295,7 @@
                                         <h3 class="card-title">Join our talent community</h3>
                                         <p class="card-text mb-4">Stay connected for future opportunities that match your expertise and passion.</p>
                                         <div class="partner-cta-group w-100 mt-auto">
-                                            <a href="mailto:info@creyox.com" class="cta-button primary w-100 justify-content-center d-inline-flex align-items-center">
+                                            <a href="#jobs_listing" class="cta-button primary w-100 justify-content-center d-inline-flex align-items-center">
                                                 <span>Submit Resume</span>
                                                 <i class="fa fa-arrow-right ms-2" aria-hidden="true"/>
                                             </a>
@@ -311,7 +311,7 @@
                                         <h3 class="card-title">Follow us on LinkedIn</h3>
                                         <p class="card-text mb-4">Get the latest updates on life at Creyox, our culture, and our growing team.</p>
                                         <div class="partner-cta-group w-100 mt-auto">
-                                            <a href="https://www.linkedin.com/company/creyox" target="_blank" class="cta-button primary w-100 justify-content-center d-inline-flex align-items-center">
+                                            <a href="https://in.linkedin.com/company/creyox-technologie-s" target="_blank" class="cta-button primary w-100 justify-content-center d-inline-flex align-items-center">
                                                 <span>Follow</span>
                                                 <i class="fa fa-arrow-right ms-2" aria-hidden="true"/>
                                             </a>

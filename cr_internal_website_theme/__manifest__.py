@@ -174,6 +174,8 @@
             'cr_internal_website_theme/static/src/snippets/s_hr_job_listing/000.js',
             'cr_internal_website_theme/static/src/snippets/s_contact_form/000.scss',
             'cr_internal_website_theme/static/src/snippets/s_contact_form/000.js',
+            'cr_internal_website_theme/static/src/js/social_sidebar.js',
+            'cr_internal_website_theme/static/src/scss/scrollbar_custom.scss',
             'cr_internal_website_theme/static/src/snippets/s_process_steps/000.scss',
             'cr_internal_website_theme/static/src/snippets/s_photo_grid/000.scss',
             'cr_internal_website_theme/static/src/scss/social_sidebar.scss',

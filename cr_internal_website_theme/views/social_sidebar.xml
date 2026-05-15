@@ -12,10 +12,22 @@
                 </label>
 
                 <div class="social-items-wrapper">
+                    <!-- Contact Us -->
+                    <a href="/contactus" target="_blank" class="social-item whatsapp">
+                        <i class="fa fa-users"/>
+                        <span class="social-label">Contact Us</span>
+                    </a>
+                    
+                    <!-- Help -->
+                    <a href="/helpdesk" target="_blank" class="social-item whatsapp">
+                        <i class="fa fa-question-circle"/>
+                        <span class="social-label">Help</span>
+                    </a>
+
                     <!-- Twitter / X -->
                     <a href="https://twitter.com/creyoxtech" target="_blank" class="social-item twitter">
                         <i class="fa fa-twitter"/>
-                        <span class="social-label">Twitter</span>
+                        <span class="social-label">Twitter / X</span>
                     </a>
                     
                     <!-- LinkedIn -->
