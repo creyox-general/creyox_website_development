@@ -158,17 +158,24 @@ $border-color: #e0e0e0;
         border-color: $primary-color;
     }
 
+    .card_tag_row {
+        min-height: 28px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
     .unpublished_badge {
-        position: absolute;
-        top: 15px;
-        right: 15px;
+        display: inline-block;
         background: #dc3545;
         color: $secondary-color;
-        padding: 5px 12px;
+        padding: 4px 10px;
         border-radius: 4px;
-        font-size: 0.75rem;
-        font-weight: 600;
-        text-transform: uppercase;
+        font-size: 0.85rem !important;
+        font-weight: 600 !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.5px !important;
+        line-height: 1.2 !important;
     }
 
     .job_card_header {
@@ -233,7 +240,7 @@ $border-color: #e0e0e0;
 
                 i {
                     color: $primary-color;
-                    margin-right: 6px;
+                    margin-right: 10px !important;
                     width: 16px;
                     text-align: center;
                 }
@@ -362,12 +369,25 @@ $border-color: #e0e0e0;
     background: $light-bg;
 
     .about_content {
-        h2 { color: $primary-color; font-weight: 700; margin-bottom: 20px; }
-        p { color: $text-muted; margin-bottom: 20px; }
+        h2 {
+            color: $primary-color;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: $text-muted;
+            margin-bottom: 20px;
+        }
+
         .about_list li {
             color: $text-color;
             margin-bottom: 10px;
-            i { color: $primary-color; margin-right: 10px; }
+
+            i {
+                color: $primary-color;
+                margin-right: 10px;
+            }
         }
     }
 }
@@ -488,10 +508,9 @@ $border-color: #e0e0e0;
         padding: 20px;
 
         .unpublished_badge {
-            top: 10px;
-            right: 10px;
-            font-size: 0.7rem;
-            padding: 4px 10px;
+            font-size: 0.8rem !important;
+            padding: 3px 8px;
+            font-weight: 600 !important;
         }
 
         .job_card_header {

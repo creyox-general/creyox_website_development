@@ -22,7 +22,7 @@ body.hide-social-sidebar {
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 50px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.5s cubic-bezier(0.4, 1, 0.16, 1);
 }
 
 .sticky-social-sidebar .social-items-wrapper {
@@ -150,7 +150,7 @@ body.hide-social-sidebar {
     #social_sidebar_toggle:checked~.social-toggle .close-icon {
         display: inline-block;
     }
-    
+
     @keyframes sidebarFadeInMobile {
         from {
             opacity: 0;
@@ -162,7 +162,7 @@ body.hide-social-sidebar {
             left: 15px;
         }
     }
-    
+
     .sticky-social-sidebar .social-item {
         width: 40px;
         height: 40px;
@@ -172,8 +172,37 @@ body.hide-social-sidebar {
     .sticky-social-sidebar .social-item .social-label {
         display: none;
     }
-    
+
     .sticky-social-sidebar .social-item:hover {
         transform: translateX(5px);
     }
+}
+
+/* Extremely robust centering for the livechat button icon */
+.o_website_livechat_button:not(.d-none):not(.o_hidden):not([style*="display: none"]):not([style*="display:none"]), 
+.o_livechat_button:not(.d-none):not(.o_hidden):not([style*="display: none"]):not([style*="display:none"]) {
+    display: flex !important; /* Forces flex override only when visible to center the icon */
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 0 !important;
+
+    &::before {
+        display: inline-flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        position: static !important;
+        transform: none !important;
+        width: auto !important;
+        height: auto !important;
+        line-height: 1 !important;
+        font-size: 24px !important;
+    }
+}
+
+/* Ensure the button hides perfectly when Odoo adds hiding classes or states */
+.o_website_livechat_button.d-none, .o_livechat_button.d-none,
+.o_website_livechat_button.o_hidden, .o_livechat_button.o_hidden {
+    display: none !important;
 }

@@ -21,25 +21,13 @@
                     <!-- Help -->
                     <a href="/helpdesk" target="_blank" class="social-item whatsapp">
                         <i class="fa fa-question-circle"/>
-                        <span class="social-label">Help</span>
-                    </a>
-
-                    <!-- Twitter / X -->
-                    <a href="https://twitter.com/creyoxtech" target="_blank" class="social-item twitter">
-                        <i class="fa fa-twitter"/>
-                        <span class="social-label">Twitter / X</span>
+                        <span class="social-label">Submit Your Helpdesk Ticket</span>
                     </a>
                     
                     <!-- LinkedIn -->
                     <a href="https://in.linkedin.com/company/creyox-technologie-s" target="_blank" class="social-item linkedin">
                         <i class="fa fa-linkedin"/>
                         <span class="social-label">LinkedIn</span>
-                    </a>
-                    
-                    <!-- Instagram -->
-                    <a href="https://www.instagram.com/creyox_technologies/" target="_blank" class="social-item instagram">
-                        <i class="fa fa-instagram"/>
-                        <span class="social-label">Instagram</span>
                     </a>
                     
                     <!-- YouTube -->

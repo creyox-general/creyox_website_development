@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="s_photo_grid" name="Photo Grid Section">
-        <section id="life_at_creyox" class="s_photo_grid py-5 bg-white">
+        <section id="life_at_creyox" class="s_photo_grid bg-white">
             <div class="container">
                 <div class="section_header text-center mb-5" data-aos="fade-up">
                     <h2 class="display-5 fw-bold text-primary">Life at Creyox</h2>

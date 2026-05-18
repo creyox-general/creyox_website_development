@@ -1,4 +1,6 @@
 .s_photo_grid {
+    padding: clamp(60px, 10vw, 100px) 0 !important;
+
     .photo_gallery_grid {
         margin-top: 2rem;
     }
@@ -30,7 +32,7 @@
             color: #fff;
             transform: translateY(10px);
             transition: all 0.4s ease;
-            
+
             h3 {
                 font-size: 1.5rem;
                 font-weight: 700;
@@ -52,7 +54,7 @@
         &:hover {
             transform: translateY(-10px);
             box-shadow: 0 30px 60px rgba(10, 23, 59, 0.2) !important;
-            
+
             img {
                 transform: scale(1.1);
                 filter: brightness(0.7);
@@ -60,8 +62,9 @@
 
             .photo_overlay {
                 transform: translateY(0);
-                
-                h3, p {
+
+                h3,
+                p {
                     transform: translateY(0);
                     opacity: 1;
                 }
@@ -79,7 +82,10 @@
     @media (max-width: 575.98px) {
         .photo_item_v2 {
             height: 250px;
-            .photo_overlay h3 { font-size: 1.2rem; }
+
+            .photo_overlay h3 {
+                font-size: 1.2rem;
+            }
         }
     }
 }

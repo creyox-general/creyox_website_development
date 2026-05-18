@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
     <template id="s_hr_job_listing" name="Jobs Listing">
-        <section id="jobs_listing" class="s_hr_job_listing cr_font py-5" data-snippet="s_hr_job_listing">
+        <section id="jobs_listing" class="s_hr_job_listing cr_font" data-snippet="s_hr_job_listing" data-name="Jobs Listing">
             <t t-set="all_jobs" t-value="request.env['hr.job'].search([])"/>
 
             <div class="container">
@@ -30,9 +30,10 @@
                         <t t-foreach="all_jobs" t-as="job">
                             <div class="col-lg-4 col-md-6" data-aos="fade-up">
                                 <div class="job_card h-100">
-                                    <span t-if="not job.website_published" class="unpublished_badge">Unpublished</span>
-
                                     <div class="job_card_header">
+                                        <div class="card_tag_row">
+                                            <span t-if="not job.website_published" class="unpublished_badge">Unpublished</span>
+                                        </div>
                                         <h3 class="job_title">
                                             <a t-attf-href="/jobs/detail/#{slug(job)}">
                                                 <span t-field="job.name"/>
@@ -52,15 +53,15 @@
                                     <div class="job_card_footer">
                                         <div class="job_meta">
                                             <span t-if="job.address_id" class="job_location">
-                                                <i class="fa fa-map-marker"></i>
+                                                <i class="fa fa-map-marker me-2"></i>
                                                 <span t-field="job.address_id.city"/>
                                             </span>
                                             <span t-if="job.contract_type_id" class="job_type">
-                                                <i class="fa fa-suitcase"></i>
-                                                <span t-field="job.contract_type_id"/>
+                                                <i class="fa fa-suitcase me-2"></i>
+                                                <span t-esc="job.contract_type_id.name"/>
                                             </span>
                                             <span class="job_date">
-                                                <i class="fa fa-clock-o"></i>
+                                                <i class="fa fa-clock-o me-2"></i>
                                                 <span t-field="job.write_date" t-options='{"widget": "relative"}'/>
                                             </span>
                                         </div>
@@ -94,5 +95,12 @@
                 </t>
             </div>
         </section>
+    </template>
+
+    <template id="snippet_options_hr_job_listing" inherit_id="website.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-js="HrJobListingOptions" data-selector=".s_hr_job_listing" string="Jobs Listing">
+            </div>
+        </xpath>
     </template>
 </odoo>

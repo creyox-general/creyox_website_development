@@ -76,10 +76,9 @@
                 <t t-call="cr_internal_website_theme.s_photo_grid"/>
 
                 <!-- Jobs Listing -->
-                <t t-call="cr_internal_website_theme.s_hr_job_listing">
-                    <t t-set="all_jobs" t-value="jobs"/>
-                    <t t-set="departments" t-value="all_jobs.mapped('department_id')"/>
-                </t>
+                <div class="oe_structure cr_font" id="oe_structure_jobs_listing_page">
+                    <t t-call="cr_internal_website_theme.s_hr_job_listing"/>
+                </div>
 
 <!--                <section class="jobs_listing_section">-->
 <!--                    <div class="container">-->
