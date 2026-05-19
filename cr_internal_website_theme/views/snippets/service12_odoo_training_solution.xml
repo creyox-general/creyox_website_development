@@ -242,7 +242,7 @@
 
         <!-- ================= 3. Process Steps Snippet ================= -->
         <div class="oe_structure" id="oe_structure_service12_process_steps">
-            <section class="s_process_steps cr_font py-5" data-snippet="s_process_steps" style="background: #ffffff !important;">
+            <section class="s_process_steps cr_font" data-snippet="s_process_steps" style="background: #ffffff !important;">
                 <div class="container">
                     <div class="row mb-5 text-center" data-aos="fade-up">
                         <div class="col-12">
@@ -609,7 +609,7 @@
                      data-snippet="s_comprehensive_service"
                      data-name="Comprehensive Service"
                      style="background: #ffffff !important; padding: 80px 0 !important;">
-                <div class="container py-5">
+                <div class="container">
                     <div class="row mb-5 pb-lg-3">
                         <div class="col-12 text-center" data-aos="fade-up">
                             <h2 class="partner-title mb-3">
@@ -652,7 +652,7 @@
 
         <!-- ================= 9. Custom Choice Snippet (Interactive Cards Snippet) ================= -->
         <div class="oe_structure" id="oe_structure_service12_interactive_cards">
-            <section class="s_interactive_cards training-interactive-cards cr_font py-5" data-snippet="s_interactive_cards">
+            <section class="s_interactive_cards training-interactive-cards cr_font" data-snippet="s_interactive_cards">
                 <div class="container">
                     <div class="row mb-5 text-center">
                         <div class="col-12" data-aos="fade-up">

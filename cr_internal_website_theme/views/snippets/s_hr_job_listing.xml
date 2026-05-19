@@ -14,7 +14,7 @@
                 </div>
 
                 <!-- No Jobs Fallback -->
-                <div t-if="not all_jobs" class="no_jobs_wrapper text-center py-5">
+                <div t-if="not all_jobs" class="no_jobs_wrapper text-center">
                     <div class="no_jobs_content">
                         <i class="fa fa-briefcase fa-3x mb-3 text-muted"></i>
                         <h3>No Open Positions at the Moment</h3>

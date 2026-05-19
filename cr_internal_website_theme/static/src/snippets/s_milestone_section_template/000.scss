@@ -6,7 +6,7 @@
 }
 
 .s_milestone_section {
-  padding: 60px 20px;
+  padding: clamp(60px, 10vw, 100px) 0 !important;
 }
 
 .milestone-light-section {

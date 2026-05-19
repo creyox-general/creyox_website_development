@@ -4332,10 +4332,18 @@
 
     .hero-section .hero-title {
         font-size: 44px;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
     }
 
     .hero-section .rotating-words {
         min-width: 600px;
+    }
+
+    .hero-section .rotating-words .word {
+        text-align: center !important;
     }
 
     .hero-section .hero-subtitle {

@@ -26,7 +26,7 @@
                     </div>
                 </section>
 
-                <section class="career_about_section s_comprehensive_service s_trusted_odoo_partner o_layout_reverse cr_font py-5">
+                <section class="career_about_section s_comprehensive_service s_trusted_odoo_partner o_layout_reverse cr_font" style="padding: 60px 0 !important;">
                     <div class="container">
                         <!-- Heading Row -->
                         <div class="row mb-5 pb-lg-3" data-aos="fade-up">

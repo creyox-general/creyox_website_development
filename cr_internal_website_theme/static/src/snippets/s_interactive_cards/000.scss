@@ -1,6 +1,7 @@
 .s_interactive_cards {
     background-color: #f8fafc;
     overflow: hidden;
+    padding: clamp(60px, 10vw, 100px) 0 !important;
 
     .text-gradient {
         background: linear-gradient(90deg, #4361ee, #4cc9f0);
@@ -243,12 +244,12 @@
             justify-content: center !important;
             margin-right: -6px !important;
             margin-left: -6px !important;
-            
+
             .parent-card-item {
                 flex: 0 0 50% !important;
                 max-width: 50% !important;
                 padding: 6px !important;
-                
+
                 .active-indicator {
                     display: none !important;
                 }
@@ -260,11 +261,11 @@
                 }
             }
         }
-        
+
         .parent-card {
             padding: 15px 10px !important;
             border-radius: 12px !important;
-            
+
             .card-icon {
                 width: 44px !important;
                 height: 44px !important;
@@ -272,12 +273,12 @@
                 margin: 0 auto 10px !important;
                 border-radius: 10px !important;
             }
-            
+
             .card-title {
                 font-size: 14px !important;
                 margin-bottom: 0 !important;
             }
-            
+
             .card-desc {
                 display: none !important;
             }
@@ -289,14 +290,14 @@
                 flex-wrap: wrap !important;
                 margin-right: -6px !important;
                 margin-left: -6px !important;
-                
+
                 .sub-card-item {
                     flex: 0 0 50% !important;
                     max-width: 50% !important;
                     padding: 6px !important;
                 }
             }
-            
+
             .sub-card {
                 padding: 15px !important;
                 border-radius: 12px !important;
@@ -306,29 +307,29 @@
                 align-items: center !important;
                 justify-content: center !important;
                 height: 100% !important;
-                
+
                 .sub-icon {
                     margin-bottom: 10px !important;
                     justify-content: center !important;
                     height: 40px !important;
                     width: 100% !important;
-                    
+
                     i {
                         font-size: 22px !important;
                     }
-                    
+
                     img {
                         width: 36px !important;
                         height: 36px !important;
                     }
                 }
-                
+
                 h4 {
                     font-size: 14px !important;
                     text-align: center !important;
                     margin-bottom: 5px !important;
                 }
-                
+
                 p,
                 li,
                 span,
