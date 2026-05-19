@@ -466,5 +466,27 @@
             <field name="question">Do you offer training for the Odoo Community edition?</field>
             <field name="answer">Yes. We offer Odoo training services for both Community and Enterprise editions.</field>
         </record>
+
+        <!-- Contact Us FAQs -->
+        <record id="contact_us_faq_1" model="faq.snippet">
+            <field name="website_page_id" ref="website.contactus_page"/>
+            <field name="question">How quickly will I get a response?</field>
+            <field name="answer">We typically respond to all inquiries within 24 hours during business days. For urgent matters, please call us directly.</field>
+        </record>
+        <record id="contact_us_faq_2" model="faq.snippet">
+            <field name="website_page_id" ref="website.contactus_page"/>
+            <field name="question">What services do you offer?</field>
+            <field name="answer">We offer ERP solutions, CRM systems, POS solutions, web development, and comprehensive Odoo services including implementation and customization.</field>
+        </record>
+        <record id="contact_us_faq_3" model="faq.snippet">
+            <field name="website_page_id" ref="website.contactus_page"/>
+            <field name="question">Do you offer free consultations?</field>
+            <field name="answer">Yes, we offer a complimentary initial consultation to understand your needs and discuss how we can help your business.</field>
+        </record>
+        <record id="contact_us_faq_4" model="faq.snippet">
+            <field name="website_page_id" ref="website.contactus_page"/>
+            <field name="question">Where are you located?</field>
+            <field name="answer">Our main office is located at 123 Business Street, Suite 100. However, we serve clients globally through remote services.</field>
+        </record>
     </data>
 </odoo>
