@@ -59,13 +59,23 @@
         &::before {
             content: "";
             position: absolute;
-            top: -100%;
+            top: 0;
             left: 0;
             width: 100%;
-            height: 100%;
-            background: #ffffff;
-            transition: top 0.4s ease;
-            z-index: 0;
+            height: 4px;
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+            z-index: 10;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 0;
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+            z-index: 10;
         }
 
         &>* {
@@ -74,7 +84,10 @@
         }
 
         &.card-blue {
-            border-top: 4px solid #1e3a8a;
+            &::before,
+            &::after {
+                background: #1e3a8a;
+            }
 
             .card-icon {
                 color: #1e3a8a;
@@ -82,7 +95,10 @@
         }
 
         &.card-dark {
-            border-top: 4px solid #0f172a;
+            &::before,
+            &::after {
+                background: #0f172a;
+            }
 
             .card-icon {
                 color: #0f172a;
@@ -116,10 +132,15 @@
         /* Subtle professional interaction - sliding background color matching Section 2 */
         &:hover {
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-            border-top-width: 6px;
+            transform: scale(1.03);
+            background: #f8fafc !important;
 
             &::before {
-                top: 0;
+                width: 0;
+            }
+
+            &::after {
+                height: 100%;
             }
         }
     }

@@ -48,7 +48,8 @@ body.hide-social-sidebar {
 
 .sticky-social-sidebar .social-item .social-label {
     position: absolute;
-    right: 60px; /* Adjusted for larger icon */
+    right: 60px;
+    /* Adjusted for larger icon */
     top: 50%;
     transform: translateY(-50%) translateX(10px);
     background: #1a1a1a;
@@ -84,7 +85,8 @@ body.hide-social-sidebar {
 }
 
 .sticky-social-sidebar .social-toggle {
-    display: none; /* Hidden on Desktop */
+    display: none;
+    /* Hidden on Desktop */
     cursor: pointer;
     margin: 0;
 }
@@ -109,7 +111,8 @@ body.hide-social-sidebar {
         left: 15px;
         right: auto;
         transform: none;
-        flex-direction: column-reverse; /* Toggle at bottom */
+        flex-direction: column-reverse;
+        /* Toggle at bottom */
         border-radius: 30px;
         padding: 8px;
         gap: 0;
@@ -179,9 +182,10 @@ body.hide-social-sidebar {
 }
 
 /* Extremely robust centering for the livechat button icon */
-.o_website_livechat_button:not(.d-none):not(.o_hidden):not([style*="display: none"]):not([style*="display:none"]), 
+.o_website_livechat_button:not(.d-none):not(.o_hidden):not([style*="display: none"]):not([style*="display:none"]),
 .o_livechat_button:not(.d-none):not(.o_hidden):not([style*="display: none"]):not([style*="display:none"]) {
-    display: flex !important; /* Forces flex override only when visible to center the icon */
+    display: flex !important;
+    /* Forces flex override only when visible to center the icon */
     justify-content: center !important;
     align-items: center !important;
     padding: 0 !important;
@@ -202,7 +206,9 @@ body.hide-social-sidebar {
 }
 
 /* Ensure the button hides perfectly when Odoo adds hiding classes or states */
-.o_website_livechat_button.d-none, .o_livechat_button.d-none,
-.o_website_livechat_button.o_hidden, .o_livechat_button.o_hidden {
+.o_website_livechat_button.d-none,
+.o_livechat_button.d-none,
+.o_website_livechat_button.o_hidden,
+.o_livechat_button.o_hidden {
     display: none !important;
 }

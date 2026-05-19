@@ -37,121 +37,901 @@
             </section>
         </div>
 
-        <section class="cr-odoo-training-intro o_website_snippet cr_font" aria-labelledby="odoo-training-heading">
-            <div class="cr-odoo-container">
-                <!-- Header Row -->
-                <div class="oe_structure" id="oe_structure_odoo_training_header">
-                    <section class="s_trusted_odoo_partner cr_font"
-                             data-snippet="s_trusted_odoo_partner"
-                             data-name="Trusted Odoo Partner">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
-                                    <div class="partner-content-box text-start">
-                                        <h2 class="partner-title">
-                                            Empower Your Workforce with
-                                            <span class="text-gradient">Odoo Training</span>
-                                        </h2>
-                                        <p class="partner-description partner-desc-1">
-                                            Adopting Odoo is only successful when your team is confident using it. Our structured training ensure employees gain practical knowledge.
-                                        </p>
-                                        <p class="partner-description partner-desc-2">
-                                            Our certified trainers deliver sessions that blend real-world use cases, interactive workshops, and scenario-based learning.
-                                        </p>
-                                        <div class="partner-cta-group">
-                                            <a href="/contactus" class="cta-button primary">
-                                                <span>Work with Experts</span>
-                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
-                                            </a>
-                                        </div>
+<!--        <section class="cr-odoo-training-intro o_website_snippet cr_font" aria-labelledby="odoo-training-heading">-->
+<!--            <div class="cr-odoo-container">-->
+<!--                &lt;!&ndash; Header Row &ndash;&gt;-->
+<!--                <div class="oe_structure" id="oe_structure_odoo_training_header">-->
+<!--                    <section class="s_trusted_odoo_partner cr_font"-->
+<!--                             data-snippet="s_trusted_odoo_partner"-->
+<!--                             data-name="Trusted Odoo Partner">-->
+<!--                        <div class="container">-->
+<!--                            <div class="row align-items-center">-->
+<!--                                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">-->
+<!--                                    <div class="partner-content-box text-start">-->
+<!--                                        <h2 class="partner-title">-->
+<!--                                            Empower Your Workforce with-->
+<!--                                            <span class="text-gradient">Odoo Training</span>-->
+<!--                                        </h2>-->
+<!--                                        <p class="partner-description partner-desc-1">-->
+<!--                                            Adopting Odoo is only successful when your team is confident using it. Our structured training ensure employees gain practical knowledge.-->
+<!--                                        </p>-->
+<!--                                        <p class="partner-description partner-desc-2">-->
+<!--                                            Our certified trainers deliver sessions that blend real-world use cases, interactive workshops, and scenario-based learning.-->
+<!--                                        </p>-->
+<!--                                        <div class="partner-cta-group">-->
+<!--                                            <a href="/contactus" class="cta-button primary">-->
+<!--                                                <span>Work with Experts</span>-->
+<!--                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>-->
+<!--                                            </a>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">-->
+<!--                                    <div class="partner-image-box">-->
+<!--                                        <img src="/cr_internal_website_theme/static/src/img/odoo-training.png"-->
+<!--                                             alt="Odoo Training"-->
+<!--                                             class="img-fluid partner-image"/>-->
+<!--                                        <div class="image-overlay-glow"/>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </section>-->
+<!--                </div>-->
+
+<!--                &lt;!&ndash; Content Below &ndash;&gt;-->
+<!--                <div class="cr-odoo-content">-->
+<!--                    <h2>Why Choose Our Odoo Training?</h2>-->
+<!--                    <p>-->
+<!--                        Our training is not just about theory—it’s about building confidence and self-sufficiency.-->
+<!--                        Each session is designed to ensure maximum knowledge retention and immediate application in real projects.-->
+<!--                        With interactive exercises, role-based sessions, and post-training support, we make Odoo training practical,-->
+<!--                        engaging, and effective.-->
+<!--                        <br/><br/>-->
+<!--                        Whether your team needs <strong>functional user training, developer bootcamps, or administrator workshops</strong>,-->
+<!--                        we offer flexible formats to match your requirements.-->
+<!--                    </p>-->
+
+<!--                    <ul class="odoo-training-features">-->
+<!--                        <li>-->
+<!--                            <strong>Functional Training:</strong>-->
+<!--                            Master Odoo modules such as Sales, CRM, Inventory, Accounting, and HR.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Technical Training:</strong>-->
+<!--                            Learn module development, customizations, APIs, and advanced Odoo frameworks.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Administrator Training:</strong>-->
+<!--                            Manage databases, performance tuning, and security best practices.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Role-Based Learning:</strong>-->
+<!--                            Tailored sessions for users, managers, and technical staff.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Hands-On Practice:</strong>-->
+<!--                            Real-world exercises and case studies for deeper understanding.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Flexible Delivery:</strong>-->
+<!--                            On-site, remote, or hybrid training options.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Certified Trainers:</strong>-->
+<!--                            Learn from Odoo-certified experts with years of experience.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <strong>Post-Training Support:</strong>-->
+<!--                            Continued mentoring and Q&amp;A assistance after completion.-->
+<!--                        </li>-->
+<!--                    </ul>-->
+
+<!--                    <h2>Our Training Approach</h2>-->
+<!--                    <p>-->
+<!--                        Our methodology is <strong>interactive, practical, and results-oriented</strong>.-->
+<!--                        We begin by assessing your team’s current knowledge and business processes.-->
+<!--                        Next, we design a customized curriculum that focuses on your industry use cases-->
+<!--                        and desired outcomes.-->
+<!--                        <br/><br/>-->
+<!--                        Training sessions include live demonstrations, guided exercises, and-->
+<!--                        assessments to track progress. We ensure your team doesn’t just learn Odoo,-->
+<!--                        but gains the confidence to optimize and innovate with it in real-world operations.-->
+<!--                    </p>-->
+
+<!--                    <h2>Frequently Asked Questions</h2>-->
+<!--                    <dl>-->
+<!--                        <dt>Who can attend Odoo Training?</dt>-->
+<!--                        <dd>We offer training for end-users, managers, administrators, and developers, tailored to each role.</dd>-->
+<!--                        <dt>Do you provide certification?</dt>-->
+<!--                        <dd>Yes, we provide completion certificates and prepare participants for official Odoo certifications.</dd>-->
+<!--                        <dt>Can the training be customized?</dt>-->
+<!--                        <dd>Absolutely. We design training programs based on your company’s processes and industry needs.</dd>-->
+<!--                    </dl>-->
+
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+
+        <!-- ================= 1. Trusted Partner Snippet ================= -->
+        <div class="oe_structure" id="oe_structure_service12_trusted_partner">
+            <section class="s_trusted_odoo_partner cr_font"
+                     data-snippet="s_trusted_odoo_partner"
+                     data-name="Trusted Odoo Partner"
+                     style="background: #ffffff !important; padding: 80px 0 !important;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                            <div class="partner-content-box">
+                                <h2 class="partner-title">
+                                    Bridging the Skills Gap for
+                                    <span class="text-gradient">Odoo Success</span>
+                                </h2>
+                                <p class="partner-description partner-desc-1" style="font-size: 1.15rem; line-height: 1.8; color: #4b5563;">
+                                    Most Odoo implementations underperform not because of the software, but because teams aren't trained properly. At Creyox Technologies, our Odoo training services bridge that gap with structured, role-based, hands-on programs built for real business environments.
+                                </p>
+                                <p class="partner-description partner-desc-2" style="font-size: 1.15rem; line-height: 1.8; color: #4b5563;">
+                                    Whether you're an end-user navigating daily tasks, a developer building custom modules, or a manager overseeing operations we have the right Odoo ERP training for you.
+                                </p>
+                                <div class="partner-cta-group">
+                                    <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                        <span>Contact Now</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+                            <div class="partner-image-box">
+                                <img src="/cr_internal_website_theme/static/src/img/odoo-training.png"
+                                     alt="Odoo Training Success"
+                                     class="img-fluid partner-image"/>
+                                <div class="image-overlay-glow"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= 2. Milestone Section Snippet ================= -->
+        <div class="oe_structure" id="oe_structure_service12_milestones">
+            <section class="milestone-light-section s_milestone_section cr_font"
+                     data-snippet="s_milestone_section"
+                     data-name="Milestone Section"
+                     style="background: #f9fbff !important; padding: 80px 0 !important;">
+                <div class="container milestone-wrapper">
+                    <h2 class="milestone-heading text-center mb-5">
+                        Our Odoo Training <span class="text-gradient">By The Numbers</span>
+                    </h2>
+                    <div class="milestone-grid d-flex flex-wrap flex-lg-nowrap justify-content-center gap-3 gap-lg-4" style="width: 100%;">
+                        <!-- Card 1 -->
+                        <div class="milestone-card" style="--i:1; flex: 1 1 180px;">
+                            <div class="milestone-icon"><i class="fas fa-graduation-cap"/></div>
+                            <h3><span class="counter" data-count="200">0</span>+</h3>
+                            <p>Professionals Trained</p>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="milestone-card" style="--i:2; flex: 1 1 180px;">
+                            <div class="milestone-icon"><i class="fas fa-award"/></div>
+                            <h3><span class="counter" data-count="5">0</span>+</h3>
+                            <p>Years of Odoo Expertise</p>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="milestone-card" style="--i:3; flex: 1 1 180px;">
+                            <div class="milestone-icon"><i class="fas fa-cubes"/></div>
+                            <h3>Functional</h3>
+                            <p>&amp; Technical Modules</p>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="milestone-card" style="--i:4; flex: 1 1 180px;">
+                            <div class="milestone-icon"><i class="fas fa-laptop-house"/></div>
+                            <h3>Online &amp;<br/> On-Site</h3>
+                            <p>Delivery</p>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="milestone-card" style="--i:5; flex: 1 1 180px;">
+                            <div class="milestone-icon"><i class="fas fa-chalkboard-teacher"/></div>
+                            <h3>100%</h3>
+                            <p>Certified Odoo Trainers</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= 3. Process Steps Snippet ================= -->
+        <div class="oe_structure" id="oe_structure_service12_process_steps">
+            <section class="s_process_steps cr_font py-5" data-snippet="s_process_steps" style="background: #ffffff !important;">
+                <div class="container">
+                    <div class="row mb-5 text-center" data-aos="fade-up">
+                        <div class="col-12">
+                            <h2 class="partner-title display-4 fw-bold">What Your Team Will Be Able to Do <span class="text-gradient">After Training</span></h2>
+                        </div>
+                    </div>
+
+                    <div class="process-steps-wrapper">
+                        <!-- Step 1 -->
+                        <div class="process-step-row row align-items-center mb-5" data-aos="fade-up">
+                            <div class="col-lg-6 step-text-col">
+                                <div class="step-card text-card">
+                                    <span class="step-number-badge mb-3 d-inline-block" style="background: rgba(67, 97, 238, 0.1); color: #4361ee; padding: 6px 16px; border-radius: 30px; font-weight: 700; font-size: 0.9rem;">STEP 1</span>
+                                    <h3 class="step-title" style="font-size: 1.4rem; font-weight: 700; color: #1f2937; margin-bottom: 15px;">After Odoo Functional Training, your team will be able to:</h3>
+                                    <ul class="step-list" style="list-style-type: none; padding-left: 0; margin-top: 15px; display: flex; flex-direction: column; gap: 10px;">
+                                        <li style="font-size: 1.05rem; line-height: 1.6; color: #4b5563; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Process sales orders, purchase orders, and invoices independently in Odoo</span></li>
+                                        <li style="font-size: 1.05rem; line-height: 1.6; color: #4b5563; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Manage inventory movements, stock adjustments, and warehouse operations without IT help</span></li>
+                                        <li style="font-size: 1.05rem; line-height: 1.6; color: #4b5563; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Generate and interpret business reports, dashboards, and analytics</span></li>
+                                        <li style="font-size: 1.05rem; line-height: 1.6; color: #4b5563; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Configure and use CRM pipelines to track leads and close deals</span></li>
+                                        <li style="font-size: 1.05rem; line-height: 1.6; color: #4b5563; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Handle HR workflows, leave approvals, payroll processing, and employee records</span></li>
+                                        <li style="font-size: 1.05rem; line-height: 1.6; color: #4b5563; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Set up and manage projects, tasks, and timesheets inside Odoo</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 step-image-col">
+                                <div class="step-card image-card">
+                                    <img src="/cr_internal_website_theme/static/src/img/odoo_functional_training.png" alt="Odoo Functional Training" class="img-fluid" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="process-step-row row align-items-center mb-5 flex-row-reverse" data-aos="fade-up">
+                            <div class="col-lg-6 step-text-col">
+                                <div class="step-card text-card">
+                                    <span class="step-number-badge mb-3 d-inline-block" style="background: rgba(67, 97, 238, 0.1); color: #4361ee; padding: 6px 16px; border-radius: 30px; font-weight: 700; font-size: 0.9rem;">STEP 2</span>
+                                    <h3 class="step-title" style="font-size: 1.4rem; font-weight: 700; color: #1f2937; margin-bottom: 15px;">After Odoo Technical Training, your developers will be able to:</h3>
+                                    <ul class="step-list" style="list-style-type: none; padding-left: 0; margin-top: 15px; display: flex; flex-direction: column; gap: 10px;">
+                                        <li style="font-size: 1.05rem; line-height: 1.6; color: #4b5563; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Build custom Odoo modules from scratch following Odoo's MVC architecture</span></li>
+                                        <li style="font-size: 1.05rem; line-height: 1.6; color: #4b5563; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Write Python models, views, and controllers within the Odoo framework</span></li>
+                                        <li style="font-size: 1.05rem; line-height: 1.6; color: #4b5563; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Create custom QWeb reports and dynamic dashboards</span></li>
+                                        <li style="font-size: 1.05rem; line-height: 1.6; color: #4b5563; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Integrate external systems and third-party APIs with Odoo via REST/JSON-RPC</span></li>
+                                        <li style="font-size: 1.05rem; line-height: 1.6; color: #4b5563; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Apply security rules, access rights, and record rules across custom modules</span></li>
+                                        <li style="font-size: 1.05rem; line-height: 1.6; color: #4b5563; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Debug, test, and deploy Odoo customizations in production environments</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 step-image-col">
+                                <div class="step-card image-card">
+                                    <img src="/cr_internal_website_theme/static/src/img/odoo-development.png" alt="Odoo Technical Training" class="img-fluid" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="process-step-row row align-items-center mb-5" data-aos="fade-up">
+                            <div class="col-lg-6 step-text-col">
+                                <div class="step-card text-card">
+                                    <span class="step-number-badge mb-3 d-inline-block" style="background: rgba(67, 97, 238, 0.1); color: #4361ee; padding: 6px 16px; border-radius: 30px; font-weight: 700; font-size: 0.9rem;">STEP 3</span>
+                                    <h3 class="step-title" style="font-size: 1.4rem; font-weight: 700; color: #1f2937; margin-bottom: 15px;">After Odoo ERP Training, your organization will be able to:</h3>
+                                    <ul class="step-list" style="list-style-type: none; padding-left: 0; margin-top: 15px; display: flex; flex-direction: column; gap: 10px;">
+                                        <li style="font-size: 1.05rem; line-height: 1.6; color: #4b5563; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Run end-to-end business processes entirely within Odoo from lead to cash</span></li>
+                                        <li style="font-size: 1.05rem; line-height: 1.6; color: #4b5563; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Reduce dependency on manual spreadsheets and disconnected tools</span></li>
+                                        <li style="font-size: 1.05rem; line-height: 1.6; color: #4b5563; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Standardize workflows across departments with consistent Odoo usage</span></li>
+                                        <li style="font-size: 1.05rem; line-height: 1.6; color: #4b5563; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Onboard new employees faster using documented, trained internal processes</span></li>
+                                        <li style="font-size: 1.05rem; line-height: 1.6; color: #4b5563; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Measure business performance using live Odoo dashboards and KPI reports</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 step-image-col">
+                                <div class="step-card image-card">
+                                    <img src="/cr_internal_website_theme/static/src/img/erp-solution.png" alt="Odoo ERP Training" class="img-fluid" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= 4. ERP Comparison Snippet ================= -->
+        <div class="oe_structure" id="oe_structure_service12_comparison">
+            <section class="s_erp_comparison erp-comparison-section-v3 cr_font"
+                     data-snippet="s_erp_comparison"
+                     data-name="ERP Comparison"
+                     style="background: #f9fbff !important; padding: 80px 0 !important;">
+                <div class="erp-comparison-container-v3">
+                    <div class="erp-comparison-header-v3" data-aos="fade-up">
+                        <div class="erp-comparison-pretitle-v3">Compare Training Tracks</div>
+                        <h2 class="erp-comparison-title-v3">
+                            Functional
+                            <strong class="cr_vs">vs</strong>
+                            <span class="text-gradient">Technical</span>
+                        </h2>
+                        <p class="erp-comparison-description-v3">
+                            Choose the training program designed specifically for your organization's roles and technical capabilities.
+                        </p>
+                    </div>
+
+                    <div class="erp-comparison-grid-v3">
+                        <!-- Column 1: Functional -->
+                        <div class="erp-comparison-column-v3 legacy-col" data-aos="fade-right">
+                            <div class="erp-comparison-column-header-v3">
+                                <div class="erp-comparison-column-badge-v3" style="background: rgba(67, 97, 238, 0.1); color: #4361ee;">Functional Track</div>
+                                <h3 class="erp-comparison-column-title-v3">Functional Training</h3>
+                                <p class="erp-comparison-column-subtitle-v3">Master Odoo standard applications and operations without custom code</p>
+                            </div>
+                            
+                            <div class="erp-comparison-features-v3">
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3" style="background: rgba(67, 97, 238, 0.1); color: #4361ee;"><i class="fas fa-user-friends"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Who It's For</div>
+                                        <div class="erp-comparison-feature-text-v3">Business users, department managers, operations leads, and administrators.</div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
-                                    <div class="partner-image-box">
-                                        <img src="/cr_internal_website_theme/static/src/img/odoo-training.png"
-                                             alt="Odoo Training"
-                                             class="img-fluid partner-image"/>
-                                        <div class="image-overlay-glow"/>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3" style="background: rgba(67, 97, 238, 0.1); color: #4361ee;"><i class="fas fa-clipboard-list"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Prerequisites</div>
+                                        <div class="erp-comparison-feature-text-v3">None. Basic understanding of standard business processes is helpful.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3" style="background: rgba(67, 97, 238, 0.1); color: #4361ee;"><i class="fas fa-bullseye"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Focus</div>
+                                        <div class="erp-comparison-feature-text-v3">Configuring Odoo parameters, setting up rules, and mastering daily workflows.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3" style="background: rgba(67, 97, 238, 0.1); color: #4361ee;"><i class="fas fa-book-open"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Topics</div>
+                                        <div class="erp-comparison-feature-text-v3">Sales, CRM, Purchase, Inventory, Accounting, Manufacturing, and HR.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3" style="background: rgba(67, 97, 238, 0.1); color: #4361ee;"><i class="fas fa-graduation-cap"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Outcome</div>
+                                        <div class="erp-comparison-feature-text-v3">Full independence in managing standard Odoo configurations and daily processes.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3" style="background: rgba(67, 97, 238, 0.1); color: #4361ee;"><i class="fas fa-link"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Best Combined With</div>
+                                        <div class="erp-comparison-feature-text-v3">Advanced Odoo ERP administration workshops and sandbox coaching.</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
+
+                        <!-- Column 2: Technical -->
+                        <div class="erp-comparison-column-v3 erp-comparison-column-premium-v3 modern-col" data-aos="fade-left">
+                            <div class="erp-comparison-column-header-v3">
+                                <div class="erp-comparison-column-badge-v3">Technical Track</div>
+                                <h3 class="erp-comparison-column-title-v3">Technical Training</h3>
+                                <p class="erp-comparison-column-subtitle-v3">Dive deep into Odoo's framework, Python ORM, and custom development</p>
+                            </div>
+
+                            <div class="erp-comparison-features-v3">
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-code"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Who It's For</div>
+                                        <div class="erp-comparison-feature-text-v3">Software developers, IT administrators, and technical architects.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-laptop-code"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Prerequisites</div>
+                                        <div class="erp-comparison-feature-text-v3">Solid Python programming foundation and familiarity with XML &amp; databases.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-tools"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Focus</div>
+                                        <div class="erp-comparison-feature-text-v3">Building custom modules, modifying schema fields, and server automation.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-cubes"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Topics</div>
+                                        <div class="erp-comparison-feature-text-v3">Odoo ORM APIs, QWeb reporting, Javascript Owl framework, and Git workflow.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-trophy"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Outcome</div>
+                                        <div class="erp-comparison-feature-text-v3">Absolute capability to develop custom applications, extensions, and custom APIs.</div>
+                                    </div>
+                                </div>
+                                <div class="erp-comparison-feature-v3">
+                                    <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-link"></i></div>
+                                    <div class="erp-comparison-feature-content-v3">
+                                        <div class="erp-comparison-feature-title-v3">Best Combined With</div>
+                                        <div class="erp-comparison-feature-text-v3">Our dedicated Odoo support plans for continuous developer mentorship.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
+        </div>
 
-                <!-- Content Below -->
-                <div class="cr-odoo-content">
-                    <h2>Why Choose Our Odoo Training?</h2>
-                    <p>
-                        Our training is not just about theory—it’s about building confidence and self-sufficiency.
-                        Each session is designed to ensure maximum knowledge retention and immediate application in real projects.
-                        With interactive exercises, role-based sessions, and post-training support, we make Odoo training practical,
-                        engaging, and effective.
-                        <br/><br/>
-                        Whether your team needs <strong>functional user training, developer bootcamps, or administrator workshops</strong>,
-                        we offer flexible formats to match your requirements.
-                    </p>
+        <!-- ================= 5. Specialist Grid Snippet ================= -->
+        <div class="oe_structure" id="oe_structure_service12_what_we_offer">
+            <section class="s_specialist_grid sg-cols-3 cr_font"
+                     data-snippet="s_specialist_grid"
+                     data-name="Specialist Grid"
+                     style="background: #ffffff !important; padding: 80px 0 !important;">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            What We Offer
+                        </h2>
+                        <p class="section-subtitle mt-2" style="font-size: 1.2rem; color: #4b5563; max-width: 800px; margin: 0 auto;">
+                            Our Odoo training services are structured around your team's actual roles, daily workflows, and business goals.
+                        </p>
+                    </div>
 
-                    <ul class="odoo-training-features">
-                        <li>
-                            <strong>Functional Training:</strong>
-                            Master Odoo modules such as Sales, CRM, Inventory, Accounting, and HR.
-                        </li>
-                        <li>
-                            <strong>Technical Training:</strong>
-                            Learn module development, customizations, APIs, and advanced Odoo frameworks.
-                        </li>
-                        <li>
-                            <strong>Administrator Training:</strong>
-                            Manage databases, performance tuning, and security best practices.
-                        </li>
-                        <li>
-                            <strong>Role-Based Learning:</strong>
-                            Tailored sessions for users, managers, and technical staff.
-                        </li>
-                        <li>
-                            <strong>Hands-On Practice:</strong>
-                            Real-world exercises and case studies for deeper understanding.
-                        </li>
-                        <li>
-                            <strong>Flexible Delivery:</strong>
-                            On-site, remote, or hybrid training options.
-                        </li>
-                        <li>
-                            <strong>Certified Trainers:</strong>
-                            Learn from Odoo-certified experts with years of experience.
-                        </li>
-                        <li>
-                            <strong>Post-Training Support:</strong>
-                            Continued mentoring and Q&amp;A assistance after completion.
-                        </li>
-                    </ul>
-
-                    <h2>Our Training Approach</h2>
-                    <p>
-                        Our methodology is <strong>interactive, practical, and results-oriented</strong>.
-                        We begin by assessing your team’s current knowledge and business processes.
-                        Next, we design a customized curriculum that focuses on your industry use cases
-                        and desired outcomes.
-                        <br/><br/>
-                        Training sessions include live demonstrations, guided exercises, and
-                        assessments to track progress. We ensure your team doesn’t just learn Odoo,
-                        but gains the confidence to optimize and innovate with it in real-world operations.
-                    </p>
-
-                    <h2>Frequently Asked Questions</h2>
-                    <dl>
-                        <dt>Who can attend Odoo Training?</dt>
-                        <dd>We offer training for end-users, managers, administrators, and developers, tailored to each role.</dd>
-                        <dt>Do you provide certification?</dt>
-                        <dd>Yes, we provide completion certificates and prepare participants for official Odoo certifications.</dd>
-                        <dt>Can the training be customized?</dt>
-                        <dd>Absolutely. We design training programs based on your company’s processes and industry needs.</dd>
-                    </dl>
-
+                    <div class="specialist-grid-container">
+                        <div class="row g-4 s_specialist_grid_row justify-content-center">
+                            <!-- Card 1 -->
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up">
+                                <div class="specialist-card" style="min-height: 380px; padding: 40px 30px; border-radius: 16px; background: #f9fbff;">
+                                    <div class="card-digit">01</div>
+                                    <h3 class="card-title" style="font-size: 1.3rem; font-weight: 700; margin-top: 15px; margin-bottom: 10px;">Odoo Functional Training</h3>
+                                    <p class="card-text" style="color: #4b5563; line-height: 1.6; font-size: 0.95rem;">Perfect for business users, department leads, and operations staff. This track covers how to use Odoo's core modules effectively from Sales and CRM to Inventory, Accounting, Purchase, and HR. You'll learn how to configure workflows, generate reports, and manage day-to-day operations without relying on technical support.</p>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                <div class="specialist-card" style="min-height: 380px; padding: 40px 30px; border-radius: 16px; background: #f9fbff;">
+                                    <div class="card-digit">02</div>
+                                    <h3 class="card-title" style="font-size: 1.3rem; font-weight: 700; margin-top: 15px; margin-bottom: 10px;">Odoo Technical Training</h3>
+                                    <p class="card-text" style="color: #4b5563; line-height: 1.6; font-size: 0.95rem;">Designed for developers and IT professionals who want to build, extend, and customize Odoo. This track dives into module development, ORM, QWeb, XML-RPC/JSON-RPC APIs, Python backend logic, and Odoo's development framework. You'll leave with the skills to turn business requirements into working Odoo solutions.</p>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="col-lg-4 col-md-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="200">
+                                <div class="specialist-card" style="min-height: 380px; padding: 40px 30px; border-radius: 16px; background: #f9fbff;">
+                                    <div class="card-digit">03</div>
+                                    <h3 class="card-title" style="font-size: 1.3rem; font-weight: 700; margin-top: 15px; margin-bottom: 10px;">Odoo ERP Training (End-to-End)</h3>
+                                    <p class="card-text" style="color: #4b5563; line-height: 1.6; font-size: 0.95rem;">A comprehensive Odoo ERP training program that covers how your entire business operates within Odoo across departments, approval flows, reporting hierarchies, and integrated processes. Ideal for businesses going live with Odoo or switching from another ERP system.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
+
+        <!-- ================= 6. Benefit Mesh Snippet ================= -->
+        <div class="oe_structure" id="oe_structure_service12_benefit_mesh">
+            <section class="s_benefit_mesh cr_font bm-cols-3"
+                     data-snippet="s_benefit_mesh"
+                     data-name="Benefit Mesh"
+                     style="background: #ffffff !important; padding: 80px 0 !important;">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            How Our Odoo Training Works
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                    </div>
+
+                    <div class="row g-4 s_benefit_mesh_row justify-content-center">
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up">
+                            <div class="benefit-card h-100" style="background: #f9fbff;">
+                                <div class="benefit-badge">01</div>
+                                <h3 class="card-title" style="font-size: 1.3rem; font-weight: 700; margin-top: 15px; margin-bottom: 10px;">Step 1</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text" style="color: #4b5563; line-height: 1.6;">We start by understanding your team's current Odoo knowledge, your business processes, and your training goals. This ensures every session is relevant, not generic.</p>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="benefit-card h-100" style="background: #f9fbff;">
+                                <div class="benefit-badge">02</div>
+                                <h3 class="card-title" style="font-size: 1.3rem; font-weight: 700; margin-top: 15px; margin-bottom: 10px;">Step 2</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text" style="color: #4b5563; line-height: 1.6;">We build a customized training plan aligned to your industry, the Odoo modules you use, and the roles of your participants. No filler content just what your team needs.</p>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="benefit-card h-100" style="background: #f9fbff;">
+                                <div class="benefit-badge">03</div>
+                                <h3 class="card-title" style="font-size: 1.3rem; font-weight: 700; margin-top: 15px; margin-bottom: 10px;">Step 3</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text" style="color: #4b5563; line-height: 1.6;">Our Expert Odoo trainers deliver sessions packed with live demos, guided exercises, and real scenarios from your industry. After training, we provide continued support to answer questions and reinforce learning.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= 7. Industries Use Cases Snippet ================= -->
+        <div class="oe_structure" id="oe_structure_service12_use_cases">
+            <section class="s_industry_use_cases web-usecases cr_font"
+                     data-snippet="s_industry_use_cases"
+                     data-name="Industry Use Cases"
+                     style="background: #f9fbff !important; padding: 80px 0 !important;">
+                <div class="container">
+                    <h2 class="web-usecases-title cr-title text-center mb-5" data-aos="fade-up">
+                        Why Businesses Choose Creyox for Odoo Training
+                    </h2>
+
+                    <div class="web-usecases-wrapper">
+                        <div class="web-usecase-list" style="flex: 1.4 !important;">
+                            <!-- Card 1 -->
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="100">
+                                <div class="usecase-content" style="padding: 25px; background: #ffffff; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.02);">
+                                    <h4 style="font-size: 1.25rem; font-weight: 700; color: #1f2937;">Certified Trainers with Real Project Experience</h4>
+                                    <p style="color: #4b5563; margin-top: 10px; line-height: 1.6;">Our trainers don't just teach Odoo they've implemented it across industries. Every session comes with real-world context, not just textbook theory.</p>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="200">
+                                <div class="usecase-content" style="padding: 25px; background: #ffffff; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.02);">
+                                    <h4 style="font-size: 1.25rem; font-weight: 700; color: #1f2937;">Industry-Specific Scenarios</h4>
+                                    <p style="color: #4b5563; margin-top: 10px; line-height: 1.6;">We tailor training exercises and case studies to your industry whether you're in manufacturing, retail, services, or distribution.</p>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="300">
+                                <div class="usecase-content" style="padding: 25px; background: #ffffff; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.02);">
+                                    <h4 style="font-size: 1.25rem; font-weight: 700; color: #1f2937;">Dedicated Sandbox Environment</h4>
+                                    <p style="color: #4b5563; margin-top: 10px; line-height: 1.6;">Every participant gets hands-on access to a dedicated Odoo instance for practice with no risk to your live data.</p>
+                                </div>
+                            </div>
+                            <!-- Card 4 -->
+                            <div class="usecase" data-aos="fade-right" data-aos-delay="400">
+                                <div class="usecase-content" style="padding: 25px; background: #ffffff; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.02);">
+                                    <h4 style="font-size: 1.25rem; font-weight: 700; color: #1f2937;">Post-Training Support</h4>
+                                    <p style="color: #4b5563; margin-top: 10px; line-height: 1.6;">We offer continued mentoring, Q&amp;A support, and refresher sessions.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="web-usecases-image" data-aos="zoom-in" style="display: flex; align-items: center; justify-content: center; flex: 0.8 !important;">
+                            <img src="/cr_internal_website_theme/static/src/img/odoo-dev-industry.png" 
+                                 alt="Why Choose Creyox" 
+                                 class="img-fluid" style="border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.05);"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= 8. Comprehensive Service Snippet ================= -->
+        <div class="oe_structure" id="oe_structure_service12_comprehensive">
+            <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
+                     data-snippet="s_comprehensive_service"
+                     data-name="Comprehensive Service"
+                     style="background: #ffffff !important; padding: 80px 0 !important;">
+                <div class="container py-5">
+                    <div class="row mb-5 pb-lg-3">
+                        <div class="col-12 text-center" data-aos="fade-up">
+                            <h2 class="partner-title mb-3">
+                                Trained by People Who've Actually Implemented Odoo
+                            </h2>
+                            <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="row align-items-center gx-0">
+                        <div class="col-lg-6 mb-5 mb-lg-0 p-0" data-aos="fade-right">
+                            <div class="partner-content-box text-start">
+                                <p class="partner-description partner-desc-1 mb-3 w-100" style="font-size: 1.15rem; line-height: 1.8; color: #4b5563;">
+                                    There's a meaningful difference between a trainer who has studied Odoo and one who has deployed it across dozens of real businesses. Our every trainer on our team brings both formal Odoo Expert and hands-on implementation experience across live projects.
+                                </p>
+                                <h4 class="fw-bold mb-3" style="color: #1f2937;">Our Training Team's Credentials:</h4>
+                                <ul style="list-style-type: none; padding-left: 0; display: flex; flex-direction: column; gap: 10px;">
+                                    <li style="color: #4b5563; font-size: 1.05rem; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>5+ years of active Odoo implementation and consulting experience</span></li>
+                                    <li style="color: #4b5563; font-size: 1.05rem; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Odoo Expert professionals across functional and technical domains</span></li>
+                                    <li style="color: #4b5563; font-size: 1.05rem; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Hands-on experience across Odoo versions 14, 15, 16, 17, 18 and 19 Community and Enterprise</span></li>
+                                    <li style="color: #4b5563; font-size: 1.05rem; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Delivered 200+ training sessions across industries including manufacturing, retail, services, and distribution</span></li>
+                                    <li style="color: #4b5563; font-size: 1.05rem; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Fluent in translating complex Odoo concepts into practical, role-specific skills</span></li>
+                                    <li style="color: #4b5563; font-size: 1.05rem; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Based in India, serving clients across the Middle East, Europe and globally</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 p-0" data-aos="fade-left" data-aos-delay="100">
+                            <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
+                                <img src="/cr_internal_website_theme/static/src/img/odoo_consulting_workshop.png"
+                                     alt="Odoo Implementation Experts"
+                                     class="img-fluid w-100" 
+                                     style="object-fit: contain; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.05);"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= 9. Custom Choice Snippet (Interactive Cards Snippet) ================= -->
+        <div class="oe_structure" id="oe_structure_service12_interactive_cards">
+            <section class="s_interactive_cards training-interactive-cards cr_font py-5" data-snippet="s_interactive_cards">
+                <div class="container">
+                    <div class="row mb-5 text-center">
+                        <div class="col-12" data-aos="fade-up">
+                            <h2 class="partner-title fw-bold mb-3">Odoo Modules Covered <span class="text-gradient">in Our Training</span></h2>
+                            <p class="lead text-muted">Our Odoo software training programs cover the full breadth of Odoo's application suite:</p>
+                            <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                        </div>
+                    </div>
+
+                    <!-- Parent Cards Wrapper (2 Columns) -->
+                    <div class="row parent-cards-grid g-4 mb-5 justify-content-center">
+                        <div class="col-lg-6 col-md-6 parent-card-item active" data-target="training-functional" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="parent-card">
+                                <div class="card-icon">
+                                    <i class="fa fa-cubes"></i>
+                                </div>
+                                <h3 class="card-title">Functional Modules</h3>
+                                <div class="active-indicator"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 parent-card-item" data-target="training-technical" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="parent-card">
+                                <div class="card-icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h3 class="card-title">Technical Modules</h3>
+                                <div class="active-indicator"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content Area for Sub-cards -->
+                    <div class="sub-cards-content-wrapper">
+                        <!-- Functional Modules Block -->
+                        <div class="sub-cards-container active" id="training-functional">
+                            <div class="row g-4 justify-content-center">
+                                <div class="col-lg-3 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_sale_icon.png" alt="Sales &amp; CRM"/></div>
+                                        <h4>Sales &amp; CRM</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_purchase_icon.png" alt="Purchase Management"/></div>
+                                        <h4>Purchase Management</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_stock_icon.png" alt="Inventory &amp; Warehouse"/></div>
+                                        <h4>Inventory &amp; Warehouse</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_mrp_icon.png" alt="Manufacturing (MRP)"/></div>
+                                        <h4>Manufacturing (MRP)</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_account_icon.png" alt="Accounting &amp; Finance"/></div>
+                                        <h4>Accounting &amp; Finance</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_hr_icon.png" alt="Human Resources"/></div>
+                                        <h4>Human Resources</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_hr_payroll_icon.png" alt="Payroll"/></div>
+                                        <h4>Payroll</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_project_icon.png" alt="Project Management"/></div>
+                                        <h4>Project Management</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_helpdesk_icon.png" alt="Helpdesk"/></div>
+                                        <h4>Helpdesk</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_point_of_sale_icon.png" alt="Point of Sale"/></div>
+                                        <h4>Point of Sale</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_website_sale_icon.png" alt="E-Commerce"/></div>
+                                        <h4>E-Commerce</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_mass_mailing_icon.png" alt="Email Marketing"/></div>
+                                        <h4>Email Marketing</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Technical Modules Block -->
+                        <div class="sub-cards-container" id="training-technical">
+                            <div class="row g-4 justify-content-center">
+                                <div class="col-lg-4 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><i class="fa fa-puzzle-piece"></i></div>
+                                        <h4>Odoo Development Framework</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><i class="fa fa-terminal"></i></div>
+                                        <h4>Python &amp; ORM</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><i class="fa fa-file-code-o"></i></div>
+                                        <h4>QWeb Templates</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><i class="fa fa-sitemap"></i></div>
+                                        <h4>Module Architecture</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><i class="fa fa-print"></i></div>
+                                        <h4>Custom Reports</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><i class="fa fa-plug"></i></div>
+                                        <h4>Odoo REST API &amp; JSON-RPC</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><i class="fa fa-clock-o"></i></div>
+                                        <h4>Scheduled Actions</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><i class="fa fa-shield"></i></div>
+                                        <h4>Security Rules</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 sub-card-item">
+                                    <div class="sub-card">
+                                        <div class="sub-icon"><i class="fa fa-magic"></i></div>
+                                        <h4>Odoo Studio</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= 10. Feature Mesh Snippet ================= -->
+        <div class="oe_structure" id="oe_structure_service12_features">
+            <section class="s_feature_mesh cr_font sg-cols-3"
+                     data-snippet="s_feature_mesh"
+                     data-name="Feature Mesh"
+                     style="background: #f9fbff !important; padding: 80px 0 !important;">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="mesh-title">
+                            Odoo Training Tailored to Your Industry
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="mesh-main-text" style="font-size: 1.2rem; color: #4b5563; max-width: 800px; margin: 20px auto 0 auto;">
+                            We adapt every training program to reflect the workflows, terminology, and challenges of your specific industry.
+                        </p>
+                    </div>
+
+                    <div class="row g-4 fm-card-row justify-content-center">
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card" style="border-radius: 16px; background: #ffffff; box-shadow: 0 4px 20px rgba(0,0,0,0.02); height: 100%;">
+                                <div class="card-title-zone" style="background: rgba(67, 97, 238, 0.03); padding: 25px; border-bottom: 1px solid rgba(0,0,0,0.05);">
+                                    <h3 class="card-title" style="font-size: 1.25rem; font-weight: 700; color: #1f2937; margin: 0;">Manufacturing &amp; Production</h3>
+                                </div>
+                                <div class="card-body-zone" style="padding: 25px;">
+                                    <p class="card-text" style="color: #4b5563; line-height: 1.6; font-size: 0.95rem; margin: 0;">Training covers MRP, work orders, bill of materials, quality control, and shop floor operations with exercises built around manufacturing-specific Odoo scenarios.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card" style="border-radius: 16px; background: #ffffff; box-shadow: 0 4px 20px rgba(0,0,0,0.02); height: 100%;">
+                                <div class="card-title-zone" style="background: rgba(67, 97, 238, 0.03); padding: 25px; border-bottom: 1px solid rgba(0,0,0,0.05);">
+                                    <h3 class="card-title" style="font-size: 1.25rem; font-weight: 700; color: #1f2937; margin: 0;">Retail &amp; E-Commerce</h3>
+                                </div>
+                                <div class="card-body-zone" style="padding: 25px;">
+                                    <p class="card-text" style="color: #4b5563; line-height: 1.6; font-size: 0.95rem; margin: 0;">Learn how to manage point-of-sale operations, product catalogs, online orders, customer loyalty, and multi-channel inventory from a single Odoo environment.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                            <div class="split-card" style="border-radius: 16px; background: #ffffff; box-shadow: 0 4px 20px rgba(0,0,0,0.02); height: 100%;">
+                                <div class="card-title-zone" style="background: rgba(67, 97, 238, 0.03); padding: 25px; border-bottom: 1px solid rgba(0,0,0,0.05);">
+                                    <h3 class="card-title" style="font-size: 1.25rem; font-weight: 700; color: #1f2937; margin: 0;">Professional Services &amp; Consulting</h3>
+                                </div>
+                                <div class="card-body-zone" style="padding: 25px;">
+                                    <p class="card-text" style="color: #4b5563; line-height: 1.6; font-size: 0.95rem; margin: 0;">Focus on project management, timesheets, client billing, subscription contracts, and service delivery workflows the Odoo modules that matter most to services businesses.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card" style="border-radius: 16px; background: #ffffff; box-shadow: 0 4px 20px rgba(0,0,0,0.02); height: 100%;">
+                                <div class="card-title-zone" style="background: rgba(67, 97, 238, 0.03); padding: 25px; border-bottom: 1px solid rgba(0,0,0,0.05);">
+                                    <h3 class="card-title" style="font-size: 1.25rem; font-weight: 700; color: #1f2937; margin: 0;">Trading &amp; Distribution</h3>
+                                </div>
+                                <div class="card-body-zone" style="padding: 25px;">
+                                    <p class="card-text" style="color: #4b5563; line-height: 1.6; font-size: 0.95rem; margin: 0;">Deep dives into multi-warehouse management, vendor management, purchase planning, landed costs, and multi-currency operations for businesses dealing in goods at scale.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card" style="border-radius: 16px; background: #ffffff; box-shadow: 0 4px 20px rgba(0,0,0,0.02); height: 100%;">
+                                <div class="card-title-zone" style="background: rgba(67, 97, 238, 0.03); padding: 25px; border-bottom: 1px solid rgba(0,0,0,0.05);">
+                                    <h3 class="card-title" style="font-size: 1.25rem; font-weight: 700; color: #1f2937; margin: 0;">Healthcare &amp; Clinics</h3>
+                                </div>
+                                <div class="card-body-zone" style="padding: 25px;">
+                                    <p class="card-text" style="color: #4b5563; line-height: 1.6; font-size: 0.95rem; margin: 0;">Training on appointment scheduling, patient records, invoicing, inventory management for medical supplies, and HIPAA-relevant access configurations in Odoo.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 6 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                            <div class="split-card" style="border-radius: 16px; background: #ffffff; box-shadow: 0 4px 20px rgba(0,0,0,0.02); height: 100%;">
+                                <div class="card-title-zone" style="background: rgba(67, 97, 238, 0.03); padding: 25px; border-bottom: 1px solid rgba(0,0,0,0.05);">
+                                    <h3 class="card-title" style="font-size: 1.25rem; font-weight: 700; color: #1f2937; margin: 0;">Education &amp; Training Institutes</h3>
+                                </div>
+                                <div class="card-body-zone" style="padding: 25px;">
+                                    <p class="card-text" style="color: #4b5563; line-height: 1.6; font-size: 0.95rem; margin: 0;">Learn how to manage student enrollment, course scheduling, fee collection, HR, and communications using Odoo's modular suite</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= 11. FAQ Snippet ================= -->
+        <div class="oe_structure cr_font" id="oe_structure_service12_faq">
+            <section class="s_faq_dynamic_snippet o_faq_template_1"
+                     data-snippet="s_dynamic_snippet_faq"
+                     data-name="FAQs Templates"
+                     style="padding: 100px 0px; background-color: #ffffff !important;">
+                <div class="container s_faq_container">
+                </div>
+            </section>
+        </div>
 
     </template>
 

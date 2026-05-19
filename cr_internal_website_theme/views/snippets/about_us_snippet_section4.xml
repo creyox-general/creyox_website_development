@@ -1,11 +1,138 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
     <template id="about_us_snippet_section4" name="AboutUS Section-4">
-        <section class="our-team-professionals-section cr_font">
-            <div class="team-professionals-container">
 
-                <!-- Header Section -->
-                <div class="team-professionals-header">
+    <style>
+
+                .s_service_showcase .team-professional-item {
+                    border-radius: 16px !important;
+                    border-top: none !important;
+                    border-bottom: none !important;
+                    background: #ffffff !important;
+                    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+                    opacity: 0;
+                    animation: slideUpFadeSection4 0.8s ease forwards !important;
+                    animation-delay: var(--item-delay) !important;
+                    transition: all 0.4s ease !important;
+                    padding: 40px 30px !important;
+                }
+
+                @media (min-width: 768px) {
+                    .s_service_showcase .team-professional-item {
+                        padding: 50px 40px !important;
+                    }
+                }
+
+                .s_service_showcase .team-professional-item::before {
+                    content: "" !important;
+                    position: absolute !important;
+                    top: 0 !important;
+                    left: 0 !important;
+                    width: 5px !important;
+                    height: 0 !important;
+                    background: linear-gradient(180deg, #3b82f6 0%, #2563eb 100%) !important;
+                    transition: height 0.4s ease !important;
+                    z-index: 2 !important;
+                }
+
+                .s_service_showcase .team-professional-item:hover::before {
+                    height: 100% !important;
+                }
+
+                .s_service_showcase .team-professional-item:hover {
+                    transform: translateX(8px) !important;
+                    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08) !important;
+                    border-color: #3b82f6 !important;
+                }
+
+
+                .s_service_showcase .card-icon {
+                    background: transparent !important;
+                    border: none !important;
+                    width: 75px !important;
+                    height: 75px !important;
+                    padding: 0 !important;
+                    margin-bottom: 30px !important;
+                    display: flex !important;
+                    align-items: center !important;
+                    justify-content: center !important;
+                }
+
+                .s_service_showcase .team-professional-icon {
+                    width: 75px !important;
+                    height: 75px !important;
+                    border-radius: 16px !important;
+                    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%) !important;
+                    display: flex !important;
+                    align-items: center !important;
+                    justify-content: center !important;
+                    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.3) !important;
+                    transition: all 0.4s ease !important;
+                }
+
+                .s_service_showcase .team-professional-icon svg {
+                    width: 36px !important;
+                    height: 36px !important;
+                    color: #ffffff !important;
+                    display: block !important;
+                }
+
+                
+
+                /* --- Grid Flex Controls for 2 Columns Showcase --- */
+                .s_service_showcase.sc-cols-2 .s_service_showcase_row {
+                    display: flex !important;
+                    flex-wrap: wrap !important;
+                    margin: 0 -15px !important;
+                }
+
+                .s_service_showcase.sc-cols-2 .s_service_card_wrapper {
+                    flex: 0 0 50% !important;
+                    max-width: 50% !important;
+                    padding: 15px !important;
+                }
+
+                .s_service_showcase.sc-cols-2 .service-card {
+                    flex: 1 1 100% !important;
+                    max-width: 100% !important;
+                }
+
+                @media (max-width: 991.98px) {
+                    .s_service_showcase.sc-cols-2 .s_service_card_wrapper {
+                        flex: 0 0 100% !important;
+                        max-width: 100% !important;
+                    }
+                }
+
+                /* Make the Our Team section background seamless and remove the sharp division line */
+                .our-team-professionals-section::before {
+                    height: 100% !important;
+                    background: linear-gradient(180deg, #f8fafc 0%, #f9fbff 100%) !important;
+                }
+
+                /* --- Animations --- */
+                @keyframes slideUpFadeSection4 {
+                    from {
+                        opacity: 0;
+                        transform: translateY(40px);
+                    }
+                    to {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+            </style>
+
+        <!-- Part 1: Milestone Section Snippet (Our Team Header & Stats Row) -->
+        <section class="milestone-light-section s_milestone_section our-team-professionals-section cr_font"
+                 data-snippet="s_milestone_section"
+                 data-name="Milestone Section"
+                 aria-labelledby="vvm-heading-team"
+                 padding-bottom="0px !important"
+                 style="background: #f9fbff !important;">
+            <div class="container milestone-wrapper">
+                
+                <div class="team-professionals-header" data-aos="fade-up">
                     <span class="team-professionals-badge">Our Team</span>
                     <h2 class="team-professionals-title">The People Behind <span class="text-gradient">Your Success</span></h2>
                     <p class="team-professionals-intro">
@@ -14,97 +141,237 @@
                     </p>
                 </div>
 
-                <!-- Stats Row -->
-                <div class="team-professionals-stats-row">
-                    <div class="team-stat-box" style="--stat-delay: 0.1s">
-                        <div class="team-stat-number">20+</div>
+                <!-- Stats Row (Milestone Grid) -->
+                <div class="team-professionals-stats-row milestone-grid" role="list">
+                    <!-- Stat 1 -->
+                    <div class="team-stat-box milestone-card" style="--stat-delay: 0.1s; --i:1" role="listitem" data-card-index="1" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-stat-number">
+                            <span class="counter" data-count="20">0</span>+
+                        </div>
                         <div class="team-stat-label">Certified Professionals</div>
                     </div>
-                    <div class="team-stat-box" style="--stat-delay: 0.2s">
-                        <div class="team-stat-number">50+</div>
+                    <!-- Stat 2 -->
+                    <div class="team-stat-box milestone-card" style="--stat-delay: 0.2s; --i:2" role="listitem" data-card-index="2" data-aos="fade-up" data-aos-delay="200">
+                        <div class="team-stat-number">
+                            <span class="counter" data-count="50">0</span>+
+                        </div>
                         <div class="team-stat-label">Industries Served</div>
                     </div>
-                    <div class="team-stat-box" style="--stat-delay: 0.3s">
-                        <div class="team-stat-number">100%</div>
+                    <!-- Stat 3 -->
+                    <div class="team-stat-box milestone-card" style="--stat-delay: 0.3s; --i:3" role="listitem" data-card-index="3" data-aos="fade-up" data-aos-delay="300">
+                        <div class="team-stat-number">
+                            <span class="counter" data-count="100">0</span>%
+                        </div>
                         <div class="team-stat-label">Customer Focus</div>
                     </div>
                 </div>
 
-                <!-- Features Grid -->
-                <div class="team-professionals-grid">
+            </div>
+        </section>
 
-                    <div class="team-professional-item" style="--item-delay: 0.1s">
-                        <div class="team-professional-number">01</div>
-                        <div class="team-professional-icon-wrapper">
-                            <div class="team-professional-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                                    <circle cx="9" cy="7" r="4"></circle>
-                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87m-4-12a4 4 0 0 1 0 7.75"></path>
-                                </svg>
+        <!-- Part 2: Service Showcase Snippet (2-Column Features Grid) -->
+        <section class="s_service_showcase cr_font sc-cols-2" 
+                 data-snippet="s_service_showcase" 
+                 data-name="Service Showcase"
+                 style="background: #f9fbff !important; padding-top: 0px !important;">
+            <div class="container">
+                
+                <!-- Hidden Section Header to make Odoo ServiceShowcaseOptions JS completely happy -->
+                <div class="section-header text-center mb-5 d-none">
+                    <h2 class="section-title">Everything you Need is <span class="text-gradient">under the one roof</span></h2>
+                    <p class="section-description mt-4 mx-auto">From strategy to support Creyox handles your complete ERP journey.</p>
+                </div>
+
+                <!-- Features Grid in 2 Columns -->
+                <div class="row g-4 s_service_showcase_row justify-content-center">
+
+                    <!-- Feature 1 -->
+                    <div class="col-lg-6 s_service_card_wrapper" data-aos="fade-up">
+                        <div class="service-card team-professional-item card-blue" style="--item-delay: 0.1s">
+                            <div class="team-professional-icon-wrapper card-icon">
+                                <div class="team-professional-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="9" cy="7" r="4"></circle>
+                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87m-4-12a4 4 0 0 1 0 7.75"></path>
+                                    </svg>
+                                </div>
                             </div>
+                            <h3 class="team-professional-heading card-title">Odoo Certified Professionals</h3>
+                            <p class="team-professional-text card-text">
+                                From developers who write clean, scalable code to functional consultants who understand
+                                your business processes inside out.
+                            </p>
                         </div>
-                        <h3 class="team-professional-heading">Odoo Certified Professionals</h3>
-                        <p class="team-professional-text">
-                            From developers who write clean, scalable code to functional consultants who understand
-                            your business processes inside out.
-                        </p>
                     </div>
 
-                    <div class="team-professional-item" style="--item-delay: 0.2s">
-                        <div class="team-professional-number">02</div>
-                        <div class="team-professional-icon-wrapper">
-                            <div class="team-professional-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <circle cx="12" cy="12" r="10"></circle>
-                                    <line x1="2" y1="12" x2="22" y2="12"></line>
-                                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                                </svg>
+                    <!-- Feature 2 -->
+                    <div class="col-lg-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-card team-professional-item card-dark" style="--item-delay: 0.2s">
+                            <div class="team-professional-icon-wrapper card-icon">
+                                <div class="team-professional-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                                    </svg>
+                                </div>
                             </div>
+                            <h3 class="team-professional-heading card-title">Cross-Industry Experience</h3>
+                            <p class="team-professional-text card-text">
+                                Our team brings expertise from manufacturing, e-commerce, healthcare, logistics,
+                                hospitality, and more—ensuring industry-relevant solutions.
+                            </p>
                         </div>
-                        <h3 class="team-professional-heading">Cross-Industry Experience</h3>
-                        <p class="team-professional-text">
-                            Our team brings expertise from manufacturing, e-commerce, healthcare, logistics,
-                            hospitality, and more—ensuring industry-relevant solutions.
-                        </p>
                     </div>
 
-                    <div class="team-professional-item" style="--item-delay: 0.3s">
-                        <div class="team-professional-number">03</div>
-                        <div class="team-professional-icon-wrapper">
-                            <div class="team-professional-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-                                </svg>
+                    <!-- Feature 3 -->
+                    <div class="col-lg-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-card team-professional-item card-blue" style="--item-delay: 0.3s">
+                            <div class="team-professional-icon-wrapper card-icon">
+                                <div class="team-professional-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                                    </svg>
+                                </div>
                             </div>
+                            <h3 class="team-professional-heading card-title">Continuous Learning Culture</h3>
+                            <p class="team-professional-text card-text">
+                                Technology evolves, and so do we. Our team stays ahead through regular certifications,
+                                Odoo community contributions, and hands-on experimentation.
+                            </p>
                         </div>
-                        <h3 class="team-professional-heading">Continuous Learning Culture</h3>
-                        <p class="team-professional-text">
-                            Technology evolves, and so do we. Our team stays ahead through regular certifications,
-                            Odoo community contributions, and hands-on experimentation.
-                        </p>
                     </div>
 
-                    <div class="team-professional-item" style="--item-delay: 0.4s">
-                        <div class="team-professional-number">04</div>
-                        <div class="team-professional-icon-wrapper">
-                            <div class="team-professional-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-                                </svg>
+                    <!-- Feature 4 -->
+                    <div class="col-lg-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-card team-professional-item card-dark" style="--item-delay: 0.4s">
+                            <div class="team-professional-icon-wrapper card-icon">
+                                <div class="team-professional-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                                    </svg>
+                                </div>
                             </div>
+                            <h3 class="team-professional-heading card-title">Customer-First Mindset</h3>
+                            <p class="team-professional-text card-text">
+                                We don't just solve technical problems—we become your strategic partners,
+                                invested in your long-term success.
+                            </p>
                         </div>
-                        <h3 class="team-professional-heading">Customer-First Mindset</h3>
-                        <p class="team-professional-text">
-                            We don't just solve technical problems—we become your strategic partners,
-                            invested in your long-term success.
-                        </p>
                     </div>
 
                 </div>
-
             </div>
         </section>
+
+
+<!--        <section class="our-team-professionals-section cr_font">-->
+<!--            <div class="team-professionals-container">-->
+
+<!--                &lt;!&ndash; Header Section &ndash;&gt;-->
+<!--                <div class="team-professionals-header">-->
+<!--                    <span class="team-professionals-badge">Our Team</span>-->
+<!--                    <h2 class="team-professionals-title">The People Behind <span class="text-gradient">Your Success</span></h2>-->
+<!--                    <p class="team-professionals-intro">-->
+<!--                        Our strength lies in our people—a diverse team of Odoo-certified consultants, developers,-->
+<!--                        functional analysts, and project managers who share one common passion: delivering exceptional ERP solutions.-->
+<!--                    </p>-->
+<!--                </div>-->
+
+<!--                &lt;!&ndash; Stats Row &ndash;&gt;-->
+<!--                <div class="team-professionals-stats-row">-->
+<!--                    <div class="team-stat-box" style="&#45;&#45;stat-delay: 0.1s">-->
+<!--                        <div class="team-stat-number">20+</div>-->
+<!--                        <div class="team-stat-label">Certified Professionals</div>-->
+<!--                    </div>-->
+<!--                    <div class="team-stat-box" style="&#45;&#45;stat-delay: 0.2s">-->
+<!--                        <div class="team-stat-number">50+</div>-->
+<!--                        <div class="team-stat-label">Industries Served</div>-->
+<!--                    </div>-->
+<!--                    <div class="team-stat-box" style="&#45;&#45;stat-delay: 0.3s">-->
+<!--                        <div class="team-stat-number">100%</div>-->
+<!--                        <div class="team-stat-label">Customer Focus</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                &lt;!&ndash; Features Grid &ndash;&gt;-->
+<!--                <div class="team-professionals-grid">-->
+
+<!--                    <div class="team-professional-item" style="&#45;&#45;item-delay: 0.1s">-->
+<!--                        <div class="team-professional-number">01</div>-->
+<!--                        <div class="team-professional-icon-wrapper">-->
+<!--                            <div class="team-professional-icon">-->
+<!--                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">-->
+<!--                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>-->
+<!--                                    <circle cx="9" cy="7" r="4"></circle>-->
+<!--                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87m-4-12a4 4 0 0 1 0 7.75"></path>-->
+<!--                                </svg>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <h3 class="team-professional-heading">Odoo Certified Professionals</h3>-->
+<!--                        <p class="team-professional-text">-->
+<!--                            From developers who write clean, scalable code to functional consultants who understand-->
+<!--                            your business processes inside out.-->
+<!--                        </p>-->
+<!--                    </div>-->
+
+<!--                    <div class="team-professional-item" style="&#45;&#45;item-delay: 0.2s">-->
+<!--                        <div class="team-professional-number">02</div>-->
+<!--                        <div class="team-professional-icon-wrapper">-->
+<!--                            <div class="team-professional-icon">-->
+<!--                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">-->
+<!--                                    <circle cx="12" cy="12" r="10"></circle>-->
+<!--                                    <line x1="2" y1="12" x2="22" y2="12"></line>-->
+<!--                                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>-->
+<!--                                </svg>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <h3 class="team-professional-heading">Cross-Industry Experience</h3>-->
+<!--                        <p class="team-professional-text">-->
+<!--                            Our team brings expertise from manufacturing, e-commerce, healthcare, logistics,-->
+<!--                            hospitality, and more—ensuring industry-relevant solutions.-->
+<!--                        </p>-->
+<!--                    </div>-->
+
+<!--                    <div class="team-professional-item" style="&#45;&#45;item-delay: 0.3s">-->
+<!--                        <div class="team-professional-number">03</div>-->
+<!--                        <div class="team-professional-icon-wrapper">-->
+<!--                            <div class="team-professional-icon">-->
+<!--                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">-->
+<!--                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>-->
+<!--                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>-->
+<!--                                </svg>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <h3 class="team-professional-heading">Continuous Learning Culture</h3>-->
+<!--                        <p class="team-professional-text">-->
+<!--                            Technology evolves, and so do we. Our team stays ahead through regular certifications,-->
+<!--                            Odoo community contributions, and hands-on experimentation.-->
+<!--                        </p>-->
+<!--                    </div>-->
+
+<!--                    <div class="team-professional-item" style="&#45;&#45;item-delay: 0.4s">-->
+<!--                        <div class="team-professional-number">04</div>-->
+<!--                        <div class="team-professional-icon-wrapper">-->
+<!--                            <div class="team-professional-icon">-->
+<!--                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">-->
+<!--                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>-->
+<!--                                </svg>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <h3 class="team-professional-heading">Customer-First Mindset</h3>-->
+<!--                        <p class="team-professional-text">-->
+<!--                            We don't just solve technical problems—we become your strategic partners,-->
+<!--                            invested in your long-term success.-->
+<!--                        </p>-->
+<!--                    </div>-->
+
+<!--                </div>-->
+
+<!--            </div>-->
+<!--        </section>-->
+
     </template>
 </odoo>

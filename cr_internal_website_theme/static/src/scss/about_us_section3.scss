@@ -27,7 +27,7 @@
     position: absolute;
     width: 500px;
     height: 500px;
-    background: radial-gradient(circle, rgba(59, 130, 246, 0.05) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(67, 97, 238, 0.05) 0%, transparent 70%);
     border-radius: 50%;
     top: -150px;
     right: -150px;
@@ -74,7 +74,7 @@
     transform: translateX(-50%);
     width: 120px;
     height: 6px;
-    background: linear-gradient(90deg, #3b82f6, #60a5fa);
+    background: linear-gradient(90deg, #4361ee, #4cc9f0);
     border-radius: 3px;
 
     @media (min-width: 768px) {
@@ -91,7 +91,7 @@
     transform: translateX(-50%);
     width: 120px;
     height: 6px;
-    background: linear-gradient(90deg, #3b82f6, #60a5fa);
+    background: linear-gradient(90deg, #4361ee, #4cc9f0);
     border-radius: 3px;
 
     @media (min-width: 768px) {
@@ -119,12 +119,9 @@
     grid-template-columns: 1fr;
     gap: 35px;
     align-items: center;
-    opacity: 0;
-    animation: fadeInUp 0.8s ease forwards;
-    animation-delay: var(--delay);
 
     @media (min-width: 768px) {
-        grid-template-columns: 45% 55%;
+        grid-template-columns: 45fr 55fr;
         gap: 50px;
     }
 
@@ -135,7 +132,7 @@
 
 .feature-layout-right {
     @media (min-width: 768px) {
-        grid-template-columns: 55% 45%;
+        grid-template-columns: 55fr 45fr;
     }
 }
 
@@ -184,7 +181,7 @@
 .feature-number-box {
     width: 75px;
     height: 75px;
-    background: linear-gradient(135deg, #2563eb, #3b82f6);
+    background: linear-gradient(135deg, #4361ee, #4cc9f0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -192,7 +189,7 @@
     font-size: 32px;
     font-weight: 900;
     color: #ffffff;
-    box-shadow: 0 8px 24px rgba(59, 130, 246, 0.3);
+    box-shadow: 0 8px 24px rgba(67, 97, 238, 0.3);
 
     @media (min-width: 576px) {
         width: 85px;
@@ -231,7 +228,7 @@
     line-height: 1.8;
     color: #64748b;
     padding-left: 20px;
-    border-left: 4px solid #3b82f6;
+    border-left: 4px solid #4361ee;
     text-align: left;
 
     @media (min-width: 576px) {

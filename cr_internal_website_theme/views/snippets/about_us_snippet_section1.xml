@@ -1,30 +1,124 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
     <template id="about_us_snippet_section1" name="AboutUS Section-1">
-
-
-        <section id="cr_about_intro_banner" class="about-intro-banner hero-section-wave cr_font">
+        <style>
+            .our-story-section {
+                padding: clamp(60px, 10vw, 100px) 0 !important;
+                background-color: #ffffff !important;
+            }
+            .asymmetric-grid {
+                display: grid;
+                grid-template-columns: 1.5fr 1fr;
+                grid-template-rows: repeat(2, 1fr);
+                gap: 1.5rem;
+                height: 500px;
+            }
+            .asymmetric-large {
+                grid-row: span 2;
+                position: relative;
+                border-radius: 12px;
+                overflow: hidden;
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+                transition: all 0.4s ease;
+            }
+            .asymmetric-small-top,
+            .asymmetric-small-bottom {
+                position: relative;
+                border-radius: 12px;
+                overflow: hidden;
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+                transition: all 0.4s ease;
+            }
+            .asymmetric-large:hover,
+            .asymmetric-small-top:hover,
+            .asymmetric-small-bottom:hover {
+                transform: translateY(-4px);
+                box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+            }
+            .story-img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.5s ease;
+            }
+            .asymmetric-large:hover .story-img,
+            .asymmetric-small-top:hover .story-img,
+            .asymmetric-small-bottom:hover .story-img {
+                transform: scale(1.08);
+            }
+            .image-overlay {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: linear-gradient(to top, rgba(15, 23, 42, 0.85) 0%, transparent 100%);
+                padding: 2rem 1.5rem 1.5rem;
+            }
+            .asymmetric-large:hover .image-overlay,
+            .asymmetric-small-top:hover .image-overlay,
+            .asymmetric-small-bottom:hover .image-overlay {
+                background: linear-gradient(to top, rgba(67, 97, 238, 0.9) 0%, transparent 100%);
+            }
+            .image-overlay h4 {
+                color: #ffffff;
+                font-size: 1.1rem;
+                font-weight: 700;
+                margin: 0;
+                text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            }
+            .partner-story-highlight {
+                background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+                border-left: 5px solid #4361ee;
+                padding: 25px 30px;
+                border-radius: 12px;
+                margin-top: 30px;
+                font-size: 1.15rem;
+                font-weight: 600;
+                color: #0f172a;
+                box-shadow: 0 8px 25px rgba(67, 97, 238, 0.1);
+                transition: all 0.3s ease;
+            }
+            .partner-story-highlight:hover {
+                transform: translateX(5px);
+                box-shadow: 0 12px 35px rgba(67, 97, 238, 0.15);
+            }
+            @media (max-width: 768px) {
+                .asymmetric-grid {
+                    grid-template-columns: 1fr;
+                    grid-template-rows: auto;
+                    height: auto;
+                }
+                .asymmetric-large {
+                    grid-row: span 1;
+                    height: 280px;
+                }
+                .asymmetric-small-top,
+                .asymmetric-small-bottom {
+                    height: 220px;
+                }
+            }
+        </style>
+        <section class="s_service_intro_banner service-intro-banner hero-section-wave cr_font"
+                    data-snippet="s_service_intro_banner"
+                    data-name="Service Intro Banner">
             <div class="container">
-                <div class="about-banner-inner">
-                    <h1 class="about-banner-title">
+                <div class="banner-inner-content">
+                    <h1 class="banner-main-title">
                         About Our Company
                     </h1>
-                    <p class="about-banner-tagline">
-                        We are passionate about delivering innovative ERP solutions that empower businesses
-                        to grow, scale, and succeed.
+                    <p class="banner-tagline">
+                        We are passionate about delivering innovative ERP solutions that empower businesses to grow, scale, and succeed.
                     </p>
                     <nav aria-label="breadcrumb">
-                        <ul class="about-banner-breadcrumbs">
+                        <ul class="banner-breadcrumbs">
                             <li>
-                                <a class="about-breadcrumb-link" href="/">
+                                <a class="breadcrumb-link" href="/">
                                     Home
-                                    <span class="about-breadcrumb-separator fa fa-angle-right"></span>
+                                    <span class="breadcrumb-separator fa fa-angle-right"></span>
                                 </a>
                             </li>
                             <li>
-                                <span class="about-breadcrumb-current" aria-current="page">
-                                    About Us
-                                </span>
+                                <span class="breadcrumb-current" aria-current="page">About Us</span>
                             </li>
                         </ul>
                     </nav>
@@ -32,103 +126,218 @@
             </div>
         </section>
 
-
-        <section class="our-story-section cr_font">
-            <div class="story-container">
-
-                <!-- Header -->
-                <div class="story-header">
-<!--                    <span class="story-badge">Our Story</span>-->
-                    <h2 class="story-title">Our Story From Vision to Reality</h2>
+        <!-- Comprehensive Service: Our Story -->
+        <section class="s_comprehensive_service s_trusted_odoo_partner our-story-section cr_font" 
+                    data-snippet="s_comprehensive_service" 
+                    data-name="Comprehensive Service"
+                    padding="60px 0 !important">
+            <div class="container">
+                
+                <!-- First Row: Heading -->
+                <div class="row mb-5 pb-lg-3" data-aos="fade-up">
+                    <div class="col-12 text-center">
+                        <h2 class="partner-title mb-3">
+                            Our Story From <span class="text-gradient">Vision to Reality</span>
+                        </h2>
+                        <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                    </div>
                 </div>
 
-                <!-- Content Grid -->
-                <div class="story-grid">
+                <!-- Second Row: Asymmetric Grid Left, Content Right -->
+                <div class="row align-items-center">
 
-                    <!-- Image -->
-                    <div class="story-image-wrapper">
-    <div class="asymmetric-grid">
-        <div class="asymmetric-large">
-            <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&amp;q=80"
-                 alt="Planning &amp; Strategy"
-                 class="story-img"/>
-            <div class="image-overlay">
-                <h4>Planning &amp; Strategy</h4>
-            </div>
-        </div>
+                    <!-- Image (Left Side Grid) -->
+                    <div class="col-lg-6 mb-5 mb-lg-0 pe-lg-4" data-aos="fade-right">
+                        <div class="partner-image-box border-0 bg-transparent" style="box-shadow: none !important;">
+                            <div class="asymmetric-grid">
+                                <div class="asymmetric-large">
+                                    <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&amp;q=80"
+                                            alt="Planning &amp; Strategy"
+                                            class="story-img"/>
+                                    <div class="image-overlay">
+                                        <h4>Planning &amp; Strategy</h4>
+                                    </div>
+                                </div>
 
-        <div class="asymmetric-small-top">
-            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&amp;q=80"
-                 alt="Development &amp; Implementation"
-                 class="story-img"/>
-            <div class="image-overlay">
-                <h4>Development &amp; Implementation</h4>
-            </div>
-        </div>
+                                <div class="asymmetric-small-top">
+                                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&amp;q=80"
+                                            alt="Development &amp; Implementation"
+                                            class="story-img"/>
+                                    <div class="image-overlay">
+                                        <h4>Development &amp; Implementation</h4>
+                                    </div>
+                                </div>
 
-        <div class="asymmetric-small-bottom">
-            <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800&amp;q=80"
-                 alt="Success &amp; Growth"
-                 class="story-img"/>
-            <div class="image-overlay">
-                <h4>Success &amp; Growth</h4>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-                    <!-- Content -->
-                    <div class="story-content">
-                        <p class="story-paragraph">
-                            It started with a simple observation: businesses were drowning in disconnected systems and
-                            ERP solutions that promised everything but delivered complexity.
-                        </p>
-
-                        <p class="story-paragraph">
-                            In 2020, a small team of passionate developers came together with a shared belief—that
-                            enterprise software shouldn't be a burden. We discovered Odoo not just as a platform, but as
-                            a philosophy—modular, flexible, and designed for real business needs.
-                        </p>
-
-                        <p class="story-paragraph">
-                            Our first client was skeptical. They'd been burned before. But we did something different—we
-                            listened. When they went live without downtime, word spread.
-                        </p>
-
-                        <p class="story-paragraph">
-                            Today: 200+ implementations, 500+ custom modules, 20+ certified specialists. But the mission
-                            hasn't changed. We're still that team that believes ERP should empower, not complicate.
-                        </p>
-
-                        <div class="story-highlight">
-                            This isn't just what we do. It's why we exist.
+                                <div class="asymmetric-small-bottom">
+                                    <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800&amp;q=80"
+                                            alt="Success &amp; Growth"
+                                            class="story-img"/>
+                                    <div class="image-overlay">
+                                        <h4>Success &amp; Growth</h4>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
 
-                        <!-- Stats -->
-<!--                        <div class="story-stats">-->
-<!--                            <div class="story-stat-box">-->
-<!--                                <div class="story-stat-number">200+</div>-->
-<!--                                <div class="story-stat-label">Projects</div>-->
-<!--                            </div>-->
-<!--                            <div class="story-stat-box">-->
-<!--                                <div class="story-stat-number">500+</div>-->
-<!--                                <div class="story-stat-label">Modules</div>-->
-<!--                            </div>-->
-<!--                            <div class="story-stat-box">-->
-<!--                                <div class="story-stat-number">20+</div>-->
-<!--                                <div class="story-stat-label">Experts</div>-->
-<!--                            </div>-->
-<!--                        </div>-->
+                    <!-- Content (Right Side Content) -->
+                    <div class="col-lg-6 ps-lg-4" data-aos="fade-left">
+                        <div class="partner-content-box text-start">
+                            <p class="partner-description partner-desc-1 mb-3 w-100">
+                                It started with a simple observation: businesses were drowning in disconnected systems and
+                                ERP solutions that promised everything but delivered complexity.
+                            </p>
+                            <p class="partner-description partner-desc-2 mb-3 w-100">
+                                In 2020, a small team of passionate developers came together with a shared belief—that
+                                enterprise software shouldn't be a burden. We discovered Odoo not just as a platform, but as
+                                a philosophy—modular, flexible, and designed for real business needs.
+                            </p>
+                            <p class="partner-description mb-3 w-100">
+                                Our first client was skeptical. They'd been burned before. But we did something different—we
+                                listened. When they went live without downtime, word spread.
+                            </p>
+                            <p class="partner-description mb-4 w-100">
+                                Today: 200+ implementations, 500+ custom modules, 20+ certified specialists. But the mission
+                                hasn't changed. We're still that team that believes ERP should empower, not complicate.
+                            </p>
+                            
+                            <div class="partner-story-highlight">
+                                This isn't just what we do. It's why we exist.
+                            </div>
+                        </div>
                     </div>
 
                 </div>
             </div>
         </section>
+
+        
+<!--        <section id="cr_about_intro_banner" class="about-intro-banner hero-section-wave cr_font">-->
+<!--            <div class="container">-->
+<!--                <div class="about-banner-inner">-->
+<!--                    <h1 class="about-banner-title">-->
+<!--                        About Our Company-->
+<!--                    </h1>-->
+<!--                    <p class="about-banner-tagline">-->
+<!--                        We are passionate about delivering innovative ERP solutions that empower businesses-->
+<!--                        to grow, scale, and succeed.-->
+<!--                    </p>-->
+<!--                    <nav aria-label="breadcrumb">-->
+<!--                        <ul class="about-banner-breadcrumbs">-->
+<!--                            <li>-->
+<!--                                <a class="about-breadcrumb-link" href="/">-->
+<!--                                    Home-->
+<!--                                    <span class="about-breadcrumb-separator fa fa-angle-right"></span>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <span class="about-breadcrumb-current" aria-current="page">-->
+<!--                                    About Us-->
+<!--                                </span>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </nav>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+
+
+<!--        <section class="our-story-section cr_font">-->
+<!--            <div class="story-container">-->
+
+<!--                &lt;!&ndash; Header &ndash;&gt;-->
+<!--                <div class="story-header">-->
+<!--&lt;!&ndash;                    <span class="story-badge">Our Story</span>&ndash;&gt;-->
+<!--                    <h2 class="story-title">Our Story From Vision to Reality</h2>-->
+<!--                </div>-->
+
+<!--                &lt;!&ndash; Content Grid &ndash;&gt;-->
+<!--                <div class="story-grid">-->
+
+<!--                    &lt;!&ndash; Image &ndash;&gt;-->
+<!--                    <div class="story-image-wrapper">-->
+<!--                        <div class="asymmetric-grid">-->
+<!--                            <div class="asymmetric-large">-->
+<!--                                <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&amp;q=80"-->
+<!--                                    alt="Planning &amp; Strategy"-->
+<!--                                    class="story-img"/>-->
+<!--                                <div class="image-overlay">-->
+<!--                                    <h4>Planning &amp; Strategy</h4>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            <div class="asymmetric-small-top">-->
+<!--                                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&amp;q=80"-->
+<!--                                    alt="Development &amp; Implementation"-->
+<!--                                    class="story-img"/>-->
+<!--                                <div class="image-overlay">-->
+<!--                                    <h4>Development &amp; Implementation</h4>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            <div class="asymmetric-small-bottom">-->
+<!--                                <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800&amp;q=80"-->
+<!--                                    alt="Success &amp; Growth"-->
+<!--                                    class="story-img"/>-->
+<!--                                <div class="image-overlay">-->
+<!--                                    <h4>Success &amp; Growth</h4>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+
+
+
+
+
+<!--                    &lt;!&ndash; Content &ndash;&gt;-->
+<!--                    <div class="story-content">-->
+<!--                        <p class="story-paragraph">-->
+<!--                            It started with a simple observation: businesses were drowning in disconnected systems and-->
+<!--                            ERP solutions that promised everything but delivered complexity.-->
+<!--                        </p>-->
+
+<!--                        <p class="story-paragraph">-->
+<!--                            In 2020, a small team of passionate developers came together with a shared belief—that-->
+<!--                            enterprise software shouldn't be a burden. We discovered Odoo not just as a platform, but as-->
+<!--                            a philosophy—modular, flexible, and designed for real business needs.-->
+<!--                        </p>-->
+
+<!--                        <p class="story-paragraph">-->
+<!--                            Our first client was skeptical. They'd been burned before. But we did something different—we-->
+<!--                            listened. When they went live without downtime, word spread.-->
+<!--                        </p>-->
+
+<!--                        <p class="story-paragraph">-->
+<!--                            Today: 200+ implementations, 500+ custom modules, 20+ certified specialists. But the mission-->
+<!--                            hasn't changed. We're still that team that believes ERP should empower, not complicate.-->
+<!--                        </p>-->
+
+<!--                        <div class="story-highlight">-->
+<!--                            This isn't just what we do. It's why we exist.-->
+<!--                        </div>-->
+
+<!--                        &lt;!&ndash; Stats &ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="story-stats">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="story-stat-box">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="story-stat-number">200+</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="story-stat-label">Projects</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="story-stat-box">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="story-stat-number">500+</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="story-stat-label">Modules</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="story-stat-box">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="story-stat-number">20+</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="story-stat-label">Experts</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--                    </div>-->
+
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
 
 
     </template>

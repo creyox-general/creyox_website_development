@@ -1,37 +1,146 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
     <template id="about_us_snippet_section5" name="AboutUS Section-5">
-        <section class="about-us-transformation cr_font">
-    <h3 class="slider-title">Your Odoo Experience - Before &amp; After Our Solutions</h3>
-    <div class="slider-wrapper">
-        <div class="slider-container">
-            <div class="comparison-grid">
-                <div class="slider-image before-image">
-                    <div class="slider-text">
-                        <h4>Before Our Odoo Solutions</h4>
-                        <ul class="comparison-list">
-                            <li>Generic setup without industry focus</li>
-                            <li>Manual workarounds to fill gaps</li>
-                            <li>Limited automation &amp; slow workflows</li>
-                            <li>Poor integration with other tools</li>
-                        </ul>
-                    </div>
+<!--        <section class="about-us-transformation cr_font">-->
+<!--    <h3 class="slider-title">Your Odoo Experience - Before &amp; After Our Solutions</h3>-->
+<!--    <div class="slider-wrapper">-->
+<!--        <div class="slider-container">-->
+<!--            <div class="comparison-grid">-->
+<!--                <div class="slider-image before-image">-->
+<!--                    <div class="slider-text">-->
+<!--                        <h4>Before Our Odoo Solutions</h4>-->
+<!--                        <ul class="comparison-list">-->
+<!--                            <li>Generic setup without industry focus</li>-->
+<!--                            <li>Manual workarounds to fill gaps</li>-->
+<!--                            <li>Limited automation &amp; slow workflows</li>-->
+<!--                            <li>Poor integration with other tools</li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="slider-image after-image">-->
+<!--                    <div class="slider-text">-->
+<!--                        <h4>After Our Odoo Solutions</h4>-->
+<!--                        <ul class="comparison-list">-->
+<!--                            <li>Custom modules for your exact needs</li>-->
+<!--                            <li>Fully automated and optimized processes</li>-->
+<!--                            <li>Real-time data &amp; smart dashboards</li>-->
+<!--                            <li>Seamless integration across all systems</li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+         <!-- Part 1: Premium ERP Comparison Snippet -->
+        <section class="s_erp_comparison erp-comparison-section-v3 cr_font"
+                 data-snippet="s_erp_comparison"
+                 data-name="ERP Comparison">
+            <div class="erp-comparison-container-v3">
+                
+                <!-- Section Header -->
+                <div class="erp-comparison-header-v3" data-aos="fade-up">
+                    <div class="erp-comparison-pretitle-v3">Your Odoo Experience</div>
+                    <h2 class="erp-comparison-title-v3">
+                        Before <strong class="cr_vs">vs</strong> <span class="text-gradient">After Our Solutions</span>
+                    </h2>
+                    <p class="erp-comparison-description-v3">
+                        See how our custom Odoo solutions transform disconnected manual tasks into optimized, automated systems that drive real growth.
+                    </p>
                 </div>
-                <div class="slider-image after-image">
-                    <div class="slider-text">
-                        <h4>After Our Odoo Solutions</h4>
-                        <ul class="comparison-list">
-                            <li>Custom modules for your exact needs</li>
-                            <li>Fully automated and optimized processes</li>
-                            <li>Real-time data &amp; smart dashboards</li>
-                            <li>Seamless integration across all systems</li>
-                        </ul>
+
+                <div class="erp-comparison-grid-v3">
+                    <!-- Column 1: Legacy (Before) -->
+                    <div class="erp-comparison-column-v3 legacy-col" data-aos="fade-right">
+                        <div class="erp-comparison-column-header-v3">
+                            <div class="erp-comparison-column-badge-v3">Before</div>
+                            <h3 class="erp-comparison-column-title-v3">Without Our Solutions</h3>
+                            <p class="erp-comparison-column-subtitle-v3">Outdated processes and manual workflows that limit efficiency</p>
+                        </div>
+                        
+                        <div class="erp-comparison-features-v3">
+                            <!-- Feature 1.1 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3">Generic Setup</div>
+                                    <div class="erp-comparison-feature-text-v3">Generic setup without industry focus or tailoring</div>
+                                </div>
+                            </div>
+                            <!-- Feature 1.2 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3">Manual Workarounds</div>
+                                    <div class="erp-comparison-feature-text-v3">Manual spreadsheets and workarounds to fill system gaps</div>
+                                </div>
+                            </div>
+                            <!-- Feature 1.3 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3">Slow Workflows</div>
+                                    <div class="erp-comparison-feature-text-v3">Limited automation leading to slow, tedious workflows</div>
+                                </div>
+                            </div>
+                            <!-- Feature 1.4 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-negative-v3"><i class="fas fa-times"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3">Poor Integration</div>
+                                    <div class="erp-comparison-feature-text-v3">Poor integration and siloed data across disconnected tools</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Column 2: Modern (After) -->
+                    <div class="erp-comparison-column-v3 erp-comparison-column-premium-v3 modern-col" data-aos="fade-left">
+                        <div class="erp-comparison-column-header-v3">
+                            <div class="erp-comparison-column-badge-v3">After</div>
+                            <h3 class="erp-comparison-column-title-v3">With Our Solutions</h3>
+                            <p class="erp-comparison-column-subtitle-v3">Fully integrated cloud ERP system designed for scaling agilely</p>
+                        </div>
+
+                        <div class="erp-comparison-features-v3">
+                            <!-- Feature 2.1 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3">Custom Modules</div>
+                                    <div class="erp-comparison-feature-text-v3">Tailored custom modules designed for your exact workflow needs</div>
+                                </div>
+                            </div>
+                            <!-- Feature 2.2 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3">Fully Automated</div>
+                                    <div class="erp-comparison-feature-text-v3">Fully automated, connected, and highly optimized workflows</div>
+                                </div>
+                            </div>
+                            <!-- Feature 2.3 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3">Smart Dashboards</div>
+                                    <div class="erp-comparison-feature-text-v3">Real-time data synchronization and intelligent business dashboards</div>
+                                </div>
+                            </div>
+                            <!-- Feature 2.4 -->
+                            <div class="erp-comparison-feature-v3">
+                                <div class="erp-comparison-icon-wrapper-v3 erp-comparison-icon-positive-v3"><i class="fas fa-check"></i></div>
+                                <div class="erp-comparison-feature-content-v3">
+                                    <div class="erp-comparison-feature-title-v3">Seamless Integration</div>
+                                    <div class="erp-comparison-feature-text-v3">Seamless real-time synchronization across all internal systems</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
     </template>
 

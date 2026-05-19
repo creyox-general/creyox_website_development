@@ -132,12 +132,34 @@
         &:hover {
             border-color: #4cc9f0;
             box-shadow: 0 10px 20px rgba(76, 201, 240, 0.05);
+
+            .sub-icon {
+                i, img {
+                    transform: scale(1.1);
+                }
+            }
         }
 
         .sub-icon {
             color: #4cc9f0;
             margin-bottom: 15px;
-            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            height: 48px;
+
+            i {
+                font-size: 28px;
+                color: #4361ee;
+                transition: transform 0.3s ease;
+            }
+
+            img {
+                width: 44px;
+                height: 44px;
+                object-fit: contain;
+                transition: transform 0.3s ease;
+            }
         }
 
         h4 {
@@ -156,6 +178,37 @@
             color: #64748b;
             margin-bottom: 0;
             line-height: 1.5;
+        }
+    }
+
+    &.training-interactive-cards {
+        .sub-card {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .sub-icon {
+                justify-content: center;
+                height: 64px;
+                width: 100%;
+                margin-bottom: 20px;
+
+                i {
+                    font-size: 38px;
+                }
+
+                img {
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+
+            h4 {
+                text-align: center;
+                margin-bottom: 0;
+            }
         }
     }
 }

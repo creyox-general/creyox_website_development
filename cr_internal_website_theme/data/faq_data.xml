@@ -429,6 +429,42 @@
             <field name="question">Do you support Odoo Community and Odoo Enterprise?</field>
             <field name="answer">Yes and we advise honestly on which edition fits your budget and requirements, including long-term trade-offs.</field>
         </record>
-    </data>
 
+        <!-- Odoo Training FAQs -->
+        <record id="odoo_training_faq_1" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_training_page"/>
+            <field name="question">Who should attend Odoo functional training?</field>
+            <field name="answer">Anyone who works with Odoo on a daily basis sales reps, accountants, HR officers, warehouse staff, and managers. The functional training is designed to help business users operate Odoo confidently without needing technical help.</field>
+        </record>
+        <record id="odoo_training_faq_2" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_training_page"/>
+            <field name="question">What's the difference between functional and technical Odoo training?</field>
+            <field name="answer">Functional training focuses on using Odoo's built-in features for business operations. Technical training focuses on developing, customizing, and extending Odoo aimed at developers and IT professionals.</field>
+        </record>
+        <record id="odoo_training_faq_3" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_training_page"/>
+            <field name="question">Can the training be customized for our company?</field>
+            <field name="answer">Absolutely. All our Odoo training programs are tailored to your specific modules, business processes, and team roles. We don't deliver off-the-shelf content.</field>
+        </record>
+        <record id="odoo_training_faq_4" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_training_page"/>
+            <field name="question">Is Odoo online training as effective as in-person?</field>
+            <field name="answer">Yes. Our online sessions are fully live and interactive with shared environments, screen sharing, and real-time Q&amp;A. Many clients prefer the flexibility of online delivery.</field>
+        </record>
+        <record id="odoo_training_faq_5" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_training_page"/>
+            <field name="question">Do you provide training for the latest version of Odoo?</field>
+            <field name="answer">Yes. Our trainerFunctional training for a single department can take 1–2 days. A full end-to-end ERP training for a cross-functional team may span 1–2 wes stay current with every Odoo release and deliver training on the version you're using whether it's Odoo 16, 17, or the latest Community or Enterprise edition.</field>
+        </record>
+        <record id="odoo_training_faq_6" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_training_page"/>
+            <field name="question">How long does an Odoo training program take?</field>
+            <field name="answer">It depends on the track and scope. Functional training for a single department can take 1–2 days. A full end-to-end ERP training for a cross-functional team may span 1–2 weeks. We'll recommend the right duration based on your needs.</field>
+        </record>
+        <record id="odoo_training_faq_7" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_odoo_training_page"/>
+            <field name="question">Do you offer training for the Odoo Community edition?</field>
+            <field name="answer">Yes. We offer Odoo training services for both Community and Enterprise editions.</field>
+        </record>
+    </data>
 </odoo>

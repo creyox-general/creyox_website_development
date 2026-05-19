@@ -7,11 +7,19 @@
     padding: clamp(60px, 10vw, 100px) 0 !important;
 
     .unpublished_badge {
-        display: inline-block;
-        font-size: 0.85rem !important;
+        display: inline-block !important;
+        flex-shrink: 0 !important;
+        white-space: nowrap !important;
+        background-color: #dc3545 !important;
+        color: #ffffff !important;
+        font-size: 0.68rem !important;
         font-weight: 600 !important;
         text-transform: uppercase !important;
+        letter-spacing: 0.5px !important;
         line-height: 1.2 !important;
+        padding: 2px 6px !important;
+        border-radius: 4px !important;
+        margin: 0 !important;
     }
 
     .parent-cards-grid {

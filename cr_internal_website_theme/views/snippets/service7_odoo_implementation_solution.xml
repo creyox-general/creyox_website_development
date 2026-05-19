@@ -497,7 +497,7 @@
                 <div class="bubble"></div>
                 <div class="bubble"></div>
                 <div class="erp-cta-row erp-cta-container" data-aos="zoom-in">
-                    <div class="erp-cta-text text-center">
+                    <div class="erp-cta-text">
                         <h2 id="erp-cta-heading">
                             Ready to Start Your <span class="highlight">Odoo Implementation?</span>
                         </h2>

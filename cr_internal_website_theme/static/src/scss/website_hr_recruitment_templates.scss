@@ -90,7 +90,7 @@ $border-color: #e0e0e0;
         text-align: center;
         max-width: 500px;
 
-        i {
+        > i {
             font-size: 5rem;
             color: $primary-color;
             margin-bottom: 30px;
@@ -159,29 +159,31 @@ $border-color: #e0e0e0;
     }
 
     .card_tag_row {
-        min-height: 28px;
-        margin-bottom: 10px;
         display: flex;
         align-items: center;
     }
 
     .unpublished_badge {
-        display: inline-block;
-        background: #dc3545;
-        color: $secondary-color;
-        padding: 4px 10px;
-        border-radius: 4px;
-        font-size: 0.85rem !important;
+        display: inline-block !important;
+        flex-shrink: 0 !important;
+        white-space: nowrap !important;
+        background-color: #dc3545 !important;
+        color: #ffffff !important;
+        font-size: 0.68rem !important;
         font-weight: 600 !important;
         text-transform: uppercase !important;
         letter-spacing: 0.5px !important;
         line-height: 1.2 !important;
+        padding: 2px 6px !important;
+        border-radius: 4px !important;
+        margin: 0 !important;
     }
 
     .job_card_header {
         margin-bottom: 20px;
 
         .job_title {
+            min-width: 0 !important;
             font-size: 1.4rem;
             font-weight: 600;
             margin: 0 0 10px 0;
@@ -508,8 +510,8 @@ $border-color: #e0e0e0;
         padding: 20px;
 
         .unpublished_badge {
-            font-size: 0.8rem !important;
-            padding: 3px 8px;
+            font-size: 0.65rem !important;
+            padding: 2px 6px !important;
             font-weight: 600 !important;
         }
 
@@ -546,7 +548,7 @@ $border-color: #e0e0e0;
         padding: 20px;
 
         .no_jobs_content {
-            i {
+            > i {
                 font-size: 3.5rem;
                 margin-bottom: 20px;
             }

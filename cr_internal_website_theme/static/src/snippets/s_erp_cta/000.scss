@@ -92,7 +92,7 @@
     margin: 0 auto;
     width: 100%;
     padding: 0 15px;
-    text-align: center;
+    text-align: left !important;
 }
 
 .erp-cta-row {
@@ -100,7 +100,7 @@
     z-index: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
 }
 
@@ -121,9 +121,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
-    text-align: left;
+    text-align: left !important;
 }
 
 .erp-cta-text {
@@ -131,6 +131,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    text-align: left !important;
 }
 
 .erp-cta-button-wrapper {
@@ -154,7 +155,7 @@
 
 /* ==============================
    Responsive Media Queries
-   ============================== */
+   ============================= */
 
 /* ✅ Extra large desktops (1201px+) */
 @media (min-width: 1201px) {
@@ -182,7 +183,8 @@
     .erp-cta-row {
         flex-direction: column;
         gap: 20px;
-        text-align: center;
+        align-items: flex-start !important;
+        text-align: left !important;
     }
 
     .erp-cta-row h2 {
@@ -199,7 +201,8 @@
     .erp-cta-row {
         flex-direction: column;
         gap: 18px;
-        text-align: center;
+        align-items: flex-start !important;
+        text-align: left !important;
     }
 
     .erp-cta-row h2 {
@@ -220,7 +223,8 @@
     .erp-cta-row {
         flex-direction: column;
         gap: 15px;
-        text-align: center;
+        align-items: flex-start !important;
+        text-align: left !important;
     }
 
     .erp-cta-row h2 {
