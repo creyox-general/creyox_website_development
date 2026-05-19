@@ -281,11 +281,21 @@
             margin-top: 36px;
         }
 
-        /* ✅ Override ALL sg-cols variants → 2 columns on tablet */
-        .s_specialist_card_col,
-        .sg-cols-2 .s_specialist_card_col,
-        .sg-cols-3 .s_specialist_card_col,
-        .sg-cols-4 .s_specialist_card_col {
+        /* ✅ Corrected compound parent selectors for tablet overrides (max 3 columns) */
+        &.sg-cols-2 .s_specialist_card_col {
+            flex: 0 0 50% !important;
+            max-width: 50% !important;
+            width: 50% !important;
+        }
+
+        &.sg-cols-3 .s_specialist_card_col,
+        &.sg-cols-4 .s_specialist_card_col {
+            flex: 0 0 50% !important;
+            max-width: 50% !important;
+            width: 50% !important;
+        }
+
+        .s_specialist_card_col {
             flex: 0 0 50% !important;
             max-width: 50% !important;
             width: 50% !important;
@@ -326,11 +336,11 @@
             margin-top: 28px;
         }
 
-        /* ✅ Force ALL col variants to 100% width */
-        .s_specialist_card_col,
-        .sg-cols-2 .s_specialist_card_col,
-        .sg-cols-3 .s_specialist_card_col,
-        .sg-cols-4 .s_specialist_card_col {
+        /* ✅ Force ALL col variants to 100% width using correct parent nesting syntax */
+        &.sg-cols-2 .s_specialist_card_col,
+        &.sg-cols-3 .s_specialist_card_col,
+        &.sg-cols-4 .s_specialist_card_col,
+        .s_specialist_card_col {
             flex: 0 0 100% !important;
             max-width: 100% !important;
             width: 100% !important;

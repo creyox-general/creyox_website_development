@@ -208,7 +208,7 @@
                 <div class="container erp-cta-container">
                     <div class="erp-cta-row">
                         <div class="erp-cta-text" data-aos="fade-right">
-                            <h2 id="erp-cta-heading" class="text-center">
+                            <h2 id="erp-cta-heading">
                                 Do You Have a <span class="highlight">Migration</span> Need?
                             </h2>
                         </div>

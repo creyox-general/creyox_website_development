@@ -106,78 +106,101 @@ body.hide-social-sidebar {
 /* Mobile Responsive - Dock to bottom */
 @media (max-width: 768px) {
     .sticky-social-sidebar {
-        top: auto;
-        bottom: 20px;
-        left: 15px;
-        right: auto;
-        transform: none;
-        flex-direction: column-reverse;
+        top: auto !important;
+        bottom: 20px !important;
+        left: 15px !important;
+        right: auto !important;
+        transform: none !important;
+        flex-direction: column-reverse !important;
         /* Toggle at bottom */
-        border-radius: 30px;
-        padding: 8px;
-        gap: 0;
-        animation: sidebarFadeInMobile 0.8s ease-out forwards;
+        border-radius: 30px !important;
+        padding: 8px !important;
+        gap: 0 !important;
+        background: rgba(255, 255, 255, 0.1) !important;
+        border: 1px solid rgba(255, 255, 255, 0.2) !important;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15) !important;
+        transition: transform 0.5s cubic-bezier(0.4, 1, 0.16, 1) !important;
     }
 
     .sticky-social-sidebar .social-toggle {
-        display: flex;
-        z-index: 2;
-    }
+        display: flex !important;
+        position: static !important;
+        width: 40px !important;
+        height: 40px !important;
+        background: linear-gradient(135deg, #1e3a8a, #3b82f6) !important;
+        color: #ffffff !important;
+        border-radius: 50% !important;
+        align-items: center !important;
+        justify-content: center !important;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+        z-index: 2 !important;
 
-    .sticky-social-sidebar .social-toggle .close-icon {
-        display: none;
+        .toggle-icon {
+            transform: none !important;
+            font-size: 18px !important;
+        }
+
+        .close-icon {
+            display: none !important;
+        }
     }
 
     .sticky-social-sidebar .social-items-wrapper {
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 8px;
-        max-height: 0;
-        opacity: 0;
-        overflow: hidden;
-        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        gap: 8px !important;
+        max-height: 0 !important;
+        opacity: 0 !important;
+        overflow: hidden !important;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
     }
 
     /* Toggle Logic */
     #social_sidebar_toggle:checked~.social-items-wrapper {
-        max-height: 400px;
-        opacity: 1;
-        margin-bottom: 8px;
-        padding-bottom: 2px;
+        max-height: 400px !important;
+        opacity: 1 !important;
+        margin-bottom: 8px !important;
+        padding-bottom: 2px !important;
+        overflow: visible !important;
     }
 
     #social_sidebar_toggle:checked~.social-toggle .toggle-icon {
-        display: none;
+        display: none !important;
     }
 
     #social_sidebar_toggle:checked~.social-toggle .close-icon {
-        display: inline-block;
+        display: inline-block !important;
+        font-size: 18px !important;
     }
 
-    @keyframes sidebarFadeInMobile {
-        from {
-            opacity: 0;
-            left: -20px;
-        }
-
-        to {
-            opacity: 1;
-            left: 15px;
-        }
-    }
-
-    .sticky-social-sidebar .social-item {
-        width: 40px;
-        height: 40px;
-        font-size: 16px;
+    .sticky-social-sidebar .social-item:not(.social-toggle) {
+        width: 40px !important;
+        height: 40px !important;
+        font-size: 16px !important;
+        transform: none !important;
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
     }
 
     .sticky-social-sidebar .social-item .social-label {
-        display: none;
+        display: none !important;
     }
 
     .sticky-social-sidebar .social-item:hover {
-        transform: translateX(5px);
+        transform: translateX(5px) !important;
+    }
+}
+
+/* Hide Sticky Social Sidebar when Odoo Livechat is open */
+body:has(.o_thread_window),
+body:has(.o_chat_window),
+body:has(.o_livechat_chat_window),
+body:has(.o_livechat_window),
+body:has(.o_livechat_thread) {
+    .sticky-social-sidebar {
+        display: none !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        pointer-events: none !important;
     }
 }
 

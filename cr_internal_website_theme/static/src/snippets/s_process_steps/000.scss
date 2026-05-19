@@ -106,6 +106,7 @@
     .s_process_steps {
         .process-step-row {
             margin-bottom: 40px !important;
+            text-align: center !important;
 
             &.flex-row-reverse {
                 flex-direction: row !important;
@@ -118,9 +119,36 @@
 
         .step-card.text-card {
             padding: 30px;
+            text-align: center !important;
+            align-items: center !important;
+
+            .step-number {
+                text-align: center !important;
+            }
 
             .step-title {
                 font-size: 24px;
+                text-align: center !important;
+            }
+
+            .step-desc,
+            p,
+            li,
+            span,
+            small,
+            .small {
+                text-align: justify !important;
+            }
+        }
+
+        .partner-cta-group {
+            display: flex !important;
+            justify-content: center !important;
+            width: 100% !important;
+            margin-top: 30px !important;
+
+            .cta-button {
+                margin: 0 auto !important;
             }
         }
     }

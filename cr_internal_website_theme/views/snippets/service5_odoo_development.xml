@@ -231,7 +231,7 @@
                                     Creyox Technologies delivers end-to-end Odoo development services from custom ERP modules and third-party integrations to eCommerce, mobile apps, and full Odoo implementations.
                                 </p>
                                 <div class="partner-cta-group mb-4">
-                                    <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                    <a href="/contactus" class="cta-button primary">
                                         <span>Get Services Now</span>
                                         <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
                                     </a>

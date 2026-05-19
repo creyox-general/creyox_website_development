@@ -72,11 +72,11 @@
                             </div>
                         </div>
                         <div class="col-lg-6 p-0" data-aos="fade-left">
-                            <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
+                            <div class="partner-image-box" style="box-shadow: none !important;">
                                 <img src="/cr_internal_website_theme/static/src/img/odoo-customization.png"
                                      alt="Odoo Customization Services"
                                      class="img-fluid w-100" 
-                                     style="object-fit: contain; transform: scale(1.4); transform-origin: left center; z-index: 1;"/>
+                                     style="object-fit: contain;"/>
                             </div>
                         </div>
                     </div>
