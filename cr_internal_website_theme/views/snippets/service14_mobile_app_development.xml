@@ -7,6 +7,662 @@
                 rel="stylesheet"
                 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         />
+
+        <!-- ================= 1. Intro Banner ================= -->
+        <div class="oe_structure" id="oe_structure_service14_intro_banner">
+            <section class="s_service_intro_banner service-intro-banner hero-section-wave cr_font"
+                     data-snippet="s_service_intro_banner"
+                     data-name="Service Intro Banner">
+                <div class="container">
+                    <div class="banner-inner-content">
+                        <h1 class="banner-main-title">
+                            Professional Mobile App Development Solutions
+                        </h1>
+                        <p class="banner-tagline">
+                            Build fast, secure, and user-friendly native and cross-platform iOS &amp; Android applications that scale with your business.
+                        </p>
+                        <nav aria-label="breadcrumb">
+                            <ul class="banner-breadcrumbs">
+                                <li>
+                                    <a class="breadcrumb-link" href="/">
+                                        Home
+                                        <span class="breadcrumb-separator fa fa-angle-right"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <span class="breadcrumb-current" aria-current="page">Mobile App Development</span>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= 1.5. Process Steps: Hero Intro Content ================= -->
+        <div class="oe_structure" id="oe_structure_service14_hero_steps">
+            <section class="s_process_steps cr_font" data-snippet="s_process_steps" data-name="Process Steps" style="padding-top: 60px !important;">
+                <div class="container">
+                    <div class="row mb-5 text-center" data-aos="fade-up">
+                        <div class="col-12">
+                            <h2 class="partner-title display-4 fw-bold">Transform your business idea into a <span class="text-gradient">powerful mobile experience.</span></h2>
+                        </div>
+                    </div>
+                    <div class="process-steps-wrapper">
+
+                        <!-- Step 1 -->
+                        <div class="process-step-row row align-items-center mb-5" data-aos="fade-up">
+                            <div class="col-lg-6 step-text-col">
+                                <div class="step-card text-card">
+                                    <h3 class="step-title">Trusted Mobile App Development Partner</h3>
+                                    <p class="step-desc">Creyox Technologies is a trusted custom mobile app development company delivering high-performance iOS, Android, and cross-platform applications for enterprises and startups across the Globe.</p>
+                                    <div class="partner-cta-group mt-4">
+                                        <a href="/contactus" class="cta-button primary">
+                                            <span>Get a Consultation</span>
+                                            <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 step-image-col">
+                                <div class="step-card image-card">
+                                    <img src="/cr_internal_website_theme/static/src/img/mobile_app_partner.png" alt="Trusted Mobile App Partner" class="img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="process-step-row row align-items-center mb-5 flex-row-reverse" data-aos="fade-up">
+                            <div class="col-lg-6 step-text-col">
+                                <div class="step-card text-card">
+                                    <h3 class="step-title">Apps That Scale With Your Business</h3>
+                                    <p class="step-desc">Whether you need a sleek consumer app, a robust enterprise mobile solution, or an Odoo-integrated mobile platform — our team of expert developers builds apps that scale.</p>
+                                    <div class="partner-cta-group mt-4">
+                                        <a href="/portfolio" class="cta-button secondary ms-3">
+                                            <span>View Our Work</span>
+                                            <i class="fas fa-external-link-alt ms-2" aria-hidden="true"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 step-image-col">
+                                <div class="step-card image-card">
+                                    <img src="/cr_internal_website_theme/static/src/img/mobile_app_scale.png" alt="Apps That Scale" class="img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= 2. Combined: Why Choose Us + What Sets Us Apart ================= -->
+        <div class="oe_structure" id="oe_structure_service14_why_choose">
+
+            <!-- 2a. Comprehensive Service: Why Businesses Choose Us -->
+            <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
+                     data-snippet="s_comprehensive_service"
+                     data-oe-type="snippet"
+                     data-name="Comprehensive Service">
+                <div class="container">
+                    <div class="row mb-5 pb-lg-3">
+                        <div class="col-12 text-center">
+                            <h2 class="partner-title mb-3">
+                                Why Businesses Choose Us for
+                                <span class="text-gradient">Mobile App Development</span>
+                            </h2>
+                            <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center gx-0">
+                        <div class="col-lg-6 mb-5 mb-lg-0 p-0">
+                            <div class="partner-content-box text-start">
+                                <p class="partner-description partner-desc-1 mb-3 w-100">
+                                    In today's mobile-first world, your app is your brand. Creyox Technologies is a full-service mobile app development company that combines deep technical expertise with industry-specific knowledge to deliver apps that users love and businesses rely on.
+                                </p>
+                                <p class="partner-description partner-desc-2 mb-4 w-100">
+                                    Our mobile app development services cover the entire product lifecycle from discovery and UX design to development, QA, deployment, and ongoing support. We've partnered with businesses in healthcare, eCommerce, finance, real estate, education, and more to deliver mobile solutions that drive measurable results.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 p-0">
+                            <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
+                                <img src="/cr_internal_website_theme/static/src/img/mobile_app_lifecycle.png"
+                                     alt="Mobile App Development Expertise"
+                                     class="img-fluid w-100"
+                                     style="object-fit: contain;"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2b. Specialist Grid: What Sets Us Apart (2 columns) -->
+            <section class="s_specialist_grid sg-cols-2 cr_font" data-snippet="s_specialist_grid" data-name="Specialist Grid" style="padding-top: 0px !important;">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">
+                            What Sets Us <span class="text-gradient">Apart</span>
+                        </h2>
+                        <p class="section-subtitle mt-2">
+                            Why Creyox is the preferred partner for custom mobile app development worldwide.
+                        </p>
+                    </div>
+                    <div class="specialist-grid-container">
+                        <div class="row g-4 s_specialist_grid_row justify-content-center">
+                            <!-- Card 1 -->
+                            <div class="col-lg-6 s_specialist_card_col" data-aos="fade-up">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">01</div>
+                                    <h3 class="card-title">Odoo-Native Mobile Development</h3>
+                                    <p class="card-text">Uniquely positioned to build custom mobile apps that integrate seamlessly with Odoo ERP — no other agency offers this depth of Odoo mobile expertise.</p>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="col-lg-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">02</div>
+                                    <h3 class="card-title">Global Delivery, Local Understanding</h3>
+                                    <p class="card-text">Serving the globe with teams that understand regional business requirements, compliance, and UX preferences.</p>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="col-lg-6 s_specialist_card_col" data-aos="fade-up">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">03</div>
+                                    <h3 class="card-title">End-to-End Ownership</h3>
+                                    <p class="card-text">From wireframes to app store submission — one team, one vision. No hand-offs, no miscommunication.</p>
+                                </div>
+                            </div>
+                            <!-- Card 4 -->
+                            <div class="col-lg-6 s_specialist_card_col" data-aos="fade-up" data-aos-delay="100">
+                                <div class="specialist-card h-100">
+                                    <div class="card-digit">04</div>
+                                    <h3 class="card-title">Enterprise-Grade Architecture</h3>
+                                    <p class="card-text">Scalable, secure, and built to handle millions of users from day one — your app grows as your business grows.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- ================= 3. Service Showcase (2 columns) ================= -->
+        <div class="oe_structure" id="oe_structure_service14_showcase">
+            <section class="s_service_showcase cr_font sc-cols-2" data-snippet="s_service_showcase" data-name="Service Showcase">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">Our Mobile App <span class="text-gradient">Development Services</span></h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="section-description mt-4 mx-auto">We offer a full spectrum of mobile app development services tailored to your business goals, technology stack, and budget.</p>
+                    </div>
+                    <div class="row g-4 s_service_showcase_row justify-content-center">
+                        <div class="col-lg-6 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fab fa-apple"/></div>
+                                <h3 class="card-title">iOS Mobile App Development</h3>
+                                <p class="card-text">We build polished, high-performance iOS applications for iPhone and iPad following Apple's Human Interface Guidelines to deliver apps that feel native and pass App Store review with zero friction.</p>
+                                <ul class="card-list card-text mt-3"><li>Swift &amp; Objective-C development</li><li>iOS SDK &amp; Core Data integration</li><li>App Store submission &amp; ASO support</li><li>iOS app maintenance &amp; version upgrades</li></ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-card card-dark">
+                                <div class="card-icon"><i class="fab fa-android"/></div>
+                                <h3 class="card-title">Android Mobile App Development</h3>
+                                <p class="card-text">Our Android mobile app development services cover the full range of Android devices and screen sizes using Kotlin and Java to build apps that perform consistently across the fragmented Android ecosystem.</p>
+                                <ul class="card-list card-text mt-3"><li>Kotlin &amp; Java development</li><li>Material Design implementation</li><li>Google Play Store submission</li><li>Android-specific performance optimization</li></ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-layer-group"/></div>
+                                <h3 class="card-title">Flutter Mobile App Development</h3>
+                                <p class="card-text">Flutter is our go-to framework for businesses that want to ship on iOS and Android simultaneously. Our Flutter services deliver a truly native experience from a single codebase — cutting development time by up to 40%.</p>
+                                <ul class="card-list card-text mt-3"><li>Single codebase for iOS &amp; Android</li><li>Custom widget development</li><li>Flutter + Dart architecture</li><li>Ideal for enterprise and startup MVPs</li></ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-card card-dark">
+                                <div class="card-icon"><i class="fab fa-react"/></div>
+                                <h3 class="card-title">React Native Mobile App Development</h3>
+                                <p class="card-text">For teams already invested in the JavaScript ecosystem, React Native is the smart choice. We build fast, interactive apps that integrate seamlessly with existing web infrastructure.</p>
+                                <ul class="card-list card-text mt-3"><li>React Native with Expo or bare workflow</li><li>Integration with REST APIs &amp; GraphQL</li><li>Shared codebase with web React apps</li><li>Hot reload for faster iteration</li></ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-building"/></div>
+                                <h3 class="card-title">Enterprise Mobile App Development</h3>
+                                <p class="card-text">Creyox specializes in enterprise-grade mobile applications for companies with complex workflows and large user bases — where scale, security, SSO, offline capability, and ERP integration all matter.</p>
+                                <ul class="card-list card-text mt-3"><li>Role-based access control (RBAC)</li><li>Offline-first architecture</li><li>Integration with SAP, Salesforce, Odoo ERP</li><li>MDM &amp; MAM policy compliance</li></ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 s_service_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-card card-dark">
+                                <div class="card-icon"><i class="fas fa-paint-brush"/></div>
+                                <h3 class="card-title">Custom Mobile App Development</h3>
+                                <p class="card-text">Our custom mobile app development approach starts with a deep discovery phase where we map your workflows, pain points, and goals before a single line of code is written. The result: an app that fits your business like a glove.</p>
+                                <ul class="card-list card-text mt-3"><li>Requirements discovery &amp; user story mapping</li><li>Custom UI/UX design</li><li>Bespoke backend &amp; API development</li><li>Third-party integrations (payments, logistics, CRM)</li></ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 s_service_card_wrapper" data-aos="fade-up">
+                            <div class="service-card card-blue">
+                                <div class="card-icon"><i class="fas fa-brain"/></div>
+                                <h3 class="card-title">AI-Powered Mobile App Development</h3>
+                                <p class="card-text">We integrate AI and machine learning capabilities into mobile applications — from recommendation engines and NLP chatbots to predictive analytics and computer vision. AI mobile app development is no longer a luxury; it's a competitive advantage.</p>
+                                <ul class="card-list card-text mt-3"><li>On-device ML with TensorFlow Lite / Core ML</li><li>AI-powered search and recommendations</li><li>Chatbot and voice assistant integration</li><li>Predictive analytics dashboards</li></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= 4. Comprehensive Service: Odoo Unique Advantage ================= -->
+        <div class="oe_structure" id="oe_structure_service14_odoo_advantage">
+            <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"
+                     data-snippet="s_comprehensive_service"
+                     data-oe-type="snippet"
+                     data-name="Comprehensive Service">
+                <div class="container">
+                    <div class="row mb-5 pb-lg-3">
+                        <div class="col-12 text-center">
+                            <h2 class="partner-title mb-3">
+                                Odoo Mobile App Development
+                                <span class="text-gradient">— Our Unique Advantage</span>
+                            </h2>
+                            <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                            <p class="lead mx-auto mt-4" style="max-width: 950px; text-align: center !important;">
+                                As a leading Odoo development partner, Creyox is uniquely positioned to build mobile applications that connect directly to your Odoo ERP ecosystem. Whether you need a field sales app, a warehouse scanning tool, or a custom employee self-service portal, we build Odoo-native mobile apps that your team will actually use.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center gx-0">
+                        <div class="col-lg-6 mb-5 mb-lg-0 p-0">
+                            <div class="partner-content-box text-start">
+                                <p class="partner-description partner-desc-1 fw-bold mb-3 w-100" style="text-align: left !important; font-size: 24px !important;">
+                                    What We deliver in Odoo Mobile App Development:
+                                </p>
+                                <ul class="partner-description partner-feature-list mb-4">
+                                    <li><strong>Odoo JSON-RPC &amp; REST API Integration:</strong> Real-time sync between your mobile app and Odoo backend.</li>
+                                    <li><strong>Custom Odoo Mobile Modules:</strong> We build and extend Odoo modules designed specifically for mobile workflows.</li>
+                                    <li><strong>Offline Sync Support:</strong> Field teams can work without connectivity; data syncs when back online.</li>
+                                    <li><strong>Multi-company &amp; Multi-currency:</strong> Enterprise-ready for businesses operating across borders.</li>
+                                    <li><strong>Role-Based Mobile Dashboards:</strong> Sales reps see sales data; warehouse staff see inventory — clean and focused UX.</li>
+                                </ul>
+                                <div class="partner-cta-group">
+                                    <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">
+                                        <span>Discuss Your Odoo Mobile Project</span>
+                                        <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 p-0">
+                            <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
+                                <img src="/cr_internal_website_theme/static/src/img/odoo_mobile_dev.png"
+                                     alt="Odoo Mobile App Development"
+                                     class="img-fluid w-100"
+                                     style="object-fit: contain;"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= 5. Kinetic Process ================= -->
+        <div class="oe_structure" id="oe_structure_service14_process">
+            <section class="s_kinetic_process cr_font" data-snippet="s_kinetic_process" data-name="Kinetic Process" style="background-color: #E8F0FF; padding-bottom: 0px !important;">
+                <div class="container-fluid px-lg-5">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">Our Mobile App
+                            <span class="text-gradient">Development Process</span>
+                        </h2>
+                        <p class="section-subtitle mt-2">We follow a structured, transparent development process that keeps you informed at every stage and eliminates costly surprises.</p>
+                    </div>
+                    <div class="kinetic-grid-container">
+                        <!-- Row 1 -->
+                        <div class="row g-4 mb-4 s_kinetic_row_1">
+                            <div class="col-lg-8 phase-block" data-aos="fade-up">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">01</div>
+                                    <h3 class="card-title">Discovery &amp; Strategy</h3>
+                                    <p class="card-desc">We audit your requirements, define user personas, and produce a detailed project roadmap. This phase reduces rework by 60%.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="100">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">02</div>
+                                    <h3 class="card-title">UI/UX Design</h3>
+                                    <p class="card-desc">Our designers produce wireframes, interactive prototypes, and pixel-perfect UI kits before development begins.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Row 2 -->
+                        <div class="row g-4 mb-4 s_kinetic_row_2">
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="200">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">03</div>
+                                    <h3 class="card-title">Agile Development</h3>
+                                    <p class="card-desc">Two-week sprints with demo reviews. You see working software every fortnight, not just status reports.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="300">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">04</div>
+                                    <h3 class="card-title">QA &amp; Testing</h3>
+                                    <p class="card-desc">Manual and automated testing across multiple device configurations, OS versions, and network conditions.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 phase-block" data-aos="fade-up" data-aos-delay="400">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">05</div>
+                                    <h3 class="card-title">Launch &amp; App Store Submission</h3>
+                                    <p class="card-desc">We handle App Store &amp; Google Play submission, ASO, and launch monitoring for a smooth go-live.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Row 3 -->
+                        <div class="row g-4 s_kinetic_row_3">
+                            <div class="col-lg-12 phase-block" data-aos="fade-up" data-aos-delay="500">
+                                <div class="kinetic-card">
+                                    <div class="card-bg-number">06</div>
+                                    <h3 class="card-title">Post-Launch Support &amp; Maintenance</h3>
+                                    <p class="card-desc">Continuous monitoring, performance tuning, OS update compatibility, and feature iterations long after launch.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= 6. ERP CTA ================= -->
+
+        <div class="oe_structure" id="oe_structure_service14_cta" style="padding-bottom: 50px !important">
+            <section class="erp-cta-section cr_font" data-snippet="s_erp_cta" data-name="ERP CTA" aria-labelledby="erp-cta-heading">
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="container erp-cta-container" data-aos="zoom-in">
+                    <div class="erp-cta-row">
+                        <div class="erp-cta-text">
+                            <h2 id="erp-cta-heading">
+                                Ready to Build Your <span class="highlight">Mobile App?</span>
+                            </h2>
+                            <p class="mt-2 text-white-50">
+                                Creyox Technologies is your trusted mobile app development service provider for iOS, Android, Flutter, and Odoo-integrated mobile applications. From idea to app store — we deliver.
+                            </p>
+                        </div>
+                        <div class="erp-cta-button-wrapper">
+                            <a href="/contactus" class="cta-button light">
+                                <span>Schedule a Consultation</span>
+                                <i class="fas fa-calendar-check ms-2" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= 7. Benefit Mesh: Industries We Are Serving (3 columns) ================= -->
+        <div class="oe_structure" id="oe_structure_service14_benefit_mesh">
+            <section class="s_benefit_mesh cr_font bm-cols-3" data-snippet="s_benefit_mesh" data-name="Benefit Mesh">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="section-title">Industries We Are <span class="text-gradient">Serving</span></h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="section-description mt-4 mx-auto">Our mobile app developers have deep domain expertise across industries, enabling us to build solutions that reflect real-world workflows and regulatory requirements.</p>
+                    </div>
+                    <div class="row g-4 s_benefit_mesh_row justify-content-center">
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="0">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">01</div>
+                                <h3 class="card-title">eCommerce Mobile App Development</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Build mobile storefronts, inventory management apps, and buyer/seller platforms with seamless payment gateway integration, product search, and real-time order tracking.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">02</div>
+                                <h3 class="card-title">Fitness Mobile App Development</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Workout trackers, nutrition planners, wearable device integrations, and gym management apps. We've built fitness mobile apps used by over 500,000 users globally.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">03</div>
+                                <h3 class="card-title">Banking &amp; Finance Mobile App Development</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Secure, compliant mobile banking apps, investment dashboards, and digital wallet solutions. PCI-DSS compliance and biometric authentication built-in.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="300">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">04</div>
+                                <h3 class="card-title">Travel Mobile App Development</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Hotel booking engines, itinerary planners, real-time flight tracking, and travel agent management platforms for the global travel industry.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="400">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">05</div>
+                                <h3 class="card-title">Real Estate Mobile App Development</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Property listing apps, virtual tour integrations, CRM-connected agent tools, and mortgage calculators for property businesses of all sizes.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="500">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">06</div>
+                                <h3 class="card-title">Education Mobile App Development</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">LMS apps, virtual classrooms, quiz engines, progress trackers, and parent communication platforms. Compatible with SCORM and xAPI standards.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="600">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">07</div>
+                                <h3 class="card-title">Medical Mobile App Development</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">HIPAA-compliant patient portals, appointment booking, telemedicine platforms, and EHR integrations for healthcare providers.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 s_benefit_card_wrapper" data-aos="fade-up" data-aos-delay="700">
+                            <div class="benefit-card h-100">
+                                <div class="benefit-badge">08</div>
+                                <h3 class="card-title">IoT Mobile App Development Services</h3>
+                                <div class="accent-line"></div>
+                                <p class="card-text">Mobile interfaces for connected devices, smart home systems, industrial sensors, and wearables. Real-time data visualization and remote control capabilities.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= 8. Technology Stack & Tools ================= -->
+        <div class="oe_structure" id="oe_structure_service14_tech_stack">
+            <section class="s_feature_mesh cr_font sg-cols-3" data-snippet="s_feature_mesh" data-name="Feature Mesh">
+                <div class="container">
+                    <div class="section-header text-center mb-5" data-aos="fade-up">
+                        <h2 class="mesh-title">Technology Stack
+                            <span class="text-gradient">&amp; Tools</span>
+                        </h2>
+                        <div class="title-underline mx-auto"></div>
+                        <p class="mesh-main-text">We use the right technology for each use case, not a one-size-fits-all approach. Our stack is chosen to maximise performance, maintainability, and time-to-market for every project.</p>
+                    </div>
+                    <div class="row g-4 fm-card-row justify-content-center">
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Cross-Platform</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <ul class="card-text">
+                                        <li>Flutter (Dart)</li>
+                                        <li>React Native (JavaScript/TypeScript)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">iOS Native</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <ul class="card-text">
+                                        <li>Swift &amp; Objective-C</li>
+                                        <li>Xcode &amp; iOS SDK</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                            <div class="split-card">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Android Native</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <ul class="card-text">
+                                        <li>Kotlin &amp; Java</li>
+                                        <li>Android Studio</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Backend &amp; APIs</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <ul class="card-text">
+                                        <li>Node.js</li>
+                                        <li>Python (Django/FastAPI)</li>
+                                        <li>REST &amp; GraphQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Database</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <ul class="card-text">
+                                        <li>PostgreSQL &amp; MongoDB</li>
+                                        <li>Firebase Firestore</li>
+                                        <li>SQLite (offline)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                            <div class="split-card">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">AI &amp; ML</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <ul class="card-text">
+                                        <li>TensorFlow Lite &amp; Core ML</li>
+                                        <li>OpenAI API</li>
+                                        <li>Hugging Face</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 7 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">IoT</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <ul class="card-text">
+                                        <li>MQTT &amp; BLE</li>
+                                        <li>AWS IoT Core</li>
+                                        <li>Google IoT Hub</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 8 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="split-card">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">ERP Integration</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <ul class="card-text">
+                                        <li>Odoo JSON-RPC</li>
+                                        <li>Odoo REST API</li>
+                                        <li>Odoo ORM</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 9 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up" data-aos-delay="200">
+                            <div class="split-card">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">QA &amp; Testing</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <ul class="card-text">
+                                        <li>Appium &amp; Detox</li>
+                                        <li>XCTest &amp; Espresso</li>
+                                        <li>Firebase Test Lab</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 10 -->
+                        <div class="col-lg-4 col-md-6 fm-card-col" data-aos="fade-up">
+                            <div class="split-card">
+                                <div class="card-title-zone">
+                                    <h3 class="card-title">Cloud &amp; DevOps</h3>
+                                </div>
+                                <div class="card-body-zone">
+                                    <ul class="card-text">
+                                        <li>AWS, Google Cloud, Azure</li>
+                                        <li>Docker</li>
+                                        <li>CI/CD (GitHub Actions)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="oe_structure cr_font" id="oe_structure_service14_faq_section">
+            <section class="s_faq_dynamic_snippet o_faq_template_1"
+                     data-snippet="s_dynamic_snippet_faq"
+                     data-name="FAQs Templates">
+                <div class="container s_faq_container">
+                </div>
+            </section>
+        </div>
+
     </template>
 
 </odoo>

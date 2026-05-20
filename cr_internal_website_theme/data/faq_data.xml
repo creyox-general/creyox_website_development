@@ -467,6 +467,43 @@
             <field name="answer">Yes. We offer Odoo training services for both Community and Enterprise editions.</field>
         </record>
 
+        <!-- Mobile App Development FAQs -->
+        <record id="mobile_app_faq_1" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_mobile_app_development_page"/>
+            <field name="question">How long does it take to develop a mobile app?</field>
+            <field name="answer">Mobile app development timelines depend on the app’s complexity, features, integrations, and business requirements. Simpler applications can be developed relatively quickly, while enterprise-grade apps with advanced functionality, backend systems, and custom workflows require a more extensive development process. We follow an agile development approach with regular sprint updates, allowing clients to review progress, provide feedback, and stay involved throughout the project.</field>
+        </record>
+        <record id="mobile_app_faq_2" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_mobile_app_development_page"/>
+            <field name="question">Which is better, Flutter or React Native for mobile app development?</field>
+            <field name="answer">Flutter offers superior UI consistency and slightly better performance for complex animations. React Native is ideal if your team already uses JavaScript and you want code sharing with a web app. Both are excellent for cross-platform mobile app development. We help you choose based on your specific project requirements.</field>
+        </record>
+        <record id="mobile_app_faq_3" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_mobile_app_development_page"/>
+            <field name="question">Can you integrate the mobile app with our existing Odoo ERP?</field>
+            <field name="answer">Yes, this is one of Creyox's core specialties. Our Odoo mobile app development team can build a fully integrated mobile experience that reads and writes data to your Odoo instance in real time via Odoo's JSON-RPC or REST API. We support Odoo versions 14, 15, 16, and 17.</field>
+        </record>
+        <record id="mobile_app_faq_4" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_mobile_app_development_page"/>
+            <field name="question">Do you provide post-launch mobile app maintenance?</field>
+            <field name="answer">Absolutely. Every Creyox mobile app development project includes a 3-month post-launch warranty and optional ongoing support packages covering OS update compatibility, performance monitoring, bug fixes, and feature enhancements.</field>
+        </record>
+        <record id="mobile_app_faq_5" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_mobile_app_development_page"/>
+            <field name="question">What is enterprise mobile app development?</field>
+            <field name="answer">Enterprise mobile app development refers to building mobile applications for large organizations with complex requirements multi-user roles, offline capability, ERP integrations, advanced security (RBAC, SSO, MDM), and scalability for thousands of concurrent users. Creyox specializes in enterprise mobile solutions for companies in manufacturing, logistics, finance, and retail.</field>
+        </record>
+        <record id="mobile_app_faq_6" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_mobile_app_development_page"/>
+            <field name="question">Do you build IoT mobile app development solutions?</field>
+            <field name="answer">Yes. Our IoT mobile app development services cover mobile interfaces for connected hardware from Bluetooth Low Energy (BLE) device control to MQTT-based industrial sensor dashboards. We've built IoT mobile apps for smart factories, healthcare devices, and connected consumer products.</field>
+        </record>
+        <record id="mobile_app_faq_7" model="faq.snippet">
+            <field name="website_page_id" ref="cr_internal_website_theme.cr_mobile_app_development_page"/>
+            <field name="question">Can you develop a mobile banking app?</field>
+            <field name="answer">Yes. Our mobile banking app development services are built with security-first architecture. We implement PCI-DSS compliance, biometric authentication, end-to-end encryption, and secure API gateways for all fintech mobile applications.</field>
+        </record>
+
         <!-- Contact Us FAQs -->
         <record id="contact_us_faq_1" model="faq.snippet">
             <field name="website_page_id" ref="website.contactus_page"/>

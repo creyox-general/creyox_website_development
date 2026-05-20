@@ -69,6 +69,10 @@
                         <i class="fa fa-code menu-icon"></i>
                         <span class="menu-text">Web Development</span>
                     </a>
+                    <a href="/services/mobile-app-development">
+                        <i class="fa fa-mobile menu-icon" style="font-size: 20px; padding-left: 2px;"></i>
+                        <span class="menu-text">Mobile App Development</span>
+                    </a>
                 </li>
                 <li class="mega-column">
                     <h4>Odoo</h4>
