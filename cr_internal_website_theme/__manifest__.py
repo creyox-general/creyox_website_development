@@ -7,7 +7,7 @@
     "author": "Your Name / Creyox Technologies",
     "website": "https://creyoxtechnologies.com",
     "license": "LGPL-3",
-    "depends": ["website", "contacts", "crm", "website_hr_recruitment","website_blog","cr_faq_snippet"],
+    "depends": ["website", "contacts", "crm", "website_hr_recruitment","website_blog","cr_faq_snippet", "website_livechat"],
     "data": [
         # "security/ir.model.access.csv",
         'data/blog_data.xml',

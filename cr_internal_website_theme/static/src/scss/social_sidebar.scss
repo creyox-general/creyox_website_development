@@ -3,6 +3,9 @@ body.hide-social-sidebar {
     .sticky-social-sidebar {
         transform: translateY(-50%) translateX(100px) !important;
         pointer-events: none !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        transition: all 0.5s ease !important;
     }
 }
 
@@ -190,19 +193,8 @@ body.hide-social-sidebar {
     }
 }
 
-/* Hide Sticky Social Sidebar when Odoo Livechat is open */
-body:has(.o_thread_window),
-body:has(.o_chat_window),
-body:has(.o_livechat_chat_window),
-body:has(.o_livechat_window),
-body:has(.o_livechat_thread) {
-    .sticky-social-sidebar {
-        display: none !important;
-        opacity: 0 !important;
-        visibility: hidden !important;
-        pointer-events: none !important;
-    }
-}
+
+
 
 /* Extremely robust centering for the livechat button icon */
 .o_website_livechat_button:not(.d-none):not(.o_hidden):not([style*="display: none"]):not([style*="display:none"]),

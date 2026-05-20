@@ -22,13 +22,14 @@ odoo.define('cr_internal_website_theme.social_sidebar_chat', function (require) 
 
         _updateSidebarVisibility: function () {
             // Target common Odoo chat/thread window classes
-            var $chatWindow = $('.o_thread_window, .o_chat_window');
+            var $chatWindow = $('.o_thread_window, .o_chat_window, .o_livechat_chat_window, .o_livechat_thread');
             var isChatActive = false;
 
             if ($chatWindow.length) {
                 $chatWindow.each(function() {
-                    // If any chat window is taller than 100px, it's considered "open"
-                    if ($(this).height() > 100) {
+                    var $el = $(this);
+                    // A chat window is active if it is visible, not minimized, not hidden via class, and taller than 100px
+                    if ($el.is(':visible') && !$el.hasClass('o_minimized') && !$el.hasClass('d-none') && $el.css('display') !== 'none' && $el.height() > 100) {
                         isChatActive = true;
                     }
                 });
