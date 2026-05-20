@@ -328,13 +328,10 @@
 .dropdown-menu.mega-menu {
     opacity: 0;
     visibility: hidden;
-    transform: scaleY(0.98);
     transform-origin: top;
     transition: opacity 0.35s ease, transform 0.35s ease, visibility 0.35s;
-    position: fixed;
-    top: 53px;
-    left: 0;
-    right: 15;
+    position: absolute;
+    top: 100%;
     width: 750px !important;
     background-color: #fff;
     padding: 30px 50px;
@@ -344,27 +341,23 @@
     border-top: 2px solid #0056b3;
     z-index: 1000;
     display: flex; /* ✅ Always flex to preserve layout, hide via opacity+visibility */
-    transform: scale(0.96);
-    transform-origin: top;
-    transition: all 0.3s ease;
     pointer-events: none;
-    left: 25% !important;
+    left: 50% !important;
     right: auto !important;
     transform: translateX(-50%) scale(0.96);
-
 }
 
-/* Smooth reveal from top to bottom */
+/* Smooth reveal from top to bottom preserving horizontal centering */
 @keyframes slideDownReveal {
     0% {
         opacity: 0;
         max-height: 0;
-        transform: translateY(-20px);
+        transform: translateX(-50%) translateY(-20px) scale(0.96);
     }
     100% {
         opacity: 1;
         max-height: 500px;
-        transform: translateY(0);
+        transform: translateX(-50%) translateY(0) scale(1);
     }
 }
 
@@ -475,27 +468,20 @@
 .compact-menu {
     opacity: 0;
     visibility: hidden;
-    transform: scaleY(0.98);
     transform-origin: top;
     transition: opacity 0.35s ease, transform 0.35s ease, visibility 0.35s;
-    position: fixed;
-    top: 53px;
-    left: -5;
-    right: 10;
+    position: absolute;
+    top: 100%;
     width: 300px !important;
     background-color: #fff;
     padding: 30px 30px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     border-top: 2px solid #0056b3;
     z-index: 1000;
-    transform: scale(0.96);
-    transform-origin: top;
-    transition: all 0.3s ease;
     pointer-events: none;
-    left: 23% !important;
+    left: 50% !important;
     right: auto !important;
     transform: translateX(-50%) scale(0.96);
-
 }
 
 

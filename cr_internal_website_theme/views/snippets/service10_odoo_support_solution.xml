@@ -423,7 +423,7 @@
                 <div class="container">
                     <div class="row mb-5 text-center" data-aos="fade-up">
                         <div class="col-12">
-                            <h2 class="partner-title display-4 fw-bold">Ready to Eliminate <span class="text-gradient">Odoo Downtime for Good?</span></h2>
+                            <h2 class="partner-title fw-bold">Ready to Eliminate <span class="text-gradient">Odoo Downtime for Good?</span></h2>
                             <p class="lead text-muted">Tell us about your Odoo environment and we'll get back with a tailored support plan usually within a few hours. No generic quotes, no pushy sales calls.</p>
                         </div>
                     </div>
@@ -456,7 +456,8 @@
         <div class="oe_structure cr_font" id="oe_structure_service10_faq">
             <section class="s_faq_dynamic_snippet o_faq_template_1"
                     data-snippet="s_dynamic_snippet_faq"
-                    data-name="FAQs Templates">
+                    data-name="FAQs Templates"
+                    style="padding-top: 0px !important">
                 <div class="container s_faq_container">
                 </div>
             </section>
