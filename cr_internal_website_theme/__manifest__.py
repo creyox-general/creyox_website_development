@@ -66,6 +66,7 @@
         "views/snippets/service11_odoo_consulting_solution.xml",
         "views/snippets/service12_odoo_training_solution.xml",
         "views/snippets/service13_sap_services_solution.xml",
+        "views/snippets/service14_mobile_app_development.xml",
         "views/snippets/career.xml",
         "views/snippets/odoo_cloud_management.xml",
         "views/snippets/s_industry_use_cases.xml",

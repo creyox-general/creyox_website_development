@@ -876,7 +876,7 @@
                 <div class="container erp-cta-container">
                     <div class="erp-cta-row" data-aos="zoom-in">
                         <div class="erp-cta-text">
-                            <h2>Ready to Build Something <span class="highlight">Powerful on Odoo?</span></h2>
+                            <h2>Ready to Build Something <br/><span class="highlight">Powerful on Odoo?</span></h2>
                             <p class="text-white mt-3 lead">Tell us what your business needs. We'll show you exactly how our Odoo development services can solve it with a free consultation and a clear project roadmap.</p>
                         </div>
                         <a href="/contactus" class="cta-button light">

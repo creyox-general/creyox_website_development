@@ -761,8 +761,7 @@
         <div class="oe_structure cr_font" id="oe_structure_service2_faq">
             <section class="s_faq_dynamic_snippet o_faq_template_1"
                     data-snippet="s_dynamic_snippet_faq"
-                    data-name="FAQs Templates"
-                    style="padding: 100px 0 !important;">
+                    data-name="FAQs Templates">
                 <div class="container s_faq_container">
                 </div>
             </section>

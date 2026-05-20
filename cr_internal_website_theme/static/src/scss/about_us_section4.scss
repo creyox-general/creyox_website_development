@@ -164,6 +164,19 @@
         font-size: 3rem;
         margin-bottom: 12px;
     }
+
+    // Chrome fix: .milestone-card * sets position:relative + z-index on ALL children,
+    // which breaks -webkit-text-fill-color:transparent inheritance in Chrome.
+    // Explicitly re-apply gradient text to the counter span to fix cross-browser rendering.
+    .counter {
+        display: inline;
+        background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        position: static !important;
+        z-index: auto !important;
+    }
 }
 
 .team-stat-label {

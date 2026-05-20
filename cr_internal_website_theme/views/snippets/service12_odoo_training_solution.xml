@@ -613,19 +613,19 @@
                     <div class="row mb-5 pb-lg-3">
                         <div class="col-12 text-center" data-aos="fade-up">
                             <h2 class="partner-title mb-3">
-                                Trained by People Who've Actually Implemented Odoo
+                                Trained by People Who've <span class="text-gradient">Actually Implemented Odoo</span>
                             </h2>
                             <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>
+                            <p class="lead mx-auto mt-4" style="max-width: 950px; text-align: center !important;">
+                                There's a meaningful difference between a trainer who has studied Odoo and one who has deployed it across dozens of real businesses. Our every trainer on our team brings both formal Odoo Expert and hands-on implementation experience across live projects.
+                            </p>
                         </div>
                     </div>
                     
                     <div class="row align-items-center gx-0">
                         <div class="col-lg-6 mb-5 mb-lg-0 p-0" data-aos="fade-right">
                             <div class="partner-content-box text-start">
-                                <p class="partner-description partner-desc-1 mb-3 w-100" style="font-size: 1.15rem; line-height: 1.8; color: #4b5563;">
-                                    There's a meaningful difference between a trainer who has studied Odoo and one who has deployed it across dozens of real businesses. Our every trainer on our team brings both formal Odoo Expert and hands-on implementation experience across live projects.
-                                </p>
-                                <h4 class="fw-bold mb-3" style="color: #1f2937;">Our Training Team's Credentials:</h4>
+                                <h4 class="partner-description partner-desc-1 fw-bold mb-3" style="color: #1f2937;">Our Training Team's Credentials:</h4>
                                 <ul style="list-style-type: none; padding-left: 0; display: flex; flex-direction: column; gap: 10px;">
                                     <li style="color: #4b5563; font-size: 1.05rem; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>5+ years of active Odoo implementation and consulting experience</span></li>
                                     <li style="color: #4b5563; font-size: 1.05rem; display: flex; align-items: start;"><i class="fas fa-check-circle text-primary me-2" style="margin-top: 5px;"/><span>Odoo Expert professionals across functional and technical domains</span></li>
