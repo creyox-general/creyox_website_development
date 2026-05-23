@@ -5,7 +5,7 @@
     "author": "Creyox Technologies",
     "website": "https://www.creyox.com",
     "support": "support@creyox.com",
-    "version": "16.0.0.1",
+    "version": "16.0.0.2",
     "summary": """
         """,
     "sequence": 9,

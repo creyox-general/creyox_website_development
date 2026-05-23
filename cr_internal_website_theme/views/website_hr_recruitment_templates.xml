@@ -78,68 +78,6 @@
                 <!-- Jobs Listing -->
                 <t t-call="cr_internal_website_theme.s_hr_job_listing"/>
 
-<!--                <section class="jobs_listing_section">-->
-<!--                    <div class="container">-->
-
-<!--                        &lt;!&ndash; No Jobs Message &ndash;&gt;-->
-<!--                        <div t-if="not jobs" class="no_jobs_wrapper">-->
-<!--                            <div class="no_jobs_content">-->
-<!--                                <i class="fa fa-briefcase"></i>-->
-<!--                                <h3>No Open Positions at the Moment</h3>-->
-<!--                                <p>We're not currently hiring, but we'd love to hear from you! Send us your resume and we'll keep you in mind for future opportunities.</p>-->
-<!--                                <a href="/contactus" class="btn_contact">Contact Us</a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-
-<!--                        &lt;!&ndash; Jobs Grid &ndash;&gt;-->
-<!--                        <div t-if="jobs" class="jobs_grid">-->
-<!--                            <t t-foreach="jobs" t-as="job">-->
-<!--                                <div class="job_card">-->
-<!--                                    <span t-if="not job.website_published" class="unpublished_badge">Unpublished</span>-->
-
-<!--                                    <div class="job_card_header">-->
-<!--                                        <h3 class="job_title">-->
-<!--                                            <a t-attf-href="/jobs/detail/#{slug(job)}">-->
-<!--                                                <span t-field="job.name"/>-->
-<!--                                            </a>-->
-<!--                                        </h3>-->
-<!--                                        <span t-if="job.no_of_recruitment >= 1" class="positions_badge">-->
-<!--                                            <t t-esc="job.no_of_recruitment"/>-->
-<!--                                            <t t-if="job.no_of_recruitment == 1">Position</t>-->
-<!--                                            <t t-else="">Positions</t>-->
-<!--                                        </span>-->
-<!--                                    </div>-->
-
-<!--                                    <div class="job_card_body">-->
-<!--                                        <div class="job_description" t-esc="job.description or 'No description available'"/>-->
-<!--                                    </div>-->
-
-<!--                                    <div class="job_card_footer">-->
-<!--                                        <div class="job_meta">-->
-<!--                                            <span t-if="job.address_id" class="job_location">-->
-<!--                                                <i class="fa fa-map-marker"></i>-->
-<!--                                                <span t-field="job.address_id" t-options='{"widget": "contact", "fields": ["city"], "no_tag_br": True}'/>-->
-<!--                                            </span>-->
-<!--                                            <span t-if="job.contract_type_id" class="job_type">-->
-<!--                                                <i class="fa fa-suitcase"></i>-->
-<!--                                                <span t-field="job.contract_type_id"/>-->
-<!--                                            </span>-->
-<!--                                            <span class="job_date">-->
-<!--                                                <i class="fa fa-clock-o"></i>-->
-<!--                                                <span t-field="job.write_date" t-options='{"widget": "relative"}'/>-->
-<!--                                            </span>-->
-<!--                                        </div>-->
-<!--                                        <a t-attf-href="/jobs/detail/#{slug(job)}" class="btn_view_details">-->
-<!--                                            View Details &amp; Apply-->
-<!--                                        </a>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </t>-->
-<!--                        </div>-->
-
-<!--                    </div>-->
-<!--                </section>-->
-
                 <!-- How We Hire Section (Process Steps Structure) -->
                 <section class="s_process_steps cr_font" style="padding-bottom : 40px !important">
                     <div class="container">

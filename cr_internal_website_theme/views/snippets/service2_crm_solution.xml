@@ -99,57 +99,6 @@
                         </div>
                     </section>
                 </div>
-<!--                <div class="oe_structure" id="oe_structure_crm_header">-->
-<!--                    <section class="s_comprehensive_service s_trusted_odoo_partner cr_font"-->
-<!--                             data-snippet="s_comprehensive_service"-->
-<!--                             data-name="Comprehensive Service">-->
-<!--                        <div class="container pt-5 pb-0">-->
-<!--                            -->
-<!--                            &lt;!&ndash; First Row: Heading &ndash;&gt;-->
-<!--                            <div class="row mb-5 pb-lg-3">-->
-<!--                                <div class="col-12 text-center" data-aos="fade-down">-->
-<!--                                    <h2 class="partner-title mb-3">-->
-<!--                                        CRM Services to Manage Leads, Automate Sales,-->
-<!--                                        <span class="text-gradient">and Improve Customer Relationships</span>-->
-<!--                                    </h2>-->
-<!--                                    &lt;!&ndash; Small decorative underline &ndash;&gt;-->
-<!--                                    <div class="mx-auto rounded" style="width: 80px; height: 4px; background: linear-gradient(90deg, #4361ee, #4cc9f0);"></div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            -->
-<!--                            &lt;!&ndash; Second Row: Text and Image &ndash;&gt;-->
-<!--                            <div class="row align-items-center gx-0">-->
-<!--                                -->
-<!--                                <div class="col-lg-6 mb-5 mb-lg-0 p-0" data-aos="fade-right">-->
-<!--                                    <div class="partner-content-box text-start">-->
-<!--                                        <p class="partner-description partner-desc-1 mb-3 w-100">-->
-<!--                                            Are you struggling to keep track of leads, customer conversations, and sales opportunities across emails, spreadsheets, and different tools? As your business grows, managing scattered information can make it difficult for sales teams to follow up on leads, manage deals, and maintain strong customer relationships.-->
-<!--                                        </p>-->
-<!--                                        <p class="partner-description partner-desc-2 mb-4 w-100">-->
-<!--                                            This is where professional CRM services can make a real difference. At Creyox, we provide comprehensive CRM services that help businesses simplify sales processes, improve customer engagement, and increase productivity. Our solutions are designed to centralize customer data, automate sales activities, and provide valuable insights that help businesses make better decisions.-->
-<!--                                        </p>-->
-<!--                                        <div class="partner-cta-group">-->
-<!--                                            <a href="/contactus" class="cta-button primary d-inline-flex align-items-center">-->
-<!--                                                <span>Get a Free CRM Consultation</span>-->
-<!--                                                <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>-->
-<!--                                            </a>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                -->
-<!--                                <div class="col-lg-6 p-0" data-aos="fade-left" data-aos-delay="100">-->
-<!--                                    <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">-->
-<!--                                        <img src="/cr_internal_website_theme/static/src/img/crm-solution.png"-->
-<!--                                             alt="CRM Service Provider"-->
-<!--                                             class="img-fluid w-100" -->
-<!--                                             style="object-fit: contain; transform: scale(1.2); transform-origin: left center; z-index: 1;"/>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                -->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </section>-->
-<!--                </div>-->
 
             <!-- CRM Services Grid Section -->
             <div class="oe_structure" id="oe_structure_crm_services_grid" style="padding-bottom: 0px !important">

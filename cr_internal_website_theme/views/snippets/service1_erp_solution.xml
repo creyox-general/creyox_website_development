@@ -538,18 +538,6 @@
 
     </template>
 
-    <!-- <record id="cr_internal_website_theme.service1_erp_solution_000_scss" model="ir.asset">
-        <field name="name">SERVICE-1 000 SCSS</field>
-        <field name="bundle">web.assets_frontend</field>
-        <field name="path">cr_internal_website_theme/static/src/snippets/service1_erp_solution/000.scss</field>
-    </record>
-
-    <record id="cr_internal_website_theme.service1_erp_solution_000_js" model="ir.asset">
-        <field name="name">SERVICE-1 000 JS</field>
-        <field name="bundle">web.assets_frontend</field>
-        <field name="path">cr_internal_website_theme/static/src/snippets/service1_erp_solution/000.js</field>
-    </record> -->
-
     <record id="cr_internal_website_theme.service1_erp_solution_000_scss" model="ir.asset">
         <field name="name">SERVICE-1 000 SCSS</field>
         <field name="bundle">web.assets_frontend</field>

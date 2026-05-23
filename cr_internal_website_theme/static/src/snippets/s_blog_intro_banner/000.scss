@@ -47,6 +47,14 @@
 .breadcrumb-current {
     color: white;
     font-weight: 600;
+    text-decoration: none !important;
+    cursor: default !important;
+    pointer-events: none;
+
+    &:hover, &:focus, &:active {
+        color: white !important;
+        text-decoration: none !important;
+    }
 }
 
 /* ====== Responsive Media Queries ====== */

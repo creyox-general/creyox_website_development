@@ -9,6 +9,7 @@
         </xpath>
     </template>
 
+    <!-- Blog Intro Banner Implementation -->
     <template id="blog_post_header" inherit_id="website_blog.blog_post_complete" name="Blog Post Header">
         <xpath expr="//section[@id='o_wblog_post_top']" position="before">
             <t t-call="cr_internal_website_theme.s_blog_intro_banner">
