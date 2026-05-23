@@ -141,7 +141,7 @@
 <!--                </section>-->
 
                 <!-- How We Hire Section (Process Steps Structure) -->
-                <section class="s_process_steps cr_font">
+                <section class="s_process_steps cr_font" style="padding-bottom : 40px !important">
                     <div class="container">
                         <div class="row mb-5 text-center" data-aos="fade-up">
                             <div class="col-12">
