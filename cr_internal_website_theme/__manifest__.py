@@ -1,6 +1,6 @@
 {
     "name": "Internal Website",
-    "version": "16.0.0.6",
+    "version": "16.0.0.7",
     "category": "Website",
     "summary": "Landing Page Block",
     "description": """""",
@@ -10,7 +10,7 @@
     "depends": ["website", "contacts", "crm", "website_hr_recruitment","website_blog","cr_faq_snippet", "website_livechat"],
     "data": [
         # "security/ir.model.access.csv",
-        'data/blog_data.xml',
+        # 'data/blog_data.xml',
         'views/website_header.xml',
         'views/menus.xml',
         'data/faq_data.xml',

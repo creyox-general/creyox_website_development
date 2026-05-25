@@ -8,7 +8,7 @@
         <section class="hero-section cr_font">
             <style>
                 .hero-section {
-                    min-height: 100vh;
+                    min-height: auto;
                     display: flex;
                     align-items: center;
                     background: radial-gradient(circle at top right, #f0f4ff, #e0ecff);

@@ -40,6 +40,27 @@ odoo.define('cr_internal_website_theme.social_sidebar_chat', function (require) 
             } else {
                 document.body.classList.remove('hide-social-sidebar');
             }
+
+            // Check if livechat button is visible on the screen
+            var $chatButton = $('.o_livechat_button, .o_website_livechat_button');
+            var isChatButtonVisible = false;
+            if ($chatButton.length) {
+                $chatButton.each(function() {
+                    var $el = $(this);
+                    if ($el.is(':visible') && !$el.hasClass('d-none') && !$el.hasClass('o_hidden') && $el.css('display') !== 'none' && $el.css('visibility') !== 'hidden' && $el.css('opacity') !== '0') {
+                        isChatButtonVisible = true;
+                    }
+                });
+            }
+
+            var $sidebar = $('.sticky-social-sidebar');
+            if ($sidebar.length) {
+                if (isChatButtonVisible) {
+                    $sidebar.addClass('has-chat-button');
+                } else {
+                    $sidebar.removeClass('has-chat-button');
+                }
+            }
         },
 
         destroy: function () {

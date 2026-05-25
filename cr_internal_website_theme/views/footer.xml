@@ -160,9 +160,9 @@
                                 <div class="footer_social mt-4">
                                     <h6 class="social_title">Follow Us</h6>
                                     <div class="social_icons">
-                                        <!--                                        <a href="/website/social/facebook" target="_blank" class="social_icon facebook">-->
-                                        <!--                                            <i class="fa fa-facebook"/>-->
-                                        <!--                                        </a>-->
+                                        <a href="https://www.facebook.com/profile.php?id=61565991127858" target="_blank" class="social_icon facebook">
+                                            <i class="fa fa-facebook"/>
+                                        </a>
                                         <a href="https://twitter.com/creyoxtech" target="_blank"
                                            class="social_icon twitter">
                                             <i class="fa fa-twitter"/>
@@ -241,9 +241,9 @@
                 <!--                </section>-->
 
                 <!-- Back to Top Button -->
-                <a href="#" class="back_to_top" id="backToTop">
-                    <i class="fa fa-chevron-up"/>
-                </a>
+<!--                <a href="#" class="back_to_top" id="backToTop">-->
+<!--                    <i class="fa fa-chevron-up"/>-->
+<!--                </a>-->
 
             </div>
         </xpath>
