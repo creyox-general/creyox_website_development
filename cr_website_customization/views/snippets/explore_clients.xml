@@ -18,7 +18,7 @@
     </template>
 
     <!-- To be used in JS for snippet options -->
-    <template id="explore_clients_options" inherit_id="website.snippet_options">
+    <template id="explore_client_slider_option" inherit_id="website.snippet_options">
         <xpath expr="." position="inside">
             <div data-js="ExploreClients" data-selector=".explore_clients">
                 <!-- Animation Speed Selector -->
