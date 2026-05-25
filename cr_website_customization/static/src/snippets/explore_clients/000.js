@@ -37,7 +37,7 @@ const ClientsWidget = publicWidget.Widget.extend({
                 this.updateAnimationSettings(refEl,savedSpeed);
             }
             else{
-                this.updateAnimationSettings(refEl,10);
+                this.updateAnimationSettings(refEl,30);
             }
 
         } else {
