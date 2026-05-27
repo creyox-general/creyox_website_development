@@ -8,6 +8,19 @@ class BlogPost(models.Model):
 
     color = fields.Many2one(comodel_name='color.management', string="Background color", widget="color")
     background_color = fields.Char(related='color.color_code')
+    short_title = fields.Char(
+        string="Short Title",
+        help="Short title to be displayed inside the blog banner",
+        compute="_compute_short_title",
+        store=True,
+        readonly=False,
+    )
+
+    @api.depends('name')
+    def _compute_short_title(self):
+        for post in self:
+            if not post.short_title:
+                post.short_title = post.name
 
     @api.model
     def create(self, vals):
