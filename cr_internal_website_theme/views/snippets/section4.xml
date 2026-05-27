@@ -81,7 +81,7 @@
 <!--                    <p>24/7 monitoring, bug fixes, security patches, and performance tuning.</p>-->
 <!--                </div>-->
 
-                <a href="/services/odoo-consulting" class="service-link">
+                <a href="/services/odoo-consulting-services" class="service-link">
     <div class="service-card" role="listitem">
         <div class="service-icon" aria-hidden="true">
             <i class="fas fa-user-tie"></i>
@@ -91,7 +91,7 @@
     </div>
 </a>
 
-<a href="/services/odoo-implementation" class="service-link">
+<a href="/services/odoo-implementation-services" class="service-link">
     <div class="service-card" role="listitem">
         <div class="service-icon" aria-hidden="true">
             <i class="fas fa-tools"></i>
@@ -101,7 +101,7 @@
     </div>
 </a>
 
-<a href="/services/odoo-customisation" class="service-link">
+<a href="/services/odoo-customisation-services" class="service-link">
     <div class="service-card" role="listitem">
         <div class="service-icon" aria-hidden="true">
             <i class="fas fa-sliders-h"></i>
@@ -111,7 +111,7 @@
     </div>
 </a>
 
-<a href="/services/odoo-development" class="service-link">
+<a href="/services/odoo-development-services" class="service-link">
     <div class="service-card" role="listitem">
         <div class="service-icon" aria-hidden="true">
             <i class="fas fa-code"></i>
@@ -121,7 +121,7 @@
     </div>
 </a>
 
-<a href="/services/odoo-integration" class="service-link">
+<a href="/services/odoo-integration-services" class="service-link">
     <div class="service-card" role="listitem">
         <div class="service-icon" aria-hidden="true">
             <i class="fas fa-plug"></i>
@@ -131,7 +131,7 @@
     </div>
 </a>
 
-<a href="/services/odoo-migration" class="service-link">
+<a href="/services/odoo-migration-services" class="service-link">
     <div class="service-card" role="listitem">
         <div class="service-icon" aria-hidden="true">
             <i class="fas fa-exchange-alt"></i>
@@ -162,7 +162,7 @@
 </a>
 
 
-<a href="/services/odoo-training" class="service-link">
+<a href="/services/odoo-training-services" class="service-link">
     <div class="service-card" role="listitem">
         <div class="service-icon" aria-hidden="true">
             <i class="fas fa-chalkboard-teacher"></i>
@@ -172,7 +172,7 @@
     </div>
 </a>
 
-<a href="/services/odoo-support" class="service-link">
+<a href="/services/odoo-support-services" class="service-link">
     <div class="service-card" role="listitem">
         <div class="service-icon" aria-hidden="true">
             <i class="fas fa-life-ring"></i>

@@ -195,7 +195,7 @@
                                 <h3 class="card-title mb-3">Odoo Development</h3>
                                 <p class="card-text mb-4">Custom-built Odoo solutions tailored to your business needs.</p>
                                 <div class="partner-cta-group mt-auto">
-                                    <a href="/services/odoo-development" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
+                                    <a href="/services/odoo-development-services" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
                                         <span style="font-size: 14px !important;">Odoo Development Services</span>
                                         <i class="fas fa-arrow-right ms-2" aria-hidden="true" style="font-size: 11px;"/>
                                     </a>
@@ -208,7 +208,7 @@
                                 <h3 class="card-title mb-3">Odoo Integration</h3>
                                 <p class="card-text mb-4">Connect Odoo with your existing tools and systems.</p>
                                 <div class="partner-cta-group mt-auto">
-                                    <a href="/services/odoo-integration" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
+                                    <a href="/services/odoo-integration-services" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
                                         <span style="font-size: 14px !important;">Odoo Integration Services</span>
                                         <i class="fas fa-arrow-right ms-2" aria-hidden="true" style="font-size: 11px;"/>
                                     </a>
@@ -221,7 +221,7 @@
                                 <h3 class="card-title mb-3">Odoo Implementation</h3>
                                 <p class="card-text mb-4">Seamless Odoo setup aligned with your workflows.</p>
                                 <div class="partner-cta-group mt-auto">
-                                    <a href="/services/odoo-implementation" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
+                                    <a href="/services/odoo-implementation-services" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
                                         <span style="font-size: 14px !important;">Odoo Implementation Services</span>
                                         <i class="fas fa-arrow-right ms-2" aria-hidden="true" style="font-size: 11px;"/>
                                     </a>
@@ -234,7 +234,7 @@
                                 <h3 class="card-title mb-3">Odoo Customisation</h3>
                                 <p class="card-text mb-4">Adapt Odoo to match your processes and operations.</p>
                                 <div class="partner-cta-group mt-auto">
-                                    <a href="/services/odoo-customisation" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
+                                    <a href="/services/odoo-customisation-services" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
                                         <span style="font-size: 14px !important;">Odoo Customisation Services</span>
                                         <i class="fas fa-arrow-right ms-2" aria-hidden="true" style="font-size: 11px;"/>
                                     </a>
@@ -247,7 +247,7 @@
                                 <h3 class="card-title mb-3">Odoo Migration</h3>
                                 <p class="card-text mb-4">Upgrade or migrate your system with zero data loss.</p>
                                 <div class="partner-cta-group mt-auto">
-                                    <a href="/services/odoo-migration" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
+                                    <a href="/services/odoo-migration-services" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
                                         <span style="font-size: 14px !important;">Odoo Migration &amp; Upgrade Services</span>
                                         <i class="fas fa-arrow-right ms-2" aria-hidden="true" style="font-size: 11px;"/>
                                     </a>
@@ -260,7 +260,7 @@
                                 <h3 class="card-title mb-3">Odoo Support</h3>
                                 <p class="card-text mb-4">Reliable support to keep your system running smoothly.</p>
                                 <div class="partner-cta-group mt-auto">
-                                    <a href="/services/odoo-support" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
+                                    <a href="/services/odoo-support-services" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
                                         <span style="font-size: 14px !important;">Odoo Support &amp; Maintenance</span>
                                         <i class="fas fa-arrow-right ms-2" aria-hidden="true" style="font-size: 11px;"/>
                                     </a>
@@ -273,7 +273,7 @@
                                 <h3 class="card-title mb-3">Odoo Training</h3>
                                 <p class="card-text mb-4">Empower your team with practical, hands-on Odoo training for daily operations.</p>
                                 <div class="partner-cta-group mt-auto">
-                                    <a href="/services/odoo-training" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
+                                    <a href="/services/odoo-training-services" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
                                         <span style="font-size: 14px !important;">Odoo Training Services</span>
                                         <i class="fas fa-arrow-right ms-2" aria-hidden="true" style="font-size: 11px;"/>
                                     </a>
@@ -286,7 +286,7 @@
                                 <h3 class="card-title mb-3">Odoo Consulting</h3>
                                 <p class="card-text mb-4">Get expert guidance to plan, optimize, and scale your Odoo implementation.</p>
                                 <div class="partner-cta-group mt-auto">
-                                    <a href="/services/odoo-consulting" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
+                                    <a href="/services/odoo-consulting-services" class="cta-button primary d-inline-flex align-items-center justify-content-center w-100" style="padding: 10px 24px !important; font-size: 11px !important;">
                                         <span style="font-size: 14px !important;">Odoo Consulting Services</span>
                                         <i class="fas fa-arrow-right ms-2" aria-hidden="true" style="font-size: 11px;"/>
                                     </a>

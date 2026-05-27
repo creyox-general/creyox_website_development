@@ -7,7 +7,10 @@
             <div class="container">
                 <div class="banner-inner-content">
                     <h1 class="banner-main-title">
-                        <t t-if="blog">
+                        <t t-if="blog and blog._name == 'blog.post'">
+                            <t t-esc="blog.short_title"/>
+                        </t>
+                        <t t-elif="blog">
                             <t t-esc="blog.name"/>
                         </t>
                         <t t-else="">
@@ -41,7 +44,12 @@
                             <t t-if="blog">
                                 <li>
                                     <a class="breadcrumb-current">
-                                        <t t-esc="blog.name"/>
+                                        <t t-if="blog and blog._name == 'blog.post'">
+                                            <t t-esc="blog.short_title"/>
+                                        </t>
+                                        <t t-elif="blog">
+                                            <t t-esc="blog.name"/>
+                                        </t>
                                     </a>
                                 </li>
                             </t>
@@ -51,10 +59,4 @@
             </div>
         </section>
     </template>
-
-    <record id="cr_internal_website_theme.s_blog_intro_banner_000_scss" model="ir.asset">
-        <field name="name">s_blog_intro_banner 000 SCSS</field>
-        <field name="bundle">web.assets_frontend</field>
-        <field name="path">cr_internal_website_theme/static/src/snippets/s_blog_intro_banner/000.scss</field>
-    </record>
 </odoo>
