@@ -170,13 +170,13 @@
     </template>
     <record id="cr_pos_solution_page" model="website.page">
         <field name="is_published">True</field>
-        <field name="url">/services/pos</field>
+        <field name="url">/services/pos-solutions</field>   
         <field name="track">True</field>
         <field name="view_id" ref="cr_internal_website_theme.cr_pos_solution"/>
     </record>
     <record id="menu_pos_solution" model="website.menu">
         <field name="name">POS Solution</field>
-        <field name="url">/services/pos</field>
+        <field name="url">/services/pos-solutions</field>
         <field name="parent_id" ref="services_menu"/>
         <field name="page_id" ref="cr_pos_solution_page"/>
         <field name="website_id" ref="website.default_website"/>
@@ -191,13 +191,13 @@
     </template>
     <record id="cr_web_development_page" model="website.page">
         <field name="is_published">True</field>
-        <field name="url">/services/web</field>
+        <field name="url">/services/odoo-website-development</field>
         <field name="track">True</field>
         <field name="view_id" ref="cr_internal_website_theme.cr_web_development"/>
     </record>
     <record id="menu_web_development" model="website.menu">
         <field name="name">Web Development</field>
-        <field name="url">/services/web</field>
+        <field name="url">/services/odoo-website-development</field>
         <field name="parent_id" ref="services_menu"/>
         <field name="page_id" ref="cr_web_development_page"/>
         <field name="website_id" ref="website.default_website"/>
@@ -235,13 +235,13 @@
     </template>
     <record id="cr_odoo_development_page" model="website.page">
         <field name="is_published">True</field>
-        <field name="url">/services/odoo-development</field>
+        <field name="url">/services/odoo-development-services</field>
         <field name="track">True</field>
         <field name="view_id" ref="cr_internal_website_theme.cr_odoo_development"/>
     </record>
     <record id="menu_odoo_development" model="website.menu">
         <field name="name">Odoo Development</field>
-        <field name="url">/services/odoo-development</field>
+        <field name="url">/services/odoo-development-services</field>
         <field name="parent_id" ref="services_menu"/>
         <field name="page_id" ref="cr_odoo_development_page"/>
         <field name="website_id" ref="website.default_website"/>
@@ -256,13 +256,13 @@
     </template>
     <record id="cr_odoo_integration_page" model="website.page">
         <field name="is_published">True</field>
-        <field name="url">/services/odoo-integration</field>
+        <field name="url">/services/odoo-integration-services</field>
         <field name="track">True</field>
         <field name="view_id" ref="cr_internal_website_theme.cr_odoo_integration"/>
     </record>
     <record id="menu_odoo_integration" model="website.menu">
         <field name="name">Odoo Integration</field>
-        <field name="url">/services/odoo-integration</field>
+        <field name="url">/services/odoo-integration-services</field>
         <field name="parent_id" ref="services_menu"/>
         <field name="page_id" ref="cr_odoo_integration_page"/>
         <field name="website_id" ref="website.default_website"/>
@@ -277,13 +277,13 @@
     </template>
     <record id="cr_odoo_implementation_page" model="website.page">
         <field name="is_published">True</field>
-        <field name="url">/services/odoo-implementation</field>
+        <field name="url">/services/odoo-implementation-services</field>
         <field name="track">True</field>
         <field name="view_id" ref="cr_internal_website_theme.cr_odoo_implementation"/>
     </record>
     <record id="menu_odoo_implementation" model="website.menu">
         <field name="name">Odoo Implementation</field>
-        <field name="url">/services/odoo-implementation</field>
+        <field name="url">/services/odoo-implementation-services</field>
         <field name="parent_id" ref="services_menu"/>
         <field name="page_id" ref="cr_odoo_implementation_page"/>
         <field name="website_id" ref="website.default_website"/>
@@ -298,13 +298,13 @@
     </template>
     <record id="cr_odoo_customisation_page" model="website.page">
         <field name="is_published">True</field>
-        <field name="url">/services/odoo-customisation</field>
+        <field name="url">/services/odoo-customisation-services</field>
         <field name="track">True</field>
         <field name="view_id" ref="cr_internal_website_theme.cr_odoo_customisation"/>
     </record>
     <record id="menu_odoo_customisation" model="website.menu">
         <field name="name">Odoo Customisation</field>
-        <field name="url">/services/odoo-customisation</field>
+        <field name="url">/services/odoo-customisation-services</field>
         <field name="parent_id" ref="services_menu"/>
         <field name="page_id" ref="cr_odoo_customisation_page"/>
         <field name="website_id" ref="website.default_website"/>
@@ -319,13 +319,13 @@
     </template>
     <record id="cr_odoo_migration_page" model="website.page">
         <field name="is_published">True</field>
-        <field name="url">/services/odoo-migration</field>
+        <field name="url">/services/odoo-migration-services</field>
         <field name="track">True</field>
         <field name="view_id" ref="cr_internal_website_theme.cr_odoo_migration"/>
     </record>
     <record id="menu_odoo_migration" model="website.menu">
         <field name="name">Odoo Migration</field>
-        <field name="url">/services/odoo-migration</field>
+        <field name="url">/services/odoo-migration-services</field>
         <field name="parent_id" ref="services_menu"/>
         <field name="page_id" ref="cr_odoo_migration_page"/>
         <field name="website_id" ref="website.default_website"/>
@@ -340,13 +340,13 @@
     </template>
     <record id="cr_odoo_support_page" model="website.page">
         <field name="is_published">True</field>
-        <field name="url">/services/odoo-support</field>
+        <field name="url">/services/odoo-support-services</field>
         <field name="track">True</field>
         <field name="view_id" ref="cr_internal_website_theme.cr_odoo_support"/>
     </record>
     <record id="menu_odoo_support" model="website.menu">
         <field name="name">Odoo Support</field>
-        <field name="url">/services/odoo-support</field>
+        <field name="url">/services/odoo-support-services</field>
         <field name="parent_id" ref="services_menu"/>
         <field name="page_id" ref="cr_odoo_support_page"/>
         <field name="website_id" ref="website.default_website"/>
@@ -361,13 +361,13 @@
     </template>
     <record id="cr_odoo_consulting_page" model="website.page">
         <field name="is_published">True</field>
-        <field name="url">/services/odoo-consulting</field>
+        <field name="url">/services/odoo-consulting-services</field>
         <field name="track">True</field>
         <field name="view_id" ref="cr_internal_website_theme.cr_odoo_consulting"/>
     </record>
     <record id="menu_odoo_consulting" model="website.menu">
         <field name="name">Odoo Consulting</field>
-        <field name="url">/services/odoo-consulting</field>
+        <field name="url">/services/odoo-consulting-services</field>
         <field name="parent_id" ref="services_menu"/>
         <field name="page_id" ref="cr_odoo_consulting_page"/>
         <field name="website_id" ref="website.default_website"/>
@@ -382,13 +382,13 @@
     </template>
     <record id="cr_odoo_training_page" model="website.page">
         <field name="is_published">True</field>
-        <field name="url">/services/odoo-training</field>
+        <field name="url">/services/odoo-training-services</field>
         <field name="track">True</field>
         <field name="view_id" ref="cr_internal_website_theme.cr_odoo_training"/>
     </record>
     <record id="menu_odoo_training" model="website.menu">
         <field name="name">Odoo Training</field>
-        <field name="url">/services/odoo-training</field>
+        <field name="url">/services/odoo-training-services</field>
         <field name="parent_id" ref="services_menu"/>
         <field name="page_id" ref="cr_odoo_training_page"/>
         <field name="website_id" ref="website.default_website"/>

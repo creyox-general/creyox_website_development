@@ -99,13 +99,13 @@
                                         <a href="/services/crm-services">CRM Solution</a>
                                     </li>
                                     <li>
-                                        <a href="/services/pos">POS Solution</a>
+                                        <a href="/services/pos-solutions">POS Solution</a>
                                     </li>
                                     <li>
-                                        <a href="/services/web">Web Development</a>
+                                        <a href="/services/odoo-website-development">Web Development</a>
                                     </li>
                                     <li>
-                                        <a href="/services/odoo_development">Odoo Development</a>
+                                        <a href="/services/odoo-development-services">Odoo Development</a>
                                     </li>
                                     <!--                                    <li><a href="/services/sap-services">SAP Services</a></li>-->
                                 </ul>

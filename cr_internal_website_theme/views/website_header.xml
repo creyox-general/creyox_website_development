@@ -61,11 +61,11 @@
                         <i class="fa fa-users menu-icon"></i>
                         <span class="menu-text">CRM Solution</span>
                     </a>
-                    <a href="/services/pos">
+                    <a href="/services/pos-solutions">
                         <i class="fa fa-credit-card menu-icon"></i>
                         <span class="menu-text">POS Solution</span>
                     </a>
-                    <a href="/services/web">
+                    <a href="/services/odoo-website-development">
                         <i class="fa fa-code menu-icon"></i>
                         <span class="menu-text">Web Development</span>
                     </a>
@@ -76,35 +76,35 @@
                 </li>
                 <li class="mega-column">
                     <h4>Odoo</h4>
-                    <a href="/services/odoo-development">
+                    <a href="/services/odoo-development-services">
                         <i class="fa fa-laptop menu-icon"></i>
                         <span class="menu-text">Odoo Development</span>
                     </a>
-                    <a href="/services/odoo-integration">
+                    <a href="/services/odoo-integration-services">
                         <i class="fa fa-plug menu-icon"></i>
                         <span class="menu-text">Odoo Integration</span>
                     </a>
-                    <a href="/services/odoo-implementation">
+                    <a href="/services/odoo-implementation-services">
                         <i class="fa fa-rocket menu-icon"></i>
                         <span class="menu-text">Odoo Implementation</span>
                     </a>
-                    <a href="/services/odoo-customisation">
+                    <a href="/services/odoo-customisation-services">
                         <i class="fa fa-wrench menu-icon"></i>
                         <span class="menu-text">Odoo Customisation</span>
                     </a>
-                    <a href="/services/odoo-migration">
+                    <a href="/services/odoo-migration-services">
                         <i class="fa fa-exchange menu-icon"></i>
                         <span class="menu-text">Odoo Migration</span>
                     </a>
-                    <a href="/services/odoo-support">
+                    <a href="/services/odoo-support-services">
                         <i class="fa fa-life-ring menu-icon"></i>
                         <span class="menu-text">Odoo Support</span>
                     </a>
-                    <a href="/services/odoo-consulting">
+                    <a href="/services/odoo-consulting-services">
                         <i class="fa fa-lightbulb-o menu-icon"></i>
                         <span class="menu-text">Odoo Consulting</span>
                     </a>
-                    <a href="/services/odoo-training">
+                    <a href="/services/odoo-training-services">
                         <i class="fa fa-graduation-cap menu-icon"></i>
                         <span class="menu-text">Odoo Training</span>
                     </a>

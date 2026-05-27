@@ -1,6 +1,6 @@
 {
     "name": "Internal Website",
-    "version": "16.0.0.7",
+    "version": "16.0.0.8",
     "category": "Website",
     "summary": "Landing Page Block",
     "description": """""",
