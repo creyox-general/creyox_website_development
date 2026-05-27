@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
+    <!-- Inherit website snippets to register the custom widget inside the Creyox Editor Panel -->
     <template id="custom_snippets" inherit_id="website.snippets" name="Custom Snippets">
         <xpath expr="//div[@id='snippet_structure']" position="before">
             <div id="snippet_structure" class="o_panel">
@@ -8,6 +9,14 @@
                     <t t-snippet="cr_website_blog_customisation.cr_random_blogs"
                        t-thumbnail="/cr_website_blog_customisation/static/src/img/snippets/random-blogs.svg">
                         <keywords>explore, clients</keywords>
+                    </t>
+                    <t t-snippet="cr_website_blog_customisation.s_blog_toc"
+                       t-thumbnail="/website/static/src/img/snippets_thumbs/s_table_of_content.svg">
+                        <keywords>blog, table of content, toc, outline</keywords>
+                    </t>
+                    <t t-snippet="cr_website_blog_customisation.s_blog_intro_banner"
+                       t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg">
+                        <keywords>blog, banner, intro</keywords>
                     </t>
                 </div>
             </div>

@@ -1,0 +1,386 @@
+/* Custom Drag-and-Drop Blog Table of Contents Snippet */
+.s_blog_toc {
+    position: sticky;
+    top: 100px;
+    z-index: 99;
+    margin-bottom: 24px;
+    width: 100%;
+    
+    .cr-blog-toc-sidebar {
+        padding: 24px 20px;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(30, 58, 138, 0.06);
+        border-radius: 16px;
+        box-shadow: 0 10px 35px rgba(10, 23, 59, 0.05);
+        font-family: 'Outfit', sans-serif;
+    }
+
+    .cr-toc-title {
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        color: #0a173b;
+        margin-bottom: 16px;
+        border-bottom: 2px solid rgba(30, 58, 138, 0.08);
+        padding-bottom: 8px;
+    }
+
+    .cr-toc-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        max-height: 60vh;
+        overflow-y: auto;
+        counter-reset: toc-h2-counter; /* Reset counter for H2s */
+
+        /* Minimal scrollbar */
+        &::-webkit-scrollbar {
+            width: 4px;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: rgba(30, 58, 138, 0.1);
+            border-radius: 4px;
+        }
+    }
+
+    /* Accordion Groups */
+    .cr-toc-group {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        transition: margin 0.4s ease;
+    }
+
+    .cr-toc-sublist {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        max-height: 0; /* Collapsed by default */
+        opacity: 0;
+        overflow: hidden;
+        pointer-events: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        transition: max-height 0.45s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease, margin 0.3s ease;
+
+        /* Force-collapse empty sublists to prevent blank height gaps */
+        &:empty {
+            display: none !important;
+            max-height: 0 !important;
+            opacity: 0 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            gap: 0 !important;
+        }
+
+        /* Indent nested sub-bullets inside sublist container */
+        .cr-toc-item {
+            &.cr-toc-h3 {
+                padding-left: 24px;
+                &::before { left: 6px; }
+            }
+            &.cr-toc-h4 {
+                padding-left: 36px;
+                &::before { left: 18px; }
+            }
+            &.cr-toc-h5 {
+                padding-left: 46px;
+                &::before { left: 28px; }
+            }
+        }
+    }
+
+    /* Expanded accordion states */
+    .cr-toc-group.expanded {
+        .cr-toc-sublist {
+            max-height: 500px;
+            opacity: 1;
+            pointer-events: auto;
+            margin-top: 10px;
+            margin-bottom: 6px;
+
+            &:empty {
+                display: none !important;
+                max-height: 0 !important;
+                opacity: 0 !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                gap: 0 !important;
+            }
+        }
+    }
+
+    .cr-toc-item {
+        position: relative;
+        line-height: 1.4;
+
+        a {
+            font-size: 13px;
+            font-weight: 500;
+            color: #64748b !important;
+            text-decoration: none !important;
+            transition: color 0.3s, font-weight 0.3s;
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* H2 Main headings styling */
+        &.cr-toc-h2 {
+            counter-increment: toc-h2-counter;
+            counter-reset: toc-h3-counter; /* Reset sub-counter when hit H2 */
+            padding-left: 28px;
+
+            &::before {
+                content: counter(toc-h2-counter) ".";
+                position: absolute;
+                left: 0;
+                top: 0;
+                font-size: 13px;
+                font-weight: 700;
+                color: #1e3a8a;
+                transition: color 0.3s, transform 0.3s;
+            }
+
+            a {
+                font-size: 13.5px;
+                font-weight: 600;
+                color: #0a173b !important;
+            }
+
+            &.active {
+                &::before {
+                    color: #3b82f6;
+                    transform: scale(1.1);
+                }
+                a {
+                    color: #3b82f6 !important;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        /* H3 headings styling */
+        &.cr-toc-h3 {
+            counter-increment: toc-h3-counter;
+            padding-left: 42px;
+
+            &::before {
+                content: "—";
+                position: absolute;
+                left: 24px;
+                top: -1px;
+                font-size: 11px;
+                font-weight: 700;
+                color: #94a3b8;
+                transition: color 0.3s, transform 0.3s;
+            }
+
+            a {
+                font-size: 12.5px;
+                font-weight: 500;
+                color: #64748b !important;
+            }
+
+            &.active {
+                &::before {
+                    color: #1e3a8a;
+                    transform: scaleX(1.3);
+                }
+                a {
+                    color: #1e3a8a !important;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        /* H4 headings styling */
+        &.cr-toc-h4 {
+            padding-left: 54px;
+
+            &::before {
+                content: "◦";
+                position: absolute;
+                left: 40px;
+                top: 0px;
+                font-size: 11px;
+                font-weight: 700;
+                color: #cbd5e1;
+            }
+
+            a {
+                font-size: 12px;
+                font-weight: 400;
+                color: #94a3b8 !important;
+            }
+
+            &.active {
+                a {
+                    color: #1e3a8a !important;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        /* H5 headings styling */
+        &.cr-toc-h5 {
+            padding-left: 64px;
+
+            &::before {
+                content: "∙";
+                position: absolute;
+                left: 52px;
+                top: 0px;
+                font-size: 11px;
+                color: #cbd5e1;
+            }
+
+            a {
+                font-size: 11.5px;
+                font-weight: 400;
+                color: #94a3b8 !important;
+            }
+        }
+
+        &:hover a {
+            color: #1e3a8a !important;
+        }
+    }
+}
+
+/* Side-by-side desktop layout adjustments when the Table of Contents option is toggled on */
+#o_wblog_post_main {
+    .d-flex.flex-column.flex-lg-row {
+        &:has(.cr-blog-toc-sidebar-col) {
+            @media (min-width: 992px) {
+                #o_wblog_post_content {
+                    width: 73% !important;
+                    flex: 0 0 73% !important;
+                    max-width: 73% !important;
+                }
+                .cr-blog-toc-sidebar-col {
+                    width: 27% !important;
+                    flex: 0 0 27% !important;
+                    max-width: 27% !important;
+                }
+            }
+        }
+    }
+}
+
+/* Customize Theme Class Overrides for Table of Contents Sidebar */
+.s_blog_toc {
+    /* Title Alignments */
+    .cr-blog-toc-sidebar.title-center {
+        .cr-toc-title { text-align: center !important; }
+    }
+    .cr-blog-toc-sidebar.title-right {
+        .cr-toc-title { text-align: right !important; }
+    }
+
+    /* Glassmorphic Dark Theme */
+    .cr-blog-toc-sidebar.bg-glass-dark {
+        background: rgba(15, 23, 42, 0.95) !important;
+        border: 1px solid rgba(255, 255, 255, 0.08) !important;
+        box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3) !important;
+        
+        .cr-toc-title {
+            color: #f8fafc !important;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.1) !important;
+        }
+        
+        .cr-toc-item.cr-toc-h2 {
+            &::before {
+                color: #60a5fa !important;
+            }
+            a {
+                color: #f1f5f9 !important;
+            }
+            &.active {
+                &::before { color: #3b82f6 !important; }
+                a { color: #3b82f6 !important; }
+            }
+        }
+        
+        .cr-toc-item.cr-toc-h3 {
+            &::before {
+                color: #64748b !important;
+            }
+            a {
+                color: #94a3b8 !important;
+            }
+            &.active {
+                &::before { color: #3b82f6 !important; }
+                a { color: #3b82f6 !important; }
+            }
+        }
+    }
+
+    /* Clean Flat White Theme */
+    .cr-blog-toc-sidebar.bg-flat-clean {
+        background: #ffffff !important;
+        border: 1px solid #e2e8f0 !important;
+        box-shadow: none !important;
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+    }
+
+    /* Dashed Outline Only Theme */
+    .cr-blog-toc-sidebar.bg-outline-only {
+        background: transparent !important;
+        border: 2px dashed rgba(30, 58, 138, 0.18) !important;
+        box-shadow: none !important;
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+    }
+
+    /* Custom Topics and Redirect Links Area Stylings */
+    .cr-toc-custom-links {
+        border-top: 1px dashed rgba(30, 58, 138, 0.12) !important;
+        margin-top: 16px !important;
+        padding-top: 12px !important;
+        
+        a {
+            font-size: 13px !important;
+            font-weight: 600 !important;
+            color: #1e3a8a !important;
+            text-decoration: none !important;
+            transition: color 0.3s, transform 0.3s !important;
+            display: inline-block !important;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 100%;
+            
+            &:hover {
+                color: #3b82f6 !important;
+                transform: translateX(3px) !important;
+            }
+        }
+    }
+
+    /* Custom Topics Dark Theme Adaptation */
+    .cr-blog-toc-sidebar.bg-glass-dark {
+        .cr-toc-custom-links {
+            border-top-color: rgba(255, 255, 255, 0.1) !important;
+            
+            a {
+                color: #60a5fa !important;
+                
+                &:hover {
+                    color: #93c5fd !important;
+                }
+            }
+        }
+    }
+}

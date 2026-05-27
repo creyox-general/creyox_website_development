@@ -163,4 +163,270 @@
     }
 }
 
+/* Premium Floating Circle Progress Bar & Back to Top */
+.cr-blog-progress-circle-wrap {
+    position: fixed;
+    top: 90px;
+    right: 30px;
+    width: 56px;
+    height: 56px;
+    z-index: 9999;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(30, 58, 138, 0.08);
+    border-radius: 50%;
+    box-shadow: 0 8px 30px rgba(10, 23, 59, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.3s, border-color 0.3s;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.8);
+
+    &.show {
+        opacity: 1;
+        pointer-events: auto;
+        transform: scale(1);
+    }
+
+    &:hover {
+        background: linear-gradient(145deg, #0a173b, #1e3a8a);
+        border-color: rgba(255, 255, 255, 0.15);
+        box-shadow: 0 12px 35px rgba(10, 23, 59, 0.25);
+        transform: scale(1.05);
+
+        .cr-progress-circle-bg {
+            stroke: rgba(255, 255, 255, 0.15);
+        }
+
+        .cr-progress-circle-text {
+            opacity: 0;
+            transform: translate(-50%, -50%) scale(0.8);
+        }
+
+        .cr-progress-circle-arrow {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
+            color: #ffffff;
+        }
+    }
+
+    svg.cr-progress-circle {
+        transform: rotate(-90deg);
+        width: 56px;
+        height: 56px;
+    }
+
+    .cr-progress-circle-bg {
+        stroke: rgba(30, 58, 138, 0.06);
+        transition: stroke 0.3s;
+    }
+
+    .cr-progress-circle-bar {
+        stroke: #1e3a8a; /* Theme deep primary blue */
+        stroke-linecap: round;
+        transition: stroke-dashoffset 0.1s linear, stroke 0.3s;
+    }
+
+    /* Hover state for svg paths */
+    &:hover svg.cr-progress-circle {
+        .cr-progress-circle-bar {
+            stroke: #3b82f6; /* Theme vibrant secondary blue */
+        }
+    }
+
+    .cr-progress-circle-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .cr-progress-circle-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 11px;
+        font-weight: 700;
+        color: #0a173b;
+        font-family: 'Outfit', sans-serif;
+        transition: opacity 0.3s, transform 0.3s;
+        pointer-events: none;
+    }
+
+    .cr-progress-circle-arrow {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.6);
+        font-size: 14px;
+        color: #0a173b;
+        opacity: 0;
+        transition: opacity 0.3s, transform 0.3s, color 0.3s;
+        pointer-events: none;
+    }
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .cr-blog-progress-circle-wrap {
+        bottom: 30px;
+        top: auto;
+        right: 20px;
+    }
+}
+
+/* =============================================
+   PREMIUM ARTICLE WRITTEN CONTENT TYPOGRAPHY
+   Applies high-end typography to raw blog text
+   without overriding snippets or related posts.
+   Binds strictly to global theme design tokens.
+   ============================================= */
+#o_wblog_post_content,
+.o_wblog_post_content_field,
+#blog_content,
+[field="post_content"] {
+
+    /* Paragraphs and Text Elements */
+    p:not(section *) {
+        font-family: 'Outfit', sans-serif !important;
+        font-size: var(--cr-body-fsize, 1.15rem) !important;
+        line-height: 1.8 !important;
+        color: #1e293b !important; /* Theme Slate-800 for high readability */
+        margin-top: 0 !important;
+        margin-bottom: 1.6rem !important;
+    }
+
+    /* Text Bolding */
+    strong:not(section *),
+    b:not(section *) {
+        color: #0a173b !important; /* Theme Navy Blue */
+        font-weight: 700 !important;
+    }
+
+    /* Headings Hierarchy */
+    h1:not(section *),
+    h2:not(section *),
+    h3:not(section *),
+    h4:not(section *),
+    h5:not(section *),
+    h6:not(section *) {
+        font-family: 'Outfit', sans-serif !important;
+        color: #0a173b !important; /* Deep Navy Blue (#0a173b) */
+        font-weight: 700 !important;
+        line-height: 1.4 !important;
+        margin-top: 2.8rem !important;
+        margin-bottom: 1.2rem !important;
+    }
+
+    h1:not(section *) {
+        font-size: var(--cr-title-fsize, 2.25rem) !important;
+        letter-spacing: -0.02em !important;
+    }
+
+    h2:not(section *) {
+        font-size: var(--cr-cta-heading-fsize, 1.75rem) !important;
+        border-bottom: 2px solid rgba(30, 58, 138, 0.08) !important;
+        padding-bottom: 0.6rem !important;
+        letter-spacing: -0.01em !important;
+    }
+
+    h3:not(section *) {
+        font-size: var(--cr-subtitle-fsize, 1.45rem) !important;
+    }
+
+    h4:not(section *) {
+        font-size: calc(var(--cr-subtitle-fsize, 1.45rem) - 4px) !important;
+    }
+
+    /* Unordered and Ordered Lists */
+    ul:not(section *),
+    ol:not(section *) {
+        margin-top: 0 !important;
+        margin-bottom: 1.6rem !important;
+        padding-left: 0 !important;
+
+        li {
+            font-family: 'Outfit', sans-serif !important;
+            font-size: var(--cr-body-fsize, 1.15rem) !important;
+            line-height: 1.8 !important;
+            color: #1e293b !important;
+            margin-bottom: 0.6rem !important;
+        }
+    }
+
+    /* Custom Branded Bullets for Lists */
+    ul:not(section *) {
+        list-style-type: none !important;
+        li {
+            position: relative !important;
+            padding-left: 1.75rem !important;
+
+            &::before {
+                content: "•" !important;
+                position: absolute !important;
+                left: 0.25rem !important;
+                color: #3b82f6 !important; /* Theme Accent Blue */
+                font-weight: 900 !important;
+                font-size: 1.35rem !important;
+                line-height: 1 !important;
+                top: -0.05rem !important;
+            }
+        }
+    }
+
+    ol:not(section *) {
+        padding-left: 1.75rem !important;
+    }
+
+    /* Premium Blockquotes */
+    blockquote:not(section *) {
+        margin: 2.4rem 0 !important;
+        padding: 1.5rem 2rem !important;
+        border-left: 4px solid #1e3a8a !important; /* Deep primary blue */
+        background: rgba(30, 58, 138, 0.03) !important;
+        border-radius: 0 16px 16px 0 !important;
+        box-shadow: inset 1px 0 0 rgba(30, 58, 138, 0.05);
+
+        p:not(section *) {
+            font-style: italic !important;
+            font-size: calc(var(--cr-body-fsize, 1.15rem) + 2px) !important;
+            color: #0a173b !important; /* Theme Navy Blue */
+            line-height: 1.7 !important;
+            margin-bottom: 0 !important;
+        }
+    }
+
+    /* Code Snippets styling */
+    code:not(section *) {
+        font-family: 'Courier New', Courier, monospace !important;
+        background: #f1f5f9 !important;
+        color: #0a173b !important;
+        padding: 0.25rem 0.5rem !important;
+        border-radius: 6px !important;
+        font-size: 0.9em !important;
+        border: 1px solid rgba(15, 23, 42, 0.05) !important;
+    }
+
+    /* Anchor Links within written content */
+    a:not(section *):not(.breadcrumb-link):not(.cta-button) {
+        color: #1e3a8a !important;
+        text-decoration: underline !important;
+        text-underline-offset: 4px !important;
+        font-weight: 500 !important;
+        transition: color 0.2s ease !important;
+
+        &:hover {
+            color: #3b82f6 !important;
+        }
+    }
+}
+
+
+
 

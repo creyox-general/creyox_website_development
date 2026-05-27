@@ -140,7 +140,29 @@
     <template id="custom_blog_post_complete" inherit_id="website_blog.blog_post_complete">
         <xpath expr="//section[@id='o_wblog_post_top']" position="attributes">
             <attribute name="style">display: none;</attribute>
+        </xpath>
+        <xpath expr="//section[@id='o_wblog_post_top']" position="after">
+            <!-- Floating Scroll Progress Circle -->
+            <div id="cr-blog-progress-circle-wrap" class="cr-blog-progress-circle-wrap d-none">
+                <svg class="cr-progress-circle" width="56" height="56" viewBox="0 0 56 56">
+                    <circle class="cr-progress-circle-bg" cx="28" cy="28" r="24" fill="none" stroke-width="4"></circle>
+                    <circle class="cr-progress-circle-bar" cx="28" cy="28" r="24" fill="none" stroke-width="4" stroke-dasharray="150.8" stroke-dashoffset="150.8"></circle>
+                </svg>
+                <div class="cr-progress-circle-content">
+                    <span class="cr-progress-circle-text">0%</span>
+                    <i class="cr-progress-circle-arrow fa fa-arrow-up"></i>
+                </div>
+            </div>
+        </xpath>
+    </template>
 
+    <!-- Native Odoo Website Editor Option: Show/Hide Table of Contents -->
+    <template id="opt_blog_post_toc" name="Show Table of Contents" inherit_id="website_blog.blog_post_complete" active="True">
+        <!-- Place Table of Contents column on the right side of the main content column -->
+        <xpath expr="//div[@t-if='not opt_blog_post_sidebar']//div[@id='o_wblog_post_content']" position="after">
+            <div class="cr-blog-toc-sidebar-col d-none d-lg-block ps-lg-4">
+                <t t-call="cr_website_blog_customisation.s_blog_toc"/>
+            </div>
         </xpath>
     </template>
 
