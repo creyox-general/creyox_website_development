@@ -95,22 +95,22 @@
                     <div class="milestone-grid">
                         <div class="milestone-card" style="--i:1" data-aos="zoom-in">
                             <div class="milestone-icon"><i class="fas fa-check-circle"/></div>
-                            <h3><span class="counter" data-count="50">0</span>+</h3>
+                            <h3><span class="counter" data-count="50">50</span>+</h3>
                             <p>Successful Projects</p>
                         </div>
                         <div class="milestone-card" style="--i:2" data-aos="zoom-in" data-aos-delay="100">
                             <div class="milestone-icon"><i class="fas fa-cubes"/></div>
-                            <h3><span class="counter" data-count="200">0</span>+</h3>
+                            <h3><span class="counter" data-count="200">200</span>+</h3>
                             <p>Custom Modules Delivered</p>
                         </div>
                         <div class="milestone-card" style="--i:3" data-aos="zoom-in" data-aos-delay="200">
                             <div class="milestone-icon"><i class="fas fa-users"/></div>
-                            <h3><span class="counter" data-count="100">0</span>%</h3>
+                            <h3><span class="counter" data-count="100">100</span>%</h3>
                             <p>In-House Team</p>
                         </div>
                         <div class="milestone-card" style="--i:4" data-aos="zoom-in" data-aos-delay="300">
                             <div class="milestone-icon"><i class="fas fa-city"/></div>
-                            <h3><span class="counter" data-count="10">0</span>+</h3>
+                            <h3><span class="counter" data-count="10">10</span>+</h3>
                             <p>Industries Served</p>
                         </div>
                     </div>

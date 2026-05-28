@@ -10,35 +10,35 @@
                         <div class="milestone-icon" aria-hidden="true">
                             <i class="fas fa-smile"></i>
                         </div>
-                        <h3><span class="counter" data-count="1250">0</span>+</h3>
+                        <h3><span class="counter" data-count="1250">1250</span>+</h3>
                         <p>Satisfied Clients</p>
                     </div>
                     <div class="milestone-card" style="--i:2" role="listitem">
                         <div class="milestone-icon" aria-hidden="true">
                             <i class="fas fa-handshake"></i>
                         </div>
-                        <h3><span class="counter" data-count="98">0</span>%</h3>
+                        <h3><span class="counter" data-count="98">98</span>%</h3>
                         <p>Client Retention Rate</p>
                     </div>
                     <div class="milestone-card" style="--i:3" role="listitem">
                         <div class="milestone-icon" aria-hidden="true">
                             <i class="fas fa-industry"></i>
                         </div>
-                        <h3><span class="counter" data-count="25">0</span>+</h3>
+                        <h3><span class="counter" data-count="25">25</span>+</h3>
                         <p>Industries Served</p>
                     </div>
                     <div class="milestone-card" style="--i:4" role="listitem">
                         <div class="milestone-icon" aria-hidden="true">
                             <i class="fas fa-mobile-alt"></i>
                         </div>
-                        <h3><span class="counter" data-count="200">0</span>+</h3>
+                        <h3><span class="counter" data-count="200">200</span>+</h3>
                         <p>Custom Apps</p>
                     </div>
                     <div class="milestone-card" style="--i:5" role="listitem">
                         <div class="milestone-icon" aria-hidden="true">
                             <i class="fas fa-globe"></i>
                         </div>
-                        <h3><span class="counter" data-count="40">0</span>+</h3>
+                        <h3><span class="counter" data-count="40">40</span>+</h3>
                         <p>Countries Served</p>
                     </div>
                 </div>

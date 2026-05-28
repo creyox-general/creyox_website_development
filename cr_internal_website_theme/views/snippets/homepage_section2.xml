@@ -15,7 +15,7 @@
                                 <i class="fas fa-smile"/>
                             </div>
                             <h3>
-                                <span class="counter" data-count="1250">0</span>+
+                                <span class="counter" data-count="1250">1250</span>+
                             </h3>
                             <p>Happy Customers</p>
                         </div>
@@ -26,7 +26,7 @@
                                 <i class="fas fa-handshake"/>
                             </div>
                             <h3>
-                                <span class="counter" data-count="98">0</span>%
+                                <span class="counter" data-count="98">98</span>%
                             </h3>
                             <p>Retention Rate</p>
                         </div>
@@ -37,7 +37,7 @@
                                 <i class="fas fa-industry"/>
                             </div>
                             <h3>
-                                <span class="counter" data-count="25">0</span>+
+                                <span class="counter" data-count="25">25</span>+
                             </h3>
                             <p>Industries Served</p>
                         </div>
@@ -48,7 +48,7 @@
                                 <i class="fas fa-globe"/>
                             </div>
                             <h3>
-                                <span class="counter" data-count="40">0</span>+
+                                <span class="counter" data-count="40">40</span>+
                             </h3>
                             <p>Countries Reached</p>
                         </div>
@@ -59,7 +59,7 @@
                                 <i class="fas fa-mobile-alt"/>
                             </div>
                             <h3>
-                                <span class="counter" data-count="200">0</span>+
+                                <span class="counter" data-count="200">200</span>+
                             </h3>
                             <p>Custom Odoo Apps</p>
                         </div>
@@ -70,7 +70,7 @@
                                 <i class="fas fa-user-tie"/>
                             </div>
                             <h3>
-                                <span class="counter" data-count="8">0</span>+
+                                <span class="counter" data-count="8">8</span>+
                             </h3>
                             <p>Years Experts</p>
                         </div>

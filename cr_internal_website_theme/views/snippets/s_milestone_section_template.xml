@@ -18,7 +18,7 @@
                             <i t-att-class="o_card_1_icon or 'fas fa-smile'"/>
                         </div>
                         <h3>
-                            <span class="counter" t-att-data-count="o_card_1_count or '1250'">0</span>
+                            <span class="counter" t-att-data-count="o_card_1_count or '1250'">1250</span>
                             <t t-esc="o_card_1_suffix or '+'"/>
                         </h3>
                         <p><t t-esc="o_card_1_label or 'Happy Customers'"/></p>
@@ -30,7 +30,7 @@
                             <i t-att-class="o_card_2_icon or 'fas fa-handshake'"/>
                         </div>
                         <h3>
-                            <span class="counter" t-att-data-count="o_card_2_count or '98'">0</span>
+                            <span class="counter" t-att-data-count="o_card_2_count or '98'">98</span>
                             <t t-esc="o_card_2_suffix or '%'"/>
                         </h3>
                         <p><t t-esc="o_card_2_label or 'Retention Rate'"/></p>
@@ -42,7 +42,7 @@
                             <i t-att-class="o_card_3_icon or 'fas fa-industry'"/>
                         </div>
                         <h3>
-                            <span class="counter" t-att-data-count="o_card_3_count or '25'">0</span>
+                            <span class="counter" t-att-data-count="o_card_3_count or '25'">25</span>
                             <t t-esc="o_card_3_suffix or '+'"/>
                         </h3>
                         <p><t t-esc="o_card_3_label or 'Industries Served'"/></p>
@@ -54,7 +54,7 @@
                             <i t-att-class="o_card_4_icon or 'fas fa-globe'"/>
                         </div>
                         <h3>
-                            <span class="counter" t-att-data-count="o_card_4_count or '40'">0</span>
+                            <span class="counter" t-att-data-count="o_card_4_count or '40'">40</span>
                             <t t-esc="o_card_4_suffix or '+'"/>
                         </h3>
                         <p><t t-esc="o_card_4_label or 'Countries Reached'"/></p>
@@ -66,7 +66,7 @@
                             <i t-att-class="o_card_5_icon or 'fas fa-mobile-alt'"/>
                         </div>
                         <h3>
-                            <span class="counter" t-att-data-count="o_card_5_count or '200'">0</span>
+                            <span class="counter" t-att-data-count="o_card_5_count or '200'">200</span>
                             <t t-esc="o_card_5_suffix or '+'"/>
                         </h3>
                         <p><t t-esc="o_card_5_label or 'Custom Odoo Apps'"/></p>
@@ -78,7 +78,7 @@
                             <i t-att-class="o_card_6_icon or 'fas fa-user-tie'"/>
                         </div>
                         <h3>
-                            <span class="counter" t-att-data-count="o_card_6_count or '8'">0</span>
+                            <span class="counter" t-att-data-count="o_card_6_count or '8'">8</span>
                             <t t-esc="o_card_6_suffix or '+'"/>
                         </h3>
                         <p><t t-esc="o_card_6_label or 'Years Experts'"/></p>

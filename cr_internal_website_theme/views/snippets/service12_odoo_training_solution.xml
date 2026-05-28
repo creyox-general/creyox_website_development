@@ -92,13 +92,13 @@
                         <!-- Card 1 -->
                         <div class="milestone-card" style="--i:1; flex: 1 1 180px;">
                             <div class="milestone-icon"><i class="fas fa-graduation-cap"/></div>
-                            <h3><span class="counter" data-count="200">0</span>+</h3>
+                            <h3><span class="counter" data-count="200">200</span>+</h3>
                             <p>Professionals Trained</p>
                         </div>
                         <!-- Card 2 -->
                         <div class="milestone-card" style="--i:2; flex: 1 1 180px;">
                             <div class="milestone-icon"><i class="fas fa-award"/></div>
-                            <h3><span class="counter" data-count="5">0</span>+</h3>
+                            <h3><span class="counter" data-count="5">50</span>+</h3>
                             <p>Years of Odoo Expertise</p>
                         </div>
                         <!-- Card 3 -->

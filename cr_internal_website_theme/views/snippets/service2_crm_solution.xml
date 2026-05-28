@@ -632,7 +632,7 @@
                                 <!-- Card 1: Lead Conversion -->
                                 <div class="milestone-card" style="--i:1" role="listitem">
                                     <h3>
-                                        <span class="counter" data-count="40">0</span>%
+                                        <span class="counter" data-count="40">40</span>%
                                     </h3>
                                     <p>Increase in lead conversion</p>
                                 </div>
@@ -640,7 +640,7 @@
                                 <!-- Card 2: Manual Work -->
                                 <div class="milestone-card" style="--i:2" role="listitem">
                                     <h3>
-                                        <span class="counter" data-count="25">0</span>%
+                                        <span class="counter" data-count="25">25</span>%
                                     </h3>
                                     <p>Reduction in manual work</p>
                                 </div>
@@ -648,7 +648,7 @@
                                 <!-- Card 3: Retention -->
                                 <div class="milestone-card" style="--i:3" role="listitem">
                                     <h3>
-                                        <span class="counter" data-count="30">0</span>%
+                                        <span class="counter" data-count="30">30</span>%
                                     </h3>
                                     <p>Boost in customer retention</p>
                                 </div>
@@ -656,7 +656,7 @@
                                 <!-- Card 4: Access -->
                                 <div class="milestone-card" style="--i:4" role="listitem">
                                     <h3>
-                                        <span class="counter" data-count="24">0</span>/7
+                                        <span class="counter" data-count="24">24</span>/7
                                     </h3>
                                     <p>Access from anywhere</p>
                                 </div>

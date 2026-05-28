@@ -24,21 +24,21 @@
                     <!-- Stat 1 -->
                     <div class="team-stat-box milestone-card" style="--stat-delay: 0.1s; --i:1" role="listitem" data-card-index="1" data-aos="fade-up" data-aos-delay="100">
                         <div class="team-stat-number">
-                            <span class="counter" data-count="20">0</span>+
+                            <span class="counter" data-count="20">20</span>+
                         </div>
                         <div class="team-stat-label">Certified Professionals</div>
                     </div>
                     <!-- Stat 2 -->
                     <div class="team-stat-box milestone-card" style="--stat-delay: 0.2s; --i:2" role="listitem" data-card-index="2" data-aos="fade-up" data-aos-delay="200">
                         <div class="team-stat-number">
-                            <span class="counter" data-count="50">0</span>+
+                            <span class="counter" data-count="50">50</span>+
                         </div>
                         <div class="team-stat-label">Industries Served</div>
                     </div>
                     <!-- Stat 3 -->
                     <div class="team-stat-box milestone-card" style="--stat-delay: 0.3s; --i:3" role="listitem" data-card-index="3" data-aos="fade-up" data-aos-delay="300">
                         <div class="team-stat-number">
-                            <span class="counter" data-count="100">0</span>%
+                            <span class="counter" data-count="100">100</span>%
                         </div>
                         <div class="team-stat-label">Customer Focus</div>
                     </div>
