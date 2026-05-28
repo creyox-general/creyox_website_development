@@ -30,80 +30,123 @@ odoo.define('cr_website_blog_customisation.wysiwyg_commands', function (require)
                 fontawesome: 'fa-columns',
                 priority: 20,
                 callback: function () {
-                    var html = '<div class="row align-items-start my-4">' +
-                        '<div class="col-lg-12 pr-lg-5">' +
-                        '<h3>Introduce Your Main Topic Here</h3>' +
-                        '<p>Start your post with an engaging introduction. Explain what readers will learn in this post, set up the context, and hooks to capture their attention.</p>' +
-                        '<h3>1. The First Major Topic</h3>' +
-                        '<p>Deep dive into your first point. Add key findings, support with details, and use clear typography.</p>' +
-                        '<h3>2. The Second Major Topic</h3>' +
-                        '<p>Expand on the next topic. Keep paragraphs short and concise for clean web readability.</p>' +
-                        '<h3>Conclusion</h3>' +
-                        '<p>Summarize the main takeaways of your post and encourage reader interaction or calls to action.</p>' +
+                    var html = '<section class="s_blog_outline oe_structure_not_nearest" data-snippet="s_blog_outline" data-name="Blog Post Structure">' +
+                        '<div class="container">' +
+                        '<div class="cr-blog-outline">' +
+                        '<div class="cr-blog-intro-block">' +
+                        '<span class="cr-outline-badge">Introduction</span>' +
+                        '<h2 class="cr-outline-heading">Set the Stage for Your Topic</h2>' +
+                        '<p class="cr-outline-lead">Hook your reader here with a bold opening statement. Summarize the major challenges or core subjects that this article will address and solve.</p>' +
                         '</div>' +
-                        '</div>';
+                        '<div class="cr-blog-content-body">' +
+                        '<h3 class="cr-outline-subheading">1. First Key Insight or Strategy</h3>' +
+                        '<p>Deep dive into your primary finding or theme here. Support your arguments with data, real-world examples, and structure paragraphs to be easily scannable.</p>' +
+                        '<h3 class="cr-outline-subheading">2. Second Key Insight or Strategy</h3>' +
+                        '<p>Expand on your next major topic. Offer actionable tips or clear explanations to guide the reader through the solution or workflow step-by-step.</p>' +
+                        '</div>' +
+                        '<div class="cr-blog-summary-box">' +
+                        '<div class="d-flex align-items-center mb-2">' +
+                        '<span class="fa fa-lightbulb text-primary me-2"></span>' +
+                        '<span class="cr-summary-badge-title">Quick Takeaways</span>' +
+                        '</div>' +
+                        '<ul class="cr-summary-list mb-0">' +
+                        '<li>Summarize your primary learning points in a highly scannable list.</li>' +
+                        '<li>Highlight key takeaways or next actionable steps for readers.</li>' +
+                        '</ul>' +
+                        '</div>' +
+                        '</div>' +
+                        '</div>' +
+                        '</section>';
                     self.odooEditor.execCommand('insert', $(html)[0]);
                 },
             });
 
             // 4. Add Process Steps slash command
             options.commands.push({
-                name: _t('Process Steps'),
+                name: _t('Process Step Row'),
                 category: _t('Creyox Blog'),
-                description: _t("Inserts a steps journey layout for workflows or tutorials"),
-                fontawesome: 'fa-tasks',
+                description: _t("Inserts a vertically stacked step card with title, description, and image"),
+                fontawesome: 'fa-indent',
                 priority: 30,
                 callback: function () {
-                    var html = '<section class="s_process_steps cr_font py-5 oe_structure_not_nearest" data-snippet="s_process_steps" data-name="Process Steps">' +
+                    var html = '<section class="s_process_step_card oe_structure_not_nearest" data-snippet="s_process_step_card" data-name="Process Step Row">' +
                         '<div class="container">' +
-                        '<div class="row mb-5 text-center">' +
-                        '<div class="col-12">' +
-                        '<h2 class="partner-title display-4 fw-bold">Our <span class="text-gradient">Implementation Journey</span></h2>' +
-                        '<p class="lead text-muted">A structured approach to ensure your Odoo success from start to finish.</p>' +
+                        '<div class="cr-step-row">' +
+                        '<div class="cr-step-item">' +
+                        '<div class="cr-step-header">' +
+                        '<div class="cr-step-number">01</div>' +
+                        '<h4 class="cr-step-title">Discovery &amp; Analysis</h4>' +
                         '</div>' +
+                        '<div class="cr-step-body">' +
+                        '<p class="cr-step-text">We dive deep into business processes to identify pain points and opportunities for Odoo optimization.</p>' +
                         '</div>' +
-                        '<div class="process-steps-wrapper">' +
-                        '<!-- Step 1 -->' +
-                        '<div class="process-step-row row align-items-center mb-5">' +
-                        '<div class="col-lg-6 step-text-col">' +
-                        '<div class="step-card text-card">' +
-                        '<h3 class="step-title">Discovery &amp; Analysis</h3>' +
-                        '<p class="step-desc">We dive deep into your business processes to identify pain points and opportunities for Odoo optimization.</p>' +
-                        '<div class="partner-cta-group mt-4">' +
-                        '<a href="/contactus" class="cta-button primary">' +
+                        '<div class="cr-step-media">' +
+                        '<img src="/cr_internal_website_theme/static/src/img/odoo_partner_trust.png" class="cr-step-img" alt="Step Image"/>' +
+                        '</div>' +
+                        '<section class="s_process_step_cta oe_structure_not_nearest" data-snippet="s_process_step_cta" data-name="Process Step CTA">' +
+                        '<div class="cr-step-action mt-3">' +
+                        '<a href="/contactus" class="cr-step-btn">' +
                         '<span>Learn More</span>' +
-                        '<i class="fas fa-arrow-right ms-2" aria-hidden="true"></i>' +
+                        '<span class="fa fa-arrow-right"></span>' +
+                        '</a>' +
+                        '</div>' +
+                        '</section>' +
+                        '</div>' +
+                        '</div>' +
+                        '</div>' +
+                        '</section>';
+                    self.odooEditor.execCommand('insert', $(html)[0]);
+                },
+            });
+
+            // 5. Add Author Profile Card slash command
+            options.commands.push({
+                name: _t('Author Profile Card'),
+                category: _t('Creyox Blog'),
+                description: _t("Inserts a premium branded author bio block matching the theme"),
+                fontawesome: 'fa-user-circle',
+                priority: 40,
+                callback: function () {
+                    var html = '<section class="s_author_card oe_structure_not_nearest" data-snippet="s_author_card" data-name="Author Profile Card">' +
+                        '<div class="container">' +
+                        '<div class="cr-author-card">' +
+                        '<div class="row align-items-center">' +
+                        '<div class="col-md-3 text-center mb-3 mb-md-0">' +
+                        '<img src="/web/image/res.users/1/image_128" alt="Author Avatar" class="cr-author-img"/>' +
+                        '</div>' +
+                        '<div class="col-md-9 text-start">' +
+                        '<div class="cr-author-badge">Author Profile</div>' +
+                        '<h4 class="cr-author-title">About the Author</h4>' +
+                        '<p class="cr-author-desc">This article was written by a senior ERP strategist and technology lead at Creyox Technologies. We specialize in digital transformation, custom development, and business optimization.</p>' +
+                        '<div class="cr-author-actions">' +
+                        '<a href="/contactus" class="cr-author-btn-primary">Get In Touch</a>' +
+                        '<a href="/blog" class="cr-author-btn-link">' +
+                        'More Articles <span class="fa fa-arrow-right"></span>' +
                         '</a>' +
                         '</div>' +
                         '</div>' +
                         '</div>' +
-                        '<div class="col-lg-6 step-image-col">' +
-                        '<div class="step-card image-card">' +
-                        '<img src="/cr_internal_website_theme/static/src/img/odoo_partner_trust.png" alt="Discovery" class="img-fluid">' +
                         '</div>' +
                         '</div>' +
-                        '</div>' +
-                        '<!-- Step 2 -->' +
-                        '<div class="process-step-row row align-items-center mb-5 flex-row-reverse">' +
-                        '<div class="col-lg-6 step-text-col">' +
-                        '<div class="step-card text-card">' +
-                        '<h3 class="step-title">System Configuration</h3>' +
-                        '<p class="step-desc">Tailoring Odoo modules to align perfectly with your workflows, ensuring a seamless digital transformation.</p>' +
-                        '<div class="partner-cta-group mt-4">' +
-                        '<a href="/contactus" class="cta-button primary">' +
+                        '</section>';
+                    self.odooEditor.execCommand('insert', $(html)[0]);
+                },
+            });
+
+            // 6. Add CTA Button slash command
+            options.commands.push({
+                name: _t('CTA Button'),
+                category: _t('Creyox Blog'),
+                description: _t("Inserts a premium Creyox call-to-action button"),
+                fontawesome: 'fa-link',
+                priority: 50,
+                callback: function () {
+                    var html = '<section class="s_process_step_cta oe_structure_not_nearest" data-snippet="s_process_step_cta" data-name="Process Step CTA">' +
+                        '<div class="cr-step-action my-3">' +
+                        '<a href="/contactus" class="cr-step-btn">' +
                         '<span>Learn More</span>' +
-                        '<i class="fas fa-arrow-right ms-2" aria-hidden="true"></i>' +
+                        '<span class="fa fa-arrow-right"></span>' +
                         '</a>' +
-                        '</div>' +
-                        '</div>' +
-                        '</div>' +
-                        '<div class="col-lg-6 step-image-col">' +
-                        '<div class="step-card image-card">' +
-                        '<img src="/cr_internal_website_theme/static/src/img/odoo_partner_trust.png" alt="Configuration" class="img-fluid">' +
-                        '</div>' +
-                        '</div>' +
-                        '</div>' +
-                        '</div>' +
                         '</div>' +
                         '</section>';
                     self.odooEditor.execCommand('insert', $(html)[0]);

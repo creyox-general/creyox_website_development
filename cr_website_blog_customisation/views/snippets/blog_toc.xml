@@ -36,6 +36,14 @@
                     <we-button string="Right" data-select-class="title-right"/>
                 </we-select>
             </div>
+
+            <!-- Target the main blog content field to configure columns layout dynamically -->
+            <div data-js="BlogLayoutOptions" data-selector=".o_wblog_post_content_field">
+                <we-select string="Blog Layout Mode">
+                    <we-button string="Without TOC (Default)" data-set-columns=""/>
+                    <we-button string="With TOC" data-set-columns="cr-blog-two-columns"/>
+                </we-select>
+            </div>
         </xpath>
     </template>
 </odoo>

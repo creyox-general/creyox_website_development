@@ -157,14 +157,14 @@
     </template>
 
     <!-- Native Odoo Website Editor Option: Show/Hide Table of Contents -->
-    <template id="opt_blog_post_toc" name="Show Table of Contents" inherit_id="website_blog.blog_post_complete" active="True">
-        <!-- Place Table of Contents column on the right side of the main content column -->
-        <xpath expr="//div[@t-if='not opt_blog_post_sidebar']//div[@id='o_wblog_post_content']" position="after">
-            <div class="cr-blog-toc-sidebar-col d-none d-lg-block ps-lg-4">
-                <t t-call="cr_website_blog_customisation.s_blog_toc"/>
-            </div>
-        </xpath>
-    </template>
+<!--    <template id="opt_blog_post_toc" name="Show Table of Contents" inherit_id="website_blog.blog_post_complete" active="True">-->
+<!--        &lt;!&ndash; Place Table of Contents column on the right side of the main content column &ndash;&gt;-->
+<!--        <xpath expr="//div[@t-if='not opt_blog_post_sidebar']//div[@id='o_wblog_post_content']" position="after">-->
+<!--            <div class="cr-blog-toc-sidebar-col d-none d-lg-block ps-lg-4">-->
+<!--                <t t-call="cr_website_blog_customisation.s_blog_toc"/>-->
+<!--            </div>-->
+<!--        </xpath>-->
+<!--    </template>-->
 
     <template id="custom_blog_post_content" inherit_id="website_blog.blog_post_content">
         <xpath expr="//t[@t-call='website_blog.post_breadcrumbs']" position="replace"/>
