@@ -169,6 +169,10 @@
     <template id="custom_blog_post_content" inherit_id="website_blog.blog_post_content">
         <xpath expr="//t[@t-call='website_blog.post_breadcrumbs']" position="replace"/>
         <xpath expr="//div[@t-if='len(blogs) > 1 or len(blog_post.tag_ids) > 0']" position="replace"/>
+        <xpath expr="//div[@t-field='blog_post.content']" position="attributes">
+            <attribute name="id">cr-premium-blog-body</attribute>
+            <attribute name="class">o_wblog_post_content_field o_wblog_read_text cr-premium-blog-content</attribute>
+        </xpath>
     </template>
 
 

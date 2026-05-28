@@ -14,6 +14,25 @@ odoo.define('cr_website_blog_customisation.blog_progress_bar', function (require
             this.$progressWrap = this.$('#cr-blog-progress-circle-wrap');
             this.$content = this.$('#o_wblog_post_content, .o_wblog_post_content_field, #blog_content, [field="post_content"]');
             
+            // Add custom styling classes to all raw HTML tags inside the blog post content
+            if (this.$content.length) {
+                this.$content.find('p').addClass('cr-blog-paragraph');
+                this.$content.find('h1').addClass('cr-blog-h1');
+                this.$content.find('h2').addClass('cr-blog-h2');
+                this.$content.find('h3').addClass('cr-blog-h3');
+                this.$content.find('h4').addClass('cr-blog-h4');
+                this.$content.find('h5').addClass('cr-blog-h5');
+                this.$content.find('h6').addClass('cr-blog-h6');
+                this.$content.find('strong, b').addClass('cr-blog-bold');
+                this.$content.find('a').addClass('cr-blog-link');
+                this.$content.find('ul').addClass('cr-blog-ul');
+                this.$content.find('ol').addClass('cr-blog-ol');
+                this.$content.find('li').addClass('cr-blog-li');
+                this.$content.find('blockquote').addClass('cr-blog-blockquote');
+                this.$content.find('pre').addClass('cr-blog-pre');
+                this.$content.find('code').addClass('cr-blog-code');
+            }
+
             if (this.$progressWrap.length && this.$content.length) {
                 this.$progressWrap.removeClass('d-none');
                 this.$progressBar = this.$progressWrap.find('.cr-progress-circle-bar');

@@ -309,61 +309,116 @@
    blog text without overriding snippet layouts.
    ============================================= */
 
-.o_wblog_post_content_field,
-#o_wblog_post_content,
-#blog_content,
-[field="post_content"] {
+// Styles target direct custom classes injected by JS to avoid any layout leakages
+.cr-blog-paragraph {
     font-family: 'Outfit', sans-serif !important;
-    color: #1e293b !important;
+    color: #475569 !important; /* Soft Slate-Blue gray */
+    line-height: 1.8 !important;
+    margin-bottom: 1.6rem !important;
+}
 
-    /* Paragraphs and Text Elements */
-    p:not(section *) {
-        font-family: 'Outfit', sans-serif !important;
-        color: #1e293b !important; /* Theme Slate-800 for high readability */
-    }
+.cr-blog-bold {
+    color: #1d4ed8 !important; /* Theme Vibrant Slate-Blue */
+    font-weight: 700 !important;
+}
 
-    /* Text Bolding */
-    strong:not(section *),
-    b:not(section *) {
-        color: #0a173b !important; /* Theme Navy Blue */
-    }
+.cr-blog-h1,
+.cr-blog-h2,
+.cr-blog-h3,
+.cr-blog-h4,
+.cr-blog-h5,
+.cr-blog-h6 {
+    font-family: 'Outfit', sans-serif !important;
+    color: #2563eb !important; /* Modern Light Royal Blue */
+    font-weight: 700 !important;
+    line-height: 1.35 !important;
+    letter-spacing: -0.02em !important;
+}
 
-    /* Headings Hierarchy */
-    h1:not(section *),
-    h2:not(section *),
-    h3:not(section *),
-    h4:not(section *),
-    h5:not(section *),
-    h6:not(section *) {
-        font-family: 'Outfit', sans-serif !important;
-    }
+.cr-blog-h1 {
+    font-size: 2.25rem !important;
+    margin-top: 2.5rem !important;
+    margin-bottom: 1.2rem !important;
+}
 
-    h1:not(section *) {
-        color: #3b82f6 !important; /* Premium light blue Accent */
-    }
+.cr-blog-h2 {
+    font-size: 1.75rem !important;
+    border-bottom: 2px solid #edf2f7 !important;
+    padding-bottom: 0.6rem !important;
+    margin-top: 3rem !important;
+}
 
-    h2:not(section *) {
-        color: #3b82f6 !important; /* Premium light blue Accent */
-    }
+.cr-blog-h3 {
+    font-size: 1.45rem !important;
+    margin-top: 2.2rem !important;
+}
 
-    h3:not(section *) {
-        color: #3b82f6 !important; /* Premium light blue Accent */
-    }
+.cr-blog-h4 {
+    font-size: 1.25rem !important;
+    margin-top: 1.8rem !important;
+}
 
-    h4:not(section *),
-    h5:not(section *),
-    h6:not(section *) {
-        color: #0a173b !important; /* Deep Navy Blue */
-    }
+.cr-blog-h5,
+.cr-blog-h6 {
+    font-size: 1.1rem !important;
+    margin-top: 1.5rem !important;
+}
 
-    /* Lists */
-    ul:not(section *),
-    ol:not(section *) {
-        li {
-            font-family: 'Outfit', sans-serif !important;
-            color: #1e293b !important;
-        }
+.cr-blog-link {
+    color: #3b82f6 !important; /* Soft Electric Blue */
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    border-bottom: 2px solid rgba(59, 130, 246, 0.1) !important;
+    transition: all 0.2s ease !important;
+
+    &:hover {
+        color: #1d4ed8 !important;
+        border-bottom-color: #1d4ed8 !important;
+        background-color: rgba(59, 130, 246, 0.05) !important;
     }
+}
+
+.cr-blog-ul,
+.cr-blog-ol {
+    margin-bottom: 1.6rem !important;
+    padding-left: 1.8rem !important;
+}
+
+.cr-blog-li {
+    font-family: 'Outfit', sans-serif !important;
+    color: #475569 !important; /* Lighter Slate-Blue */
+    margin-bottom: 0.5rem !important;
+}
+
+.cr-blog-blockquote {
+    border-left: 4px solid #3b82f6 !important;
+    background-color: #f7fafc !important;
+    padding: 1rem 1.5rem !important;
+    margin: 2rem 0 !important;
+    font-style: italic !important;
+    color: #475569 !important;
+    border-radius: 0 8px 8px 0 !important;
+}
+
+.cr-blog-pre {
+    background-color: #1a202c !important;
+    color: #f7fafc !important;
+    padding: 1.25rem 1.5rem !important;
+    border-radius: 8px !important;
+    font-family: "Fira Code", Consolas, monospace !important;
+    font-size: 0.95rem !important;
+    line-height: 1.6 !important;
+    overflow-x: auto !important;
+    margin: 2rem 0 !important;
+}
+
+.cr-blog-code {
+    background-color: #edf2f7 !important;
+    color: #e53e3e !important;
+    padding: 0.2rem 0.4rem !important;
+    border-radius: 4px !important;
+    font-family: Consolas, monospace !important;
+    font-size: 0.9em !important;
 }
 
 
@@ -670,7 +725,7 @@
 
         li {
             margin-bottom: 0.5rem !important;
-            
+
             &:last-child {
                 margin-bottom: 0 !important;
             }
@@ -742,7 +797,7 @@
     .o_wblog_post_sidebar_col {
         display: none !important;
     }
-    
+
     .o_wblog_post_content_field,
     #o_wblog_post_content {
         flex: 0 0 100% !important;
