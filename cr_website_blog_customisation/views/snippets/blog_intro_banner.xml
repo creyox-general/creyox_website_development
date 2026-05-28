@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
     <template id="s_blog_intro_banner" name="Blog Intro Banner">
-        <section class="s_blog_intro_banner blog-intro-banner hero-section-wave cr_font"
+        <section id="o_wblog_post_top"
+                 t-attf-class="s_blog_intro_banner blog-intro-banner hero-section-wave cr_font o_wblog_post_top_header #{blog and blog._name == 'blog.post' and blog.banner_layout_class or 'cr-banner-layout-2'}"
+                 t-att-data-blog-post-id="blog and blog._name == 'blog.post' and blog.id"
                  data-snippet="s_blog_intro_banner"
                  data-name="Blog Intro Banner">
-            <div class="container">
-                <div class="banner-inner-content">
+            
+            <!-- ======================================================== -->
+            <!-- LAYOUT 1: Centered Default                               -->
+            <!-- ======================================================== -->
+            <div class="cr-layout-1-wrapper">
+                <div class="container text-center">
                     <h1 class="banner-main-title">
                         <t t-if="blog and blog._name == 'blog.post'">
                             <t t-esc="blog.short_title"/>
@@ -18,45 +24,178 @@
                         </t>
                     </h1>
                     <p class="banner-tagline">
-                        <t t-if="blog and blog.subtitle">
+                        <t t-if="blog and blog._name == 'blog.post' and blog.subtitle">
                             <t t-esc="blog.subtitle"/>
                         </t>
                         <t t-else="">
                             Stay updated with the latest trends, technologies, and ERP innovations from Creyox Technologies.
                         </t>
                     </p>
-                    <nav aria-label="breadcrumb">
-                        <ul class="banner-breadcrumbs">
-                            <li>
-                                <a class="breadcrumb-link" href="/blog">
-                                    Blogs
-                                    <span class="breadcrumb-separator fa fa-angle-right"></span>
-                                </a>
-                            </li>
-                            <t t-if="blog and blog.tag_ids">
+                    <div class="banner-bottom-breadcrumb">
+                        <nav aria-label="breadcrumb">
+                            <ul class="banner-breadcrumbs">
                                 <li>
-                                    <a class="breadcrumb-link" t-attf-href="/cr/blog/tag/#{slug(blog.tag_ids[:1])}">
-                                        <t t-esc="blog.tag_ids[:1].name"/>
+                                    <a class="breadcrumb-link" href="/blog">
+                                        Blogs
                                         <span class="breadcrumb-separator fa fa-angle-right"></span>
                                     </a>
                                 </li>
-                            </t>
-                            <t t-if="blog">
-                                <li>
-                                    <a class="breadcrumb-current">
-                                        <t t-if="blog and blog._name == 'blog.post'">
-                                            <t t-esc="blog.short_title"/>
-                                        </t>
-                                        <t t-elif="blog">
-                                            <t t-esc="blog.name"/>
-                                        </t>
-                                    </a>
-                                </li>
-                            </t>
-                        </ul>
-                    </nav>
+                                <t t-if="blog and blog.tag_ids">
+                                    <li>
+                                        <a class="breadcrumb-link" t-attf-href="/cr/blog/tag/#{slug(blog.tag_ids[:1])}">
+                                            <t t-esc="blog.tag_ids[:1].name"/>
+                                            <span class="breadcrumb-separator fa fa-angle-right"></span>
+                                        </a>
+                                    </li>
+                                </t>
+                                <t t-if="blog">
+                                    <li>
+                                        <a class="breadcrumb-current">
+                                            <t t-if="blog and blog._name == 'blog.post'">
+                                                <t t-esc="blog.short_title"/>
+                                            </t>
+                                            <t t-elif="blog">
+                                                <t t-esc="blog.name"/>
+                                            </t>
+                                        </a>
+                                    </li>
+                                </t>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
+
+            <!-- ======================================================== -->
+            <!-- LAYOUT 2: Two-Column Hero (Golden 60/40)                -->
+            <!-- ======================================================== -->
+            <div class="cr-layout-2-wrapper">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <!-- Left Content Column -->
+                        <div class="col-12 col-lg-7 left-content-column">
+                            <!-- Top Tag Breadcrumb -->
+                            <div class="banner-top-breadcrumb">
+                                <a href="/blog" class="breadcrumb-top-link">Blog</a>
+                                <t t-if="blog and blog.tag_ids">
+                                    <span class="breadcrumb-top-sep">/</span>
+                                    <a class="breadcrumb-top-link" t-attf-href="/cr/blog/tag/#{slug(blog.tag_ids[:1])}">
+                                        <t t-esc="blog.tag_ids[:1].name"/>
+                                    </a>
+                                </t>
+                            </div>
+                            <!-- Main Header Title -->
+                            <h1 class="banner-main-title">
+                                <t t-if="blog and blog._name == 'blog.post'">
+                                    <t t-esc="blog.short_title"/>
+                                </t>
+                                <t t-elif="blog">
+                                    <t t-esc="blog.name"/>
+                                </t>
+                                <t t-else="">
+                                    Our Latest News &amp; Insights
+                                </t>
+                            </h1>
+                            <!-- Author & Date Metadata -->
+                            <div class="banner-metadata">
+                                <t t-if="blog and blog._name == 'blog.post'">
+                                    <span class="metadata-item author-name">
+                                        <i class="far fa-user mr-1"></i>
+                                        <t t-esc="blog.author_id.sudo().name or 'Creyox Team'"/>
+                                    </span>
+                                    <span class="metadata-separator">•</span>
+                                    <span class="metadata-item post-date">
+                                        <i class="far fa-calendar-alt mr-1"></i>
+                                        <t t-esc="blog.post_date" t-options='{"widget": "date"}'/>
+                                    </span>
+                                </t>
+                                <t t-else="">
+                                    <span class="metadata-item author-name">
+                                        <i class="far fa-user mr-1"></i>
+                                        Creyox Team
+                                    </span>
+                                    <span class="metadata-separator">•</span>
+                                    <span class="metadata-item post-date">
+                                        <i class="far fa-calendar-alt mr-1"></i>
+                                        Today
+                                    </span>
+                                </t>
+                            </div>
+                        </div>
+                        <!-- Right Custom Illustration Column -->
+                        <div class="col-12 col-lg-5 right-illustration-column">
+                            <div class="banner-illustration-wrapper">
+                                <img src="/cr_website_blog_customisation/static/src/img/blog_illustration.svg" class="img-fluid banner-illustration" alt="Blog Illustration"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ======================================================== -->
+            <!-- LAYOUT 3: Modern Slate Minimalist Centered               -->
+            <!-- ======================================================== -->
+            <div class="cr-layout-3-wrapper">
+                <div class="container text-center">
+                    <h1 class="banner-main-title">
+                        <t t-if="blog and blog._name == 'blog.post'">
+                            <t t-esc="blog.short_title"/>
+                        </t>
+                        <t t-elif="blog">
+                            <t t-esc="blog.name"/>
+                        </t>
+                        <t t-else="">
+                            Our Latest News &amp; Insights
+                        </t>
+                    </h1>
+                    <div class="banner-bottom-breadcrumb">
+                        <nav aria-label="breadcrumb">
+                            <ul class="banner-breadcrumbs">
+                                <li>
+                                    <a class="breadcrumb-link" href="/blog">
+                                        Blogs
+                                        <span class="breadcrumb-separator fa fa-angle-right"></span>
+                                    </a>
+                                </li>
+                                <t t-if="blog and blog.tag_ids">
+                                    <li>
+                                        <a class="breadcrumb-link" t-attf-href="/cr/blog/tag/#{slug(blog.tag_ids[:1])}">
+                                            <t t-esc="blog.tag_ids[:1].name"/>
+                                            <span class="breadcrumb-separator fa fa-angle-right"></span>
+                                        </a>
+                                    </li>
+                                </t>
+                                <t t-if="blog">
+                                    <li>
+                                        <a class="breadcrumb-current">
+                                            <t t-if="blog and blog._name == 'blog.post'">
+                                                <t t-esc="blog.short_title"/>
+                                            </t>
+                                            <t t-elif="blog">
+                                                <t t-esc="blog.name"/>
+                                            </t>
+                                        </a>
+                                    </li>
+                                </t>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
         </section>
+    </template>
+
+    <template id="s_blog_intro_banner_options" inherit_id="website.snippet_options" name="Blog Intro Banner Options">
+        <xpath expr="." position="inside">
+            <!-- Target the Blog Intro Banner snippet container class to apply layouts and theme styles -->
+            <div data-js="BlogBannerLayoutOptions" data-selector=".s_blog_intro_banner" data-page-options="true" data-no-check="true">
+                <we-select string="Banner Style &amp; Layout">
+                    <we-button string="Centered Default (Layout 1)" data-set-banner-layout="cr-banner-layout-1"/>
+                    <we-button string="Two-Column Hero (Layout 2)" data-set-banner-layout="cr-banner-layout-2"/>
+                    <we-button string="Modern Slate Centered (Layout 3)" data-set-banner-layout="cr-banner-layout-3"/>
+                </we-select>
+            </div>
+        </xpath>
     </template>
 </odoo>

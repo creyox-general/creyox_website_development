@@ -15,6 +15,9 @@ class BlogPost(models.Model):
         store=True,
         readonly=False,
     )
+    banner_layout_class = fields.Char(
+        string="Banner Layout Class",
+    )
 
     @api.depends('name')
     def _compute_short_title(self):

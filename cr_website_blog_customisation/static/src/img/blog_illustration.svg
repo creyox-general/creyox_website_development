@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+    <!-- Background grid/accents -->
+    <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.8" />
+            <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0.8" />
+        </linearGradient>
+        <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+            <stop offset="100%" style="stop-color:#f3f4f6;stop-opacity:0.9" />
+        </linearGradient>
+    </defs>
+
+    <!-- Floating UI Card 1 -->
+    <rect x="50" y="80" width="160" height="120" rx="10" fill="url(#grad2)" stroke="#e5e7eb" stroke-width="2" filter="drop-shadow(0 10px 15px rgba(0,0,0,0.05))"/>
+    <rect x="70" y="105" width="80" height="10" rx="3" fill="#3b82f6" opacity="0.8"/>
+    <rect x="70" y="125" width="120" height="6" rx="2" fill="#9ca3af" opacity="0.5"/>
+    <rect x="70" y="140" width="100" height="6" rx="2" fill="#9ca3af" opacity="0.5"/>
+    <circle cx="170" cy="110" r="10" fill="#10b981" opacity="0.8"/>
+
+    <!-- Connecting wire/lines -->
+    <path d="M 210 140 H 290" stroke="#6366f1" stroke-width="2" stroke-dasharray="4,4" fill="none" opacity="0.6"/>
+
+    <!-- Floating UI Card 2 (Main Dashboard Card) -->
+    <rect x="230" y="130" width="220" height="170" rx="12" fill="url(#grad2)" stroke="#e5e7eb" stroke-width="2" filter="drop-shadow(0 20px 25px rgba(0,0,0,0.08))"/>
+    <path d="M 230 130 h 220 v 35 h -220 z" fill="url(#grad1)" rx="12"/>
+    <!-- Dashboard circles -->
+    <circle cx="255" cy="148" r="4" fill="#ffffff" opacity="0.9"/>
+    <circle cx="267" cy="148" r="4" fill="#ffffff" opacity="0.9"/>
+    <circle cx="279" cy="148" r="4" fill="#ffffff" opacity="0.9"/>
+    
+    <!-- Code block icon -->
+    <path d="M 390 143 l -5 5 l 5 5 M 405 143 l 5 5 l -5 5 M 399 152 l 2 -9" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+    <!-- Bar chart mockups inside Dashboard -->
+    <rect x="260" y="240" width="20" height="40" rx="3" fill="#3b82f6"/>
+    <rect x="290" y="210" width="20" height="70" rx="3" fill="#6366f1"/>
+    <rect x="320" y="190" width="20" height="90" rx="3" fill="#10b981"/>
+    <rect x="350" y="225" width="20" height="55" rx="3" fill="#f59e0b"/>
+    <rect x="380" y="250" width="20" height="30" rx="3" fill="#ec4899"/>
+
+    <!-- Grid lines behind chart -->
+    <line x1="250" y1="280" x2="420" y2="280" stroke="#d1d5db" stroke-width="1"/>
+    <line x1="250" y1="235" x2="420" y2="235" stroke="#e5e7eb" stroke-width="1"/>
+    <line x1="250" y1="190" x2="420" y2="190" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Floating Gears -->
+    <g transform="translate(180, 270) scale(0.7)" opacity="0.8">
+        <circle cx="40" cy="40" r="16" fill="none" stroke="#6366f1" stroke-width="6"/>
+        <path d="M40,10 L40,0 M40,70 L40,80 M10,40 L0,40 M70,40 L80,40 M19,19 L12,12 M61,61 L68,68 M19,61 L12,68 M61,19 L68,12" stroke="#6366f1" stroke-width="8" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(130, 310) scale(0.5)" opacity="0.6">
+        <circle cx="40" cy="40" r="16" fill="none" stroke="#3b82f6" stroke-width="6"/>
+        <path d="M40,10 L40,0 M40,70 L40,80 M10,40 L0,40 M70,40 L80,40 M19,19 L12,12 M61,61 L68,68 M19,61 L12,68 M61,19 L68,12" stroke="#3b82f6" stroke-width="8" stroke-linecap="round"/>
+    </g>
+
+    <!-- Floating Chat bubble badge -->
+    <rect x="360" y="60" width="90" height="40" rx="8" fill="#10b981" filter="drop-shadow(0 8px 12px rgba(16,185,129,0.25))"/>
+    <text x="405" y="85" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="14" text-anchor="middle">ACTIVE</text>
+    <path d="M 410 100 l -5 10 l -5 -10 z" fill="#10b981"/>
+</svg>
