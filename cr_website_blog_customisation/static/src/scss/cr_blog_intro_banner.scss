@@ -115,14 +115,17 @@
         }
 
         .banner-top-breadcrumb {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: flex-start !important;
+            gap: 8px !important;
             font-size: 0.95rem;
-            background: none;
-            padding: 0;
-            border-radius: 0;
-            border: none;
+            background: none !important;
+            padding: 0 !important;
+            padding-left: 0 !important;
+            margin-left: 0 !important;
+            border-radius: 0 !important;
+            border: none !important;
             margin-bottom: 25px;
 
             .breadcrumb-top-link {

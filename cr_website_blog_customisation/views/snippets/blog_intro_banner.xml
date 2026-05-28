@@ -125,7 +125,7 @@
                         <!-- Right Custom Illustration Column -->
                         <div class="col-12 col-lg-5 right-illustration-column">
                             <div class="banner-illustration-wrapper">
-                                <img src="/cr_website_blog_customisation/static/src/img/blog_illustration.svg" class="img-fluid banner-illustration" alt="Blog Illustration"/>
+                                <img src="/cr_website_blog_customisation/static/src/img/blog_illustration.png" class="img-fluid banner-illustration" alt="Blog Illustration"/>
                             </div>
                         </div>
                     </div>
