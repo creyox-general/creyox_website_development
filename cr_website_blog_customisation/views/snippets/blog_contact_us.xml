@@ -21,9 +21,12 @@
                         <span>+1 (888) 998-0720</span>
                     </div>
                 </div>
-                <a href="/contactus" class="btn cr-contact-btn w-100">
-                    Get Free Consultation
-                </a>
+                <div class="partner-cta-group mt-3">
+                    <a href="/contactus" class="cta-button w-100 justify-content-center">
+                        <span>Get Free Consultation</span>
+                        <i class="fas fa-arrow-right ms-2" aria-hidden="true"></i>
+                    </a>
+                </div>
             </div>
         </section>
     </template>

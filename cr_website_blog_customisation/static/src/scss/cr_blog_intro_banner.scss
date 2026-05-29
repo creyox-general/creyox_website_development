@@ -110,6 +110,17 @@
             height: auto; // Wrap naturally on tablet/mobile viewports
         }
 
+        @media (min-width: 992px) {
+            .left-content-column {
+                flex: 0 0 70% !important;
+                max-width: 70% !important;
+            }
+            .right-illustration-column {
+                flex: 0 0 30% !important;
+                max-width: 30% !important;
+            }
+        }
+
         .left-content-column {
             text-align: left;
         }

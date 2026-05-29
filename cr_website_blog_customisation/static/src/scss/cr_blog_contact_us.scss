@@ -24,7 +24,7 @@
         width: 38px;
         height: 38px;
         margin: 0 auto 8px auto;
-        background: rgba(37, 99, 235, 0.08);
+        background: rgba(10, 23, 59, 0.08);
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -33,7 +33,7 @@
 
         .cr-contact-icon {
             font-size: 14px;
-            color: #2563eb;
+            color: #0a173b;
             transition: color 0.3s ease;
         }
     }
@@ -41,7 +41,7 @@
     &:hover {
         .cr-contact-icon-wrap {
             transform: scale(1.08) rotate(15deg);
-            background: #2563eb;
+            background: #0a173b;
 
             .cr-contact-icon {
                 color: #ffffff;
@@ -93,20 +93,84 @@
         }
     }
 
-    .cr-contact-btn {
-        background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
-        color: #ffffff !important;
-        border: none !important;
+    .cr-contact-btn,
+    .partner-cta-group .cta-button {
+        position: relative !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 100% !important;
+        padding: 12px 24px !important;
+        font-family: 'Outfit', sans-serif !important;
+        font-size: 14px !important;
         font-weight: 600 !important;
-        font-size: 12px !important;
-        padding: 8px 16px !important;
-        border-radius: 8px !important;
-        transition: transform 0.2s ease, box-shadow 0.2s ease !important;
-        box-shadow: 0 4px 10px rgba(37, 99, 235, 0.12) !important;
+        color: #ffffff !important;
+        background: linear-gradient(145deg, #0a173b, #1e3a8a) !important;
+        border: none !important;
+        border-radius: 12px !important;
+        text-decoration: none !important;
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+        overflow: hidden !important;
+        box-shadow: 0 10px 30px rgba(10, 23, 59, 0.2) !important;
+
+        span {
+            font-size: 14px !important;
+            color: #ffffff !important;
+            font-weight: 600 !important;
+            z-index: 2 !important;
+            position: relative !important;
+            display: inline-block !important;
+        }
+
+        i {
+            font-size: 14px !important;
+            margin-left: 8px !important;
+            color: #ffffff !important;
+            z-index: 2 !important;
+            position: relative !important;
+            transition: transform 0.3s ease !important;
+        }
+
+        /* DUAL GLOWING SHIMMER SYSTEM COMPATIBLE WITH HOMEPAGE */
+        &::before,
+        &::after {
+            content: '' !important;
+            position: absolute !important;
+            top: 0 !important;
+            bottom: 0 !important;
+            width: 50% !important;
+            background: rgba(255, 255, 255, 0.15) !important;
+            z-index: 1 !important;
+            pointer-events: none !important;
+            transform: translateX(0);
+            opacity: 0;
+        }
+
+        &::before {
+            left: 50% !important;
+            border-left: 1px solid rgba(255, 255, 255, 0.3) !important;
+        }
+
+        &::after {
+            right: 50% !important;
+            border-right: 1px solid rgba(255, 255, 255, 0.3) !important;
+        }
 
         &:hover {
-            transform: translateY(-2px) !important;
-            box-shadow: 0 6px 16px rgba(37, 99, 235, 0.25) !important;
+            transform: translateY(-5px) !important;
+            box-shadow: 0 15px 40px rgba(10, 23, 59, 0.3) !important;
+
+            i {
+                transform: translateX(4px) scale(1.2) !important;
+            }
+        }
+
+        &:hover::before {
+            animation: moveLeftEff 1.5s infinite linear !important;
+        }
+
+        &:hover::after {
+            animation: moveRightEff 1.5s infinite linear !important;
         }
 
         &:active {
