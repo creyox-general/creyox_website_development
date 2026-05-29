@@ -11,6 +11,7 @@ odoo.define('cr_website_blog_customisation.cr_blog_toc', function (require) {
 
         start: function () {
             this.$tocList = this.$('.cr-toc-list');
+            this.lastActiveId = null;
             
             // Prioritize the actual rich text body container to isolate scanning from editor helpers & widgets
             var $richContent = $('.o_wblog_post_content_field, #blog_content');
@@ -220,21 +221,48 @@ odoo.define('cr_website_blog_customisation.cr_blog_toc', function (require) {
                 }
             });
 
-            this.$tocItems.removeClass('active');
-            if (currentActive) {
-                var $activeItem = this.$tocItems.filter(function () {
-                    return $(this).find('a').attr('href') === '#' + currentActive;
-                });
-                $activeItem.addClass('active');
+            var newlyActive = currentActive || null;
+            if (this.lastActiveId !== newlyActive) {
+                this.lastActiveId = newlyActive;
+                
+                this.$tocItems.removeClass('active');
+                if (newlyActive) {
+                    var $activeItem = this.$tocItems.filter(function () {
+                        return $(this).find('a').attr('href') === '#' + newlyActive;
+                    });
+                    $activeItem.addClass('active');
 
-                 var $activeGroup = $activeItem.closest('.cr-toc-group');
-                 if ($activeGroup.length && this.$tocGroups) {
-                     var $sidebar = this.$('.cr-blog-toc-sidebar');
-                     if (!$sidebar.hasClass('mode-fully-expanded')) {
-                         this.$tocGroups.removeClass('expanded');
+                     var $activeGroup = $activeItem.closest('.cr-toc-group');
+                     if ($activeGroup.length && this.$tocGroups) {
+                         var $sidebar = this.$('.cr-blog-toc-sidebar');
+                         if (!$sidebar.hasClass('mode-fully-expanded')) {
+                             this.$tocGroups.removeClass('expanded');
+                         }
+                         $activeGroup.addClass('expanded');
                      }
-                     $activeGroup.addClass('expanded');
-                 }
+
+                     // Dynamic Scroll Centering inside the scrollable TOC list (triggered only on active change!)
+                     if ($activeItem.length) {
+                         var container = this.$tocList[0];
+                         var item = $activeItem[0];
+                         if (container && item) {
+                             var containerScrollTop = container.scrollTop;
+                             var containerRect = container.getBoundingClientRect();
+                             var itemRect = item.getBoundingClientRect();
+                             
+                             // Nesting-independent offset calculation
+                             var relativeItemTop = itemRect.top - containerRect.top + containerScrollTop;
+                             var containerHeight = container.clientHeight;
+                             var itemHeight = item.clientHeight;
+                             
+                             var targetScrollTop = relativeItemTop - (containerHeight / 2) + (itemHeight / 2);
+                             
+                             this.$tocList.stop().animate({
+                                 scrollTop: targetScrollTop
+                             }, 200);
+                         }
+                     }
+                }
             }
         },
 

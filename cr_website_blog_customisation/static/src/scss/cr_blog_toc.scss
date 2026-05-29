@@ -366,10 +366,12 @@
 }
 
 /* Dynamic height adjustment when both Table of Contents and Contact Us sidebar are present to prevent vertical overflow of viewport */
-#o_wblog_post_content:has(.s_blog_toc):has(.s_blog_contact_us) {
+.cr-blog-sidebar-sticky-wrap:has(.s_blog_toc):has(.s_blog_contact_us) {
+    gap: 16px !important;
+
     .s_blog_toc {
         .cr-toc-list {
-            max-height: 25vh !important;
+            max-height: 18vh !important;
         }
     }
 }
