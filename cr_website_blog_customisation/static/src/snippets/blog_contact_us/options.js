@@ -9,7 +9,14 @@ odoo.define('cr_website_blog_customisation.blog_contact_us_options', function (r
          */
         setContactUs(previewMode, widgetValue, params) {
             if (widgetValue === 'with-contact') {
-                var $contact = this.$target.find('.s_blog_contact_us');
+                var $sidebar = this.$target.find('.cr-blog-sidebar-col');
+                if ($sidebar.length === 0) {
+                    this.$target.append('<div class="cr-blog-sidebar-col o_not_editable"><div class="cr-blog-sidebar-sticky-wrap"></div></div>');
+                    $sidebar = this.$target.find('.cr-blog-sidebar-col');
+                }
+                var $wrap = $sidebar.find('.cr-blog-sidebar-sticky-wrap');
+
+                var $contact = $wrap.find('.s_blog_contact_us');
                 if ($contact.length === 0) {
                     var html = '<section class="s_blog_contact_us oe_structure_not_nearest" data-snippet="s_blog_contact_us" data-name="Blog Contact Us Sidebar">' +
                         '<div class="cr-blog-contact-sidebar">' +
@@ -35,13 +42,20 @@ odoo.define('cr_website_blog_customisation.blog_contact_us_options', function (r
                         '</a>' +
                         '</div>' +
                         '</section>';
-                    this.$target.append(html);
+                    $wrap.append(html);
                     if (this.trigger_up) {
                         this.trigger_up('widgets_start');
                     }
                 }
             } else {
-                this.$target.find('.s_blog_contact_us').remove();
+                var $sidebar = this.$target.find('.cr-blog-sidebar-col');
+                if ($sidebar.length > 0) {
+                    var $wrap = $sidebar.find('.cr-blog-sidebar-sticky-wrap');
+                    $wrap.find('.s_blog_contact_us').remove();
+                    if ($wrap.children().length === 0) {
+                        $sidebar.remove();
+                    }
+                }
             }
         },
 
@@ -51,7 +65,7 @@ odoo.define('cr_website_blog_customisation.blog_contact_us_options', function (r
          */
         _computeWidgetState(methodName, params) {
             if (methodName === 'setContactUs') {
-                return this.$target.find('.s_blog_contact_us').length > 0 ? 'with-contact' : '';
+                return this.$target.find('.cr-blog-sidebar-col .s_blog_contact_us').length > 0 ? 'with-contact' : '';
             }
             return this._super.apply(this, arguments);
         },

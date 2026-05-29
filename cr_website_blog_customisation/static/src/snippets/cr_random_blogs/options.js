@@ -19,7 +19,14 @@ odoo.define('cr_website_blog_customisation.cr_random_blogs_options', function (r
          */
         setToc(previewMode, widgetValue, params) {
             if (widgetValue === 'with-toc') {
-                var $toc = this.$target.find('.s_blog_toc');
+                var $sidebar = this.$target.find('.cr-blog-sidebar-col');
+                if ($sidebar.length === 0) {
+                    this.$target.append('<div class="cr-blog-sidebar-col o_not_editable"><div class="cr-blog-sidebar-sticky-wrap"></div></div>');
+                    $sidebar = this.$target.find('.cr-blog-sidebar-col');
+                }
+                var $wrap = $sidebar.find('.cr-blog-sidebar-sticky-wrap');
+
+                var $toc = $wrap.find('.s_blog_toc');
                 if ($toc.length === 0) {
                     var html = '<section class="s_blog_toc oe_structure_not_nearest" data-snippet="s_blog_toc" data-name="Blog Table of Contents">' +
                         '<div class="cr-blog-toc-sidebar">' +
@@ -28,13 +35,20 @@ odoo.define('cr_website_blog_customisation.cr_random_blogs_options', function (r
                         '</ul>' +
                         '</div>' +
                         '</section>';
-                    this.$target.append(html);
+                    $wrap.prepend(html);
                     if (this.trigger_up) {
                         this.trigger_up('widgets_start');
                     }
                 }
             } else {
-                this.$target.find('.s_blog_toc').remove();
+                var $sidebar = this.$target.find('.cr-blog-sidebar-col');
+                if ($sidebar.length > 0) {
+                    var $wrap = $sidebar.find('.cr-blog-sidebar-sticky-wrap');
+                    $wrap.find('.s_blog_toc').remove();
+                    if ($wrap.children().length === 0) {
+                        $sidebar.remove();
+                    }
+                }
             }
         },
 
@@ -44,7 +58,7 @@ odoo.define('cr_website_blog_customisation.cr_random_blogs_options', function (r
          */
         _computeWidgetState(methodName, params) {
             if (methodName === 'setToc') {
-                return this.$target.find('.s_blog_toc').length > 0 ? 'with-toc' : '';
+                return this.$target.find('.cr-blog-sidebar-col .s_blog_toc').length > 0 ? 'with-toc' : '';
             }
             return this._super.apply(this, arguments);
         },

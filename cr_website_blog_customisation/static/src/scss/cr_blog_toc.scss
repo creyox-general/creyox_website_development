@@ -1,9 +1,8 @@
 /* Custom Drag-and-Drop Blog Table of Contents Snippet */
 .s_blog_toc {
-    position: sticky;
-    top: 100px;
+    position: relative;
     z-index: 99;
-    margin-bottom: 24px;
+    margin-bottom: 0;
     width: 100%;
     
     .cr-blog-toc-sidebar {
@@ -258,25 +257,6 @@
     }
 }
 
-/* Side-by-side desktop layout adjustments when the Table of Contents option is toggled on */
-#o_wblog_post_main {
-    .d-flex.flex-column.flex-lg-row {
-        &:has(.cr-blog-toc-sidebar-col) {
-            @media (min-width: 992px) {
-                #o_wblog_post_content {
-                    width: 73% !important;
-                    flex: 0 0 73% !important;
-                    max-width: 73% !important;
-                }
-                .cr-blog-toc-sidebar-col {
-                    width: 27% !important;
-                    flex: 0 0 27% !important;
-                    max-width: 27% !important;
-                }
-            }
-        }
-    }
-}
 
 /* Customize Theme Class Overrides for Table of Contents Sidebar */
 .s_blog_toc {
@@ -381,6 +361,15 @@
                     color: #93c5fd !important;
                 }
             }
+        }
+    }
+}
+
+/* Dynamic height adjustment when both Table of Contents and Contact Us sidebar are present to prevent vertical overflow of viewport */
+#o_wblog_post_content:has(.s_blog_toc):has(.s_blog_contact_us) {
+    .s_blog_toc {
+        .cr-toc-list {
+            max-height: 25vh !important;
         }
     }
 }

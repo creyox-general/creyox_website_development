@@ -32,7 +32,7 @@
     <template id="s_blog_contact_us_options" inherit_id="website.snippet_options" name="Blog Contact Us Options">
         <xpath expr="." position="inside">
             <!-- Target the Contact Us snippet container class and modify the inner sidebar design -->
-            <div data-selector=".s_blog_contact_us" data-target=".cr-blog-contact-sidebar">
+            <div data-selector=".s_blog_contact_us" data-target=".cr-blog-contact-sidebar" data-page-options="true" data-no-check="true">
                 <we-select string="Background Theme">
                     <we-button string="Glassmorphic Light (Default)" data-select-class=""/>
                     <we-button string="Glassmorphic Dark" data-select-class="bg-glass-dark"/>

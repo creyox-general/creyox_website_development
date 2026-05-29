@@ -653,14 +653,13 @@
 /* =============================================
    PREMIUM TWO-COLUMN 70/30 LAYOUT
    ============================================= */
-#o_wblog_post_content:has(.s_blog_toc),
-#o_wblog_post_content:has(.s_blog_contact_us) {
+#o_wblog_post_content:has(.cr-blog-sidebar-col) {
     position: relative !important;
     padding-right: 32% !important;
     /* Reserve 32% space on the right for sidebar (70/30 split) */
 
     /* Force all direct content children to wrap within the remaining 68% width */
-    >*:not(.s_blog_toc):not(.s_blog_contact_us) {
+    >*:not(.cr-blog-sidebar-col) {
         max-width: 100% !important;
         width: 100% !important;
     }
@@ -674,13 +673,12 @@
         margin-right: 0 !important;
     }
 
-    /* The Table of Contents container spans the full height on the right side absolute-positioned */
-    .s_blog_toc {
+    /* Unified Right Sidebar Column container spans full height */
+    .cr-blog-sidebar-col {
         position: absolute !important;
         top: 0 !important;
         right: 0 !important;
         width: 28% !important;
-        /* 28% width for Table of Contents sidebar */
         height: 100% !important;
         margin: 0 !important;
         padding: 0 !important;
@@ -688,23 +686,21 @@
         border: none !important;
         z-index: 10 !important;
         pointer-events: none !important;
-        /* Let clicks pass through empty spaces */
 
-        /* Make the inner sidebar sticky relative to the full height parent container */
-        .cr-blog-toc-sidebar {
+        .cr-blog-sidebar-sticky-wrap {
             position: sticky !important;
             top: 110px !important;
-            /* Offset below sticky header */
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 28px !important;
+            width: 100% !important;
             pointer-events: auto !important;
-            /* Enable hover/clicks on the menu itself */
-            z-index: 99 !important;
         }
     }
 }
 
-/* Hide Odoo's default sidebar when the 2-column layout is active */
-#o_wblog_post_main:has(.s_blog_toc),
-#o_wblog_post_main:has(.s_blog_contact_us) {
+/* Hide Odoo's default sidebar when our 2-column sidebar layout is active */
+#o_wblog_post_main:has(.cr-blog-sidebar-col) {
     .o_wblog_post_sidebar_col {
         display: none !important;
     }
@@ -719,20 +715,27 @@
 
 /* Adjust layout responsively for mobile and tablet screens */
 @media (max-width: 991.98px) {
-    #o_wblog_post_content:has(.s_blog_toc) {
+    #o_wblog_post_content:has(.cr-blog-sidebar-col) {
         padding-right: 0 !important;
         /* Clear side padding on smaller screens */
 
-        .s_blog_toc {
+        .cr-blog-sidebar-col {
             position: static !important;
             width: 100% !important;
             height: auto !important;
-            margin-top: 2rem !important;
-            margin-bottom: 2rem !important;
+            margin-top: 2.5rem !important;
+            margin-bottom: 1.5rem !important;
             pointer-events: auto !important;
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 24px !important;
 
-            .cr-blog-toc-sidebar {
+            .cr-blog-sidebar-sticky-wrap {
                 position: static !important;
+                display: flex !important;
+                flex-direction: column !important;
+                gap: 24px !important;
+                width: 100% !important;
             }
         }
     }
