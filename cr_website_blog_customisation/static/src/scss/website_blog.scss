@@ -1,27 +1,30 @@
 .website_blog {
+
     /* Remove underline on hover for all blog post links */
-    a, a:hover {
+    a,
+    a:hover {
         text-decoration: none !important;
     }
 
-    .cr_blocks{
+    .cr_blocks {
         box-shadow: 0 5px 32px 0 rgba(0, 0, 0, .15);
         border-radius: 2px;
 
     }
 
-    .cr_blocks .cr-story-cover{
+    .cr_blocks .cr-story-cover {
         display: block;
         height: 240px;
         width: 350px;
         overflow: hidden;
         display: -webkit-box;
-       -webkit-line-clamp: 3;
-       -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
         text-overflow: ellipsis;
         align-items: center;
 
     }
+
     .cr_blocks .cr-story-cover h3 {
         display: block;
         height: 186px;
@@ -37,16 +40,20 @@
         -webkit-box-orient: vertical;
         text-overflow: ellipsis;
     }
-    .post_info_without_stats b{
-        padding-left:30px;
+
+    .post_info_without_stats b {
+        padding-left: 30px;
     }
-    .cr-section-header{
-         display: flex;
-         flex-wrap: nowrap;
+
+    .cr-section-header {
+        display: flex;
+        flex-wrap: nowrap;
     }
-    .cr-section-header-link-div{
-        width:854px;
+
+    .cr-section-header-link-div {
+        width: 854px;
     }
+
     .cr-section-header {
         padding: 10px 0 10px 0;
         border-bottom: solid 1px rgba(0, 0, 0, .12);
@@ -54,6 +61,7 @@
         margin-bottom: 30px;
 
     }
+
     .cr-section-header h2 {
         width: 75%;
         display: inline-block;
@@ -68,7 +76,7 @@
     .cr-section-header-link a {
         font-size: 24px;
         color: rgba(0, 0, 0, .56);
-        transition: .2s cubic-bezier(.4,0,.2,1);
+        transition: .2s cubic-bezier(.4, 0, .2, 1);
     }
 
     .cr-section-header .cr-section-link {
@@ -78,26 +86,26 @@
         text-align: right;
     }
 
-    .card-footer{
+    .card-footer {
         width: 100%;
         height: 45px;
-        background-color:white;
+        background-color: white;
     }
 
-    #blog_author_name #author_name{
+    #blog_author_name #author_name {
         font-size: 1.2rem;
         font-weight: normal;
-        margin-left:10px;
-        }
+        margin-left: 10px;
+    }
 
 
-    .main_header{
+    .main_header {
         margin-top: 40px;
-        }
+    }
 
-    #cr_searchbar{
+    #cr_searchbar {
         margin: 20px 433px 0px 433px;
-        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -118,44 +126,54 @@
             align-items: center;
             -webkit-line-clamp: 2;
         }
+
         .cr_blocks .cr-story-cover h3 {
             height: 108px;
             padding: 20px;
             font-size: 24px;
             -webkit-line-clamp: 3;
         }
+
         .post_info_without_stats b {
             padding-left: 15px;
         }
+
         .cr-section-header {
             flex-wrap: wrap;
             padding: 10px 15px;
             margin-top: 20px;
             margin-bottom: 20px;
         }
+
         .cr-section-header-link-div {
             width: 100%;
         }
+
         .cr-section-header h2 {
             width: 100%;
             font-size: 20px;
             text-align: center;
         }
+
         .cr-section-header .cr-section-link {
             width: 100%;
             text-align: center;
             margin-top: 10px;
         }
+
         .card-footer {
             height: 43px;
         }
+
         #blog_author_name #author_name {
             font-size: 1rem;
             margin-left: 5px;
         }
+
         .main_header {
             margin-top: 20px;
         }
+
         #cr_searchbar {
             margin: 10px auto;
             width: 90%;
@@ -232,7 +250,8 @@
     }
 
     .cr-progress-circle-bar {
-        stroke: #1e3a8a !important; /* Theme deep primary blue */
+        stroke: #1e3a8a !important;
+        /* Theme deep primary blue */
         stroke-linecap: round !important;
         transition: stroke-dashoffset 0.1s linear, stroke 0.3s;
     }
@@ -241,7 +260,8 @@
     @media (hover: hover) {
         &:hover svg.cr-progress-circle {
             .cr-progress-circle-bar {
-                stroke: #3b82f6 !important; /* Theme vibrant secondary blue */
+                stroke: #3b82f6 !important;
+                /* Theme vibrant secondary blue */
             }
         }
     }
@@ -303,123 +323,6 @@
     }
 }
 
-/* =============================================
-   PREMIUM ARTICLE WRITTEN CONTENT TYPOGRAPHY
-   Applies Outfit font and custom colors to raw
-   blog text without overriding snippet layouts.
-   ============================================= */
-
-// Styles target direct custom classes injected by JS to avoid any layout leakages
-.cr-blog-paragraph {
-    font-family: 'Outfit', sans-serif !important;
-    color: #475569 !important; /* Soft Slate-Blue gray */
-    line-height: 1.8 !important;
-    margin-bottom: 1.6rem !important;
-}
-
-.cr-blog-bold {
-    color: #1d4ed8 !important; /* Theme Vibrant Slate-Blue */
-    font-weight: 700 !important;
-}
-
-.cr-blog-h1,
-.cr-blog-h2,
-.cr-blog-h3,
-.cr-blog-h4,
-.cr-blog-h5,
-.cr-blog-h6 {
-    font-family: 'Outfit', sans-serif !important;
-    color: #2563eb !important; /* Modern Light Royal Blue */
-    font-weight: 700 !important;
-    line-height: 1.35 !important;
-    letter-spacing: -0.02em !important;
-}
-
-.cr-blog-h1 {
-    font-size: 2.25rem !important;
-    margin-top: 2.5rem !important;
-    margin-bottom: 1.2rem !important;
-}
-
-.cr-blog-h2 {
-    font-size: 1.75rem !important;
-    border-bottom: 2px solid #edf2f7 !important;
-    padding-bottom: 0.6rem !important;
-    margin-top: 3rem !important;
-}
-
-.cr-blog-h3 {
-    font-size: 1.45rem !important;
-    margin-top: 2.2rem !important;
-}
-
-.cr-blog-h4 {
-    font-size: 1.25rem !important;
-    margin-top: 1.8rem !important;
-}
-
-.cr-blog-h5,
-.cr-blog-h6 {
-    font-size: 1.1rem !important;
-    margin-top: 1.5rem !important;
-}
-
-.cr-blog-link {
-    color: #3b82f6 !important; /* Soft Electric Blue */
-    text-decoration: none !important;
-    font-weight: 500 !important;
-    border-bottom: 2px solid rgba(59, 130, 246, 0.1) !important;
-    transition: all 0.2s ease !important;
-
-    &:hover {
-        color: #1d4ed8 !important;
-        border-bottom-color: #1d4ed8 !important;
-        background-color: rgba(59, 130, 246, 0.05) !important;
-    }
-}
-
-.cr-blog-ul,
-.cr-blog-ol {
-    margin-bottom: 1.6rem !important;
-    padding-left: 1.8rem !important;
-}
-
-.cr-blog-li {
-    font-family: 'Outfit', sans-serif !important;
-    color: #475569 !important; /* Lighter Slate-Blue */
-    margin-bottom: 0.5rem !important;
-}
-
-.cr-blog-blockquote {
-    border-left: 4px solid #3b82f6 !important;
-    background-color: #f7fafc !important;
-    padding: 1rem 1.5rem !important;
-    margin: 2rem 0 !important;
-    font-style: italic !important;
-    color: #475569 !important;
-    border-radius: 0 8px 8px 0 !important;
-}
-
-.cr-blog-pre {
-    background-color: #1a202c !important;
-    color: #f7fafc !important;
-    padding: 1.25rem 1.5rem !important;
-    border-radius: 8px !important;
-    font-family: "Fira Code", Consolas, monospace !important;
-    font-size: 0.95rem !important;
-    line-height: 1.6 !important;
-    overflow-x: auto !important;
-    margin: 2rem 0 !important;
-}
-
-.cr-blog-code {
-    background-color: #edf2f7 !important;
-    color: #e53e3e !important;
-    padding: 0.2rem 0.4rem !important;
-    border-radius: 4px !important;
-    font-family: Consolas, monospace !important;
-    font-size: 0.9em !important;
-}
 
 
 /* =============================================
@@ -558,7 +461,8 @@
     .cr-step-number {
         font-size: 18px !important;
         font-weight: 800 !important;
-        color: #3b82f6 !important; /* Theme Accent Blue */
+        color: #3b82f6 !important;
+        /* Theme Accent Blue */
         font-family: 'Outfit', sans-serif !important;
         line-height: 1 !important;
         background: rgba(59, 130, 246, 0.08) !important;
@@ -747,14 +651,16 @@
 
 
 /* =============================================
-   PREMIUM TWO-COLUMN 70/30 LAYOUT WITH TOC
+   PREMIUM TWO-COLUMN 70/30 LAYOUT
    ============================================= */
-#o_wblog_post_content:has(.s_blog_toc) {
+#o_wblog_post_content:has(.s_blog_toc),
+#o_wblog_post_content:has(.s_blog_contact_us) {
     position: relative !important;
-    padding-right: 32% !important; /* Reserve 32% space on the right for TOC (70/30 split) */
+    padding-right: 32% !important;
+    /* Reserve 32% space on the right for sidebar (70/30 split) */
 
     /* Force all direct content children to wrap within the remaining 68% width */
-    > *:not(.s_blog_toc) {
+    >*:not(.s_blog_toc):not(.s_blog_contact_us) {
         max-width: 100% !important;
         width: 100% !important;
     }
@@ -773,27 +679,32 @@
         position: absolute !important;
         top: 0 !important;
         right: 0 !important;
-        width: 28% !important; /* 28% width for Table of Contents sidebar */
+        width: 28% !important;
+        /* 28% width for Table of Contents sidebar */
         height: 100% !important;
         margin: 0 !important;
         padding: 0 !important;
         background: transparent !important;
         border: none !important;
         z-index: 10 !important;
-        pointer-events: none !important; /* Let clicks pass through empty spaces */
+        pointer-events: none !important;
+        /* Let clicks pass through empty spaces */
 
         /* Make the inner sidebar sticky relative to the full height parent container */
         .cr-blog-toc-sidebar {
             position: sticky !important;
-            top: 110px !important; /* Offset below sticky header */
-            pointer-events: auto !important; /* Enable hover/clicks on the menu itself */
+            top: 110px !important;
+            /* Offset below sticky header */
+            pointer-events: auto !important;
+            /* Enable hover/clicks on the menu itself */
             z-index: 99 !important;
         }
     }
 }
 
 /* Hide Odoo's default sidebar when the 2-column layout is active */
-#o_wblog_post_main:has(.s_blog_toc) {
+#o_wblog_post_main:has(.s_blog_toc),
+#o_wblog_post_main:has(.s_blog_contact_us) {
     .o_wblog_post_sidebar_col {
         display: none !important;
     }
@@ -809,7 +720,8 @@
 /* Adjust layout responsively for mobile and tablet screens */
 @media (max-width: 991.98px) {
     #o_wblog_post_content:has(.s_blog_toc) {
-        padding-right: 0 !important; /* Clear side padding on smaller screens */
+        padding-right: 0 !important;
+        /* Clear side padding on smaller screens */
 
         .s_blog_toc {
             position: static !important;
@@ -825,4 +737,3 @@
         }
     }
 }
-
