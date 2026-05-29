@@ -39,9 +39,15 @@
 
             <!-- Target the main blog content field to configure columns layout dynamically -->
             <div data-js="BlogLayoutOptions" data-selector=".o_wblog_post_content_field">
-                <we-select string="Blog Layout Mode">
-                    <we-button string="Without TOC (Default)" data-set-columns=""/>
-                    <we-button string="With TOC" data-set-columns="cr-blog-two-columns"/>
+                <we-select string="Table of Contents">
+                    <we-button string="Hide TOC (Default)" data-set-toc=""/>
+                    <we-button string="Show TOC" data-set-toc="with-toc"/>
+                </we-select>
+            </div>
+            <div data-js="BlogContactLayoutOptions" data-selector=".o_wblog_post_content_field">
+                <we-select string="Contact Us Sidebar">
+                    <we-button string="Hide Contact (Default)" data-set-contact-us=""/>
+                    <we-button string="Show Contact" data-set-contact-us="with-contact"/>
                 </we-select>
             </div>
         </xpath>

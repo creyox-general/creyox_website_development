@@ -1,0 +1,278 @@
+/* =============================================
+   PREMIUM BLOG POST CONTACT US SIDEBAR SNIPPET
+   ============================================= */
+.s_blog_contact_us {
+    position: sticky;
+    top: 100px;
+    z-index: 99;
+    margin-bottom: 24px;
+    width: 100%;
+    font-family: 'Outfit', sans-serif;
+
+    .cr-blog-contact-sidebar {
+        padding: 28px 24px;
+        background: rgba(255, 255, 255, 0.96);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(30, 58, 138, 0.08);
+        border-radius: 20px;
+        box-shadow: 0 12px 40px rgba(10, 23, 59, 0.04);
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .cr-contact-icon-wrap {
+        width: 56px;
+        height: 56px;
+        margin: 0 auto 16px auto;
+        background: rgba(37, 99, 235, 0.07);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+
+        .cr-contact-icon {
+            font-size: 22px;
+            color: #2563eb;
+            transition: color 0.3s ease;
+        }
+    }
+
+    &:hover {
+        .cr-contact-icon-wrap {
+            transform: scale(1.08) rotate(15deg);
+            background: #2563eb;
+            
+            .cr-contact-icon {
+                color: #ffffff;
+            }
+        }
+    }
+
+    .cr-contact-title {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0a173b;
+        margin-bottom: 12px;
+        letter-spacing: -0.01em;
+    }
+
+    .cr-contact-text {
+        font-size: 13.5px;
+        line-height: 1.6;
+        color: #475569;
+        margin-bottom: 20px;
+    }
+
+    .cr-contact-info-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 24px;
+        padding-top: 16px;
+        border-top: 1px dashed rgba(30, 58, 138, 0.1);
+    }
+
+    .cr-contact-info-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 13px;
+        color: #64748b;
+        font-weight: 500;
+
+        i {
+            color: #2563eb;
+            font-size: 14px;
+        }
+
+        span {
+            color: #0a173b;
+            font-weight: 600;
+        }
+    }
+
+    .cr-contact-btn {
+        background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
+        color: #ffffff !important;
+        border: none !important;
+        font-weight: 600 !important;
+        font-size: 13.5px !important;
+        padding: 12px 24px !important;
+        border-radius: 12px !important;
+        transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+        box-shadow: 0 4px 14px rgba(37, 99, 235, 0.2) !important;
+
+        &:hover {
+            transform: translateY(-2px) !important;
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.3) !important;
+        }
+
+        &:active {
+            transform: translateY(0) !important;
+        }
+    }
+}
+
+/* =============================================
+   DYNAMIC TWO-COLUMN 70/30 GRID SPLIT
+   ============================================= */
+#o_wblog_post_content:has(.s_blog_contact_us) {
+    position: relative !important;
+    padding-right: 32% !important;
+
+    >*:not(.s_blog_contact_us) {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .container,
+    .container-fluid {
+        max-width: 100% !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .s_blog_contact_us {
+        position: absolute !important;
+        top: 0 !important;
+        right: 0 !important;
+        width: 28% !important;
+        height: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: transparent !important;
+        border: none !important;
+        z-index: 10 !important;
+        pointer-events: none !important;
+
+        .cr-blog-contact-sidebar {
+            position: sticky !important;
+            top: 110px !important;
+            pointer-events: auto !important;
+            z-index: 99 !important;
+        }
+    }
+}
+
+/* Hide Odoo's default sidebar when our Contact Us layout is active */
+#o_wblog_post_main:has(.s_blog_contact_us) {
+    .o_wblog_post_sidebar_col {
+        display: none !important;
+    }
+
+    .o_wblog_post_content_field,
+    #o_wblog_post_content {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+}
+
+/* Adjust layout responsively for mobile and tablet screens */
+@media (max-width: 991.98px) {
+    #o_wblog_post_content:has(.s_blog_contact_us) {
+        padding-right: 0 !important;
+
+        .s_blog_contact_us {
+            position: static !important;
+            width: 100% !important;
+            height: auto !important;
+            margin-top: 2rem !important;
+            margin-bottom: 2rem !important;
+            pointer-events: auto !important;
+
+            .cr-blog-contact-sidebar {
+                position: static !important;
+            }
+        }
+    }
+}
+
+/* =============================================
+   THEME STYLE CUSTOMIZATIONS
+   ============================================= */
+.s_blog_contact_us {
+    /* Alignments */
+    .cr-blog-contact-sidebar.title-center {
+        text-align: center !important;
+        .cr-contact-info-list { justify-content: center; align-items: center; }
+    }
+    .cr-blog-contact-sidebar.title-left {
+        text-align: left !important;
+        .cr-contact-icon-wrap { margin-left: 0; }
+        .cr-contact-info-list { align-items: flex-start; }
+        .cr-contact-info-item { justify-content: flex-start; }
+    }
+    .cr-blog-contact-sidebar.title-right {
+        text-align: right !important;
+        .cr-contact-icon-wrap { margin-right: 0; }
+        .cr-contact-info-list { align-items: flex-end; }
+        .cr-contact-info-item { justify-content: flex-end; }
+    }
+
+    /* Glassmorphic Dark Theme */
+    .cr-blog-contact-sidebar.bg-glass-dark {
+        background: rgba(15, 23, 42, 0.96) !important;
+        border: 1px solid rgba(255, 255, 255, 0.08) !important;
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3) !important;
+        
+        .cr-contact-title {
+            color: #f8fafc !important;
+        }
+        
+        .cr-contact-text {
+            color: #94a3b8 !important;
+        }
+
+        .cr-contact-info-list {
+            border-top-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .cr-contact-info-item {
+            color: #64748b;
+            
+            i { color: #60a5fa; }
+            span { color: #f1f5f9; }
+        }
+
+        .cr-contact-btn {
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%) !important;
+            box-shadow: 0 4px 14px rgba(59, 130, 246, 0.3) !important;
+        }
+    }
+
+    /* Clean Flat White Theme */
+    .cr-blog-contact-sidebar.bg-flat-clean {
+        background: #ffffff !important;
+        border: 1px solid #e2e8f0 !important;
+        box-shadow: none !important;
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+    }
+
+    /* Dashed Outline Only Theme */
+    .cr-blog-contact-sidebar.bg-outline-only {
+        background: transparent !important;
+        border: 2px dashed rgba(30, 58, 138, 0.18) !important;
+        box-shadow: none !important;
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+    }
+}
+
+/* =============================================
+   DUAL SIDEBAR STACKING OVERRIDES
+   When both Table of Contents and Contact Us
+   are present, stack them dynamically!
+   ============================================= */
+#o_wblog_post_content:has(.s_blog_toc):has(.s_blog_contact_us) {
+    .s_blog_contact_us {
+        .cr-blog-contact-sidebar {
+            top: 540px !important; /* Elegant vertical offset below TOC */
+        }
+    }
+}

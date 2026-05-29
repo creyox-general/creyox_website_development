@@ -14,6 +14,10 @@
                        t-thumbnail="/website/static/src/img/snippets_thumbs/s_table_of_content.svg">
                         <keywords>blog, table of content, toc, outline</keywords>
                     </t>
+                    <t t-snippet="cr_website_blog_customisation.s_blog_contact_us"
+                       t-thumbnail="/website/static/src/img/snippets_thumbs/s_text_block.svg">
+                        <keywords>blog, contact, sidebar, help, form</keywords>
+                    </t>
                     <t t-snippet="cr_website_blog_customisation.s_blog_intro_banner"
                        t-thumbnail="/cr_internal_website_theme/static/src/img/hero_thumb.svg">
                         <keywords>blog, banner, intro</keywords>
