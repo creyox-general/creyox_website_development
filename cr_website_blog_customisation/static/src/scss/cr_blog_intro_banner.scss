@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .blog-intro-banner {
-    font-family: 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Outfit', 'Montserrat', 'Inter', 'Segoe UI', Roboto, sans-serif !important;
     background: #0A173B;
     color: white;
     position: relative;
     overflow: hidden;
+    
+    // Custom responsive CSS variable for blog title text size (in pixels)
+    --cr-blog-title-fsize: 60px;
 
     // Hide all layout wrappers by default
     .cr-layout-1-wrapper,
@@ -104,6 +109,29 @@
         align-items: center;
         padding: 0;
         text-align: left;
+        position: relative !important;
+        overflow: hidden !important;
+
+        .cr-watermark-bg {
+            position: absolute !important;
+            bottom: 1.5rem !important;
+            right: 2rem !important;
+            font-size: clamp(4rem, 10vw, 12rem) !important; // beautifully responsive scale
+            font-weight: 900 !important;
+            color: rgba(255, 255, 255, 0.025) !important; // extremely low opacity white watermark
+            text-transform: uppercase !important;
+            letter-spacing: normal !important;
+            pointer-events: none !important;
+            user-select: none !important;
+            z-index: 1 !important;
+            white-space: nowrap !important;
+            line-height: 1 !important;
+        }
+
+        .container {
+            position: relative !important;
+            z-index: 2 !important;
+        }
 
         @media (max-width: 991.98px) {
             padding: 60px 0;
@@ -114,10 +142,6 @@
             .left-content-column {
                 flex: 0 0 70% !important;
                 max-width: 70% !important;
-            }
-            .right-illustration-column {
-                flex: 0 0 30% !important;
-                max-width: 30% !important;
             }
         }
 
@@ -167,12 +191,15 @@
         }
 
         .banner-main-title {
-            font-size: 2.75rem;
-            line-height: 1.25;
-            font-weight: 800;
+            font-family: 'Bebas Neue', sans-serif !important;
+            font-size: var(--cr-blog-title-fsize) !important;
+            line-height: 1.15 !important;
+            font-weight: 400 !important;
             margin-bottom: 20px;
+            text-align: justify !important;
             color: #ffffff;
-            letter-spacing: -0.02em;
+            letter-spacing: 0.03em !important;
+            text-transform: uppercase !important;
         }
 
         .banner-tagline {
@@ -312,35 +339,34 @@
 // ====== Responsive Media Queries ======
 @media (max-width: 991px) {
     .blog-intro-banner {
+        --cr-blog-title-fsize: 48px; // Tablet size
+        
         &.cr-banner-layout-2 {
             .cr-layout-2-wrapper {
-                text-align: center;
-                padding: 60px 0;
+                text-align: left;
+                padding: 50px 0;
 
                 .left-content-column {
                     flex: 0 0 100%;
                     max-width: 100%;
-                    text-align: center;
-                    margin-bottom: 40px;
+                    text-align: left;
+                    margin-bottom: 0px;
+                }
+
+                .banner-main-title {
+                    text-align: left !important;
                 }
 
                 .right-illustration-column {
-                    flex: 0 0 100%;
-                    max-width: 100%;
-                    display: flex;
-                    justify-content: center;
-
-                    .banner-illustration {
-                        max-width: 320px;
-                    }
+                    display: none !important; // Hide since illustration column is not present
                 }
 
                 .banner-top-breadcrumb {
-                    justify-content: center;
+                    justify-content: flex-start;
                 }
 
                 .banner-metadata {
-                    justify-content: center;
+                    justify-content: flex-start;
                 }
             }
         }
@@ -359,6 +385,7 @@
 
 @media (max-width: 768px) {
     .blog-intro-banner {
+        --cr-blog-title-fsize: 40px; // Mobile size
 
         .cr-layout-1-wrapper,
         .cr-layout-2-wrapper,
@@ -378,6 +405,7 @@
 
 @media (max-width: 480px) {
     .blog-intro-banner {
+        --cr-blog-title-fsize: 35px; // Extra small mobile size
 
         .cr-layout-1-wrapper,
         .cr-layout-2-wrapper,

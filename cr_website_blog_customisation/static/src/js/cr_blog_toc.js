@@ -20,6 +20,10 @@ odoo.define('cr_website_blog_customisation.cr_blog_toc', function (require) {
             if (this.$tocList.length && this.$content.length) {
                 this._initTableOfContents();
 
+                // Dynamic mobile viewport layout positioning
+                this._handleMobileLayout();
+                $(window).on('resize.blog_toc_layout', this._handleMobileLayout.bind(this));
+
                 // Bind ScrollSpy scrolling and sizing events
                 $('#wrapwrap').on('scroll.blog_toc', this._updateScrollSpy.bind(this));
                 $(window).on('resize.blog_toc', this._updateScrollSpy.bind(this));
@@ -27,6 +31,29 @@ odoo.define('cr_website_blog_customisation.cr_blog_toc', function (require) {
                 this._updateScrollSpy();
             }
             return this._super.apply(this, arguments);
+        },
+
+        _handleMobileLayout: function () {
+            var self = this;
+            var isMobile = window.innerWidth <= 991;
+            
+            if (isMobile) {
+                var $mobileWrap = $('.cr-blog-mobile-toc-wrap');
+                if ($mobileWrap.length === 0) {
+                    // Place directly above the main blog body content
+                    self.$content.before('<div class="cr-blog-mobile-toc-wrap d-block d-lg-none"></div>');
+                    $mobileWrap = $('.cr-blog-mobile-toc-wrap');
+                }
+                if ($mobileWrap.children().length === 0) {
+                    self.$el.appendTo($mobileWrap);
+                }
+            } else {
+                var $stickyWrap = $('.cr-blog-sidebar-sticky-wrap');
+                if ($stickyWrap.length && !$.contains($stickyWrap[0], self.el)) {
+                    $stickyWrap.prepend(self.$el);
+                }
+                $('.cr-blog-mobile-toc-wrap').remove();
+            }
         },
 
         _initTableOfContents: function () {
@@ -57,6 +84,7 @@ odoo.define('cr_website_blog_customisation.cr_blog_toc', function (require) {
                             className.indexOf('s_blog_posts') !== -1 || 
                             className.indexOf('s_dynamic_snippet') !== -1 || 
                             className.indexOf('cr_random_blogs') !== -1 || 
+                            className.indexOf('s_buy_now_card') !== -1 || 
                             className.indexOf('related') !== -1 ||
                             idName.indexOf('random-blogs') !== -1) {
                             isInsideSnippet = true;
@@ -204,6 +232,7 @@ odoo.define('cr_website_blog_customisation.cr_blog_toc', function (require) {
                         className.indexOf('s_blog_posts') !== -1 || 
                         className.indexOf('s_dynamic_snippet') !== -1 || 
                         className.indexOf('cr_random_blogs') !== -1 || 
+                        className.indexOf('s_buy_now_card') !== -1 || 
                         className.indexOf('related') !== -1 ||
                         idName.indexOf('random-blogs') !== -1) {
                         isInsideSnippet = true;
@@ -286,6 +315,7 @@ odoo.define('cr_website_blog_customisation.cr_blog_toc', function (require) {
         destroy: function () {
             $('#wrapwrap').off('.blog_toc');
             $(window).off('.blog_toc');
+            $(window).off('.blog_toc_layout');
             this._super.apply(this, arguments);
         },
     });

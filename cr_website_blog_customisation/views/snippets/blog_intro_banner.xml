@@ -70,10 +70,12 @@
             <!-- LAYOUT 2: Two-Column Hero (Golden 60/40)                -->
             <!-- ======================================================== -->
             <div class="cr-layout-2-wrapper">
+                <!-- Watermark Background -->
+                <div class="cr-watermark-bg">Creyox</div>
                 <div class="container">
                     <div class="row align-items-center justify-content-between">
-                        <!-- Left Content Column -->
-                        <div class="col-12 col-lg-7 left-content-column">
+                        <!-- Left Content Column (Spans Full Width) -->
+                        <div class="col-12 left-content-column">
                             <!-- Top Tag Breadcrumb -->
                             <div class="banner-top-breadcrumb">
                                 <a href="/blog" class="breadcrumb-top-link">Blog</a>
@@ -121,13 +123,7 @@
                                     </span>
                                 </t>
                             </div>
-                        </div>
-                        <!-- Right Custom Illustration Column -->
-                        <div class="col-12 col-lg-5 right-illustration-column">
-                            <div class="banner-illustration-wrapper">
-                                <img src="/cr_website_blog_customisation/static/src/img/blog_illustration.png" class="img-fluid banner-illustration" alt="Blog Illustration"/>
-                            </div>
-                        </div>
+                        </div>                        
                     </div>
                 </div>
             </div>

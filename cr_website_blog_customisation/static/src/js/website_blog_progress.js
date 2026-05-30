@@ -22,7 +22,7 @@ odoo.define('cr_website_blog_customisation.blog_progress_bar', function (require
                     '.s_features', '.s_comparisons', '.s_call_to_action', '.s_showcase', '.s_banner',
                     '.s_media_list', '.s_color_blocks', '.s_numbers', '.s_picture', '.s_faq_collapse',
                     '.s_quotes_carousel', '.s_references', '.s_table_of_content', '.cr_blocks',
-                    '.s_author_card', '.s_blog_toc', '.s_blog_contact_us'
+                    '.s_author_card', '.s_blog_toc', '.s_blog_contact_us', '.s_buy_now_card'
                 ];
                 var excludeFilter = baseSnippets.map(function(s) { return ':not(' + s + ' *)'; }).join('');
 

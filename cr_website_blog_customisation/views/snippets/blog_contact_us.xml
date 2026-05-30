@@ -50,4 +50,58 @@
             </div>
         </xpath>
     </template>
+
+    <!-- Template for the Blog Buy Now Card Snippet HTML structure -->
+    <template id="s_buy_now_card" name="Buy Now Card">
+        <section class="s_buy_now_card oe_structure_not_nearest" data-name="Buy Now Card">
+            <div class="container">
+                <div class="cr-buy-now-card">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 text-center mb-3 mb-lg-0">
+                            <img src="/cr_internal_website_theme/static/src/img/odoo_partner_trust.png" class="img-fluid cr-buy-now-img" alt="Product Image"/>
+                        </div>
+                        <div class="col-lg-5 text-start">
+                            <span class="cr-buy-now-badge">Featured Solution</span>
+                            <h4 class="cr-buy-now-title">Odoo Custom Payment Suite</h4>
+                            <p class="cr-buy-now-desc">Deploy a seamless, secure, and fully automated payment gateway module tailored for Odoo ecommerce.</p>
+                            <div class="cr-buy-now-pricing">
+                                <span class="price-old">$299.00</span>
+                                <span class="price-current">$199.00</span>
+                                <span class="price-tag">One-time license</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center mt-3 mt-lg-0">
+                            <div class="partner-cta-group">
+                                <a href="/shop" class="cta-button w-100 justify-content-center">
+                                    <span>Buy Now</span>
+                                    <i class="fas fa-shopping-bag ms-2" aria-hidden="true"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- Custom Snippet Options for the Buy Now Card -->
+    <template id="s_buy_now_card_options" inherit_id="website.snippet_options" name="Buy Now Card Options">
+        <xpath expr="." position="inside">
+            <div data-selector=".s_buy_now_card" data-target=".cr-buy-now-card" data-page-options="true" data-no-check="true">
+                <we-select string="Card Layout">
+                    <we-button string="With Image (Default)" data-select-class=""/>
+                    <we-button string="Hide Image Column" data-select-class="hide-image"/>
+                </we-select>
+                <we-select string="Price Extras">
+                    <we-button string="Show All Details" data-select-class=""/>
+                    <we-button string="Hide Old Price &amp; Badge" data-select-class="hide-price-extras"/>
+                </we-select>
+                <we-select string="Background Style">
+                    <we-button string="Clean Flat White" data-select-class=""/>
+                    <we-button string="Glassmorphic Light" data-select-class="bg-glass-light"/>
+                    <we-button string="Glassmorphic Dark" data-select-class="bg-glass-dark"/>
+                </we-select>
+            </div>
+        </xpath>
+    </template>
 </odoo>
