@@ -168,22 +168,19 @@ odoo.define('cr_website_blog_customisation.wysiwyg_commands', function (require)
                         '<div class="col-lg-3 text-center mb-3 mb-lg-0">' +
                         '<img src="/cr_internal_website_theme/static/src/img/odoo_partner_trust.png" class="img-fluid cr-buy-now-img" alt="Product Image"/>' +
                         '</div>' +
-                        '<div class="col-lg-5 text-start">' +
+                        '<div class="col-lg-9 text-start">' +
                         '<span class="cr-buy-now-badge">Featured Solution</span>' +
                         '<h4 class="cr-buy-now-title">Odoo Custom Payment Suite</h4>' +
                         '<p class="cr-buy-now-desc">Deploy a seamless, secure, and fully automated payment gateway module tailored for Odoo ecommerce.</p>' +
                         '<div class="cr-buy-now-pricing">' +
                         '<span class="price-old">$299.00</span>' +
                         '<span class="price-current">$199.00</span>' +
-                        '<span class="price-tag">One-time license</span>' +
-                        '</div>' +
-                        '</div>' +
-                        '<div class="col-lg-4 text-center mt-3 mt-lg-0">' +
                         '<div class="partner-cta-group">' +
-                        '<a href="/shop" class="cta-button w-100 justify-content-center">' +
+                        '<a href="/shop" class="cta-button">' +
                         '<span>Buy Now</span>' +
-                        '<i class="fas fa-shopping-bag ms-2" aria-hidden="true"></i>' +
+                        '<i class="fa fa-shopping-bag ms-2" aria-hidden="true"></i>' +
                         '</a>' +
+                        '</div>' +
                         '</div>' +
                         '</div>' +
                         '</div>' +

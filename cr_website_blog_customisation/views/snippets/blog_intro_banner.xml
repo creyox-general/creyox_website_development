@@ -102,23 +102,23 @@
                             <div class="banner-metadata">
                                 <t t-if="blog and blog._name == 'blog.post'">
                                     <span class="metadata-item author-name">
-                                        <i class="far fa-user mr-1"></i>
+                                        <i class="fa fa-user mr-1"></i>
                                         <t t-esc="blog.author_id.sudo().name or 'Creyox Team'"/>
                                     </span>
                                     <span class="metadata-separator">•</span>
                                     <span class="metadata-item post-date">
-                                        <i class="far fa-calendar-alt mr-1"></i>
+                                        <i class="fa fa-calendar mr-1"></i>
                                         <t t-esc="blog.post_date" t-options='{"widget": "date"}'/>
                                     </span>
                                 </t>
                                 <t t-else="">
                                     <span class="metadata-item author-name">
-                                        <i class="far fa-user mr-1"></i>
+                                        <i class="fa fa-user mr-1"></i>
                                         Creyox Team
                                     </span>
                                     <span class="metadata-separator">•</span>
                                     <span class="metadata-item post-date">
-                                        <i class="far fa-calendar-alt mr-1"></i>
+                                        <i class="fa fa-calendar mr-1"></i>
                                         Today
                                     </span>
                                 </t>

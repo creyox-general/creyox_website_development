@@ -6,9 +6,10 @@
     color: white;
     position: relative;
     overflow: hidden;
-    
+
     // Custom responsive CSS variable for blog title text size (in pixels)
     --cr-blog-title-fsize: 60px;
+    --cr-blog-watermark-fsize: 180px;
 
     // Hide all layout wrappers by default
     .cr-layout-1-wrapper,
@@ -116,7 +117,7 @@
             position: absolute !important;
             bottom: 1.5rem !important;
             right: 2rem !important;
-            font-size: clamp(4rem, 10vw, 12rem) !important; // beautifully responsive scale
+            font-size: var(--cr-blog-watermark-fsize) !important; // beautifully responsive scale
             font-weight: 900 !important;
             color: rgba(255, 255, 255, 0.025) !important; // extremely low opacity white watermark
             text-transform: uppercase !important;
@@ -339,8 +340,9 @@
 // ====== Responsive Media Queries ======
 @media (max-width: 991px) {
     .blog-intro-banner {
-        --cr-blog-title-fsize: 48px; // Tablet size
-        
+        --cr-blog-title-fsize: 48px;
+        --cr-blog-watermark-fsize: 120px; // Tablet size
+
         &.cr-banner-layout-2 {
             .cr-layout-2-wrapper {
                 text-align: left;
@@ -385,7 +387,8 @@
 
 @media (max-width: 768px) {
     .blog-intro-banner {
-        --cr-blog-title-fsize: 40px; // Mobile size
+        --cr-blog-title-fsize: 40px;
+        --cr-blog-watermark-fsize: 70px; // Mobile size
 
         .cr-layout-1-wrapper,
         .cr-layout-2-wrapper,
@@ -405,7 +408,8 @@
 
 @media (max-width: 480px) {
     .blog-intro-banner {
-        --cr-blog-title-fsize: 35px; // Extra small mobile size
+        --cr-blog-title-fsize: 35px;
+        --cr-blog-watermark-fsize: 70px; // Extra small mobile size
 
         .cr-layout-1-wrapper,
         .cr-layout-2-wrapper,

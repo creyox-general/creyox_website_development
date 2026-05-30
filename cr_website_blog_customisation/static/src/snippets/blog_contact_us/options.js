@@ -30,17 +30,17 @@ odoo.define('cr_website_blog_customisation.blog_contact_us_options', function (r
                         '<div class="cr-contact-info-list">' +
                         '<div class="cr-contact-info-item">' +
                         '<i class="fa fa-envelope"></i>' +
-                        '<span>sales@creyox.com</span>' +
+                        '<span>info@creyox.com</span>' +
                         '</div>' +
                         '<div class="cr-contact-info-item">' +
                         '<i class="fa fa-phone"></i>' +
-                        '<span>+1 (888) 998-0720</span>' +
+                        '<span>+91 9265290098</span>' +
                         '</div>' +
                         '</div>' +
                         '<div class="partner-cta-group mt-3">' +
                         '<a href="/contactus" class="cta-button w-100 justify-content-center">' +
                         '<span>Get Free Consultation</span>' +
-                        '<i class="fas fa-arrow-right ms-2" aria-hidden="true"></i>' +
+                        '<i class="fa fa-arrow-right ms-2" aria-hidden="true"></i>' +
                         '</a>' +
                         '</div>' +
                         '</div>' +
