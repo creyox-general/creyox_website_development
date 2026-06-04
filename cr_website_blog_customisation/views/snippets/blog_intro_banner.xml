@@ -70,8 +70,10 @@
             <!-- LAYOUT 2: Two-Column Hero (Golden 60/40)                -->
             <!-- ======================================================== -->
             <div class="cr-layout-2-wrapper">
-                <!-- Watermark Background -->
-                <div class="cr-watermark-bg">Creyox</div>
+                <!-- Dedicated Watermark Container -->
+                <div class="cr-watermark-container">
+                    <div class="cr-watermark-bg">Creyox</div>
+                </div>
                 <div class="container">
                     <div class="row align-items-center justify-content-between">
                         <!-- Left Content Column (Spans Full Width) -->

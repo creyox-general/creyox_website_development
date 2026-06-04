@@ -9,7 +9,7 @@
 
     // Custom responsive CSS variable for blog title text size (in pixels)
     --cr-blog-title-fsize: 60px;
-    --cr-blog-watermark-fsize: 180px;
+    --cr-blog-watermark-fsize: 220px;
 
     // Hide all layout wrappers by default
     .cr-layout-1-wrapper,
@@ -113,20 +113,53 @@
         position: relative !important;
         overflow: hidden !important;
 
-        .cr-watermark-bg {
+        .cr-watermark-container {
             position: absolute !important;
-            bottom: 1.5rem !important;
-            right: 2rem !important;
-            font-size: var(--cr-blog-watermark-fsize) !important; // beautifully responsive scale
-            font-weight: 900 !important;
-            color: rgba(255, 255, 255, 0.025) !important; // extremely low opacity white watermark
-            text-transform: uppercase !important;
-            letter-spacing: normal !important;
+            top: 0 !important;
+            bottom: 0 !important;
+            left: 50% !important;
+            transform: translateX(-50%) !important;
+            width: 100% !important;
+            height: 100% !important;
             pointer-events: none !important;
-            user-select: none !important;
             z-index: 1 !important;
-            white-space: nowrap !important;
-            line-height: 1 !important;
+
+            // Replicate standard Bootstrap responsive container max-widths
+            @media (min-width: 576px) {
+                max-width: 540px !important;
+            }
+
+            @media (min-width: 768px) {
+                max-width: 720px !important;
+            }
+
+            @media (min-width: 992px) {
+                max-width: 960px !important;
+            }
+
+            @media (min-width: 1200px) {
+                max-width: 1140px !important;
+            }
+
+            @media (min-width: 1400px) {
+                max-width: 1320px !important;
+            }
+
+            .cr-watermark-bg {
+                position: absolute !important;
+                bottom: 1.5rem !important;
+                right: 2rem !important;
+                font-size: var(--cr-blog-watermark-fsize) !important; // beautifully responsive scale
+                font-weight: 900 !important;
+                color: rgba(255, 255, 255, 0.025) !important; // extremely low opacity white watermark
+                text-transform: uppercase !important;
+                letter-spacing: normal !important;
+                pointer-events: none !important;
+                user-select: none !important;
+                z-index: 1 !important;
+                white-space: nowrap !important;
+                line-height: 1 !important;
+            }
         }
 
         .container {
@@ -197,7 +230,7 @@
             line-height: 1.15 !important;
             font-weight: 400 !important;
             margin-bottom: 20px;
-            text-align: justify !important;
+            text-align: left !important;
             color: #ffffff;
             letter-spacing: 0.03em !important;
             text-transform: uppercase !important;
