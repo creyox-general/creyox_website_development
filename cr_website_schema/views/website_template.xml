@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="schema_setup_layout" name="Schema Setup Layout" inherit_id="website.layout" priority="60">
+        <xpath expr="//head" position="inside">
+            <t t-if="request and main_object and main_object._name == 'website.page'">
+                <t t-set="schema_setups" t-value="request.env['schema.setup'].sudo().search([('website_page_id', '=', main_object.id),('active','=',True)])"/>
+                <t t-foreach="schema_setups" t-as="schema_setup">
+                    <t t-out="schema_setup.schema"/>
+                </t>
+            </t>
+            <t t-if="request and main_object and main_object._name == 'blog.post' and main_object.schema">
+                <t t-out="main_object.schema"/>
+            </t>
+        </xpath>
+    </template>
+</odoo>

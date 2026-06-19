@@ -7,10 +7,12 @@
                  data-snippet="s_blog_intro_banner"
                  data-name="Blog Intro Banner">
             
+            <t t-set="banner_layout" t-value="blog and blog._name == 'blog.post' and blog.banner_layout_class or 'cr-banner-layout-2'"/>
+            
             <!-- ======================================================== -->
             <!-- LAYOUT 1: Centered Default                               -->
             <!-- ======================================================== -->
-            <div class="cr-layout-1-wrapper">
+            <div t-if="banner_layout == 'cr-banner-layout-1'" class="cr-layout-1-wrapper">
                 <div class="container text-center">
                     <h1 class="banner-main-title">
                         <t t-if="blog and blog._name == 'blog.post'">
@@ -31,6 +33,14 @@
                             Stay updated with the latest trends, technologies, and ERP innovations from Creyox Technologies.
                         </t>
                     </p>
+                    <div class="banner-cta-buttons">
+                        <a href="#" class="btn btn-primary">
+                            <span>Demo</span>
+                        </a>
+                        <a href="#" class="btn btn-outline-light">
+                            <span>Buy Now</span>
+                        </a>
+                    </div>
                     <div class="banner-bottom-breadcrumb">
                         <nav aria-label="breadcrumb">
                             <ul class="banner-breadcrumbs">
@@ -69,7 +79,7 @@
             <!-- ======================================================== -->
             <!-- LAYOUT 2: Two-Column Hero (Golden 60/40)                -->
             <!-- ======================================================== -->
-            <div class="cr-layout-2-wrapper">
+            <div t-if="banner_layout == 'cr-banner-layout-2'" class="cr-layout-2-wrapper">
                 <!-- Dedicated Watermark Container -->
                 <div class="cr-watermark-container">
                     <div class="cr-watermark-bg">Creyox</div>
@@ -125,6 +135,14 @@
                                     </span>
                                 </t>
                             </div>
+                            <div class="banner-cta-buttons">
+                                <a href="#" class="btn btn-primary">
+                                    <span>Demo</span>
+                                </a>
+                                <a href="#" class="btn btn-outline-light">
+                                    <span>Buy Now</span>
+                                </a>
+                            </div>
                         </div>                        
                     </div>
                 </div>
@@ -133,7 +151,7 @@
             <!-- ======================================================== -->
             <!-- LAYOUT 3: Modern Slate Minimalist Centered               -->
             <!-- ======================================================== -->
-            <div class="cr-layout-3-wrapper">
+            <div t-if="banner_layout == 'cr-banner-layout-3'" class="cr-layout-3-wrapper">
                 <div class="container text-center">
                     <h1 class="banner-main-title">
                         <t t-if="blog and blog._name == 'blog.post'">
@@ -146,6 +164,14 @@
                             Our Latest News &amp; Insights
                         </t>
                     </h1>
+                    <div class="banner-cta-buttons">
+                        <a href="#" class="btn btn-primary">
+                            <span>Demo</span>
+                        </a>
+                        <a href="#" class="btn btn-outline-light">
+                            <span>Buy Now</span>
+                        </a>
+                    </div>
                     <div class="banner-bottom-breadcrumb">
                         <nav aria-label="breadcrumb">
                             <ul class="banner-breadcrumbs">
@@ -187,7 +213,7 @@
     <template id="s_blog_intro_banner_options" inherit_id="website.snippet_options" name="Blog Intro Banner Options">
         <xpath expr="." position="inside">
             <!-- Target the Blog Intro Banner snippet container class to apply layouts and theme styles -->
-            <div data-js="BlogBannerLayoutOptions" data-selector=".s_blog_intro_banner" data-page-options="true" data-no-check="true">
+            <div data-js="BlogBannerLayoutOptions" data-selector=".s_blog_intro_banner" data-page-options="true" data-no-check="true" data-no-preview="true">
                 <we-select string="Banner Style &amp; Layout">
                     <we-button string="Centered Default (Layout 1)" data-set-banner-layout="cr-banner-layout-1"/>
                     <we-button string="Two-Column Hero (Layout 2)" data-set-banner-layout="cr-banner-layout-2"/>

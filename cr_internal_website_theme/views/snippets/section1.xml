@@ -38,12 +38,16 @@
                     display: inline-flex !important;
                     justify-content: center;
                     align-items: center;
-                    min-width: 280px !important;
                 }
                 @media (min-width: 768px) {
                     .rotating-words {
                         justify-content: flex-start;
                         min-width: 400px !important;
+                    }
+                }
+                @media (min-width: 992px) {
+                    .rotating-words {
+                        min-width: 430px !important;
                     }
                 }
                 .desktop-computer {
@@ -75,7 +79,6 @@
                         <h1 class="hero-title">
                             <span class="hero-brand d-block mb-2">Trusted Odoo</span>
                             <span class="rotating-words">
-                                <span style="visibility: hidden; pointer-events: none;">Implementation</span>
                                 <span class="word">Development</span>
                                 <span class="word">Implementation</span>
                                 <span class="word">Consulting</span>

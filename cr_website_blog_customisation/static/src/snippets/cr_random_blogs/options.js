@@ -69,12 +69,10 @@ odoo.define('cr_website_blog_customisation.cr_random_blogs_options', function (r
          * Toggles banner styles and saves them permanently to the blog post record via RPC
          */
         setBannerLayout: function (previewMode, widgetValue, params) {
-            var self = this;
-            // Apply class changes in real-time to the target DOM element
-            this.$target.removeClass('cr-banner-layout-1 cr-banner-layout-2 cr-banner-layout-3');
-            if (widgetValue) {
-                this.$target.addClass(widgetValue);
+            if (previewMode) {
+                return;
             }
+            var self = this;
 
             // Retrieve the active blog post ID from data attribute or mainObject context
             var blogPostId = this.$target.data('blog-post-id');
@@ -89,7 +87,18 @@ odoo.define('cr_website_blog_customisation.cr_random_blogs_options', function (r
                     args: [[blogPostId], {
                         'banner_layout_class': widgetValue
                     }],
+                }).then(function () {
+                    self.$target.removeClass('cr-banner-layout-1 cr-banner-layout-2 cr-banner-layout-3');
+                    if (widgetValue) {
+                        self.$target.addClass(widgetValue);
+                    }
+                    // window.location.reload();
                 });
+            } else {
+                this.$target.removeClass('cr-banner-layout-1 cr-banner-layout-2 cr-banner-layout-3');
+                if (widgetValue) {
+                    this.$target.addClass(widgetValue);
+                }
             }
         },
 

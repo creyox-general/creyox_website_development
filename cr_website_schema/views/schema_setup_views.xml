@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- Tree View -->
+    <record id="view_schema_setup_tree" model="ir.ui.view">
+        <field name="name">schema.setup.tree</field>
+        <field name="model">schema.setup</field>
+        <field name="arch" type="xml">
+            <tree string="Schema Setup">
+                <field name="name"/>
+                <field name="website_page_id"/>
+                <field name="active" widget="boolean_toggle"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="view_schema_setup_form" model="ir.ui.view">
+        <field name="name">schema.setup.form</field>
+        <field name="model">schema.setup</field>
+        <field name="arch" type="xml">
+            <form string="Schema Setup">
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name" class="oe_edit_only"/>
+                        <h1>
+                            <field name="name" placeholder="e.g. Organization Schema"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="website_page_id" options="{'no_create': True, 'no_create_edit': True}"/>
+                        </group>
+                        <group>
+                            <field name="active" widget="boolean_toggle"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Schema Code" name="schema_code">
+                            <field name="schema" widget="ace" options="{'mode': 'xml'}" placeholder="Enter your schema code here..."/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Search View -->
+    <record id="view_schema_setup_search" model="ir.ui.view">
+        <field name="name">schema.setup.search</field>
+        <field name="model">schema.setup</field>
+        <field name="arch" type="xml">
+            <search string="Search Schema Setup">
+                <field name="name"/>
+                <field name="website_page_id"/>
+                <separator/>
+                <filter string="Archived" name="inactive" domain="[('active', '=', False)]"/>
+                <group expand="0" string="Group By">
+                    <filter string="Page" name="group_by_page" domain="[]" context="{'group_by': 'website_page_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action -->
+    <record id="action_schema_setup" model="ir.actions.act_window">
+        <field name="name">Schema Setup</field>
+        <field name="res_model">schema.setup</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_schema_setup_search"/>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a new website page schema setup
+            </p>
+            <p>
+                Configure schema codes for individual website pages here.
+            </p>
+        </field>
+    </record>
+
+    <!-- Menu Item -->
+    <menuitem id="menu_schema_setup"
+        name="Schema Setup"
+        parent="website.menu_content"
+        sequence="15"
+        action="action_schema_setup"/>
+
+    <!-- Inherited Blog Post Form View -->
+    <record id="view_blog_post_form_inherit_schema" model="ir.ui.view">
+        <field name="name">blog.post.form.inherit.schema</field>
+        <field name="model">blog.post</field>
+        <field name="inherit_id" ref="website_blog.view_blog_post_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='seo']/group[@name='default_opengraph']" position="after">
+                <group string="Schema Code" name="schema_code">
+                    <field name="schema" widget="ace" options="{'mode': 'xml'}" placeholder="Enter schema code here..."/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

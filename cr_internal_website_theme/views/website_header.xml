@@ -15,7 +15,7 @@
     <template id="custom_header_logo" inherit_id="website.option_header_brand_logo" name="Custom Header Logo">
         <xpath expr="//span[@t-field='website.logo']" position="replace">
             <img src="/cr_internal_website_theme/static/src/img/logo1.png"
-                 alt="Company Logo"
+                 alt="Creyox Technologies Certified Odoo Partner"
                  style="height: 35px; width: 45;"
                  class="img img-fluid"
                  role="img"
@@ -175,12 +175,12 @@
         </xpath>
     </template>
 
-    <template id="load_google_fonts" inherit_id="website.layout" name="Load Google Fonts">
-        <xpath expr="//head" position="inside">
-            <link rel="preconnect" href="https://fonts.googleapis.com"/>
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
-            <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
-        </xpath>
-    </template>
+<!--    <template id="load_google_fonts" inherit_id="website.layout" name="Load Google Fonts">-->
+<!--        <xpath expr="//head" position="inside">-->
+<!--            <link rel="preconnect" href="https://fonts.googleapis.com"/>-->
+<!--            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>-->
+<!--            <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>-->
+<!--        </xpath>-->
+<!--    </template>-->
 
 </odoo>
