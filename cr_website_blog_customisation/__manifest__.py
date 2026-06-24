@@ -7,7 +7,7 @@
     "summary":
         """
         """,
-    "version": "16.0.0.5",
+    "version": "16.0.0.6",
     "sequence": 10,
     "description":
         """
@@ -19,7 +19,6 @@
     "depends": ["base", "website", "website_blog"],
     "data": [
         "data/color_data.xml",
-        "data/blog_post_cron.xml",
         "views/cr_color.xml",
         "views/website_blog.xml",
         "views/website_blog_components.xml",

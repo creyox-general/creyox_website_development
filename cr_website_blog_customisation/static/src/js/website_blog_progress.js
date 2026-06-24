@@ -105,4 +105,32 @@ odoo.define('cr_website_blog_customisation.blog_progress_bar', function (require
         },
     });
 
+    // Widget for Blog Intro Banner to fetch and apply correct Buy Now URL
+    publicWidget.registry.BlogIntroBanner = publicWidget.Widget.extend({
+        selector: '.s_blog_intro_banner',
+
+        start: function () {
+            var self = this;
+            var blogPostId = this.$target.data('blog-post-id');
+            if (blogPostId) {
+                this._rpc({
+                    route: '/blog/get_buy_now_url',
+                    params: {
+                        post_id: blogPostId
+                    }
+                }).then(function (res) {
+                    if (res && res.buy_now_url) {
+                        var buyNowUrl = res.buy_now_url;
+                        self.$target.find('a.cta-button').each(function () {
+                            if ($(this).find('.fa-shopping-cart').length > 0) {
+                                $(this).attr('href', buyNowUrl);
+                            }
+                        });
+                    }
+                });
+            }
+            return this._super.apply(this, arguments);
+        },
+    });
+
 });

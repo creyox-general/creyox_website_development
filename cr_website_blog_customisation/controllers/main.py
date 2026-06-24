@@ -165,6 +165,15 @@ class CrWebsiteBlog(WebsiteBlog):
         else:
             return {'error': 'No blog posts found'}
 
+    @http.route('/blog/get_buy_now_url', auth="public", type="json", methods=['POST'], website=True)
+    def get_buy_now_url(self, post_id, **kwargs):
+        post = request.env['blog.post'].sudo().browse(int(post_id))
+        if post.exists():
+            return {
+                'buy_now_url': post.buy_now_url or 'https://apps.odoo.com/apps/modules/browse?search=Creyox+Technologies'
+            }
+        return {'error': 'Post not found'}
+
 
 
 

@@ -9,6 +9,7 @@
                 <field name="short_title"/>
                 <field name="color"/>
                 <field name="background_color" widget="color"/>
+                <field name="buy_now_url"/>
             </xpath>
         </field>
     </record>

@@ -34,12 +34,12 @@
                             Stay updated with the latest trends, technologies, and ERP innovations from Creyox Technologies.
                         </t>
                     </p>
-                    <div t-if="not blog or blog._name != 'blog.post' or blog.display_banner_cta" class="banner-cta-buttons">
+                    <div t-if="not blog or blog._name != 'blog.post' or blog.display_banner_cta" class="banner-cta-buttons o_not_editable">
                         <a href="/helpdesk" class="cta-button light">
                             <i class="fa fa-laptop"></i>
                             <span>Demo</span>
                         </a>
-                        <a href="https://apps.odoo.com/apps/modules/browse?search=Creyox+Technologies" target="_blank" class="cta-button light">
+                        <a t-att-href="blog.buy_now_url if (blog and blog._name == 'blog.post' and blog.buy_now_url) else 'https://apps.odoo.com/apps/modules/browse?search=Creyox+Technologies'" target="_blank" class="cta-button light">
                             <i class="fa fa-shopping-cart"></i>
                             <span>Buy Now</span>
                         </a>
@@ -138,12 +138,12 @@
                                     </span>
                                 </t>
                             </div>
-                            <div t-if="not blog or blog._name != 'blog.post' or blog.display_banner_cta" class="banner-cta-buttons">
+                            <div t-if="not blog or blog._name != 'blog.post' or blog.display_banner_cta" class="banner-cta-buttons o_not_editable">
                                 <a href="/helpdesk" class="cta-button light">
                                     <i class="fa fa-laptop"></i>
                                     <span>Demo</span>
                                 </a>
-                                <a href="https://apps.odoo.com/apps/modules/browse?search=Creyox+Technologies" target="_blank" class="cta-button light">
+                                <a t-att-href="blog.buy_now_url if (blog and blog._name == 'blog.post' and blog.buy_now_url) else 'https://apps.odoo.com/apps/modules/browse?search=Creyox+Technologies'" target="_blank" class="cta-button light">
                                     <i class="fa fa-shopping-cart"></i>
                                     <span>Buy Now</span>
                                 </a>
@@ -169,12 +169,12 @@
                             Our Latest News &amp; Insights
                         </t>
                     </h1>
-                    <div t-if="not blog or blog._name != 'blog.post' or blog.display_banner_cta" class="banner-cta-buttons">
+                    <div t-if="not blog or blog._name != 'blog.post' or blog.display_banner_cta" class="banner-cta-buttons o_not_editable">
                         <a href="/helpdesk" class="cta-button light">
                             <i class="fa fa-laptop"></i>
                             <span>Demo</span>
                         </a>
-                        <a href="https://apps.odoo.com/apps/modules/browse?search=Creyox+Technologies" target="_blank" class="cta-button light">
+                        <a t-att-href="blog.buy_now_url if (blog and blog._name == 'blog.post' and blog.buy_now_url) else 'https://apps.odoo.com/apps/modules/browse?search=Creyox+Technologies'" target="_blank" class="cta-button light">
                             <i class="fa fa-shopping-cart"></i>
                             <span>Buy Now</span>
                         </a>

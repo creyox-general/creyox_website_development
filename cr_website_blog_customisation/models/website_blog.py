@@ -22,6 +22,10 @@ class BlogPost(models.Model):
         string="Display Banner CTA",
         default=True,
     )
+    buy_now_url = fields.Char(
+        string="Buy Now URL",
+        default="https://apps.odoo.com/apps/modules/browse?search=Creyox+Technologies"
+    )
 
     @api.depends('name')
     def _compute_short_title(self):
