@@ -4,6 +4,7 @@
         <section id="o_wblog_post_top"
                  t-attf-class="s_blog_intro_banner blog-intro-banner hero-section-wave cr_font o_wblog_post_top_header #{blog and blog._name == 'blog.post' and blog.banner_layout_class or 'cr-banner-layout-2'}"
                  t-att-data-blog-post-id="blog and blog._name == 'blog.post' and blog.id"
+                 t-att-data-display-banner-cta="'true' if not blog or blog._name != 'blog.post' or blog.display_banner_cta else 'false'"
                  data-snippet="s_blog_intro_banner"
                  data-name="Blog Intro Banner">
             
@@ -33,11 +34,13 @@
                             Stay updated with the latest trends, technologies, and ERP innovations from Creyox Technologies.
                         </t>
                     </p>
-                    <div class="banner-cta-buttons">
-                        <a href="#" class="btn btn-primary">
+                    <div t-if="not blog or blog._name != 'blog.post' or blog.display_banner_cta" class="banner-cta-buttons">
+                        <a href="/helpdesk" class="cta-button light">
+                            <i class="fa fa-laptop"></i>
                             <span>Demo</span>
                         </a>
-                        <a href="#" class="btn btn-outline-light">
+                        <a href="https://apps.odoo.com/apps/modules/browse?search=Creyox+Technologies" target="_blank" class="cta-button light">
+                            <i class="fa fa-shopping-cart"></i>
                             <span>Buy Now</span>
                         </a>
                     </div>
@@ -135,11 +138,13 @@
                                     </span>
                                 </t>
                             </div>
-                            <div class="banner-cta-buttons">
-                                <a href="#" class="btn btn-primary">
+                            <div t-if="not blog or blog._name != 'blog.post' or blog.display_banner_cta" class="banner-cta-buttons">
+                                <a href="/helpdesk" class="cta-button light">
+                                    <i class="fa fa-laptop"></i>
                                     <span>Demo</span>
                                 </a>
-                                <a href="#" class="btn btn-outline-light">
+                                <a href="https://apps.odoo.com/apps/modules/browse?search=Creyox+Technologies" target="_blank" class="cta-button light">
+                                    <i class="fa fa-shopping-cart"></i>
                                     <span>Buy Now</span>
                                 </a>
                             </div>
@@ -164,11 +169,13 @@
                             Our Latest News &amp; Insights
                         </t>
                     </h1>
-                    <div class="banner-cta-buttons">
-                        <a href="#" class="btn btn-primary">
+                    <div t-if="not blog or blog._name != 'blog.post' or blog.display_banner_cta" class="banner-cta-buttons">
+                        <a href="/helpdesk" class="cta-button light">
+                            <i class="fa fa-laptop"></i>
                             <span>Demo</span>
                         </a>
-                        <a href="#" class="btn btn-outline-light">
+                        <a href="https://apps.odoo.com/apps/modules/browse?search=Creyox+Technologies" target="_blank" class="cta-button light">
+                            <i class="fa fa-shopping-cart"></i>
                             <span>Buy Now</span>
                         </a>
                     </div>
@@ -219,6 +226,7 @@
                     <we-button string="Two-Column Hero (Layout 2)" data-set-banner-layout="cr-banner-layout-2"/>
                     <we-button string="Modern Slate Centered (Layout 3)" data-set-banner-layout="cr-banner-layout-3"/>
                 </we-select>
+                <we-checkbox string="Show CTA Buttons" data-toggle-banner-cta="true" data-no-preview="true"/>
             </div>
         </xpath>
     </template>

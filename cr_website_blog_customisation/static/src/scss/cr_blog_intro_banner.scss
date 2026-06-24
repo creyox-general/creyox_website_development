@@ -377,18 +377,22 @@
 
         .btn {
             // font-family: sans-serif;
-            font-size: 50px !important;
+            font-size: 15px !important;
             font-weight: 600;
-            letter-spacing: 0.04em;
+            letter-spacing: normal !important;
             text-transform: uppercase;
             padding: 8px 20px;
-            border-radius: 50px;
+            //             border-radius: 50px;
             display: inline-flex;
             align-items: center;
             justify-content: center;
             transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
             text-decoration: none;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+
+            span {
+                font-size: 15px !important;
+            }
 
             &:hover {
                 transform: translateY(-3px) scale(1.02);
@@ -402,13 +406,62 @@
         }
 
         .btn-primary {
-            background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%) !important;
-            border: 2px solid transparent !important;
+            position: relative !important;
+            overflow: hidden !important;
+            background: linear-gradient(145deg, #0a173b, #1e3a8a) !important;
+            border: none !important;
+            //             border-radius: 12px !important;
+            box-shadow: 0 10px 30px rgba(10, 23, 59, 0.2) !important;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
             color: #ffffff !important;
 
+            span {
+                font-size: 15px !important;
+                z-index: 2 !important;
+                position: relative !important;
+                display: inline-block !important;
+            }
+
+            /* DUAL GLOWING SHIMMER SYSTEM COMPATIBLE WITH HOMEPAGE */
+            &::before,
+            &::after {
+                content: '' !important;
+                position: absolute !important;
+                top: 0 !important;
+                bottom: 0 !important;
+                width: 50% !important;
+                background: rgba(255, 255, 255, 0.15) !important;
+                z-index: 1 !important;
+                pointer-events: none !important;
+                transform: translateX(0);
+                opacity: 0;
+            }
+
+            &::before {
+                left: 50% !important;
+                border-left: 1px solid rgba(255, 255, 255, 0.3) !important;
+            }
+
+            &::after {
+                right: 50% !important;
+                border-right: 1px solid rgba(255, 255, 255, 0.3) !important;
+            }
+
             &:hover {
-                background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%) !important;
-                box-shadow: 0 12px 24px rgba(37, 99, 235, 0.35);
+                transform: translateY(-5px) !important;
+                box-shadow: 0 15px 40px rgba(10, 23, 59, 0.3) !important;
+
+                &::before {
+                    animation: moveLeftEff 1.5s infinite linear !important;
+                }
+
+                &::after {
+                    animation: moveRightEff 1.5s infinite linear !important;
+                }
+            }
+
+            &:active {
+                transform: translateY(0) !important;
             }
         }
 
@@ -416,6 +469,7 @@
             background: rgba(255, 255, 255, 0.05) !important;
             border: 2px solid rgba(255, 255, 255, 0.35) !important;
             color: #ffffff !important;
+            //             border-radius: 12px !important;
             backdrop-filter: blur(8px);
             -webkit-backdrop-filter: blur(8px);
 
@@ -423,6 +477,8 @@
                 background: #ffffff !important;
                 border-color: #ffffff !important;
                 color: #0a173b !important;
+                transform: translateY(-5px) !important;
+                box-shadow: 0 15px 40px rgba(255, 255, 255, 0.15) !important;
             }
         }
     }
@@ -534,16 +590,54 @@
             }
 
             .banner-cta-buttons {
-                display: flex;
-                flex-direction: column;
-                width: 100%;
-                gap: 10px;
+                display: flex !important;
+                flex-direction: row !important;
+                justify-content: center !important;
+                flex-wrap: nowrap !important;
+                width: 100% !important;
+                gap: 10px !important;
 
-                .btn {
-                    width: 100%;
-                    font-size: 0.95rem;
-                    padding: 8px 16px;
+                .btn,
+                .cta-button {
+                    width: auto !important;
+                    flex: 1 !important;
+                    max-width: 180px !important;
+                    white-space: nowrap !important;
+                    font-size: 13px !important;
+                    padding: 8px 12px !important;
                 }
+            }
+        }
+    }
+}
+
+// High-specificity overrides for CTA buttons to prevent theme and root level overrides
+html body #wrapwrap {
+    .blog-intro-banner .banner-cta-buttons {
+
+        a.btn,
+        a.cta-button {
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            gap: 8px !important;
+            font-size: 15px !important;
+            padding: 8px 20px !important;
+            letter-spacing: normal !important;
+            text-transform: uppercase !important;
+            border-radius: 0px !important;
+
+            i {
+                font-size: 14px !important;
+                margin: 0 !important;
+                display: inline-block !important;
+                vertical-align: middle !important;
+            }
+
+            span {
+                font-size: 15px !important;
+                font-weight: 600 !important;
+                letter-spacing: normal !important;
             }
         }
     }

@@ -7,7 +7,7 @@
     "summary":
         """
         """,
-    "version": "16.0.0.4",
+    "version": "16.0.0.5",
     "sequence": 10,
     "description":
         """
@@ -19,6 +19,7 @@
     "depends": ["base", "website", "website_blog"],
     "data": [
         "data/color_data.xml",
+        "data/blog_post_cron.xml",
         "views/cr_color.xml",
         "views/website_blog.xml",
         "views/website_blog_components.xml",
@@ -30,6 +31,8 @@
         "views/snippets/blog_intro_banner.xml",
         "views/snippets.xml",
         "security/ir.model.access.csv",
+        "views/schema_setup_views.xml",
+        "views/website_template.xml"
     ],
     'assets': {
         'web.assets_frontend': [

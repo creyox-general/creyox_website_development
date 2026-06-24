@@ -102,6 +102,32 @@ odoo.define('cr_website_blog_customisation.cr_random_blogs_options', function (r
             }
         },
 
+        toggleBannerCta: function (previewMode, widgetValue, params) {
+            if (previewMode) {
+                return;
+            }
+            var self = this;
+            var blogPostId = this.$target.data('blog-post-id');
+            if (!blogPostId && this.options.mainObject && this.options.mainObject.model === 'blog.post') {
+                blogPostId = this.options.mainObject.id;
+            }
+
+            if (blogPostId) {
+                this._rpc({
+                    model: 'blog.post',
+                    method: 'write',
+                    args: [[blogPostId], {
+                        'display_banner_cta': widgetValue
+                    }],
+                }).then(function () {
+                    self.$target.attr('data-display-banner-cta', widgetValue ? 'true' : 'false');
+                    // window.location.reload();
+                });
+            } else {
+                this.$target.attr('data-display-banner-cta', widgetValue ? 'true' : 'false');
+            }
+        },
+
         /**
          * Set active selection checkmark in editor dropdown based on current class
          * @override
@@ -116,6 +142,9 @@ odoo.define('cr_website_blog_customisation.cr_random_blogs_options', function (r
                     return 'cr-banner-layout-3';
                 }
                 return 'cr-banner-layout-2'; // Default layout fallback
+            }
+            if (methodName === 'toggleBannerCta') {
+                return this.$target.attr('data-display-banner-cta') !== 'false';
             }
             return this._super.apply(this, arguments);
         },

@@ -4,6 +4,8 @@
 import json
 from odoo import api, fields, models
 
+
+# Blog Post Model For Schema.
 class BlogPost(models.Model):
     _inherit = "blog.post"
 
@@ -38,7 +40,6 @@ class BlogPost(models.Model):
         absolute_images = []
         for img in images:
             if img.startswith('/'):
-                print(img)
                 absolute_images.append((self.get_base_url() or "") + img)
             else:
                 absolute_images.append(img)
@@ -90,6 +91,19 @@ class BlogPost(models.Model):
 }}
 </script>"""
         return schema_code
+
+    @api.model
+    def _cron_generate_default_schema(self):
+        blog_posts = self.search([('is_published', '=', True), ('schema', '=', False)])
+        for post in blog_posts:
+            try:
+                schema_code = post._generate_default_schema()
+                super(BlogPost, post).write({'schema': schema_code})
+            except Exception:
+                pass
+        cron = self.env.ref('cr_website_blog_customisation.ir_cron_generate_blog_post_schemas', raise_if_not_found=False)
+        if cron:
+            cron.write({'active': False})
 
     @api.model_create_multi
     def create(self, vals_list):

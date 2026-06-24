@@ -18,6 +18,10 @@ class BlogPost(models.Model):
     banner_layout_class = fields.Char(
         string="Banner Layout Class",
     )
+    display_banner_cta = fields.Boolean(
+        string="Display Banner CTA",
+        default=True,
+    )
 
     @api.depends('name')
     def _compute_short_title(self):
