@@ -54,7 +54,7 @@
 
                     <div class="col-lg-6">
                         <div class="partner-image-box">
-                            <img t-att-src="o_image or '/cr_internal_website_theme/static/src/img/odoo_partner_trust.png'"
+                            <img t-att-src="o_image or '/cr_internal_website_theme/static/src/img/odoo_partner_trust.webp'"
                                  t-att-alt="o_image_alt or 'Trusted Odoo Partner'"
                                  class="img-fluid partner-image"/>
                             <div class="image-overlay-glow"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <!-- Custom Footer Template -->
-    <template id="footer_custom_enhanced" inherit_id="website.layout" name="Custom Enhanced Footer" active="True">
+    <template id="customized_footer_layout" inherit_id="website.layout" name="Custom Enhanced Footer" active="True">
         <xpath expr="//div[@id='footer']" position="replace">
             <div id="footer" class="custom_footer_wrapper" t-ignore="true" t-if="not no_footer">
 
@@ -13,7 +13,7 @@
                             <!-- Company Info Column -->
                             <div class="col-lg-4 col-md-6 footer_column">
                                 <div class="footer_logo_section">
-                                    <img src="/cr_internal_website_theme/static/src/img/logo.png" alt="Creyox Technologies Certified Odoo Partner"
+                                    <img src="/cr_internal_website_theme/static/src/img/logo.webp" alt="Creyox Technologies Certified Odoo Partner"
                                          class="footer_logo"/>
                                     <!--                                    <h4 class="footer_company_name mt-3">Creyox Technologies</h4>-->
                                 </div>
@@ -72,9 +72,9 @@
                                     <li>
                                         <a href="/aboutus">About Us</a>
                                     </li>
-                                    <li>
-                                        <a href="/services">Services</a>
-                                    </li>
+<!--                                    <li>-->
+<!--                                        <a href="/services">Services</a>-->
+<!--                                    </li>-->
                                     <li>
                                         <a href="/career">Career</a>
                                     </li>

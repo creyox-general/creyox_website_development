@@ -5,6 +5,10 @@
               name="Home">
         <xpath expr="//div[@id='wrap']" position="replace">
             <div id="wrap">
+<!--                <t t-call="cr_internal_website_theme.s_cloud_cap_hero"/>-->
+<!--                <t t-call="cr_internal_website_theme.s_excellence_hero"/>-->
+<!--                <t t-call="cr_internal_website_theme.s_animated_tech_dashboard"/>-->
+<!--                <t t-call="cr_internal_website_theme.s_animated_circle_waves"/>-->
                 <t t-call="cr_internal_website_theme.hero_snippet_template"/>
                 <t t-call="cr_internal_website_theme.homepage_section2"/>
                 <t t-call="cr_internal_website_theme.homepage_section3"/>

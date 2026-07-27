@@ -2,10 +2,10 @@
 <odoo>
     <template id="service2_crm_solution" name="service2_crm_solution">
 
-        <link
-                rel="stylesheet"
-                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        />
+<!--        <link-->
+<!--                rel="stylesheet"-->
+<!--                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"-->
+<!--        />-->
         <div class="oe_structure" id="oe_structure_service2_intro_banner">
             <section class="s_service_intro_banner service-intro-banner hero-section-wave cr_font"
                      data-snippet="s_service_intro_banner"
@@ -63,7 +63,7 @@
                                     </div>
                                     <div class="col-lg-6 step-image-col">
                                         <div class="step-card image-card">
-                                             <img src="/cr_internal_website_theme/static/src/img/crm-solution.png"
+                                             <img src="/cr_internal_website_theme/static/src/img/crm-solution.webp"
                                                   alt="CRM Solutions"
                                                   class="img-fluid w-100"
                                                   style="object-fit: contain;"/>
@@ -88,7 +88,7 @@
                                     </div>
                                     <div class="col-lg-6 step-image-col">
                                         <div class="step-card image-card">
-                                            <img src="/cr_internal_website_theme/static/src/img/crm-services.png"
+                                            <img src="/cr_internal_website_theme/static/src/img/crm-services.webp"
                                                  alt="CRM Solution"
                                              class="img-fluid w-100" 
                                                  style="object-fit: contain;"/>
@@ -247,7 +247,7 @@
                                     </div>
                                     <div class="col-lg-6 step-image-col">
                                         <div class="step-card image-card">
-                                            <img src="/cr_internal_website_theme/static/src/img/use_cases.png"
+                                            <img src="/cr_internal_website_theme/static/src/img/use_cases.webp"
                                                  alt="CRM Odoo Solution"
                                                  class="img-fluid w-100" 
                                                  style="object-fit: contain;"/>
@@ -272,7 +272,7 @@
                                     </div>
                                     <div class="col-lg-6 step-image-col">
                                         <div class="step-card image-card">
-                                            <img src="/cr_internal_website_theme/static/src/img/crm_moduler_implementation.png"
+                                            <img src="/cr_internal_website_theme/static/src/img/crm_moduler_implementation.webp"
                                                  alt="CRM Integration"
                                                  class="img-fluid w-100" 
                                                  style="object-fit: contain;"/>

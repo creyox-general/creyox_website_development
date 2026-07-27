@@ -42,9 +42,9 @@ class ClientLogoController(http.Controller):
 
                 except Exception as e:
                     print(f"Error encoding image for client {client.name}: {e}")
-                    logo_data = '/path/to/default/logo.png'  # Fallback to default image if encoding fails
+                    logo_data = '/path/to/default/logo.webp'  # Fallback to default image if encoding fails
             else:
-                logo_data = '/path/to/default/logo.png'  # Fallback if no logo is available
+                logo_data = '/path/to/default/logo.webp'  # Fallback if no logo is available
 
 
 

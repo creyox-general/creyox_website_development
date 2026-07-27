@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- Template 1: Animated Tech Dashboard Hero (Original) -->
+    <template id="s_animated_tech_dashboard" name="Animated Tech Dashboard Hero">
+        <section class="s_animated_tech_dashboard cr_font py-5" data-snippet="s_animated_tech_dashboard" data-name="Animated Tech Dashboard Hero">
+            <!-- Background Grid & Connecting Lines -->
+            <div class="tech-grid-bg">
+                <svg class="connecting-grid-lines" viewBox="0 0 1440 800" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                    <!-- Dashed horizontal and vertical lines with modern glowing path transitions -->
+                    <path class="grid-line line-h-1" d="M100,200 L1340,200" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="4 4" />
+                    <path class="grid-line line-h-2" d="M100,500 L1340,500" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="4 4" />
+                    <path class="grid-line line-v-1" d="M300,100 L300,700" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="4 4" />
+                    <path class="grid-line line-v-2" d="M1140,100 L1140,700" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="4 4" />
+                    
+                    <!-- Data flows (glowing animations) -->
+                    <path class="flow-path flow-1" d="M300,200 L720,200 L720,500" stroke="url(#flow-gradient-blue)" stroke-width="2" />
+                    <path class="flow-path flow-2" d="M1140,200 L720,200 L720,500" stroke="url(#flow-gradient-green)" stroke-width="2" />
+                    
+                    <defs>
+                        <linearGradient id="flow-gradient-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#3b82f6" stop-opacity="0" />
+                            <stop offset="50%" stop-color="#3b82f6" stop-opacity="1" />
+                            <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="flow-gradient-green" x1="100%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="#10b981" stop-opacity="0" />
+                            <stop offset="50%" stop-color="#10b981" stop-opacity="1" />
+                            <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+
+            <div class="container tech-hero-content text-center mb-5" data-aos="fade-up">
+                <span class="badge rounded-pill bg-light text-primary px-3 py-2 mb-3 border border-primary-light font-weight-bold">
+                    LEADING ODOO ERP IMPLEMENTATION
+                </span>
+                <h1 class="hero-title mb-3">
+                    Trusted <span class="highlight-word">Enterprise Automation</span> Solution
+                </h1>
+                <p class="hero-subtitle text-muted mx-auto mb-4" style="max-width: 650px;">
+                    Creyox automates core business operations, integrates custom module logic, and builds high-performance ERP systems designed to scale with your enterprise.
+                </p>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="/contactus" class="btn btn-primary btn-lg px-4 py-3 rounded-pill shadow-sm font-weight-bold">
+                        Get Started
+                    </a>
+                    <a href="/helpdesk" class="btn btn-outline-secondary btn-lg px-4 py-3 rounded-pill font-weight-bold">
+                        View Live Demo
+                    </a>
+                </div>
+            </div>
+
+            <!-- Interactive UI Cards Grid -->
+            <div class="container position-relative z-index-2">
+                <div class="row align-items-center justify-content-center mt-5">
+                    
+                    <!-- Left Column Card (Manual vs Odoo Toggle) -->
+                    <div class="col-lg-3 col-md-5 mb-4" data-aos="fade-right" data-aos-delay="100">
+                        <div class="tech-card tech-card-toggle p-4">
+                            <div class="card-header-simple mb-3">
+                                <span class="card-category">PERFORMANCE</span>
+                                <h5 class="card-title-sm mb-0">System Efficiency</h5>
+                            </div>
+                            
+                            <!-- Toggle Item 1 -->
+                            <div class="toggle-row d-flex align-items-center justify-content-between mb-3 py-2 border-bottom border-light">
+                                <div class="toggle-text">
+                                    <div class="toggle-name text-muted">Without Odoo</div>
+                                    <div class="toggle-stat font-weight-bold text-danger">15% Efficiency</div>
+                                </div>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" disabled="disabled" />
+                                </div>
+                            </div>
+
+                            <!-- Toggle Item 2 -->
+                            <div class="toggle-row d-flex align-items-center justify-content-between py-2">
+                                <div class="toggle-text">
+                                    <div class="toggle-name text-muted">With Creyox Odoo</div>
+                                    <div class="toggle-stat font-weight-bold text-success">95% Efficiency</div>
+                                </div>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" checked="checked" disabled="disabled" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Center Integration & Connection Diagram -->
+                    <div class="col-lg-6 col-md-10 text-center mb-4" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="tech-center-diagram p-4">
+                            <div class="diagram-title-label mb-4 text-uppercase">Central Odoo Connection Hub</div>
+                            
+                            <div class="diagram-flow-container">
+                                <!-- Left side connected apps -->
+                                <div class="diagram-left-apps">
+                                    <div class="app-icon-bubble" title="Shopify">
+                                        <i class="fab fa-shopify text-success"></i>
+                                    </div>
+                                    <div class="app-icon-bubble" title="PostgreSQL">
+                                        <i class="fas fa-database text-info"></i>
+                                    </div>
+                                    <div class="app-icon-bubble" title="Stripe">
+                                        <i class="fab fa-cc-stripe text-primary"></i>
+                                    </div>
+                                </div>
+
+                                <!-- Center Pill -->
+                                <div class="diagram-center-pill">
+                                    <span class="center-pill-text">CREYOX CORE</span>
+                                    <div class="pulse-ring"></div>
+                                </div>
+
+                                <!-- Right side connected apps -->
+                                <div class="diagram-right-apps">
+                                    <div class="app-icon-bubble" title="Sales">
+                                        <i class="fas fa-chart-line text-warning"></i>
+                                    </div>
+                                    <div class="app-icon-bubble" title="Inventory">
+                                        <i class="fas fa-boxes text-danger"></i>
+                                    </div>
+                                    <div class="app-icon-bubble" title="Accounting">
+                                        <i class="fas fa-calculator text-success"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column Card (Secure Protection) -->
+                    <div class="col-lg-3 col-md-5 mb-4" data-aos="fade-left" data-aos-delay="100">
+                        <div class="tech-card tech-card-security p-4">
+                            <div class="card-header-simple mb-3">
+                                <span class="card-category">SECURITY</span>
+                                <h5 class="card-title-sm mb-0">Proxy Protection</h5>
+                            </div>
+                            
+                            <div class="text-center my-3 position-relative">
+                                <div class="shield-icon-container">
+                                    <i class="fas fa-shield-halved text-success"></i>
+                                </div>
+                                <div class="shield-pulse-bg"></div>
+                            </div>
+
+                            <div class="security-list mt-3">
+                                <div class="security-item d-flex align-items-center gap-2 mb-2 text-muted">
+                                    <i class="fas fa-check-circle text-success"></i>
+                                    <span>Secured Proxy Protection</span>
+                                </div>
+                                <div class="security-item d-flex align-items-center gap-2 text-muted">
+                                    <i class="fas fa-check-circle text-success"></i>
+                                    <span>Automated Failover</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- Template 2: Cloud Cap Hero (Middle Design) -->
+    <template id="s_cloud_cap_hero" name="Cloud Cap Hero">
+        <section class="s_cloud_cap_hero cr_font py-5" data-snippet="s_cloud_cap_hero" data-name="Cloud Cap Hero">
+            <!-- Top Ocean Wave -->
+<!--            <div class="ocean-wave ocean-wave-top">-->
+<!--                <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--                    <path class="wave-path wp-top-1" d="M0,0 C320,120 420,-40 640,60 C960,180 1120,20 1440,80 L1440,0 L0,0 Z" fill="#dbeafe" opacity="0.85"/>-->
+<!--                    <path class="wave-path wp-top-2" d="M0,0 C180,90 360,30 540,60 C900,120 1260,0 1440,30 L1440,0 L0,0 Z" fill="#93c5fd" opacity="0.6"/>-->
+<!--                    <path class="wave-path wp-top-3" d="M0,0 C240,40 480,80 720,40 C960,0 1200,40 1440,20 L1440,0 L0,0 Z" fill="#bfdbfe" opacity="0.75"/>-->
+<!--                </svg>-->
+<!--            </div>-->
+
+            <!-- Soft Glowing Auras & Cloud Shapes -->
+            <div class="tech-glow-backdrop">
+                <div class="glow-orb orb-left"></div>
+                <div class="glow-orb orb-right"></div>
+                <div class="cloud-shape shape-1"></div>
+                <div class="cloud-shape shape-2"></div>
+            </div>
+
+            <div class="container tech-hero-content text-center" data-aos="fade-up">
+                <!-- Top Launch Pill -->
+<!--                <div class="launch-pill-wrapper mb-4">-->
+<!--                    <a href="/contactus" class="launch-pill">-->
+<!--                        <span class="launch-tag">Odoo 16 Partner</span>-->
+<!--                        <span class="launch-text">Creyox Technologies <i class="fas fa-chevron-right ml-1"></i></span>-->
+<!--                    </a>-->
+<!--                </div>-->
+
+                <!-- Pre-Title -->
+                <p class="hero-pretitle mb-2">Consult. Implement. Automate.</p>
+
+                <!-- Main Hero Title -->
+                <h1 class="hero-title mb-3">
+                    <span class="hero-suffix mb-2">
+                        Leading <span class="highlight-word">Odoo Development</span> company for <span class="highlight-word">ERP Implementation</span>
+                    </span>
+                </h1>
+
+                <!-- Hero Subtitle / Description -->
+                <p class="hero-subtitle mb-4">
+                    Streamline operations, boost productivity, and scale your business with our comprehensive
+                    Odoo ERP solutions tailored for modern enterprises.
+                </p>
+
+                <!-- Combined Capsule CTA Buttons Container -->
+<!--                <div class="cta-capsule-wrapper mb-3">-->
+<!--                    <div class="cta-capsule">-->
+<!--                        <a href="/helpdesk" class="btn-capsule-left">-->
+<!--                            <i class="fa fa-laptop mr-2"></i>-->
+<!--                            <span>Request a Demo</span>-->
+<!--                        </a>-->
+<!--                        <a href="/contactus" class="btn-capsule-right">-->
+<!--                            <span>Buy Now</span>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+                <!-- Theme Technology / Module Integrations -->
+                <div class="theme-integrations-wrapper mt-5">
+                    <p class="integrations-title mb-3 text-uppercase text-muted" style="font-size: 11px; font-weight: 700; letter-spacing: 1.5px;">
+                        Explore Our Services &amp; Solutions
+                    </p>
+                    <div class="integrations-list d-flex justify-content-center align-items-center flex-wrap gap-3 text-muted">
+                        <a href="/services/odoo-development-services" class="integration-item"><i class="fas fa-code text-primary mr-1"></i> Development</a>
+                        <a href="/services/odoo-implementation-services" class="integration-item"><i class="fas fa-rocket text-success mr-1"></i> Implementation</a>
+                        <a href="/services/odoo-integration-services" class="integration-item"><i class="fas fa-link text-warning mr-1"></i> Integration</a>
+                        <a href="/services/odoo-customisation-services" class="integration-item"><i class="fas fa-sliders-h text-info mr-1"></i> Customization</a>
+                        <a href="/services/odoo-migration-services" class="integration-item"><i class="fas fa-exchange-alt text-danger mr-1"></i> Migration</a>
+                        <a href="/services/odoo-consulting-services" class="integration-item"><i class="fas fa-lightbulb text-secondary mr-1"></i> Consulting</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Ocean Wave -->
+<!--            <div class="ocean-wave ocean-wave-bottom">-->
+<!--                <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--                    <path class="wave-path wp-bottom-1" d="M0,120 C320,0 420,160 640,60 C960,-60 1120,100 1440,40 L1440,120 L0,120 Z" fill="#f9fbff"/>-->
+<!--                    <path class="wave-path wp-bottom-2" d="M0,120 C180,30 360,90 540,60 C900,0 1260,120 1440,90 L1440,120 L0,120 Z" fill="#93c5fd" opacity="0.6"/>-->
+<!--                    <path class="wave-path wp-bottom-3" d="M0,120 C240,80 480,40 720,80 C960,120 1200,80 1440,100 L1440,120 L0,120 Z" fill="#bfdbfe" opacity="0.75"/>-->
+<!--                </svg>-->
+<!--            </div>-->
+        </section>
+    </template>
+
+    <!-- Template 3: Excellence Hero (New Data Extraction Style) -->
+    <template id="s_excellence_hero" name="Excellence Hero">
+        <section class="s_excellence_hero cr_font py-5" data-snippet="s_excellence_hero" data-name="Excellence Hero">
+            <!-- Top Ocean Wave -->
+            <div class="ocean-wave ocean-wave-top">
+                <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="wave-path wp-top-1" d="M0,0 C320,120 420,-40 640,60 C960,180 1120,20 1440,80 L1440,0 L0,0 Z" fill="#dbeafe" opacity="0.85"/>
+                    <path class="wave-path wp-top-2" d="M0,0 C180,90 360,30 540,60 C900,120 1260,0 1440,30 L1440,0 L0,0 Z" fill="#93c5fd" opacity="0.6"/>
+                    <path class="wave-path wp-top-3" d="M0,0 C240,40 480,80 720,40 C960,0 1200,40 1440,20 L1440,0 L0,0 Z" fill="#bfdbfe" opacity="0.75"/>
+                </svg>
+            </div>
+
+            <!-- Content Area -->
+            <div class="container tech-hero-content text-center" data-aos="fade-up">
+                <!-- Top Referral Badge -->
+                <div class="referral-badge-wrapper mb-4">
+                    <span class="referral-badge">
+                        Our online referral program is now available. <a href="/contactus" class="badge-link">Earn Rewards</a>
+                    </span>
+                </div>
+
+                <!-- Title -->
+                <h1 class="hero-title mb-3">
+                    Odoo Development<br/>
+                    <span class="highlight-word">Excellence</span> at <span class="highlight-word">Scale</span>
+                </h1>
+
+                <!-- Subtitle Description -->
+                <p class="hero-subtitle text-muted mx-auto mb-4" style="max-width: 720px;">
+                    Deliver robust enterprise automation with our industry-leading Odoo custom development and enjoy seamless module integrations for your business workflows.
+                </p>
+
+                <!-- Sub-features row -->
+                <div class="sub-features-row d-flex justify-content-center flex-wrap gap-4 mb-4 text-muted">
+                    <div class="feature-tag-item">
+                        <i class="fas fa-star text-warning"></i>
+                        <span>4.8 Rating</span>
+                    </div>
+                    <div class="feature-tag-item">
+                        <i class="fas fa-cubes text-primary"></i>
+                        <span>500+ Projects Completed</span>
+                    </div>
+                    <div class="feature-tag-item">
+                        <i class="fas fa-shield-alt text-success"></i>
+                        <span>100% Satisfaction Guarantee</span>
+                    </div>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="cta-btn-wrapper mb-5">
+                    <a href="/contactus" class="btn btn-primary btn-lg rounded-pill px-5 py-3 shadow font-weight-bold">
+                        Get Started <i class="fas fa-chevron-right ml-2" style="font-size: 12px;"></i>
+                    </a>
+                </div>
+
+                <!-- Horizontal Connecting App Icons -->
+                <div class="app-connector-line-wrapper my-5 position-relative">
+                    <div class="connector-horizontal-line"></div>
+                    <div class="connector-icons-row d-flex justify-content-center align-items-center gap-4">
+                        <div class="connector-icon-card card-crm" title="CRM">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <div class="connector-icon-card card-inventory" title="Inventory">
+                            <i class="fas fa-boxes"></i>
+                        </div>
+                        <div class="connector-icon-card card-accounting" title="Accounting">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="connector-icon-card card-sales" title="Sales">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="connector-icon-card card-ecommerce" title="E-commerce">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trust Section -->
+                <div class="trusted-partners-section mt-5">
+                    <p class="partners-title mb-4 text-uppercase">Trusted by Top Partners in the Industry</p>
+                    <div class="partners-logos-row d-flex justify-content-center align-items-center flex-wrap gap-5">
+                        <span class="partner-logo-item"><i class="fab fa-shopify mr-2"></i>Shopify</span>
+                        <span class="partner-logo-item"><i class="fab fa-woocommerce mr-2"></i>WooCommerce</span>
+                        <span class="partner-logo-item"><i class="fab fa-aws mr-2"></i>AWS Cloud</span>
+                        <span class="partner-logo-item"><i class="fab fa-stripe mr-2"></i>Stripe</span>
+                        <span class="partner-logo-item"><i class="fab fa-salesforce mr-2"></i>Salesforce</span>
+                    </div>
+                </div>
+
+                <!-- Bottom Link Pill -->
+                <div class="bottom-landscape-pill-wrapper mt-5">
+                    <a href="/services" class="landscape-link-pill">
+                        <span>Learn how Creyox is transforming Odoo ERP implementations worldwide</span>
+                        <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Bottom Ocean Wave -->
+            <div class="ocean-wave ocean-wave-bottom">
+                <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="wave-path wp-bottom-1" d="M0,120 C320,0 420,160 640,60 C960,-60 1120,100 1440,40 L1440,120 L0,120 Z" fill="#f9fbff"/>
+                    <path class="wave-path wp-bottom-2" d="M0,120 C180,30 360,90 540,60 C900,0 1260,120 1440,90 L1440,120 L0,120 Z" fill="#93c5fd" opacity="0.6"/>
+                    <path class="wave-path wp-bottom-3" d="M0,120 C240,80 480,40 720,80 C960,120 1200,80 1440,100 L1440,120 L0,120 Z" fill="#bfdbfe" opacity="0.75"/>
+                </svg>
+            </div>
+        </section>
+    </template>
+</odoo>

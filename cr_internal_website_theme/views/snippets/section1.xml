@@ -2,8 +2,8 @@
 <odoo>
     <!-- Hero Snippet Template -->
     <template id="hero_snippet_template" name="section-1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-              media="print" onload="this.media='all'"/>
+<!--        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"-->
+<!--              media="print" onload="this.media='all'"/>-->
 
         <section class="hero-section cr_font">
             <style>
@@ -39,15 +39,23 @@
                     justify-content: center;
                     align-items: center;
                 }
+                .rotating-words .word {
+                    white-space: nowrap !important;
+                }
                 @media (min-width: 768px) {
                     .rotating-words {
                         justify-content: flex-start;
-                        min-width: 400px !important;
+                        min-width: 420px !important;
                     }
                 }
                 @media (min-width: 992px) {
                     .rotating-words {
-                        min-width: 430px !important;
+                        min-width: 500px !important;
+                    }
+                }
+                @media (min-width: 1200px) {
+                    .rotating-words {
+                        min-width: 580px !important;
                     }
                 }
                 .desktop-computer {

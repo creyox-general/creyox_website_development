@@ -4,7 +4,7 @@
     <template id="login_custom" inherit_id="web.login" name="Custom Login Page">
          <xpath expr="//input[@type='hidden']" position="after">
              <div class="login_logo_section">
-                <img src="/cr_internal_website_theme/static/src/img/logo_creyox.png" alt="Company Logo" class="login_logo"/>
+                <img src="/cr_internal_website_theme/static/src/img/logo_creyox.webp" alt="Company Logo" class="login_logo"/>
             </div>
          </xpath>
 <!--        <xpath expr="//form[@class='oe_login_form']" position="replace">-->
@@ -14,7 +14,7 @@
 
 <!--                    &lt;!&ndash; Logo Section &ndash;&gt;-->
 <!--                    <div class="login_logo_section">-->
-<!--                        <img src="/cr_internal_website_theme/static/src/img/logo_creyox.png" alt="Company Logo" class="login_logo"/>-->
+<!--                        <img src="/cr_internal_website_theme/static/src/img/logo_creyox.webp" alt="Company Logo" class="login_logo"/>-->
 <!--                    </div>-->
 
 <!--                    &lt;!&ndash; Login Form &ndash;&gt;-->

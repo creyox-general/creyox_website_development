@@ -86,7 +86,7 @@
                     </div>
 
                     <div class="web-usecases-image" data-aos="zoom-in">
-                        <img t-att-src="o_image or '/cr_internal_website_theme/static/src/img/web_use.png'" 
+                        <img t-att-src="o_image or '/cr_internal_website_theme/static/src/img/web_use.webp'" 
                              t-att-alt="o_image_alt or 'Website Use Cases'" 
                              class="img-fluid"/>
                     </div>

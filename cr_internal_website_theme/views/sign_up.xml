@@ -5,7 +5,7 @@
 
          <xpath expr="//input[@type='hidden']" position="after">
              <div class="signup_logo_section">
-                <img src="/cr_internal_website_theme/static/src/img/logo_creyox.png" alt="Company Logo" class="signup_logo"/>
+                <img src="/cr_internal_website_theme/static/src/img/logo_creyox.webp" alt="Company Logo" class="signup_logo"/>
             </div>
          </xpath>
 
@@ -15,7 +15,7 @@
 
 <!--                    &lt;!&ndash; Logo Section &ndash;&gt;-->
 <!--                    <div class="signup_logo_section">-->
-<!--                        <img src="/cr_internal_website_theme/static/src/img/logo_creyox.png" alt="Company Logo" class="signup_logo"/>-->
+<!--                        <img src="/cr_internal_website_theme/static/src/img/logo_creyox.webp" alt="Company Logo" class="signup_logo"/>-->
 <!--&lt;!&ndash;                        <h2 class="signup_title">Create Account</h2>&ndash;&gt;-->
 <!--&lt;!&ndash;                        <p class="signup_subtitle">Join us today and get started</p>&ndash;&gt;-->
 <!--                    </div>-->

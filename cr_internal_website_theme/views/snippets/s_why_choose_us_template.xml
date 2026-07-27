@@ -42,7 +42,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4" data-aos="fade-left">
-                            <div class="mosaic-image-block" t-attf-style="background-image: url('#{o_img1 or '/cr_internal_website_theme/static/src/img/ai_erp_dashboard_premium.png'}');"></div>
+                            <div class="mosaic-image-block" t-attf-style="background-image: url('#{o_img1 or '/cr_internal_website_theme/static/src/img/ai_erp_dashboard_premium.webp'}');"></div>
                         </div>
 
                         <!-- Row 2: Cloud Card (4), Cloud Image (4), Odoo Stack Card (4) -->
@@ -57,7 +57,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 d-none d-lg-block" data-aos="zoom-in">
-                            <div class="mosaic-image-block" t-attf-style="background-image: url('#{o_img2 or '/cr_internal_website_theme/static/src/img/odoo_stack_v3_premium.png'}');"></div>
+                            <div class="mosaic-image-block" t-attf-style="background-image: url('#{o_img2 or '/cr_internal_website_theme/static/src/img/odoo_stack_v3_premium.webp'}');"></div>
                         </div>
                         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                             <div class="stack-card card-dark h-100">
@@ -72,7 +72,7 @@
 
                         <!-- Row 3: Odoo Stack Image (4), Industry Card (4), Team Image (4) -->
                         <div class="col-lg-4" data-aos="fade-right">
-                            <div class="mosaic-image-block" t-attf-style="background-image: url('#{o_img3 or '/cr_internal_website_theme/static/src/img/odoo_stack_premium.png'}');"></div>
+                            <div class="mosaic-image-block" t-attf-style="background-image: url('#{o_img3 or '/cr_internal_website_theme/static/src/img/odoo_stack_premium.webp'}');"></div>
                         </div>
                         <div class="col-lg-4" data-aos="fade-up">
                             <div class="stack-card card-white h-100">
@@ -85,7 +85,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 d-none d-lg-block" data-aos="fade-left">
-                            <div class="mosaic-image-block" t-attf-style="background-image: url('#{o_img4 or '/cr_internal_website_theme/static/src/img/office_team_working_premium.png'}');"></div>
+                            <div class="mosaic-image-block" t-attf-style="background-image: url('#{o_img4 or '/cr_internal_website_theme/static/src/img/office_team_working_premium.webp'}');"></div>
                         </div>
 
                         <!-- Row 4: Support (6) and ROI (6) -->

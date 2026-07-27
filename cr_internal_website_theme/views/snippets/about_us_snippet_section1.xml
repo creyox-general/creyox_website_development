@@ -151,7 +151,7 @@
                         <div class="partner-image-box border-0 bg-transparent" style="box-shadow: none !important;">
                             <div class="asymmetric-grid">
                                 <div class="asymmetric-large">
-                                    <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&amp;q=80"
+                                    <img src="/cr_internal_website_theme/static/src/img/about_us_planning_strategy.webp"
                                             alt="Planning &amp; Strategy"
                                             class="story-img"/>
                                     <div class="image-overlay">
@@ -160,7 +160,7 @@
                                 </div>
 
                                 <div class="asymmetric-small-top">
-                                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&amp;q=80"
+                                    <img src="/cr_internal_website_theme/static/src/img/about_us_dev_implementation.webp"
                                             alt="Development &amp; Implementation"
                                             class="story-img"/>
                                     <div class="image-overlay">
@@ -169,7 +169,7 @@
                                 </div>
 
                                 <div class="asymmetric-small-bottom">
-                                    <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800&amp;q=80"
+                                    <img src="/cr_internal_website_theme/static/src/img/about_us_success_growth.webp"
                                             alt="Success &amp; Growth"
                                             class="story-img"/>
                                     <div class="image-overlay">
@@ -258,7 +258,7 @@
 <!--                    <div class="story-image-wrapper">-->
 <!--                        <div class="asymmetric-grid">-->
 <!--                            <div class="asymmetric-large">-->
-<!--                                <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&amp;q=80"-->
+<!--                                <img src="/cr_internal_website_theme/static/src/img/about_us_planning_strategy.webp"-->
 <!--                                    alt="Planning &amp; Strategy"-->
 <!--                                    class="story-img"/>-->
 <!--                                <div class="image-overlay">-->
@@ -267,7 +267,7 @@
 <!--                            </div>-->
 
 <!--                            <div class="asymmetric-small-top">-->
-<!--                                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&amp;q=80"-->
+<!--                                <img src="/cr_internal_website_theme/static/src/img/about_us_dev_implementation.webp"-->
 <!--                                    alt="Development &amp; Implementation"-->
 <!--                                    class="story-img"/>-->
 <!--                                <div class="image-overlay">-->
@@ -276,7 +276,7 @@
 <!--                            </div>-->
 
 <!--                            <div class="asymmetric-small-bottom">-->
-<!--                                <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800&amp;q=80"-->
+<!--                                <img src="/cr_internal_website_theme/static/src/img/about_us_success_growth.webp"-->
 <!--                                    alt="Success &amp; Growth"-->
 <!--                                    class="story-img"/>-->
 <!--                                <div class="image-overlay">-->

@@ -3,10 +3,10 @@
     <!-- Hero Snippet Template -->
     <template id="service11_odoo_consulting_solution" name="service11_odoo_consulting_solution">
 
-        <link
-                rel="stylesheet"
-                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        />
+<!--        <link-->
+<!--                rel="stylesheet"-->
+<!--                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"-->
+<!--        />-->
         <style>
             .service11-usecases-refined {
                 padding: 40px 0 !important;
@@ -94,7 +94,7 @@
                             </div>
                             <div class="col-lg-6 step-image-col">
                                 <div class="step-card image-card">
-                                    <img src="/cr_internal_website_theme/static/src/img/odoo_consulting_expert.png" alt="Preventing Implementation Pitfalls" class="img-fluid"/>
+                                    <img src="/cr_internal_website_theme/static/src/img/odoo_consulting_expert.webp" alt="Preventing Implementation Pitfalls" class="img-fluid"/>
                                 </div>
                             </div>
                         </div>
@@ -116,7 +116,7 @@
                             </div>
                             <div class="col-lg-6 step-image-col">
                                 <div class="step-card image-card">
-                                    <img src="/cr_internal_website_theme/static/src/img/odoo_process_mapping.png" alt="The Strategic Layer" class="img-fluid"/>
+                                    <img src="/cr_internal_website_theme/static/src/img/odoo_process_mapping.webp" alt="The Strategic Layer" class="img-fluid"/>
                                 </div>
                             </div>
                         </div>
@@ -161,7 +161,7 @@
                             <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center p-0" style="box-shadow: none !important;">
                                 <div class="position-relative">
                                     <div class="image-overlay-glow" style="background: radial-gradient(circle, rgba(67, 97, 238, 0.1) 0%, transparent 70%); width: 140%; height: 140%; position: absolute; top: -20%; left: -20%; z-index: -1;"></div>
-                                    <img src="/cr_internal_website_theme/static/src/img/odoo-consulting.png"
+                                    <img src="/cr_internal_website_theme/static/src/img/odoo-consulting.webp"
                                          alt="Odoo Consulting Definition"
                                          class="img-fluid"
                                          style="max-height: 520px; width: auto; object-fit: contain; border-radius: 40px;"/>
@@ -209,7 +209,7 @@
                             </div>
                         </div>
                         <div class="web-usecases-image" data-aos="zoom-in">
-                            <img src="/cr_internal_website_theme/static/src/img/strategic_advisory_illustration.png" alt="Strategic Advisory" class="img-fluid"/>
+                            <img src="/cr_internal_website_theme/static/src/img/strategic_advisory_illustration.webp" alt="Strategic Advisory" class="img-fluid"/>
                         </div>
                     </div>
                 </div>
@@ -254,7 +254,7 @@
                             </div>
                         </div>
                         <div class="web-usecases-image" data-aos="zoom-in">
-                            <img src="/cr_internal_website_theme/static/src/img/odoo-migration.png" alt="Migration Consulting" class="img-fluid"/>
+                            <img src="/cr_internal_website_theme/static/src/img/odoo-migration.webp" alt="Migration Consulting" class="img-fluid"/>
                         </div>
                     </div>
                 </div>
@@ -287,7 +287,7 @@
                             </div>
                         </div>
                         <div class="web-usecases-image" data-aos="zoom-in">
-                            <img src="/cr_internal_website_theme/static/src/img/usecases.png" alt="Optimization Audit" class="img-fluid"/>
+                            <img src="/cr_internal_website_theme/static/src/img/usecases.webp" alt="Optimization Audit" class="img-fluid"/>
                         </div>
                     </div>
                 </div>

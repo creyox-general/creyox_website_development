@@ -3,10 +3,10 @@
     <!-- Hero Snippet Template -->
     <template id="service9_odoo_migration_solution" name="service9_odoo_migration_solution">
 
-        <link
-                rel="stylesheet"
-                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        />
+<!--        <link-->
+<!--                rel="stylesheet"-->
+<!--                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"-->
+<!--        />-->
         <div class="oe_structure" id="oe_structure_service9_intro_banner">
             <section class="s_service_intro_banner service-intro-banner hero-section-wave cr_font"
                      data-snippet="s_service_intro_banner"
@@ -69,7 +69,7 @@
                         </div>
                         <div class="col-lg-6 p-0" data-aos="fade-left">
                             <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
-                                <img src="/cr_internal_website_theme/static/src/img/odoo-migration.png"
+                                <img src="/cr_internal_website_theme/static/src/img/odoo-migration.webp"
                                      alt="Odoo Migration Services"
                                      class="img-fluid w-100" 
                                      style="object-fit: contain;"/>
@@ -625,7 +625,7 @@
                         </div>
                         <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
                             <div class="partner-image-box">
-                                <img src="/cr_internal_website_theme/static/src/img/step-launch.png" alt="Trusted Odoo Partner" class="img-fluid partner-image"/>
+                                <img src="/cr_internal_website_theme/static/src/img/step-launch.webp" alt="Trusted Odoo Partner" class="img-fluid partner-image"/>
                                 <div class="image-overlay-glow"/>
                             </div>
                         </div>

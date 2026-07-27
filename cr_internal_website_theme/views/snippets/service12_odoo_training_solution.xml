@@ -3,10 +3,10 @@
     <!-- Odoo Training Snippet Template -->
     <template id="service12_odoo_training_solution" name="service12_odoo_training_solution">
 
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        />
+<!--        <link-->
+<!--            rel="stylesheet"-->
+<!--            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"-->
+<!--        />-->
         <div class="oe_structure" id="oe_structure_service12_intro_banner">
             <section class="s_service_intro_banner service-intro-banner hero-section-wave cr_font"
                      data-snippet="s_service_intro_banner"
@@ -67,7 +67,7 @@
                         </div>
                         <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
                             <div class="partner-image-box">
-                                <img src="/cr_internal_website_theme/static/src/img/odoo-training.png"
+                                <img src="/cr_internal_website_theme/static/src/img/odoo-training.webp"
                                      alt="Odoo Training Success"
                                      class="img-fluid partner-image"/>
                                 <div class="image-overlay-glow"/>
@@ -153,7 +153,7 @@
                             </div>
                             <div class="col-lg-6 step-image-col">
                                 <div class="step-card image-card">
-                                    <img src="/cr_internal_website_theme/static/src/img/odoo_functional_training.png" alt="Odoo Functional Training" class="img-fluid" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);"/>
+                                    <img src="/cr_internal_website_theme/static/src/img/odoo_functional_training.webp" alt="Odoo Functional Training" class="img-fluid" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);"/>
                                 </div>
                             </div>
                         </div>
@@ -176,7 +176,7 @@
                             </div>
                             <div class="col-lg-6 step-image-col">
                                 <div class="step-card image-card">
-                                    <img src="/cr_internal_website_theme/static/src/img/odoo-development.png" alt="Odoo Technical Training" class="img-fluid" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);"/>
+                                    <img src="/cr_internal_website_theme/static/src/img/odoo-development.webp" alt="Odoo Technical Training" class="img-fluid" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);"/>
                                 </div>
                             </div>
                         </div>
@@ -198,7 +198,7 @@
                             </div>
                             <div class="col-lg-6 step-image-col">
                                 <div class="step-card image-card">
-                                    <img src="/cr_internal_website_theme/static/src/img/erp-solution.png" alt="Odoo ERP Training" class="img-fluid" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);"/>
+                                    <img src="/cr_internal_website_theme/static/src/img/erp-solution.webp" alt="Odoo ERP Training" class="img-fluid" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);"/>
                                 </div>
                             </div>
                         </div>
@@ -478,7 +478,7 @@
                         </div>
 
                         <div class="web-usecases-image" data-aos="zoom-in" style="display: flex; align-items: center; justify-content: center; flex: 0.8 !important;">
-                            <img src="/cr_internal_website_theme/static/src/img/odoo-dev-industry.png" 
+                            <img src="/cr_internal_website_theme/static/src/img/odoo-dev-industry.webp" 
                                  alt="Why Choose Creyox" 
                                  class="img-fluid" style="border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.05);"/>
                         </div>
@@ -523,7 +523,7 @@
                         
                         <div class="col-lg-6 p-0" data-aos="fade-left" data-aos-delay="100">
                             <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
-                                <img src="/cr_internal_website_theme/static/src/img/odoo_consulting_workshop.png"
+                                <img src="/cr_internal_website_theme/static/src/img/odoo_consulting_workshop.webp"
                                      alt="Odoo Implementation Experts"
                                      class="img-fluid w-100" 
                                      style="object-fit: contain; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.05);"/>
@@ -575,73 +575,73 @@
                             <div class="row g-4 justify-content-center">
                                 <div class="col-lg-3 col-md-6 sub-card-item">
                                     <div class="sub-card">
-                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_sale_icon.png" alt="Sales &amp; CRM"/></div>
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_sale_icon.webp" alt="Sales &amp; CRM"/></div>
                                         <h4>Sales &amp; CRM</h4>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 sub-card-item">
                                     <div class="sub-card">
-                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_purchase_icon.png" alt="Purchase Management"/></div>
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_purchase_icon.webp" alt="Purchase Management"/></div>
                                         <h4>Purchase Management</h4>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 sub-card-item">
                                     <div class="sub-card">
-                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_stock_icon.png" alt="Inventory &amp; Warehouse"/></div>
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_stock_icon.webp" alt="Inventory &amp; Warehouse"/></div>
                                         <h4>Inventory &amp; Warehouse</h4>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 sub-card-item">
                                     <div class="sub-card">
-                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_mrp_icon.png" alt="Manufacturing (MRP)"/></div>
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_mrp_icon.webp" alt="Manufacturing (MRP)"/></div>
                                         <h4>Manufacturing (MRP)</h4>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 sub-card-item">
                                     <div class="sub-card">
-                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_account_icon.png" alt="Accounting &amp; Finance"/></div>
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_account_icon.webp" alt="Accounting &amp; Finance"/></div>
                                         <h4>Accounting &amp; Finance</h4>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 sub-card-item">
                                     <div class="sub-card">
-                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_hr_icon.png" alt="Human Resources"/></div>
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_hr_icon.webp" alt="Human Resources"/></div>
                                         <h4>Human Resources</h4>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 sub-card-item">
                                     <div class="sub-card">
-                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_hr_payroll_icon.png" alt="Payroll"/></div>
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_hr_payroll_icon.webp" alt="Payroll"/></div>
                                         <h4>Payroll</h4>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 sub-card-item">
                                     <div class="sub-card">
-                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_project_icon.png" alt="Project Management"/></div>
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_project_icon.webp" alt="Project Management"/></div>
                                         <h4>Project Management</h4>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 sub-card-item">
                                     <div class="sub-card">
-                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_helpdesk_icon.png" alt="Helpdesk"/></div>
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_helpdesk_icon.webp" alt="Helpdesk"/></div>
                                         <h4>Helpdesk</h4>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 sub-card-item">
                                     <div class="sub-card">
-                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_point_of_sale_icon.png" alt="Point of Sale"/></div>
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_point_of_sale_icon.webp" alt="Point of Sale"/></div>
                                         <h4>Point of Sale</h4>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 sub-card-item">
                                     <div class="sub-card">
-                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_website_sale_icon.png" alt="E-Commerce"/></div>
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_website_sale_icon.webp" alt="E-Commerce"/></div>
                                         <h4>E-Commerce</h4>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 sub-card-item">
                                     <div class="sub-card">
-                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_mass_mailing_icon.png" alt="Email Marketing"/></div>
+                                        <div class="sub-icon"><img src="/cr_internal_website_theme/static/src/img/odoo_mass_mailing_icon.webp" alt="Email Marketing"/></div>
                                         <h4>Email Marketing</h4>
                                     </div>
                                 </div>

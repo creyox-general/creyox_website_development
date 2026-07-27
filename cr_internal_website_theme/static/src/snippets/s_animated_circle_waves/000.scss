@@ -1,0 +1,705 @@
+/* Animated Circle Waves Snippet Stylesheet */
+
+.s_animated_circle_waves {
+    position: relative;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: transparent !important;
+    padding: 120px 0;
+    z-index: 1;
+
+    /* Widescreen Background Layer (Non-Stretching Contain) */
+    .waves-static-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('/cr_internal_website_theme/static/src/img/background_only_clean.webp');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 0;
+        pointer-events: none;
+    }
+
+    /* Wave & Orbit Wrapper */
+    .waves-background-wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+        z-index: 1;
+
+        /* Zooming Out Ripple Circles (Visual Only) */
+        .ripple-ring {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            border-radius: 50%;
+            border: 1.5px solid rgba(37, 99, 235, 0.4);
+            box-shadow: 0 0 25px rgba(37, 99, 235, 0.12);
+            pointer-events: none;
+            width: 740px;
+            height: 740px;
+            transform: translate(-50%, -50%) scale(0.07);
+            opacity: 0;
+
+            &.ripple-1 {
+                animation: ripple-out-slow 20s infinite linear;
+                animation-delay: 0s;
+            }
+
+            &.ripple-2 {
+                animation: ripple-out-slow 20s infinite linear;
+                animation-delay: 5s;
+            }
+
+            &.ripple-3 {
+                animation: ripple-out-slow 20s infinite linear;
+                animation-delay: 10s;
+            }
+
+            &.ripple-4 {
+                animation: ripple-out-slow 20s infinite linear;
+                animation-delay: 15s;
+            }
+        }
+
+        /* Fixed Orbit Tracks for Icons (Rotation Only) */
+        .orbit-track {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            border-radius: 50%;
+            border: 1px dashed rgba(59, 130, 246, 0.05);
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+
+            &.track-2 {
+                width: 560px;
+                height: 560px;
+                animation: orbit-clockwise 70s infinite linear;
+
+                .node-glass {
+                    animation: counter-orbit-clockwise 70s infinite linear;
+                }
+            }
+
+            &.track-3 {
+                width: 760px;
+                height: 760px;
+                animation: orbit-counter-clockwise 90s infinite linear;
+
+                .node-glass {
+                    animation: counter-orbit-counter-clockwise 90s infinite linear;
+                }
+            }
+
+            &.track-4 {
+                width: 960px;
+                height: 960px;
+                animation: orbit-clockwise 110s infinite linear;
+
+                .node-glass {
+                    animation: counter-orbit-clockwise 110s infinite linear;
+                }
+            }
+        }
+    }
+
+    /* Central Luminous Glow */
+    .center-glow {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 600px;
+        height: 600px;
+        background: radial-gradient(circle, #cbd5e1 0%, #e2e8f0 45%, transparent 70%);
+        filter: blur(25px);
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    /* Orbiting Nodes and Glassmorphic Styling */
+    .orbiting-node {
+        position: absolute;
+        width: 54px;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        pointer-events: none;
+        transform: translate(-50%, -50%);
+
+        /* Mathematical placement along the rings */
+        /* Ring 2 positions (0 deg, 120 deg, 240 deg) */
+        &.node-1 {
+            top: 0%;
+            left: 50%;
+        }
+
+        &.node-2 {
+            top: 75%;
+            left: 93.3%;
+        }
+
+        &.node-3 {
+            top: 75%;
+            left: 6.7%;
+        }
+
+        /* Ring 3 positions (60 deg, 180 deg, 300 deg) */
+        &.node-4 {
+            top: 25%;
+            left: 93.3%;
+        }
+
+        &.node-5 {
+            top: 100%;
+            left: 50%;
+        }
+
+        &.node-6 {
+            top: 25%;
+            left: 6.7%;
+        }
+
+        /* Ring 4 positions (90 deg, 270 deg) */
+        &.node-7 {
+            top: 50%;
+            left: 100%;
+        }
+
+        &.node-8 {
+            top: 50%;
+            left: 0%;
+        }
+    }
+
+    .node-glass {
+        pointer-events: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 54px;
+        height: 54px;
+        padding: 12px;
+        background: #ffffff;
+        border: 1px solid rgba(59, 130, 246, 0.2);
+        border-radius: 50%;
+        box-shadow: 0 4px 12px rgba(10, 37, 64, 0.05);
+        cursor: pointer;
+
+        i {
+            font-size: 20px;
+        }
+
+        .node-label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #0f2a4a;
+        }
+    }
+
+    /* Central Content */
+    .hero-container {
+        z-index: 2;
+    }
+
+    .hero-brand {
+        font-size: 24px;
+        font-weight: 700;
+        color: #1e3a8a;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .hero-title {
+        font-size: 52px;
+        font-weight: 800;
+        line-height: 1.2;
+        color: #0f172a;
+        margin-bottom: 24px;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .highlight-word {
+            color: #2563eb;
+            font-weight: 800;
+        }
+
+        .highlight-gradient {
+            display: inline-block;
+            background: linear-gradient(120deg, #1e40af 0%, #3b82f6 30%, #06b6d4 70%, #1e40af 100%);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shineText 6s linear infinite;
+        }
+
+        .highlight-gradient-alt {
+            display: inline-block;
+            background: linear-gradient(120deg, #06b6d4 0%, #3b82f6 30%, #1e40af 70%, #06b6d4 100%);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shineText 6s linear infinite reverse;
+        }
+    }
+
+    .hero-subtitle {
+        font-size: 20px;
+        color: #4b5563;
+        max-width: 650px;
+        line-height: 1.6;
+    }
+
+    /* Dynamic Rotating Words */
+    .rotating-words {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center !important;
+        vertical-align: baseline;
+        margin: 0 auto;
+
+        .word {
+            position: absolute;
+            left: 0;
+            right: 0;
+            text-align: center;
+            opacity: 0;
+            white-space: nowrap;
+            color: #2563eb;
+            font-weight: 800;
+            transform: translateY(30px);
+            animation: rotateWordAnimation 12s infinite ease-in-out;
+
+            &:nth-child(1) {
+                animation-delay: 0s;
+            }
+
+            &:nth-child(2) {
+                animation-delay: 3s;
+            }
+
+            &:nth-child(3) {
+                animation-delay: 6s;
+            }
+
+            &:nth-child(4) {
+                animation-delay: 9s;
+            }
+        }
+
+        /* Typewriter Mode Styles */
+        .typewriter-word {
+            display: inline-block;
+            color: #2563eb;
+            font-weight: 800;
+            white-space: nowrap;
+        }
+
+        .typewriter-cursor {
+            color: #2563eb;
+            font-weight: 400;
+            margin-left: 2px;
+            animation: blinkCursor 0.8s infinite steps(2, start);
+        }
+    }
+}
+
+/* --- ANIMATION KEYFRAMES --- */
+
+/* Clockwise Orbit & Counter-Orbit */
+@keyframes orbit-clockwise {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes counter-orbit-clockwise {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+/* Counter-Clockwise Orbit & Counter-Orbit */
+@keyframes orbit-counter-clockwise {
+    from {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+@keyframes counter-orbit-counter-clockwise {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Zooming Ripple keyframe */
+@keyframes ripple-out-slow {
+    0% {
+        transform: translate(-50%, -50%) scale(0.1);
+        opacity: 0;
+    }
+
+    15% {
+        opacity: 0.8;
+    }
+
+    80% {
+        opacity: 0.35;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(3.5);
+        opacity: 0;
+    }
+}
+
+/* Rotating Words */
+@keyframes rotateWordAnimation {
+
+    0%,
+    20% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    22%,
+    45% {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+
+    47%,
+    100% {
+        opacity: 0;
+        transform: translateX(-50%) translateY(-30px);
+    }
+}
+
+@keyframes blinkCursor {
+    to {
+        visibility: hidden;
+    }
+}
+
+/* Responsiveness */
+@media (max-width: 991.98px) {
+    .s_animated_circle_waves {
+        padding: 80px 0;
+        min-height: auto;
+        text-align: center;
+
+        .waves-static-bg {
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero-content {
+            margin: 0 auto;
+        }
+
+        .rotating-words {
+            justify-content: center;
+        }
+
+        .hero-title {
+            font-size: 38px;
+        }
+
+        .waves-background-wrapper {
+            .ripple-ring {
+                width: 460px;
+                height: 460px;
+            }
+
+            .orbit-track {
+                &.track-2 {
+                    width: 320px;
+                    height: 320px;
+                }
+
+                &.track-3 {
+                    width: 460px;
+                    height: 460px;
+                }
+
+                &.track-4 {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .s_animated_circle_waves {
+        padding: 60px 0;
+
+        .hero-title {
+            font-size: 28px;
+        }
+
+        .hero-subtitle {
+            font-size: 16px;
+        }
+
+        /* Hide background rings & orbit on small mobile screens to prevent overflow/clipping */
+        .waves-background-wrapper {
+            display: none;
+        }
+
+        .center-glow {
+            width: 320px;
+            height: 320px;
+        }
+
+        /* Standardize layout: render nodes as a nice grid list below content */
+        .orbiting-wrapper {
+            display: none;
+        }
+
+        /* Render simple mobile icons list under the hero */
+        .hero-container {
+            .mobile-nodes-list {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 12px;
+                margin-top: 40px;
+
+                .mobile-node {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    padding: 8px 16px;
+                    background: rgba(255, 255, 255, 0.85);
+                    border: 1px solid rgba(59, 130, 246, 0.2);
+                    border-radius: 30px;
+                    font-size: 13px;
+                    font-weight: 600;
+                    color: #0f2a4a;
+                }
+            }
+        }
+    }
+}
+
+/* Ensure mobile list is hidden on desktop */
+@media (min-width: 768px) {
+    .mobile-nodes-list {
+        display: none !important;
+    }
+}
+
+@keyframes shineText {
+    0% {
+        background-position: 0% center;
+    }
+
+    100% {
+        background-position: 200% center;
+    }
+}
+
+/* Floating Particles/Dots */
+.particles-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.particle {
+    position: absolute;
+    border-radius: 50%;
+    background: #3b82f6;
+    opacity: 0;
+    animation: pulseParticle 6s infinite ease-in-out;
+
+    &.p-1 {
+        top: 15%;
+        left: 8%;
+        width: 3px;
+        height: 3px;
+        animation-delay: 0s;
+    }
+
+    &.p-2 {
+        top: 25%;
+        left: 85%;
+        width: 4px;
+        height: 4px;
+        animation-delay: 1.5s;
+        background: #60a5fa;
+    }
+
+    &.p-3 {
+        top: 75%;
+        left: 12%;
+        width: 2px;
+        height: 2px;
+        animation-delay: 3s;
+        background: #2563eb;
+    }
+
+    &.p-4 {
+        top: 85%;
+        left: 78%;
+        width: 3px;
+        height: 3px;
+        animation-delay: 4.5s;
+    }
+
+    &.p-5 {
+        top: 45%;
+        left: 92%;
+        width: 2px;
+        height: 2px;
+        animation-delay: 2s;
+        background: #93c5fd;
+    }
+
+    &.p-6 {
+        top: 60%;
+        left: 5%;
+        width: 4px;
+        height: 4px;
+        animation-delay: 3.5s;
+    }
+}
+
+@keyframes pulseParticle {
+
+    0%,
+    100% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    50% {
+        opacity: 0.65;
+        transform: scale(1.0);
+        box-shadow: 0 0 6px rgba(59, 130, 246, 0.3);
+    }
+}
+
+
+/* Ocean Wave Decorations */
+.ocean-wave {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 3;
+
+    svg {
+        position: absolute;
+        left: 0;
+        width: 200%;
+        height: 100%;
+        display: block;
+    }
+
+    &.ocean-wave-top {
+        top: -1px;
+
+        svg {
+            top: 0;
+        }
+    }
+
+    &.ocean-wave-bottom {
+        bottom: -1px;
+
+        svg {
+            bottom: 0;
+        }
+    }
+}
+
+.wave-path {
+    transform-origin: center;
+    will-change: transform;
+
+    &.wp-top-1 {
+        animation: wave-flow-1 25s infinite ease-in-out;
+    }
+
+    &.wp-top-2 {
+        animation: wave-flow-2 18s infinite ease-in-out;
+    }
+
+    &.wp-top-3 {
+        animation: wave-flow-1 21s infinite ease-in-out;
+    }
+
+    &.wp-bottom-1 {
+        animation: wave-flow-1 24s infinite ease-in-out;
+    }
+
+    &.wp-bottom-2 {
+        animation: wave-flow-2 16s infinite ease-in-out;
+    }
+
+    &.wp-bottom-3 {
+        animation: wave-flow-1 20s infinite ease-in-out;
+    }
+}
+
+@keyframes wave-flow-1 {
+
+    0%,
+    100% {
+        transform: translate3d(0, 0, 0) scaleY(1);
+    }
+
+    50% {
+        transform: translate3d(-150px, 12px, 0) scaleY(0.85);
+    }
+}
+
+@keyframes wave-flow-2 {
+
+    0%,
+    100% {
+        transform: translate3d(0, 0, 0) scaleY(1);
+    }
+
+    50% {
+        transform: translate3d(150px, -8px, 0) scaleY(1.1);
+    }
+}

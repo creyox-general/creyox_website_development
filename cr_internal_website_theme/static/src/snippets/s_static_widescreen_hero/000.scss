@@ -1,0 +1,100 @@
+/* Static Widescreen Hero Snippet Stylesheet */
+
+.s_static_widescreen_hero {
+    position: relative;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #f4f8ff;
+    padding: 120px 0;
+    z-index: 1;
+
+    /* Widescreen Background Layer (Non-Stretching Contain) */
+    .waves-static-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('/cr_internal_website_theme/static/src/img/hero_section_1.webp');
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 0;
+        pointer-events: none;
+    }
+
+    /* Center-aligned Luminous Glow for Text Readability */
+    .center-glow {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 800px;
+        height: 800px;
+        transform: translate(-50%, -50%);
+        background: radial-gradient(circle, rgba(59, 130, 246, 0.12) 0%, rgba(255, 255, 255, 0) 70%);
+        border-radius: 50%;
+        z-index: 0;
+        pointer-events: none;
+    }
+
+    /* Central Content */
+    .hero-container {
+        z-index: 2;
+    }
+
+    .hero-title {
+        font-size: 52px;
+        font-weight: 800;
+        line-height: 1.2;
+        color: #0f172a;
+        margin-bottom: 24px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        text-transform: uppercase;
+
+        .highlight-gradient {
+            display: inline-block;
+            background: linear-gradient(120deg, #1e40af 0%, #3b82f6 30%, #06b6d4 70%, #1e40af 100%);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shineText 6s linear infinite;
+        }
+
+        .highlight-gradient-alt {
+            display: inline-block;
+            background: linear-gradient(120deg, #06b6d4 0%, #3b82f6 30%, #1e40af 70%, #06b6d4 100%);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shineText 6s linear infinite reverse;
+        }
+    }
+}
+
+/* Responsiveness */
+@media (max-width: 991.98px) {
+    .s_static_widescreen_hero {
+        padding: 80px 0;
+        min-height: auto;
+        text-align: center;
+
+        .hero-title {
+            font-size: 38px;
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .s_static_widescreen_hero {
+        padding: 60px 0;
+
+        .hero-title {
+            font-size: 32px;
+        }
+    }
+}

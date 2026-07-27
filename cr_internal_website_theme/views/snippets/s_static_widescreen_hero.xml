@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="s_static_widescreen_hero" name="Static Widescreen Hero">
+        <section class="s_static_widescreen_hero cr_font py-5" data-snippet="s_static_widescreen_hero" data-name="Static Widescreen Hero">
+            <!-- Widescreen Static Background Image (Pure CSS aspect ratio preservation) -->
+            <div class="waves-static-bg"></div>
+
+            <!-- Center-aligned Luminous Glow for Text Readability -->
+            <div class="center-glow"></div>
+
+            <div class="container hero-container position-relative">
+                <div class="row justify-content-center text-center">
+                    <!-- Centered Hero Content -->
+                    <div class="col-lg-10 hero-content" data-aos="zoom-in">
+                        <h1 class="hero-title">
+                            <span class="hero-suffix mb-2">
+                                Leading <span class="highlight-gradient">Odoo Development</span> Company for <span class="highlight-gradient-alt">ERP Implementation</span> &amp; <span class="highlight-gradient-alt">Business Automation</span>
+                            </span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

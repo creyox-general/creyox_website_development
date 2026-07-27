@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="s_animated_circle_waves" name="Animated Circle Waves">
+        <!-- Load FontAwesome 6 for modern brand and solid icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+              media="print" onload="this.media='all'"/>
+
+        <section class="s_animated_circle_waves cr_font py-5" data-snippet="s_animated_circle_waves" data-name="Animated Circle Waves">
+            <!-- Top Ocean Wave -->
+<!--            <div class="ocean-wave ocean-wave-top">-->
+<!--                <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--                    <path class="wave-path wp-top-1" d="M0,0 C320,120 420,-40 640,60 C960,180 1120,20 1440,80 L1440,0 L0,0 Z" fill="#dbeafe" opacity="0.85"/>-->
+<!--                    <path class="wave-path wp-top-2" d="M0,0 C180,90 360,30 540,60 C900,120 1260,0 1440,30 L1440,0 L0,0 Z" fill="#93c5fd" opacity="0.6"/>-->
+<!--                    <path class="wave-path wp-top-3" d="M0,0 C240,40 480,80 720,40 C960,0 1200,40 1440,20 L1440,0 L0,0 Z" fill="#bfdbfe" opacity="0.75"/>-->
+<!--                </svg>-->
+<!--            </div>-->
+            <!-- Concentric Rings & Orbiting Nodes (Without text labels, icons only) -->
+            <div class="waves-background-wrapper">
+                <!-- Visual Ripples (Zooming Out / Expanding Rings) -->
+<!--                <div class="ripple-ring ripple-1"></div>-->
+<!--                <div class="ripple-ring ripple-2"></div>-->
+<!--                <div class="ripple-ring ripple-3"></div>-->
+<!--                <div class="ripple-ring ripple-4"></div>-->
+
+                <!-- Orbit Tracks for Icons (Fixed Paths / Rotation Only) -->
+                <!-- Track 2 (Middle-Inner) -->
+                <div class="orbit-track track-2">
+                    <div class="orbiting-node node-1">
+                        <div class="node-glass">
+                            <i class="fab fa-python text-primary"></i>
+                        </div>
+                    </div>
+                    <div class="orbiting-node node-2">
+                        <div class="node-glass">
+                            <i class="fas fa-database text-info"></i>
+                        </div>
+                    </div>
+                    <div class="orbiting-node node-3">
+                        <div class="node-glass">
+                            <i class="fas fa-cloud text-success"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Track 3 (Middle-Outer) -->
+                <div class="orbit-track track-3">
+                    <div class="orbiting-node node-4">
+                        <div class="node-glass">
+                            <i class="fas fa-cogs text-warning"></i>
+                        </div>
+                    </div>
+                    <div class="orbiting-node node-5">
+                        <div class="node-glass">
+                            <i class="fas fa-chart-line text-danger"></i>
+                        </div>
+                    </div>
+                    <div class="orbiting-node node-6">
+                        <div class="node-glass">
+                            <i class="fas fa-users text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Track 4 (Outer) -->
+                <div class="orbit-track track-4">
+                    <div class="orbiting-node node-7">
+                        <div class="node-glass">
+                            <i class="fas fa-shopping-cart text-info"></i>
+                        </div>
+                    </div>
+                    <div class="orbiting-node node-8">
+                        <div class="node-glass">
+                            <i class="fas fa-cubes text-secondary"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="waves-static-bg"></div>
+
+
+
+            <!-- Background Floating Particles/Dots -->
+            <div class="particles-container">
+                <div class="particle p-1"></div>
+                <div class="particle p-2"></div>
+                <div class="particle p-3"></div>
+                <div class="particle p-4"></div>
+                <div class="particle p-5"></div>
+                <div class="particle p-6"></div>
+            </div>
+
+            <!-- Central Luminous Glow for Text Readability -->
+            <div class="center-glow"></div>
+
+            <!-- Central Hero Content -->
+            <div class="container hero-container position-relative">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-10 hero-content" data-aos="zoom-in">
+                        <h1 class="hero-title">
+                            <span class="hero-suffix mb-2">
+                                Leading <span class="highlight-word">Odoo Development</span> company for <span class="highlight-word">ERP Implementation</span>
+                            </span>
+                        </h1>
+
+                        <!-- Mobile nodes fallback grid (Without labels, icons only) -->
+                        <div class="mobile-nodes-list mt-5">
+                            <div class="mobile-node">
+                                <i class="fab fa-python text-primary"></i>
+                            </div>
+                            <div class="mobile-node">
+                                <i class="fas fa-database text-info"></i>
+                            </div>
+                            <div class="mobile-node">
+                                <i class="fas fa-cloud text-success"></i>
+                            </div>
+                            <div class="mobile-node">
+                                <i class="fas fa-cogs text-warning"></i>
+                            </div>
+                            <div class="mobile-node">
+                                <i class="fas fa-chart-line text-danger"></i>
+                            </div>
+                            <div class="mobile-node">
+                                <i class="fas fa-users text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom Ocean Wave -->
+<!--            <div class="ocean-wave ocean-wave-bottom">-->
+<!--                <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--                    <path class="wave-path wp-bottom-1" d="M0,120 C320,0 420,160 640,60 C960,-60 1120,100 1440,40 L1440,120 L0,120 Z" fill="#f9fbff"/>-->
+<!--                    <path class="wave-path wp-bottom-2" d="M0,120 C180,30 360,90 540,60 C900,0 1260,120 1440,90 L1440,120 L0,120 Z" fill="#93c5fd" opacity="0.6"/>-->
+<!--                    <path class="wave-path wp-bottom-3" d="M0,120 C240,80 480,40 720,80 C960,120 1200,80 1440,100 L1440,120 L0,120 Z" fill="#bfdbfe" opacity="0.75"/>-->
+<!--                </svg>-->
+<!--            </div>-->
+        </section>
+<!--        <section class="s_animated_circle_waves cr_font py-5">-->
+<!--            &lt;!&ndash; Widescreen Static Background Image (Pure CSS aspect ratio preservation) &ndash;&gt;-->
+<!--            <div class="waves-static-bg"></div>-->
+
+<!--            &lt;!&ndash; Center-aligned Luminous Glow for Text Readability &ndash;&gt;-->
+<!--            <div class="center-glow"></div>-->
+
+<!--            <div class="container hero-container position-relative">-->
+<!--                <div class="row justify-content-center text-center">-->
+<!--                    &lt;!&ndash; Centered Hero Content &ndash;&gt;-->
+<!--                    <div class="col-lg-10 hero-content" data-aos="zoom-in">-->
+<!--                        <h1 class="hero-title">-->
+<!--                            <span class="hero-suffix mb-2">-->
+<!--                                Leading <span class="highlight-gradient">Odoo Development</span> Company for <span class="highlight-gradient-alt">ERP Implementation</span> &amp; <span class="highlight-gradient-alt">Business Automation</span>-->
+<!--                            </span>-->
+<!--                        </h1>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+    </template>
+</odoo>

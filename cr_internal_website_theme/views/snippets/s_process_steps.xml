@@ -27,7 +27,7 @@
                         </div>
                         <div class="col-lg-6 step-image-col">
                             <div class="step-card image-card">
-                                <img src="/cr_internal_website_theme/static/src/img/odoo_partner_trust.png" alt="Discovery" class="img-fluid"/>
+                                <img src="/cr_internal_website_theme/static/src/img/odoo_partner_trust.webp" alt="Discovery" class="img-fluid"/>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                         </div>
                         <div class="col-lg-6 step-image-col">
                             <div class="step-card image-card">
-                                <img src="/cr_internal_website_theme/static/src/img/odoo_partner_trust.png" alt="Configuration" class="img-fluid"/>
+                                <img src="/cr_internal_website_theme/static/src/img/odoo_partner_trust.webp" alt="Configuration" class="img-fluid"/>
                             </div>
                         </div>
                     </div>

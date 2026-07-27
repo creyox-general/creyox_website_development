@@ -3,10 +3,10 @@
     <!-- Hero Snippet Template -->
     <template id="service8_odoo_customization_solution" name="service8_odoo_customization_solution">
 
-        <link
-                rel="stylesheet"
-                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        />
+<!--        <link-->
+<!--                rel="stylesheet"-->
+<!--                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"-->
+<!--        />-->
         <div class="oe_structure" id="oe_structure_service8_intro_banner">
             <section class="s_service_intro_banner service-intro-banner hero-section-wave cr_font"
                      data-snippet="s_service_intro_banner"
@@ -73,7 +73,7 @@
                         </div>
                         <div class="col-lg-6 p-0" data-aos="fade-left">
                             <div class="partner-image-box" style="box-shadow: none !important;">
-                                <img src="/cr_internal_website_theme/static/src/img/odoo-customization.png"
+                                <img src="/cr_internal_website_theme/static/src/img/odoo-customization.webp"
                                      alt="Odoo Customization Services"
                                      class="img-fluid w-100" 
                                      style="object-fit: contain;"/>
@@ -179,7 +179,7 @@
                         </div>
 
                         <div class="web-usecases-image" data-aos="zoom-in">
-                            <img src="/cr_internal_website_theme/static/src/img/step1.jpg" 
+                            <img src="/cr_internal_website_theme/static/src/img/step1.webp" 
                                  alt="Odoo Customization Tailoring" 
                                  class="img-fluid"/>
                         </div>

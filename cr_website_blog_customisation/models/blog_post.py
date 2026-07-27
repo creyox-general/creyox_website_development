@@ -73,7 +73,7 @@ class BlogPost(models.Model):
 "@type": "BlogPosting",
 "headline": {headline_esc},
 "description": {description_esc},
-"image": {image_val_esc},  
+"image": "",
 "author": {{
     "@type": "Organization",
     "name": {author_name_esc}
@@ -94,11 +94,11 @@ class BlogPost(models.Model):
 
     @api.model
     def _cron_generate_default_schema(self):
-        blog_posts = self.search([('is_published', '=', True), ('schema', '=', False)])
+        blog_posts = self.search([('is_published', '=', True)])
         for post in blog_posts:
             try:
                 schema_code = post._generate_default_schema()
-                super(BlogPost, post).write({'schema': schema_code})
+                post.write({'schema': schema_code})
             except Exception:
                 pass
         cron = self.env.ref('cr_website_blog_customisation.ir_cron_generate_blog_post_schemas', raise_if_not_found=False)

@@ -3,10 +3,10 @@
 
     <template id="service14_mobile_app_dev_solution" name="service14_mobile_app_dev_solution">
 
-        <link
-                rel="stylesheet"
-                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        />
+<!--        <link-->
+<!--                rel="stylesheet"-->
+<!--                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"-->
+<!--        />-->
 
         <!-- ================= 1. Intro Banner ================= -->
         <div class="oe_structure" id="oe_structure_service14_intro_banner">
@@ -56,17 +56,17 @@
                                 <div class="step-card text-card">
                                     <h3 class="step-title">Trusted Mobile App Development Partner</h3>
                                     <p class="step-desc">Creyox Technologies is a trusted custom mobile app development company delivering high-performance iOS, Android, and cross-platform applications for enterprises and startups across the Globe.</p>
-                                    <div class="partner-cta-group mt-4">
-                                        <a href="/contactus" class="cta-button primary">
-                                            <span>Get a Consultation</span>
-                                            <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
-                                        </a>
-                                    </div>
+<!--                                    <div class="partner-cta-group mt-4">-->
+<!--                                        <a href="/contactus" class="cta-button primary">-->
+<!--                                            <span>Get a Consultation</span>-->
+<!--                                            <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>-->
+<!--                                        </a>-->
+<!--                                    </div>-->
                                 </div>
                             </div>
                             <div class="col-lg-6 step-image-col">
                                 <div class="step-card image-card">
-                                    <img src="/cr_internal_website_theme/static/src/img/mobile_app_partner.png" alt="Trusted Mobile App Partner" class="img-fluid"/>
+                                    <img src="/cr_internal_website_theme/static/src/img/mobile_app_partner.webp" alt="Trusted Mobile App Partner" class="img-fluid"/>
                                 </div>
                             </div>
                         </div>
@@ -78,16 +78,22 @@
                                     <h3 class="step-title">Apps That Scale With Your Business</h3>
                                     <p class="step-desc">Whether you need a sleek consumer app, a robust enterprise mobile solution, or an Odoo-integrated mobile platform — our team of expert developers builds apps that scale.</p>
                                     <div class="partner-cta-group mt-4">
-                                        <a href="/portfolio" class="cta-button secondary ms-3">
-                                            <span>View Our Work</span>
-                                            <i class="fas fa-external-link-alt ms-2" aria-hidden="true"/>
+                                        <a href="/contactus" class="cta-button primary">
+                                            <span>Get a Consultation</span>
+                                            <i class="fas fa-arrow-right ms-2" aria-hidden="true"/>
                                         </a>
                                     </div>
+<!--                                    <div class="partner-cta-group mt-4">-->
+<!--                                        <a href="/portfolio" class="cta-button secondary ms-3">-->
+<!--                                            <span>View Our Work</span>-->
+<!--                                            <i class="fas fa-external-link-alt ms-2" aria-hidden="true"/>-->
+<!--                                        </a>-->
+<!--                                    </div>-->
                                 </div>
                             </div>
                             <div class="col-lg-6 step-image-col">
                                 <div class="step-card image-card">
-                                    <img src="/cr_internal_website_theme/static/src/img/mobile_app_scale.png" alt="Apps That Scale" class="img-fluid"/>
+                                    <img src="/cr_internal_website_theme/static/src/img/mobile_app_scale.webp" alt="Apps That Scale" class="img-fluid"/>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +134,7 @@
                         </div>
                         <div class="col-lg-6 p-0">
                             <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
-                                <img src="/cr_internal_website_theme/static/src/img/mobile_app_lifecycle.png"
+                                <img src="/cr_internal_website_theme/static/src/img/mobile_app_lifecycle.webp"
                                      alt="Mobile App Development Expertise"
                                      class="img-fluid w-100"
                                      style="object-fit: contain;"/>
@@ -303,7 +309,7 @@
                         </div>
                         <div class="col-lg-6 p-0">
                             <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
-                                <img src="/cr_internal_website_theme/static/src/img/odoo_mobile_dev.png"
+                                <img src="/cr_internal_website_theme/static/src/img/odoo_mobile_dev.webp"
                                      alt="Odoo Mobile App Development"
                                      class="img-fluid w-100"
                                      style="object-fit: contain;"/>

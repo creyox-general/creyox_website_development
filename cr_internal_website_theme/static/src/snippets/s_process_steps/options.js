@@ -35,7 +35,7 @@ odoo.define('cr_internal_website_theme.s_process_steps_options', function (requi
                     </div>
                     <div class="col-lg-6 step-image-col">
                         <div class="step-card image-card">
-                            <img src="/cr_internal_website_theme/static/src/img/odoo_partner_trust.png" alt="New Step" class="img-fluid"/>
+                            <img src="/cr_internal_website_theme/static/src/img/odoo_partner_trust.webp" alt="New Step" class="img-fluid"/>
                         </div>
                     </div>
                 </div>

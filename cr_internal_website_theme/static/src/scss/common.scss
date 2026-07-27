@@ -1,5 +1,78 @@
+/* Local Outfit Font Family */
+@font-face {
+    font-family: 'Outfit';
+    src: url('/cr_internal_website_theme/static/src/font/Outfit-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/cr_internal_website_theme/static/src/font/Outfit-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/cr_internal_website_theme/static/src/font/Outfit-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/cr_internal_website_theme/static/src/font/Outfit-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/cr_internal_website_theme/static/src/font/Outfit-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/cr_internal_website_theme/static/src/font/Outfit-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/cr_internal_website_theme/static/src/font/Outfit-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/cr_internal_website_theme/static/src/font/Outfit-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/cr_internal_website_theme/static/src/font/Outfit-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
 .cr_font {
-//     font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', sans-serif;
 
     /* Global Typography Standard (Using System Variables) */
     p:not(.hero-subtitle),

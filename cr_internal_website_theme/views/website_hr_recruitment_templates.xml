@@ -62,7 +62,7 @@
                             </div>
                             <div class="col-lg-6" data-aos="fade-right">
                                 <div class="partner-image-box border-0 bg-transparent d-flex align-items-center justify-content-center" style="box-shadow: none !important;">
-                                    <img src="/cr_internal_website_theme/static/src/img/career_team.png" 
+                                    <img src="/cr_internal_website_theme/static/src/img/career_team.webp" 
                                          alt="Our Team" 
                                          class="img-fluid w-100 rounded-4 shadow-lg" 
                                          style="object-fit: cover; max-height: 400px; height: auto;"/>
@@ -100,7 +100,7 @@
                                 </div>
                                 <div class="col-lg-6 step-image-col">
                                     <div class="step-card image-card">
-                                        <img src="/cr_internal_website_theme/static/src/img/step1.jpg" alt="Apply Online" class="img-fluid"/>
+                                        <img src="/cr_internal_website_theme/static/src/img/step1.webp" alt="Apply Online" class="img-fluid"/>
                                     </div>
                                 </div>
                             </div>
@@ -116,7 +116,7 @@
                                 </div>
                                 <div class="col-lg-6 step-image-col">
                                     <div class="step-card image-card">
-                                        <img src="/cr_internal_website_theme/static/src/img/step2.jpg" alt="Screening Call" class="img-fluid"/>
+                                        <img src="/cr_internal_website_theme/static/src/img/step2.webp" alt="Screening Call" class="img-fluid"/>
                                     </div>
                                 </div>
                             </div>
@@ -132,7 +132,7 @@
                                 </div>
                                 <div class="col-lg-6 step-image-col">
                                     <div class="step-card image-card">
-                                        <img src="/cr_internal_website_theme/static/src/img/step3.jpg" alt="Technical Round" class="img-fluid"/>
+                                        <img src="/cr_internal_website_theme/static/src/img/step3.webp" alt="Technical Round" class="img-fluid"/>
                                     </div>
                                 </div>
                             </div>
@@ -148,7 +148,7 @@
                                 </div>
                                 <div class="col-lg-6 step-image-col">
                                     <div class="step-card image-card">
-                                        <img src="/cr_internal_website_theme/static/src/img/step5.jpg" alt="Offer and Onboard" class="img-fluid"/>
+                                        <img src="/cr_internal_website_theme/static/src/img/step5.webp" alt="Offer and Onboard" class="img-fluid"/>
                                     </div>
                                 </div>
                             </div>

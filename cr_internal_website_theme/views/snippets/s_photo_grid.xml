@@ -12,7 +12,7 @@
                     <!-- Row 1: 4 + 8 -->
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="photo_item_v2">
-                            <img src="/cr_internal_website_theme/static/src/img/career_team.png" alt="Collaborative Culture" class="img-fluid rounded-4 shadow-sm w-100"/>
+                            <img src="/cr_internal_website_theme/static/src/img/career_team.webp" alt="Collaborative Culture" class="img-fluid rounded-4 shadow-sm w-100"/>
                             <div class="photo_overlay">
                                 <h3>Collaborative Culture</h3>
                                 <p>Synergy that makes work exciting.</p>
@@ -21,7 +21,7 @@
                     </div>
                     <div class="col-md-8" data-aos="fade-up" data-aos-delay="200">
                         <div class="photo_item_v2">
-                            <img src="/cr_internal_website_theme/static/src/img/office_team_working_premium.png" alt="Vibrant Workspace" class="img-fluid rounded-4 shadow-sm w-100"/>
+                            <img src="/cr_internal_website_theme/static/src/img/office_team_working_premium.webp" alt="Vibrant Workspace" class="img-fluid rounded-4 shadow-sm w-100"/>
                             <div class="photo_overlay">
                                 <h3>Vibrant Workspace</h3>
                                 <p>State-of-the-art office designed for productivity.</p>
@@ -32,7 +32,7 @@
                     <!-- Row 2: 4 + 4 + 4 -->
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="photo_item_v2">
-                            <img src="/cr_internal_website_theme/static/src/img/odoo_consulting_workshop.png" alt="Continuous Learning" class="img-fluid rounded-4 shadow-sm w-100"/>
+                            <img src="/cr_internal_website_theme/static/src/img/odoo_consulting_workshop.webp" alt="Continuous Learning" class="img-fluid rounded-4 shadow-sm w-100"/>
                             <div class="photo_overlay">
                                 <h3>Continuous Learning</h3>
                                 <p>Comprehensive Odoo workshops and certification paths.</p>
@@ -41,7 +41,7 @@
                     </div>
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
                         <div class="photo_item_v2">
-                            <img src="/cr_internal_website_theme/static/src/img/odoo_process_mapping.png" alt="Impactful Projects" class="img-fluid rounded-4 shadow-sm w-100"/>
+                            <img src="/cr_internal_website_theme/static/src/img/odoo_process_mapping.webp" alt="Impactful Projects" class="img-fluid rounded-4 shadow-sm w-100"/>
                             <div class="photo_overlay">
                                 <h3>Impactful Projects</h3>
                                 <p>Designing robust workflows for global enterprises.</p>
@@ -50,7 +50,7 @@
                     </div>
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
                         <div class="photo_item_v2">
-                            <img src="/cr_internal_website_theme/static/src/img/growth_image.png" alt="Unlimited Growth" class="img-fluid rounded-4 shadow-sm w-100"/>
+                            <img src="/cr_internal_website_theme/static/src/img/growth_image.webp" alt="Unlimited Growth" class="img-fluid rounded-4 shadow-sm w-100"/>
                             <div class="photo_overlay">
                                 <h3>Unlimited Growth</h3>
                                 <p>Fast-track your development in a supportive environment.</p>
@@ -61,7 +61,7 @@
                     <!-- Row 3: 8 + 4 -->
                     <div class="col-md-8" data-aos="fade-up" data-aos-delay="600">
                         <div class="photo_item_v2">
-                            <img src="/cr_internal_website_theme/static/src/img/odoo_consulting_expert.png" alt="Work with Experts" class="img-fluid rounded-4 shadow-sm w-100"/>
+                            <img src="/cr_internal_website_theme/static/src/img/odoo_consulting_expert.webp" alt="Work with Experts" class="img-fluid rounded-4 shadow-sm w-100"/>
                             <div class="photo_overlay">
                                 <h3>Work with Experts</h3>
                                 <p>Collaborate with senior developers and certified Odoo architects.</p>
@@ -70,7 +70,7 @@
                     </div>
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="700">
                         <div class="photo_item_v2">
-                            <img src="/cr_internal_website_theme/static/src/img/odoo-dev-intro.png" alt="Cutting-Edge Tech" class="img-fluid rounded-4 shadow-sm w-100"/>
+                            <img src="/cr_internal_website_theme/static/src/img/odoo-dev-intro.webp" alt="Cutting-Edge Tech" class="img-fluid rounded-4 shadow-sm w-100"/>
                             <div class="photo_overlay">
                                 <h3>Cutting-Edge Tech</h3>
                                 <p>Build next-gen Python, JS, and Odoo products.</p>
