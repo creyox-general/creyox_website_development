@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
-    <template id="homepage_section5" name="Why Choose Us">
+    <template id="homepage_section5_layout" name="Why Choose Us">
         <div class="oe_structure" id="oe_structure_why_choose_us_1">
             <section class="s_why_choose_us cr_font" data-snippet="s_why_choose_us" data-name="Why Choose Us">
                 <!-- Background Premium Elements -->

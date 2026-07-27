@@ -12,8 +12,8 @@
                 <t t-call="cr_internal_website_theme.hero_snippet_template"/>
                 <t t-call="cr_internal_website_theme.homepage_section2"/>
                 <t t-call="cr_internal_website_theme.homepage_section3"/>
-                <t t-call="cr_internal_website_theme.homepage_section4"/>
-                <t t-call="cr_internal_website_theme.homepage_section5"/>
+                <t t-call="cr_internal_website_theme.homepage_section4_layout"/>
+                <t t-call="cr_internal_website_theme.homepage_section5_layout"/>
                 <t t-call="cr_internal_website_theme.homepage_section6"/>
                 <t t-call="cr_internal_website_theme.homepage_section7"/>
                 <t t-call="cr_internal_website_theme.homepage_section8"/>
@@ -55,7 +55,7 @@
     <template id="cr_internal_website_theme.cr_about_us" name="About Us">
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'about_us'"/>
-            <t t-call="cr_internal_website_theme.about_us_snippet_section1"/>
+            <t t-call="cr_internal_website_theme.about_us_snippet_section1_layout"/>
             <t t-call="cr_internal_website_theme.about_us_snippet_section2"/>
             <t t-call="cr_internal_website_theme.about_us_snippet_section3"/>
             <t t-call="cr_internal_website_theme.about_us_snippet_section4"/>

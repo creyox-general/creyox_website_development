@@ -2,7 +2,7 @@
 <odoo>
 
     <!-- SECTION 4 INSTANCE -->
-    <template id="homepage_section4" name="Trusted Odoo Partner">
+    <template id="homepage_section4_layout" name="Trusted Odoo Partner">
         <div class="oe_structure" id="oe_structure_trusted_partner_1">
             <section class="s_trusted_odoo_partner cr_font"
                      data-snippet="s_trusted_odoo_partner"

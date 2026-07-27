@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
-    <template id="about_us_snippet_section1" name="AboutUS Section-1">
+    <template id="about_us_snippet_section1_layout" name="AboutUS Section-1">
         <style>
             .our-story-section {
                 padding: clamp(60px, 10vw, 100px) 0 !important;
